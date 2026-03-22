@@ -97,6 +97,17 @@ function groupMatchesByLeague(matches: Match[]): LeagueGroup[] {
     .sort((a, b) => a.league.localeCompare(b.league));
 }
 
+
+function convertLimaToLocal(limaHour: string | null): string {
+  if (!limaHour) return "--:--";
+  const [hour, minute] = limaHour.split(":").map(Number);
+  const now = new Date();
+
+  const utcDate = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), hour + 5, minute));
+
+  return utcDate.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false });
+}
+
 export default function Home() {
   const theme = useSystemTheme();
   const [data, setData] = useState<EventsResponse | null>(null);
@@ -353,7 +364,7 @@ export default function Home() {
                           <div className="flex items-center gap-3">
                             <p className="inline-flex min-w-16 items-center justify-center gap-1.5 self-center text-sm font-semibold text-(--muted)">
                               <FiClock className="h-4 w-4" />
-                              {match.time?.slice(0, 5) ?? "--:--"}
+                              {convertLimaToLocal(match.time)}
                             </p>
 
                             <div className="flex-1 text-sm text-(--fg)">
