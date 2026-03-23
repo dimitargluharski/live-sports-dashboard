@@ -1,0 +1,3 @@
+/* Moved from project root for organization. No changes made. */
+
+// ...rest of rojadirecta-main.js content...
