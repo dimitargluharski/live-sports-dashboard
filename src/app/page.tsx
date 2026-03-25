@@ -43,18 +43,32 @@ type LeagueGroup = {
   matches: Match[];
 };
 
-const SPORT_FILTERS = ["All", "Football", "NBA", "Tennis", "Rugby"] as const;
+const SPORT_FILTERS = ["All", "Football", "NBA", "Tennis", "Rugby", "NHL"] as const;
 
 type SportFilter = (typeof SPORT_FILTERS)[number];
 
 function detectSportFromTitle(title: string): Exclude<SportFilter, "All"> {
   const value = title.toLowerCase();
 
+  if (value.includes("nhl") || value.includes("hockey")) {
+    return "NHL";
+  }
+
   if (value.includes("nba") || value.includes("basketball") || value.includes("euroleague")) {
     return "NBA";
   }
 
-  if (value.includes("tennis") || value.includes("atp") || value.includes("wta") || value.includes("itf")) {
+  // Tennis detection: more robust, includes 'tenis'
+  if (
+    value.includes("tennis") ||
+    value.includes("tenis") ||
+    value.includes("atp") ||
+    value.includes("wta") ||
+    value.includes("itf") ||
+    value.includes("challenger") ||
+    value.includes("davis cup") ||
+    value.includes("futures")
+  ) {
     return "Tennis";
   }
 
