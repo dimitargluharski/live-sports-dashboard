@@ -27,8 +27,60 @@ function firstMatch(regex: RegExp, html: string): string | null {
   return decodeHtml(match[1].trim());
 }
 
-function extractIframeSrc(html: string): string | null {
-  return firstMatch(/<iframe[^>]*\ssrc=["']([^"']+)["']/i, html);
+function extractIframeCandidates(html: string): Array<{ src: string; width: number; height: number }> {
+  const candidates: Array<{ src: string; width: number; height: number }> = [];
+  const iframeRegex = /<iframe\b([^>]*)>/gi;
+
+  for (const match of html.matchAll(iframeRegex)) {
+    const attrs = match[1] ?? "";
+    const src = firstMatch(/\ssrc=["']([^"']+)["']/i, attrs);
+    if (!src) continue;
+
+    const widthRaw = firstMatch(/\swidth=["']?(\d+)/i, attrs);
+    const heightRaw = firstMatch(/\sheight=["']?(\d+)/i, attrs);
+
+    candidates.push({
+      src,
+      width: widthRaw ? Number(widthRaw) : 0,
+      height: heightRaw ? Number(heightRaw) : 0,
+    });
+  }
+
+  return candidates;
+}
+
+function isLikelyAdIframe(url: string): boolean {
+  return /ads\.|getbanner\.php|doubleclick|googlesyndication|\/cache\/links\//i.test(url);
+}
+
+function extractIframeSrc(html: string, base: string): string | null {
+  const candidates = extractIframeCandidates(html)
+    .map((item) => {
+      const absolute = toAbsoluteUrl(item.src, base);
+      return absolute
+        ? {
+          ...item,
+          absolute,
+        }
+        : null;
+    })
+    .filter((item): item is { src: string; width: number; height: number; absolute: string } => Boolean(item));
+
+  if (!candidates.length) return null;
+
+  const scored = candidates
+    .filter((item) => !isLikelyAdIframe(item.absolute))
+    .map((item) => {
+      let score = 0;
+      if (item.width >= 600) score += 3;
+      if (item.height >= 350) score += 3;
+      if (/live|player|embed|stream/i.test(item.absolute)) score += 2;
+      if (/webplayer\.php/i.test(item.absolute)) score -= 2;
+      return { ...item, score };
+    })
+    .sort((a, b) => b.score - a.score);
+
+  return (scored[0] ?? candidates[0]).absolute;
 }
 
 function extractDirectMediaUrl(html: string): string | null {
@@ -41,14 +93,14 @@ function extractDirectMediaUrl(html: string): string | null {
   return null;
 }
 
-async function safeFetch(url: string): Promise<string | null> {
+async function safeFetch(url: string, referer?: string): Promise<string | null> {
   const response = await fetch(url, {
     cache: "no-store",
     redirect: "follow",
     headers: {
       "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/123 Safari/537.36",
       Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-      Referer: SOURCE_SITE,
+      Referer: referer || SOURCE_SITE,
     },
   });
 
@@ -65,18 +117,18 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: "Invalid or missing url query parameter" }, { status: 400 });
     }
 
-    const embedHtml = await safeFetch(embedUrl);
+    const embedHtml = await safeFetch(embedUrl, SOURCE_SITE);
     if (!embedHtml) {
       return NextResponse.json({ error: "Failed to fetch embed page", embedUrl }, { status: 502 });
     }
 
-    const innerIframeRaw = extractIframeSrc(embedHtml);
-    const playerUrl = toAbsoluteUrl(innerIframeRaw, embedUrl) ?? embedUrl;
+    const innerIframe = extractIframeSrc(embedHtml, embedUrl);
+    const playerUrl = innerIframe ?? embedUrl;
 
     let mediaUrl: string | null = extractDirectMediaUrl(embedHtml);
 
     if (!mediaUrl && playerUrl) {
-      const playerHtml = await safeFetch(playerUrl);
+      const playerHtml = await safeFetch(playerUrl, embedUrl);
       if (playerHtml) {
         mediaUrl = extractDirectMediaUrl(playerHtml);
       }

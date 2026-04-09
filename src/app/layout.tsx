@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import "./index.css";
+import "swiper/css";
+import "swiper/css/pagination";
 
 export const metadata: Metadata = {
-  title: "LiveSports Pulse",
-  description: "LiveSports Pulse – Real-time sports streams and events dashboard.",
+  title: "Live Football Streams",
+  description: "Live stream access for football channels and matches.",
 };
 
 export default function RootLayout({
