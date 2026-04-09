@@ -1,7 +1,45 @@
 import { NextResponse } from "next/server";
+import { promises as fs } from "fs";
+import path from "path";
 
 const SOURCE_SITE = process.env.SOURCE_SITE || "https://rojadirectaenvivohd.com/";
 const FALLBACK_DIARIES_URL = process.env.FALLBACK_DIARIES_URL || "https://pltvhd.com/diaries.json";
+const FEED_MAIN_JSON_PATH = path.join(process.cwd(), "public", "matches-feed-main.json");
+const FEED_TOP_JSON_PATH = path.join(process.cwd(), "public", "matches-feed-top.json");
+const FEED_DAYS_JSON_PATH = path.join(process.cwd(), "public", "matches-feed-days.json");
+const LIVE_EVENTS_SOURCE_FALLBACK = process.env.LIVE_EVENTS_SOURCE_FALLBACK || SOURCE_SITE;
+const LIVE_EVENTS_DIARIES_FALLBACK = process.env.LIVE_EVENTS_DIARIES_FALLBACK || FALLBACK_DIARIES_URL;
+
+type EventsPayload = {
+  source: string;
+  diariesUrl: string;
+  scrapedAt: string;
+  agendaDate: string | null;
+  count: number;
+  matches: Array<{
+    id: number;
+    date: string | null;
+    time: string | null;
+    title: string;
+    eventUrl?: string | null;
+    isLive?: boolean;
+    isTopMatch?: boolean;
+    stats?: {
+      h2hRecord?: string | null;
+      h2hContext?: string | null;
+    };
+    country: {
+      name: string | null;
+      flagUrl?: string | null;
+      imageUrl: string | null;
+    };
+    streams: Array<{
+      id: number;
+      name: string;
+      url: string;
+    }>;
+  }>;
+};
 
 type DiaryRecord = {
   id: number;
@@ -33,6 +71,41 @@ type DiaryRecord = {
       }>;
     };
   };
+};
+
+type FeedStreamRecord = {
+  id?: number;
+  label?: string;
+  url?: string;
+  language?: string | null;
+  bitrate?: string | null;
+};
+
+type FeedMatchRecord = {
+  id?: number;
+  title?: string;
+  eventUrl?: string;
+  dateLabel?: string | null;
+  timeLabel?: string | null;
+  isLive?: boolean;
+  leagueLabel?: string | null;
+  iconUrl?: string | null;
+  iconAlt?: string | null;
+  sectionLabel?: string | null;
+  isTopMatch?: boolean;
+  stats?: {
+    h2hRecord?: string | null;
+    h2hContext?: string | null;
+  };
+  streams?: FeedStreamRecord[];
+};
+
+type FeedPayload = {
+  source?: string;
+  footballPageUrl?: string;
+  scrapedAt?: string;
+  count?: number;
+  matches?: FeedMatchRecord[];
 };
 
 function toAbsoluteUrl(input: string | undefined, base: string): string | null {
@@ -74,8 +147,127 @@ async function discoverDiariesUrl(): Promise<string> {
   return diariesMatch?.[0] ?? FALLBACK_DIARIES_URL;
 }
 
-export async function GET() {
+async function getFeedEvents(): Promise<EventsPayload> {
+  return getFeedEventsFromFile(FEED_MAIN_JSON_PATH, false);
+}
+
+async function getFeedTopEvents(): Promise<EventsPayload> {
+  return getFeedEventsFromFile(FEED_TOP_JSON_PATH, true);
+}
+
+async function getFeedDaysEvents(): Promise<EventsPayload> {
+  return getFeedEventsFromFile(FEED_DAYS_JSON_PATH, true);
+}
+
+async function getFeedEventsFromFile(filePath: string, includeMatchesWithoutStreams: boolean): Promise<EventsPayload> {
+  const raw = await fs.readFile(filePath, "utf-8");
+  const payload = JSON.parse(raw) as FeedPayload;
+  const rows = Array.isArray(payload.matches) ? payload.matches : [];
+
+  const matches = rows
+    .map((row, index) => {
+      const streams = (Array.isArray(row.streams) ? row.streams : [])
+        .map((stream, streamIndex) => {
+          const cleanUrl = typeof stream.url === "string" ? stream.url.trim() : "";
+          if (!/^https?:\/\//i.test(cleanUrl)) {
+            return null;
+          }
+
+          const extras = [stream.language, stream.bitrate].filter(Boolean).join(" • ");
+          const baseName = (stream.label || `Stream ${streamIndex + 1}`).trim();
+
+          return {
+            id: stream.id ?? streamIndex + 1,
+            name: extras ? `${baseName} (${extras})` : baseName,
+            url: cleanUrl,
+          };
+        })
+        .filter((stream): stream is { id: number; name: string; url: string } => Boolean(stream));
+
+      const league = row.leagueLabel?.trim() || "Football";
+      const title = row.title?.trim() || "Unknown match";
+      const mergedTitle = `${league}: ${title}`;
+
+      return {
+        id: row.id ?? index + 1,
+        date: row.dateLabel ?? null,
+        time: row.timeLabel ?? null,
+        title: mergedTitle,
+        eventUrl: row.eventUrl ?? null,
+        isLive: Boolean(row.isLive),
+        isTopMatch: Boolean(row.isTopMatch),
+        stats: row.stats
+          ? {
+            h2hRecord: row.stats.h2hRecord ?? null,
+            h2hContext: row.stats.h2hContext ?? null,
+          }
+          : undefined,
+        country: {
+          name: row.iconAlt?.trim() || league,
+          flagUrl: null,
+          imageUrl: row.iconUrl ?? null,
+        },
+        streams,
+      };
+    })
+    .filter((item) => includeMatchesWithoutStreams || item.streams.length > 0)
+    .sort((a, b) => (a.time ?? "").localeCompare(b.time ?? ""));
+
+  return {
+    source: payload.source ?? LIVE_EVENTS_SOURCE_FALLBACK,
+    diariesUrl: payload.footballPageUrl ?? LIVE_EVENTS_DIARIES_FALLBACK,
+    scrapedAt: payload.scrapedAt ?? new Date().toISOString(),
+    agendaDate: matches.find((item) => item.date)?.date ?? null,
+    count: matches.length,
+    matches,
+  };
+}
+
+export async function GET(request: Request) {
   try {
+    const { searchParams } = new URL(request.url);
+    const source = (searchParams.get("source") || "").toLowerCase();
+    const topOnlyRaw = (searchParams.get("topOnly") || "").toLowerCase();
+    const topOnly = topOnlyRaw === "1" || topOnlyRaw === "true";
+
+    if (source === "feed") {
+      const payload = await getFeedEvents();
+      const matches = topOnly
+        ? payload.matches.filter((match) => Boolean(match.isTopMatch))
+        : payload.matches;
+
+      return NextResponse.json(
+        {
+          ...payload,
+          count: matches.length,
+          matches,
+        },
+        {
+          headers: {
+            "Cache-Control": "no-store",
+          },
+        },
+      );
+    }
+
+    if (source === "feed-top") {
+      const payload = await getFeedTopEvents();
+      return NextResponse.json(payload, {
+        headers: {
+          "Cache-Control": "no-store",
+        },
+      });
+    }
+
+    if (source === "feed-days") {
+      const payload = await getFeedDaysEvents();
+      return NextResponse.json(payload, {
+        headers: {
+          "Cache-Control": "no-store",
+        },
+      });
+    }
+
     const diariesUrl = await discoverDiariesUrl();
     const diariesRes = await fetch(diariesUrl, { cache: "no-store" });
 
