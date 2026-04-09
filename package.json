@@ -4,12 +4,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:vercel": "npm run scrape:feed:all && next build",
     "start": "next start",
     "lint": "next lint",
     "scrape:feed": "node scripts/scrape-feed-main.js",
     "scrape:feed:top": "node scripts/scrape-feed-top.js",
     "scrape:feed:days": "node scripts/scrape-feed-days.js",
-    "scrape:feed:refresh": "npm run scrape:feed:top && npm run scrape:feed:days"
+    "scrape:feed:refresh": "npm run scrape:feed:top && npm run scrape:feed:days",
+    "scrape:feed:all": "npm run scrape:feed:top && npm run scrape:feed:days && npm run scrape:feed"
   },
   "keywords": [],
   "author": "",
