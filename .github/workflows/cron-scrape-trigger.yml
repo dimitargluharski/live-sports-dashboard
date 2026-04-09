@@ -7,6 +7,7 @@ on:
 
 jobs:
   trigger:
+    environment: Production
     runs-on: ubuntu-latest
     steps:
       - name: Validate required secrets
