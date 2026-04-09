@@ -1,0 +1,34 @@
+name: Trigger Vercel Scrape Cron
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate required secrets
+        env:
+          CRON_TRIGGER_URL: ${{ secrets.CRON_TRIGGER_URL }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          if [[ -z "$CRON_TRIGGER_URL" ]]; then
+            echo "Missing required secret: CRON_TRIGGER_URL"
+            exit 1
+          fi
+
+          if [[ -z "$CRON_SECRET" ]]; then
+            echo "Missing required secret: CRON_SECRET"
+            exit 1
+          fi
+
+      - name: Call cron trigger endpoint
+        env:
+          CRON_TRIGGER_URL: ${{ secrets.CRON_TRIGGER_URL }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 3 --retry-delay 5 \
+            "${CRON_TRIGGER_URL}?secret=${CRON_SECRET}"
