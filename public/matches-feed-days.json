@@ -2,7 +2,7 @@
   "source": "https://livetv.sx/enx/",
   "footballPageUrl": "https://livetv.sx/enx/allupcomingsports/1/",
   "section": "Day Matches",
-  "scrapedAt": "2026-04-10T16:31:31.950Z",
+  "scrapedAt": "2026-04-10T16:46:31.989Z",
   "count": 104,
   "matches": [
     {
@@ -79,7 +79,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=238231&lang=en&eid=361514322&lid=2988364&ci=43&si=1",
           "language": "Ukrainian",
-          "bitrate": "988kbps"
+          "bitrate": "987kbps"
         },
         {
           "id": 2,
@@ -108,21 +108,21 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2988047&lang=en&eid=361511767&lid=2988047&ci=59&si=1",
-          "language": "Bulgarian",
-          "bitrate": null
-        },
-        {
-          "id": 2,
-          "label": "Stream 3",
           "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994411&lang=en&eid=361511767&lid=2994411&ci=59&si=1",
           "language": null,
           "bitrate": null
         },
         {
+          "id": 2,
+          "label": "Stream 3",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993548&lang=en&eid=361511767&lid=2993548&ci=59&si=1",
+          "language": "Bulgarian",
+          "bitrate": null
+        },
+        {
           "id": 3,
           "label": "Stream 4",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993548&lang=en&eid=361511767&lid=2993548&ci=59&si=1",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2988047&lang=en&eid=361511767&lid=2988047&ci=59&si=1",
           "language": "Bulgarian",
           "bitrate": null
         }
@@ -260,7 +260,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253660&lang=en&eid=361513951&lid=2991567&ci=268&si=1",
           "language": "Serbian",
-          "bitrate": "988kbps"
+          "bitrate": "983kbps"
         },
         {
           "id": 2,
@@ -298,7 +298,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253761&lang=en&eid=361511944&lid=2993291&ci=46&si=1",
           "language": "Hungarian",
-          "bitrate": "955kbps"
+          "bitrate": "956kbps"
         }
       ],
       "streamCount": 1
@@ -344,15 +344,15 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994519&lang=en&eid=361513858&lid=2994519&ci=23&si=1",
-          "language": null,
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993549&lang=en&eid=361513858&lid=2993549&ci=23&si=1",
+          "language": "Romanian",
           "bitrate": null
         },
         {
           "id": 2,
           "label": "Stream 3",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993549&lang=en&eid=361513858&lid=2993549&ci=23&si=1",
-          "language": "Romanian",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994519&lang=en&eid=361513858&lid=2994519&ci=23&si=1",
+          "language": null,
           "bitrate": null
         }
       ],
@@ -572,19 +572,19 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253652&lang=en&eid=361513676&lid=2991417&ci=27&si=1",
           "language": "Croatian",
-          "bitrate": "975kbps"
+          "bitrate": "976kbps"
         },
         {
           "id": 2,
           "label": "Stream 4",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993552&lang=en&eid=361513676&lid=2993552&ci=27&si=1",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2988808&lang=en&eid=361513676&lid=2988808&ci=27&si=1",
           "language": "Polish",
           "bitrate": null
         },
         {
           "id": 3,
           "label": "Stream 5",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2988808&lang=en&eid=361513676&lid=2988808&ci=27&si=1",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993552&lang=en&eid=361513676&lid=2993552&ci=27&si=1",
           "language": "Polish",
           "bitrate": null
         },
@@ -628,7 +628,7 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513006__/",
       "dateLabel": "10 April",
       "timeLabel": "17:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Lithuania. A Lyga",
       "iconUrl": "https://cdn.livetv874.me/img/icons/lt.gif",
       "iconAlt": "Lithuania. A Lyga",
@@ -652,7 +652,7 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512004__/",
       "dateLabel": "10 April",
       "timeLabel": "17:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Germany. 2 Bundesliga",
       "iconUrl": "https://cdn.livetv874.me/img/icons/de.gif",
       "iconAlt": "Germany. 2 Bundesliga",
@@ -670,104 +670,104 @@
         {
           "id": 2,
           "label": "Stream 4",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253861&lang=en&eid=361512004&lid=2991921&ci=31&si=1",
-          "language": "German",
-          "bitrate": "997kbps"
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253656&lang=en&eid=361512004&lid=2991560&ci=31&si=1",
+          "language": "Serbian",
+          "bitrate": "996kbps"
         },
         {
           "id": 3,
           "label": "Stream 6",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253928&lang=en&eid=361512004&lid=2993892&ci=31&si=1",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253861&lang=en&eid=361512004&lid=2991921&ci=31&si=1",
           "language": "German",
-          "bitrate": "971kbps"
+          "bitrate": "1003kbps"
         },
         {
           "id": 4,
           "label": "Stream 8",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254064&lang=en&eid=361512004&lid=2994135&ci=31&si=1",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253928&lang=en&eid=361512004&lid=2993892&ci=31&si=1",
           "language": "German",
-          "bitrate": "987kbps"
+          "bitrate": "976kbps"
         },
         {
           "id": 5,
           "label": "Stream 10",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254070&lang=en&eid=361512004&lid=2994138&ci=31&si=1",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254064&lang=en&eid=361512004&lid=2994135&ci=31&si=1",
           "language": "German",
-          "bitrate": "964kbps"
+          "bitrate": "994kbps"
         },
         {
           "id": 6,
           "label": "Stream 12",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=227619&lang=en&eid=361512004&lid=2994531&ci=31&si=1",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254070&lang=en&eid=361512004&lid=2994138&ci=31&si=1",
           "language": "German",
-          "bitrate": "1957kbps"
+          "bitrate": "981kbps"
         },
         {
           "id": 7,
           "label": "Stream 14",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=237231&lang=en&eid=361512004&lid=2983386&ci=31&si=1",
-          "language": "Russian",
-          "bitrate": "1947kbps"
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=227619&lang=en&eid=361512004&lid=2994531&ci=31&si=1",
+          "language": "German",
+          "bitrate": "1960kbps"
         },
         {
           "id": 8,
           "label": "Stream 16",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=237231&lang=en&eid=361512004&lid=2983386&ci=31&si=1",
+          "language": "Russian",
+          "bitrate": "1955kbps"
+        },
+        {
+          "id": 9,
+          "label": "Stream 18",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=242327&lang=en&eid=361512004&lid=2982594&ci=31&si=1",
           "language": "Russian",
           "bitrate": "2000kbps"
         },
         {
-          "id": 9,
-          "label": "Stream 18",
+          "id": 10,
+          "label": "Stream 20",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=242328&lang=en&eid=361512004&lid=2968715&ci=31&si=1",
           "language": "Russian",
           "bitrate": "5000kbps"
         },
         {
-          "id": 10,
-          "label": "Stream 20",
+          "id": 11,
+          "label": "Stream 22",
           "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2661223&lang=en&eid=361512004&lid=2661223&ci=31&si=1",
           "language": "German",
           "bitrate": null
         },
         {
-          "id": 11,
-          "label": "Stream 21",
+          "id": 12,
+          "label": "Stream 23",
           "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2665519&lang=en&eid=361512004&lid=2665519&ci=31&si=1",
           "language": "German",
           "bitrate": null
         },
         {
-          "id": 12,
-          "label": "Stream 22",
+          "id": 13,
+          "label": "Stream 24",
           "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993553&lang=en&eid=361512004&lid=2993553&ci=31&si=1",
           "language": "German",
           "bitrate": null
         },
         {
-          "id": 13,
-          "label": "Stream 23",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993389&lang=en&eid=361512004&lid=2993389&ci=31&si=1",
+          "id": 14,
+          "label": "Stream 25",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994420&lang=en&eid=361512004&lid=2994420&ci=31&si=1",
           "language": "German",
           "bitrate": null
         },
         {
-          "id": 14,
-          "label": "Stream 24",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994420&lang=en&eid=361512004&lid=2994420&ci=31&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
           "id": 15,
-          "label": "Stream 26",
+          "label": "Stream 27",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=14407b00d454cb7dc0d70aa26e8bbc554f457f00&lang=en&eid=361512004&lid=2865286&ci=31&si=1",
           "language": "Polish",
           "bitrate": "8000kbps"
         },
         {
           "id": 16,
-          "label": "Stream 28",
+          "label": "Stream 29",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=36cad67fed5a739757a9db844a551aa845a8d51b&lang=en&eid=361512004&lid=2854601&ci=31&si=1",
           "language": "Portuguese",
           "bitrate": "8000kbps"
@@ -781,7 +781,7 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512005__/",
       "dateLabel": "10 April",
       "timeLabel": "17:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Germany. 2 Bundesliga",
       "iconUrl": "https://cdn.livetv874.me/img/icons/de.gif",
       "iconAlt": "Germany. 2 Bundesliga",
@@ -792,64 +792,64 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254062&lang=en&eid=361512005&lid=2994132&ci=31&si=1",
-          "language": "German",
-          "bitrate": "983kbps"
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994574&lang=en&eid=361512005&lid=2994574&ci=31&si=1",
+          "language": "English",
+          "bitrate": null
         },
         {
           "id": 2,
-          "label": "Stream 4",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254073&lang=en&eid=361512005&lid=2994133&ci=31&si=1",
+          "label": "Stream 3",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254062&lang=en&eid=361512005&lid=2994132&ci=31&si=1",
           "language": "German",
-          "bitrate": "974kbps"
+          "bitrate": "988kbps"
         },
         {
           "id": 3,
-          "label": "Stream 6",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=227381&lang=en&eid=361512005&lid=2994532&ci=31&si=1",
+          "label": "Stream 5",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254073&lang=en&eid=361512005&lid=2994133&ci=31&si=1",
           "language": "German",
-          "bitrate": "1972kbps"
+          "bitrate": "981kbps"
         },
         {
           "id": 4,
-          "label": "Stream 8",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2661221&lang=en&eid=361512005&lid=2661221&ci=31&si=1",
+          "label": "Stream 7",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=227381&lang=en&eid=361512005&lid=2994532&ci=31&si=1",
           "language": "German",
-          "bitrate": null
+          "bitrate": "1977kbps"
         },
         {
           "id": 5,
           "label": "Stream 9",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2661222&lang=en&eid=361512005&lid=2661222&ci=31&si=1",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2661221&lang=en&eid=361512005&lid=2661221&ci=31&si=1",
           "language": "German",
           "bitrate": null
         },
         {
           "id": 6,
           "label": "Stream 10",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994574&lang=en&eid=361512005&lid=2994574&ci=31&si=1",
-          "language": null,
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2661222&lang=en&eid=361512005&lid=2661222&ci=31&si=1",
+          "language": "German",
           "bitrate": null
         },
         {
           "id": 7,
           "label": "Stream 11",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993556&lang=en&eid=361512005&lid=2993556&ci=31&si=1",
-          "language": "German",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994419&lang=en&eid=361512005&lid=2994419&ci=31&si=1",
+          "language": "Polish",
           "bitrate": null
         },
         {
           "id": 8,
           "label": "Stream 12",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2992578&lang=en&eid=361512005&lid=2992578&ci=31&si=1",
-          "language": "German",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994576&lang=en&eid=361512005&lid=2994576&ci=31&si=1",
+          "language": null,
           "bitrate": null
         },
         {
           "id": 9,
           "label": "Stream 13",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994419&lang=en&eid=361512005&lid=2994419&ci=31&si=1",
-          "language": null,
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993556&lang=en&eid=361512005&lid=2993556&ci=31&si=1",
+          "language": "German",
           "bitrate": null
         },
         {
@@ -868,23 +868,15 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/365947474__/",
       "dateLabel": "10 April",
       "timeLabel": "17:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Czech Republic. 4. Liga",
       "iconUrl": "https://cdn.livetv874.me/img/icons/cz.gif",
       "iconAlt": "Czech Republic. 4. Liga",
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 17:30\n(Czech Republic. 4. Liga)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994528&lang=en&eid=365947474&lid=2994528&ci=1829&si=1",
-          "language": null,
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 27,
@@ -892,15 +884,23 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513571__/",
       "dateLabel": "10 April",
       "timeLabel": "17:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "UAE. Pro League",
       "iconUrl": "https://cdn.livetv874.me/img/icons/ae.gif",
       "iconAlt": "UAE. Pro League",
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 17:30\n(UAE. Pro League)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994577&lang=en&eid=361513571&lid=2994577&ci=379&si=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1
     },
     {
       "id": 28,
@@ -908,7 +908,7 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/366328717__/",
       "dateLabel": "10 April",
       "timeLabel": "17:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Russia. First League",
       "iconUrl": "https://cdn.livetv874.me/img/icons/ru.gif",
       "iconAlt": "Russia. First League",
@@ -921,14 +921,14 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=237992&lang=en&eid=366328717&lid=2984047&ci=65&si=1",
           "language": "Russian",
-          "bitrate": "992kbps"
+          "bitrate": "995kbps"
         },
         {
           "id": 2,
           "label": "Stream 4",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254032&lang=en&eid=366328717&lid=2994150&ci=65&si=1",
           "language": "Russian",
-          "bitrate": "871kbps"
+          "bitrate": "891kbps"
         },
         {
           "id": 3,
@@ -960,7 +960,7 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/363208385_simulcast/",
       "dateLabel": "10 April",
       "timeLabel": "17:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Germany. 2 Bundesliga",
       "iconUrl": "https://cdn.livetv874.me/img/icons/de.gif",
       "iconAlt": "Germany. 2 Bundesliga",
@@ -971,47 +971,40 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254060&lang=en&eid=363208385&lid=2994129&ci=31&si=1",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254061&lang=en&eid=363208385&lid=2994130&ci=31&si=1",
           "language": "German",
-          "bitrate": "979kbps"
+          "bitrate": "998kbps"
         },
         {
           "id": 2,
           "label": "Stream 4",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254061&lang=en&eid=363208385&lid=2994130&ci=31&si=1",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=227403&lang=en&eid=363208385&lid=2994530&ci=31&si=1",
           "language": "German",
-          "bitrate": "1001kbps"
+          "bitrate": "1978kbps"
         },
         {
           "id": 3,
           "label": "Stream 6",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=227403&lang=en&eid=363208385&lid=2994530&ci=31&si=1",
-          "language": "German",
-          "bitrate": "1974kbps"
-        },
-        {
-          "id": 4,
-          "label": "Stream 8",
           "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2661192&lang=en&eid=363208385&lid=2661192&ci=31&si=1",
           "language": "German",
           "bitrate": null
         },
         {
-          "id": 5,
-          "label": "Stream 9",
+          "id": 4,
+          "label": "Stream 7",
           "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2661220&lang=en&eid=363208385&lid=2661220&ci=31&si=1",
           "language": "German",
           "bitrate": null
         },
         {
-          "id": 6,
-          "label": "Stream 10",
+          "id": 5,
+          "label": "Stream 8",
           "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2992577&lang=en&eid=363208385&lid=2992577&ci=31&si=1",
           "language": "German",
           "bitrate": null
         }
       ],
-      "streamCount": 6
+      "streamCount": 5
     },
     {
       "id": 30,
@@ -1019,15 +1012,23 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512184__/",
       "dateLabel": "10 April",
       "timeLabel": "17:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Denmark. 1 Division",
       "iconUrl": "https://cdn.livetv874.me/img/icons/dk.gif",
       "iconAlt": "Denmark. 1 Division",
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 17:30\n(Denmark. 1 Division)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994578&lang=en&eid=361512184&lid=2994578&ci=271&si=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1
     },
     {
       "id": 31,
@@ -1148,21 +1149,21 @@
           "label": "Stream 3",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253704&lang=en&eid=361514288&lid=2992935&ci=92&si=1",
           "language": "Russian",
-          "bitrate": "962kbps"
+          "bitrate": "979kbps"
         },
         {
           "id": 3,
           "label": "Stream 5",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253753&lang=en&eid=361514288&lid=2993099&ci=92&si=1",
           "language": "Turkish",
-          "bitrate": "978kbps"
+          "bitrate": "983kbps"
         },
         {
           "id": 4,
           "label": "Stream 7",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=237150&lang=en&eid=361514288&lid=2940372&ci=92&si=1",
           "language": "Russian",
-          "bitrate": "1953kbps"
+          "bitrate": "1965kbps"
         },
         {
           "id": 5,
@@ -1181,8 +1182,8 @@
         {
           "id": 7,
           "label": "Stream 11",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994551&lang=en&eid=361514288&lid=2994551&ci=92&si=1",
-          "language": "Turkish",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994423&lang=en&eid=361514288&lid=2994423&ci=92&si=1",
+          "language": null,
           "bitrate": null
         },
         {
@@ -1202,8 +1203,8 @@
         {
           "id": 10,
           "label": "Stream 14",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994423&lang=en&eid=361514288&lid=2994423&ci=92&si=1",
-          "language": null,
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994551&lang=en&eid=361514288&lid=2994551&ci=92&si=1",
+          "language": "Turkish",
           "bitrate": null
         },
         {
@@ -1249,7 +1250,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253711&lang=en&eid=361512033&lid=2991953&ci=135&si=1",
           "language": "German",
-          "bitrate": "982kbps"
+          "bitrate": "930kbps"
         },
         {
           "id": 2,
@@ -1317,7 +1318,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253626&lang=en&eid=361514428&lid=2991261&ci=37&si=1",
           "language": "English",
-          "bitrate": "981kbps"
+          "bitrate": "985kbps"
         },
         {
           "id": 2,
@@ -1352,42 +1353,42 @@
           "label": "Stream 8",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=250739&lang=en&eid=361514428&lid=2969752&ci=37&si=1",
           "language": "Russian",
-          "bitrate": "988kbps"
+          "bitrate": "991kbps"
         },
         {
           "id": 7,
           "label": "Stream 10",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253659&lang=en&eid=361514428&lid=2991565&ci=37&si=1",
           "language": "Serbian",
-          "bitrate": "994kbps"
+          "bitrate": "988kbps"
         },
         {
           "id": 8,
           "label": "Stream 12",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253690&lang=en&eid=361514428&lid=2994179&ci=37&si=1",
           "language": "French",
-          "bitrate": "130kbps"
+          "bitrate": "115kbps"
         },
         {
           "id": 9,
           "label": "Stream 14",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253718&lang=en&eid=361514428&lid=2991386&ci=37&si=1",
           "language": "Portuguese",
-          "bitrate": "986kbps"
+          "bitrate": "983kbps"
         },
         {
           "id": 10,
           "label": "Stream 16",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253785&lang=en&eid=361514428&lid=2991401&ci=37&si=1",
           "language": "German",
-          "bitrate": "980kbps"
+          "bitrate": "984kbps"
         },
         {
           "id": 11,
           "label": "Stream 18",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=237230&lang=en&eid=361514428&lid=2962858&ci=37&si=1",
           "language": "Russian",
-          "bitrate": "1956kbps"
+          "bitrate": "1966kbps"
         },
         {
           "id": 12,
@@ -1579,7 +1580,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253628&lang=en&eid=361511363&lid=2992377&ci=116&si=1",
           "language": "German",
-          "bitrate": "915kbps"
+          "bitrate": "940kbps"
         },
         {
           "id": 2,
@@ -1819,8 +1820,30 @@
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 18:45\n(Portugal. Segunda Liga)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993548&lang=en&eid=361513730&lid=2993548&ci=170&si=1",
+          "language": "Bulgarian",
+          "bitrate": null
+        },
+        {
+          "id": 2,
+          "label": "Stream 3",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994566&lang=en&eid=361513730&lid=2994566&ci=170&si=1",
+          "language": null,
+          "bitrate": null
+        },
+        {
+          "id": 3,
+          "label": "Stream 4",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994565&lang=en&eid=361513730&lid=2994565&ci=170&si=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 3
     },
     {
       "id": 52,
