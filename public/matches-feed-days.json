@@ -2,7 +2,7 @@
   "source": "https://livetv.sx/enx/",
   "footballPageUrl": "https://livetv.sx/enx/allupcomingsports/1/",
   "section": "Day Matches",
-  "scrapedAt": "2026-04-10T11:21:50.578Z",
+  "scrapedAt": "2026-04-10T11:36:48.593Z",
   "count": 500,
   "matches": [
     {
@@ -11,23 +11,15 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/365690938__/",
       "dateLabel": "10 April",
       "timeLabel": "10:30",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Australia. Women. NPL Victoria",
       "iconUrl": "https://cdn.livetv874.me/img/icons/au.gif",
       "iconAlt": "Australia. Women. NPL Victoria",
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 10:30\n(Australia. Women. NPL Victoria)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=youtube&c=eB9_bBU2-j0&lang=en&eid=365690938&lid=2994174&ci=2705&si=1",
-          "language": "English",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 2,
@@ -59,23 +51,15 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/365716051_metalist_1925_u19_dynamo_kiev_u19/",
       "dateLabel": "10 April",
       "timeLabel": "10:30",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Ukraine. U-19 Premier League",
       "iconUrl": "https://cdn.livetv874.me/img/icons/ua.gif",
       "iconAlt": "Ukraine. U-19 Premier League",
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 10:30\n(Ukraine. U-19 Premier League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=youtube&c=CwTaKyRwA0U&lang=en&eid=365716051&lid=2994188&ci=1450&si=1",
-          "language": null,
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 4,
@@ -83,23 +67,15 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511293__/",
       "dateLabel": "10 April",
       "timeLabel": "10:30",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Australia. NPL Victoria",
       "iconUrl": "https://cdn.livetv874.me/img/icons/au.gif",
       "iconAlt": "Australia. NPL Victoria",
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 10:30\n(Australia. NPL Victoria)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=youtube&c=hLjkHuKyp4s&lang=en&eid=361511293&lid=2994176&ci=118&si=1",
-          "language": "English",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 5,
@@ -107,23 +83,15 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511301__/",
       "dateLabel": "10 April",
       "timeLabel": "10:30",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Australia. NPL Queensland",
       "iconUrl": "https://cdn.livetv874.me/img/icons/au.gif",
       "iconAlt": "Australia. NPL Queensland",
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 10:30\n(Australia. NPL Queensland)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=youtube&c=6BSjtJWRew0&lang=en&eid=361511301&lid=2994190&ci=2527&si=1",
-          "language": null,
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 6,
@@ -216,7 +184,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253612&lang=en&eid=361511275&lid=2991551&ci=150&si=1",
           "language": "English",
-          "bitrate": "997kbps"
+          "bitrate": "998kbps"
         },
         {
           "id": 2,
@@ -392,7 +360,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253656&lang=en&eid=361511765&lid=2991560&ci=59&si=1",
           "language": "Serbian",
-          "bitrate": "998kbps"
+          "bitrate": "999kbps"
         },
         {
           "id": 2,
@@ -920,8 +888,30 @@
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 13:30\n(Bulgaria. First League)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253656&lang=en&eid=361511766&lid=2991560&ci=59&si=1",
+          "language": "Serbian",
+          "bitrate": "998kbps"
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993548&lang=en&eid=361511766&lid=2993548&ci=59&si=1",
+          "language": "Portuguese",
+          "bitrate": null
+        },
+        {
+          "id": 3,
+          "label": "Stream 5",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2988047&lang=en&eid=361511766&lid=2988047&ci=59&si=1",
+          "language": "Bulgarian",
+          "bitrate": null
+        }
+      ],
+      "streamCount": 3
     },
     {
       "id": 41,
