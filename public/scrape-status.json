@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-10T12:21:59.385Z",
+  "updatedAt": "2026-04-10T12:30:10.409Z",
   "jobs": {
     "main": {
       "preparing": false,
@@ -19,15 +19,21 @@
       "preparing": false,
       "upcomingAt": null,
       "running": false,
-      "startedAt": "2026-04-10T12:15:01.056Z",
-      "finishedAt": "2026-04-10T12:15:10.327Z",
-      "lastSuccessAt": "2026-04-10T12:15:10.327Z",
+      "startedAt": "2026-04-10T12:30:00.539Z",
+      "finishedAt": "2026-04-10T12:30:10.409Z",
+      "lastSuccessAt": "2026-04-10T12:30:10.409Z",
       "lastError": null,
       "lastCount": 10,
-      "lastDurationMs": 9271,
+      "lastDurationMs": 9871,
       "lastOutputBytes": 4671,
-      "totalRuns": 6,
+      "totalRuns": 7,
       "recentRuns": [
+        {
+          "at": "2026-04-10T12:30:10.409Z",
+          "count": 10,
+          "durationMs": 9871,
+          "outputBytes": 4671
+        },
         {
           "at": "2026-04-10T12:15:10.327Z",
           "count": 10,
@@ -69,9 +75,9 @@
     "days": {
       "preparing": false,
       "upcomingAt": null,
-      "running": false,
-      "startedAt": "2026-04-10T12:15:01.057Z",
-      "finishedAt": "2026-04-10T12:21:59.385Z",
+      "running": true,
+      "startedAt": "2026-04-10T12:30:00.540Z",
+      "finishedAt": null,
       "lastSuccessAt": "2026-04-10T12:21:59.385Z",
       "lastError": null,
       "lastCount": 500,

@@ -862,7 +862,7 @@ export default function Home() {
                               className="rounded-xl border border-slate-700/50 bg-linear-to-br from-slate-900/70 to-slate-800/40 p-2.5"
                             >
                               <div className="flex items-start justify-between gap-3">
-                                      {/* Footer removed as requested */}
+                                {/* Footer removed as requested */}
                                 <div className="min-w-0">
                                   <div className="flex items-center gap-2">
                                     <p className="text-[11px] font-semibold uppercase tracking-wide text-cyan-300">{league}</p>

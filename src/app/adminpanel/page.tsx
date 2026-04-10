@@ -1,6 +1,47 @@
+type TrafficEntry = { ts: number; ip: string; path: string };
+  const [traffic, setTraffic] = useState<TrafficEntry[]>([]);
+
+  // Fetch traffic log
+  useEffect(() => {
+    const fetchTraffic = async () => {
+      try {
+        const res = await fetch("/api/traffic");
+        if (res.ok) {
+          const json = await res.json();
+          setTraffic(json.log ?? []);
+        }
+      } catch {}
+    };
+    fetchTraffic();
+    const id = setInterval(fetchTraffic, 15000);
+    return () => clearInterval(id);
+  }, []);
+            {/* Traffic chart */}
+            {traffic.length > 0 && AdminBarChart ? (
+              <div className="mb-8 rounded-xl border border-slate-700/60 bg-slate-900/50 p-4">
+                <h3 className="mb-2 text-xs font-semibold uppercase tracking-widest text-cyan-400">Traffic: Hits per Minute (last 30 min)</h3>
+                <AdminBarChart
+                  labels={Array.from({ length: 30 }, (_, i) => {
+                    const d = new Date(Date.now() - (29 - i) * 60 * 1000);
+                    return d.getHours().toString().padStart(2, "0") + ":" + d.getMinutes().toString().padStart(2, "0");
+                  })}
+                  data={Array.from({ length: 30 }, (_, i) => {
+                    const minAgo = 29 - i;
+                    const minStart = Date.now() - minAgo * 60 * 1000;
+                    const minEnd = minStart + 60 * 1000;
+                    return traffic.filter(e => e.ts >= minStart && e.ts < minEnd).length;
+                  })}
+                  label="Hits"
+                />
+              </div>
+            ) : null}
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import dynamic from "next/dynamic";
+
+const AdminBarChart = dynamic(() => import("../components/AdminCharts").then(mod => mod.AdminBarChart), { ssr: false, loading: () => null });
+const AdminPieChart = dynamic(() => import("../components/AdminCharts").then(mod => mod.AdminPieChart), { ssr: false, loading: () => null });
 import { FiActivity, FiAlertCircle, FiCheckCircle, FiClock, FiDatabase, FiRefreshCw, FiXCircle } from "react-icons/fi";
 
 type RunEntry = {
@@ -194,6 +235,31 @@ export default function AdminPanel() {
           <>
             {/* Summary row */}
             <div className="mb-6 grid gap-3 sm:grid-cols-3">
+                          {/* Charts */}
+                          <div className="mb-8 grid gap-6 sm:grid-cols-2">
+                            {/* Recent runs bar chart (last 10 runs of 'main' job) */}
+                            {data.jobs.main?.recentRuns?.length > 0 && AdminBarChart ? (
+                              <div className="rounded-xl border border-slate-700/60 bg-slate-900/50 p-4">
+                                <h3 className="mb-2 text-xs font-semibold uppercase tracking-widest text-cyan-400">Main Feed: Last 10 Runs</h3>
+                                <AdminBarChart
+                                  labels={data.jobs.main.recentRuns.slice(-10).map(r => new Date(r.at).toLocaleTimeString("en-GB"))}
+                                  data={data.jobs.main.recentRuns.slice(-10).map(r => r.count)}
+                                  label="Matches scraped"
+                                />
+                              </div>
+                            ) : null}
+                            {/* Feed file size pie chart */}
+                            {data.feedFiles?.length > 0 && AdminPieChart ? (
+                              <div className="rounded-xl border border-slate-700/60 bg-slate-900/50 p-4">
+                                <h3 className="mb-2 text-xs font-semibold uppercase tracking-widest text-cyan-400">Feed File Size Distribution</h3>
+                                <AdminPieChart
+                                  labels={data.feedFiles.map(f => f.label)}
+                                  data={data.feedFiles.map(f => f.bytes ?? 0)}
+                                  label="Feed Size"
+                                />
+                              </div>
+                            ) : null}
+                          </div>
               <div className="rounded-xl border border-slate-700/60 bg-slate-900/50 p-4">
                 <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-slate-500">
                   <FiActivity className="h-3.5 w-3.5" />
