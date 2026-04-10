@@ -235,13 +235,13 @@ function initializeScheduler() {
   // Top feed: every 10 minutes
   cron.schedule("*/10 * * * *", taskTopFeed, {
     name: "top-feed",
-    runOnInit: false,
+    runOnInit: true,
   });
 
   // Days feed: every 15 minutes
   cron.schedule("*/15 * * * *", taskDaysFeed, {
     name: "days-feed",
-    runOnInit: false,
+    runOnInit: true,
   });
 
   // Main feed: every 60 minutes
