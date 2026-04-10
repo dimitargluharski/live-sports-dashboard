@@ -2,11 +2,7 @@
   "source": "https://livetv.sx/enx/",
   "footballPageUrl": "https://livetv.sx/enx/allupcomingsports/1/",
   "section": "Day Matches",
-<<<<<<< HEAD
-  "scrapedAt": "2026-04-10T08:58:43.455Z",
-=======
-  "scrapedAt": "2026-04-10T08:50:55.236Z",
->>>>>>> 35f4f0a666ae4eaa0ea17188dec332c392c93609
+  "scrapedAt": "2026-04-10T09:14:15.388Z",
   "count": 500,
   "matches": [
     {
@@ -79,7 +75,7 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514598__/",
       "dateLabel": "10 April",
       "timeLabel": "10:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "European U-17 Championship qualification",
       "iconUrl": "https://cdn.livetv874.me/img/icons/wecu17.gif",
       "iconAlt": "European U-17 Championship qualification",
@@ -95,7 +91,7 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514599__/",
       "dateLabel": "10 April",
       "timeLabel": "10:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "European U-17 Championship qualification",
       "iconUrl": "https://cdn.livetv874.me/img/icons/wecu17.gif",
       "iconAlt": "European U-17 Championship qualification",
@@ -292,7 +288,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253612&lang=en&eid=361511275&lid=2991551&ci=150&si=1",
           "language": "English",
-          "bitrate": "969kbps"
+          "bitrate": "998kbps"
         },
         {
           "id": 2,
@@ -430,8 +426,23 @@
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 11:00\n(Bulgaria. First League)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2988047&lang=en&eid=361511765&lid=2988047&ci=59&si=1",
+          "language": "Bulgarian",
+          "bitrate": null
+        },
+        {
+          "id": 2,
+          "label": "Stream 3",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993548&lang=en&eid=361511765&lid=2993548&ci=59&si=1",
+          "language": "Bulgarian",
+          "bitrate": null
+        }
+      ],
+      "streamCount": 2
     },
     {
       "id": 20,
