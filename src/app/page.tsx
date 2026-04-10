@@ -36,6 +36,12 @@ type EventsResponse = {
   source: string;
   diariesUrl: string;
   scrapedAt: string;
+  isUpdating?: boolean;
+  updateState?: {
+    main: boolean;
+    top: boolean;
+    days: boolean;
+  };
   agendaDate: string | null;
   count: number;
   matches: Match[];
@@ -265,6 +271,10 @@ export default function Home() {
     return scheduleData.matches;
   }, [scheduleData?.matches]);
 
+  const isFeedUpdating = useMemo(() => {
+    return Boolean(topData?.isUpdating || scheduleData?.isUpdating);
+  }, [topData?.isUpdating, scheduleData?.isUpdating]);
+
   const daySections = useMemo(() => {
     const todayKey = normalizeDate(today);
     const tomorrowKey = normalizeDate(tomorrow);
@@ -441,6 +451,16 @@ export default function Home() {
 
   useEffect(() => {
     loadData();
+  }, [loadData]);
+
+  useEffect(() => {
+    const intervalId = window.setInterval(() => {
+      loadData();
+    }, 30_000);
+
+    return () => {
+      window.clearInterval(intervalId);
+    };
   }, [loadData]);
 
   useEffect(() => {
@@ -627,6 +647,12 @@ export default function Home() {
 
       <section className="w-full px-4 sm:px-6">
         <div className="mx-auto w-full max-w-[1400px]">
+          {isFeedUpdating && !loading ? (
+            <div className="mb-4 rounded-xl border border-amber-400/40 bg-amber-500/10 px-3 py-2 text-sm text-amber-100">
+              Updating match feeds right now. Live list may shift for a moment until refresh completes.
+            </div>
+          ) : null}
+
           {loading ? (
             <div className="rounded-2xl border border-slate-700/40 bg-slate-900/40 p-6 text-center text-sm text-slate-300">Loading matches...</div>
           ) : null}

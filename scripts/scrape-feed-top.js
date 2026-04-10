@@ -8,6 +8,7 @@ const fs = require("fs");
 const path = require("path");
 const cheerio = require("cheerio");
 const { Agent } = require("undici");
+const { markJobStarted, markJobSucceeded, markJobFailed } = require("./scrape-status");
 
 function loadDotEnv() {
   const envPath = path.join(process.cwd(), ".env");
@@ -382,6 +383,7 @@ function extractPlayerLinks(eventHtml, eventUrl) {
 // }
 
 async function scrapeFeedTopMatches() {
+  markJobStarted("top");
   await notifyDiscord("Scrape job started (scrape:feed:top).");
 
   if (ALLOW_INSECURE_TLS) {
@@ -434,11 +436,13 @@ async function scrapeFeedTopMatches() {
 
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
   console.log(`Saved: ${OUTPUT_PATH}`);
+  markJobSucceeded("top", matches.length);
 
   await notifyDiscord("Scrape job completed successfully (scrape:feed:top).");
 }
 
 scrapeFeedTopMatches().catch(async (error) => {
+  markJobFailed("top", error instanceof Error ? error.message : "Unknown error");
   await notifyDiscord(`Scrape job failed (scrape:feed:top). ${error instanceof Error ? error.message : "Unknown error"}`);
   console.error("Top-matches scraper failed:", error);
   process.exit(1);

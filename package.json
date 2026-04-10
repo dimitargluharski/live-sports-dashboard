@@ -11,7 +11,8 @@
     "scrape:feed:top": "node scripts/scrape-feed-top.js",
     "scrape:feed:days": "node scripts/scrape-feed-days.js",
     "scrape:feed:refresh": "npm run scrape:feed:top && npm run scrape:feed:days",
-    "scrape:feed:all": "npm run scrape:feed:top && npm run scrape:feed:days && npm run scrape:feed"
+    "scrape:feed:all": "npm run scrape:feed:top && npm run scrape:feed:days && npm run scrape:feed",
+    "scheduler:local": "node scheduler.js"
   },
   "keywords": [],
   "author": "",

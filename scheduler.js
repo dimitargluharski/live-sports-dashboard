@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Fly.io Scheduler for Feed Scraping
+ * Local Scheduler for Feed Scraping
  * 
  * Runs periodic tasks:
  * - Top feed: every 10 minutes
@@ -10,7 +10,34 @@
 
 const cron = require("node-cron");
 const { spawn } = require("child_process");
+const fs = require("fs");
+const path = require("path");
 const simpleGit = require("simple-git");
+
+const LOCK_PATH = path.join(process.cwd(), ".scheduler.lock");
+
+function loadDotEnv() {
+  const envPath = path.join(process.cwd(), ".env");
+  if (!fs.existsSync(envPath)) return;
+
+  const content = fs.readFileSync(envPath, "utf-8");
+  for (const rawLine of content.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith("#")) continue;
+
+    const separatorIndex = line.indexOf("=");
+    if (separatorIndex <= 0) continue;
+
+    const key = line.slice(0, separatorIndex).trim();
+    const value = line.slice(separatorIndex + 1).trim();
+
+    if (!(key in process.env)) {
+      process.env[key] = value;
+    }
+  }
+}
+
+loadDotEnv();
 
 // Environment setup
 const GITHUB_TOKEN = (process.env.GITHUB_TOKEN || "").trim();
@@ -19,6 +46,8 @@ const GITHUB_REPO = process.env.GITHUB_REPO || "live-sports-dashboard";
 const GITHUB_BRANCH = (process.env.GITHUB_BRANCH || "main").trim();
 const GIT_AUTHOR_NAME = process.env.GIT_AUTHOR_NAME || "scheduler-bot";
 const GIT_AUTHOR_EMAIL = process.env.GIT_AUTHOR_EMAIL || "scheduler@example.com";
+const NOTIFY_ON_START = process.env.DISCORD_NOTIFY_START === "1";
+const NOTIFY_ON_NO_CHANGES = process.env.DISCORD_NOTIFY_NO_CHANGES === "1";
 const DISCORD_WEBHOOK_URL = (
   process.env.SCRAPE_DISCORD_WEBHOOK_URL ||
   process.env.CRON_DISCORD_WEBHOOK_URL ||
@@ -26,6 +55,64 @@ const DISCORD_WEBHOOK_URL = (
 ).trim();
 
 const git = simpleGit();
+let gitOperationQueue = Promise.resolve();
+const taskState = {
+  top: false,
+  days: false,
+  main: false,
+};
+
+function isProcessRunning(pid) {
+  if (!Number.isInteger(pid) || pid <= 0) return false;
+  try {
+    process.kill(pid, 0);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function acquireLock() {
+  if (fs.existsSync(LOCK_PATH)) {
+    try {
+      const existingPid = Number(fs.readFileSync(LOCK_PATH, "utf-8").trim());
+      if (isProcessRunning(existingPid)) {
+        console.error(`Another scheduler instance is already running (pid ${existingPid}).`);
+        process.exit(1);
+      }
+    } catch {
+      // Ignore stale/invalid lock content.
+    }
+  }
+
+  fs.writeFileSync(LOCK_PATH, String(process.pid), "utf-8");
+}
+
+function releaseLock() {
+  try {
+    if (!fs.existsSync(LOCK_PATH)) return;
+    const existingPid = Number(fs.readFileSync(LOCK_PATH, "utf-8").trim());
+    if (existingPid === process.pid) {
+      fs.unlinkSync(LOCK_PATH);
+    }
+  } catch {
+    // Best-effort cleanup.
+  }
+}
+
+async function runTaskOnce(taskName, taskFn) {
+  if (taskState[taskName]) {
+    console.log(`[TASK] Skipping ${taskName}; previous run still in progress.`);
+    return;
+  }
+
+  taskState[taskName] = true;
+  try {
+    await taskFn();
+  } finally {
+    taskState[taskName] = false;
+  }
+}
 
 async function notifyDiscord(message) {
   if (!DISCORD_WEBHOOK_URL) return;
@@ -38,6 +125,31 @@ async function notifyDiscord(message) {
     });
   } catch (error) {
     console.warn("Discord notification failed:", error instanceof Error ? error.message : String(error));
+  }
+}
+
+function runGitExclusive(operation) {
+  const next = gitOperationQueue.then(operation, operation);
+  gitOperationQueue = next.catch(() => undefined);
+  return next;
+}
+
+async function pushWithRetry() {
+  try {
+    await git.push("origin", `HEAD:${GITHUB_BRANCH}`);
+    return { retried: false };
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    const isNonFastForward = /non-fast-forward|\[rejected\]|fetch first|tip of your current branch is behind/i.test(message);
+
+    if (!isNonFastForward) {
+      throw error;
+    }
+
+    console.warn("Push rejected (non-fast-forward). Rebasing from remote and retrying push...");
+    await git.pull("origin", GITHUB_BRANCH, { "--rebase": "true" });
+    await git.push("origin", `HEAD:${GITHUB_BRANCH}`);
+    return { retried: true };
   }
 }
 
@@ -78,45 +190,51 @@ function runScript(scriptName) {
  * Commit and push changes safely
  */
 async function commitAndPush(message) {
-  try {
-    const feedFiles = ["public/matches-feed-top.json", "public/matches-feed-days.json"];
-    const scopedStatus = (await git.raw(["status", "--porcelain", "--", ...feedFiles])).trim();
-    const hasChanges = Boolean(scopedStatus);
+  return runGitExclusive(async () => {
+    try {
+      const feedFiles = [
+        "public/matches-feed-main.json",
+        "public/matches-feed-top.json",
+        "public/matches-feed-days.json",
+      ];
+      const scopedStatus = (await git.raw(["status", "--porcelain", "--", ...feedFiles])).trim();
+      const hasChanges = Boolean(scopedStatus);
 
-    if (!hasChanges) {
-      console.log("No feed changes to commit.");
-      return { committed: false, reason: "no_changes" };
-    }
-
-    // Stage only feed files
-    await git.add(feedFiles);
-
-    // Set git config for commit
-    await git.addConfig("user.name", GIT_AUTHOR_NAME);
-    await git.addConfig("user.email", GIT_AUTHOR_EMAIL);
-
-    // Commit
-    await git.commit(message);
-
-    // Push with auth if token available
-    if (GITHUB_TOKEN) {
-      console.log("Pushing with GitHub token...");
-      const remoteUrl = `https://${GITHUB_TOKEN}@github.com/${GITHUB_OWNER}/${GITHUB_REPO}.git`;
-      try {
-        await git.exec(["remote", "set-url", "origin", remoteUrl]);
-      } catch (e) {
-        // Ignore if remote doesn't exist
+      if (!hasChanges) {
+        console.log("No feed changes to commit.");
+        return { committed: false, reason: "no_changes" };
       }
-    }
 
-    await git.push("origin", `HEAD:${GITHUB_BRANCH}`);
-    console.log(`✓ Committed and pushed: "${message}"`);
-    return { committed: true, reason: "pushed" };
-  } catch (error) {
-    console.error(`✗ Git operation failed:`, error.message);
-    // Don't fail the scheduler on git errors
-    return { committed: false, reason: "git_error", error: error instanceof Error ? error.message : String(error) };
-  }
+      // Stage only feed files
+      await git.add(feedFiles);
+
+      // Set git config for commit
+      await git.addConfig("user.name", GIT_AUTHOR_NAME);
+      await git.addConfig("user.email", GIT_AUTHOR_EMAIL);
+
+      // Commit
+      await git.commit(message);
+
+      // Push with auth if token available
+      if (GITHUB_TOKEN) {
+        console.log("Pushing with GitHub token...");
+        const remoteUrl = `https://${GITHUB_TOKEN}@github.com/${GITHUB_OWNER}/${GITHUB_REPO}.git`;
+        try {
+          await git.exec(["remote", "set-url", "origin", remoteUrl]);
+        } catch (e) {
+          // Ignore if remote doesn't exist
+        }
+      }
+
+      const pushResult = await pushWithRetry();
+      console.log(`✓ Committed and pushed: "${message}"`);
+      return { committed: true, reason: pushResult.retried ? "pushed_after_rebase" : "pushed" };
+    } catch (error) {
+      console.error(`✗ Git operation failed:`, error.message);
+      // Don't fail the scheduler on git errors
+      return { committed: false, reason: "git_error", error: error instanceof Error ? error.message : String(error) };
+    }
+  });
 }
 
 /**
@@ -127,21 +245,29 @@ async function taskTopFeed() {
   const startedAt = Date.now();
 
   try {
-    await notifyDiscord("🟡 [Fly Scheduler] TOP: run started (every 10m).");
+    if (NOTIFY_ON_START) {
+      await notifyDiscord("🟡 [Local Scheduler] TOP run started (10m schedule).");
+    }
     await runScript("scrape:feed:top");
     const gitResult = await commitAndPush("chore(feed): refresh top matches");
     const durationSec = Math.round((Date.now() - startedAt) / 1000);
 
     if (gitResult.committed) {
-      await notifyDiscord(`🟢 [Fly Scheduler] TOP: completed in ${durationSec}s. Changes pushed to ${GITHUB_OWNER}/${GITHUB_REPO}.`);
+      if (gitResult.reason === "pushed_after_rebase") {
+        await notifyDiscord(`🟢 [Local Scheduler] TOP synced in ${durationSec}s (auto-rebased + pushed).`);
+      } else {
+        await notifyDiscord(`🟢 [Local Scheduler] TOP synced in ${durationSec}s.`);
+      }
     } else if (gitResult.reason === "no_changes") {
-      await notifyDiscord(`🟢 [Fly Scheduler] TOP: completed in ${durationSec}s. No feed changes to commit.`);
+      if (NOTIFY_ON_NO_CHANGES) {
+        await notifyDiscord(`ℹ️ [Local Scheduler] TOP checked in ${durationSec}s. No changes.`);
+      }
     } else {
-      await notifyDiscord(`🟠 [Fly Scheduler] TOP: scrape finished in ${durationSec}s, but git push failed. ${gitResult.error || "Unknown git error"}`);
+      await notifyDiscord(`🟠 [Local Scheduler] TOP scrape done in ${durationSec}s, but git sync failed: ${gitResult.error || "Unknown git error"}`);
     }
   } catch (error) {
     console.error("Top feed task failed:", error.message);
-    await notifyDiscord(`🔴 [Fly Scheduler] TOP: failed. ${error instanceof Error ? error.message : "Unknown error"}`);
+    await notifyDiscord(`🔴 [Local Scheduler] TOP failed: ${error instanceof Error ? error.message : "Unknown error"}`);
   }
 }
 
@@ -153,21 +279,29 @@ async function taskDaysFeed() {
   const startedAt = Date.now();
 
   try {
-    await notifyDiscord("🟡 [Fly Scheduler] DAYS: run started (every 15m).");
+    if (NOTIFY_ON_START) {
+      await notifyDiscord("🟡 [Local Scheduler] DAYS run started (15m schedule).");
+    }
     await runScript("scrape:feed:days");
     const gitResult = await commitAndPush("chore(feed): refresh day matches");
     const durationSec = Math.round((Date.now() - startedAt) / 1000);
 
     if (gitResult.committed) {
-      await notifyDiscord(`🟢 [Fly Scheduler] DAYS: completed in ${durationSec}s. Changes pushed to ${GITHUB_OWNER}/${GITHUB_REPO}.`);
+      if (gitResult.reason === "pushed_after_rebase") {
+        await notifyDiscord(`🟢 [Local Scheduler] DAYS synced in ${durationSec}s (auto-rebased + pushed).`);
+      } else {
+        await notifyDiscord(`🟢 [Local Scheduler] DAYS synced in ${durationSec}s.`);
+      }
     } else if (gitResult.reason === "no_changes") {
-      await notifyDiscord(`🟢 [Fly Scheduler] DAYS: completed in ${durationSec}s. No feed changes to commit.`);
+      if (NOTIFY_ON_NO_CHANGES) {
+        await notifyDiscord(`ℹ️ [Local Scheduler] DAYS checked in ${durationSec}s. No changes.`);
+      }
     } else {
-      await notifyDiscord(`🟠 [Fly Scheduler] DAYS: scrape finished in ${durationSec}s, but git push failed. ${gitResult.error || "Unknown git error"}`);
+      await notifyDiscord(`🟠 [Local Scheduler] DAYS scrape done in ${durationSec}s, but git sync failed: ${gitResult.error || "Unknown git error"}`);
     }
   } catch (error) {
     console.error("Days feed task failed:", error.message);
-    await notifyDiscord(`🔴 [Fly Scheduler] DAYS: failed. ${error instanceof Error ? error.message : "Unknown error"}`);
+    await notifyDiscord(`🔴 [Local Scheduler] DAYS failed: ${error instanceof Error ? error.message : "Unknown error"}`);
   }
 }
 
@@ -179,21 +313,29 @@ async function taskMainFeed() {
   const startedAt = Date.now();
 
   try {
-    await notifyDiscord("🟡 [Fly Scheduler] MAIN: run started (every 60m).");
+    if (NOTIFY_ON_START) {
+      await notifyDiscord("🟡 [Local Scheduler] MAIN run started (60m schedule).");
+    }
     await runScript("scrape:feed");
     const gitResult = await commitAndPush("chore(feed): refresh main feed");
     const durationSec = Math.round((Date.now() - startedAt) / 1000);
 
     if (gitResult.committed) {
-      await notifyDiscord(`🟢 [Fly Scheduler] MAIN: completed in ${durationSec}s. Changes pushed to ${GITHUB_OWNER}/${GITHUB_REPO}.`);
+      if (gitResult.reason === "pushed_after_rebase") {
+        await notifyDiscord(`🟢 [Local Scheduler] MAIN synced in ${durationSec}s (auto-rebased + pushed).`);
+      } else {
+        await notifyDiscord(`🟢 [Local Scheduler] MAIN synced in ${durationSec}s.`);
+      }
     } else if (gitResult.reason === "no_changes") {
-      await notifyDiscord(`🟢 [Fly Scheduler] MAIN: completed in ${durationSec}s. No feed changes to commit.`);
+      if (NOTIFY_ON_NO_CHANGES) {
+        await notifyDiscord(`ℹ️ [Local Scheduler] MAIN checked in ${durationSec}s. No changes.`);
+      }
     } else {
-      await notifyDiscord(`🟠 [Fly Scheduler] MAIN: scrape finished in ${durationSec}s, but git push failed. ${gitResult.error || "Unknown git error"}`);
+      await notifyDiscord(`🟠 [Local Scheduler] MAIN scrape done in ${durationSec}s, but git sync failed: ${gitResult.error || "Unknown git error"}`);
     }
   } catch (error) {
     console.error("Main feed task failed:", error.message);
-    await notifyDiscord(`🔴 [Fly Scheduler] MAIN: failed. ${error instanceof Error ? error.message : "Unknown error"}`);
+    await notifyDiscord(`🔴 [Local Scheduler] MAIN failed: ${error instanceof Error ? error.message : "Unknown error"}`);
   }
 }
 
@@ -202,7 +344,7 @@ async function taskMainFeed() {
  */
 function startup() {
   console.log("\n╔════════════════════════════════════════════════════════╗");
-  console.log("║         Feed Scheduler (Fly.io) Started              ║");
+  console.log("║        Feed Scheduler (Local Host) Started           ║");
   console.log("╚════════════════════════════════════════════════════════╝\n");
 
   const feedBaseUrl = (process.env.FEED_BASE_URL || "").trim();
@@ -224,7 +366,7 @@ function startup() {
   console.log("Ready. Waiting for scheduled tasks...\n");
 
   notifyDiscord(
-    `🟢 [Fly Scheduler] Booted successfully for ${GITHUB_OWNER}/${GITHUB_REPO}. Top: 10m, Days: 15m, Main: 60m.`,
+    `🟢 [Local Scheduler] Booted successfully for ${GITHUB_OWNER}/${GITHUB_REPO}. Top: 10m, Days: 15m, Main: 60m.`,
   );
 }
 
@@ -233,42 +375,58 @@ function startup() {
  */
 function initializeScheduler() {
   // Top feed: every 10 minutes
-  cron.schedule("*/10 * * * *", taskTopFeed, {
+  cron.schedule("*/10 * * * *", () => runTaskOnce("top", taskTopFeed), {
     name: "top-feed",
-    runOnInit: true,
+    runOnInit: false,
   });
 
   // Days feed: every 15 minutes
-  cron.schedule("*/15 * * * *", taskDaysFeed, {
+  cron.schedule("*/15 * * * *", () => runTaskOnce("days", taskDaysFeed), {
     name: "days-feed",
-    runOnInit: true,
+    runOnInit: false,
   });
 
   // Main feed: every 60 minutes
-  cron.schedule("0 * * * *", taskMainFeed, {
+  cron.schedule("0 * * * *", () => runTaskOnce("main", taskMainFeed), {
     name: "main-feed",
     runOnInit: false,
   });
 
   console.log("Cron tasks registered successfully.");
+
+  // One controlled startup sync to avoid duplicate fire near cron boundaries.
+  setTimeout(() => {
+    runTaskOnce("top", taskTopFeed);
+  }, 1500);
+
+  setTimeout(() => {
+    runTaskOnce("days", taskDaysFeed);
+  }, 4500);
 }
 
 /**
  * Main entry point
  */
 function main() {
+  acquireLock();
   startup();
   initializeScheduler();
 
   // Graceful shutdown
   process.on("SIGTERM", () => {
     console.log("\nShutdown signal received. Cleaning up...");
+    releaseLock();
     process.exit(0);
   });
 
   process.on("SIGINT", () => {
     console.log("\nInterrupt signal received. Cleaning up...");
+    releaseLock();
     process.exit(0);
+  });
+
+  process.on("exit", () => {
+    releaseLock();
   });
 }
 

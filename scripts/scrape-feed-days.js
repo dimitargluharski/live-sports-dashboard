@@ -8,6 +8,7 @@ const fs = require("fs");
 const path = require("path");
 const cheerio = require("cheerio");
 const { Agent } = require("undici");
+const { markJobStarted, markJobSucceeded, markJobFailed } = require("./scrape-status");
 
 function loadDotEnv() {
   const envPath = path.join(process.cwd(), ".env");
@@ -374,6 +375,7 @@ function extractPlayerLinks(eventHtml, eventUrl) {
 }
 
 async function scrapeFeedDaysMatches() {
+  markJobStarted("days");
   if (ALLOW_INSECURE_TLS) {
     console.warn("FEED_INSECURE_TLS=1 is enabled. TLS certificate validation is disabled for this run.");
   }
@@ -423,9 +425,11 @@ async function scrapeFeedDaysMatches() {
 
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
   console.log(`Saved: ${OUTPUT_PATH}`);
+  markJobSucceeded("days", matches.length);
 }
 
 scrapeFeedDaysMatches().catch((error) => {
+  markJobFailed("days", error instanceof Error ? error.message : "Unknown error");
   console.error("Day-matches scraper failed:", error);
   process.exit(1);
 });

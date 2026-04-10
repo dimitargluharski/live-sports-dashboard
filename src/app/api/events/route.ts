@@ -7,6 +7,7 @@ const FALLBACK_DIARIES_URL = process.env.FALLBACK_DIARIES_URL || "https://pltvhd
 const FEED_MAIN_JSON_PATH = path.join(process.cwd(), "public", "matches-feed-main.json");
 const FEED_TOP_JSON_PATH = path.join(process.cwd(), "public", "matches-feed-top.json");
 const FEED_DAYS_JSON_PATH = path.join(process.cwd(), "public", "matches-feed-days.json");
+const SCRAPE_STATUS_JSON_PATH = path.join(process.cwd(), "public", "scrape-status.json");
 const LIVE_EVENTS_SOURCE_FALLBACK = process.env.LIVE_EVENTS_SOURCE_FALLBACK || SOURCE_SITE;
 const LIVE_EVENTS_DIARIES_FALLBACK = process.env.LIVE_EVENTS_DIARIES_FALLBACK || FALLBACK_DIARIES_URL;
 
@@ -14,6 +15,12 @@ type EventsPayload = {
   source: string;
   diariesUrl: string;
   scrapedAt: string;
+  isUpdating?: boolean;
+  updateState?: {
+    main: boolean;
+    top: boolean;
+    days: boolean;
+  };
   agendaDate: string | null;
   count: number;
   matches: Array<{
@@ -106,6 +113,14 @@ type FeedPayload = {
   scrapedAt?: string;
   count?: number;
   matches?: FeedMatchRecord[];
+};
+
+type ScrapeStatusPayload = {
+  jobs?: {
+    main?: { running?: boolean };
+    top?: { running?: boolean };
+    days?: { running?: boolean };
+  };
 };
 
 function toAbsoluteUrl(input: string | undefined, base: string): string | null {
@@ -223,6 +238,25 @@ async function getFeedEventsFromFile(filePath: string, includeMatchesWithoutStre
   };
 }
 
+async function getUpdateState() {
+  try {
+    const raw = await fs.readFile(SCRAPE_STATUS_JSON_PATH, "utf-8");
+    const payload = JSON.parse(raw) as ScrapeStatusPayload;
+
+    return {
+      main: Boolean(payload.jobs?.main?.running),
+      top: Boolean(payload.jobs?.top?.running),
+      days: Boolean(payload.jobs?.days?.running),
+    };
+  } catch {
+    return {
+      main: false,
+      top: false,
+      days: false,
+    };
+  }
+}
+
 export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
@@ -231,6 +265,7 @@ export async function GET(request: Request) {
     const topOnly = topOnlyRaw === "1" || topOnlyRaw === "true";
 
     if (source === "feed") {
+      const updateState = await getUpdateState();
       const payload = await getFeedEvents();
       const matches = topOnly
         ? payload.matches.filter((match) => Boolean(match.isTopMatch))
@@ -239,6 +274,8 @@ export async function GET(request: Request) {
       return NextResponse.json(
         {
           ...payload,
+          isUpdating: updateState.main || updateState.top || updateState.days,
+          updateState,
           count: matches.length,
           matches,
         },
@@ -251,21 +288,37 @@ export async function GET(request: Request) {
     }
 
     if (source === "feed-top") {
+      const updateState = await getUpdateState();
       const payload = await getFeedTopEvents();
-      return NextResponse.json(payload, {
-        headers: {
-          "Cache-Control": "no-store",
+      return NextResponse.json(
+        {
+          ...payload,
+          isUpdating: updateState.top || updateState.main,
+          updateState,
         },
-      });
+        {
+          headers: {
+            "Cache-Control": "no-store",
+          },
+        },
+      );
     }
 
     if (source === "feed-days") {
+      const updateState = await getUpdateState();
       const payload = await getFeedDaysEvents();
-      return NextResponse.json(payload, {
-        headers: {
-          "Cache-Control": "no-store",
+      return NextResponse.json(
+        {
+          ...payload,
+          isUpdating: updateState.days || updateState.main,
+          updateState,
         },
-      });
+        {
+          headers: {
+            "Cache-Control": "no-store",
+          },
+        },
+      );
     }
 
     const diariesUrl = await discoverDiariesUrl();
