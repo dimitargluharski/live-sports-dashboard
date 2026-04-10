@@ -2,8 +2,8 @@
   "source": "https://livetv.sx/enx/",
   "footballPageUrl": "https://livetv.sx/enx/allupcomingsports/1/",
   "section": "Day Matches",
-  "scrapedAt": "2026-04-10T17:16:25.752Z",
-  "count": 101,
+  "scrapedAt": "2026-04-10T17:31:19.268Z",
+  "count": 96,
   "matches": [
     {
       "id": 1,
@@ -11,151 +11,34 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/365884558__/",
       "dateLabel": "10 April",
       "timeLabel": "15:20",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Bahrain. Cup",
       "iconUrl": "https://cdn.livetv874.me/img/icons/bh.gif",
       "iconAlt": "Bahrain. Cup",
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 15:20\n(Bahrain. Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=youtube&c=8_hgQEOK9no&lang=en&eid=365884558&lid=2994323&ci=2042&si=1",
-          "language": "Arabic",
-          "bitrate": null
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=youtube&c=RHYKl4VpIzY&lang=en&eid=365884558&lid=2994322&ci=2042&si=1",
-          "language": "Arabic",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 2
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 2,
-      "title": "Belshina – Dnepr Mogilyov",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361511699__/",
-      "dateLabel": "10 April",
-      "timeLabel": "16:00",
-      "isLive": false,
-      "leagueLabel": "Belarus. Vysheyshaya Liga",
-      "iconUrl": "https://cdn.livetv874.me/img/icons/by.gif",
-      "iconAlt": "Belarus. Vysheyshaya Liga",
-      "sectionLabel": "10 April",
-      "isTopMatch": false,
-      "rawDescription": "10 April at 16:00\n(Belarus. Vysheyshaya Liga)",
-      "streams": [],
-      "streamCount": 0
-    },
-    {
-      "id": 3,
-      "title": "Rukh – Kolos",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361514322__/",
-      "dateLabel": "10 April",
-      "timeLabel": "16:00",
-      "isLive": false,
-      "leagueLabel": "Ukraine. Premier League",
-      "iconUrl": "https://cdn.livetv874.me/img/icons/ua.gif",
-      "iconAlt": "Ukraine. Premier League",
-      "sectionLabel": "10 April",
-      "isTopMatch": false,
-      "rawDescription": "10 April at 16:00\n(Ukraine. Premier League)",
-      "streams": [],
-      "streamCount": 0
-    },
-    {
-      "id": 4,
-      "title": "Slavia Sofia – Septemvri",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361511767__/",
-      "dateLabel": "10 April",
-      "timeLabel": "16:00",
-      "isLive": false,
-      "leagueLabel": "Bulgaria. First League",
-      "iconUrl": "https://cdn.livetv874.me/img/icons/bg.gif",
-      "iconAlt": "Bulgaria. First League",
-      "sectionLabel": "10 April",
-      "isTopMatch": false,
-      "rawDescription": "10 April at 16:00\n(Bulgaria. First League)",
-      "streams": [],
-      "streamCount": 0
-    },
-    {
-      "id": 5,
-      "title": "TPS – Lahti",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361514384__/",
-      "dateLabel": "10 April",
-      "timeLabel": "16:00",
-      "isLive": false,
-      "leagueLabel": "Finland. Veikkausliiga",
-      "iconUrl": "https://cdn.livetv874.me/img/icons/fi.gif",
-      "iconAlt": "Finland. Veikkausliiga",
-      "sectionLabel": "10 April",
-      "isTopMatch": false,
-      "rawDescription": "10 April at 16:00\n(Finland. Veikkausliiga)",
-      "streams": [],
-      "streamCount": 0
-    },
-    {
-      "id": 6,
-      "title": "Gandzasar – Noah",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/365102250__/",
-      "dateLabel": "10 April",
-      "timeLabel": "16:00",
-      "isLive": false,
-      "leagueLabel": "Armenia. Premier League",
-      "iconUrl": "https://cdn.livetv874.me/img/icons/am.gif",
-      "iconAlt": "Armenia. Premier League",
-      "sectionLabel": "10 April",
-      "isTopMatch": false,
-      "rawDescription": "10 April at 16:00\n(Armenia. Premier League)",
-      "streams": [],
-      "streamCount": 0
-    },
-    {
-      "id": 7,
       "title": "Primorje – Koper",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513951__/",
       "dateLabel": "10 April",
       "timeLabel": "16:30",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Slovenia. PrvaLiga",
       "iconUrl": "https://cdn.livetv874.me/img/icons/si.gif",
       "iconAlt": "Slovenia. PrvaLiga",
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 16:30\n(Slovenia. PrvaLiga)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253660&lang=en&eid=361513951&lid=2991567&ci=268&si=1",
-          "language": "Serbian",
-          "bitrate": "761kbps"
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994508&lang=en&eid=361513951&lid=2994508&ci=268&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 3,
-          "label": "Stream 6",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=35575a31d76f6c5f5e9e6364dacfdeca3b85f2ee&lang=en&eid=361513951&lid=2994158&ci=268&si=1",
-          "language": "Slovak",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 3
+      "streams": [],
+      "streamCount": 0
     },
     {
-      "id": 8,
+      "id": 3,
       "title": "Puskas – Gyori ETO",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511944__/",
       "dateLabel": "10 April",
@@ -173,13 +56,13 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253761&lang=en&eid=361511944&lid=2993291&ci=46&si=1",
           "language": "Hungarian",
-          "bitrate": "960kbps"
+          "bitrate": "961kbps"
         }
       ],
       "streamCount": 1
     },
     {
-      "id": 9,
+      "id": 4,
       "title": "Posusje – Siroki Brijeg",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511776__/",
       "dateLabel": "10 April",
@@ -203,7 +86,7 @@
       "streamCount": 1
     },
     {
-      "id": 10,
+      "id": 5,
       "title": "Hermannstadt – Farul",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513858__/",
       "dateLabel": "10 April",
@@ -220,7 +103,7 @@
           "id": 1,
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993549&lang=en&eid=361513858&lid=2993549&ci=23&si=1",
-          "language": "Romanian",
+          "language": "Serbian",
           "bitrate": null
         },
         {
@@ -234,7 +117,7 @@
       "streamCount": 2
     },
     {
-      "id": 11,
+      "id": 6,
       "title": "SJK – Mariehamn",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514385__/",
       "dateLabel": "10 April",
@@ -258,7 +141,7 @@
       "streamCount": 1
     },
     {
-      "id": 12,
+      "id": 7,
       "title": "Polonia Warsaw – Slask",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513618__/",
       "dateLabel": "10 April",
@@ -274,15 +157,15 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994520&lang=en&eid=361513618&lid=2994520&ci=593&si=1",
-          "language": null,
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993688&lang=en&eid=361513618&lid=2993688&ci=593&si=1",
+          "language": "Polish",
           "bitrate": null
         },
         {
           "id": 2,
           "label": "Stream 3",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993688&lang=en&eid=361513618&lid=2993688&ci=593&si=1",
-          "language": "Polish",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994520&lang=en&eid=361513618&lid=2994520&ci=593&si=1",
+          "language": null,
           "bitrate": null
         },
         {
@@ -296,7 +179,7 @@
       "streamCount": 3
     },
     {
-      "id": 13,
+      "id": 8,
       "title": "Flora U-21 – Tallinn",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514923__/",
       "dateLabel": "10 April",
@@ -320,7 +203,7 @@
       "streamCount": 1
     },
     {
-      "id": 14,
+      "id": 9,
       "title": "Stripfing – Austria Vienna II",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511349__/",
       "dateLabel": "10 April",
@@ -336,7 +219,7 @@
       "streamCount": 0
     },
     {
-      "id": 15,
+      "id": 10,
       "title": "Rapid Vienna II – Hertha Wels",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511350__/",
       "dateLabel": "10 April",
@@ -360,7 +243,7 @@
       "streamCount": 1
     },
     {
-      "id": 16,
+      "id": 11,
       "title": "Amstetten – Bregenz",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511351__/",
       "dateLabel": "10 April",
@@ -376,22 +259,22 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994524&lang=en&eid=361511351&lid=2994524&ci=148&si=1",
-          "language": "German",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994522&lang=en&eid=361511351&lid=2994522&ci=148&si=1",
+          "language": null,
           "bitrate": null
         },
         {
           "id": 2,
           "label": "Stream 3",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994522&lang=en&eid=361511351&lid=2994522&ci=148&si=1",
-          "language": null,
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994524&lang=en&eid=361511351&lid=2994524&ci=148&si=1",
+          "language": "German",
           "bitrate": null
         }
       ],
       "streamCount": 2
     },
     {
-      "id": 17,
+      "id": 12,
       "title": "Klagenfurt – KSV 1919",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511352__/",
       "dateLabel": "10 April",
@@ -429,7 +312,7 @@
       "streamCount": 3
     },
     {
-      "id": 18,
+      "id": 13,
       "title": "Wisla Plock – Lechia Gdansk",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513676__/",
       "dateLabel": "10 April",
@@ -447,7 +330,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253652&lang=en&eid=361513676&lid=2991417&ci=27&si=1",
           "language": "Croatian",
-          "bitrate": "975kbps"
+          "bitrate": "974kbps"
         },
         {
           "id": 2,
@@ -481,7 +364,7 @@
       "streamCount": 5
     },
     {
-      "id": 19,
+      "id": 14,
       "title": "Hobro – AaB",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512183__/",
       "dateLabel": "10 April",
@@ -505,7 +388,7 @@
       "streamCount": 1
     },
     {
-      "id": 20,
+      "id": 15,
       "title": "Riteriai – Zalgiris",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513006__/",
       "dateLabel": "10 April",
@@ -529,7 +412,7 @@
       "streamCount": 1
     },
     {
-      "id": 21,
+      "id": 16,
       "title": "Karlsruhe – Arminia",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512004__/",
       "dateLabel": "10 April",
@@ -547,14 +430,14 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=251375&lang=en&eid=361512004&lid=2978067&ci=31&si=1",
           "language": "Russian",
-          "bitrate": "992kbps"
+          "bitrate": "991kbps"
         },
         {
           "id": 2,
           "label": "Stream 4",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253656&lang=en&eid=361512004&lid=2991560&ci=31&si=1",
           "language": "Serbian",
-          "bitrate": "985kbps"
+          "bitrate": "975kbps"
         },
         {
           "id": 3,
@@ -568,35 +451,35 @@
           "label": "Stream 8",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253928&lang=en&eid=361512004&lid=2993892&ci=31&si=1",
           "language": "German",
-          "bitrate": "981kbps"
+          "bitrate": "974kbps"
         },
         {
           "id": 5,
           "label": "Stream 10",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254064&lang=en&eid=361512004&lid=2994135&ci=31&si=1",
           "language": "German",
-          "bitrate": "1017kbps"
+          "bitrate": "1010kbps"
         },
         {
           "id": 6,
           "label": "Stream 12",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254070&lang=en&eid=361512004&lid=2994138&ci=31&si=1",
           "language": "German",
-          "bitrate": "988kbps"
+          "bitrate": "984kbps"
         },
         {
           "id": 7,
           "label": "Stream 14",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=227619&lang=en&eid=361512004&lid=2994531&ci=31&si=1",
           "language": "German",
-          "bitrate": "1968kbps"
+          "bitrate": "1970kbps"
         },
         {
           "id": 8,
           "label": "Stream 16",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=237231&lang=en&eid=361512004&lid=2983386&ci=31&si=1",
           "language": "Russian",
-          "bitrate": "1968kbps"
+          "bitrate": "1970kbps"
         },
         {
           "id": 9,
@@ -658,7 +541,7 @@
       "streamCount": 16
     },
     {
-      "id": 22,
+      "id": 17,
       "title": "Fortuna – Holstein Kiel",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512005__/",
       "dateLabel": "10 April",
@@ -683,21 +566,21 @@
           "label": "Stream 3",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254062&lang=en&eid=361512005&lid=2994132&ci=31&si=1",
           "language": "German",
-          "bitrate": "987kbps"
+          "bitrate": "981kbps"
         },
         {
           "id": 3,
           "label": "Stream 5",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254073&lang=en&eid=361512005&lid=2994133&ci=31&si=1",
           "language": "German",
-          "bitrate": "985kbps"
+          "bitrate": "975kbps"
         },
         {
           "id": 4,
           "label": "Stream 7",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=227381&lang=en&eid=361512005&lid=2994532&ci=31&si=1",
           "language": "German",
-          "bitrate": "1976kbps"
+          "bitrate": "1974kbps"
         },
         {
           "id": 5,
@@ -745,7 +628,7 @@
       "streamCount": 10
     },
     {
-      "id": 23,
+      "id": 18,
       "title": "Chomutov – Ujezd Praha 4",
       "eventUrl": "https://livetv.sx/enx/eventinfo/365947474__/",
       "dateLabel": "10 April",
@@ -761,7 +644,7 @@
       "streamCount": 0
     },
     {
-      "id": 24,
+      "id": 19,
       "title": "Al Ain – Shabab Al Ahli",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513571__/",
       "dateLabel": "10 April",
@@ -785,7 +668,7 @@
       "streamCount": 1
     },
     {
-      "id": 25,
+      "id": 20,
       "title": "KamAZ – Neftekhimik",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366328717__/",
       "dateLabel": "10 April",
@@ -803,14 +686,14 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=237992&lang=en&eid=366328717&lid=2984047&ci=65&si=1",
           "language": "Russian",
-          "bitrate": "996kbps"
+          "bitrate": "993kbps"
         },
         {
           "id": 2,
           "label": "Stream 4",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254032&lang=en&eid=366328717&lid=2994150&ci=65&si=1",
           "language": "Russian",
-          "bitrate": "895kbps"
+          "bitrate": "889kbps"
         },
         {
           "id": 3,
@@ -837,7 +720,7 @@
       "streamCount": 5
     },
     {
-      "id": 26,
+      "id": 21,
       "title": "Simulcast",
       "eventUrl": "https://livetv.sx/enx/eventinfo/363208385_simulcast/",
       "dateLabel": "10 April",
@@ -855,14 +738,14 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254061&lang=en&eid=363208385&lid=2994130&ci=31&si=1",
           "language": "German",
-          "bitrate": "995kbps"
+          "bitrate": "987kbps"
         },
         {
           "id": 2,
           "label": "Stream 4",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=227403&lang=en&eid=363208385&lid=2994530&ci=31&si=1",
           "language": "German",
-          "bitrate": "1983kbps"
+          "bitrate": "1984kbps"
         },
         {
           "id": 3,
@@ -889,7 +772,7 @@
       "streamCount": 5
     },
     {
-      "id": 27,
+      "id": 22,
       "title": "HB Koege – Middelfart",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512184__/",
       "dateLabel": "10 April",
@@ -913,7 +796,7 @@
       "streamCount": 1
     },
     {
-      "id": 28,
+      "id": 23,
       "title": "AGF – Nordsjaelland",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512203__/",
       "dateLabel": "10 April",
@@ -944,7 +827,7 @@
       "streamCount": 2
     },
     {
-      "id": 29,
+      "id": 24,
       "title": "Minsk – Neman",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511698__/",
       "dateLabel": "10 April",
@@ -968,7 +851,7 @@
       "streamCount": 1
     },
     {
-      "id": 30,
+      "id": 25,
       "title": "Hassleholms IF – Rosengard",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514789__/",
       "dateLabel": "10 April",
@@ -992,7 +875,7 @@
       "streamCount": 1
     },
     {
-      "id": 31,
+      "id": 26,
       "title": "Besiktas – Antalyaspor",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514288__/",
       "dateLabel": "10 April",
@@ -1017,21 +900,21 @@
           "label": "Stream 3",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253704&lang=en&eid=361514288&lid=2992935&ci=92&si=1",
           "language": "Russian",
-          "bitrate": "989kbps"
+          "bitrate": "988kbps"
         },
         {
           "id": 3,
           "label": "Stream 5",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253753&lang=en&eid=361514288&lid=2993099&ci=92&si=1",
           "language": "Turkish",
-          "bitrate": "991kbps"
+          "bitrate": "986kbps"
         },
         {
           "id": 4,
           "label": "Stream 7",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=237150&lang=en&eid=361514288&lid=2940372&ci=92&si=1",
           "language": "Russian",
-          "bitrate": "1976kbps"
+          "bitrate": "1974kbps"
         },
         {
           "id": 5,
@@ -1086,7 +969,7 @@
       "streamCount": 11
     },
     {
-      "id": 32,
+      "id": 27,
       "title": "Hoffenheim II – Schweinfurt",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512033__/",
       "dateLabel": "10 April",
@@ -1111,7 +994,7 @@
           "label": "Stream 3",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253711&lang=en&eid=361512033&lid=2991953&ci=135&si=1",
           "language": "German",
-          "bitrate": "1003kbps"
+          "bitrate": "972kbps"
         },
         {
           "id": 3,
@@ -1131,7 +1014,7 @@
       "streamCount": 4
     },
     {
-      "id": 33,
+      "id": 28,
       "title": "VPS – Jaro",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514386__/",
       "dateLabel": "10 April",
@@ -1155,7 +1038,7 @@
       "streamCount": 1
     },
     {
-      "id": 34,
+      "id": 29,
       "title": "Paris – AS Monaco",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514428__/",
       "dateLabel": "10 April",
@@ -1173,84 +1056,84 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253626&lang=en&eid=361514428&lid=2991261&ci=37&si=1",
           "language": "English",
-          "bitrate": "987kbps"
+          "bitrate": "989kbps"
         },
         {
           "id": 2,
           "label": "Stream 4",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253785&lang=en&eid=361514428&lid=2991401&ci=37&si=1",
           "language": "English",
-          "bitrate": "985kbps"
+          "bitrate": "984kbps"
         },
         {
           "id": 3,
           "label": "Stream 6",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994546&lang=en&eid=361514428&lid=2994546&ci=37&si=1",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993564&lang=en&eid=361514428&lid=2993564&ci=37&si=1",
           "language": "English",
           "bitrate": null
         },
         {
           "id": 4,
           "label": "Stream 7",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2992680&lang=en&eid=361514428&lid=2992680&ci=37&si=1",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993159&lang=en&eid=361514428&lid=2993159&ci=37&si=1",
           "language": "English",
           "bitrate": null
         },
         {
           "id": 5,
           "label": "Stream 8",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993564&lang=en&eid=361514428&lid=2993564&ci=37&si=1",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2992688&lang=en&eid=361514428&lid=2992688&ci=37&si=1",
           "language": "English",
           "bitrate": null
         },
         {
           "id": 6,
           "label": "Stream 9",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993159&lang=en&eid=361514428&lid=2993159&ci=37&si=1",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994546&lang=en&eid=361514428&lid=2994546&ci=37&si=1",
           "language": "English",
           "bitrate": null
         },
         {
           "id": 7,
           "label": "Stream 10",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2992688&lang=en&eid=361514428&lid=2992688&ci=37&si=1",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2992680&lang=en&eid=361514428&lid=2992680&ci=37&si=1",
           "language": "English",
           "bitrate": null
         },
         {
           "id": 8,
           "label": "Stream 11",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253712&lang=en&eid=361514428&lid=2991384&ci=37&si=1",
-          "language": "German",
-          "bitrate": "986kbps"
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=250739&lang=en&eid=361514428&lid=2969752&ci=37&si=1",
+          "language": "Russian",
+          "bitrate": "991kbps"
         },
         {
           "id": 9,
           "label": "Stream 13",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=250739&lang=en&eid=361514428&lid=2969752&ci=37&si=1",
-          "language": "Russian",
-          "bitrate": "991kbps"
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253659&lang=en&eid=361514428&lid=2991565&ci=37&si=1",
+          "language": "Serbian",
+          "bitrate": "965kbps"
         },
         {
           "id": 10,
           "label": "Stream 15",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253690&lang=en&eid=361514428&lid=2994179&ci=37&si=1",
           "language": "French",
-          "bitrate": "109kbps"
+          "bitrate": "107kbps"
         },
         {
           "id": 11,
           "label": "Stream 17",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253718&lang=en&eid=361514428&lid=2991386&ci=37&si=1",
-          "language": "Portuguese",
-          "bitrate": "996kbps"
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253712&lang=en&eid=361514428&lid=2991384&ci=37&si=1",
+          "language": "German",
+          "bitrate": "987kbps"
         },
         {
           "id": 12,
           "label": "Stream 19",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=244433&lang=en&eid=361514428&lid=2994605&ci=37&si=1",
-          "language": null,
-          "bitrate": "1329kbps"
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253718&lang=en&eid=361514428&lid=2991386&ci=37&si=1",
+          "language": "Portuguese",
+          "bitrate": "998kbps"
         },
         {
           "id": 13,
@@ -1276,50 +1159,57 @@
         {
           "id": 16,
           "label": "Stream 27",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=244433&lang=en&eid=361514428&lid=2994605&ci=37&si=1",
+          "language": "French",
+          "bitrate": "1327kbps"
+        },
+        {
+          "id": 17,
+          "label": "Stream 29",
           "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2661162&lang=en&eid=361514428&lid=2661162&ci=37&si=1",
           "language": "French",
           "bitrate": null
         },
         {
-          "id": 17,
-          "label": "Stream 28",
+          "id": 18,
+          "label": "Stream 30",
           "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993942&lang=en&eid=361514428&lid=2993942&ci=37&si=1",
           "language": "Spanish",
           "bitrate": null
         },
         {
-          "id": 18,
-          "label": "Stream 29",
+          "id": 19,
+          "label": "Stream 31",
           "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2959750&lang=en&eid=361514428&lid=2959750&ci=37&si=1",
           "language": "French",
           "bitrate": null
         },
         {
-          "id": 19,
-          "label": "Stream 31",
+          "id": 20,
+          "label": "Stream 33",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=897e73c9d578848f596585314ecb9ae067c0e229&lang=en&eid=361514428&lid=2990906&ci=37&si=1",
           "language": "English",
           "bitrate": "8000kbps"
         },
         {
-          "id": 20,
-          "label": "Stream 33",
+          "id": 21,
+          "label": "Stream 35",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=350b2044f1c9e87e18d8fbda1bcc456c22cf9296&lang=en&eid=361514428&lid=2844729&ci=37&si=1",
           "language": "Russian",
           "bitrate": "8000kbps"
         },
         {
-          "id": 21,
-          "label": "Stream 35",
+          "id": 22,
+          "label": "Stream 37",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=458a0ddd7d193f6d2750cd14d03a47f47a808e09&lang=en&eid=361514428&lid=2860045&ci=37&si=1",
           "language": "Polish",
           "bitrate": "8000kbps"
         }
       ],
-      "streamCount": 21
+      "streamCount": 22
     },
     {
-      "id": 35,
+      "id": 30,
       "title": "Esbjerg – Hvidovre",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512185__/",
       "dateLabel": "10 April",
@@ -1343,7 +1233,7 @@
       "streamCount": 1
     },
     {
-      "id": 36,
+      "id": 31,
       "title": "Xamax – Stade Nyonnais",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514760__/",
       "dateLabel": "10 April",
@@ -1367,7 +1257,7 @@
       "streamCount": 1
     },
     {
-      "id": 37,
+      "id": 32,
       "title": "Karlberg – Enkoeping",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514773__/",
       "dateLabel": "10 April",
@@ -1391,7 +1281,7 @@
       "streamCount": 1
     },
     {
-      "id": 38,
+      "id": 33,
       "title": "RB Salzburg – LASK",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511363__/",
       "dateLabel": "10 April",
@@ -1409,14 +1299,14 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253628&lang=en&eid=361511363&lid=2992377&ci=116&si=1",
           "language": "German",
-          "bitrate": "958kbps"
+          "bitrate": "971kbps"
         },
         {
           "id": 2,
           "label": "Stream 4",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253697&lang=en&eid=361511363&lid=2994166&ci=116&si=1",
           "language": "Russian",
-          "bitrate": "993kbps"
+          "bitrate": "943kbps"
         },
         {
           "id": 3,
@@ -1436,7 +1326,7 @@
       "streamCount": 4
     },
     {
-      "id": 39,
+      "id": 34,
       "title": "Valenciennes – Versailles",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514471__/",
       "dateLabel": "10 April",
@@ -1460,7 +1350,7 @@
       "streamCount": 1
     },
     {
-      "id": 40,
+      "id": 35,
       "title": "Stade Briochin – Villefranche",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514472__/",
       "dateLabel": "10 April",
@@ -1484,7 +1374,7 @@
       "streamCount": 1
     },
     {
-      "id": 41,
+      "id": 36,
       "title": "Sochaux – Fleury 91",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514473__/",
       "dateLabel": "10 April",
@@ -1508,7 +1398,7 @@
       "streamCount": 1
     },
     {
-      "id": 42,
+      "id": 37,
       "title": "Rouen – Ajaccio",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514474__/",
       "dateLabel": "10 April",
@@ -1524,7 +1414,7 @@
       "streamCount": 0
     },
     {
-      "id": 43,
+      "id": 38,
       "title": "Paris 13 – Caen",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514475__/",
       "dateLabel": "10 April",
@@ -1548,7 +1438,7 @@
       "streamCount": 1
     },
     {
-      "id": 44,
+      "id": 39,
       "title": "Orleans – Concarneau",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514476__/",
       "dateLabel": "10 April",
@@ -1572,7 +1462,7 @@
       "streamCount": 1
     },
     {
-      "id": 45,
+      "id": 40,
       "title": "Le Puy – Aubagne",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514477__/",
       "dateLabel": "10 April",
@@ -1596,7 +1486,7 @@
       "streamCount": 1
     },
     {
-      "id": 46,
+      "id": 41,
       "title": "Dijon – Bourg-en-Bresse P",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514478__/",
       "dateLabel": "10 April",
@@ -1620,7 +1510,7 @@
       "streamCount": 1
     },
     {
-      "id": 47,
+      "id": 42,
       "title": "Chateauroux – Quevilly",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514479__/",
       "dateLabel": "10 April",
@@ -1644,7 +1534,7 @@
       "streamCount": 1
     },
     {
-      "id": 48,
+      "id": 43,
       "title": "Felgueiras – Pacos de Ferreira",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513730__/",
       "dateLabel": "10 April",
@@ -1682,7 +1572,7 @@
       "streamCount": 3
     },
     {
-      "id": 49,
+      "id": 44,
       "title": "Ferencvaros – Diosgyor VTK",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511945__/",
       "dateLabel": "10 April",
@@ -1700,13 +1590,13 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253761&lang=en&eid=361511945&lid=2993291&ci=46&si=1",
           "language": "Hungarian",
-          "bitrate": "960kbps"
+          "bitrate": "961kbps"
         }
       ],
       "streamCount": 1
     },
     {
-      "id": 50,
+      "id": 45,
       "title": "Eupen – Beerschot",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511732__/",
       "dateLabel": "10 April",
@@ -1718,11 +1608,19 @@
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 19:00\n(Belgium. Challenger Pro League)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994627&lang=en&eid=361511732&lid=2994627&ci=694&si=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1
     },
     {
-      "id": 51,
+      "id": 46,
       "title": "Lokeren-Temse – Seraing",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511733__/",
       "dateLabel": "10 April",
@@ -1746,7 +1644,7 @@
       "streamCount": 1
     },
     {
-      "id": 52,
+      "id": 47,
       "title": "Simulcast",
       "eventUrl": "https://livetv.sx/enx/eventinfo/363208294_simulcast/",
       "dateLabel": "10 April",
@@ -1770,7 +1668,7 @@
       "streamCount": 1
     },
     {
-      "id": 53,
+      "id": 48,
       "title": "Manchester City U18 – Blackburn U18",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366339197_manchester_city_u18_blackburn_u18/",
       "dateLabel": "10 April",
@@ -1792,16 +1690,37 @@
         },
         {
           "id": 2,
+          "label": "Stream 3",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993069&lang=en&eid=366339197&lid=2993069&ci=824&si=1",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 3,
           "label": "Stream 4",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2961503&lang=en&eid=366339197&lid=2961503&ci=824&si=1",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 4,
+          "label": "Stream 5",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994620&lang=en&eid=366339197&lid=2994620&ci=824&si=1",
+          "language": null,
+          "bitrate": null
+        },
+        {
+          "id": 5,
+          "label": "Stream 7",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&lang=en&eid=366339197&lid=2987940&ci=824&si=1",
           "language": "English",
           "bitrate": null
         }
       ],
-      "streamCount": 2
+      "streamCount": 5
     },
     {
-      "id": 54,
+      "id": 49,
       "title": "Al-Shabab Riyadh – Al-Ittihad Jeddah",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513879__/",
       "dateLabel": "10 April",
@@ -1817,7 +1736,7 @@
       "streamCount": 0
     },
     {
-      "id": 55,
+      "id": 50,
       "title": "Twente – Volendam",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513381__/",
       "dateLabel": "10 April",
@@ -1835,20 +1754,20 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253762&lang=en&eid=361513381&lid=2994289&ci=22&si=1",
           "language": "Dutch",
-          "bitrate": null
+          "bitrate": "976kbps"
         },
         {
           "id": 2,
           "label": "Stream 4",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994616&lang=en&eid=361513381&lid=2994616&ci=22&si=1",
-          "language": null,
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993691&lang=en&eid=361513381&lid=2993691&ci=22&si=1",
+          "language": "Dutch",
           "bitrate": null
         },
         {
           "id": 3,
           "label": "Stream 5",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993691&lang=en&eid=361513381&lid=2993691&ci=22&si=1",
-          "language": "Dutch",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994616&lang=en&eid=361513381&lid=2994616&ci=22&si=1",
+          "language": null,
           "bitrate": null
         },
         {
@@ -1862,7 +1781,7 @@
       "streamCount": 4
     },
     {
-      "id": 56,
+      "id": 51,
       "title": "RKC Waalwijk – Emmen",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513410__/",
       "dateLabel": "10 April",
@@ -1881,12 +1800,19 @@
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253767&lang=en&eid=361513410&lid=2994291&ci=165&si=1",
           "language": "Dutch",
           "bitrate": null
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994625&lang=en&eid=361513410&lid=2994625&ci=165&si=1",
+          "language": null,
+          "bitrate": null
         }
       ],
-      "streamCount": 1
+      "streamCount": 2
     },
     {
-      "id": 57,
+      "id": 52,
       "title": "MVV Maastricht – Helmond Sport",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513411__/",
       "dateLabel": "10 April",
@@ -1910,7 +1836,7 @@
       "streamCount": 1
     },
     {
-      "id": 58,
+      "id": 53,
       "title": "Eindhoven – Roda JC",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513412__/",
       "dateLabel": "10 April",
@@ -1928,20 +1854,27 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254099&lang=en&eid=361513412&lid=2994292&ci=165&si=1",
           "language": "Dutch",
-          "bitrate": null
+          "bitrate": "990kbps"
         },
         {
           "id": 2,
-          "label": "Stream 5",
+          "label": "Stream 4",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994626&lang=en&eid=361513412&lid=2994626&ci=165&si=1",
+          "language": null,
+          "bitrate": null
+        },
+        {
+          "id": 3,
+          "label": "Stream 6",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=5f9b19c57195cc28ab81e0ec8cad03b55118687a&lang=en&eid=361513412&lid=2994161&ci=165&si=1",
           "language": "Dutch",
           "bitrate": null
         }
       ],
-      "streamCount": 2
+      "streamCount": 3
     },
     {
-      "id": 59,
+      "id": 54,
       "title": "Den Bosch – Cambuur",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513413__/",
       "dateLabel": "10 April",
@@ -1965,7 +1898,7 @@
       "streamCount": 1
     },
     {
-      "id": 60,
+      "id": 55,
       "title": "Laval – Reims",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514446__/",
       "dateLabel": "10 April",
@@ -1990,7 +1923,7 @@
           "label": "Stream 4",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253994&lang=en&eid=361514446&lid=2993079&ci=32&si=1",
           "language": "French",
-          "bitrate": "109kbps"
+          "bitrate": "990kbps"
         },
         {
           "id": 3,
@@ -2017,7 +1950,7 @@
       "streamCount": 5
     },
     {
-      "id": 61,
+      "id": 56,
       "title": "Guingamp – Grenoble",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514447__/",
       "dateLabel": "10 April",
@@ -2035,7 +1968,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253680&lang=en&eid=361514447&lid=2992533&ci=32&si=1",
           "language": "French",
-          "bitrate": "433kbps"
+          "bitrate": "384kbps"
         },
         {
           "id": 2,
@@ -2062,7 +1995,7 @@
       "streamCount": 4
     },
     {
-      "id": 62,
+      "id": 57,
       "title": "Clermont – Nancy",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514448__/",
       "dateLabel": "10 April",
@@ -2100,7 +2033,7 @@
       "streamCount": 3
     },
     {
-      "id": 63,
+      "id": 58,
       "title": "Annecy – Montpellier",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514449__/",
       "dateLabel": "10 April",
@@ -2138,7 +2071,7 @@
       "streamCount": 3
     },
     {
-      "id": 64,
+      "id": 59,
       "title": "Amiens – Pau",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514450__/",
       "dateLabel": "10 April",
@@ -2162,7 +2095,7 @@
       "streamCount": 1
     },
     {
-      "id": 65,
+      "id": 60,
       "title": "Yverdon – Vaduz",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514761__/",
       "dateLabel": "10 April",
@@ -2186,7 +2119,7 @@
       "streamCount": 1
     },
     {
-      "id": 66,
+      "id": 61,
       "title": "Etoile Carouge – Stade Ls Ouchy",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514762__/",
       "dateLabel": "10 April",
@@ -2198,11 +2131,19 @@
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 19:15\n(Switzerland. Challenge League)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994630&lang=en&eid=361514762&lid=2994630&ci=159&si=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1
     },
     {
-      "id": 67,
+      "id": 62,
       "title": "Ceuta – Real Sociedad B",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512505__/",
       "dateLabel": "10 April",
@@ -2214,11 +2155,19 @@
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 19:30\n(Spain. Segunda Division)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2983701&lang=en&eid=361512505&lid=2983701&ci=10&si=1",
+          "language": "Spanish",
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1
     },
     {
-      "id": 68,
+      "id": 63,
       "title": "Rudar Prijedor – Borac Banja Luka",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511775__/",
       "dateLabel": "10 April",
@@ -2234,7 +2183,7 @@
       "streamCount": 0
     },
     {
-      "id": 69,
+      "id": 64,
       "title": "Frosinone – Palermo",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512566__/",
       "dateLabel": "10 April",
@@ -2246,11 +2195,19 @@
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 19:30\n(Italy. Serie B)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=fce354f24fe26ca527e2c38b14eb7b0c81f756dd&lang=en&eid=361512566&lid=2851197&ci=48&si=1",
+          "language": "Russian",
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1
     },
     {
-      "id": 70,
+      "id": 65,
       "title": "Augsburg – Hoffenheim",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512082__/",
       "dateLabel": "10 April",
@@ -2262,11 +2219,201 @@
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 19:30\n(Germany. Bundesliga)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2697230&lang=en&eid=361512082&lid=2697230&ci=36&si=1",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 2,
+          "label": "Stream 3",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994574&lang=en&eid=361512082&lid=2994574&ci=36&si=1",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 3,
+          "label": "Stream 4",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=251375&lang=en&eid=361512082&lid=2978067&ci=36&si=1",
+          "language": "Russian",
+          "bitrate": "990kbps"
+        },
+        {
+          "id": 4,
+          "label": "Stream 6",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253068&lang=en&eid=361512082&lid=2978729&ci=36&si=1",
+          "language": "Ukrainian",
+          "bitrate": "961kbps"
+        },
+        {
+          "id": 5,
+          "label": "Stream 8",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253656&lang=en&eid=361512082&lid=2991560&ci=36&si=1",
+          "language": "Serbian",
+          "bitrate": "954kbps"
+        },
+        {
+          "id": 6,
+          "label": "Stream 10",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253861&lang=en&eid=361512082&lid=2991921&ci=36&si=1",
+          "language": "German",
+          "bitrate": "991kbps"
+        },
+        {
+          "id": 7,
+          "label": "Stream 12",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253928&lang=en&eid=361512082&lid=2993892&ci=36&si=1",
+          "language": "German",
+          "bitrate": "976kbps"
+        },
+        {
+          "id": 8,
+          "label": "Stream 14",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254059&lang=en&eid=361512082&lid=2994127&ci=36&si=1",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 9,
+          "label": "Stream 16",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254089&lang=en&eid=361512082&lid=2994128&ci=36&si=1",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 10,
+          "label": "Stream 18",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254093&lang=en&eid=361512082&lid=2994280&ci=36&si=1",
+          "language": "Greek",
+          "bitrate": null
+        },
+        {
+          "id": 11,
+          "label": "Stream 20",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=227403&lang=en&eid=361512082&lid=2994530&ci=36&si=1",
+          "language": "German",
+          "bitrate": "1983kbps"
+        },
+        {
+          "id": 12,
+          "label": "Stream 22",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=237231&lang=en&eid=361512082&lid=2983386&ci=36&si=1",
+          "language": "Russian",
+          "bitrate": "1970kbps"
+        },
+        {
+          "id": 13,
+          "label": "Stream 24",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=242327&lang=en&eid=361512082&lid=2982594&ci=36&si=1",
+          "language": "Russian",
+          "bitrate": "2000kbps"
+        },
+        {
+          "id": 14,
+          "label": "Stream 26",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=242328&lang=en&eid=361512082&lid=2968715&ci=36&si=1",
+          "language": "Russian",
+          "bitrate": "5000kbps"
+        },
+        {
+          "id": 15,
+          "label": "Stream 28",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2665491&lang=en&eid=361512082&lid=2665491&ci=36&si=1",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 16,
+          "label": "Stream 29",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2661158&lang=en&eid=361512082&lid=2661158&ci=36&si=1",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 17,
+          "label": "Stream 30",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994633&lang=en&eid=361512082&lid=2994633&ci=36&si=1",
+          "language": null,
+          "bitrate": null
+        },
+        {
+          "id": 18,
+          "label": "Stream 31",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994631&lang=en&eid=361512082&lid=2994631&ci=36&si=1",
+          "language": null,
+          "bitrate": null
+        },
+        {
+          "id": 19,
+          "label": "Stream 32",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994632&lang=en&eid=361512082&lid=2994632&ci=36&si=1",
+          "language": null,
+          "bitrate": null
+        },
+        {
+          "id": 20,
+          "label": "Stream 33",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2988131&lang=en&eid=361512082&lid=2988131&ci=36&si=1",
+          "language": null,
+          "bitrate": null
+        },
+        {
+          "id": 21,
+          "label": "Stream 34",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993552&lang=en&eid=361512082&lid=2993552&ci=36&si=1",
+          "language": "Polish",
+          "bitrate": null
+        },
+        {
+          "id": 22,
+          "label": "Stream 35",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2992576&lang=en&eid=361512082&lid=2992576&ci=36&si=1",
+          "language": null,
+          "bitrate": null
+        },
+        {
+          "id": 23,
+          "label": "Stream 36",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994419&lang=en&eid=361512082&lid=2994419&ci=36&si=1",
+          "language": "Polish",
+          "bitrate": null
+        },
+        {
+          "id": 24,
+          "label": "Stream 38",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=b146ee4b6e16c9df58e27bd02ffd6cea840ff212&lang=en&eid=361512082&lid=2852742&ci=36&si=1",
+          "language": "Polish",
+          "bitrate": "8000kbps"
+        },
+        {
+          "id": 25,
+          "label": "Stream 40",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=dae7d1251f069516cc0a9c8f15f6639d2a17df1e&lang=en&eid=361512082&lid=2856516&ci=36&si=1",
+          "language": "Portuguese",
+          "bitrate": "8000kbps"
+        },
+        {
+          "id": 26,
+          "label": "Stream 42",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=2857b4180b06927798ce3f7acca685ca381c04f5&lang=en&eid=361512082&lid=2994162&ci=36&si=1",
+          "language": "Czech",
+          "bitrate": null
+        },
+        {
+          "id": 27,
+          "label": "Stream 44",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=39cf32e34909771d6aace84a34b6d9d016955137&lang=en&eid=361512082&lid=2994123&ci=36&si=1",
+          "language": "Ukrainian",
+          "bitrate": null
+        }
+      ],
+      "streamCount": 27
     },
     {
-      "id": 71,
+      "id": 66,
       "title": "Odra Opole – Puszcza",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513619__/",
       "dateLabel": "10 April",
@@ -2278,11 +2425,19 @@
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 19:30\n(Poland. I Liga)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=d6f0a6377c31f68b1c1c071e0a8f9f105a455867&lang=en&eid=361513619&lid=2840890&ci=593&si=1",
+          "language": "Polish",
+          "bitrate": "8000kbps"
+        }
+      ],
+      "streamCount": 1
     },
     {
-      "id": 72,
+      "id": 67,
       "title": "UAI Urquiza – Brown de Adrogue",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511602__/",
       "dateLabel": "10 April",
@@ -2298,7 +2453,7 @@
       "streamCount": 0
     },
     {
-      "id": 73,
+      "id": 68,
       "title": "Deportivo Liniers – Flandria",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511606__/",
       "dateLabel": "10 April",
@@ -2314,7 +2469,7 @@
       "streamCount": 0
     },
     {
-      "id": 74,
+      "id": 69,
       "title": "Austria Lustenau – St Poelten",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511353__/",
       "dateLabel": "10 April",
@@ -2326,11 +2481,26 @@
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 19:30\n(Austria. 2. Liga)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2994526&lang=en&eid=361511353&lid=2994526&ci=148&si=1",
+          "language": null,
+          "bitrate": null
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=0dfa37340ca0300a41f7a78bd3a0f024c3296974&lang=en&eid=361511353&lid=2994160&ci=148&si=1",
+          "language": "German",
+          "bitrate": null
+        }
+      ],
+      "streamCount": 2
     },
     {
-      "id": 75,
+      "id": 70,
       "title": "Arsenal de Sarandi – Argentino de Merlo",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511610__/",
       "dateLabel": "10 April",
@@ -2346,7 +2516,7 @@
       "streamCount": 0
     },
     {
-      "id": 76,
+      "id": 71,
       "title": "Alcione – Lecco",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512636__/",
       "dateLabel": "10 April",
@@ -2362,7 +2532,7 @@
       "streamCount": 0
     },
     {
-      "id": 77,
+      "id": 72,
       "title": "Korona Kielce – Jagiellonia",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513677__/",
       "dateLabel": "10 April",
@@ -2374,11 +2544,61 @@
       "sectionLabel": "10 April",
       "isTopMatch": false,
       "rawDescription": "10 April at 19:30\n(Poland. Ekstraklasa)",
-      "streams": [],
-      "streamCount": 0
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253717&lang=en&eid=361513677&lid=2994131&ci=27&si=1",
+          "language": "English",
+          "bitrate": "1000kbps"
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=254084&lang=en&eid=361513677&lid=2994125&ci=27&si=1",
+          "language": "English",
+          "bitrate": "998kbps"
+        },
+        {
+          "id": 3,
+          "label": "Stream 6",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993401&lang=en&eid=361513677&lid=2993401&ci=27&si=1",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 4,
+          "label": "Stream 7",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2661219&lang=en&eid=361513677&lid=2661219&ci=27&si=1",
+          "language": "Polish",
+          "bitrate": null
+        },
+        {
+          "id": 5,
+          "label": "Stream 8",
+          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2988808&lang=en&eid=361513677&lid=2988808&ci=27&si=1",
+          "language": "Polish",
+          "bitrate": null
+        },
+        {
+          "id": 6,
+          "label": "Stream 10",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=5e94200ae8b1d95cb559fb150e5993d92e15d4e7&lang=en&eid=361513677&lid=2992933&ci=27&si=1",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 7,
+          "label": "Stream 12",
+          "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=3e87464ed8c42ed14464461ea08860a3040a8944&lang=en&eid=361513677&lid=2851536&ci=27&si=1",
+          "language": "Polish",
+          "bitrate": null
+        }
+      ],
+      "streamCount": 7
     },
     {
-      "id": 78,
+      "id": 73,
       "title": "Charleroi – Antwerp",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511716__/",
       "dateLabel": "10 April",
@@ -2394,7 +2614,7 @@
       "streamCount": 0
     },
     {
-      "id": 79,
+      "id": 74,
       "title": "Colchester Utd – Swindon",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511485__/",
       "dateLabel": "10 April",
@@ -2410,7 +2630,7 @@
       "streamCount": 0
     },
     {
-      "id": 80,
+      "id": 75,
       "title": "Queen`s Park – Ross County",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514867__/",
       "dateLabel": "10 April",
@@ -2426,7 +2646,7 @@
       "streamCount": 0
     },
     {
-      "id": 81,
+      "id": 76,
       "title": "Roma – Pisa",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512586__/",
       "dateLabel": "10 April",
@@ -2442,7 +2662,7 @@
       "streamCount": 0
     },
     {
-      "id": 82,
+      "id": 77,
       "title": "Dundalk – Derry City",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512420__/",
       "dateLabel": "10 April",
@@ -2458,7 +2678,7 @@
       "streamCount": 0
     },
     {
-      "id": 83,
+      "id": 78,
       "title": "Waterford – Drogheda United",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512421__/",
       "dateLabel": "10 April",
@@ -2474,7 +2694,7 @@
       "streamCount": 0
     },
     {
-      "id": 84,
+      "id": 79,
       "title": "Galway United – Shelbourne",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512422__/",
       "dateLabel": "10 April",
@@ -2490,7 +2710,7 @@
       "streamCount": 0
     },
     {
-      "id": 85,
+      "id": 80,
       "title": "Bohemian – Sligo Rovers",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512423__/",
       "dateLabel": "10 April",
@@ -2506,7 +2726,7 @@
       "streamCount": 0
     },
     {
-      "id": 86,
+      "id": 81,
       "title": "Real Madrid RM – Girona",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512474__/",
       "dateLabel": "10 April",
@@ -2522,7 +2742,7 @@
       "streamCount": 0
     },
     {
-      "id": 87,
+      "id": 82,
       "title": "West Ham United – Wolverhampton",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511505__/",
       "dateLabel": "10 April",
@@ -2538,7 +2758,7 @@
       "streamCount": 0
     },
     {
-      "id": 88,
+      "id": 83,
       "title": "West Bromwich Albion – Millwall",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511545__/",
       "dateLabel": "10 April",
@@ -2554,7 +2774,7 @@
       "streamCount": 0
     },
     {
-      "id": 89,
+      "id": 84,
       "title": "Belouizdad – Zamalek",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512905__/",
       "dateLabel": "10 April",
@@ -2570,7 +2790,7 @@
       "streamCount": 0
     },
     {
-      "id": 90,
+      "id": 85,
       "title": "St Patrick`s Athletic – Shamrock Rovers",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512424__/",
       "dateLabel": "10 April",
@@ -2586,7 +2806,7 @@
       "streamCount": 0
     },
     {
-      "id": 91,
+      "id": 86,
       "title": "Marseille – Metz",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514429__/",
       "dateLabel": "10 April",
@@ -2602,7 +2822,7 @@
       "streamCount": 0
     },
     {
-      "id": 92,
+      "id": 87,
       "title": "Vikingur Reykjavik – Breidablik",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512430__/",
       "dateLabel": "10 April",
@@ -2618,7 +2838,7 @@
       "streamCount": 0
     },
     {
-      "id": 93,
+      "id": 88,
       "title": "Derry City – Dundalk",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512425__/",
       "dateLabel": "10 April",
@@ -2634,7 +2854,7 @@
       "streamCount": 0
     },
     {
-      "id": 94,
+      "id": 89,
       "title": "Famalicao – Moreirense",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513707__/",
       "dateLabel": "10 April",
@@ -2650,7 +2870,7 @@
       "streamCount": 0
     },
     {
-      "id": 95,
+      "id": 90,
       "title": "Venezuela U17 – Peru U17",
       "eventUrl": "https://livetv.sx/enx/eventinfo/365222841_venezuela_u17_peru_u17/",
       "dateLabel": "10 April",
@@ -2666,7 +2886,7 @@
       "streamCount": 0
     },
     {
-      "id": 96,
+      "id": 91,
       "title": "Deportivo Pereira – Once Caldas",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512842__/",
       "dateLabel": "10 April",
@@ -2682,7 +2902,7 @@
       "streamCount": 0
     },
     {
-      "id": 97,
+      "id": 92,
       "title": "Peru (W) – Uruguay (W)",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366400834__/",
       "dateLabel": "10 April",
@@ -2698,7 +2918,7 @@
       "streamCount": 0
     },
     {
-      "id": 98,
+      "id": 93,
       "title": "Peru (W) – Uruguay (W)",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366356366__/",
       "dateLabel": "10 April",
@@ -2714,7 +2934,7 @@
       "streamCount": 0
     },
     {
-      "id": 99,
+      "id": 94,
       "title": "2 de Mayo – Ameliano",
       "eventUrl": "https://livetv.sx/enx/eventinfo/364525093__/",
       "dateLabel": "10 April",
@@ -2730,7 +2950,7 @@
       "streamCount": 0
     },
     {
-      "id": 100,
+      "id": 95,
       "title": "Loudoun United – Louisville City",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514007__/",
       "dateLabel": "10 April",
@@ -2746,7 +2966,7 @@
       "streamCount": 0
     },
     {
-      "id": 101,
+      "id": 96,
       "title": "Deportivo Tachira – Deportivo La Guaira",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511973__/",
       "dateLabel": "10 April",
