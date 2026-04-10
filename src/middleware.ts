@@ -8,7 +8,7 @@ export function middleware(req: NextRequest) {
   if (!req.nextUrl.pathname.startsWith("/api") && !req.nextUrl.pathname.startsWith("/_next") && !req.nextUrl.pathname.includes(".")) {
     trafficLog.push({
       ts: Date.now(),
-      ip: req.ip || req.headers.get("x-forwarded-for") || "?",
+      ip: req.headers.get("x-forwarded-for") || "?",
       path: req.nextUrl.pathname,
     });
     // Keep only last 500 entries
