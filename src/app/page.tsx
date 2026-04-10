@@ -56,9 +56,16 @@ type ResolvedStream = {
 };
 
 type DaySection = {
-  key: "today" | "tomorrow";
+  key: "today";
   label: string;
   matches: Match[];
+};
+
+type TooltipIconProps = {
+  label: string;
+  message: string;
+  align?: "left" | "center" | "right";
+  sizeClassName?: string;
 };
 
 const INITIAL_SECTION_RENDER_COUNT = 20;
@@ -172,6 +179,37 @@ function normalizeDateWithoutYear(value: string | null): string {
   return normalizeDate(value).replace(/\s+\d{4}$/, "").trim();
 }
 
+function TooltipIcon({
+  label,
+  message,
+  align = "center",
+  sizeClassName = "h-8 w-8",
+}: TooltipIconProps) {
+  const positionClassName =
+    align === "left"
+      ? "left-0"
+      : align === "right"
+        ? "right-0"
+        : "left-1/2 -translate-x-1/2";
+
+  return (
+    <div className="group relative flex shrink-0 items-center justify-center">
+      <button
+        type="button"
+        aria-label={label}
+        className={`inline-flex ${sizeClassName} cursor-help items-center justify-center rounded-full text-slate-400 transition-colors hover:text-cyan-200 focus:outline-none focus-visible:text-cyan-200`}
+      >
+        <FiInfo className="h-4 w-4" />
+      </button>
+      <div
+        className={`pointer-events-none absolute top-full z-50 mt-2 w-52 ${positionClassName} rounded-xl border border-slate-700/70 bg-slate-950/95 p-2.5 text-[11px] leading-4.5 text-slate-200 opacity-0 shadow-[0_18px_40px_rgba(2,6,23,0.55)] transition-all duration-150 translate-y-1 group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:translate-y-0 group-focus-within:opacity-100`}
+      >
+        {message}
+      </div>
+    </div>
+  );
+}
+
 export default function Home() {
   const theme = useSystemTheme();
 
@@ -195,12 +233,11 @@ export default function Home() {
   const [modalTab, setModalTab] = useState<"player" | "stats">("player");
   const [forceIframe, setForceIframe] = useState(false);
   const [expandedChannelsByMatch, setExpandedChannelsByMatch] = useState<Record<number, boolean>>({});
-  const [dayView, setDayView] = useState<"today" | "tomorrow">("today");
-  const [matchesViewMode, setMatchesViewMode] = useState<"grid" | "list">("grid");
+  const [dayView, setDayView] = useState<"today">("today");
+  // Removed grid/list view mode
   const [onlyLiveInSchedule, setOnlyLiveInSchedule] = useState(false);
-  const [renderLimitByDay, setRenderLimitByDay] = useState<Record<"today" | "tomorrow", number>>({
+  const [renderLimitByDay, setRenderLimitByDay] = useState<Record<"today", number>>({
     today: INITIAL_SECTION_RENDER_COUNT,
-    tomorrow: INITIAL_SECTION_RENDER_COUNT,
   });
   const [isTopSwiperDragging, setIsTopSwiperDragging] = useState(false);
   const [isAppendingMatches, setIsAppendingMatches] = useState(false);
@@ -248,11 +285,7 @@ export default function Home() {
   }, []);
 
   const today = useMemo(() => formatDateLabel(new Date()), []);
-  const tomorrow = useMemo(() => {
-    const value = new Date();
-    value.setDate(value.getDate() + 1);
-    return formatDateLabel(value);
-  }, []);
+
 
   const topMatches = useMemo(() => {
     if (!topData?.matches?.length) {
@@ -301,20 +334,12 @@ export default function Home() {
 
   const daySections = useMemo(() => {
     const todayKey = normalizeDate(today);
-    const tomorrowKey = normalizeDate(tomorrow);
     const todayKeyNoYear = normalizeDateWithoutYear(today);
-    const tomorrowKeyNoYear = normalizeDateWithoutYear(tomorrow);
 
     const todayMatches = remainingMatches.filter((match) => {
       const value = normalizeDate(match.date);
       const valueNoYear = normalizeDateWithoutYear(match.date);
       return value === "today" || value === todayKey || valueNoYear === todayKeyNoYear;
-    });
-
-    const tomorrowMatches = remainingMatches.filter((match) => {
-      const value = normalizeDate(match.date);
-      const valueNoYear = normalizeDateWithoutYear(match.date);
-      return value === "tomorrow" || value === tomorrowKey || valueNoYear === tomorrowKeyNoYear;
     });
 
     const sections: DaySection[] = [];
@@ -327,16 +352,8 @@ export default function Home() {
       });
     }
 
-    if (tomorrowMatches.length) {
-      sections.push({
-        key: "tomorrow",
-        label: tomorrow,
-        matches: [...tomorrowMatches].sort((a, b) => compareByTime(a.time, b.time, timeShiftMinutes)),
-      });
-    }
-
     return sections;
-  }, [remainingMatches, timeShiftMinutes, today, tomorrow]);
+  }, [remainingMatches, timeShiftMinutes, today]);
 
   const filteredSections = useMemo(() => {
     const query = deferredSearchInput.trim().toLowerCase();
@@ -359,7 +376,6 @@ export default function Home() {
   useEffect(() => {
     setRenderLimitByDay({
       today: INITIAL_SECTION_RENDER_COUNT,
-      tomorrow: INITIAL_SECTION_RENDER_COUNT,
     });
   }, [deferredSearchInput, onlyLiveInSchedule]);
 
@@ -427,7 +443,7 @@ export default function Home() {
 
       setIsAppendingMatches(false);
       appendMatchesTimerRef.current = null;
-      }, 2000);
+    }, 400);
   }, [isAppendingMatches, renderLimitByDay, visibleSections]);
 
   const todayMatchesCount = useMemo(() => {
@@ -435,10 +451,12 @@ export default function Home() {
     return section?.matches.length ?? 0;
   }, [filteredSections]);
 
-  const tomorrowMatchesCount = useMemo(() => {
-    const section = filteredSections.find((item) => item.key === "tomorrow");
-    return section?.matches.length ?? 0;
-  }, [filteredSections]);
+  const selectedDayStats = useMemo(() => {
+    const section = filteredSections.find((item) => item.key === dayView);
+    const total = section?.matches.length ?? 0;
+    const live = section?.matches.filter((match) => Boolean(match.isLive)).length ?? 0;
+    return { total, live };
+  }, [filteredSections, dayView]);
 
   const openStreamModal = useCallback(
     (options: {
@@ -647,18 +665,12 @@ export default function Home() {
           <div className="mb-2 flex items-center justify-between gap-3">
             <div className="flex items-center gap-2">
               <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-300">Top Matches Today · {today}</h2>
-              <div className="group relative">
-                <button
-                  type="button"
-                  aria-label="Top matches refresh info"
-                  className="inline-flex h-7 w-7 cursor-help items-center justify-center rounded-full text-slate-400 transition-colors hover:text-cyan-200 focus:outline-none"
-                >
-                  <FiInfo className="h-4 w-4" />
-                </button>
-                <div className="pointer-events-none absolute left-0 top-full z-40 mt-2 w-64 rounded-xl border border-slate-700/70 bg-slate-950/95 p-3 text-xs leading-5 text-slate-200 opacity-0 shadow-[0_18px_40px_rgba(2,6,23,0.55)] transition-opacity duration-150 group-hover:opacity-100 group-focus-within:opacity-100">
-                  Top matches data updates automatically every 10 minutes.
-                </div>
-              </div>
+              <TooltipIcon
+                label="Top matches refresh info"
+                message="Top matches data updates automatically every 10 minutes."
+                align="left"
+                sizeClassName="h-7 w-7"
+              />
             </div>
           </div>
 
@@ -689,14 +701,6 @@ export default function Home() {
                   <SwiperSlide key={`hero-${match.id}`}>
                     <article className="h-full rounded-xl border border-slate-600/40 bg-linear-to-br from-slate-800/85 to-slate-900/90 p-2.5 shadow-[0_12px_40px_rgba(0,0,0,0.35)]">
                       <div className="flex items-center gap-2">
-                        {match.country.imageUrl ? (
-                          <img
-                            src={match.country.imageUrl}
-                            alt={match.country.name || league}
-                            className="h-5 w-5 rounded object-cover"
-                            loading="lazy"
-                          />
-                        ) : null}
                         <p className="text-[11px] font-semibold uppercase tracking-wide text-cyan-300">{league}</p>
                       </div>
                       <div className="mt-1.5 grid grid-cols-[auto_minmax(0,1fr)] items-center gap-x-3 gap-y-0.5 text-sm font-semibold">
@@ -770,207 +774,167 @@ export default function Home() {
             ref={scheduleScrollRef}
             className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-2 pb-2 pt-0 sm:px-3 [scrollbar-color:rgba(34,211,238,0.5)_rgba(15,23,42,0.7)] [scrollbar-width:thin] [&::-webkit-scrollbar]:w-2.5 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-slate-900/70 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:border-[3px] [&::-webkit-scrollbar-thumb]:border-transparent [&::-webkit-scrollbar-thumb]:bg-cyan-300/45 [&::-webkit-scrollbar-thumb]:bg-clip-padding hover:[&::-webkit-scrollbar-thumb]:bg-cyan-300/65"
           >
-          {isFeedUpdating && !loading ? (
-            <div className="mb-4 flex items-start gap-2 rounded-xl border border-amber-400/40 bg-amber-500/10 px-3 py-2 text-sm text-amber-100">
-              <FiInfo className="mt-0.5 h-4 w-4 shrink-0" />
-              <span>
-                {isFeedActivelyRunning
-                  ? "Updating match feeds right now. Live list may shift for a moment until refresh completes."
-                  : isFeedPreparing
-                    ? "Match feeds will refresh in less than a minute. Live list may update shortly."
-                    : "Feed refresh status changed. Live list may update shortly."}
-              </span>
-            </div>
-          ) : null}
+            {isFeedUpdating && !loading ? (
+              <div className="mb-4 flex items-start gap-2 rounded-xl border border-amber-400/40 bg-amber-500/10 px-3 py-2 text-sm text-amber-100">
+                <FiInfo className="mt-0.5 h-4 w-4 shrink-0" />
+                <span>
+                  {isFeedActivelyRunning
+                    ? "Updating match feeds right now. Live list may shift for a moment until refresh completes."
+                    : isFeedPreparing
+                      ? "Match feeds will refresh in less than a minute. Live list may update shortly."
+                      : "Feed refresh status changed. Live list may update shortly."}
+                </span>
+              </div>
+            ) : null}
 
-          {loading ? (
-            <div className="rounded-2xl border border-slate-700/40 bg-slate-900/40 p-6 text-center text-sm text-slate-300">Loading matches...</div>
-          ) : null}
+            {loading ? (
+              <div className="rounded-2xl border border-slate-700/40 bg-slate-900/40 p-6 text-center text-sm text-slate-300">Loading matches...</div>
+            ) : null}
 
-          {error ? (
-            <p className="mb-4 rounded-xl border border-rose-500/30 bg-rose-500/10 p-3 text-sm text-rose-200">Error: {error}</p>
-          ) : null}
+            {error ? (
+              <p className="mb-4 rounded-xl border border-rose-500/30 bg-rose-500/10 p-3 text-sm text-rose-200">Error: {error}</p>
+            ) : null}
 
-          {!loading && !error ? (
-            visibleSections.length ? (
-              <div className="space-y-4">
-                <div className="sticky top-0 z-30 -mx-2 isolate px-2 pb-3 pt-0 sm:-mx-3 sm:px-3">
-                  <div className="absolute inset-0 -z-10 bg-[#020611]" />
-                  <div className="absolute inset-x-0 -bottom-3 h-6 -z-10 bg-linear-to-b from-[#020611] to-transparent" />
-                  <div className="overflow-hidden rounded-xl border border-slate-700/80 bg-[#040a16] px-3 py-2 shadow-[0_14px_32px_rgba(2,6,23,0.55)]">
-                    <div className="flex flex-wrap items-center justify-between gap-2">
-                      <div className="flex flex-wrap items-center gap-2">
-                        <button
-                          type="button"
-                          onClick={() => setDayView("today")}
-                          className={`cursor-pointer rounded-md border px-3 py-1.5 text-xs font-semibold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(34,211,238,0.22)] ${dayView === "today"
-                            ? "border-cyan-300/75 bg-cyan-400/25 text-cyan-100"
-                            : "border-slate-600/70 bg-slate-800/70 text-slate-300 hover:border-cyan-300/70 hover:text-cyan-100"
-                            }`}
-                        >
-                          Today ({todayMatchesCount})
-                        </button>
-                        <button
-                          type="button"
-                          onClick={() => setDayView("tomorrow")}
-                          className={`cursor-pointer rounded-md border px-3 py-1.5 text-xs font-semibold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(34,211,238,0.22)] ${dayView === "tomorrow"
-                            ? "border-cyan-300/75 bg-cyan-400/25 text-cyan-100"
-                            : "border-slate-600/70 bg-slate-800/70 text-slate-300 hover:border-cyan-300/70 hover:text-cyan-100"
-                            }`}
-                        >
-                          Tomorrow ({tomorrowMatchesCount})
-                        </button>
-                        <div className="group relative">
-                          <button
-                            type="button"
-                            aria-label="Days feed refresh info"
-                            className="inline-flex h-8 w-8 cursor-help items-center justify-center rounded-full text-slate-400 transition-colors hover:text-cyan-200 focus:outline-none"
-                          >
-                            <FiInfo className="h-4 w-4" />
-                          </button>
-                          <div className="pointer-events-none absolute left-0 top-full z-40 mt-2 w-64 rounded-xl border border-slate-700/70 bg-slate-950/95 p-3 text-xs leading-5 text-slate-200 opacity-0 shadow-[0_18px_40px_rgba(2,6,23,0.55)] transition-opacity duration-150 group-hover:opacity-100 group-focus-within:opacity-100">
-                            Days data updates automatically every 15 minutes.
+            {!loading && !error ? (
+              visibleSections.length ? (
+                <div className="space-y-4">
+                  <div className="sticky top-0 z-30 -mx-2 isolate px-2 pb-3 pt-0 sm:-mx-3 sm:px-3">
+                    <div className="absolute inset-0 -z-10 bg-[#020611]" />
+                    <div className="absolute inset-x-0 -bottom-3 h-6 -z-10 bg-linear-to-b from-[#020611] to-transparent" />
+                    <div className="rounded-xl bg-[#040a16] px-3 pt-7 pb-2 shadow-[0_14px_32px_rgba(2,6,23,0.55)]">
+                      <div className="flex flex-wrap items-center justify-between gap-2">
+                        <div className="flex flex-wrap items-center gap-2">
+                          <div className="inline-flex rounded-lg  bg-slate-900/70 p-1 gap-2 shadow-inner">
+                            <button
+                              type="button"
+                              onClick={() => setOnlyLiveInSchedule(false)}
+                              className={`px-3 py-1.5 text-xs font-semibold uppercase tracking-wide rounded-md transition-all duration-200 focus:outline-none ${!onlyLiveInSchedule
+                                ? "border border-cyan-300/75 bg-cyan-400/25 text-cyan-100 shadow-[0_8px_20px_rgba(34,211,238,0.22)]"
+                                : "border border-transparent text-slate-300 hover:border-cyan-300/70 hover:text-cyan-100"
+                                }`}
+                            >
+                              Today ({todayMatchesCount})
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => setOnlyLiveInSchedule(true)}
+                              className={`px-3 py-1.5 text-xs font-semibold uppercase tracking-wide rounded-md transition-all duration-200 focus:outline-none ml-1 flex items-center gap-1.5 ${onlyLiveInSchedule
+                                ? "border border-red-300/70 bg-red-500/25 text-red-100 shadow-[0_8px_22px_rgba(239,68,68,0.28)]"
+                                : "border border-transparent text-red-200 hover:border-red-300/70 hover:text-red-100"
+                                }`}
+                            >
+                              <span className="h-1.5 w-1.5 rounded-full bg-red-400" />
+                              Live {selectedDayStats.live > 0 ? `(${selectedDayStats.live})` : ""}
+                            </button>
                           </div>
-                        </div>
-                      </div>
-
-                      <div className="flex items-center gap-2">
-                        <div className="group relative">
-                          <button
-                            type="button"
-                            aria-label="Content disclaimer"
-                            className="inline-flex h-8 w-8 cursor-help items-center justify-center rounded-full text-slate-400 transition-colors hover:text-cyan-200 focus:outline-none"
-                          >
-                            <FiInfo className="h-4 w-4" />
-                          </button>
-                          <div className="pointer-events-none absolute right-0 top-full z-40 mt-2 w-72 rounded-xl border border-slate-700/70 bg-slate-950/95 p-3 text-xs leading-5 text-slate-200 opacity-0 shadow-[0_18px_40px_rgba(2,6,23,0.55)] transition-opacity duration-150 group-hover:opacity-100 group-focus-within:opacity-100">
-                            I do not own, host, or control any third-party channels or stream content shown here, and I assume no responsibility for what those sources display.
-                          </div>
+                          <TooltipIcon
+                            label="Days feed refresh info"
+                            message="Days data updates automatically every 15 minutes."
+                            align="center"
+                          />
                         </div>
 
-                        <div className="inline-flex rounded-md border border-slate-600/70 bg-slate-900/75 p-0.5">
-                          <button
-                            type="button"
-                            onClick={() => setMatchesViewMode("grid")}
-                            className={`cursor-pointer rounded px-2.5 py-1 text-xs font-semibold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 ${matchesViewMode === "grid"
-                              ? "bg-cyan-400/25 text-cyan-100 shadow-[0_6px_14px_rgba(34,211,238,0.22)]"
-                              : "text-slate-300 hover:text-cyan-100"
-                              }`}
-                          >
-                            Grid
-                          </button>
-                          <button
-                            type="button"
-                            onClick={() => setMatchesViewMode("list")}
-                            className={`cursor-pointer rounded px-2.5 py-1 text-xs font-semibold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 ${matchesViewMode === "list"
-                              ? "bg-cyan-400/25 text-cyan-100 shadow-[0_6px_14px_rgba(34,211,238,0.22)]"
-                              : "text-slate-300 hover:text-cyan-100"
-                              }`}
-                          >
-                            List
-                          </button>
+                        <div className="flex items-center gap-2">
+                          <TooltipIcon
+                            label="Content disclaimer"
+                            message="I do not own, host, or control any third-party channels or stream content shown here, and I assume no responsibility for what those sources display."
+                            align="right"
+                          />
+
+                          {/* Grid/List view removed */}
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                {visibleSections.map((section) => (
-                  <section key={section.label} className="space-y-2">
-                    <div className={matchesViewMode === "grid" ? "grid gap-2 sm:grid-cols-2" : "space-y-2"}>
-                      {section.matches.slice(0, renderLimitByDay[section.key] ?? INITIAL_SECTION_RENDER_COUNT).map((match) => {
-                        const league = getLeagueName(match.title);
-                        const cleanTitle = stripLeaguePrefix(match.title, league);
-                        const [homeTeam, awayTeam] = splitMatchTeams(cleanTitle);
-                        const primaryStream = match.streams[0] || null;
+                  {visibleSections.map((section) => (
+                    <section key={section.label} className="space-y-2">
+                      <div className="grid gap-2 sm:grid-cols-2">
+                        {section.matches.slice(0, renderLimitByDay[section.key] ?? INITIAL_SECTION_RENDER_COUNT).map((match) => {
+                          const league = getLeagueName(match.title);
+                          const cleanTitle = stripLeaguePrefix(match.title, league);
+                          const [homeTeam, awayTeam] = splitMatchTeams(cleanTitle);
+                          const primaryStream = match.streams[0] || null;
 
-                        return (
-                          <article
-                            key={`${section.label}-${match.id}`}
-                            className={`rounded-xl border border-slate-700/50 bg-linear-to-br from-slate-900/70 to-slate-800/40 p-2.5 ${matchesViewMode === "list" ? "w-full" : ""
-                              }`}
-                          >
-                            <div className={`flex gap-3 ${matchesViewMode === "list" ? "flex-col md:flex-row md:items-start md:justify-between" : "items-start justify-between"}`}>
-                              <div className="min-w-0">
-                                <div className="flex items-center gap-2">
-                                  {match.country.imageUrl ? (
-                                    <img
-                                      src={match.country.imageUrl}
-                                      alt={match.country.name || league}
-                                      className="h-5 w-5 rounded object-cover"
-                                      loading="lazy"
-                                    />
-                                  ) : null}
-                                  <p className="text-[11px] font-semibold uppercase tracking-wide text-cyan-300">{league}</p>
-                                </div>
-
-                                <div className="mt-1.5 grid grid-cols-[auto_minmax(0,1fr)] items-center gap-x-3 gap-y-0.5 text-sm font-semibold">
-                                  <div className="row-span-2 inline-flex shrink-0 items-center self-center whitespace-nowrap text-slate-300">
-                                    {match.isLive ? (
-                                      <span className="inline-flex items-center rounded-full border border-red-400/50 bg-red-500/20 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-red-200 animate-pulse">
-                                        Live
-                                      </span>
-                                    ) : (
-                                      <span className="inline-flex items-center gap-1 text-base leading-none">
-                                        <FiClock className="h-3.5 w-3.5" />
-                                        {displayCompactTime(match.time, timeShiftMinutes)}
-                                      </span>
-                                    )}
+                          return (
+                            <article
+                              key={`${section.label}-${match.id}`}
+                              className="rounded-xl border border-slate-700/50 bg-linear-to-br from-slate-900/70 to-slate-800/40 p-2.5"
+                            >
+                              <div className="flex items-start justify-between gap-3">
+                                      {/* Footer removed as requested */}
+                                <div className="min-w-0">
+                                  <div className="flex items-center gap-2">
+                                    <p className="text-[11px] font-semibold uppercase tracking-wide text-cyan-300">{league}</p>
                                   </div>
 
-                                  <p className="min-w-0 truncate leading-5 text-slate-100">{homeTeam}</p>
-                                  <p className="min-w-0 truncate leading-5 text-slate-100">{awayTeam || ""}</p>
+                                  <div className="mt-1.5 grid grid-cols-[auto_minmax(0,1fr)] items-center gap-x-3 gap-y-0.5 text-sm font-semibold">
+                                    <div className="row-span-2 inline-flex shrink-0 items-center self-center whitespace-nowrap text-slate-300">
+                                      {match.isLive ? (
+                                        <span className="inline-flex items-center rounded-full border border-red-400/50 bg-red-500/20 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-red-200 animate-pulse">
+                                          Live
+                                        </span>
+                                      ) : (
+                                        <span className="inline-flex items-center gap-1 text-base leading-none">
+                                          <FiClock className="h-3.5 w-3.5" />
+                                          {displayCompactTime(match.time, timeShiftMinutes)}
+                                        </span>
+                                      )}
+                                    </div>
+
+                                    <p className="min-w-0 truncate leading-5 text-slate-100">{homeTeam}</p>
+                                    <p className="min-w-0 truncate leading-5 text-slate-100">{awayTeam || ""}</p>
+                                  </div>
                                 </div>
                               </div>
-                            </div>
 
-                            <div className="mt-2 flex flex-wrap gap-2">
-                              {match.isLive && primaryStream ? (
-                                <button
-                                  type="button"
-                                  onClick={() =>
-                                    openStreamModal({
-                                      matchTitle: cleanTitle,
-                                      streams: match.streams.map((stream) => ({ name: stream.name, url: stream.url })),
-                                      eventUrl: match.eventUrl,
-                                      stats: match.stats,
-                                    })
-                                  }
-                                  className="inline-flex cursor-pointer items-center gap-1 rounded-md border border-cyan-300/40 bg-cyan-400/10 px-2 py-1 text-xs font-semibold text-cyan-200 hover:bg-cyan-300/20"
-                                >
-                                  <FiTv />
-                                  Watch now
-                                </button>
-                              ) : match.isLive ? (
-                                <span className="inline-flex rounded-md border border-slate-500/40 px-2 py-1 text-xs text-slate-400">No stream</span>
-                              ) : null}
-                            </div>
-                          </article>
-                        );
-                      })}
+                              <div className="mt-2 flex flex-wrap gap-2">
+                                {match.isLive && primaryStream ? (
+                                  <button
+                                    type="button"
+                                    onClick={() =>
+                                      openStreamModal({
+                                        matchTitle: cleanTitle,
+                                        streams: match.streams.map((stream) => ({ name: stream.name, url: stream.url })),
+                                        eventUrl: match.eventUrl,
+                                        stats: match.stats,
+                                      })
+                                    }
+                                    className="inline-flex cursor-pointer items-center gap-1 rounded-md border border-cyan-300/40 bg-cyan-400/10 px-2 py-1 text-xs font-semibold text-cyan-200 hover:bg-cyan-300/20"
+                                  >
+                                    <FiTv />
+                                    Watch now
+                                  </button>
+                                ) : match.isLive ? (
+                                  <span className="inline-flex rounded-md border border-slate-500/40 px-2 py-1 text-xs text-slate-400">No stream</span>
+                                ) : null}
+                              </div>
+                            </article>
+                          );
+                        })}
+                      </div>
+                    </section>
+                  ))}
+
+                  {isAppendingMatches ? (
+                    <div className="flex justify-center py-7">
+                      <div className="inline-flex items-center justify-center gap-2 text-xs text-slate-500">
+                        <span className="h-4 w-4 animate-spin rounded-full border-2 border-slate-700 border-t-cyan-300" />
+                        <span>Loading more matches...</span>
+                      </div>
                     </div>
-                  </section>
-                ))}
+                  ) : null}
 
-                {isAppendingMatches ? (
-                  <div className="flex flex-col items-center justify-center gap-2 py-6">
-                    <span className="h-5 w-5 animate-spin rounded-full border-2 border-slate-700 border-t-cyan-300" />
-                    <span className="text-xs text-slate-500">Loading more matches...</span>
-                  </div>
-                ) : null}
-
-                {hasMoreVisibleMatches ? <div ref={loadMoreSentinelRef} className="h-12 w-full" aria-hidden="true" /> : null}
-              </div>
-            ) : (
-              <div className="rounded-2xl border border-dashed border-slate-700/40 bg-slate-900/40 p-6 text-center text-sm text-slate-300">
-                {onlyLiveInSchedule
-                  ? `No live matches for ${dayView}.`
-                  : dayView === "today"
-                    ? "No matches for today."
-                    : "No matches for tomorrow."}
-              </div>
-            )
-          ) : null}
+                  {hasMoreVisibleMatches ? <div ref={loadMoreSentinelRef} className="h-12 w-full" aria-hidden="true" /> : null}
+                </div>
+              ) : (
+                <div className="rounded-2xl border border-dashed border-slate-700/40 bg-slate-900/40 p-6 text-center text-sm text-slate-300">
+                  {onlyLiveInSchedule
+                    ? `No live matches for today.`
+                    : "No matches for today."}
+                </div>
+              )
+            ) : null}
           </div>
         </div>
       </section>

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-10T11:51:52.766Z",
+  "updatedAt": "2026-04-10T12:21:59.385Z",
   "jobs": {
     "main": {
       "preparing": false,
@@ -19,15 +19,27 @@
       "preparing": false,
       "upcomingAt": null,
       "running": false,
-      "startedAt": "2026-04-10T11:30:01.015Z",
-      "finishedAt": "2026-04-10T11:45:09.447Z",
-      "lastSuccessAt": "2026-04-10T11:45:09.447Z",
+      "startedAt": "2026-04-10T12:15:01.056Z",
+      "finishedAt": "2026-04-10T12:15:10.327Z",
+      "lastSuccessAt": "2026-04-10T12:15:10.327Z",
       "lastError": null,
       "lastCount": 10,
-      "lastDurationMs": 8936,
+      "lastDurationMs": 9271,
       "lastOutputBytes": 4671,
-      "totalRuns": 4,
+      "totalRuns": 6,
       "recentRuns": [
+        {
+          "at": "2026-04-10T12:15:10.327Z",
+          "count": 10,
+          "durationMs": 9271,
+          "outputBytes": 4671
+        },
+        {
+          "at": "2026-04-10T12:00:10.361Z",
+          "count": 10,
+          "durationMs": 9703,
+          "outputBytes": 4671
+        },
         {
           "at": "2026-04-10T11:45:09.447Z",
           "count": 10,
@@ -58,15 +70,27 @@
       "preparing": false,
       "upcomingAt": null,
       "running": false,
-      "startedAt": "2026-04-10T11:45:00.512Z",
-      "finishedAt": "2026-04-10T11:51:52.766Z",
-      "lastSuccessAt": "2026-04-10T11:51:52.766Z",
+      "startedAt": "2026-04-10T12:15:01.057Z",
+      "finishedAt": "2026-04-10T12:21:59.385Z",
+      "lastSuccessAt": "2026-04-10T12:21:59.385Z",
       "lastError": null,
       "lastCount": 500,
-      "lastDurationMs": 412254,
-      "lastOutputBytes": 283506,
-      "totalRuns": 4,
+      "lastDurationMs": 418328,
+      "lastOutputBytes": 281491,
+      "totalRuns": 6,
       "recentRuns": [
+        {
+          "at": "2026-04-10T12:21:59.385Z",
+          "count": 500,
+          "durationMs": 418328,
+          "outputBytes": 281491
+        },
+        {
+          "at": "2026-04-10T12:06:53.124Z",
+          "count": 500,
+          "durationMs": 412466,
+          "outputBytes": 281839
+        },
         {
           "at": "2026-04-10T11:51:52.766Z",
           "count": 500,
