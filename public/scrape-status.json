@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-10T12:54:57.922Z",
+  "updatedAt": "2026-04-10T13:01:51.451Z",
   "jobs": {
     "main": {
       "preparing": false,
@@ -19,15 +19,21 @@
       "preparing": false,
       "upcomingAt": null,
       "running": false,
-      "startedAt": "2026-04-10T12:45:00.749Z",
-      "finishedAt": "2026-04-10T12:45:11.046Z",
-      "lastSuccessAt": "2026-04-10T12:45:11.046Z",
+      "startedAt": "2026-04-10T13:00:01.374Z",
+      "finishedAt": "2026-04-10T13:00:11.370Z",
+      "lastSuccessAt": "2026-04-10T13:00:11.370Z",
       "lastError": null,
       "lastCount": 10,
-      "lastDurationMs": 10298,
+      "lastDurationMs": 9996,
       "lastOutputBytes": 4671,
-      "totalRuns": 8,
+      "totalRuns": 9,
       "recentRuns": [
+        {
+          "at": "2026-04-10T13:00:11.370Z",
+          "count": 10,
+          "durationMs": 9996,
+          "outputBytes": 4671
+        },
         {
           "at": "2026-04-10T12:45:11.046Z",
           "count": 10,
@@ -83,14 +89,20 @@
       "upcomingAt": null,
       "running": false,
       "startedAt": "2026-04-10T12:45:00.747Z",
-      "finishedAt": "2026-04-10T12:52:06.039Z",
-      "lastSuccessAt": "2026-04-10T12:52:06.039Z",
+      "finishedAt": "2026-04-10T13:01:51.451Z",
+      "lastSuccessAt": "2026-04-10T13:01:51.451Z",
       "lastError": null,
-      "lastCount": 500,
-      "lastDurationMs": 425291,
-      "lastOutputBytes": 279301,
-      "totalRuns": 8,
+      "lastCount": 132,
+      "lastDurationMs": 110079,
+      "lastOutputBytes": 76444,
+      "totalRuns": 9,
       "recentRuns": [
+        {
+          "at": "2026-04-10T13:01:51.451Z",
+          "count": 132,
+          "durationMs": 110079,
+          "outputBytes": 76444
+        },
         {
           "at": "2026-04-10T12:52:06.039Z",
           "count": 500,
