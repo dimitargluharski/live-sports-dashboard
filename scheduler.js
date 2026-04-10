@@ -10,11 +10,11 @@
 
 const cron = require("node-cron");
 const { spawn } = require("child_process");
-const path = require("path");
 const simpleGit = require("simple-git");
 
 // Environment setup
 const GITHUB_TOKEN = (process.env.GITHUB_TOKEN || "").trim();
+const GITHUB_OWNER = (process.env.GITHUB_OWNER || "dimitargluharski").trim();
 const GITHUB_REPO = process.env.GITHUB_REPO || "live-sports-dashboard";
 const GIT_AUTHOR_NAME = process.env.GIT_AUTHOR_NAME || "scheduler-bot";
 const GIT_AUTHOR_EMAIL = process.env.GIT_AUTHOR_EMAIL || "scheduler@example.com";
@@ -77,7 +77,7 @@ async function commitAndPush(message) {
     // Push with auth if token available
     if (GITHUB_TOKEN) {
       console.log("Pushing with GitHub token...");
-      const remoteUrl = `https://${GITHUB_TOKEN}@github.com/dimitar qluharski/${GITHUB_REPO}.git`;
+      const remoteUrl = `https://${GITHUB_TOKEN}@github.com/${GITHUB_OWNER}/${GITHUB_REPO}.git`;
       try {
         await git.exec(["remote", "set-url", "origin", remoteUrl]);
       } catch (e) {
@@ -148,6 +148,7 @@ function startup() {
 
   console.log("Configuration:");
   console.log(`  FEED_BASE_URL: ${feedBaseUrl}`);
+  console.log(`  GITHUB_REPO: ${GITHUB_OWNER}/${GITHUB_REPO}`);
   console.log(`  GIT_AUTHOR: ${GIT_AUTHOR_NAME} <${GIT_AUTHOR_EMAIL}>`);
   console.log(`  GitHub Token: ${GITHUB_TOKEN ? "SET" : "NOT SET (git push will fail)"}`);
   console.log("\nSchedule:");

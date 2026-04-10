@@ -1,9 +1,19 @@
-name: Trigger Scrape Cron (GitHub Actions)
+name: Refresh Feeds (GitHub Scheduler)
 
 on:
   schedule:
+    - cron: "*/10 * * * *"
     - cron: "0 */2 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode"
+        required: true
+        default: full
+        type: choice
+        options:
+          - full
+          - top-only
 
 permissions:
   contents: write
@@ -34,7 +44,23 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run feed scrapers
+      - name: Resolve run mode
+        id: mode
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            mode="${{ inputs.mode }}"
+          elif [[ "${{ github.event.schedule }}" == "0 */2 * * *" ]]; then
+            mode="full"
+          else
+            mode="top-only"
+          fi
+
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "Selected mode: $mode"
+
+      - name: Run top feed scraper
         env:
           FEED_BASE_URL: ${{ secrets.FEED_BASE_URL }}
           FEED_HOME_PATH: /enx/
@@ -47,7 +73,23 @@ jobs:
           SCRAPE_DISCORD_WEBHOOK_URL: ${{ secrets.SCRAPE_DISCORD_WEBHOOK_URL }}
         run: |
           set -euo pipefail
-          npm run scrape:feed:refresh
+          npm run scrape:feed:top
+
+      - name: Run day feed scraper
+        if: steps.mode.outputs.mode == 'full'
+        env:
+          FEED_BASE_URL: ${{ secrets.FEED_BASE_URL }}
+          FEED_HOME_PATH: /enx/
+          FEED_EVENT_PATH_SEGMENT: /eventinfo/
+          FEED_INSECURE_TLS: "0"
+          FEED_INSECURE_HOST_REGEX: ${{ vars.FEED_INSECURE_HOST_REGEX }}
+          FEED_TOP_MAX: "10"
+          FEED_DAYS_MAX: ${{ vars.FEED_DAYS_MAX }}
+          FEED_DAYS_WINDOW: "2"
+          SCRAPE_DISCORD_WEBHOOK_URL: ${{ secrets.SCRAPE_DISCORD_WEBHOOK_URL }}
+        run: |
+          set -euo pipefail
+          npm run scrape:feed:days
 
       - name: Commit and push refreshed feeds
         run: |
