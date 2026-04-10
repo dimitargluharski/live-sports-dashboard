@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:vercel": "npm run scrape:feed:all && next build",
+    "build:vercel": "npm run scrape:feed:refresh && next build",
     "start": "next start",
     "lint": "next lint",
     "scrape:feed": "node scripts/scrape-feed-main.js",
