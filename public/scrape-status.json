@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-10T12:30:10.409Z",
+  "updatedAt": "2026-04-10T12:54:57.922Z",
   "jobs": {
     "main": {
       "preparing": false,
@@ -19,15 +19,21 @@
       "preparing": false,
       "upcomingAt": null,
       "running": false,
-      "startedAt": "2026-04-10T12:30:00.539Z",
-      "finishedAt": "2026-04-10T12:30:10.409Z",
-      "lastSuccessAt": "2026-04-10T12:30:10.409Z",
+      "startedAt": "2026-04-10T12:45:00.749Z",
+      "finishedAt": "2026-04-10T12:45:11.046Z",
+      "lastSuccessAt": "2026-04-10T12:45:11.046Z",
       "lastError": null,
       "lastCount": 10,
-      "lastDurationMs": 9871,
+      "lastDurationMs": 10298,
       "lastOutputBytes": 4671,
-      "totalRuns": 7,
+      "totalRuns": 8,
       "recentRuns": [
+        {
+          "at": "2026-04-10T12:45:11.046Z",
+          "count": 10,
+          "durationMs": 10298,
+          "outputBytes": 4671
+        },
         {
           "at": "2026-04-10T12:30:10.409Z",
           "count": 10,
@@ -75,16 +81,28 @@
     "days": {
       "preparing": false,
       "upcomingAt": null,
-      "running": true,
-      "startedAt": "2026-04-10T12:30:00.540Z",
-      "finishedAt": null,
-      "lastSuccessAt": "2026-04-10T12:21:59.385Z",
+      "running": false,
+      "startedAt": "2026-04-10T12:45:00.747Z",
+      "finishedAt": "2026-04-10T12:52:06.039Z",
+      "lastSuccessAt": "2026-04-10T12:52:06.039Z",
       "lastError": null,
       "lastCount": 500,
-      "lastDurationMs": 418328,
-      "lastOutputBytes": 281491,
-      "totalRuns": 6,
+      "lastDurationMs": 425291,
+      "lastOutputBytes": 279301,
+      "totalRuns": 8,
       "recentRuns": [
+        {
+          "at": "2026-04-10T12:52:06.039Z",
+          "count": 500,
+          "durationMs": 425291,
+          "outputBytes": 279301
+        },
+        {
+          "at": "2026-04-10T12:37:10.256Z",
+          "count": 500,
+          "durationMs": 429717,
+          "outputBytes": 280080
+        },
         {
           "at": "2026-04-10T12:21:59.385Z",
           "count": 500,
