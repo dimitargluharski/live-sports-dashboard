@@ -2,398 +2,146 @@
   "source": "https://livetv.sx/enx/",
   "footballPageUrl": "https://livetv.sx/enx/allupcomingsports/1/",
   "section": "Top Matches Today",
-  "scrapedAt": "2026-04-09T22:45:45.048Z",
+  "scrapedAt": "2026-04-10T08:23:03.225Z",
   "count": 10,
   "matches": [
     {
       "id": 1,
-      "title": "Export Sebaco – Real Madriz",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/365727940__/",
-      "dateLabel": "9 April",
-      "timeLabel": "22:00",
-      "isLive": true,
-      "leagueLabel": "Nicaragua. Liga Primera",
+      "title": "Paris – AS Monaco",
+      "eventUrl": "https://livetv.sx/enx/eventinfo/361514428__/",
+      "dateLabel": "10 April",
+      "timeLabel": "18:00",
+      "isLive": false,
+      "leagueLabel": "France. Ligue 1",
       "sectionLabel": "Top Matches Today",
       "isTopMatch": true,
-      "rawDescription": "9 April at 22:00\n(Nicaragua. Liga Primera)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=youtube&c=CKDWNnzoR8U&lang=en&eid=365727940&lid=2993935&ci=2377&si=1",
-          "language": null,
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1
+      "rawDescription": "10 April at 18:00\n(France. Ligue 1)",
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 2,
-      "title": "Itabaiana – Confianca EC",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361511796__/",
-      "dateLabel": "9 April",
-      "timeLabel": "23:00",
-      "isLive": true,
-      "leagueLabel": "Brazil. Copa do Nordeste",
+      "title": "Twente – Volendam",
+      "eventUrl": "https://livetv.sx/enx/eventinfo/361513381__/",
+      "dateLabel": "10 April",
+      "timeLabel": "19:00",
+      "isLive": false,
+      "leagueLabel": "Netherlands. Eredivisie",
       "sectionLabel": "Top Matches Today",
       "isTopMatch": true,
-      "rawDescription": "9 April at 23:00\n(Brazil. Copa do Nordeste)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=youtube&c=3hhPFpJM7EE&lang=en&eid=361511796&lid=2993955&ci=1023&si=1",
-          "language": null,
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1
+      "rawDescription": "10 April at 19:00\n(Netherlands. Eredivisie)",
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 3,
-      "title": "ASA – CRB",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361511797__/",
-      "dateLabel": "9 April",
-      "timeLabel": "23:00",
-      "isLive": true,
-      "leagueLabel": "Brazil. Copa do Nordeste",
+      "title": "Augsburg – Hoffenheim",
+      "eventUrl": "https://livetv.sx/enx/eventinfo/361512082__/",
+      "dateLabel": "10 April",
+      "timeLabel": "19:30",
+      "isLive": false,
+      "leagueLabel": "Germany. Bundesliga",
       "sectionLabel": "Top Matches Today",
       "isTopMatch": true,
-      "rawDescription": "9 April at 23:00\n(Brazil. Copa do Nordeste)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=youtube&c=n2mlImJtdnM&lang=en&eid=361511797&lid=2993959&ci=1023&si=1",
-          "language": null,
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1
+      "rawDescription": "10 April at 19:30\n(Germany. Bundesliga)",
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 4,
-      "title": "Juventud Las Piedras – Cienciano",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361514938__/",
-      "dateLabel": "9 April",
-      "timeLabel": "23:00",
-      "isLive": true,
-      "leagueLabel": "Copa Sudamericana",
+      "title": "Roma – Pisa",
+      "eventUrl": "https://livetv.sx/enx/eventinfo/361512586__/",
+      "dateLabel": "10 April",
+      "timeLabel": "19:45",
+      "isLive": false,
+      "leagueLabel": "Italy. Serie A",
       "sectionLabel": "Top Matches Today",
       "isTopMatch": true,
-      "rawDescription": "9 April at 23:00\n(Copa Sudamericana)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2900408&lang=en&eid=361514938&lid=2900408&ci=131&si=1",
-          "language": "Spanish",
-          "bitrate": "8000kbps"
-        },
-        {
-          "id": 2,
-          "label": "Stream 3",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993963&lang=en&eid=361514938&lid=2993963&ci=131&si=1",
-          "language": null,
-          "bitrate": null
-        }
-      ],
-      "streamCount": 2
+      "rawDescription": "10 April at 19:45\n(Italy. Serie A)",
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 5,
-      "title": "Botafogo-RJ – Caracas",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361514939__/",
-      "dateLabel": "9 April",
-      "timeLabel": "23:00",
-      "isLive": true,
-      "leagueLabel": "Copa Sudamericana",
+      "title": "Real Madrid RM – Girona",
+      "eventUrl": "https://livetv.sx/enx/eventinfo/361512474__/",
+      "dateLabel": "10 April",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Spain. Primera Division",
       "sectionLabel": "Top Matches Today",
       "isTopMatch": true,
-      "rawDescription": "9 April at 23:00\n(Copa Sudamericana)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2665508&lang=en&eid=361514939&lid=2665508&ci=131&si=1",
-          "language": "Portuguese",
-          "bitrate": null
-        },
-        {
-          "id": 2,
-          "label": "Stream 3",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993937&lang=en&eid=361514939&lid=2993937&ci=131&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 3,
-          "label": "Stream 4",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993552&lang=en&eid=361514939&lid=2993552&ci=131&si=1",
-          "language": "Serbian",
-          "bitrate": null
-        },
-        {
-          "id": 4,
-          "label": "Stream 5",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993402&lang=en&eid=361514939&lid=2993402&ci=131&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 5,
-          "label": "Stream 6",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993165&lang=en&eid=361514939&lid=2993165&ci=131&si=1",
-          "language": "Arabic",
-          "bitrate": null
-        },
-        {
-          "id": 6,
-          "label": "Stream 7",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2900408&lang=en&eid=361514939&lid=2900408&ci=131&si=1",
-          "language": "Spanish",
-          "bitrate": "8000kbps"
-        },
-        {
-          "id": 7,
-          "label": "Stream 8",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993962&lang=en&eid=361514939&lid=2993962&ci=131&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 8,
-          "label": "Stream 10",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=acestream&c=92b6ba09dae4bbb8a67a405125d08ca8d15380ee&lang=en&eid=361514939&lid=2842708&ci=131&si=1",
-          "language": "Polish",
-          "bitrate": "8000kbps"
-        }
-      ],
-      "streamCount": 8
+      "rawDescription": "10 April at 20:00\n(Spain. Primera Division)",
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 6,
-      "title": "Universidad Central – Libertad",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361512918__/",
-      "dateLabel": "9 April",
-      "timeLabel": "23:00",
-      "isLive": true,
-      "leagueLabel": "Copa Libertadores",
+      "title": "West Ham United – Wolverhampton",
+      "eventUrl": "https://livetv.sx/enx/eventinfo/361511505__/",
+      "dateLabel": "10 April",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "England. Premier League",
       "sectionLabel": "Top Matches Today",
       "isTopMatch": true,
-      "rawDescription": "9 April at 23:00\n(Copa Libertadores)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253803&lang=en&eid=361512918&lid=2991915&ci=12&si=1",
-          "language": "Spanish",
-          "bitrate": "990kbps"
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253823&lang=en&eid=361512918&lid=2993934&ci=12&si=1",
-          "language": null,
-          "bitrate": "984kbps"
-        },
-        {
-          "id": 3,
-          "label": "Stream 6",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2709944&lang=en&eid=361512918&lid=2709944&ci=12&si=1",
-          "language": "Spanish",
-          "bitrate": null
-        },
-        {
-          "id": 4,
-          "label": "Stream 7",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993945&lang=en&eid=361512918&lid=2993945&ci=12&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 5,
-          "label": "Stream 8",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993965&lang=en&eid=361512918&lid=2993965&ci=12&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 6,
-          "label": "Stream 9",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2986075&lang=en&eid=361512918&lid=2986075&ci=12&si=1",
-          "language": "Spanish",
-          "bitrate": null
-        },
-        {
-          "id": 7,
-          "label": "Stream 10",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993944&lang=en&eid=361512918&lid=2993944&ci=12&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 8,
-          "label": "Stream 11",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2992591&lang=en&eid=361512918&lid=2992591&ci=12&si=1",
-          "language": null,
-          "bitrate": null
-        }
-      ],
-      "streamCount": 8
+      "rawDescription": "10 April at 20:00\n(England. Premier League)",
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 7,
-      "title": "Rosario Central – Independiente",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361512919__/",
-      "dateLabel": "9 April",
-      "timeLabel": "23:00",
-      "isLive": true,
-      "leagueLabel": "Copa Libertadores",
+      "title": "West Bromwich Albion – Millwall",
+      "eventUrl": "https://livetv.sx/enx/eventinfo/361511545__/",
+      "dateLabel": "10 April",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "England. Championship",
       "sectionLabel": "Top Matches Today",
       "isTopMatch": true,
-      "rawDescription": "9 April at 23:00\n(Copa Libertadores)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2661242&lang=en&eid=361512919&lid=2661242&ci=12&si=1",
-          "language": "English",
-          "bitrate": null
-        },
-        {
-          "id": 2,
-          "label": "Stream 3",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2992680&lang=en&eid=361512919&lid=2992680&ci=12&si=1",
-          "language": "English",
-          "bitrate": null
-        },
-        {
-          "id": 3,
-          "label": "Stream 4",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2988046&lang=en&eid=361512919&lid=2988046&ci=12&si=1",
-          "language": "English",
-          "bitrate": null
-        },
-        {
-          "id": 4,
-          "label": "Stream 5",
-          "url": "https://cdn.livetv874.me/webplayer2.php?t=alieztv&c=253825&lang=en&eid=361512919&lid=2991938&ci=12&si=1",
-          "language": "Spanish",
-          "bitrate": "980kbps"
-        },
-        {
-          "id": 5,
-          "label": "Stream 7",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993941&lang=en&eid=361512919&lid=2993941&ci=12&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 6,
-          "label": "Stream 8",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993964&lang=en&eid=361512919&lid=2993964&ci=12&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 7,
-          "label": "Stream 9",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993942&lang=en&eid=361512919&lid=2993942&ci=12&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 8,
-          "label": "Stream 10",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2935637&lang=en&eid=361512919&lid=2935637&ci=12&si=1",
-          "language": "Spanish",
-          "bitrate": null
-        },
-        {
-          "id": 9,
-          "label": "Stream 11",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993549&lang=en&eid=361512919&lid=2993549&ci=12&si=1",
-          "language": "Serbian",
-          "bitrate": null
-        },
-        {
-          "id": 10,
-          "label": "Stream 12",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993943&lang=en&eid=361512919&lid=2993943&ci=12&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 11,
-          "label": "Stream 13",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993939&lang=en&eid=361512919&lid=2993939&ci=12&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 12,
-          "label": "Stream 14",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2992688&lang=en&eid=361512919&lid=2992688&ci=12&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 13,
-          "label": "Stream 15",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2993940&lang=en&eid=361512919&lid=2993940&ci=12&si=1",
-          "language": null,
-          "bitrate": null
-        },
-        {
-          "id": 14,
-          "label": "Stream 16",
-          "url": "https://cdn.livetv874.me/webplayer.php?t=ifr&c=2992592&lang=en&eid=361512919&lid=2992592&ci=12&si=1",
-          "language": "Spanish",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 14
+      "rawDescription": "10 April at 20:00\n(England. Championship)",
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 8,
-      "title": "Gimnasia y Esgrima LP – Deportivo Camioneros",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361140796__/",
+      "title": "Marseille – Metz",
+      "eventUrl": "https://livetv.sx/enx/eventinfo/361514429__/",
       "dateLabel": "10 April",
-      "timeLabel": "1:00",
+      "timeLabel": "20:05",
       "isLive": false,
-      "leagueLabel": "Argentina. Cup",
+      "leagueLabel": "France. Ligue 1",
       "sectionLabel": "Top Matches Today",
       "isTopMatch": true,
-      "rawDescription": "10 April at 1:00\n(Argentina. Cup)",
+      "rawDescription": "10 April at 20:05\n(France. Ligue 1)",
       "streams": [],
       "streamCount": 0
     },
     {
       "id": 9,
-      "title": "Atletico Platense – Corinthians",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361512920__/",
+      "title": "Famalicao – Moreirense",
+      "eventUrl": "https://livetv.sx/enx/eventinfo/361513707__/",
       "dateLabel": "10 April",
-      "timeLabel": "1:00",
+      "timeLabel": "20:45",
       "isLive": false,
-      "leagueLabel": "Copa Libertadores",
+      "leagueLabel": "Portugal. Primeira Liga",
       "sectionLabel": "Top Matches Today",
       "isTopMatch": true,
-      "rawDescription": "10 April at 1:00\n(Copa Libertadores)",
+      "rawDescription": "10 April at 20:45\n(Portugal. Primeira Liga)",
       "streams": [],
       "streamCount": 0
     },
     {
       "id": 10,
-      "title": "Carabobo – RB Bragantino",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361514940__/",
-      "dateLabel": "10 April",
-      "timeLabel": "1:30",
+      "title": "Belgrano – Aldosivi",
+      "eventUrl": "https://livetv.sx/enx/eventinfo/361511665__/",
+      "dateLabel": "11 April",
+      "timeLabel": "1:00",
       "isLive": false,
-      "leagueLabel": "Copa Sudamericana",
+      "leagueLabel": "Argentina. Liga Profesional",
       "sectionLabel": "Top Matches Today",
       "isTopMatch": true,
-      "rawDescription": "10 April at 1:30\n(Copa Sudamericana)",
+      "rawDescription": "11 April at 1:00\n(Argentina. Liga Profesional)",
       "streams": [],
       "streamCount": 0
     }
