@@ -5,31 +5,61 @@ on:
     - cron: "0 */2 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  trigger:
+  scrape:
     environment: Production
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
       - name: Validate required secrets
         env:
-          CRON_TRIGGER_URL: ${{ secrets.CRON_TRIGGER_URL }}
-          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          FEED_BASE_URL: ${{ secrets.FEED_BASE_URL }}
         run: |
-          if [[ -z "$CRON_TRIGGER_URL" ]]; then
-            echo "Missing required secret: CRON_TRIGGER_URL"
+          if [[ -z "$FEED_BASE_URL" ]]; then
+            echo "Missing required secret: FEED_BASE_URL"
             exit 1
           fi
 
-          if [[ -z "$CRON_SECRET" ]]; then
-            echo "Missing required secret: CRON_SECRET"
-            exit 1
-          fi
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Call cron trigger endpoint
+      - name: Run feed scrapers
         env:
-          CRON_TRIGGER_URL: ${{ secrets.CRON_TRIGGER_URL }}
-          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          FEED_BASE_URL: ${{ secrets.FEED_BASE_URL }}
+          FEED_HOME_PATH: ${{ secrets.FEED_HOME_PATH }}
+          FEED_EVENT_PATH_SEGMENT: ${{ secrets.FEED_EVENT_PATH_SEGMENT }}
+          FEED_INSECURE_TLS: ${{ secrets.FEED_INSECURE_TLS }}
+          FEED_INSECURE_HOST_REGEX: ${{ secrets.FEED_INSECURE_HOST_REGEX }}
+          FEED_TOP_MAX: ${{ secrets.FEED_TOP_MAX }}
+          FEED_DAYS_MAX: ${{ secrets.FEED_DAYS_MAX }}
+          FEED_DAYS_WINDOW: ${{ secrets.FEED_DAYS_WINDOW }}
+          SCRAPE_DISCORD_WEBHOOK_URL: ${{ secrets.SCRAPE_DISCORD_WEBHOOK_URL }}
         run: |
           set -euo pipefail
-          curl -fsSL --retry 3 --retry-delay 5 \
-            "${CRON_TRIGGER_URL}?secret=${CRON_SECRET}"
+          npm run scrape:feed:refresh
+
+      - name: Commit and push refreshed feeds
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/matches-feed-top.json public/matches-feed-days.json
+
+          if git diff --cached --quiet; then
+            echo "No feed changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(feed): refresh top and day feeds"
+          git push
