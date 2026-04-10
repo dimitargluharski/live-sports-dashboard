@@ -37,13 +37,13 @@ jobs:
       - name: Run feed scrapers
         env:
           FEED_BASE_URL: ${{ secrets.FEED_BASE_URL }}
-          FEED_HOME_PATH: ${{ secrets.FEED_HOME_PATH }}
-          FEED_EVENT_PATH_SEGMENT: ${{ secrets.FEED_EVENT_PATH_SEGMENT }}
-          FEED_INSECURE_TLS: ${{ secrets.FEED_INSECURE_TLS }}
-          FEED_INSECURE_HOST_REGEX: ${{ secrets.FEED_INSECURE_HOST_REGEX }}
-          FEED_TOP_MAX: ${{ secrets.FEED_TOP_MAX }}
-          FEED_DAYS_MAX: ${{ secrets.FEED_DAYS_MAX }}
-          FEED_DAYS_WINDOW: ${{ secrets.FEED_DAYS_WINDOW }}
+          FEED_HOME_PATH: /enx/
+          FEED_EVENT_PATH_SEGMENT: /eventinfo/
+          FEED_INSECURE_TLS: "0"
+          FEED_INSECURE_HOST_REGEX: ${{ vars.FEED_INSECURE_HOST_REGEX }}
+          FEED_TOP_MAX: "10"
+          FEED_DAYS_MAX: ${{ vars.FEED_DAYS_MAX }}
+          FEED_DAYS_WINDOW: "2"
           SCRAPE_DISCORD_WEBHOOK_URL: ${{ secrets.SCRAPE_DISCORD_WEBHOOK_URL }}
         run: |
           set -euo pipefail
