@@ -20,6 +20,8 @@ type EventsPayload = {
     main: boolean;
     top: boolean;
     days: boolean;
+    topPreparing: boolean;
+    daysPreparing: boolean;
   };
   agendaDate: string | null;
   count: number;
@@ -117,9 +119,9 @@ type FeedPayload = {
 
 type ScrapeStatusPayload = {
   jobs?: {
-    main?: { running?: boolean };
-    top?: { running?: boolean };
-    days?: { running?: boolean };
+    main?: { running?: boolean; preparing?: boolean };
+    top?: { running?: boolean; preparing?: boolean };
+    days?: { running?: boolean; preparing?: boolean };
   };
 };
 
@@ -247,12 +249,16 @@ async function getUpdateState() {
       main: Boolean(payload.jobs?.main?.running),
       top: Boolean(payload.jobs?.top?.running),
       days: Boolean(payload.jobs?.days?.running),
+      topPreparing: Boolean(payload.jobs?.top?.preparing),
+      daysPreparing: Boolean(payload.jobs?.days?.preparing),
     };
   } catch {
     return {
       main: false,
       top: false,
       days: false,
+      topPreparing: false,
+      daysPreparing: false,
     };
   }
 }
@@ -274,7 +280,7 @@ export async function GET(request: Request) {
       return NextResponse.json(
         {
           ...payload,
-          isUpdating: updateState.main || updateState.top || updateState.days,
+          isUpdating: updateState.main || updateState.top || updateState.days || updateState.topPreparing || updateState.daysPreparing,
           updateState,
           count: matches.length,
           matches,
@@ -293,7 +299,7 @@ export async function GET(request: Request) {
       return NextResponse.json(
         {
           ...payload,
-          isUpdating: updateState.top || updateState.main,
+          isUpdating: updateState.top || updateState.main || updateState.topPreparing,
           updateState,
         },
         {
@@ -310,7 +316,7 @@ export async function GET(request: Request) {
       return NextResponse.json(
         {
           ...payload,
-          isUpdating: updateState.days || updateState.main,
+          isUpdating: updateState.days || updateState.main || updateState.daysPreparing,
           updateState,
         },
         {

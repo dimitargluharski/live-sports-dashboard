@@ -2,7 +2,6 @@
 
 import React, { useMemo, useEffect, useState } from "react";
 import { FiInfo, FiTv } from "react-icons/fi";
-// import { StreamPlayerModal } from "../../components/StreamPlayerModal";
 
 type Channel = {
   label: string;
@@ -688,19 +687,6 @@ export default function MatchesPage() {
           </div>
         ) : null}
 
-        {/* <StreamPlayerModal
-          isOpen={Boolean(activeStream)}
-          title={activeStream?.name ?? DEFAULT_STREAM_TITLE}
-          subtitle={activeStream?.matchTitle}
-          iframeUrl={resolvedStream?.playerUrl ?? activeStream?.url ?? ""}
-          mediaUrl={resolvedStream?.mediaUrl}
-          streamUnavailable={Boolean(resolvedStream?.streamUnavailable)}
-          streamUnavailableReason={resolvedStream?.streamUnavailableReason ?? null}
-          resolving={resolving}
-          forceIframe={forceIframe}
-          onForceIframe={() => setForceIframe(true)}
-          onClose={() => setActiveStream(null)}
-        /> */}
       </div>
     </div>
   );

@@ -1,29 +1,97 @@
 {
-  "updatedAt": "2026-04-10T09:06:17.004Z",
+  "updatedAt": "2026-04-10T11:51:52.766Z",
   "jobs": {
     "main": {
-      "running": true,
+      "preparing": false,
+      "upcomingAt": null,
+      "running": false,
       "startedAt": "2026-04-10T09:00:01.147Z",
       "finishedAt": null,
       "lastSuccessAt": null,
       "lastError": null,
-      "lastCount": null
+      "lastCount": null,
+      "lastDurationMs": null,
+      "lastOutputBytes": null,
+      "totalRuns": 0,
+      "recentRuns": []
     },
     "top": {
+      "preparing": false,
+      "upcomingAt": null,
       "running": false,
-      "startedAt": "2026-04-10T09:06:07.745Z",
-      "finishedAt": "2026-04-10T09:06:17.004Z",
-      "lastSuccessAt": "2026-04-10T09:06:17.004Z",
+      "startedAt": "2026-04-10T11:30:01.015Z",
+      "finishedAt": "2026-04-10T11:45:09.447Z",
+      "lastSuccessAt": "2026-04-10T11:45:09.447Z",
       "lastError": null,
-      "lastCount": 10
+      "lastCount": 10,
+      "lastDurationMs": 8936,
+      "lastOutputBytes": 4671,
+      "totalRuns": 4,
+      "recentRuns": [
+        {
+          "at": "2026-04-10T11:45:09.447Z",
+          "count": 10,
+          "durationMs": 8936,
+          "outputBytes": 4671
+        },
+        {
+          "at": "2026-04-10T11:30:11.748Z",
+          "count": 10,
+          "durationMs": 10733,
+          "outputBytes": 4671
+        },
+        {
+          "at": "2026-04-10T11:15:09.457Z",
+          "count": 10,
+          "durationMs": 8955,
+          "outputBytes": 4671
+        },
+        {
+          "at": "2026-04-10T10:45:11.536Z",
+          "count": 10,
+          "durationMs": 10343,
+          "outputBytes": 4671
+        }
+      ]
     },
     "days": {
-      "running": true,
-      "startedAt": "2026-04-10T09:06:10.751Z",
-      "finishedAt": null,
-      "lastSuccessAt": "2026-04-10T08:58:43.458Z",
+      "preparing": false,
+      "upcomingAt": null,
+      "running": false,
+      "startedAt": "2026-04-10T11:45:00.512Z",
+      "finishedAt": "2026-04-10T11:51:52.766Z",
+      "lastSuccessAt": "2026-04-10T11:51:52.766Z",
       "lastError": null,
-      "lastCount": 500
+      "lastCount": 500,
+      "lastDurationMs": 412254,
+      "lastOutputBytes": 283506,
+      "totalRuns": 4,
+      "recentRuns": [
+        {
+          "at": "2026-04-10T11:51:52.766Z",
+          "count": 500,
+          "durationMs": 412254,
+          "outputBytes": 283506
+        },
+        {
+          "at": "2026-04-10T11:36:48.596Z",
+          "count": 500,
+          "durationMs": 407584,
+          "outputBytes": 286757
+        },
+        {
+          "at": "2026-04-10T11:21:50.580Z",
+          "count": 500,
+          "durationMs": 410075,
+          "outputBytes": 287040
+        },
+        {
+          "at": "2026-04-10T10:51:49.682Z",
+          "count": 500,
+          "durationMs": 408488,
+          "outputBytes": 286653
+        }
+      ]
     }
   }
 }

@@ -5,7 +5,7 @@
  * Runs periodic tasks:
  * - Top feed: every 10 minutes
  * - Days feed: every 15 minutes
- * - Main feed: every 60 minutes (optional)
+ * - Main feed: manual only (optional)
  */
 
 const cron = require("node-cron");
@@ -13,6 +13,7 @@ const { spawn } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 const simpleGit = require("simple-git");
+const { clearTransientStates, markJobPreparing } = require("./scripts/scrape-status");
 
 const LOCK_PATH = path.join(process.cwd(), ".scheduler.lock");
 
@@ -246,7 +247,7 @@ async function taskTopFeed() {
 
   try {
     if (NOTIFY_ON_START) {
-      await notifyDiscord("🟡 [Local Scheduler] TOP run started (10m schedule).");
+      await notifyDiscord("🟡 [Local Scheduler] TOP run started (15m schedule).");
     }
     await runScript("scrape:feed:top");
     const gitResult = await commitAndPush("chore(feed): refresh top matches");
@@ -254,20 +255,20 @@ async function taskTopFeed() {
 
     if (gitResult.committed) {
       if (gitResult.reason === "pushed_after_rebase") {
-        await notifyDiscord(`🟢 [Local Scheduler] TOP synced in ${durationSec}s (auto-rebased + pushed).`);
+        await notifyDiscord(`🟢 TOP updated in ${durationSec}s.`);
       } else {
-        await notifyDiscord(`🟢 [Local Scheduler] TOP synced in ${durationSec}s.`);
+        await notifyDiscord(`🟢 TOP updated in ${durationSec}s.`);
       }
     } else if (gitResult.reason === "no_changes") {
       if (NOTIFY_ON_NO_CHANGES) {
-        await notifyDiscord(`ℹ️ [Local Scheduler] TOP checked in ${durationSec}s. No changes.`);
+        await notifyDiscord(`ℹ️ TOP no changes.`);
       }
     } else {
-      await notifyDiscord(`🟠 [Local Scheduler] TOP scrape done in ${durationSec}s, but git sync failed: ${gitResult.error || "Unknown git error"}`);
+      await notifyDiscord(`🟠 TOP sync failed: ${gitResult.error || "Unknown git error"}`);
     }
   } catch (error) {
     console.error("Top feed task failed:", error.message);
-    await notifyDiscord(`🔴 [Local Scheduler] TOP failed: ${error instanceof Error ? error.message : "Unknown error"}`);
+    await notifyDiscord(`🔴 TOP failed: ${error instanceof Error ? error.message : "Unknown error"}`);
   }
 }
 
@@ -288,20 +289,20 @@ async function taskDaysFeed() {
 
     if (gitResult.committed) {
       if (gitResult.reason === "pushed_after_rebase") {
-        await notifyDiscord(`🟢 [Local Scheduler] DAYS synced in ${durationSec}s (auto-rebased + pushed).`);
+        await notifyDiscord(`🟢 DAYS updated in ${durationSec}s.`);
       } else {
-        await notifyDiscord(`🟢 [Local Scheduler] DAYS synced in ${durationSec}s.`);
+        await notifyDiscord(`🟢 DAYS updated in ${durationSec}s.`);
       }
     } else if (gitResult.reason === "no_changes") {
       if (NOTIFY_ON_NO_CHANGES) {
-        await notifyDiscord(`ℹ️ [Local Scheduler] DAYS checked in ${durationSec}s. No changes.`);
+        await notifyDiscord(`ℹ️ DAYS no changes.`);
       }
     } else {
-      await notifyDiscord(`🟠 [Local Scheduler] DAYS scrape done in ${durationSec}s, but git sync failed: ${gitResult.error || "Unknown git error"}`);
+      await notifyDiscord(`🟠 DAYS sync failed: ${gitResult.error || "Unknown git error"}`);
     }
   } catch (error) {
     console.error("Days feed task failed:", error.message);
-    await notifyDiscord(`🔴 [Local Scheduler] DAYS failed: ${error instanceof Error ? error.message : "Unknown error"}`);
+    await notifyDiscord(`🔴 DAYS failed: ${error instanceof Error ? error.message : "Unknown error"}`);
   }
 }
 
@@ -322,20 +323,20 @@ async function taskMainFeed() {
 
     if (gitResult.committed) {
       if (gitResult.reason === "pushed_after_rebase") {
-        await notifyDiscord(`🟢 [Local Scheduler] MAIN synced in ${durationSec}s (auto-rebased + pushed).`);
+        await notifyDiscord(`🟢 MAIN updated in ${durationSec}s.`);
       } else {
-        await notifyDiscord(`🟢 [Local Scheduler] MAIN synced in ${durationSec}s.`);
+        await notifyDiscord(`🟢 MAIN updated in ${durationSec}s.`);
       }
     } else if (gitResult.reason === "no_changes") {
       if (NOTIFY_ON_NO_CHANGES) {
-        await notifyDiscord(`ℹ️ [Local Scheduler] MAIN checked in ${durationSec}s. No changes.`);
+        await notifyDiscord(`ℹ️ MAIN no changes.`);
       }
     } else {
-      await notifyDiscord(`🟠 [Local Scheduler] MAIN scrape done in ${durationSec}s, but git sync failed: ${gitResult.error || "Unknown git error"}`);
+      await notifyDiscord(`🟠 MAIN sync failed: ${gitResult.error || "Unknown git error"}`);
     }
   } catch (error) {
     console.error("Main feed task failed:", error.message);
-    await notifyDiscord(`🔴 [Local Scheduler] MAIN failed: ${error instanceof Error ? error.message : "Unknown error"}`);
+    await notifyDiscord(`🔴 MAIN failed: ${error instanceof Error ? error.message : "Unknown error"}`);
   }
 }
 
@@ -343,6 +344,7 @@ async function taskMainFeed() {
  * Startup: Log configuration and validate env
  */
 function startup() {
+  clearTransientStates();
   console.log("\n╔════════════════════════════════════════════════════════╗");
   console.log("║        Feed Scheduler (Local Host) Started           ║");
   console.log("╚════════════════════════════════════════════════════════╝\n");
@@ -359,49 +361,46 @@ function startup() {
   console.log(`  GIT_AUTHOR: ${GIT_AUTHOR_NAME} <${GIT_AUTHOR_EMAIL}>`);
   console.log(`  GitHub Token: ${GITHUB_TOKEN ? "SET" : "NOT SET (git push will fail)"}`);
   console.log("\nSchedule:");
-  console.log("  Top feed: every 10 minutes");
+  console.log("  Top feed: every 15 minutes");
   console.log("  Days feed: every 15 minutes");
-  console.log("  Main feed: every 60 minutes\n");
+  console.log("  Main feed: manual only\n");
 
   console.log("Ready. Waiting for scheduled tasks...\n");
 
   notifyDiscord(
-    `🟢 [Local Scheduler] Booted successfully for ${GITHUB_OWNER}/${GITHUB_REPO}. Top: 10m, Days: 15m, Main: 60m.`,
+    "🟢 Scheduler started.",
   );
+}
+
+function markUpcomingFeedRefresh() {
+  const startsAt = new Date(Date.now() + 60_000).toISOString();
+  markJobPreparing("top", startsAt);
+  markJobPreparing("days", startsAt);
 }
 
 /**
  * Initialize scheduler tasks
  */
 function initializeScheduler() {
-  // Top feed: every 10 minutes
-  cron.schedule("*/10 * * * *", () => runTaskOnce("top", taskTopFeed), {
+  // Show informational update state one minute before the quarter-hour sync.
+  cron.schedule("14,29,44,59 * * * *", markUpcomingFeedRefresh, {
+    name: "feed-prep",
+    runOnInit: false,
+  });
+
+  // Top feed: every 15 minutes
+  cron.schedule("0,15,30,45 * * * *", () => runTaskOnce("top", taskTopFeed), {
     name: "top-feed",
     runOnInit: false,
   });
 
   // Days feed: every 15 minutes
-  cron.schedule("*/15 * * * *", () => runTaskOnce("days", taskDaysFeed), {
+  cron.schedule("0,15,30,45 * * * *", () => runTaskOnce("days", taskDaysFeed), {
     name: "days-feed",
     runOnInit: false,
   });
 
-  // Main feed: every 60 minutes
-  cron.schedule("0 * * * *", () => runTaskOnce("main", taskMainFeed), {
-    name: "main-feed",
-    runOnInit: false,
-  });
-
   console.log("Cron tasks registered successfully.");
-
-  // One controlled startup sync to avoid duplicate fire near cron boundaries.
-  setTimeout(() => {
-    runTaskOnce("top", taskTopFeed);
-  }, 1500);
-
-  setTimeout(() => {
-    runTaskOnce("days", taskDaysFeed);
-  }, 4500);
 }
 
 /**
@@ -415,17 +414,20 @@ function main() {
   // Graceful shutdown
   process.on("SIGTERM", () => {
     console.log("\nShutdown signal received. Cleaning up...");
+    clearTransientStates();
     releaseLock();
     process.exit(0);
   });
 
   process.on("SIGINT", () => {
     console.log("\nInterrupt signal received. Cleaning up...");
+    clearTransientStates();
     releaseLock();
     process.exit(0);
   });
 
   process.on("exit", () => {
+    clearTransientStates();
     releaseLock();
   });
 }

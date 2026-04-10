@@ -375,6 +375,7 @@ function extractPlayerLinks(eventHtml, eventUrl) {
 }
 
 async function scrapeFeedDaysMatches() {
+  const jobStartMs = Date.now();
   markJobStarted("days");
   if (ALLOW_INSECURE_TLS) {
     console.warn("FEED_INSECURE_TLS=1 is enabled. TLS certificate validation is disabled for this run.");
@@ -425,7 +426,9 @@ async function scrapeFeedDaysMatches() {
 
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
   console.log(`Saved: ${OUTPUT_PATH}`);
-  markJobSucceeded("days", matches.length);
+  const durationMs = Date.now() - jobStartMs;
+  const outputBytes = fs.statSync(OUTPUT_PATH).size;
+  markJobSucceeded("days", matches.length, { durationMs, outputBytes });
 }
 
 scrapeFeedDaysMatches().catch((error) => {

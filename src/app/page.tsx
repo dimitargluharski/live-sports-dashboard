@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
-import { FiClock, FiSearch, FiTv, FiX } from "react-icons/fi";
+import { FiClock, FiInfo, FiSearch, FiTv, FiX } from "react-icons/fi";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { useSystemTheme } from "../hooks/useSystemTheme";
@@ -41,6 +41,8 @@ type EventsResponse = {
     main: boolean;
     top: boolean;
     days: boolean;
+    topPreparing: boolean;
+    daysPreparing: boolean;
   };
   agendaDate: string | null;
   count: number;
@@ -201,10 +203,14 @@ export default function Home() {
     tomorrow: INITIAL_SECTION_RENDER_COUNT,
   });
   const [isTopSwiperDragging, setIsTopSwiperDragging] = useState(false);
+  const [isAppendingMatches, setIsAppendingMatches] = useState(false);
 
   const deferredSearchInput = useDeferredValue(searchInput);
   const playerLoadTokenRef = useRef(0);
   const playerLoadTimerRef = useRef<number | null>(null);
+  const appendMatchesTimerRef = useRef<number | null>(null);
+  const scheduleScrollRef = useRef<HTMLDivElement | null>(null);
+  const loadMoreSentinelRef = useRef<HTMLDivElement | null>(null);
 
   const startPlayerLoading = useCallback(() => {
     playerLoadTokenRef.current += 1;
@@ -274,6 +280,24 @@ export default function Home() {
   const isFeedUpdating = useMemo(() => {
     return Boolean(topData?.isUpdating || scheduleData?.isUpdating);
   }, [topData?.isUpdating, scheduleData?.isUpdating]);
+
+  const isFeedPreparing = useMemo(() => {
+    return Boolean(
+      topData?.updateState?.topPreparing ||
+      scheduleData?.updateState?.topPreparing ||
+      scheduleData?.updateState?.daysPreparing,
+    );
+  }, [topData?.updateState?.topPreparing, scheduleData?.updateState?.topPreparing, scheduleData?.updateState?.daysPreparing]);
+
+  const isFeedActivelyRunning = useMemo(() => {
+    return Boolean(
+      topData?.updateState?.top ||
+      scheduleData?.updateState?.top ||
+      scheduleData?.updateState?.days ||
+      topData?.updateState?.main ||
+      scheduleData?.updateState?.main,
+    );
+  }, [topData?.updateState, scheduleData?.updateState]);
 
   const daySections = useMemo(() => {
     const todayKey = normalizeDate(today);
@@ -354,12 +378,57 @@ export default function Home() {
       .filter((section) => section.matches.length > 0);
   }, [filteredSections, dayView, onlyLiveInSchedule]);
 
-  const selectedDayStats = useMemo(() => {
-    const section = filteredSections.find((item) => item.key === dayView);
-    const total = section?.matches.length ?? 0;
-    const live = section?.matches.filter((match) => Boolean(match.isLive)).length ?? 0;
-    return { total, live };
-  }, [filteredSections, dayView]);
+  const hasMoreVisibleMatches = useMemo(() => {
+    return visibleSections.some(
+      (section) => (renderLimitByDay[section.key] ?? INITIAL_SECTION_RENDER_COUNT) < section.matches.length,
+    );
+  }, [renderLimitByDay, visibleSections]);
+
+  const loadMoreVisibleMatches = useCallback(() => {
+    if (isAppendingMatches) {
+      return;
+    }
+
+    let shouldAppend = false;
+
+    for (const section of visibleSections) {
+      const currentLimit = renderLimitByDay[section.key] ?? INITIAL_SECTION_RENDER_COUNT;
+      if (currentLimit < section.matches.length) {
+        shouldAppend = true;
+        break;
+      }
+    }
+
+    if (!shouldAppend) {
+      return;
+    }
+
+    setIsAppendingMatches(true);
+
+    if (appendMatchesTimerRef.current !== null) {
+      window.clearTimeout(appendMatchesTimerRef.current);
+    }
+
+    appendMatchesTimerRef.current = window.setTimeout(() => {
+      setRenderLimitByDay((prev) => {
+        let changed = false;
+        const next = { ...prev };
+
+        for (const section of visibleSections) {
+          const currentLimit = prev[section.key] ?? INITIAL_SECTION_RENDER_COUNT;
+          if (currentLimit >= section.matches.length) continue;
+
+          next[section.key] = Math.min(section.matches.length, currentLimit + SECTION_RENDER_STEP);
+          changed = true;
+        }
+
+        return changed ? next : prev;
+      });
+
+      setIsAppendingMatches(false);
+      appendMatchesTimerRef.current = null;
+      }, 2000);
+  }, [isAppendingMatches, renderLimitByDay, visibleSections]);
 
   const todayMatchesCount = useMemo(() => {
     const section = filteredSections.find((item) => item.key === "today");
@@ -370,11 +439,6 @@ export default function Home() {
     const section = filteredSections.find((item) => item.key === "tomorrow");
     return section?.matches.length ?? 0;
   }, [filteredSections]);
-
-  const isLikelyFragileWebPlayer = useMemo(() => {
-    if (!activeStream?.url) return false;
-    return /webplayer2?\.php/i.test(activeStream.url);
-  }, [activeStream?.url]);
 
   const openStreamModal = useCallback(
     (options: {
@@ -464,6 +528,47 @@ export default function Home() {
   }, [loadData]);
 
   useEffect(() => {
+    const root = scheduleScrollRef.current;
+    const target = loadMoreSentinelRef.current;
+
+    if (!root || !target || loading || !hasMoreVisibleMatches) {
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          loadMoreVisibleMatches();
+        }
+      },
+      {
+        root,
+        rootMargin: "0px 0px 260px 0px",
+        threshold: 0.01,
+      },
+    );
+
+    observer.observe(target);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [hasMoreVisibleMatches, loadMoreVisibleMatches, loading, visibleSections]);
+
+  useEffect(() => {
+    if (!scheduleScrollRef.current) return;
+    scheduleScrollRef.current.scrollTo({ top: 0, behavior: "smooth" });
+  }, [dayView, deferredSearchInput, onlyLiveInSchedule]);
+
+  useEffect(() => {
+    return () => {
+      if (appendMatchesTimerRef.current !== null) {
+        window.clearTimeout(appendMatchesTimerRef.current);
+      }
+    };
+  }, []);
+
+  useEffect(() => {
     if (!activeStream) return;
 
     function onKeyDown(event: KeyboardEvent) {
@@ -536,11 +641,25 @@ export default function Home() {
   }, [activeStream?.matchTitle]);
 
   return (
-    <main className="min-h-screen bg-[radial-gradient(circle_at_20%_10%,#1e293b_0%,#0b1220_35%,#05070e_100%)] text-(--fg)">
+    <main className="flex h-screen flex-col overflow-hidden bg-[radial-gradient(circle_at_20%_10%,#1e293b_0%,#0b1220_35%,#05070e_100%)] text-(--fg)">
       <section className="w-full border-b border-white/10 bg-black/35 px-4 py-4 sm:px-6">
-        <div className="mx-auto w-full max-w-[1400px]">
+        <div className="mx-auto w-full max-w-350">
           <div className="mb-2 flex items-center justify-between gap-3">
-            <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-300">Top Matches Today · {today}</h2>
+            <div className="flex items-center gap-2">
+              <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-300">Top Matches Today · {today}</h2>
+              <div className="group relative">
+                <button
+                  type="button"
+                  aria-label="Top matches refresh info"
+                  className="inline-flex h-7 w-7 cursor-help items-center justify-center rounded-full text-slate-400 transition-colors hover:text-cyan-200 focus:outline-none"
+                >
+                  <FiInfo className="h-4 w-4" />
+                </button>
+                <div className="pointer-events-none absolute left-0 top-full z-40 mt-2 w-64 rounded-xl border border-slate-700/70 bg-slate-950/95 p-3 text-xs leading-5 text-slate-200 opacity-0 shadow-[0_18px_40px_rgba(2,6,23,0.55)] transition-opacity duration-150 group-hover:opacity-100 group-focus-within:opacity-100">
+                  Top matches data updates automatically every 10 minutes.
+                </div>
+              </div>
+            </div>
           </div>
 
           {topMatches.length ? (
@@ -568,7 +687,7 @@ export default function Home() {
 
                 return (
                   <SwiperSlide key={`hero-${match.id}`}>
-                    <article className="h-full rounded-xl border border-slate-600/40 bg-gradient-to-br from-slate-800/85 to-slate-900/90 p-2.5 shadow-[0_12px_40px_rgba(0,0,0,0.35)]">
+                    <article className="h-full rounded-xl border border-slate-600/40 bg-linear-to-br from-slate-800/85 to-slate-900/90 p-2.5 shadow-[0_12px_40px_rgba(0,0,0,0.35)]">
                       <div className="flex items-center gap-2">
                         {match.country.imageUrl ? (
                           <img
@@ -631,7 +750,7 @@ export default function Home() {
       </section>
 
       <section className="w-full px-4 py-4 sm:px-6">
-        <div className="mx-auto w-full max-w-[1400px]">
+        <div className="mx-auto w-full max-w-350">
           <label className="flex h-10 items-center gap-2 rounded-xl border border-slate-600/50 bg-slate-900/70 px-3 text-slate-300 focus-within:border-cyan-300/70">
             <FiSearch aria-hidden="true" />
             <input
@@ -645,11 +764,22 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full px-4 sm:px-6">
-        <div className="mx-auto w-full max-w-[1400px]">
+      <section className="min-h-0 flex-1 overflow-hidden px-4 pb-4 sm:px-6">
+        <div className="mx-auto flex h-full w-full max-w-350 min-h-0 flex-col overflow-hidden rounded-2xl border border-slate-800/60 bg-slate-950/40 shadow-[0_18px_50px_rgba(2,6,23,0.38)]">
+          <div
+            ref={scheduleScrollRef}
+            className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-2 pb-2 pt-0 sm:px-3 [scrollbar-color:rgba(34,211,238,0.5)_rgba(15,23,42,0.7)] [scrollbar-width:thin] [&::-webkit-scrollbar]:w-2.5 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-slate-900/70 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:border-[3px] [&::-webkit-scrollbar-thumb]:border-transparent [&::-webkit-scrollbar-thumb]:bg-cyan-300/45 [&::-webkit-scrollbar-thumb]:bg-clip-padding hover:[&::-webkit-scrollbar-thumb]:bg-cyan-300/65"
+          >
           {isFeedUpdating && !loading ? (
-            <div className="mb-4 rounded-xl border border-amber-400/40 bg-amber-500/10 px-3 py-2 text-sm text-amber-100">
-              Updating match feeds right now. Live list may shift for a moment until refresh completes.
+            <div className="mb-4 flex items-start gap-2 rounded-xl border border-amber-400/40 bg-amber-500/10 px-3 py-2 text-sm text-amber-100">
+              <FiInfo className="mt-0.5 h-4 w-4 shrink-0" />
+              <span>
+                {isFeedActivelyRunning
+                  ? "Updating match feeds right now. Live list may shift for a moment until refresh completes."
+                  : isFeedPreparing
+                    ? "Match feeds will refresh in less than a minute. Live list may update shortly."
+                    : "Feed refresh status changed. Live list may update shortly."}
+              </span>
             </div>
           ) : null}
 
@@ -664,77 +794,86 @@ export default function Home() {
           {!loading && !error ? (
             visibleSections.length ? (
               <div className="space-y-4">
-                <div className="sticky top-0 z-30 -mx-2 px-2 py-2">
-                  {/* <div className="rounded-xl border border-slate-700/70 bg-slate-950/90 p-2 shadow-[0_12px_30px_rgba(2,6,23,0.65)] backdrop-blur-xl supports-[backdrop-filter]:bg-slate-950/65"> */}
-                  <div className="flex flex-wrap items-center justify-between gap-2">
-                    <div className="flex flex-wrap items-center gap-2">
-                      <button
-                        type="button"
-                        onClick={() => setDayView("today")}
-                        className={`cursor-pointer rounded-md border px-3 py-1.5 text-xs font-semibold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(34,211,238,0.22)] ${dayView === "today"
-                          ? "border-cyan-300/75 bg-cyan-400/25 text-cyan-100"
-                          : "border-slate-600/70 bg-slate-800/70 text-slate-300 hover:border-cyan-300/70 hover:text-cyan-100"
-                          }`}
-                      >
-                        Today ({todayMatchesCount})
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => setDayView("tomorrow")}
-                        className={`cursor-pointer rounded-md border px-3 py-1.5 text-xs font-semibold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(34,211,238,0.22)] ${dayView === "tomorrow"
-                          ? "border-cyan-300/75 bg-cyan-400/25 text-cyan-100"
-                          : "border-slate-600/70 bg-slate-800/70 text-slate-300 hover:border-cyan-300/70 hover:text-cyan-100"
-                          }`}
-                      >
-                        Tomorrow ({tomorrowMatchesCount})
-                      </button>
+                <div className="sticky top-0 z-30 -mx-2 isolate px-2 pb-3 pt-0 sm:-mx-3 sm:px-3">
+                  <div className="absolute inset-0 -z-10 bg-[#020611]" />
+                  <div className="absolute inset-x-0 -bottom-3 h-6 -z-10 bg-linear-to-b from-[#020611] to-transparent" />
+                  <div className="overflow-hidden rounded-xl border border-slate-700/80 bg-[#040a16] px-3 py-2 shadow-[0_14px_32px_rgba(2,6,23,0.55)]">
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => setDayView("today")}
+                          className={`cursor-pointer rounded-md border px-3 py-1.5 text-xs font-semibold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(34,211,238,0.22)] ${dayView === "today"
+                            ? "border-cyan-300/75 bg-cyan-400/25 text-cyan-100"
+                            : "border-slate-600/70 bg-slate-800/70 text-slate-300 hover:border-cyan-300/70 hover:text-cyan-100"
+                            }`}
+                        >
+                          Today ({todayMatchesCount})
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setDayView("tomorrow")}
+                          className={`cursor-pointer rounded-md border px-3 py-1.5 text-xs font-semibold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(34,211,238,0.22)] ${dayView === "tomorrow"
+                            ? "border-cyan-300/75 bg-cyan-400/25 text-cyan-100"
+                            : "border-slate-600/70 bg-slate-800/70 text-slate-300 hover:border-cyan-300/70 hover:text-cyan-100"
+                            }`}
+                        >
+                          Tomorrow ({tomorrowMatchesCount})
+                        </button>
+                        <div className="group relative">
+                          <button
+                            type="button"
+                            aria-label="Days feed refresh info"
+                            className="inline-flex h-8 w-8 cursor-help items-center justify-center rounded-full text-slate-400 transition-colors hover:text-cyan-200 focus:outline-none"
+                          >
+                            <FiInfo className="h-4 w-4" />
+                          </button>
+                          <div className="pointer-events-none absolute left-0 top-full z-40 mt-2 w-64 rounded-xl border border-slate-700/70 bg-slate-950/95 p-3 text-xs leading-5 text-slate-200 opacity-0 shadow-[0_18px_40px_rgba(2,6,23,0.55)] transition-opacity duration-150 group-hover:opacity-100 group-focus-within:opacity-100">
+                            Days data updates automatically every 15 minutes.
+                          </div>
+                        </div>
+                      </div>
 
-                      {/* <span className="ml-1 text-[11px] text-slate-400">
-                        {onlyLiveInSchedule
-                          ? `Showing only LIVE (${selectedDayStats.live})`
-                          : `Showing all (${selectedDayStats.total})`}
-                      </span> */}
+                      <div className="flex items-center gap-2">
+                        <div className="group relative">
+                          <button
+                            type="button"
+                            aria-label="Content disclaimer"
+                            className="inline-flex h-8 w-8 cursor-help items-center justify-center rounded-full text-slate-400 transition-colors hover:text-cyan-200 focus:outline-none"
+                          >
+                            <FiInfo className="h-4 w-4" />
+                          </button>
+                          <div className="pointer-events-none absolute right-0 top-full z-40 mt-2 w-72 rounded-xl border border-slate-700/70 bg-slate-950/95 p-3 text-xs leading-5 text-slate-200 opacity-0 shadow-[0_18px_40px_rgba(2,6,23,0.55)] transition-opacity duration-150 group-hover:opacity-100 group-focus-within:opacity-100">
+                            I do not own, host, or control any third-party channels or stream content shown here, and I assume no responsibility for what those sources display.
+                          </div>
+                        </div>
 
-                      {/* <button
-                        type="button"
-                        onClick={() => setOnlyLiveInSchedule((prev) => !prev)}
-                        aria-pressed={onlyLiveInSchedule}
-                        className={`inline-flex items-center gap-1 rounded-md border px-3 py-1.5 text-xs font-bold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 ${onlyLiveInSchedule
-                          ? "border-red-300/70 bg-red-500/25 text-red-100 shadow-[0_8px_22px_rgba(239,68,68,0.28)]"
-                          : "border-red-400/45 bg-red-500/10 text-red-200 hover:border-red-300/70 hover:bg-red-500/20"
-                          }`}
-                      >
-                        <span className="h-1.5 w-1.5 rounded-full bg-red-400" />
-                        Live only {selectedDayStats.live}
-                      </button> */}
-                    </div>
-
-                    <div className="inline-flex rounded-md border border-slate-600/70 bg-slate-900/75 p-0.5">
-                      <button
-                        type="button"
-                        onClick={() => setMatchesViewMode("grid")}
-                        className={`cursor-pointer rounded px-2.5 py-1 text-xs font-semibold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 ${matchesViewMode === "grid"
-                          ? "bg-cyan-400/25 text-cyan-100 shadow-[0_6px_14px_rgba(34,211,238,0.22)]"
-                          : "text-slate-300 hover:text-cyan-100"
-                          }`}
-                      >
-                        Grid
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => setMatchesViewMode("list")}
-                        className={`cursor-pointer rounded px-2.5 py-1 text-xs font-semibold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 ${matchesViewMode === "list"
-                          ? "bg-cyan-400/25 text-cyan-100 shadow-[0_6px_14px_rgba(34,211,238,0.22)]"
-                          : "text-slate-300 hover:text-cyan-100"
-                          }`}
-                      >
-                        List
-                      </button>
+                        <div className="inline-flex rounded-md border border-slate-600/70 bg-slate-900/75 p-0.5">
+                          <button
+                            type="button"
+                            onClick={() => setMatchesViewMode("grid")}
+                            className={`cursor-pointer rounded px-2.5 py-1 text-xs font-semibold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 ${matchesViewMode === "grid"
+                              ? "bg-cyan-400/25 text-cyan-100 shadow-[0_6px_14px_rgba(34,211,238,0.22)]"
+                              : "text-slate-300 hover:text-cyan-100"
+                              }`}
+                          >
+                            Grid
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => setMatchesViewMode("list")}
+                            className={`cursor-pointer rounded px-2.5 py-1 text-xs font-semibold uppercase tracking-wide transition-all duration-200 hover:-translate-y-0.5 ${matchesViewMode === "list"
+                              ? "bg-cyan-400/25 text-cyan-100 shadow-[0_6px_14px_rgba(34,211,238,0.22)]"
+                              : "text-slate-300 hover:text-cyan-100"
+                              }`}
+                          >
+                            List
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
-
                 </div>
-                {/* </div> */}
 
                 {visibleSections.map((section) => (
                   <section key={section.label} className="space-y-2">
@@ -748,7 +887,7 @@ export default function Home() {
                         return (
                           <article
                             key={`${section.label}-${match.id}`}
-                            className={`rounded-xl border border-slate-700/50 bg-gradient-to-br from-slate-900/70 to-slate-800/40 p-2.5 ${matchesViewMode === "list" ? "w-full" : ""
+                            className={`rounded-xl border border-slate-700/50 bg-linear-to-br from-slate-900/70 to-slate-800/40 p-2.5 ${matchesViewMode === "list" ? "w-full" : ""
                               }`}
                           >
                             <div className={`flex gap-3 ${matchesViewMode === "list" ? "flex-col md:flex-row md:items-start md:justify-between" : "items-start justify-between"}`}>
@@ -810,28 +949,17 @@ export default function Home() {
                         );
                       })}
                     </div>
-
-                    {(renderLimitByDay[section.key] ?? INITIAL_SECTION_RENDER_COUNT) < section.matches.length ? (
-                      <div className="flex justify-center">
-                        <button
-                          type="button"
-                          onClick={() =>
-                            setRenderLimitByDay((prev) => ({
-                              ...prev,
-                              [section.key]: Math.min(
-                                section.matches.length,
-                                (prev[section.key] ?? INITIAL_SECTION_RENDER_COUNT) + SECTION_RENDER_STEP,
-                              ),
-                            }))
-                          }
-                          className="cursor-pointer rounded-md border border-slate-600/70 bg-slate-900/70 px-3 py-1.5 text-xs font-semibold text-slate-200 hover:border-cyan-300/70 hover:text-cyan-100"
-                        >
-                          Show more ({Math.min(SECTION_RENDER_STEP, section.matches.length - (renderLimitByDay[section.key] ?? INITIAL_SECTION_RENDER_COUNT))})
-                        </button>
-                      </div>
-                    ) : null}
                   </section>
                 ))}
+
+                {isAppendingMatches ? (
+                  <div className="flex flex-col items-center justify-center gap-2 py-6">
+                    <span className="h-5 w-5 animate-spin rounded-full border-2 border-slate-700 border-t-cyan-300" />
+                    <span className="text-xs text-slate-500">Loading more matches...</span>
+                  </div>
+                ) : null}
+
+                {hasMoreVisibleMatches ? <div ref={loadMoreSentinelRef} className="h-12 w-full" aria-hidden="true" /> : null}
               </div>
             ) : (
               <div className="rounded-2xl border border-dashed border-slate-700/40 bg-slate-900/40 p-6 text-center text-sm text-slate-300">
@@ -843,6 +971,7 @@ export default function Home() {
               </div>
             )
           ) : null}
+          </div>
         </div>
       </section>
 
@@ -1055,29 +1184,6 @@ export default function Home() {
                 ) : null}
               </div>
             )}
-
-            {/* {!resolving && !resolvedStream?.mediaUrl && isLikelyFragileWebPlayer ? (
-              <div className="border-t border-white/10 bg-black/80 px-3 py-2 text-xs text-slate-300">
-                <p>This stream uses a third-party webplayer that may fail when ad-blocking scripts are blocked.</p>
-                <div className="mt-2 flex flex-wrap items-center gap-2">
-                  <a
-                    href={resolvedStream?.playerUrl ?? activeStream.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center rounded-md border border-white/30 px-2 py-1 text-xs text-white hover:bg-white/10"
-                  >
-                    Open stream in new tab
-                  </a>
-                  <button
-                    type="button"
-                    onClick={() => setForceIframe((prev) => !prev)}
-                    className="inline-flex items-center rounded-md border border-white/30 px-2 py-1 text-xs text-white hover:bg-white/10"
-                  >
-                    Retry in iframe
-                  </button>
-                </div>
-              </div>
-            ) : null} */}
 
           </div>
         </div>

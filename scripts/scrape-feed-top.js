@@ -358,31 +358,8 @@ function extractPlayerLinks(eventHtml, eventUrl) {
   return links;
 }
 
-// TEMP: stats scraping is disabled for now.
-// function extractMatchStats(eventHtml) {
-//   const $ = cheerio.load(eventHtml);
-//
-//   const h2hRecord = normalizeSpace(
-//     $("span.nwstitle")
-//       .map((_, el) => normalizeSpace($(el).text()))
-//       .get()
-//       .find((text) => /\d+\s*-\s*\d+\s*-\s*\d+/.test(text)) || "",
-//   ) || null;
-//
-//   const h2hContext = normalizeSpace(
-//     $("span.date")
-//       .map((_, el) => normalizeSpace($(el).text()))
-//       .get()
-//       .find((text) => /last\s+\d+\s+games?/i.test(text)) || "",
-//   ) || null;
-//
-//   return {
-//     h2hRecord,
-//     h2hContext,
-//   };
-// }
-
 async function scrapeFeedTopMatches() {
+  const jobStartMs = Date.now();
   markJobStarted("top");
   await notifyDiscord("Scrape job started (scrape:feed:top).");
 
@@ -411,9 +388,6 @@ async function scrapeFeedTopMatches() {
       const streams = extractPlayerLinks(eventHtml, match.eventUrl);
       match.streams = streams;
       match.streamCount = streams.length;
-      // TEMP: stats scraping is disabled for now.
-      // const stats = extractMatchStats(eventHtml);
-      // match.stats = stats;
       console.log(`[${i + 1}/${matches.length}] ${match.title} -> ${streams.length} streams`);
     } catch (error) {
       match.streams = [];
@@ -436,7 +410,9 @@ async function scrapeFeedTopMatches() {
 
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
   console.log(`Saved: ${OUTPUT_PATH}`);
-  markJobSucceeded("top", matches.length);
+  const durationMs = Date.now() - jobStartMs;
+  const outputBytes = fs.statSync(OUTPUT_PATH).size;
+  markJobSucceeded("top", matches.length, { durationMs, outputBytes });
 
   await notifyDiscord("Scrape job completed successfully (scrape:feed:top).");
 }
