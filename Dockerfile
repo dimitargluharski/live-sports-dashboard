@@ -13,6 +13,7 @@ RUN npm ci --omit=dev
 COPY scripts ./scripts
 COPY scheduler.js .
 COPY public ./public
+COPY .git ./.git
 
 # Generate .env from environment variables (optional)
 # We'll rely on env vars passed at runtime instead
