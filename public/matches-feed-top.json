@@ -2,7 +2,7 @@
   "source": "https://livetv.sx/enx/",
   "footballPageUrl": "https://livetv.sx/enx/allupcomingsports/1/",
   "section": "Top Matches Today",
-  "scrapedAt": "2026-04-11T20:00:12.353Z",
+  "scrapedAt": "2026-04-11T20:15:10.122Z",
   "count": 10,
   "matches": [
     {
@@ -11,49 +11,13 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513384__/",
       "dateLabel": "11 April",
       "timeLabel": "19:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Netherlands. Eredivisie",
       "sectionLabel": "Top Matches Today",
       "isTopMatch": true,
       "rawDescription": "11 April at 19:00\n(Netherlands. Eredivisie)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2665500&lang=en&eid=361513384&lid=2665500&ci=22&si=1",
-          "language": "Dutch",
-          "bitrate": null
-        },
-        {
-          "id": 2,
-          "label": "Stream 3",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2665505&lang=en&eid=361513384&lid=2665505&ci=22&si=1",
-          "language": "Dutch",
-          "bitrate": null
-        },
-        {
-          "id": 3,
-          "label": "Stream 4",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2995065&lang=en&eid=361513384&lid=2995065&ci=22&si=1",
-          "language": "Dutch",
-          "bitrate": null
-        },
-        {
-          "id": 4,
-          "label": "Stream 5",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2994497&lang=en&eid=361513384&lid=2994497&ci=22&si=1",
-          "language": "Dutch",
-          "bitrate": null
-        },
-        {
-          "id": 5,
-          "label": "Stream 7",
-          "url": "https://cdn.livetv875.me/webplayer2.php?t=acestream&c=79f10c6c6168e42bfc606f3f7b9e5f3ca79dedab&lang=en&eid=361513384&lid=2875391&ci=22&si=1",
-          "language": "Dutch",
-          "bitrate": "8000kbps"
-        }
-      ],
-      "streamCount": 5
+      "streams": [],
+      "streamCount": 0
     },
     {
       "id": 2,
@@ -72,7 +36,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=244432&lang=en&eid=361512590&lid=2993918&ci=11&si=1",
           "language": "English",
-          "bitrate": "1261kbps"
+          "bitrate": "1280kbps"
         },
         {
           "id": 2,
@@ -107,21 +71,21 @@
           "label": "Stream 9",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=242914&lang=en&eid=361512590&lid=2828767&ci=11&si=1",
           "language": "Russian",
-          "bitrate": "886kbps"
+          "bitrate": "929kbps"
         },
         {
           "id": 7,
           "label": "Stream 11",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253652&lang=en&eid=361512590&lid=2991417&ci=11&si=1",
           "language": "Croatian",
-          "bitrate": "941kbps"
+          "bitrate": "943kbps"
         },
         {
           "id": 8,
           "label": "Stream 13",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253657&lang=en&eid=361512590&lid=2991562&ci=11&si=1",
           "language": "Serbian",
-          "bitrate": "951kbps"
+          "bitrate": "954kbps"
         },
         {
           "id": 9,
@@ -135,21 +99,21 @@
           "label": "Stream 17",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253702&lang=en&eid=361512590&lid=2994151&ci=11&si=1",
           "language": "Russian",
-          "bitrate": "956kbps"
+          "bitrate": "957kbps"
         },
         {
           "id": 11,
           "label": "Stream 19",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253750&lang=en&eid=361512590&lid=2991577&ci=11&si=1",
           "language": "Greek",
-          "bitrate": "975kbps"
+          "bitrate": "974kbps"
         },
         {
           "id": 12,
           "label": "Stream 21",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253780&lang=en&eid=361512590&lid=2991548&ci=11&si=1",
           "language": "German",
-          "bitrate": "919kbps"
+          "bitrate": "920kbps"
         },
         {
           "id": 13,
@@ -163,28 +127,28 @@
           "label": "Stream 25",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=254000&lang=en&eid=361512590&lid=2993082&ci=11&si=1",
           "language": "Italian",
-          "bitrate": "946kbps"
+          "bitrate": "950kbps"
         },
         {
           "id": 15,
           "label": "Stream 27",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=254092&lang=en&eid=361512590&lid=2994207&ci=11&si=1",
           "language": "Portuguese",
-          "bitrate": "890kbps"
+          "bitrate": "892kbps"
         },
         {
           "id": 16,
           "label": "Stream 29",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=237115&lang=en&eid=361512590&lid=2924379&ci=11&si=1",
           "language": "Russian",
-          "bitrate": "1975kbps"
+          "bitrate": "1972kbps"
         },
         {
           "id": 17,
           "label": "Stream 31",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=241015&lang=en&eid=361512590&lid=2993747&ci=11&si=1",
           "language": "Ukrainian",
-          "bitrate": "1923kbps"
+          "bitrate": "1922kbps"
         },
         {
           "id": 18,
@@ -205,35 +169,35 @@
           "label": "Stream 37",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=244437&lang=en&eid=361512590&lid=2995704&ci=11&si=1",
           "language": "German",
-          "bitrate": "1253kbps"
+          "bitrate": "1280kbps"
         },
         {
           "id": 21,
           "label": "Stream 39",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=250705&lang=en&eid=361512590&lid=2994725&ci=11&si=1",
           "language": "Czech",
-          "bitrate": "742kbps"
+          "bitrate": "745kbps"
         },
         {
           "id": 22,
           "label": "Stream 41",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253751&lang=en&eid=361512590&lid=2995713&ci=11&si=1",
           "language": "Polish",
-          "bitrate": "952kbps"
+          "bitrate": "953kbps"
         },
         {
           "id": 23,
           "label": "Stream 43",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253805&lang=en&eid=361512590&lid=2991428&ci=11&si=1",
           "language": "Spanish",
-          "bitrate": "961kbps"
+          "bitrate": "960kbps"
         },
         {
           "id": 24,
           "label": "Stream 45",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253853&lang=en&eid=361512590&lid=2992695&ci=11&si=1",
           "language": "Spanish",
-          "bitrate": "949kbps"
+          "bitrate": "950kbps"
         },
         {
           "id": 25,
@@ -374,21 +338,21 @@
           "label": "Stream 7",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=243137&lang=en&eid=361512478&lid=2924345&ci=15&si=1",
           "language": "Russian",
-          "bitrate": "951kbps"
+          "bitrate": "950kbps"
         },
         {
           "id": 7,
           "label": "Stream 9",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=250866&lang=en&eid=361512478&lid=2975438&ci=15&si=1",
           "language": null,
-          "bitrate": "755kbps"
+          "bitrate": "754kbps"
         },
         {
           "id": 8,
           "label": "Stream 11",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253172&lang=en&eid=361512478&lid=2982701&ci=15&si=1",
           "language": "Russian",
-          "bitrate": "953kbps"
+          "bitrate": "952kbps"
         },
         {
           "id": 9,
@@ -402,14 +366,14 @@
           "label": "Stream 15",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253701&lang=en&eid=361512478&lid=2991914&ci=15&si=1",
           "language": "Russian",
-          "bitrate": "950kbps"
+          "bitrate": "949kbps"
         },
         {
           "id": 11,
           "label": "Stream 17",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253705&lang=en&eid=361512478&lid=2994152&ci=15&si=1",
           "language": "Russian",
-          "bitrate": "852kbps"
+          "bitrate": "931kbps"
         },
         {
           "id": 12,
@@ -423,21 +387,21 @@
           "label": "Stream 21",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=232734&lang=en&eid=361512478&lid=2994724&ci=15&si=1",
           "language": "Ukrainian",
-          "bitrate": "1865kbps"
+          "bitrate": "1864kbps"
         },
         {
           "id": 14,
           "label": "Stream 23",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=237150&lang=en&eid=361512478&lid=2940372&ci=15&si=1",
           "language": "Russian",
-          "bitrate": "1939kbps"
+          "bitrate": "1936kbps"
         },
         {
           "id": 15,
           "label": "Stream 25",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=237399&lang=en&eid=361512478&lid=2972642&ci=15&si=1",
           "language": "Ukrainian",
-          "bitrate": "1792kbps"
+          "bitrate": "1793kbps"
         },
         {
           "id": 16,
@@ -458,7 +422,7 @@
           "label": "Stream 31",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=247912&lang=en&eid=361512478&lid=2975444&ci=15&si=1",
           "language": "Italian",
-          "bitrate": "1210kbps"
+          "bitrate": "1276kbps"
         },
         {
           "id": 19,
@@ -479,14 +443,14 @@
           "label": "Stream 37",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253814&lang=en&eid=361512478&lid=2992692&ci=15&si=1",
           "language": "Spanish",
-          "bitrate": "951kbps"
+          "bitrate": "953kbps"
         },
         {
           "id": 22,
           "label": "Stream 39",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=257833&lang=en&eid=361512478&lid=2994748&ci=15&si=1",
           "language": "Spanish",
-          "bitrate": "870kbps"
+          "bitrate": "882kbps"
         },
         {
           "id": 23,
@@ -740,7 +704,7 @@
           "label": "Stream 3",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253651&lang=en&eid=361514431&lid=2991555&ci=37&si=1",
           "language": "Serbian",
-          "bitrate": "950kbps"
+          "bitrate": "949kbps"
         },
         {
           "id": 3,
@@ -761,21 +725,21 @@
           "label": "Stream 9",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=247380&lang=en&eid=361514431&lid=2966153&ci=37&si=1",
           "language": "Spanish",
-          "bitrate": "1119kbps"
+          "bitrate": "1040kbps"
         },
         {
           "id": 6,
           "label": "Stream 11",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=247701&lang=en&eid=361514431&lid=2966160&ci=37&si=1",
           "language": "Spanish",
-          "bitrate": "1118kbps"
+          "bitrate": "1044kbps"
         },
         {
           "id": 7,
           "label": "Stream 13",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=247702&lang=en&eid=361514431&lid=2966161&ci=37&si=1",
           "language": "Spanish",
-          "bitrate": "1131kbps"
+          "bitrate": "1032kbps"
         },
         {
           "id": 8,
@@ -874,7 +838,7 @@
           "label": "Stream 6",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253679&lang=en&eid=361513710&lid=2995455&ci=28&si=1",
           "language": "French",
-          "bitrate": "952kbps"
+          "bitrate": "955kbps"
         },
         {
           "id": 4,
@@ -952,28 +916,28 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253802&lang=en&eid=361511668&lid=2994743&ci=16&si=1",
           "language": "Spanish",
-          "bitrate": "955kbps"
+          "bitrate": "961kbps"
         },
         {
           "id": 2,
           "label": "Stream 4",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253824&lang=en&eid=361511668&lid=2994742&ci=16&si=1",
           "language": "Spanish",
-          "bitrate": "955kbps"
+          "bitrate": "915kbps"
         },
         {
           "id": 3,
           "label": "Stream 6",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253832&lang=en&eid=361511668&lid=2994741&ci=16&si=1",
           "language": "Spanish",
-          "bitrate": "954kbps"
+          "bitrate": "876kbps"
         },
         {
           "id": 4,
           "label": "Stream 8",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253835&lang=en&eid=361511668&lid=2991950&ci=16&si=1",
           "language": "Spanish",
-          "bitrate": "926kbps"
+          "bitrate": "927kbps"
         },
         {
           "id": 5,
