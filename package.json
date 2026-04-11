@@ -12,7 +12,8 @@
     "scrape:feed:days": "node scripts/scrape-feed-days.js",
     "scrape:feed:refresh": "npm run scrape:feed:top && npm run scrape:feed:days",
     "scrape:feed:all": "npm run scrape:feed:top && npm run scrape:feed:days && npm run scrape:feed",
-    "scheduler:local": "node scheduler.js"
+    "scheduler:local": "node scheduler.js",
+    "health-check": "node scripts/health-check.js"
   },
   "keywords": [],
   "author": "",
