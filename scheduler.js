@@ -334,8 +334,8 @@ async function taskMainFeed() {
 function startup() {
   clearTransientStates();
   console.log("\n╔════════════════════════════════════════════════════════╗");
-  console.log("║        Feed Scheduler (Local Host) Started           ║");
-  console.log("╚════════════════════════════════════════════════════════╝\n");
+  // console.log("║        Feed Scheduler (Local Host) Started           ║");
+  // console.log("╚════════════════════════════════════════════════════════╝\n");
 
   const feedBaseUrl = (process.env.FEED_BASE_URL || "").trim();
   if (!feedBaseUrl) {
@@ -343,11 +343,11 @@ function startup() {
     process.exit(1);
   }
 
-  console.log("Configuration:");
-  console.log(`  FEED_BASE_URL: ${feedBaseUrl}`);
-  console.log(`  GITHUB_REPO: ${GITHUB_OWNER}/${GITHUB_REPO} (${GITHUB_BRANCH})`);
-  console.log(`  GIT_AUTHOR: ${GIT_AUTHOR_NAME} <${GIT_AUTHOR_EMAIL}>`);
-  console.log(`  GitHub Token: ${GITHUB_TOKEN ? "SET" : "NOT SET (git push will fail)"}`);
+  // console.log("Configuration:");
+  // console.log(`  FEED_BASE_URL: ${feedBaseUrl}`);
+  // console.log(`  GITHUB_REPO: ${GITHUB_OWNER}/${GITHUB_REPO} (${GITHUB_BRANCH})`);
+  // console.log(`  GIT_AUTHOR: ${GIT_AUTHOR_NAME} <${GIT_AUTHOR_EMAIL}>`);
+  // console.log(`  GitHub Token: ${GITHUB_TOKEN ? "SET" : "NOT SET (git push will fail)"}`);
   console.log("\nSchedule:");
   console.log("  Top feed: every 15 minutes");
   console.log("  Days feed: every 15 minutes");
@@ -356,7 +356,7 @@ function startup() {
   console.log("Ready. Waiting for scheduled tasks...\n");
 
   notifyDiscord(
-    "🟢 Scheduler started successfully! All automated scrape and sync processes are active.\n\nTo stop: Ctrl+C or kill process.\nFor logs: see terminal or GitHub commits."
+    "🟢 Scheduler started successfully!\nAll automated scrape and sync processes are active.\n\nTo stop: Ctrl+C или kill process.\nЗа логове: виж терминала или GitHub commits."
   );
 }
 
@@ -425,5 +425,36 @@ function main() {
   });
 }
 
-// Start the scheduler
-main();
+// Run health check before starting scheduler
+async function runWithHealthCheck() {
+  const { spawnSync } = require("child_process");
+  const healthCheck = spawnSync("node", [path.join(__dirname, "scripts/health-check.js")], {
+    stdio: "inherit",
+    env: process.env,
+  });
+  if (healthCheck.status !== 0) {
+    console.error("Health check failed. Scheduler will not start.");
+    process.exit(1);
+  }
+  main();
+}
+
+runWithHealthCheck();
+
+async function handleShutdown(type) {
+  console.log(type === "SIGINT" ? "\nInterrupt signal received. Cleaning up..." : "\nShutdown signal received. Cleaning up...");
+  clearTransientStates();
+  releaseLock();
+  await notifyDiscord(type === "SIGINT"
+    ? "\ud83d\udd34 Scheduler stopped (Ctrl+C / SIGINT). All automated scrape and sync processes are terminated."
+    : "\ud83d\udd34 Scheduler stopped (SIGTERM). All automated scrape and sync processes are terminated.");
+  process.exit(0);
+}
+
+process.on("SIGTERM", () => {
+  handleShutdown("SIGTERM");
+});
+
+process.on("SIGINT", () => {
+  handleShutdown("SIGINT");
+});

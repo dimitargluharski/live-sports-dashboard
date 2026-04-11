@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-11T08:41:38.380Z",
+  "updatedAt": "2026-04-11T12:16:03.027Z",
   "jobs": {
     "main": {
       "preparing": false,
@@ -20,14 +20,20 @@
       "upcomingAt": null,
       "running": false,
       "startedAt": "2026-04-10T13:15:00.748Z",
-      "finishedAt": "2026-04-10T13:15:10.277Z",
-      "lastSuccessAt": "2026-04-10T13:15:10.277Z",
+      "finishedAt": "2026-04-11T09:30:10.367Z",
+      "lastSuccessAt": "2026-04-11T09:30:10.367Z",
       "lastError": null,
       "lastCount": 10,
-      "lastDurationMs": 9529,
-      "lastOutputBytes": 4671,
-      "totalRuns": 10,
+      "lastDurationMs": 9094,
+      "lastOutputBytes": 4697,
+      "totalRuns": 11,
       "recentRuns": [
+        {
+          "at": "2026-04-11T09:30:10.367Z",
+          "count": 10,
+          "durationMs": 9094,
+          "outputBytes": 4697
+        },
         {
           "at": "2026-04-10T13:15:10.277Z",
           "count": 10,
@@ -94,8 +100,8 @@
       "preparing": false,
       "upcomingAt": null,
       "running": false,
-      "startedAt": "2026-04-10T13:15:00.743Z",
-      "finishedAt": "2026-04-10T13:16:49.543Z",
+      "startedAt": "2026-04-11T09:30:01.273Z",
+      "finishedAt": null,
       "lastSuccessAt": "2026-04-10T13:16:49.543Z",
       "lastError": null,
       "lastCount": 131,
