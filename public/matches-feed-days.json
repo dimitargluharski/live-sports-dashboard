@@ -2,8 +2,8 @@
   "source": "https://livetv.sx/enx/",
   "footballPageUrl": "https://livetv.sx/enx/allupcomingsports/1/",
   "section": "Day Matches",
-  "scrapedAt": "2026-04-11T20:01:08.837Z",
-  "count": 79,
+  "scrapedAt": "2026-04-11T20:16:09.039Z",
+  "count": 78,
   "matches": [
     {
       "id": 1,
@@ -43,7 +43,7 @@
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511737__/",
       "dateLabel": "11 April",
       "timeLabel": "19:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Belgium. Challenger Pro League",
       "iconUrl": "https://cdn.livetv875.me/img/icons/be.gif",
       "iconAlt": "Belgium. Challenger Pro League",
@@ -87,219 +87,86 @@
     },
     {
       "id": 6,
-      "title": "Juventus SP – Sao Jose-PA",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361511801__/",
-      "dateLabel": "11 April",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "Brazil. Campeonato Paulista 2",
-      "iconUrl": "https://cdn.livetv875.me/img/icons/br.gif",
-      "iconAlt": "Brazil. Campeonato Paulista 2",
-      "sectionLabel": "11 April",
-      "isTopMatch": false,
-      "rawDescription": "11 April at 19:00\n(Brazil. Campeonato Paulista 2)",
-      "streams": [],
-      "streamCount": 0
-    },
-    {
-      "id": 7,
       "title": "Rio Preto – Portuguesa Santista",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366540673__/",
       "dateLabel": "11 April",
       "timeLabel": "19:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Brazil. Campeonato Paulista 3",
       "iconUrl": "https://cdn.livetv875.me/img/icons/br.gif",
       "iconAlt": "Brazil. Campeonato Paulista 3",
       "sectionLabel": "11 April",
       "isTopMatch": false,
       "rawDescription": "11 April at 19:00\n(Brazil. Campeonato Paulista 3)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv875.me/webplayer2.php?t=youtube&c=n_6fvoQPbJs&lang=en&eid=366540673&lid=2994912&ci=2081&si=1",
-          "language": "Portuguese",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1
+      "streams": [],
+      "streamCount": 0
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Jacarei – Sao Caetano",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366565767__/",
       "dateLabel": "11 April",
       "timeLabel": "19:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Brazil. Campeonato Paulista 4",
       "iconUrl": "https://cdn.livetv875.me/img/icons/br.gif",
       "iconAlt": "Brazil. Campeonato Paulista 4",
       "sectionLabel": "11 April",
       "isTopMatch": false,
       "rawDescription": "11 April at 19:00\n(Brazil. Campeonato Paulista 4)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv875.me/webplayer2.php?t=youtube&c=des424ncd5g&lang=en&eid=366565767&lid=2995646&ci=7303&si=1",
-          "language": "Portuguese",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1
+      "streams": [],
+      "streamCount": 0
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Taquaritinga – Penapolense",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366565769__/",
       "dateLabel": "11 April",
       "timeLabel": "19:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Brazil. Campeonato Paulista 4",
       "iconUrl": "https://cdn.livetv875.me/img/icons/br.gif",
       "iconAlt": "Brazil. Campeonato Paulista 4",
       "sectionLabel": "11 April",
       "isTopMatch": false,
       "rawDescription": "11 April at 19:00\n(Brazil. Campeonato Paulista 4)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv875.me/webplayer2.php?t=youtube&c=3R0wigyfm1E&lang=en&eid=366565769&lid=2995647&ci=7303&si=1",
-          "language": "Portuguese",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1
+      "streams": [],
+      "streamCount": 0
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Al-Okhdood – Al Nassr",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513883__/",
       "dateLabel": "11 April",
       "timeLabel": "19:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Saudi Arabia. Pro League",
       "iconUrl": "https://cdn.livetv875.me/img/icons/sa.gif",
       "iconAlt": "Saudi Arabia. Pro League",
       "sectionLabel": "11 April",
       "isTopMatch": false,
       "rawDescription": "11 April at 19:00\n(Saudi Arabia. Pro League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2994380&lang=en&eid=361513883&lid=2994380&ci=66&si=1",
-          "language": "English",
-          "bitrate": null
-        },
-        {
-          "id": 2,
-          "label": "Stream 3",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2994416&lang=en&eid=361513883&lid=2994416&ci=66&si=1",
-          "language": "English",
-          "bitrate": null
-        },
-        {
-          "id": 3,
-          "label": "Stream 4",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2994940&lang=en&eid=361513883&lid=2994940&ci=66&si=1",
-          "language": "English",
-          "bitrate": null
-        },
-        {
-          "id": 4,
-          "label": "Stream 5",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2994492&lang=en&eid=361513883&lid=2994492&ci=66&si=1",
-          "language": "English",
-          "bitrate": null
-        },
-        {
-          "id": 5,
-          "label": "Stream 6",
-          "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=242758&lang=en&eid=361513883&lid=2995662&ci=66&si=1",
-          "language": "Russian",
-          "bitrate": "5000kbps"
-        },
-        {
-          "id": 6,
-          "label": "Stream 8",
-          "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=242759&lang=en&eid=361513883&lid=2995661&ci=66&si=1",
-          "language": "Russian",
-          "bitrate": null
-        },
-        {
-          "id": 7,
-          "label": "Stream 10",
-          "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253817&lang=en&eid=361513883&lid=2993353&ci=66&si=1",
-          "language": "Portuguese",
-          "bitrate": "966kbps"
-        },
-        {
-          "id": 8,
-          "label": "Stream 12",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2994974&lang=en&eid=361513883&lid=2994974&ci=66&si=1",
-          "language": "Arabic",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 8
+      "streams": [],
+      "streamCount": 0
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Groningen – Go Ahead Eagles",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513384__/",
       "dateLabel": "11 April",
       "timeLabel": "19:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Netherlands. Eredivisie",
       "iconUrl": "https://cdn.livetv875.me/img/icons/nl.gif",
       "iconAlt": "Netherlands. Eredivisie",
       "sectionLabel": "11 April",
       "isTopMatch": false,
       "rawDescription": "11 April at 19:00\n(Netherlands. Eredivisie)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2665500&lang=en&eid=361513384&lid=2665500&ci=22&si=1",
-          "language": "Dutch",
-          "bitrate": null
-        },
-        {
-          "id": 2,
-          "label": "Stream 3",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2665505&lang=en&eid=361513384&lid=2665505&ci=22&si=1",
-          "language": "Dutch",
-          "bitrate": null
-        },
-        {
-          "id": 3,
-          "label": "Stream 4",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2995065&lang=en&eid=361513384&lid=2995065&ci=22&si=1",
-          "language": "Dutch",
-          "bitrate": null
-        },
-        {
-          "id": 4,
-          "label": "Stream 5",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2994497&lang=en&eid=361513384&lid=2994497&ci=22&si=1",
-          "language": "Dutch",
-          "bitrate": null
-        },
-        {
-          "id": 5,
-          "label": "Stream 7",
-          "url": "https://cdn.livetv875.me/webplayer2.php?t=acestream&c=79f10c6c6168e42bfc606f3f7b9e5f3ca79dedab&lang=en&eid=361513384&lid=2875391&ci=22&si=1",
-          "language": "Dutch",
-          "bitrate": "8000kbps"
-        }
-      ],
-      "streamCount": 5
+      "streams": [],
+      "streamCount": 0
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Saint-Etienne – Dunkerque",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514453__/",
       "dateLabel": "11 April",
@@ -315,12 +182,28 @@
       "streamCount": 0
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "ENPPI – Cleopatra",
       "eventUrl": "https://livetv.sx/enx/eventinfo/360948963__/",
       "dateLabel": "11 April",
       "timeLabel": "19:00",
-      "isLive": true,
+      "isLive": false,
+      "leagueLabel": "Egypt. Premier League",
+      "iconUrl": "https://cdn.livetv875.me/img/icons/eg.gif",
+      "iconAlt": "Egypt. Premier League",
+      "sectionLabel": "11 April",
+      "isTopMatch": false,
+      "rawDescription": "11 April at 19:00\n(Egypt. Premier League)",
+      "streams": [],
+      "streamCount": 0
+    },
+    {
+      "id": 13,
+      "title": "Al-Ahly Cairo – Smouha",
+      "eventUrl": "https://livetv.sx/enx/eventinfo/360948965__/",
+      "dateLabel": "11 April",
+      "timeLabel": "19:00",
+      "isLive": false,
       "leagueLabel": "Egypt. Premier League",
       "iconUrl": "https://cdn.livetv875.me/img/icons/eg.gif",
       "iconAlt": "Egypt. Premier League",
@@ -332,22 +215,6 @@
     },
     {
       "id": 14,
-      "title": "Al-Ahly Cairo – Smouha",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/360948965__/",
-      "dateLabel": "11 April",
-      "timeLabel": "19:00",
-      "isLive": true,
-      "leagueLabel": "Egypt. Premier League",
-      "iconUrl": "https://cdn.livetv875.me/img/icons/eg.gif",
-      "iconAlt": "Egypt. Premier League",
-      "sectionLabel": "11 April",
-      "isTopMatch": false,
-      "rawDescription": "11 April at 19:00\n(Egypt. Premier League)",
-      "streams": [],
-      "streamCount": 0
-    },
-    {
-      "id": 15,
       "title": "Deportivo Riestra – Instituto",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511666__/",
       "dateLabel": "11 April",
@@ -363,7 +230,7 @@
       "streamCount": 0
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "Legia Warsaw – Gornik Zabrze",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513680__/",
       "dateLabel": "11 April",
@@ -386,14 +253,14 @@
         {
           "id": 2,
           "label": "Stream 3",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2994475&lang=en&eid=361513680&lid=2994475&ci=27&si=1",
+          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2995049&lang=en&eid=361513680&lid=2995049&ci=27&si=1",
           "language": "Polish",
           "bitrate": null
         },
         {
           "id": 3,
           "label": "Stream 4",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2995049&lang=en&eid=361513680&lid=2995049&ci=27&si=1",
+          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2994475&lang=en&eid=361513680&lid=2994475&ci=27&si=1",
           "language": "Polish",
           "bitrate": null
         },
@@ -408,7 +275,7 @@
       "streamCount": 4
     },
     {
-      "id": 17,
+      "id": 16,
       "title": "Radomlje – Celje",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513955__/",
       "dateLabel": "11 April",
@@ -432,7 +299,7 @@
       "streamCount": 1
     },
     {
-      "id": 18,
+      "id": 17,
       "title": "Darmstadt – Hanover 96",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512009__/",
       "dateLabel": "11 April",
@@ -457,35 +324,35 @@
           "label": "Stream 3",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253861&lang=en&eid=361512009&lid=2991921&ci=31&si=1",
           "language": "German",
-          "bitrate": "941kbps"
+          "bitrate": "944kbps"
         },
         {
           "id": 3,
           "label": "Stream 5",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253928&lang=en&eid=361512009&lid=2993892&ci=31&si=1",
           "language": "German",
-          "bitrate": "947kbps"
+          "bitrate": "949kbps"
         },
         {
           "id": 4,
           "label": "Stream 7",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=254060&lang=en&eid=361512009&lid=2994129&ci=31&si=1",
           "language": "German",
-          "bitrate": "959kbps"
+          "bitrate": "961kbps"
         },
         {
           "id": 5,
           "label": "Stream 9",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=254061&lang=en&eid=361512009&lid=2994130&ci=31&si=1",
           "language": "German",
-          "bitrate": "940kbps"
+          "bitrate": "946kbps"
         },
         {
           "id": 6,
           "label": "Stream 11",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=227619&lang=en&eid=361512009&lid=2994531&ci=31&si=1",
           "language": "German",
-          "bitrate": "1888kbps"
+          "bitrate": "1887kbps"
         },
         {
           "id": 7,
@@ -554,7 +421,7 @@
       "streamCount": 15
     },
     {
-      "id": 19,
+      "id": 18,
       "title": "Defensor Sporting – Boston River",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514340__/",
       "dateLabel": "11 April",
@@ -578,7 +445,7 @@
       "streamCount": 1
     },
     {
-      "id": 20,
+      "id": 19,
       "title": "Villa San Carlos – Argentino de Quilmes",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511600__/",
       "dateLabel": "11 April",
@@ -594,7 +461,7 @@
       "streamCount": 0
     },
     {
-      "id": 21,
+      "id": 20,
       "title": "Villa Dalmine – Laferrere",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511601__/",
       "dateLabel": "11 April",
@@ -610,7 +477,7 @@
       "streamCount": 0
     },
     {
-      "id": 22,
+      "id": 21,
       "title": "Sportivo Italiano – Comunicaciones",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511603__/",
       "dateLabel": "11 April",
@@ -626,7 +493,7 @@
       "streamCount": 0
     },
     {
-      "id": 23,
+      "id": 22,
       "title": "San Martin Burzaco – Defensores Unidos",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511604__/",
       "dateLabel": "11 April",
@@ -642,7 +509,7 @@
       "streamCount": 0
     },
     {
-      "id": 24,
+      "id": 23,
       "title": "San Telmo – Godoy Cruz",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511631__/",
       "dateLabel": "11 April",
@@ -658,7 +525,7 @@
       "streamCount": 0
     },
     {
-      "id": 25,
+      "id": 24,
       "title": "San Miguel – Deportivo Moron",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511632__/",
       "dateLabel": "11 April",
@@ -682,7 +549,7 @@
       "streamCount": 1
     },
     {
-      "id": 26,
+      "id": 25,
       "title": "Almagro – Patronato",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511647__/",
       "dateLabel": "11 April",
@@ -706,7 +573,7 @@
       "streamCount": 1
     },
     {
-      "id": 27,
+      "id": 26,
       "title": "Crotone – Catania",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512679__/",
       "dateLabel": "11 April",
@@ -722,7 +589,7 @@
       "streamCount": 0
     },
     {
-      "id": 28,
+      "id": 27,
       "title": "Independiente R – Argentinos Juniors",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511667__/",
       "dateLabel": "11 April",
@@ -740,21 +607,21 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253802&lang=en&eid=361511667&lid=2994743&ci=16&si=1",
           "language": "Spanish",
-          "bitrate": "955kbps"
+          "bitrate": "961kbps"
         },
         {
           "id": 2,
           "label": "Stream 4",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253824&lang=en&eid=361511667&lid=2994742&ci=16&si=1",
           "language": "Spanish",
-          "bitrate": "955kbps"
+          "bitrate": "915kbps"
         },
         {
           "id": 3,
           "label": "Stream 6",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253832&lang=en&eid=361511667&lid=2994741&ci=16&si=1",
           "language": "Spanish",
-          "bitrate": "954kbps"
+          "bitrate": "872kbps"
         },
         {
           "id": 4,
@@ -774,7 +641,7 @@
       "streamCount": 5
     },
     {
-      "id": 29,
+      "id": 28,
       "title": "Thun – Basel",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514746__/",
       "dateLabel": "11 April",
@@ -790,7 +657,7 @@
       "streamCount": 0
     },
     {
-      "id": 30,
+      "id": 29,
       "title": "Austin – LA Galaxy",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513980__/",
       "dateLabel": "11 April",
@@ -828,7 +695,7 @@
       "streamCount": 3
     },
     {
-      "id": 31,
+      "id": 30,
       "title": "Montreal – Philadelphia",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513981__/",
       "dateLabel": "11 April",
@@ -873,7 +740,7 @@
       "streamCount": 4
     },
     {
-      "id": 32,
+      "id": 31,
       "title": "Real Pilar – Deportivo Armenio",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511605__/",
       "dateLabel": "11 April",
@@ -889,7 +756,7 @@
       "streamCount": 0
     },
     {
-      "id": 33,
+      "id": 32,
       "title": "Sint-Truidense – Brugge",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511719__/",
       "dateLabel": "11 April",
@@ -913,7 +780,7 @@
       "streamCount": 1
     },
     {
-      "id": 34,
+      "id": 33,
       "title": "Atalanta – Juventus",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512590__/",
       "dateLabel": "11 April",
@@ -931,7 +798,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=244432&lang=en&eid=361512590&lid=2993918&ci=11&si=1",
           "language": "English",
-          "bitrate": "1261kbps"
+          "bitrate": "1281kbps"
         },
         {
           "id": 2,
@@ -966,7 +833,7 @@
           "label": "Stream 9",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=242914&lang=en&eid=361512590&lid=2828767&ci=11&si=1",
           "language": "Russian",
-          "bitrate": "886kbps"
+          "bitrate": "931kbps"
         },
         {
           "id": 7,
@@ -980,7 +847,7 @@
           "label": "Stream 13",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253657&lang=en&eid=361512590&lid=2991562&ci=11&si=1",
           "language": "Serbian",
-          "bitrate": "951kbps"
+          "bitrate": "954kbps"
         },
         {
           "id": 9,
@@ -1001,49 +868,49 @@
           "label": "Stream 19",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253750&lang=en&eid=361512590&lid=2991577&ci=11&si=1",
           "language": "Greek",
-          "bitrate": "975kbps"
+          "bitrate": "973kbps"
         },
         {
           "id": 12,
           "label": "Stream 21",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253780&lang=en&eid=361512590&lid=2991548&ci=11&si=1",
           "language": "German",
-          "bitrate": "919kbps"
+          "bitrate": "920kbps"
         },
         {
           "id": 13,
           "label": "Stream 23",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253782&lang=en&eid=361512590&lid=2991398&ci=11&si=1",
           "language": "German",
-          "bitrate": "952kbps"
+          "bitrate": "953kbps"
         },
         {
           "id": 14,
           "label": "Stream 25",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=254000&lang=en&eid=361512590&lid=2993082&ci=11&si=1",
           "language": "Italian",
-          "bitrate": "946kbps"
+          "bitrate": "950kbps"
         },
         {
           "id": 15,
           "label": "Stream 27",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=254092&lang=en&eid=361512590&lid=2994207&ci=11&si=1",
           "language": "Portuguese",
-          "bitrate": "890kbps"
+          "bitrate": "892kbps"
         },
         {
           "id": 16,
           "label": "Stream 29",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=237115&lang=en&eid=361512590&lid=2924379&ci=11&si=1",
           "language": "Russian",
-          "bitrate": "1975kbps"
+          "bitrate": "1972kbps"
         },
         {
           "id": 17,
           "label": "Stream 31",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=241015&lang=en&eid=361512590&lid=2993747&ci=11&si=1",
           "language": "Ukrainian",
-          "bitrate": "1923kbps"
+          "bitrate": "1922kbps"
         },
         {
           "id": 18,
@@ -1064,35 +931,35 @@
           "label": "Stream 37",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=244437&lang=en&eid=361512590&lid=2995704&ci=11&si=1",
           "language": "German",
-          "bitrate": "1253kbps"
+          "bitrate": "1279kbps"
         },
         {
           "id": 21,
           "label": "Stream 39",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=250705&lang=en&eid=361512590&lid=2994725&ci=11&si=1",
           "language": "Czech",
-          "bitrate": "742kbps"
+          "bitrate": "745kbps"
         },
         {
           "id": 22,
           "label": "Stream 41",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253751&lang=en&eid=361512590&lid=2995713&ci=11&si=1",
           "language": "Polish",
-          "bitrate": "952kbps"
+          "bitrate": "955kbps"
         },
         {
           "id": 23,
           "label": "Stream 43",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253805&lang=en&eid=361512590&lid=2991428&ci=11&si=1",
           "language": "Spanish",
-          "bitrate": "961kbps"
+          "bitrate": "958kbps"
         },
         {
           "id": 24,
           "label": "Stream 45",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253853&lang=en&eid=361512590&lid=2992695&ci=11&si=1",
           "language": "Spanish",
-          "bitrate": "949kbps"
+          "bitrate": "950kbps"
         },
         {
           "id": 25,
@@ -1182,7 +1049,7 @@
       "streamCount": 36
     },
     {
-      "id": 35,
+      "id": 34,
       "title": "Sevilla – Atletico Madrid",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512478__/",
       "dateLabel": "11 April",
@@ -1235,7 +1102,7 @@
           "label": "Stream 7",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=243137&lang=en&eid=361512478&lid=2924345&ci=15&si=1",
           "language": "Russian",
-          "bitrate": "954kbps"
+          "bitrate": "952kbps"
         },
         {
           "id": 7,
@@ -1249,56 +1116,56 @@
           "label": "Stream 11",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253172&lang=en&eid=361512478&lid=2982701&ci=15&si=1",
           "language": "Russian",
-          "bitrate": "954kbps"
+          "bitrate": "953kbps"
         },
         {
           "id": 9,
           "label": "Stream 13",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253692&lang=en&eid=361512478&lid=2991573&ci=15&si=1",
           "language": "Russian",
-          "bitrate": "977kbps"
+          "bitrate": "976kbps"
         },
         {
           "id": 10,
           "label": "Stream 15",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253701&lang=en&eid=361512478&lid=2991914&ci=15&si=1",
           "language": "Russian",
-          "bitrate": "949kbps"
+          "bitrate": "950kbps"
         },
         {
           "id": 11,
           "label": "Stream 17",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253705&lang=en&eid=361512478&lid=2994152&ci=15&si=1",
           "language": "Russian",
-          "bitrate": "885kbps"
+          "bitrate": "934kbps"
         },
         {
           "id": 12,
           "label": "Stream 19",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253734&lang=en&eid=361512478&lid=2993698&ci=15&si=1",
           "language": "Spanish",
-          "bitrate": "947kbps"
+          "bitrate": "955kbps"
         },
         {
           "id": 13,
           "label": "Stream 21",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=232734&lang=en&eid=361512478&lid=2994724&ci=15&si=1",
           "language": "Ukrainian",
-          "bitrate": "1865kbps"
+          "bitrate": "1863kbps"
         },
         {
           "id": 14,
           "label": "Stream 23",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=237150&lang=en&eid=361512478&lid=2940372&ci=15&si=1",
           "language": "Russian",
-          "bitrate": "1939kbps"
+          "bitrate": "1935kbps"
         },
         {
           "id": 15,
           "label": "Stream 25",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=237399&lang=en&eid=361512478&lid=2972642&ci=15&si=1",
           "language": "Ukrainian",
-          "bitrate": "1792kbps"
+          "bitrate": "1794kbps"
         },
         {
           "id": 16,
@@ -1319,7 +1186,7 @@
           "label": "Stream 31",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=247912&lang=en&eid=361512478&lid=2975444&ci=15&si=1",
           "language": "Italian",
-          "bitrate": "1249kbps"
+          "bitrate": "1279kbps"
         },
         {
           "id": 19,
@@ -1333,21 +1200,21 @@
           "label": "Stream 35",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253803&lang=en&eid=361512478&lid=2991915&ci=15&si=1",
           "language": "Spanish",
-          "bitrate": "921kbps"
+          "bitrate": "939kbps"
         },
         {
           "id": 21,
           "label": "Stream 37",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253814&lang=en&eid=361512478&lid=2992692&ci=15&si=1",
           "language": "Spanish",
-          "bitrate": "950kbps"
+          "bitrate": "953kbps"
         },
         {
           "id": 22,
           "label": "Stream 39",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=257833&lang=en&eid=361512478&lid=2994748&ci=15&si=1",
           "language": "Spanish",
-          "bitrate": "870kbps"
+          "bitrate": "883kbps"
         },
         {
           "id": 23,
@@ -1472,7 +1339,7 @@
       "streamCount": 39
     },
     {
-      "id": 36,
+      "id": 35,
       "title": "ASFAR – RS Berkane",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512991__/",
       "dateLabel": "11 April",
@@ -1510,7 +1377,7 @@
       "streamCount": 3
     },
     {
-      "id": 37,
+      "id": 36,
       "title": "Inter Toronto – HFX Wanderers",
       "eventUrl": "https://livetv.sx/enx/eventinfo/365104416__/",
       "dateLabel": "11 April",
@@ -1534,7 +1401,7 @@
       "streamCount": 1
     },
     {
-      "id": 38,
+      "id": 37,
       "title": "Canada (W) – Zambia (W)",
       "eventUrl": "https://livetv.sx/enx/eventinfo/363334710__/",
       "dateLabel": "11 April",
@@ -1565,7 +1432,7 @@
       "streamCount": 2
     },
     {
-      "id": 39,
+      "id": 38,
       "title": "Cordoba – Real Zaragoza",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512509__/",
       "dateLabel": "11 April",
@@ -1603,7 +1470,7 @@
       "streamCount": 3
     },
     {
-      "id": 40,
+      "id": 39,
       "title": "Mushuc Runa – Manta",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514882__/",
       "dateLabel": "11 April",
@@ -1627,7 +1494,7 @@
       "streamCount": 1
     },
     {
-      "id": 41,
+      "id": 40,
       "title": "Real Cundinamarca – Tigres Bogota",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361510794__/",
       "dateLabel": "11 April",
@@ -1651,7 +1518,7 @@
       "streamCount": 1
     },
     {
-      "id": 42,
+      "id": 41,
       "title": "Heracles Almelo – Ajax",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513385__/",
       "dateLabel": "11 April",
@@ -1759,7 +1626,7 @@
       "streamCount": 13
     },
     {
-      "id": 43,
+      "id": 42,
       "title": "Juventude – Goias",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511891__/",
       "dateLabel": "11 April",
@@ -1777,7 +1644,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253818&lang=en&eid=361511891&lid=2994732&ci=260&si=1",
           "language": "Spanish",
-          "bitrate": "900kbps"
+          "bitrate": "951kbps"
         },
         {
           "id": 2,
@@ -1790,7 +1657,7 @@
       "streamCount": 2
     },
     {
-      "id": 44,
+      "id": 43,
       "title": "La Serena – Everton VM",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514727__/",
       "dateLabel": "11 April",
@@ -1806,7 +1673,7 @@
       "streamCount": 0
     },
     {
-      "id": 45,
+      "id": 44,
       "title": "ABB – Bolivar",
       "eventUrl": "https://livetv.sx/enx/eventinfo/362191850__/",
       "dateLabel": "11 April",
@@ -1830,7 +1697,7 @@
       "streamCount": 1
     },
     {
-      "id": 46,
+      "id": 45,
       "title": "Rennes – Angers",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514431__/",
       "dateLabel": "11 April",
@@ -1855,7 +1722,7 @@
           "label": "Stream 3",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253651&lang=en&eid=361514431&lid=2991555&ci=37&si=1",
           "language": "Serbian",
-          "bitrate": "951kbps"
+          "bitrate": "949kbps"
         },
         {
           "id": 3,
@@ -1876,21 +1743,21 @@
           "label": "Stream 9",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=247380&lang=en&eid=361514431&lid=2966153&ci=37&si=1",
           "language": "Spanish",
-          "bitrate": "1085kbps"
+          "bitrate": "1035kbps"
         },
         {
           "id": 6,
           "label": "Stream 11",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=247701&lang=en&eid=361514431&lid=2966160&ci=37&si=1",
           "language": "Spanish",
-          "bitrate": "1079kbps"
+          "bitrate": "1039kbps"
         },
         {
           "id": 7,
           "label": "Stream 13",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=247702&lang=en&eid=361514431&lid=2966161&ci=37&si=1",
           "language": "Spanish",
-          "bitrate": "1063kbps"
+          "bitrate": "1030kbps"
         },
         {
           "id": 8,
@@ -1959,23 +1826,7 @@
       "streamCount": 16
     },
     {
-      "id": 47,
-      "title": "Remo – Vasco de Gama",
-      "eventUrl": "https://livetv.sx/enx/eventinfo/361511859__/",
-      "dateLabel": "11 April",
-      "timeLabel": "20:30",
-      "isLive": true,
-      "leagueLabel": "Brazil. Serie A",
-      "iconUrl": "https://cdn.livetv875.me/img/icons/br.gif",
-      "iconAlt": "Brazil. Serie A",
-      "sectionLabel": "11 April",
-      "isTopMatch": false,
-      "rawDescription": "11 April at 20:30\n(Brazil. Serie A)",
-      "streams": [],
-      "streamCount": 0
-    },
-    {
-      "id": 48,
+      "id": 46,
       "title": "Vitoria-BA – Sao Paolo",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511860__/",
       "dateLabel": "11 April",
@@ -1993,7 +1844,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253704&lang=en&eid=361511860&lid=2992935&ci=93&si=1",
           "language": "Russian",
-          "bitrate": "925kbps"
+          "bitrate": "946kbps"
         },
         {
           "id": 2,
@@ -2020,7 +1871,7 @@
       "streamCount": 4
     },
     {
-      "id": 49,
+      "id": 47,
       "title": "Estrela – Sporting",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513710__/",
       "dateLabel": "11 April",
@@ -2052,7 +1903,7 @@
           "label": "Stream 6",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253679&lang=en&eid=361513710&lid=2995455&ci=28&si=1",
           "language": "French",
-          "bitrate": "953kbps"
+          "bitrate": "955kbps"
         },
         {
           "id": 4,
@@ -2114,12 +1965,12 @@
       "streamCount": 11
     },
     {
-      "id": 50,
+      "id": 48,
       "title": "Detroit City – Sporting Jacksonville",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514008__/",
       "dateLabel": "11 April",
       "timeLabel": "21:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "USA. USL",
       "iconUrl": "https://cdn.livetv875.me/img/icons/usl.gif",
       "iconAlt": "USA. USL",
@@ -2145,12 +1996,12 @@
       "streamCount": 2
     },
     {
-      "id": 51,
+      "id": 49,
       "title": "Atletico Pantoja – Moca",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366427676__/",
       "dateLabel": "11 April",
       "timeLabel": "21:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Dominican Republic. LDF",
       "iconUrl": "https://cdn.livetv875.me/img/icons/.gif",
       "iconAlt": "Dominican Republic. LDF",
@@ -2169,12 +2020,12 @@
       "streamCount": 1
     },
     {
-      "id": 52,
+      "id": 50,
       "title": "Lemense – Inter de Bebedouro",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366593077__/",
       "dateLabel": "11 April",
       "timeLabel": "21:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Brazil. Campeonato Paulista 4",
       "iconUrl": "https://cdn.livetv875.me/img/icons/br.gif",
       "iconAlt": "Brazil. Campeonato Paulista 4",
@@ -2193,12 +2044,12 @@
       "streamCount": 1
     },
     {
-      "id": 53,
+      "id": 51,
       "title": "Deportivo Pasto (W) – Millonarios (W)",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366542683__/",
       "dateLabel": "11 April",
       "timeLabel": "21:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Colombia. Women. League Aguila",
       "iconUrl": "https://cdn.livetv875.me/img/icons/co.gif",
       "iconAlt": "Colombia. Women. League Aguila",
@@ -2209,12 +2060,28 @@
       "streamCount": 0
     },
     {
-      "id": 54,
+      "id": 52,
+      "title": "Remo – Vasco de Gama",
+      "eventUrl": "https://livetv.sx/enx/eventinfo/361511859__/",
+      "dateLabel": "11 April",
+      "timeLabel": "21:00",
+      "isLive": true,
+      "leagueLabel": "Brazil. Serie A",
+      "iconUrl": "https://cdn.livetv875.me/img/icons/br.gif",
+      "iconAlt": "Brazil. Serie A",
+      "sectionLabel": "11 April",
+      "isTopMatch": false,
+      "rawDescription": "11 April at 21:00\n(Brazil. Serie A)",
+      "streams": [],
+      "streamCount": 0
+    },
+    {
+      "id": 53,
       "title": "Fort Lauderdale Utd (W) – Sporting Jacksonville (W)",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366624440__/",
       "dateLabel": "11 April",
       "timeLabel": "21:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "USA. Women. USL",
       "iconUrl": "https://cdn.livetv875.me/img/icons/us.gif",
       "iconAlt": "USA. Women. USL",
@@ -2225,12 +2092,12 @@
       "streamCount": 0
     },
     {
-      "id": 55,
+      "id": 54,
       "title": "Floresta – Santa Cruz",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511907__/",
       "dateLabel": "11 April",
       "timeLabel": "21:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Brazil. Serie C",
       "iconUrl": "https://cdn.livetv875.me/img/icons/br.gif",
       "iconAlt": "Brazil. Serie C",
@@ -2241,7 +2108,7 @@
       "streamCount": 0
     },
     {
-      "id": 56,
+      "id": 55,
       "title": "Estudiantes LP – Union de Santa Fe",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511668__/",
       "dateLabel": "11 April",
@@ -2259,55 +2126,62 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253802&lang=en&eid=361511668&lid=2994743&ci=16&si=1",
           "language": "Spanish",
-          "bitrate": "955kbps"
+          "bitrate": "956kbps"
         },
         {
           "id": 2,
           "label": "Stream 4",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253824&lang=en&eid=361511668&lid=2994742&ci=16&si=1",
           "language": "Spanish",
-          "bitrate": "781kbps"
+          "bitrate": "922kbps"
         },
         {
           "id": 3,
           "label": "Stream 6",
-          "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253835&lang=en&eid=361511668&lid=2991950&ci=16&si=1",
+          "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253832&lang=en&eid=361511668&lid=2994741&ci=16&si=1",
           "language": "Spanish",
-          "bitrate": "930kbps"
+          "bitrate": "880kbps"
         },
         {
           "id": 4,
           "label": "Stream 8",
-          "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=254015&lang=en&eid=361511668&lid=2993351&ci=16&si=1",
+          "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253835&lang=en&eid=361511668&lid=2991950&ci=16&si=1",
           "language": "Spanish",
-          "bitrate": "954kbps"
+          "bitrate": "938kbps"
         },
         {
           "id": 5,
           "label": "Stream 10",
-          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2995709&lang=en&eid=361511668&lid=2995709&ci=16&si=1",
+          "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=254015&lang=en&eid=361511668&lid=2993351&ci=16&si=1",
           "language": "Spanish",
-          "bitrate": null
+          "bitrate": "958kbps"
         },
         {
           "id": 6,
-          "label": "Stream 11",
+          "label": "Stream 12",
           "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2994451&lang=en&eid=361511668&lid=2994451&ci=16&si=1",
           "language": "Spanish",
           "bitrate": null
         },
         {
           "id": 7,
-          "label": "Stream 12",
+          "label": "Stream 13",
           "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2995069&lang=en&eid=361511668&lid=2995069&ci=16&si=1",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 8,
+          "label": "Stream 14",
+          "url": "https://cdn.livetv875.me/webplayer.php?t=ifr&c=2995709&lang=en&eid=361511668&lid=2995709&ci=16&si=1",
           "language": "Spanish",
           "bitrate": null
         }
       ],
-      "streamCount": 7
+      "streamCount": 8
     },
     {
-      "id": 57,
+      "id": 56,
       "title": "Portland Timbers – Los Angeles",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361513982__/",
       "dateLabel": "11 April",
@@ -2352,7 +2226,7 @@
       "streamCount": 4
     },
     {
-      "id": 58,
+      "id": 57,
       "title": "AC Connecticut – Columbus Crew II",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366532880__/",
       "dateLabel": "11 April",
@@ -2368,7 +2242,7 @@
       "streamCount": 0
     },
     {
-      "id": 59,
+      "id": 58,
       "title": "Portuguesa – Puerto Cabello",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511970__/",
       "dateLabel": "11 April",
@@ -2384,7 +2258,7 @@
       "streamCount": 0
     },
     {
-      "id": 60,
+      "id": 59,
       "title": "Union Omaha – Forward Madison",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514030__/",
       "dateLabel": "11 April",
@@ -2408,7 +2282,7 @@
       "streamCount": 1
     },
     {
-      "id": 61,
+      "id": 60,
       "title": "Mixco – Xelaju MC",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511990__/",
       "dateLabel": "11 April",
@@ -2424,7 +2298,7 @@
       "streamCount": 0
     },
     {
-      "id": 62,
+      "id": 61,
       "title": "Aguilas Doradas – Atletico Junior",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512844__/",
       "dateLabel": "11 April",
@@ -2483,7 +2357,7 @@
       "streamCount": 6
     },
     {
-      "id": 63,
+      "id": 62,
       "title": "Deportivo Merlo – Ituzaingo",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511609__/",
       "dateLabel": "11 April",
@@ -2499,7 +2373,7 @@
       "streamCount": 0
     },
     {
-      "id": 64,
+      "id": 63,
       "title": "Sport Recife – Avai",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511888__/",
       "dateLabel": "11 April",
@@ -2517,7 +2391,7 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253818&lang=en&eid=361511888&lid=2994732&ci=260&si=1",
           "language": "Spanish",
-          "bitrate": "900kbps"
+          "bitrate": "951kbps"
         },
         {
           "id": 2,
@@ -2530,7 +2404,7 @@
       "streamCount": 2
     },
     {
-      "id": 65,
+      "id": 64,
       "title": "Ponte Preta – Vila Nova",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511889__/",
       "dateLabel": "11 April",
@@ -2548,13 +2422,13 @@
           "label": "Stream 2",
           "url": "https://cdn.livetv875.me/webplayer2.php?t=alieztv&c=253818&lang=en&eid=361511889&lid=2994732&ci=260&si=1",
           "language": "Spanish",
-          "bitrate": "900kbps"
+          "bitrate": "951kbps"
         }
       ],
       "streamCount": 1
     },
     {
-      "id": 66,
+      "id": 65,
       "title": "Sportivo Luqueno – Recoleta",
       "eventUrl": "https://livetv.sx/enx/eventinfo/364525097__/",
       "dateLabel": "11 April",
@@ -2570,7 +2444,7 @@
       "streamCount": 0
     },
     {
-      "id": 67,
+      "id": 66,
       "title": "Nacional Potosi – Universitario de Vinto",
       "eventUrl": "https://livetv.sx/enx/eventinfo/362191851__/",
       "dateLabel": "11 April",
@@ -2586,7 +2460,7 @@
       "streamCount": 0
     },
     {
-      "id": 68,
+      "id": 67,
       "title": "LDU Portoviejo – San Antonio Cotacachi",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361329214__/",
       "dateLabel": "11 April",
@@ -2602,7 +2476,7 @@
       "streamCount": 0
     },
     {
-      "id": 69,
+      "id": 68,
       "title": "USA (W) – Japan (W)",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361512303__/",
       "dateLabel": "11 April",
@@ -2618,7 +2492,7 @@
       "streamCount": 0
     },
     {
-      "id": 70,
+      "id": 69,
       "title": "Mirassol – Bahia",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511864__/",
       "dateLabel": "11 April",
@@ -2634,7 +2508,7 @@
       "streamCount": 0
     },
     {
-      "id": 71,
+      "id": 70,
       "title": "Audax Italiano – Universidad Catolica",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514728__/",
       "dateLabel": "11 April",
@@ -2650,7 +2524,7 @@
       "streamCount": 0
     },
     {
-      "id": 72,
+      "id": 71,
       "title": "Cibao – Salcedo",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366427678__/",
       "dateLabel": "11 April",
@@ -2666,7 +2540,7 @@
       "streamCount": 0
     },
     {
-      "id": 73,
+      "id": 72,
       "title": "Pacific – Supra du Quebec",
       "eventUrl": "https://livetv.sx/enx/eventinfo/365104418__/",
       "dateLabel": "11 April",
@@ -2682,7 +2556,7 @@
       "streamCount": 0
     },
     {
-      "id": 74,
+      "id": 73,
       "title": "Monagas – Rayo Zuliano",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511971__/",
       "dateLabel": "11 April",
@@ -2698,7 +2572,7 @@
       "streamCount": 0
     },
     {
-      "id": 75,
+      "id": 74,
       "title": "Portland Hearts of Pine – One Knoxville",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514031__/",
       "dateLabel": "11 April",
@@ -2714,7 +2588,7 @@
       "streamCount": 0
     },
     {
-      "id": 76,
+      "id": 75,
       "title": "Deportivo Maldonado – Nacional M",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361514341__/",
       "dateLabel": "11 April",
@@ -2730,7 +2604,7 @@
       "streamCount": 0
     },
     {
-      "id": 77,
+      "id": 76,
       "title": "Colon Santa Fe – Racing de Cordoba",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511636__/",
       "dateLabel": "11 April",
@@ -2746,7 +2620,7 @@
       "streamCount": 0
     },
     {
-      "id": 78,
+      "id": 77,
       "title": "ART Jalapa – Matagalpa",
       "eventUrl": "https://livetv.sx/enx/eventinfo/366509030__/",
       "dateLabel": "11 April",
@@ -2762,7 +2636,7 @@
       "streamCount": 0
     },
     {
-      "id": 79,
+      "id": 78,
       "title": "Boca Juniors – Independiente",
       "eventUrl": "https://livetv.sx/enx/eventinfo/361511669__/",
       "dateLabel": "11 April",
