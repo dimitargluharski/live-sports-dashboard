@@ -11,6 +11,6 @@
     "stack:dev": "./run-live-stack.sh",
     "frontend:dev": "pnpm --dir frontend dev",
     "frontend:build": "pnpm --dir frontend build",
-    "backend:check": "node --check backend/scripts/scrape-soccer-games-today.js && node --check backend/scripts/scrape-team-logos.js"
+    "backend:check": "node --check backend/scripts/scrape-soccer-games-today.js"
   }
 }

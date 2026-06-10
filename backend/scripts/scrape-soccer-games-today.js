@@ -41,6 +41,14 @@ if (!BASE_URL) {
 }
 const HOME_URL = new URL(HOME_PATH, `${BASE_URL}/`).toString();
 const OUTPUT_PATH = path.join(__dirname, "../.cache/allSoccerGamesToday.raw.json");
+const OUTPUT_LOGOS_PATH = path.resolve(
+  process.cwd(),
+  process.env.FEED_TEAM_LOGOS_OUTPUT || "./public/teamLogosByEvent.json",
+);
+const OUTPUT_ENRICHED_PATH = path.resolve(
+  process.cwd(),
+  process.env.FEED_ENRICHED_OUTPUT || "./public/allSoccerGamesToday.json",
+);
 
 const DEFAULT_TIMEOUT_MS = 45_000;
 const configuredMaxDays = Number(process.env.FEED_DAYS_MAX || "");
@@ -281,6 +289,170 @@ function parseDateAndLeague(descriptionText) {
   };
 }
 
+function splitTeamsFromTitle(title) {
+  const normalized = normalizeSpace(title);
+  const parts = normalized.split(/\s+[–-]\s+/).map((item) => normalizeSpace(item));
+  if (parts.length >= 2) {
+    return {
+      home: parts[0] || null,
+      away: parts[1] || null,
+    };
+  }
+
+  return { home: null, away: null };
+}
+
+function parsePlayers(rawText) {
+  return (rawText || "")
+    .split(/\r?\n/)
+    .map((line) => normalizeSpace(line))
+    .filter(Boolean)
+    .map((line) => line.replace(/^\d+\.?\s*/, "").replace(/\(G\)/g, "").trim())
+    .filter(Boolean);
+}
+
+function parsePlayersFromNode($, node) {
+  if (!node || !node.length) return [];
+  const clone = node.clone();
+  clone.find("br").replaceWith("\n");
+  return parsePlayers(clone.text());
+}
+
+function extractTeamDetails(eventHtml, eventUrl, match) {
+  const $ = cheerio.load(eventHtml);
+  const titleTeams = splitTeamsFromTitle(match.title || "");
+
+  const logoNodes = $("a[href*='/team/'] img[itemprop='image'], table[align='center'] img[itemprop='image']").slice(0, 2);
+
+  const firstLogo = logoNodes.eq(0);
+  const secondLogo = logoNodes.eq(1);
+
+  const homeTeam = normalizeSpace(firstLogo.attr("alt") || "") || titleTeams.home;
+  const awayTeam = normalizeSpace(secondLogo.attr("alt") || "") || titleTeams.away;
+
+  const homeLogoUrl = toAbsoluteUrl(firstLogo.attr("src") || null, eventUrl);
+  const awayLogoUrl = toAbsoluteUrl(secondLogo.attr("src") || null, eventUrl);
+
+  let lineupTable = $("span.graydesc b")
+    .filter((_, el) => /starting\s+lineup/i.test($(el).text()))
+    .first()
+    .closest("table");
+
+  if (!lineupTable.length) {
+    lineupTable = $("table")
+      .filter((_, table) => /starting\s+lineup/i.test($(table).text()))
+      .first();
+  }
+
+  let startingHome = [];
+  let startingAway = [];
+  let substitutesHome = [];
+  let substitutesAway = [];
+
+  if (lineupTable.length) {
+    const rows = lineupTable.find("tr");
+    const startIndex = rows
+      .toArray()
+      .findIndex((row) => /starting\s+lineup/i.test($(row).text()));
+
+    const subIndex = rows
+      .toArray()
+      .findIndex((row) => /substitutes/i.test($(row).text()));
+
+    if (startIndex >= 0) {
+      const startingRow = rows.eq(startIndex + 1);
+      const cells = startingRow.find("td");
+      startingHome = parsePlayersFromNode($, cells.eq(0));
+      startingAway = parsePlayersFromNode($, cells.eq(cells.length > 1 ? 1 : 0));
+    }
+
+    if (subIndex >= 0) {
+      const subsRow = rows.eq(subIndex + 1);
+      const cells = subsRow.find("td");
+      substitutesHome = parsePlayersFromNode($, cells.eq(0));
+      substitutesAway = parsePlayersFromNode($, cells.eq(cells.length > 1 ? 1 : 0));
+    }
+  }
+
+  return {
+    homeTeam,
+    awayTeam,
+    homeLogoUrl,
+    awayLogoUrl,
+    lineups: {
+      starting: {
+        home: startingHome,
+        away: startingAway,
+      },
+      substitutes: {
+        home: substitutesHome,
+        away: substitutesAway,
+      },
+    },
+  };
+}
+
+function buildPublicPayload(rawPayload) {
+  const matches = Array.isArray(rawPayload?.matches) ? rawPayload.matches : [];
+
+  const logosItems = matches.map((match, index) => {
+    const homeTeam = match?.teams?.home || {};
+    const awayTeam = match?.teams?.away || {};
+
+    return {
+      matchId: Number.isFinite(match?.id) ? match.id : index + 1,
+      matchTitle: match?.title || "Unknown",
+      homeTeam: homeTeam?.name || null,
+      awayTeam: awayTeam?.name || null,
+      homeLogoUrl: homeTeam?.logoUrl || null,
+      awayLogoUrl: awayTeam?.logoUrl || null,
+      logosFound: Boolean(homeTeam?.logoUrl || awayTeam?.logoUrl),
+      lineups: {
+        starting: {
+          home: Array.isArray(homeTeam?.startingLineup) ? homeTeam.startingLineup : [],
+          away: Array.isArray(awayTeam?.startingLineup) ? awayTeam.startingLineup : [],
+        },
+        substitutes: {
+          home: Array.isArray(homeTeam?.substitutes) ? homeTeam.substitutes : [],
+          away: Array.isArray(awayTeam?.substitutes) ? awayTeam.substitutes : [],
+        },
+      },
+      ...(match?.error ? { error: String(match.error).replace(/https?:\/\/\S+/g, "[redacted-url]") } : {}),
+    };
+  });
+
+  const logosPayload = {
+    scrapedAt: new Date().toISOString(),
+    count: logosItems.length,
+    items: logosItems,
+  };
+
+  const sanitizedMatches = matches.map((match) => {
+    const { eventUrl, ...restMatch } = match;
+    const streams = Array.isArray(restMatch.streams)
+      ? restMatch.streams.map((stream) => {
+          const { sourceUrl, ...restStream } = stream;
+          return restStream;
+        })
+      : [];
+
+    return {
+      ...restMatch,
+      streams,
+      streamCount: Number.isFinite(restMatch.streamCount) ? restMatch.streamCount : streams.length,
+    };
+  });
+
+  const { source, footballPageUrl, ...publicPayload } = rawPayload;
+  const enrichedPayload = {
+    ...publicPayload,
+    enrichedAt: new Date().toISOString(),
+    matches: sanitizedMatches,
+  };
+
+  return { logosPayload, enrichedPayload };
+}
+
 function getPrimaryMatchesColumnRoot($) {
   let bestRoot = null;
   let bestCount = 0;
@@ -459,8 +631,23 @@ async function scrapeFeedDaysMatches() {
     try {
       const eventHtml = await fetchHtml(match.eventUrl);
       const streams = await extractPlayerLinks(eventHtml, match.eventUrl);
+      const teamDetails = extractTeamDetails(eventHtml, match.eventUrl, match);
       match.streams = streams;
       match.streamCount = streams.length;
+      match.teams = {
+        home: {
+          name: teamDetails.homeTeam,
+          logoUrl: teamDetails.homeLogoUrl,
+          startingLineup: teamDetails.lineups?.starting?.home || [],
+          substitutes: teamDetails.lineups?.substitutes?.home || [],
+        },
+        away: {
+          name: teamDetails.awayTeam,
+          logoUrl: teamDetails.awayLogoUrl,
+          startingLineup: teamDetails.lineups?.starting?.away || [],
+          substitutes: teamDetails.lineups?.substitutes?.away || [],
+        },
+      };
       console.log(`[${i + 1}/${matches.length}] ${match.title} -> ${streams.length} streams`);
     } catch (error) {
       match.streams = [];
@@ -478,9 +665,17 @@ async function scrapeFeedDaysMatches() {
     count: matches.length,
     matches,
   };
+  const { logosPayload, enrichedPayload } = buildPublicPayload(payload);
+
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
+  fs.mkdirSync(path.dirname(OUTPUT_LOGOS_PATH), { recursive: true });
+  fs.mkdirSync(path.dirname(OUTPUT_ENRICHED_PATH), { recursive: true });
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
+  fs.writeFileSync(OUTPUT_LOGOS_PATH, JSON.stringify(logosPayload, null, 2), "utf-8");
+  fs.writeFileSync(OUTPUT_ENRICHED_PATH, JSON.stringify(enrichedPayload, null, 2), "utf-8");
   console.log(`Saved: ${OUTPUT_PATH}`);
+  console.log(`Saved logos payload: ${OUTPUT_LOGOS_PATH}`);
+  console.log(`Saved enriched matches payload: ${OUTPUT_ENRICHED_PATH}`);
   const durationMs = Date.now() - jobStartMs;
   const outputBytes = fs.statSync(OUTPUT_PATH).size;
   markJobSucceeded("days", matches.length, { durationMs, outputBytes });

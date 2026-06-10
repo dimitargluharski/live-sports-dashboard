@@ -1,25 +1,25 @@
 {
   "days": {
     "status": "success",
-    "startedAt": "2026-06-10T20:20:42.489Z",
+    "startedAt": "2026-06-10T20:30:33.212Z",
     "error": null,
-    "updatedAt": "2026-06-10T20:21:33.199Z",
-    "finishedAt": "2026-06-10T20:21:33.199Z",
+    "updatedAt": "2026-06-10T20:31:25.568Z",
+    "finishedAt": "2026-06-10T20:31:25.568Z",
     "count": 54,
     "meta": {
-      "durationMs": 50710,
-      "outputBytes": 63427
+      "durationMs": 52355,
+      "outputBytes": 90194
     }
   },
   "team-logos": {
     "status": "success",
-    "startedAt": "2026-06-10T20:21:33.516Z",
+    "startedAt": "2026-06-10T20:28:18.926Z",
     "error": null,
-    "updatedAt": "2026-06-10T20:22:08.234Z",
-    "finishedAt": "2026-06-10T20:22:08.233Z",
+    "updatedAt": "2026-06-10T20:28:18.928Z",
+    "finishedAt": "2026-06-10T20:28:18.928Z",
     "count": 54,
     "meta": {
-      "durationMs": 34717,
+      "durationMs": 2,
       "foundCount": 47,
       "outputPath": "/Users/gluharski/Desktop/live-sports-dashboard/backend/public/teamLogosByEvent.json",
       "enrichedOutputPath": "/Users/gluharski/Desktop/live-sports-dashboard/backend/public/allSoccerGamesToday.json"

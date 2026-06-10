@@ -46,12 +46,14 @@ export const GameCard: React.FC<GameCardProps> = ({
   const resolvedHome = homeTeamName || title;
   const resolvedAway = awayTeamName || null;
 
-  const renderTeamLogo = (logo: string | null | undefined, teamName: string) => {
-    if (logo) {
+  const renderTeamVisual = (logo: string | null | undefined, teamName: string) => {
+    const visualUrl = logo || flagUrl || null;
+
+    if (visualUrl) {
       return (
         <img
-          src={logo}
-          alt={`${teamName} logo`}
+          src={visualUrl}
+          alt={`${teamName} emblem`}
           className="h-8 w-8 rounded-full border border-slate-200 bg-white p-1 object-contain"
         />
       );
@@ -88,16 +90,16 @@ export const GameCard: React.FC<GameCardProps> = ({
             <div className="flex items-center gap-4 min-w-0">
               <div className="flex items-center gap-1.5 min-w-0">
                 {timeLabel && <span className="text-slate-600 font-semibold text-xs flex-shrink-0">{timeLabel}</span>}
-                {renderTeamLogo(homeLogoUrl, resolvedHome)}
-                <h3 className="line-clamp-1 text-sm font-bold text-slate-900 truncate">
+                {renderTeamVisual(homeLogoUrl, resolvedHome)}
+                <h3 className="line-clamp-1 text-base font-extrabold text-slate-900 truncate">
                   {resolvedHome}
                 </h3>
               </div>
               <span className="text-slate-400 text-xs flex-shrink-0">vs</span>
               {resolvedAway && (
                 <div className="flex items-center gap-1.5 min-w-0">
-                  {renderTeamLogo(awayLogoUrl, resolvedAway)}
-                  <h3 className="line-clamp-1 text-sm font-bold text-slate-900 truncate">
+                  {renderTeamVisual(awayLogoUrl, resolvedAway)}
+                  <h3 className="line-clamp-1 text-base font-extrabold text-slate-900 truncate">
                     {resolvedAway}
                   </h3>
                 </div>
@@ -118,7 +120,7 @@ export const GameCard: React.FC<GameCardProps> = ({
             {hasStreams ? (
               <button
                 onClick={() => setShowStreamModal(true)}
-                className="inline-flex items-center gap-1 rounded-lg bg-slate-900 px-3 py-2 text-xs font-semibold text-white transition-colors hover:bg-slate-800"
+                className="inline-flex cursor-pointer items-center gap-1 rounded-lg bg-slate-900 px-3 py-2 text-xs font-semibold text-white transition-colors hover:bg-slate-800"
               >
                 Watch
               </button>
@@ -147,16 +149,16 @@ export const GameCard: React.FC<GameCardProps> = ({
 
                 <div className="space-y-2">
                   <div className="flex items-center gap-2 px-1 py-1">
-                    {renderTeamLogo(homeLogoUrl, resolvedHome)}
-                    <h3 className="line-clamp-1 text-sm font-bold leading-tight text-slate-900">
+                    {renderTeamVisual(homeLogoUrl, resolvedHome)}
+                    <h3 className="line-clamp-1 text-lg font-extrabold leading-tight text-slate-900">
                       {resolvedHome}
                     </h3>
                   </div>
 
                   {resolvedAway && (
                     <div className="flex items-center gap-2 px-1 py-1">
-                      {renderTeamLogo(awayLogoUrl, resolvedAway)}
-                      <h3 className="line-clamp-1 text-sm font-bold leading-tight text-slate-900">
+                      {renderTeamVisual(awayLogoUrl, resolvedAway)}
+                      <h3 className="line-clamp-1 text-lg font-extrabold leading-tight text-slate-900">
                         {resolvedAway}
                       </h3>
                     </div>
@@ -193,7 +195,7 @@ export const GameCard: React.FC<GameCardProps> = ({
             {hasStreams ? (
               <button
                 onClick={() => setShowStreamModal(true)}
-                className="inline-flex items-center gap-2 rounded-lg bg-slate-900 px-4 py-2 text-xs font-semibold text-white transition-colors hover:bg-slate-800"
+                className="inline-flex cursor-pointer items-center gap-2 rounded-lg bg-slate-900 px-4 py-2 text-xs font-semibold text-white transition-colors hover:bg-slate-800"
               >
                 Watch
                 <span aria-hidden="true">→</span>
@@ -213,6 +215,10 @@ export const GameCard: React.FC<GameCardProps> = ({
       <StreamModal
         isOpen={showStreamModal}
         gameTitle={title}
+        homeTeamName={resolvedHome}
+        awayTeamName={resolvedAway}
+        homeTeamVisual={homeLogoUrl || flagUrl || null}
+        awayTeamVisual={awayLogoUrl || flagUrl || null}
         streams={streams}
         onClose={() => setShowStreamModal(false)}
       />

@@ -12,6 +12,10 @@ interface Stream {
 interface StreamModalProps {
   isOpen: boolean;
   gameTitle: string;
+  homeTeamName?: string;
+  awayTeamName?: string | null;
+  homeTeamVisual?: string | null;
+  awayTeamVisual?: string | null;
   streams: Stream[];
   onClose: () => void;
 }
@@ -19,6 +23,10 @@ interface StreamModalProps {
 export const StreamModal: React.FC<StreamModalProps> = ({
   isOpen,
   gameTitle,
+  homeTeamName,
+  awayTeamName,
+  homeTeamVisual,
+  awayTeamVisual,
   streams,
   onClose,
 }) => {
@@ -52,33 +60,73 @@ export const StreamModal: React.FC<StreamModalProps> = ({
     setIsPlayerLoading(true);
   };
 
+  const resolvedHomeTeam = homeTeamName || gameTitle;
+  const resolvedAwayTeam = awayTeamName || null;
+
+  const renderTeamBadge = (
+    teamName: string,
+    visualUrl?: string | null,
+    align: 'left' | 'right' = 'left',
+  ) => {
+    const initials = teamName
+      .split(/\s+/)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((item) => item[0])
+      .join('')
+      .toUpperCase();
+
+    const directionClass = align === 'right' ? 'flex-row-reverse text-right' : 'text-left';
+
+    return (
+      <div
+        className={`flex min-w-0 items-center gap-3 rounded-2xl bg-white/14 px-4 py-3 backdrop-blur-sm ring-1 ring-white/30 shadow-[inset_0_1px_0_rgba(255,255,255,0.18)] ${directionClass}`}
+      >
+        {visualUrl ? (
+          <img
+            src={visualUrl}
+            alt={`${teamName} logo`}
+            className="h-14 w-14 rounded-full border-2 border-white/75 bg-white p-1.5 object-contain shadow-md"
+          />
+        ) : (
+          <span className="inline-flex h-14 w-14 items-center justify-center rounded-full border-2 border-white/75 bg-white/20 text-lg font-bold text-white">
+            {initials || 'TM'}
+          </span>
+        )}
+        <span className="truncate text-[2rem] leading-none font-black tracking-tight text-white md:text-[2.35rem]">
+          {teamName}
+        </span>
+      </div>
+    );
+  };
+
   const modalContent = (
     <>
-      {/* Backdrop */}
       <div
         className="fixed inset-0 z-40 bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.18),_rgba(15,23,42,0.14)_45%,_rgba(15,23,42,0.22)_100%)] backdrop-blur-[3px] transition-opacity"
         onClick={onClose}
       />
 
-      {/* Modal */}
       <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
         <div
           className="max-h-[90vh] w-full max-w-4xl overflow-y-auto rounded-2xl border border-slate-200/70 bg-white/95 shadow-2xl shadow-slate-900/20 backdrop-blur flex flex-col"
           onClick={(e) => e.stopPropagation()}
         >
-          {/* Header */}
-          <div className="sticky top-0 bg-gradient-to-r from-sky-600 to-indigo-600 px-6 py-4 flex items-center justify-between border-b border-sky-700">
-            <div>
-              <h2 className="text-white text-xl md:text-2xl font-bold">
-                📺 {selectedStream ? 'Now Playing' : 'Watch Game'}
-              </h2>
-              <p className="text-blue-100 text-sm mt-1 truncate">
-                {gameTitle}
-              </p>
+          <div className="sticky top-0 border-b border-sky-700/80 bg-gradient-to-r from-sky-600 via-blue-600 to-indigo-600 px-6 py-5">
+            <div className="grid min-w-0 grid-cols-1 items-center gap-4 pr-12 md:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] md:gap-5">
+              {renderTeamBadge(resolvedHomeTeam, homeTeamVisual, 'left')}
+              {resolvedAwayTeam && (
+                <span className="mx-auto inline-flex h-12 w-12 items-center justify-center rounded-full border border-white/45 bg-white/15 text-xl font-black uppercase text-white shadow-sm">
+                  vs
+                </span>
+              )}
+              {resolvedAwayTeam ? renderTeamBadge(resolvedAwayTeam, awayTeamVisual, 'right') : <div aria-hidden="true" />}
             </div>
+
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-white/10 to-transparent" />
             <button
               onClick={onClose}
-              className="text-white hover:bg-blue-500 p-2 rounded-lg transition-colors"
+              className="absolute right-4 top-4 rounded-lg p-2 text-white transition-colors hover:bg-blue-500"
               aria-label="Close modal"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -87,7 +135,6 @@ export const StreamModal: React.FC<StreamModalProps> = ({
             </button>
           </div>
 
-          {/* Content */}
           <div className="flex-1 p-6 overflow-y-auto">
             {selectedStream ? (
               <>
@@ -165,10 +212,10 @@ export const StreamModal: React.FC<StreamModalProps> = ({
                           <button
                             key={stream.id}
                             onClick={() => handleSelectStream(stream)}
-                            className={`rounded-lg px-3 py-2 text-xs font-semibold transition-colors ${
+                            className={`cursor-pointer rounded-lg px-3 py-2 text-xs font-semibold transition-colors ${
                               isActive
                                 ? 'bg-sky-600 text-white'
-                                : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                                : 'bg-slate-100 text-slate-700 hover:bg-sky-100 hover:text-sky-700'
                             }`}
                           >
                             {stream.label}
@@ -182,7 +229,7 @@ export const StreamModal: React.FC<StreamModalProps> = ({
             ) : (
               <>
                 <p className="text-gray-600 mb-4 text-sm">
-                  Choose a stream to watch ({streams.length} available):
+                  Choose a stream ({streams.length} available):
                 </p>
                 <div className="space-y-3">
                   {streams.length > 0 ? (
@@ -190,7 +237,7 @@ export const StreamModal: React.FC<StreamModalProps> = ({
                       <button
                         key={stream.id}
                         onClick={() => handleSelectStream(stream)}
-                        className="group w-full overflow-hidden rounded-xl border border-slate-200 bg-white text-left shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-sky-300 hover:shadow-md"
+                        className="group w-full cursor-pointer overflow-hidden rounded-xl border border-slate-200 bg-white text-left shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-sky-400 hover:bg-sky-50/30 hover:shadow-md"
                       >
                         <div className="flex items-center justify-between gap-4 p-4">
                           <div className="flex min-w-0 flex-1 items-center gap-3">
@@ -202,20 +249,20 @@ export const StreamModal: React.FC<StreamModalProps> = ({
                                 {stream.label}
                               </h3>
                               <div className="mt-1 flex flex-wrap gap-2 text-xs text-gray-600">
-                              {stream.language && (
-                                <span className="rounded-md bg-slate-100 px-2 py-1 font-medium text-slate-600">
-                                  🌐 {stream.language}
-                                </span>
-                              )}
-                              {stream.bitrate && (
-                                <span className="rounded-md bg-slate-100 px-2 py-1 font-medium text-slate-600">
-                                  📊 {stream.bitrate}
-                                </span>
-                              )}
+                                {stream.language && (
+                                  <span className="rounded-md bg-slate-100 px-2 py-1 font-medium text-slate-600">
+                                    🌐 {stream.language}
+                                  </span>
+                                )}
+                                {stream.bitrate && (
+                                  <span className="rounded-md bg-slate-100 px-2 py-1 font-medium text-slate-600">
+                                    📊 {stream.bitrate}
+                                  </span>
+                                )}
                               </div>
                             </div>
                           </div>
-                          <div className="flex shrink-0 items-center gap-2 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-semibold text-slate-600 transition-colors group-hover:border-sky-200 group-hover:bg-sky-50 group-hover:text-sky-700">
+                          <div className="flex shrink-0 items-center gap-2 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-semibold text-slate-600 transition-colors group-hover:border-sky-300 group-hover:bg-sky-100 group-hover:text-sky-800">
                             Play
                             <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -225,8 +272,8 @@ export const StreamModal: React.FC<StreamModalProps> = ({
                       </button>
                     ))
                   ) : (
-                    <div className="text-center py-8">
-                      <p className="text-gray-500 text-lg">
+                    <div className="py-8 text-center">
+                      <p className="text-lg text-gray-500">
                         😔 No streams available for this game
                       </p>
                     </div>
@@ -236,7 +283,6 @@ export const StreamModal: React.FC<StreamModalProps> = ({
             )}
           </div>
 
-          {/* Footer */}
           <div className="bg-slate-50/90 px-6 py-4 border-t border-slate-200 flex justify-end">
             <button
               onClick={onClose}

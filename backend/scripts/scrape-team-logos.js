@@ -261,6 +261,46 @@ async function scrapeTeamLogos() {
   for (let i = 0; i < scopedMatches.length; i += 1) {
     const match = scopedMatches[i];
 
+    const preloadedHome = match?.teams?.home;
+    const preloadedAway = match?.teams?.away;
+    const hasPreloadedTeams = Boolean(
+      preloadedHome ||
+      preloadedAway ||
+      preloadedHome?.logoUrl ||
+      preloadedAway?.logoUrl ||
+      preloadedHome?.name ||
+      preloadedAway?.name,
+    );
+
+    if (hasPreloadedTeams) {
+      const details = {
+        matchId: match?.id || i + 1,
+        matchTitle: match?.title || "Unknown",
+        eventUrl: match?.eventUrl || null,
+        homeTeam: preloadedHome?.name || null,
+        awayTeam: preloadedAway?.name || null,
+        homeLogoUrl: preloadedHome?.logoUrl || null,
+        awayLogoUrl: preloadedAway?.logoUrl || null,
+        logosFound: Boolean(preloadedHome?.logoUrl || preloadedAway?.logoUrl),
+        lineups: {
+          starting: {
+            home: Array.isArray(preloadedHome?.startingLineup) ? preloadedHome.startingLineup : [],
+            away: Array.isArray(preloadedAway?.startingLineup) ? preloadedAway.startingLineup : [],
+          },
+          substitutes: {
+            home: Array.isArray(preloadedHome?.substitutes) ? preloadedHome.substitutes : [],
+            away: Array.isArray(preloadedAway?.substitutes) ? preloadedAway.substitutes : [],
+          },
+        },
+      };
+
+      results.push(details);
+      console.log(
+        `[${i + 1}/${scopedMatches.length}] ${match.title} -> logos: ${details.logosFound ? "yes" : "no"} (preloaded)`,
+      );
+      continue;
+    }
+
     if (!match?.eventUrl) {
       results.push({
         matchId: match?.id || i + 1,
