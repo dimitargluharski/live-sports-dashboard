@@ -1,32 +1,40 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-06-11T07:50:48.314Z",
-  "count": 55,
+  "scrapedAt": "2026-06-11T17:19:58.529Z",
+  "count": 44,
   "matches": [
     {
       "id": 1,
-      "title": "Thailand U19 – Cambodia U19",
+      "title": "Vitkovice – Slovacko B",
       "dateLabel": "11 June",
-      "timeLabel": "10:00",
-      "isLive": false,
-      "leagueLabel": "AFF Championship U19",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/aff.gif",
-      "iconAlt": "AFF Championship U19",
+      "timeLabel": "16:30",
+      "isLive": true,
+      "leagueLabel": "Czech Republic. 3. Liga",
+      "iconUrl": "https://cdn.livetv899.me/img/icons/cz.gif",
+      "iconAlt": "Czech Republic. 3. Liga",
       "sectionLabel": "11 June",
       "isTopMatch": false,
-      "rawDescription": "11 June at 10:00\n(AFF Championship U19)",
-      "streams": [],
-      "streamCount": 0,
+      "rawDescription": "11 June at 16:30\n(Czech Republic. 3. Liga)",
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://embed.tvcom.cz/7e7ee5f0-3347-4c0d-929e-b1cd52492dc3/",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
-          "name": "Thailand U19",
-          "logoUrl": null,
+          "name": "Vitkovice",
+          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/3973.gif",
           "startingLineup": [],
           "substitutes": []
         },
         "away": {
-          "name": "Cambodia U19",
-          "logoUrl": null,
+          "name": "Slovacko B",
+          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/7790.gif",
           "startingLineup": [],
           "substitutes": []
         }
@@ -34,308 +42,26 @@
     },
     {
       "id": 2,
-      "title": "Venezuela U20 – Japan U20",
-      "dateLabel": "11 June",
-      "timeLabel": "12:30",
-      "isLive": false,
-      "leagueLabel": "Friendly Tournament. National Teams",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/friend.gif",
-      "iconAlt": "Friendly Tournament. National Teams",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 12:30\n(Friendly Tournament. National Teams)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Venezuela U20",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Japan U20",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 3,
-      "title": "Venezuela U-20 – Japan U-20",
-      "dateLabel": "11 June",
-      "timeLabel": "12:30",
-      "isLive": false,
-      "leagueLabel": "France. Maurice Revello Tournament",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/friend.gif",
-      "iconAlt": "France. Maurice Revello Tournament",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 12:30\n(France. Maurice Revello Tournament)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Venezuela U-20",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/flag209.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Japan U-20",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/flag102.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 4,
-      "title": "Taraz – Astana-2",
-      "dateLabel": "11 June",
-      "timeLabel": "13:00",
-      "isLive": false,
-      "leagueLabel": "Kazakhstan. 1 Division",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/kz.gif",
-      "iconAlt": "Kazakhstan. 1 Division",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 13:00\n(Kazakhstan. 1 Division)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Taraz",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Astana-2",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 5,
-      "title": "Yelimay Semey 2 – Zhayik",
-      "dateLabel": "11 June",
-      "timeLabel": "13:00",
-      "isLive": false,
-      "leagueLabel": "Kazakhstan. 1 Division",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/kz.gif",
-      "iconAlt": "Kazakhstan. 1 Division",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 13:00\n(Kazakhstan. 1 Division)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Yelimay Semey 2",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Zhayik",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 6,
-      "title": "Aktobe 2 – Akademiya Ontustik",
-      "dateLabel": "11 June",
-      "timeLabel": "14:00",
-      "isLive": false,
-      "leagueLabel": "Kazakhstan. 1 Division",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/kz.gif",
-      "iconAlt": "Kazakhstan. 1 Division",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 14:00\n(Kazakhstan. 1 Division)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Aktobe 2",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Akademiya Ontustik",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 7,
-      "title": "Indonesia U19 – Australia U19",
-      "dateLabel": "11 June",
-      "timeLabel": "14:15",
-      "isLive": false,
-      "leagueLabel": "AFF Championship U19",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/aff.gif",
-      "iconAlt": "AFF Championship U19",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 14:15\n(AFF Championship U19)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Indonesia U19",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Australia U19",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 8,
-      "title": "Indonesia U-19 – Australia U-19",
-      "dateLabel": "11 June",
-      "timeLabel": "14:15",
-      "isLive": false,
-      "leagueLabel": "AFF Championship U19",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/aff.gif",
-      "iconAlt": "AFF Championship U19",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 14:15\n(AFF Championship U19)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Indonesia U-19",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/flag91.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Australia U-19",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/flag12.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 9,
-      "title": "Ordabasy – Altay",
-      "dateLabel": "11 June",
-      "timeLabel": "15:00",
-      "isLive": false,
-      "leagueLabel": "Kazakhstan. Cup",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/kz.gif",
-      "iconAlt": "Kazakhstan. Cup",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 15:00\n(Kazakhstan. Cup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Ordabasy",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/33332.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Altay",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/37827.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 10,
-      "title": "Abdish-Ata – Neftchi Kochkor-Ata",
-      "dateLabel": "11 June",
-      "timeLabel": "16:00",
-      "isLive": false,
-      "leagueLabel": "Kyrgyzstan. Premier League",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/friend.gif",
-      "iconAlt": "Kyrgyzstan. Premier League",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 16:00\n(Kyrgyzstan. Premier League)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Abdish-Ata",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/44198.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Neftchi Kochkor-Ata",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/34611.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 11,
-      "title": "Kaisar – Zhenys",
-      "dateLabel": "11 June",
-      "timeLabel": "16:00",
-      "isLive": false,
-      "leagueLabel": "Kazakhstan. Cup",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/kz.gif",
-      "iconAlt": "Kazakhstan. Cup",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 16:00\n(Kazakhstan. Cup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Kaisar",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/799.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Zhenys",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/21486.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 12,
       "title": "Elva – Maardu",
       "dateLabel": "11 June",
       "timeLabel": "17:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Estonia. Esiliiga",
       "iconUrl": "https://cdn.livetv899.me/img/icons/ee.gif",
       "iconAlt": "Estonia. Esiliiga",
       "sectionLabel": "11 June",
       "isTopMatch": false,
       "rawDescription": "11 June at 17:00\n(Estonia. Esiliiga)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/xUtP6cgZzKk?autoplay=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Elva",
@@ -352,19 +78,41 @@
       }
     },
     {
-      "id": 13,
+      "id": 3,
       "title": "Portugal U-20 – Canada U-20",
       "dateLabel": "11 June",
       "timeLabel": "18:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "France. Maurice Revello Tournament",
       "iconUrl": "https://cdn.livetv899.me/img/icons/friend.gif",
       "iconAlt": "France. Maurice Revello Tournament",
       "sectionLabel": "11 June",
       "isTopMatch": false,
       "rawDescription": "11 June at 18:00\n(France. Maurice Revello Tournament)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://dlhd.pk/stream/stream-124.php",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 2,
+          "label": "Stream 3",
+          "url": "https://daddylive11.site/my/stream-124.php",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 3,
+          "label": "Stream 4",
+          "url": "https://shd247.pro/frame0012.html",
+          "language": "Spanish",
+          "bitrate": null
+        }
+      ],
+      "streamCount": 3,
       "teams": {
         "home": {
           "name": "Portugal U-20",
@@ -381,65 +129,95 @@
       }
     },
     {
-      "id": 14,
+      "id": 4,
       "title": "Helsingborg – Landskrona",
       "dateLabel": "11 June",
       "timeLabel": "18:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Sweden. Superettan",
       "iconUrl": "https://cdn.livetv899.me/img/icons/se.gif",
       "iconAlt": "Sweden. Superettan",
       "sectionLabel": "11 June",
       "isTopMatch": false,
       "rawDescription": "11 June at 18:00\n(Sweden. Superettan)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://dlhd.pk/stream/stream-3075.php",
+          "language": "Swedish",
+          "bitrate": null
+        },
+        {
+          "id": 2,
+          "label": "Stream 3",
+          "url": "https://playfa.st/ch?id=75",
+          "language": "Swedish",
+          "bitrate": null
+        }
+      ],
+      "streamCount": 2,
       "teams": {
         "home": {
           "name": "Helsingborg",
           "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/3857.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Johan Brattberg",
+            "Alexander Johansson",
+            "Alvin Nordin",
+            "Clancy Biten",
+            "Ervin Gigovic",
+            "Femi Awodesu",
+            "Jakob Voelkerling",
+            "Loret Sadiku",
+            "Lukas Kjellnaes",
+            "Max Svensson",
+            "Simon Bengtsson"
+          ],
+          "substitutes": [
+            "Adam Akimey",
+            "Victor Wagnborg",
+            "Casper Ljung",
+            "Daouda Amadou",
+            "Jonathan Hasselqvist",
+            "Kevin Appiah Nyarko",
+            "Leo Hedenberg",
+            "Lino Wernberg",
+            "Lucas Persson"
+          ]
         },
         "away": {
           "name": "Landskrona",
           "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/5192.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Amr Kaddoura",
+            "Enes Hebibovic",
+            "Constantino Capotondi",
+            "Andreas Murbeck",
+            "Andre Alvarez Perez",
+            "Gustaf Bruzelius",
+            "Gustaf Weststroem",
+            "Markus Bjoerkqvist",
+            "Tobias Karlsson",
+            "Adam Egnell",
+            "Zakaria Loukili"
+          ],
+          "substitutes": [
+            "Gent Elezaj",
+            "Emmanuel Moungam",
+            "Edi Sylisufaj",
+            "Kevin Jensen",
+            "Kota Sakurai",
+            "Marcus Pettersson",
+            "Max’Med Mohamed",
+            "Xavier Odhiambo",
+            "Allen Smajic"
+          ]
         }
       }
     },
     {
-      "id": 15,
-      "title": "Portugal U20 – Canada U20",
-      "dateLabel": "11 June",
-      "timeLabel": "18:00",
-      "isLive": false,
-      "leagueLabel": "Friendly Tournament. National Teams",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/friend.gif",
-      "iconAlt": "Friendly Tournament. National Teams",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 18:00\n(Friendly Tournament. National Teams)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Portugal U20",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Canada U20",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 16,
+      "id": 5,
       "title": "Mexico MEX – South Africa ZAF",
       "dateLabel": "11 June",
       "timeLabel": "20:00",
@@ -468,7 +246,7 @@
       }
     },
     {
-      "id": 17,
+      "id": 6,
       "title": "Utah United – Flatirons Rush",
       "dateLabel": "12 June",
       "timeLabel": "0:00",
@@ -497,7 +275,7 @@
       }
     },
     {
-      "id": 18,
+      "id": 7,
       "title": "South Korea KOR – Czech Republic CZE",
       "dateLabel": "12 June",
       "timeLabel": "3:00",
@@ -526,7 +304,7 @@
       }
     },
     {
-      "id": 19,
+      "id": 8,
       "title": "San Juan – Project 51O",
       "dateLabel": "12 June",
       "timeLabel": "3:00",
@@ -555,7 +333,7 @@
       }
     },
     {
-      "id": 20,
+      "id": 9,
       "title": "Palmerston Rovers – Mindil Aces",
       "dateLabel": "12 June",
       "timeLabel": "10:00",
@@ -584,7 +362,7 @@
       }
     },
     {
-      "id": 21,
+      "id": 10,
       "title": "Azzurri United (W) – Casuarina (W)",
       "dateLabel": "12 June",
       "timeLabel": "10:00",
@@ -613,7 +391,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 11,
       "title": "Gold Coast Knights (W) – Brisbane City (W)",
       "dateLabel": "12 June",
       "timeLabel": "10:30",
@@ -642,7 +420,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 12,
       "title": "Eastern Suburbs (W) – Olympic Brisbane (W)",
       "dateLabel": "12 June",
       "timeLabel": "10:45",
@@ -671,7 +449,7 @@
       }
     },
     {
-      "id": 24,
+      "id": 13,
       "title": "Suwon (W) – Sejong Sportstoto (W)",
       "dateLabel": "12 June",
       "timeLabel": "11:00",
@@ -700,7 +478,7 @@
       }
     },
     {
-      "id": 25,
+      "id": 14,
       "title": "Grange Thistle (W) – North Lakes United (W)",
       "dateLabel": "12 June",
       "timeLabel": "11:30",
@@ -729,7 +507,7 @@
       }
     },
     {
-      "id": 26,
+      "id": 15,
       "title": "Batyr – Turan",
       "dateLabel": "12 June",
       "timeLabel": "13:00",
@@ -758,7 +536,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 16,
       "title": "Kairat-Zhastar – Tobol 2",
       "dateLabel": "12 June",
       "timeLabel": "13:00",
@@ -787,7 +565,7 @@
       }
     },
     {
-      "id": 28,
+      "id": 17,
       "title": "Khan Tengri – Shakhter Karaganda",
       "dateLabel": "12 June",
       "timeLabel": "15:00",
@@ -816,7 +594,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 18,
       "title": "Isloch – Naftan",
       "dateLabel": "12 June",
       "timeLabel": "15:00",
@@ -845,7 +623,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 19,
       "title": "Turan – Kaspiy 2",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -874,7 +652,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 20,
       "title": "Bishkek City – Asia Talas",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -903,7 +681,7 @@
       }
     },
     {
-      "id": 32,
+      "id": 21,
       "title": "Talant – Alay Osh",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -932,7 +710,7 @@
       }
     },
     {
-      "id": 33,
+      "id": 22,
       "title": "Tukums – Daugavpils",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -961,7 +739,7 @@
       }
     },
     {
-      "id": 34,
+      "id": 23,
       "title": "Iberia – Spaeri",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -990,7 +768,7 @@
       }
     },
     {
-      "id": 35,
+      "id": 24,
       "title": "Olympic Safi – KACM",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -1019,7 +797,7 @@
       }
     },
     {
-      "id": 36,
+      "id": 25,
       "title": "FUS Rabat – Maghreb de Fes",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -1048,7 +826,7 @@
       }
     },
     {
-      "id": 37,
+      "id": 26,
       "title": "Panevezys – Transinvest",
       "dateLabel": "12 June",
       "timeLabel": "16:30",
@@ -1077,7 +855,7 @@
       }
     },
     {
-      "id": 38,
+      "id": 27,
       "title": "Belshina – BATE",
       "dateLabel": "12 June",
       "timeLabel": "17:00",
@@ -1106,7 +884,7 @@
       }
     },
     {
-      "id": 39,
+      "id": 28,
       "title": "Liepaja – Super Nova",
       "dateLabel": "12 June",
       "timeLabel": "17:00",
@@ -1135,7 +913,36 @@
       }
     },
     {
-      "id": 40,
+      "id": 29,
+      "title": "Dziugas – Siauliai",
+      "dateLabel": "12 June",
+      "timeLabel": "17:00",
+      "isLive": false,
+      "leagueLabel": "Lithuania. A Lyga",
+      "iconUrl": "https://cdn.livetv899.me/img/icons/lt.gif",
+      "iconAlt": "Lithuania. A Lyga",
+      "sectionLabel": "12 June",
+      "isTopMatch": false,
+      "rawDescription": "12 June at 17:00\n(Lithuania. A Lyga)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Dziugas",
+          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/5947.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Siauliai",
+          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/5741.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      }
+    },
+    {
+      "id": 30,
       "title": "Dinamo Batumi – Dila",
       "dateLabel": "12 June",
       "timeLabel": "18:00",
@@ -1164,7 +971,7 @@
       }
     },
     {
-      "id": 41,
+      "id": 31,
       "title": "Zalgiris – Riteriai",
       "dateLabel": "12 June",
       "timeLabel": "18:00",
@@ -1193,36 +1000,7 @@
       }
     },
     {
-      "id": 42,
-      "title": "Dziugas – Siauliai",
-      "dateLabel": "12 June",
-      "timeLabel": "18:00",
-      "isLive": false,
-      "leagueLabel": "Lithuania. A Lyga",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/lt.gif",
-      "iconAlt": "Lithuania. A Lyga",
-      "sectionLabel": "12 June",
-      "isTopMatch": false,
-      "rawDescription": "12 June at 18:00\n(Lithuania. A Lyga)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Dziugas",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/5947.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Siauliai",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/5741.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 43,
+      "id": 32,
       "title": "DHJ – Olympique Dcheira",
       "dateLabel": "12 June",
       "timeLabel": "18:00",
@@ -1251,7 +1029,7 @@
       }
     },
     {
-      "id": 44,
+      "id": 33,
       "title": "CODM Meknes – RS Zemamra",
       "dateLabel": "12 June",
       "timeLabel": "18:00",
@@ -1280,7 +1058,7 @@
       }
     },
     {
-      "id": 45,
+      "id": 34,
       "title": "Wexford – Cork City",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1309,7 +1087,7 @@
       }
     },
     {
-      "id": 46,
+      "id": 35,
       "title": "Treaty United – Bray Wanderers",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1338,7 +1116,7 @@
       }
     },
     {
-      "id": 47,
+      "id": 36,
       "title": "Kerry – Athlone Town",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1367,7 +1145,7 @@
       }
     },
     {
-      "id": 48,
+      "id": 37,
       "title": "Finn Harps – UCD",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1396,7 +1174,7 @@
       }
     },
     {
-      "id": 49,
+      "id": 38,
       "title": "Waterford – Sligo Rovers",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1425,7 +1203,7 @@
       }
     },
     {
-      "id": 50,
+      "id": 39,
       "title": "St Patrick`s Athletic – Drogheda United",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1454,36 +1232,7 @@
       }
     },
     {
-      "id": 51,
-      "title": "Shelbourne – Shamrock Rovers",
-      "dateLabel": "12 June",
-      "timeLabel": "19:45",
-      "isLive": false,
-      "leagueLabel": "Ireland. Premier Division",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/ie.gif",
-      "iconAlt": "Ireland. Premier Division",
-      "sectionLabel": "12 June",
-      "isTopMatch": false,
-      "rawDescription": "12 June at 19:45\n(Ireland. Premier Division)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Shelbourne",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/6476.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Shamrock Rovers",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/1090.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 52,
+      "id": 40,
       "title": "Galway United – Dundalk",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1512,7 +1261,7 @@
       }
     },
     {
-      "id": 53,
+      "id": 41,
       "title": "Derry City – Bohemian",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1541,7 +1290,36 @@
       }
     },
     {
-      "id": 54,
+      "id": 42,
+      "title": "Shelbourne – Shamrock Rovers",
+      "dateLabel": "12 June",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Ireland. Premier Division",
+      "iconUrl": "https://cdn.livetv899.me/img/icons/ie.gif",
+      "iconAlt": "Ireland. Premier Division",
+      "sectionLabel": "12 June",
+      "isTopMatch": false,
+      "rawDescription": "12 June at 20:00\n(Ireland. Premier Division)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Shelbourne",
+          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/6476.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Shamrock Rovers",
+          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/1090.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      }
+    },
+    {
+      "id": 43,
       "title": "Canada CAN – Bosnia and Herzegovina BIH",
       "dateLabel": "12 June",
       "timeLabel": "20:00",
@@ -1570,7 +1348,7 @@
       }
     },
     {
-      "id": 55,
+      "id": 44,
       "title": "Atletico-GO – CRB",
       "dateLabel": "12 June",
       "timeLabel": "23:00",
@@ -1599,5 +1377,5 @@
       }
     }
   ],
-  "enrichedAt": "2026-06-11T07:50:48.314Z"
+  "enrichedAt": "2026-06-11T17:19:58.530Z"
 }

@@ -13,6 +13,7 @@
     "stack:dev:chat": "./run-live-stack.sh --with-chat",
     "frontend:dev": "pnpm --dir frontend dev",
     "frontend:build": "pnpm --dir frontend build",
-    "backend:check": "node --check backend/scripts/scrape-soccer-games-today.js"
+    "backend:check": "node --check backend/scripts/scrape-soccer-games-today.js",
+    "stack:dev:chat:git": "./hydrate-feed.sh --watch --interval 900 --git-sync"
   }
 }
