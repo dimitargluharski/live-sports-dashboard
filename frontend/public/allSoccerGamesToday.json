@@ -1,6 +1,6 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-06-11T20:39:30.580Z",
+  "scrapedAt": "2026-06-11T20:55:25.648Z",
   "count": 40,
   "matches": [
     {
@@ -1048,28 +1048,28 @@
         {
           "id": 148,
           "label": "Stream 222",
-          "url": "https://flixlive.pro/live/ch1_spain.php",
-          "language": "Spanish",
-          "bitrate": null
-        },
-        {
-          "id": 149,
-          "label": "Stream 223",
           "url": "https://flixxlive.pro/live/ert2_greece.php",
           "language": "Greek",
           "bitrate": null
         },
         {
+          "id": 149,
+          "label": "Stream 223",
+          "url": "https://flixlive.pro/live/ch1_spain.php",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
           "id": 150,
           "label": "Stream 224",
-          "url": "https://flixlive.pro/live/ch1_german.php",
+          "url": "https://flixxlive.pro/live/orf1_german.php",
           "language": "German",
           "bitrate": null
         },
         {
           "id": 151,
           "label": "Stream 225",
-          "url": "https://flixxlive.pro/live/orf1_german.php",
+          "url": "https://flixlive.pro/live/ch1_german.php",
           "language": "German",
           "bitrate": null
         },
@@ -1090,15 +1090,15 @@
         {
           "id": 154,
           "label": "Stream 228",
-          "url": "https://asiria.is/sportvbelarus.php",
-          "language": "Russian",
+          "url": "https://dlhd.pk/stream/stream-1.php",
+          "language": "German",
           "bitrate": null
         },
         {
           "id": 155,
           "label": "Stream 229",
-          "url": "https://dlhd.pk/stream/stream-1.php",
-          "language": "German",
+          "url": "https://asiria.is/sportvbelarus.php",
+          "language": "Russian",
           "bitrate": null
         },
         {
@@ -2432,5 +2432,5 @@
       }
     }
   ],
-  "enrichedAt": "2026-06-11T20:39:30.581Z"
+  "enrichedAt": "2026-06-11T20:55:25.649Z"
 }
