@@ -4,10 +4,17 @@ const { WebSocketServer } = require("ws");
 const PORT = Number(process.env.CHAT_PORT || "8081");
 const MAX_MESSAGE_LENGTH = Number(process.env.CHAT_MAX_MESSAGE_LENGTH || "280");
 const ROOM_HISTORY_LIMIT = Number(process.env.CHAT_ROOM_HISTORY_LIMIT || "100");
-const MIN_MESSAGE_INTERVAL_MS = Number(process.env.CHAT_MIN_MESSAGE_INTERVAL_MS || "1000");
+const MIN_MESSAGE_INTERVAL_MS = Number(
+  process.env.CHAT_MIN_MESSAGE_INTERVAL_MS || "1000",
+);
 
 const rooms = new Map();
 const clientMeta = new WeakMap();
+
+process.on("unhandledRejection", (reason) => {
+  if (reason?.message?.includes("onResponseError")) return; // Игнорираме скапания бъг на Node
+  console.error("Unhandled Rejection:", reason);
+});
 
 function sanitizeText(value) {
   return String(value || "")
@@ -102,7 +109,10 @@ wss.on("connection", (ws, req, url) => {
     return;
   }
 
-  const ip = (req.headers["x-forwarded-for"] || "").toString().split(",")[0].trim() || req.socket.remoteAddress || "unknown";
+  const ip =
+    (req.headers["x-forwarded-for"] || "").toString().split(",")[0].trim() ||
+    req.socket.remoteAddress ||
+    "unknown";
 
   const room = createRoomIfMissing(roomId);
   room.clients.add(ws);
@@ -184,7 +194,10 @@ wss.on("connection", (ws, req, url) => {
 
     targetRoom.history.push(message);
     if (targetRoom.history.length > ROOM_HISTORY_LIMIT) {
-      targetRoom.history.splice(0, targetRoom.history.length - ROOM_HISTORY_LIMIT);
+      targetRoom.history.splice(
+        0,
+        targetRoom.history.length - ROOM_HISTORY_LIMIT,
+      );
     }
 
     broadcastToRoom(meta.roomId, {
@@ -221,5 +234,7 @@ wss.on("close", () => {
 
 server.listen(PORT, () => {
   console.log(`Chat WebSocket server listening on http://0.0.0.0:${PORT}`);
-  console.log(`WebSocket endpoint: ws://0.0.0.0:${PORT}/chat?room=<roomId>&nick=<nickname>`);
+  console.log(
+    `WebSocket endpoint: ws://0.0.0.0:${PORT}/chat?room=<roomId>&nick=<nickname>`,
+  );
 });
