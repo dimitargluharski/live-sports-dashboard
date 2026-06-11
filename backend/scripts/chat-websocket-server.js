@@ -12,7 +12,7 @@ const rooms = new Map();
 const clientMeta = new WeakMap();
 
 process.on("unhandledRejection", (reason) => {
-  if (reason?.message?.includes("onResponseError")) return; // Игнорираме скапания бъг на Node
+  if (reason?.message?.includes("onResponseError")) return;
   console.error("Unhandled Rejection:", reason);
 });
 
