@@ -1,84 +1,10 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-06-11T17:19:58.529Z",
-  "count": 44,
+  "scrapedAt": "2026-06-11T18:45:19.122Z",
+  "count": 42,
   "matches": [
     {
       "id": 1,
-      "title": "Vitkovice – Slovacko B",
-      "dateLabel": "11 June",
-      "timeLabel": "16:30",
-      "isLive": true,
-      "leagueLabel": "Czech Republic. 3. Liga",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/cz.gif",
-      "iconAlt": "Czech Republic. 3. Liga",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 16:30\n(Czech Republic. 3. Liga)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://embed.tvcom.cz/7e7ee5f0-3347-4c0d-929e-b1cd52492dc3/",
-          "language": null,
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1,
-      "teams": {
-        "home": {
-          "name": "Vitkovice",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/3973.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Slovacko B",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/7790.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 2,
-      "title": "Elva – Maardu",
-      "dateLabel": "11 June",
-      "timeLabel": "17:00",
-      "isLive": true,
-      "leagueLabel": "Estonia. Esiliiga",
-      "iconUrl": "https://cdn.livetv899.me/img/icons/ee.gif",
-      "iconAlt": "Estonia. Esiliiga",
-      "sectionLabel": "11 June",
-      "isTopMatch": false,
-      "rawDescription": "11 June at 17:00\n(Estonia. Esiliiga)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/xUtP6cgZzKk?autoplay=1",
-          "language": null,
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1,
-      "teams": {
-        "home": {
-          "name": "Elva",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/4630.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Maardu",
-          "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/4244.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      }
-    },
-    {
-      "id": 3,
       "title": "Portugal U-20 – Canada U-20",
       "dateLabel": "11 June",
       "timeLabel": "18:00",
@@ -107,12 +33,19 @@
         {
           "id": 3,
           "label": "Stream 4",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261159&w=700&h=480",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 4,
+          "label": "Stream 6",
           "url": "https://shd247.pro/frame0012.html",
           "language": "Spanish",
           "bitrate": null
         }
       ],
-      "streamCount": 3,
+      "streamCount": 4,
       "teams": {
         "home": {
           "name": "Portugal U-20",
@@ -129,7 +62,7 @@
       }
     },
     {
-      "id": 4,
+      "id": 2,
       "title": "Helsingborg – Landskrona",
       "dateLabel": "11 June",
       "timeLabel": "18:00",
@@ -217,7 +150,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 3,
       "title": "Mexico MEX – South Africa ZAF",
       "dateLabel": "11 June",
       "timeLabel": "20:00",
@@ -228,25 +161,1132 @@
       "sectionLabel": "11 June",
       "isTopMatch": false,
       "rawDescription": "11 June at 20:00\n(World Cup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261227&w=700&h=480",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261315&w=700&h=480",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 3,
+          "label": "Stream 6",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261386&w=700&h=480",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 4,
+          "label": "Stream 8",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261387&w=700&h=480",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 5,
+          "label": "Stream 10",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=233007&w=700&h=480",
+          "language": "English",
+          "bitrate": "2500kbps"
+        },
+        {
+          "id": 6,
+          "label": "Stream 12",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=233080&w=700&h=480",
+          "language": "English",
+          "bitrate": "2700kbps"
+        },
+        {
+          "id": 7,
+          "label": "Stream 14",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=242257&w=700&h=480",
+          "language": "English",
+          "bitrate": "3001kbps"
+        },
+        {
+          "id": 8,
+          "label": "Stream 16",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=242328&w=700&h=480",
+          "language": "English",
+          "bitrate": "5001kbps"
+        },
+        {
+          "id": 9,
+          "label": "Stream 18",
+          "url": "https://asiria.is/tsn4.php",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 10,
+          "label": "Stream 19",
+          "url": "https://playfa.st/ch?id=1",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 11,
+          "label": "Stream 20",
+          "url": "https://playfa.st/ch?id=9",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 12,
+          "label": "Stream 21",
+          "url": "https://shd247.pro/frame0021.html",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 13,
+          "label": "Stream 22",
+          "url": "https://shd247.pro/frame0022.html",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 14,
+          "label": "Stream 23",
+          "url": "https://streamcorner.click/Livetv.099/1.php",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 15,
+          "label": "Stream 24",
+          "url": "https://strems.center/top-011/1.php",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 16,
+          "label": "Stream 25",
+          "url": "https://strems.center/top-011/2.php",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 17,
+          "label": "Stream 26",
+          "url": "https://strems.center/top-011/3.php",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 18,
+          "label": "Stream 27",
+          "url": "https://flixxlive.pro/live/itv1_english.php",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 19,
+          "label": "Stream 28",
+          "url": "https://asiria.is/itv1.php",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 20,
+          "label": "Stream 29",
+          "url": "https://asiria.is/tsn1.php",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 21,
+          "label": "Stream 30",
+          "url": "https://topgames-100.icu/soccer100/?ch=3",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 22,
+          "label": "Stream 31",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=237992&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "990kbps"
+        },
+        {
+          "id": 23,
+          "label": "Stream 33",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=253172&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "955kbps"
+        },
+        {
+          "id": 24,
+          "label": "Stream 35",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261009&w=700&h=480",
+          "language": "Serbian",
+          "bitrate": null
+        },
+        {
+          "id": 25,
+          "label": "Stream 37",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261023&w=700&h=480",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 26,
+          "label": "Stream 39",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261033&w=700&h=480",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 27,
+          "label": "Stream 41",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261080&w=700&h=480",
+          "language": "Portuguese",
+          "bitrate": null
+        },
+        {
+          "id": 28,
+          "label": "Stream 43",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261204&w=700&h=480",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 29,
+          "label": "Stream 45",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261344&w=700&h=480",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 30,
+          "label": "Stream 47",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261345&w=700&h=480",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 31,
+          "label": "Stream 49",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261350&w=700&h=480",
+          "language": "Portuguese",
+          "bitrate": null
+        },
+        {
+          "id": 32,
+          "label": "Stream 51",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261351&w=700&h=480",
+          "language": "Portuguese",
+          "bitrate": null
+        },
+        {
+          "id": 33,
+          "label": "Stream 53",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261425&w=700&h=480",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 34,
+          "label": "Stream 55",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261435&w=700&h=480",
+          "language": "Italian",
+          "bitrate": null
+        },
+        {
+          "id": 35,
+          "label": "Stream 57",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261437&w=700&h=480",
+          "language": "Italian",
+          "bitrate": null
+        },
+        {
+          "id": 36,
+          "label": "Stream 59",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261439&w=700&h=480",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 37,
+          "label": "Stream 61",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261454&w=700&h=480",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 38,
+          "label": "Stream 63",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261467&w=700&h=480",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 39,
+          "label": "Stream 65",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261469&w=700&h=480",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 40,
+          "label": "Stream 67",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261476&w=700&h=480",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 41,
+          "label": "Stream 69",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261479&w=700&h=480",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 42,
+          "label": "Stream 71",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=134994&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": "2000kbps"
+        },
+        {
+          "id": 43,
+          "label": "Stream 73",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=227619&w=700&h=480",
+          "language": "German",
+          "bitrate": "2500kbps"
+        },
+        {
+          "id": 44,
+          "label": "Stream 75",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=227624&w=700&h=480",
+          "language": "German",
+          "bitrate": "2700kbps"
+        },
+        {
+          "id": 45,
+          "label": "Stream 77",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=232729&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": "2700kbps"
+        },
+        {
+          "id": 46,
+          "label": "Stream 79",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=237115&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2700kbps"
+        },
+        {
+          "id": 47,
+          "label": "Stream 81",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=237141&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2500kbps"
+        },
+        {
+          "id": 48,
+          "label": "Stream 83",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=237242&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "3000kbps"
+        },
+        {
+          "id": 49,
+          "label": "Stream 85",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=237328&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": "2500kbps"
+        },
+        {
+          "id": 50,
+          "label": "Stream 87",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=237362&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": "3000kbps"
+        },
+        {
+          "id": 51,
+          "label": "Stream 89",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=240418&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2200kbps"
+        },
+        {
+          "id": 52,
+          "label": "Stream 91",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=241322&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2200kbps"
+        },
+        {
+          "id": 53,
+          "label": "Stream 93",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=242312&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "3001kbps"
+        },
+        {
+          "id": 54,
+          "label": "Stream 95",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=242313&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "5001kbps"
+        },
+        {
+          "id": 55,
+          "label": "Stream 97",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=257994&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": null
+        },
+        {
+          "id": 56,
+          "label": "Stream 99",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=258262&w=700&h=480",
+          "language": "Russian",
+          "bitrate": null
+        },
+        {
+          "id": 57,
+          "label": "Stream 101",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=260990&w=700&h=480",
+          "language": null,
+          "bitrate": null
+        },
+        {
+          "id": 58,
+          "label": "Stream 103",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261177&w=700&h=480",
+          "language": "Portuguese",
+          "bitrate": null
+        },
+        {
+          "id": 59,
+          "label": "Stream 105",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261200&w=700&h=480",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 60,
+          "label": "Stream 107",
+          "url": "https://emb.apl414.me/\nplayer/live.php?id=261426&w=700&h=480",
+          "language": "Italian",
+          "bitrate": null
+        },
+        {
+          "id": 61,
+          "label": "Stream 109",
+          "url": "https://asiria.is/bein1fr.php",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 62,
+          "label": "Stream 110",
+          "url": "https://asiria.is/beinsport1max.php",
+          "language": "Arabic",
+          "bitrate": null
+        },
+        {
+          "id": 63,
+          "label": "Stream 111",
+          "url": "https://asiria.is/ctsport.php",
+          "language": "Czech",
+          "bitrate": null
+        },
+        {
+          "id": 64,
+          "label": "Stream 112",
+          "url": "https://asiria.is/daznmundial.php",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 65,
+          "label": "Stream 113",
+          "url": "https://asiria.is/hrt2.php",
+          "language": "Croatian",
+          "bitrate": null
+        },
+        {
+          "id": 66,
+          "label": "Stream 114",
+          "url": "https://asiria.is/kazsport.php",
+          "language": "Kazakh",
+          "bitrate": null
+        },
+        {
+          "id": 67,
+          "label": "Stream 115",
+          "url": "https://asiria.is/m6fr.php",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 68,
+          "label": "Stream 116",
+          "url": "https://asiria.is/match.php",
+          "language": "Russian",
+          "bitrate": null
+        },
+        {
+          "id": 69,
+          "label": "Stream 117",
+          "url": "https://asiria.is/match1.php",
+          "language": "Russian",
+          "bitrate": null
+        },
+        {
+          "id": 70,
+          "label": "Stream 118",
+          "url": "https://asiria.is/megogosport.php",
+          "language": "Ukrainian",
+          "bitrate": null
+        },
+        {
+          "id": 71,
+          "label": "Stream 119",
+          "url": "https://asiria.is/mtv3urheilu1.php",
+          "language": "Finnish",
+          "bitrate": null
+        },
+        {
+          "id": 72,
+          "label": "Stream 120",
+          "url": "https://asiria.is/npo1.php",
+          "language": "Dutch",
+          "bitrate": null
+        },
+        {
+          "id": 73,
+          "label": "Stream 121",
+          "url": "https://asiria.is/orf1.php",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 74,
+          "label": "Stream 122",
+          "url": "https://asiria.is/rai1.php",
+          "language": "Italian",
+          "bitrate": null
+        },
+        {
+          "id": 75,
+          "label": "Stream 123",
+          "url": "https://asiria.is/rts2.php",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 76,
+          "label": "Stream 124",
+          "url": "https://asiria.is/setantasport1georgia.php",
+          "language": "Georgian",
+          "bitrate": null
+        },
+        {
+          "id": 77,
+          "label": "Stream 125",
+          "url": "https://asiria.is/sport1pt.php",
+          "language": "Portuguese",
+          "bitrate": null
+        },
+        {
+          "id": 78,
+          "label": "Stream 126",
+          "url": "https://asiria.is/srf2.php",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 79,
+          "label": "Stream 127",
+          "url": "https://asiria.is/tve1.php",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 80,
+          "label": "Stream 128",
+          "url": "https://asiria.is/tvp1.php",
+          "language": "Polish",
+          "bitrate": null
+        },
+        {
+          "id": 81,
+          "label": "Stream 129",
+          "url": "https://asiria.is/wesportmoldova.php",
+          "language": "Romanian",
+          "bitrate": null
+        },
+        {
+          "id": 82,
+          "label": "Stream 130",
+          "url": "https://asiria.is/zdf.php",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 83,
+          "label": "Stream 131",
+          "url": "https://daddylive11.site/my/stream-844.php",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 84,
+          "label": "Stream 132",
+          "url": "https://dlhd.pk/stream/stream-10.php",
+          "language": "Croatian",
+          "bitrate": null
+        },
+        {
+          "id": 85,
+          "label": "Stream 133",
+          "url": "https://dlhd.pk/stream/stream-1012.php",
+          "language": "Turkish",
+          "bitrate": null
+        },
+        {
+          "id": 86,
+          "label": "Stream 134",
+          "url": "https://dlhd.pk/stream/stream-11.php",
+          "language": "Serbian",
+          "bitrate": null
+        },
+        {
+          "id": 87,
+          "label": "Stream 135",
+          "url": "https://dlhd.pk/stream/stream-12.php",
+          "language": "Swedish",
+          "bitrate": null
+        },
+        {
+          "id": 88,
+          "label": "Stream 136",
+          "url": "https://dlhd.pk/stream/stream-127.php",
+          "language": "Russian",
+          "bitrate": null
+        },
+        {
+          "id": 89,
+          "label": "Stream 137",
+          "url": "https://dlhd.pk/stream/stream-128.php",
+          "language": "Polish",
+          "bitrate": null
+        },
+        {
+          "id": 90,
+          "label": "Stream 138",
+          "url": "https://dlhd.pk/stream/stream-131.php",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 91,
+          "label": "Stream 139",
+          "url": "https://dlhd.pk/stream/stream-136.php",
+          "language": "Russian",
+          "bitrate": null
+        },
+        {
+          "id": 92,
+          "label": "Stream 140",
+          "url": "https://dlhd.pk/stream/stream-2.php",
+          "language": "Dutch",
+          "bitrate": null
+        },
+        {
+          "id": 93,
+          "label": "Stream 141",
+          "url": "https://dlhd.pk/stream/stream-290.php",
+          "language": "Portuguese",
+          "bitrate": null
+        },
+        {
+          "id": 94,
+          "label": "Stream 142",
+          "url": "https://dlhd.pk/stream/stream-3.php",
+          "language": "Slovak",
+          "bitrate": null
+        },
+        {
+          "id": 95,
+          "label": "Stream 143",
+          "url": "https://dlhd.pk/stream/stream-470.php",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 96,
+          "label": "Stream 144",
+          "url": "https://dlhd.pk/stream/stream-478.php",
+          "language": "Bulgarian",
+          "bitrate": null
+        },
+        {
+          "id": 97,
+          "label": "Stream 145",
+          "url": "https://dlhd.pk/stream/stream-49.php",
+          "language": "Portuguese",
+          "bitrate": null
+        },
+        {
+          "id": 98,
+          "label": "Stream 146",
+          "url": "https://dlhd.pk/stream/stream-573.php",
+          "language": "Russian",
+          "bitrate": null
+        },
+        {
+          "id": 99,
+          "label": "Stream 147",
+          "url": "https://dlhd.pk/stream/stream-579.php",
+          "language": "Serbian",
+          "bitrate": null
+        },
+        {
+          "id": 100,
+          "label": "Stream 148",
+          "url": "https://dlhd.pk/stream/stream-723.php",
+          "language": "Portuguese",
+          "bitrate": null
+        },
+        {
+          "id": 101,
+          "label": "Stream 149",
+          "url": "https://dlhd.pk/stream/stream-727.php",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 102,
+          "label": "Stream 150",
+          "url": "https://dlhd.pk/stream/stream-78.php",
+          "language": "Portuguese",
+          "bitrate": null
+        },
+        {
+          "id": 103,
+          "label": "Stream 151",
+          "url": "https://dlhd.pk/stream/stream-817.php",
+          "language": "Danish",
+          "bitrate": null
+        },
+        {
+          "id": 104,
+          "label": "Stream 152",
+          "url": "https://dlhd.pk/stream/stream-850.php",
+          "language": "Italian",
+          "bitrate": null
+        },
+        {
+          "id": 105,
+          "label": "Stream 153",
+          "url": "https://dlhd.pk/stream/stream-889.php",
+          "language": "Turkish",
+          "bitrate": null
+        },
+        {
+          "id": 106,
+          "label": "Stream 154",
+          "url": "https://dlhd.pk/stream/stream-9.php",
+          "language": "Norvegian",
+          "bitrate": null
+        },
+        {
+          "id": 107,
+          "label": "Stream 155",
+          "url": "https://dlhd.pk/stream/stream-935.php",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 108,
+          "label": "Stream 156",
+          "url": "https://kiratop.site/live3/stream1.php",
+          "language": "Serbian",
+          "bitrate": null
+        },
+        {
+          "id": 109,
+          "label": "Stream 157",
+          "url": "https://kiratop.site/live3/stream19.php",
+          "language": "Portuguese",
+          "bitrate": null
+        },
+        {
+          "id": 110,
+          "label": "Stream 158",
+          "url": "https://kiratop.site/live3/stream53.php",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 111,
+          "label": "Stream 159",
+          "url": "https://playfa.st/ch?id=100",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 112,
+          "label": "Stream 160",
+          "url": "https://playfa.st/ch?id=11",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 113,
+          "label": "Stream 161",
+          "url": "https://playfa.st/ch?id=27",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 114,
+          "label": "Stream 162",
+          "url": "https://playfa.st/ch?id=47",
+          "language": "Italian",
+          "bitrate": null
+        },
+        {
+          "id": 115,
+          "label": "Stream 163",
+          "url": "https://playfa.st/ch?id=56",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 116,
+          "label": "Stream 164",
+          "url": "https://playfa.st/ch?id=71",
+          "language": "Finnish",
+          "bitrate": null
+        },
+        {
+          "id": 117,
+          "label": "Stream 165",
+          "url": "https://playfa.st/ch?id=91",
+          "language": "Turkish",
+          "bitrate": null
+        },
+        {
+          "id": 118,
+          "label": "Stream 166",
+          "url": "https://shd247.pro/frame0015.html",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 119,
+          "label": "Stream 167",
+          "url": "https://flixxlive.pro/live/npo1_dutch.php",
+          "language": "Dutch",
+          "bitrate": null
+        },
+        {
+          "id": 120,
+          "label": "Stream 168",
+          "url": "https://flixxlive.pro/live/tudn_spain.php",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 121,
+          "label": "Stream 169",
+          "url": "https://flixxlive.pro/live/orf1_german.php",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 122,
+          "label": "Stream 170",
+          "url": "https://flixxlive.pro/live/tvela1_spain.php",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 123,
+          "label": "Stream 171",
+          "url": "https://flixxlive.pro/live/zdf_german.php",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 124,
+          "label": "Stream 172",
+          "url": "https://flixxlive.pro/live/ert2_greece.php",
+          "language": "Greek",
+          "bitrate": null
+        },
+        {
+          "id": 125,
+          "label": "Stream 173",
+          "url": "https://flixxlive.pro/live/rts1_serbia.php",
+          "language": "Serbian",
+          "bitrate": null
+        },
+        {
+          "id": 126,
+          "label": "Stream 174",
+          "url": "https://asiria.is/matchpremier.php",
+          "language": "Russian",
+          "bitrate": null
+        },
+        {
+          "id": 127,
+          "label": "Stream 175",
+          "url": "https://theturquoise.cfd/channel.html?id=11",
+          "language": "Polish",
+          "bitrate": null
+        },
+        {
+          "id": 128,
+          "label": "Stream 176",
+          "url": "https://theturquoise.cfd/channel.html?id=6",
+          "language": "Polish",
+          "bitrate": null
+        },
+        {
+          "id": 129,
+          "label": "Stream 177",
+          "url": "https://dlhd.pk/stream/stream-1.php",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 130,
+          "label": "Stream 178",
+          "url": "https://dlhd.pk/stream/stream-6.php",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 131,
+          "label": "Stream 179",
+          "url": "https://dlhd.pk/stream/stream-134.php",
+          "language": "Serbian",
+          "bitrate": null
+        },
+        {
+          "id": 132,
+          "label": "Stream 180",
+          "url": "https://asiria.is/sportvbelarus.php",
+          "language": "Russian",
+          "bitrate": null
+        },
+        {
+          "id": 133,
+          "label": "Stream 181",
+          "url": "https://theturquoise.cfd/channel.html?id=1",
+          "language": "Polish",
+          "bitrate": null
+        },
+        {
+          "id": 134,
+          "label": "Stream 182",
+          "url": "https://dlhd.pk/stream/stream-8.php",
+          "language": "Romanian",
+          "bitrate": null
+        },
+        {
+          "id": 135,
+          "label": "Stream 184",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=09efde1ad03b0f8b5be1bc4d97720e5ff6af3f38&lang=en&eid=384659517&lid=3026332&ci=2608&si=1",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 136,
+          "label": "Stream 186",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=bf85d2226ffb0999dd035db614e90f2af23cfa9b&lang=en&eid=384659517&lid=3026330&ci=2608&si=1",
+          "language": "English",
+          "bitrate": null
+        },
+        {
+          "id": 137,
+          "label": "Stream 188",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=4b7c5f21b435d79c823e47572655a9c157a3ba12&lang=en&eid=384659517&lid=2844043&ci=2608&si=1",
+          "language": "Russian",
+          "bitrate": "8000kbps"
+        },
+        {
+          "id": 138,
+          "label": "Stream 190",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=a203f6b935a8ad8659c4c76c1d9c13afa6368ef2&lang=en&eid=384659517&lid=2777845&ci=2608&si=1",
+          "language": "Russian",
+          "bitrate": "8000kbps"
+        },
+        {
+          "id": 139,
+          "label": "Stream 192",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=b28db77c5084da7993395d77df96c30bb134f0a9&lang=en&eid=384659517&lid=2844048&ci=2608&si=1",
+          "language": "Russian",
+          "bitrate": "8000kbps"
+        },
+        {
+          "id": 140,
+          "label": "Stream 194",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d6f0a6377c31f68b1c1c071e0a8f9f105a455867&lang=en&eid=384659517&lid=2840890&ci=2608&si=1",
+          "language": "Polish",
+          "bitrate": "8000kbps"
+        },
+        {
+          "id": 141,
+          "label": "Stream 196",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=19aa9f08d580e97fa60869be88fa6516767539c2&lang=en&eid=384659517&lid=3026334&ci=2608&si=1",
+          "language": "Portuguese",
+          "bitrate": null
+        },
+        {
+          "id": 142,
+          "label": "Stream 198",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=463a7e76af7572aba9531ed5a3a60122127d5b94&lang=en&eid=384659517&lid=3026327&ci=2608&si=1",
+          "language": "Spanish",
+          "bitrate": null
+        },
+        {
+          "id": 143,
+          "label": "Stream 200",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=4ae89a4340b80b6f65085affb8d70d40f241e033&lang=en&eid=384659517&lid=3026328&ci=2608&si=1",
+          "language": "Russian",
+          "bitrate": null
+        },
+        {
+          "id": 144,
+          "label": "Stream 202",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=bba1905fcd1c4975aec544047bf8e4cd23ce3fe0&lang=en&eid=384659517&lid=2895054&ci=2608&si=1",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 145,
+          "label": "Stream 204",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=c4b4277061b1d2db78b6c6bb0713ca89dbed77a6&lang=en&eid=384659517&lid=3026312&ci=2608&si=1",
+          "language": "Slovak",
+          "bitrate": null
+        },
+        {
+          "id": 146,
+          "label": "Stream 206",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=c9d6412050226de0968cea19a383b50dc1966363&lang=en&eid=384659517&lid=3026323&ci=2608&si=1",
+          "language": "German",
+          "bitrate": null
+        },
+        {
+          "id": 147,
+          "label": "Stream 208",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=de4040fa0a9d5aaad79620e62fa299789f319150&lang=en&eid=384659517&lid=3026329&ci=2608&si=1",
+          "language": "French",
+          "bitrate": null
+        },
+        {
+          "id": 148,
+          "label": "Stream 210",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=fc52c1462fa65270d5ba651ac7c41a8e9719ef9c&lang=en&eid=384659517&lid=3026326&ci=2608&si=1",
+          "language": "Ukrainian",
+          "bitrate": null
+        },
+        {
+          "id": 149,
+          "label": "Stream 212",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=8d41c2b6be422474bf05508acf10f5b92352988d&lang=en&eid=384659517&lid=3026333&ci=2608&si=1",
+          "language": "Polish",
+          "bitrate": null
+        },
+        {
+          "id": 150,
+          "label": "Stream 214",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=fda8c884ff0cf21e9ec9c4791e2d653943cad9d3&lang=en&eid=384659517&lid=3026331&ci=2608&si=1",
+          "language": "German",
+          "bitrate": null
+        }
+      ],
+      "streamCount": 150,
       "teams": {
         "home": {
           "name": "Mexico MEX",
           "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/flag127.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Jose Rangel",
+            "Erik Lira",
+            "Cesar Montes",
+            "Brian Gutierrez",
+            "Alvaro Fidalgo",
+            "Israel Reyes",
+            "Jesus Gallardo",
+            "Roberto Alvarado",
+            "Raul Jimenez",
+            "Julian Quinones",
+            "Johan Vasquez"
+          ],
+          "substitutes": [
+            "Santiago Gimenez",
+            "Guillermo Martinez",
+            "Gilberto Mora",
+            "Edson Alvarez",
+            "Cesar Huerta",
+            "Carlos Acevedo",
+            "Armando Gonzalez",
+            "Guillermo Ochoa",
+            "Orbelin Pineda",
+            "Obed Vargas",
+            "Mateo Chavez",
+            "Luis Romo",
+            "Luis Chavez",
+            "Jorge Sanchez",
+            "Alexis Vega"
+          ]
         },
         "away": {
           "name": "South Africa ZAF",
           "logoUrl": "https://cdn.livetv899.me/img/teams/fullsize/ods/flag216.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Ronwen Williams",
+            "Mbekezeli Mbokazi",
+            "Lyle Foster",
+            "Khuliso Mudau",
+            "Jayden Adams",
+            "Iqraam Rayners",
+            "Ime Okon",
+            "Nkosinathi Sibisi",
+            "Teboho Mokoena",
+            "Sphephelo Sithole",
+            "Aubrey Maphosa Modiba"
+          ],
+          "substitutes": [
+            "Tshepang Moremi",
+            "Khulumani Ndamane",
+            "Kamogelo Sebelebele",
+            "Evidence Makgopa",
+            "Olwethu Makhanya",
+            "Oswin Appollis",
+            "Themba Zwane",
+            "Thapelo Maseko",
+            "Thalente Mbatha",
+            "Thabang Matuludi",
+            "Sipho Chaine",
+            "Samukelo Kabini",
+            "Ricardo Goss",
+            "Relebohile Mofokeng",
+            "Bradley Cross"
+          ]
         }
       }
     },
     {
-      "id": 6,
+      "id": 4,
       "title": "Utah United – Flatirons Rush",
       "dateLabel": "12 June",
       "timeLabel": "0:00",
@@ -275,7 +1315,7 @@
       }
     },
     {
-      "id": 7,
+      "id": 5,
       "title": "South Korea KOR – Czech Republic CZE",
       "dateLabel": "12 June",
       "timeLabel": "3:00",
@@ -304,7 +1344,7 @@
       }
     },
     {
-      "id": 8,
+      "id": 6,
       "title": "San Juan – Project 51O",
       "dateLabel": "12 June",
       "timeLabel": "3:00",
@@ -333,7 +1373,7 @@
       }
     },
     {
-      "id": 9,
+      "id": 7,
       "title": "Palmerston Rovers – Mindil Aces",
       "dateLabel": "12 June",
       "timeLabel": "10:00",
@@ -362,7 +1402,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 8,
       "title": "Azzurri United (W) – Casuarina (W)",
       "dateLabel": "12 June",
       "timeLabel": "10:00",
@@ -391,7 +1431,7 @@
       }
     },
     {
-      "id": 11,
+      "id": 9,
       "title": "Gold Coast Knights (W) – Brisbane City (W)",
       "dateLabel": "12 June",
       "timeLabel": "10:30",
@@ -420,7 +1460,7 @@
       }
     },
     {
-      "id": 12,
+      "id": 10,
       "title": "Eastern Suburbs (W) – Olympic Brisbane (W)",
       "dateLabel": "12 June",
       "timeLabel": "10:45",
@@ -449,7 +1489,7 @@
       }
     },
     {
-      "id": 13,
+      "id": 11,
       "title": "Suwon (W) – Sejong Sportstoto (W)",
       "dateLabel": "12 June",
       "timeLabel": "11:00",
@@ -478,7 +1518,7 @@
       }
     },
     {
-      "id": 14,
+      "id": 12,
       "title": "Grange Thistle (W) – North Lakes United (W)",
       "dateLabel": "12 June",
       "timeLabel": "11:30",
@@ -507,7 +1547,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 13,
       "title": "Batyr – Turan",
       "dateLabel": "12 June",
       "timeLabel": "13:00",
@@ -536,7 +1576,7 @@
       }
     },
     {
-      "id": 16,
+      "id": 14,
       "title": "Kairat-Zhastar – Tobol 2",
       "dateLabel": "12 June",
       "timeLabel": "13:00",
@@ -565,7 +1605,7 @@
       }
     },
     {
-      "id": 17,
+      "id": 15,
       "title": "Khan Tengri – Shakhter Karaganda",
       "dateLabel": "12 June",
       "timeLabel": "15:00",
@@ -594,7 +1634,7 @@
       }
     },
     {
-      "id": 18,
+      "id": 16,
       "title": "Isloch – Naftan",
       "dateLabel": "12 June",
       "timeLabel": "15:00",
@@ -623,7 +1663,7 @@
       }
     },
     {
-      "id": 19,
+      "id": 17,
       "title": "Turan – Kaspiy 2",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -652,7 +1692,7 @@
       }
     },
     {
-      "id": 20,
+      "id": 18,
       "title": "Bishkek City – Asia Talas",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -681,7 +1721,7 @@
       }
     },
     {
-      "id": 21,
+      "id": 19,
       "title": "Talant – Alay Osh",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -710,7 +1750,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 20,
       "title": "Tukums – Daugavpils",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -739,7 +1779,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 21,
       "title": "Iberia – Spaeri",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -768,7 +1808,7 @@
       }
     },
     {
-      "id": 24,
+      "id": 22,
       "title": "Olympic Safi – KACM",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -797,7 +1837,7 @@
       }
     },
     {
-      "id": 25,
+      "id": 23,
       "title": "FUS Rabat – Maghreb de Fes",
       "dateLabel": "12 June",
       "timeLabel": "16:00",
@@ -826,7 +1866,7 @@
       }
     },
     {
-      "id": 26,
+      "id": 24,
       "title": "Panevezys – Transinvest",
       "dateLabel": "12 June",
       "timeLabel": "16:30",
@@ -855,7 +1895,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 25,
       "title": "Belshina – BATE",
       "dateLabel": "12 June",
       "timeLabel": "17:00",
@@ -884,7 +1924,7 @@
       }
     },
     {
-      "id": 28,
+      "id": 26,
       "title": "Liepaja – Super Nova",
       "dateLabel": "12 June",
       "timeLabel": "17:00",
@@ -913,7 +1953,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 27,
       "title": "Dziugas – Siauliai",
       "dateLabel": "12 June",
       "timeLabel": "17:00",
@@ -942,7 +1982,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 28,
       "title": "Dinamo Batumi – Dila",
       "dateLabel": "12 June",
       "timeLabel": "18:00",
@@ -971,7 +2011,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 29,
       "title": "Zalgiris – Riteriai",
       "dateLabel": "12 June",
       "timeLabel": "18:00",
@@ -1000,7 +2040,7 @@
       }
     },
     {
-      "id": 32,
+      "id": 30,
       "title": "DHJ – Olympique Dcheira",
       "dateLabel": "12 June",
       "timeLabel": "18:00",
@@ -1029,7 +2069,7 @@
       }
     },
     {
-      "id": 33,
+      "id": 31,
       "title": "CODM Meknes – RS Zemamra",
       "dateLabel": "12 June",
       "timeLabel": "18:00",
@@ -1058,7 +2098,7 @@
       }
     },
     {
-      "id": 34,
+      "id": 32,
       "title": "Wexford – Cork City",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1087,7 +2127,7 @@
       }
     },
     {
-      "id": 35,
+      "id": 33,
       "title": "Treaty United – Bray Wanderers",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1116,7 +2156,7 @@
       }
     },
     {
-      "id": 36,
+      "id": 34,
       "title": "Kerry – Athlone Town",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1145,7 +2185,7 @@
       }
     },
     {
-      "id": 37,
+      "id": 35,
       "title": "Finn Harps – UCD",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1174,7 +2214,7 @@
       }
     },
     {
-      "id": 38,
+      "id": 36,
       "title": "Waterford – Sligo Rovers",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1203,7 +2243,7 @@
       }
     },
     {
-      "id": 39,
+      "id": 37,
       "title": "St Patrick`s Athletic – Drogheda United",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1232,7 +2272,7 @@
       }
     },
     {
-      "id": 40,
+      "id": 38,
       "title": "Galway United – Dundalk",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1261,7 +2301,7 @@
       }
     },
     {
-      "id": 41,
+      "id": 39,
       "title": "Derry City – Bohemian",
       "dateLabel": "12 June",
       "timeLabel": "19:45",
@@ -1290,7 +2330,7 @@
       }
     },
     {
-      "id": 42,
+      "id": 40,
       "title": "Shelbourne – Shamrock Rovers",
       "dateLabel": "12 June",
       "timeLabel": "20:00",
@@ -1319,7 +2359,7 @@
       }
     },
     {
-      "id": 43,
+      "id": 41,
       "title": "Canada CAN – Bosnia and Herzegovina BIH",
       "dateLabel": "12 June",
       "timeLabel": "20:00",
@@ -1348,7 +2388,7 @@
       }
     },
     {
-      "id": 44,
+      "id": 42,
       "title": "Atletico-GO – CRB",
       "dateLabel": "12 June",
       "timeLabel": "23:00",
@@ -1377,5 +2417,5 @@
       }
     }
   ],
-  "enrichedAt": "2026-06-11T17:19:58.530Z"
+  "enrichedAt": "2026-06-11T18:45:19.123Z"
 }
