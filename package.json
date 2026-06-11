@@ -8,7 +8,9 @@
     "hydrate:watch": "./hydrate-feed.sh --watch --interval 900",
     "hydrate:watch:git": "./hydrate-feed.sh --watch --interval 900 --git-sync",
     "hydrate:watch:1m": "./hydrate-feed.sh --watch --interval 60",
+    "chat:server": "pnpm --dir backend run chat:server",
     "stack:dev": "./run-live-stack.sh",
+    "stack:dev:chat": "./run-live-stack.sh --with-chat",
     "frontend:dev": "pnpm --dir frontend dev",
     "frontend:build": "pnpm --dir frontend build",
     "backend:check": "node --check backend/scripts/scrape-soccer-games-today.js"

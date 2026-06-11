@@ -37,6 +37,12 @@
 - Run hydrate watcher + frontend dev together:
   - `pnpm run stack:dev`
 
+- Run chat server only:
+  - `pnpm run chat:server`
+
+- Run hydrate watcher + chat server + frontend dev together:
+  - `pnpm run stack:dev:chat`
+
 - Start frontend dev server:
   - `pnpm run frontend:dev`
 
@@ -50,3 +56,11 @@
 
 - `hydrate-feed.sh` updates `frontend/public/allSoccerGamesToday.json` only when there is a meaningful JSON change.
 - Generated backend cache and local env are ignored in git.
+
+## Match Chat (WebSocket MVP)
+
+- Backend WebSocket endpoint (default): `ws://localhost:8081/chat`
+- Health check (default): `http://localhost:8081/health`
+- Frontend room mapping: one chat room per match (`matchId`)
+- Optional frontend env:
+  - `VITE_CHAT_WS_URL=ws://your-host:8081/chat`
