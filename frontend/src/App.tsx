@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react';
-import { GamesGrid } from './components/GamesGrid';
-import type { Game } from './components/GamesGrid';
+import { useEffect, useState } from "react";
+import { addHours } from "date-fns";
+import { GamesGrid } from "./components/GamesGrid";
+import type { Game } from "./components/GamesGrid";
 
 type GamesPayload = {
   matches?: Array<Partial<Game>>;
@@ -12,9 +13,10 @@ function App() {
   useEffect(() => {
     let isMounted = true;
 
-    fetch('/allSoccerGamesToday.json', { cache: 'no-store' })
+    fetch("/allSoccerGamesToday.json", { cache: "no-store" })
       .then((res) => {
-        if (!res.ok) throw new Error(`Failed to load games JSON (${res.status})`);
+        if (!res.ok)
+          throw new Error(`Failed to load games JSON (${res.status})`);
         return res.json();
       })
       .then((data: GamesPayload) => {
@@ -22,9 +24,11 @@ function App() {
         const normalizedGames: Game[] = Array.isArray(data?.matches)
           ? data.matches.map((game, index) => ({
               id: Number.isFinite(game.id) ? Number(game.id) : index + 1,
-              title: game.title || 'Unknown match',
+              title: game.title || "Unknown match",
               dateLabel: game.dateLabel || undefined,
-              timeLabel: game.timeLabel || undefined,
+              timeLabel: game.timeLabel
+                ? addHours(new Date(game.timeLabel), 2)
+                : undefined,
               leagueLabel: game.leagueLabel || undefined,
               streamCount: Number.isFinite(game.streamCount)
                 ? Number(game.streamCount)
@@ -40,7 +44,7 @@ function App() {
         setGames(normalizedGames);
       })
       .catch((error) => {
-        console.error('Failed to load allSoccerGamesToday.json:', error);
+        console.error("Failed to load allSoccerGamesToday.json:", error);
         if (!isMounted) return;
         setGames([]);
       });
