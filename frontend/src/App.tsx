@@ -26,9 +26,7 @@ function App() {
               id: Number.isFinite(game.id) ? Number(game.id) : index + 1,
               title: game.title || "Unknown match",
               dateLabel: game.dateLabel || undefined,
-              timeLabel: game.timeLabel
-                ? addHours(new Date(game.timeLabel), 2)
-                : undefined,
+              timeLabel: addHours(new Date(), 2).toISOString() || undefined,
               leagueLabel: game.leagueLabel || undefined,
               streamCount: Number.isFinite(game.streamCount)
                 ? Number(game.streamCount)
