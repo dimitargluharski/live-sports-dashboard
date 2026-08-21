@@ -131,6 +131,10 @@ const COUNTRY_CODES: Record<string, string> = {
   World: 'un',
 };
 
+const THEME_STORAGE_KEY = 'sportix-theme';
+const LIVE_FILTER_STORAGE_KEY = 'sportix-filter-live';
+const STREAMS_FILTER_STORAGE_KEY = 'sportix-filter-streams';
+
 function extractCountryFromLeague(leagueLabel?: string): string | null {
   if (!leagueLabel) return null;
   const firstToken = leagueLabel.split('.')[0]?.trim();
@@ -144,9 +148,15 @@ function getCountryFlagUrl(country: string | null): string | null {
 }
 
 export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
-  const [filterLiveOnly, setFilterLiveOnly] = useState(false);
-  const [filterWithStreams, setFilterWithStreams] = useState(false);
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
+  const [filterLiveOnly, setFilterLiveOnly] = useState(() => (
+    typeof window !== 'undefined' && window.localStorage.getItem(LIVE_FILTER_STORAGE_KEY) === 'true'
+  ));
+  const [filterWithStreams, setFilterWithStreams] = useState(() => (
+    typeof window !== 'undefined' && window.localStorage.getItem(STREAMS_FILTER_STORAGE_KEY) === 'true'
+  ));
+  const [isDarkTheme, setIsDarkTheme] = useState(() => (
+    typeof window !== 'undefined' && window.localStorage.getItem(THEME_STORAGE_KEY) === 'dark'
+  ));
   const [searchTerm, setSearchTerm] = useState('');
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('');
 
@@ -162,6 +172,12 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
       document.body.style.color = '';
     };
   }, [isDarkTheme]);
+
+  useEffect(() => {
+    window.localStorage.setItem(THEME_STORAGE_KEY, isDarkTheme ? 'dark' : 'light');
+    window.localStorage.setItem(LIVE_FILTER_STORAGE_KEY, String(filterLiveOnly));
+    window.localStorage.setItem(STREAMS_FILTER_STORAGE_KEY, String(filterWithStreams));
+  }, [isDarkTheme, filterLiveOnly, filterWithStreams]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
