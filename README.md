@@ -28,6 +28,9 @@
 - Run hydrate watcher every 15 min:
   - `pnpm run hydrate:watch`
 
+- Run hydrate watcher every 5 min:
+  - `pnpm run hydrate:watch:5m`
+
 - Run hydrate watcher every 15 min + auto commit/push:
   - `pnpm run hydrate:watch:git`
 
