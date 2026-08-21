@@ -48,6 +48,7 @@ function App() {
                   : 0,
               isLive: Boolean(game.isLive),
               streams: Array.isArray(game.streams) ? game.streams : [],
+              headToHead: game.headToHead || null,
               teams: game.teams,
             }))
           : [];
