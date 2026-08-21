@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { StreamModal } from "./StreamModal";
-import { MatchChatDock } from "./MatchChatDock";
 
 interface Stream {
   id: number;
@@ -57,7 +56,6 @@ interface GameCardProps {
 }
 
 export const GameCard: React.FC<GameCardProps> = ({
-  id,
   title,
   flagUrl,
   homeLogoUrl,
@@ -72,8 +70,6 @@ export const GameCard: React.FC<GameCardProps> = ({
   const [isExpanded, setIsExpanded] = useState(false);
   const [activeTab, setActiveTab] = useState<"streams" | "h2h" | "form">("streams");
   const [showStreamModal, setShowStreamModal] = useState(false);
-  const [showChatDock, setShowChatDock] = useState(false);
-  const [activeRoomId, setActiveRoomId] = useState(() => String(id));
   const hasStreams = streamCount > 0;
   const h2hMatches = headToHead?.matches || [];
   const hasForm = Boolean(headToHead?.form?.home?.matches?.length || headToHead?.form?.away?.matches?.length);
@@ -157,36 +153,8 @@ export const GameCard: React.FC<GameCardProps> = ({
     );
   };
 
-  const resolveInviteRoomForMatch = () => {
-    if (typeof window === "undefined") return null;
-
-    const params = new URLSearchParams(window.location.search);
-    const inviteMatch = params.get("inviteMatch");
-    const inviteRoom = params.get("inviteRoom");
-
-    if (inviteMatch === String(id) && inviteRoom && inviteRoom.trim()) {
-      return inviteRoom.trim();
-    }
-
-    return null;
-  };
-
-  const createRoomId = () => {
-    return `${id}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`;
-  };
-
-  const joinExistingRoomSession = (room: string) => {
-    const normalized = room.trim();
-    if (!normalized) return;
-    setActiveRoomId(normalized);
-    setShowChatDock(true);
-  };
-
   const startWatchSession = () => {
-    const inviteRoom = resolveInviteRoomForMatch();
-    setActiveRoomId(inviteRoom || createRoomId());
     setShowStreamModal(true);
-    setShowChatDock(true);
   };
 
   const toggleExpanded = () => {
@@ -332,16 +300,7 @@ export const GameCard: React.FC<GameCardProps> = ({
         streams={streams}
         onClose={() => {
           setShowStreamModal(false);
-          setShowChatDock(false);
         }}
-      />
-
-      <MatchChatDock
-        isOpen={showChatDock}
-        roomId={activeRoomId}
-        matchId={String(id)}
-        title={title}
-        onJoinRoom={joinExistingRoomSession}
       />
     </article>
   );

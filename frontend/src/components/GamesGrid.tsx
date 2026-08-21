@@ -60,9 +60,75 @@ interface GamesGridProps {
   games: Game[];
 }
 
-const COUNTRY_NAME_OVERRIDES: Record<string, string> = {
-  'Czech Republic': 'Czechia',
-  England: 'United Kingdom',
+const COUNTRY_CODES: Record<string, string> = {
+  Argentina: 'ar',
+  Australia: 'au',
+  Austria: 'at',
+  Belgium: 'be',
+  Brazil: 'br',
+  Bulgaria: 'bg',
+  Canada: 'ca',
+  Chile: 'cl',
+  China: 'cn',
+  Colombia: 'co',
+  Croatia: 'hr',
+  Cyprus: 'cy',
+  Czechia: 'cz',
+  Denmark: 'dk',
+  Ecuador: 'ec',
+  Egypt: 'eg',
+  England: 'gb-eng',
+  Estonia: 'ee',
+  Finland: 'fi',
+  France: 'fr',
+  Georgia: 'ge',
+  Germany: 'de',
+  Greece: 'gr',
+  Hungary: 'hu',
+  Iceland: 'is',
+  India: 'in',
+  Indonesia: 'id',
+  Ireland: 'ie',
+  Israel: 'il',
+  Italy: 'it',
+  Japan: 'jp',
+  Kazakhstan: 'kz',
+  Latvia: 'lv',
+  Lithuania: 'lt',
+  Luxembourg: 'lu',
+  Malaysia: 'my',
+  Mexico: 'mx',
+  Moldova: 'md',
+  Montenegro: 'me',
+  Netherlands: 'nl',
+  'New Zealand': 'nz',
+  Nigeria: 'ng',
+  Norway: 'no',
+  Paraguay: 'py',
+  Peru: 'pe',
+  Poland: 'pl',
+  Portugal: 'pt',
+  Romania: 'ro',
+  Russia: 'ru',
+  Scotland: 'gb-sct',
+  Serbia: 'rs',
+  Singapore: 'sg',
+  Slovakia: 'sk',
+  Slovenia: 'si',
+  'South Africa': 'za',
+  'South Korea': 'kr',
+  Spain: 'es',
+  Sweden: 'se',
+  Switzerland: 'ch',
+  Thailand: 'th',
+  Tunisia: 'tn',
+  Turkey: 'tr',
+  Ukraine: 'ua',
+  Uruguay: 'uy',
+  USA: 'us',
+  Uzbekistan: 'uz',
+  Wales: 'gb-wls',
+  World: 'un',
 };
 
 function extractCountryFromLeague(leagueLabel?: string): string | null {
@@ -72,11 +138,15 @@ function extractCountryFromLeague(leagueLabel?: string): string | null {
   return firstToken;
 }
 
+function getCountryFlagUrl(country: string | null): string | null {
+  const code = country ? COUNTRY_CODES[country] : null;
+  return code ? `https://flagcdn.com/w40/${code}.png` : null;
+}
+
 export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
   const [filterLiveOnly, setFilterLiveOnly] = useState(false);
   const [filterWithStreams, setFilterWithStreams] = useState(false);
   const [isDarkTheme, setIsDarkTheme] = useState(false);
-  const [flagByCountry, setFlagByCountry] = useState<Record<string, string>>({});
   const [searchTerm, setSearchTerm] = useState('');
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('');
 
@@ -94,65 +164,6 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
   }, [isDarkTheme]);
 
   useEffect(() => {
-    const uniqueCountries = Array.from(
-      new Set(
-        games
-          .map((game) => extractCountryFromLeague(game.leagueLabel))
-          .filter((value): value is string => Boolean(value)),
-      ),
-    ).filter((country) => !flagByCountry[country]);
-
-    if (uniqueCountries.length === 0) return;
-
-    let isCancelled = false;
-
-    async function loadFlags() {
-      const results = await Promise.all(
-        uniqueCountries.map(async (country) => {
-          const query = COUNTRY_NAME_OVERRIDES[country] || country;
-          try {
-            const res = await fetch(
-              `https://restcountries.com/v3.1/name/${encodeURIComponent(query)}?fields=name,flags`,
-            );
-            if (!res.ok) return [country, null] as const;
-
-            const data = (await res.json()) as Array<{
-              name?: { common?: string };
-              flags?: { svg?: string; png?: string };
-            }>;
-
-            const exact = data.find((item) => {
-              const common = item.name?.common?.toLowerCase() || '';
-              return common === country.toLowerCase() || common === query.toLowerCase();
-            });
-            const picked = exact || data[0];
-            const flagUrl = picked?.flags?.svg || picked?.flags?.png || null;
-            return [country, flagUrl] as const;
-          } catch {
-            return [country, null] as const;
-          }
-        }),
-      );
-
-      if (isCancelled) return;
-
-      setFlagByCountry((prev) => {
-        const next = { ...prev };
-        for (const [country, flagUrl] of results) {
-          if (flagUrl) next[country] = flagUrl;
-        }
-        return next;
-      });
-    }
-
-    loadFlags();
-
-    return () => {
-      isCancelled = true;
-    };
-  }, [games, flagByCountry]);
-
-  useEffect(() => {
     const timer = setTimeout(() => {
       setDebouncedSearchTerm(searchTerm.trim().toLowerCase());
     }, 300);
@@ -165,7 +176,7 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
       const country = extractCountryFromLeague(game.leagueLabel);
       const homeLogoUrl = game.teams?.home?.logoUrl || null;
       const awayLogoUrl = game.teams?.away?.logoUrl || null;
-      const fallbackFlagUrl = country ? flagByCountry[country] || null : null;
+      const fallbackFlagUrl = getCountryFlagUrl(country);
 
       return {
         ...game,
@@ -175,7 +186,7 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
         flagUrl: fallbackFlagUrl,
       };
     });
-  }, [games, flagByCountry]);
+  }, [games]);
 
   const filteredGames = useMemo(() => {
     return gamesWithResolvedFlags.filter((game) => {
