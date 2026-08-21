@@ -23,13 +23,12 @@ interface GameCardProps {
   streamCount: number;
   isLive: boolean;
   streams?: Stream[];
-  viewMode?: "grid" | "list";
+  isDarkTheme?: boolean;
 }
 
 export const GameCard: React.FC<GameCardProps> = ({
   id,
   title,
-  countryOrLeagueLabel,
   flagUrl,
   homeLogoUrl,
   awayLogoUrl,
@@ -37,8 +36,9 @@ export const GameCard: React.FC<GameCardProps> = ({
   streamCount,
   isLive,
   streams = [],
-  viewMode = "grid",
+  isDarkTheme = false,
 }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
   const [showStreamModal, setShowStreamModal] = useState(false);
   const [showChatDock, setShowChatDock] = useState(false);
   const [activeRoomId, setActiveRoomId] = useState(() => String(id));
@@ -82,6 +82,10 @@ export const GameCard: React.FC<GameCardProps> = ({
     setShowChatDock(true);
   };
 
+  const toggleExpanded = () => {
+    if (hasStreams) setIsExpanded((expanded) => !expanded);
+  };
+
   const renderTeamVisual = (
     logo: string | null | undefined,
     teamName: string,
@@ -107,160 +111,90 @@ export const GameCard: React.FC<GameCardProps> = ({
 
   return (
     <article
-      className={`group rounded-2xl border border-slate-200 border-l-[7px] bg-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md ${
-        isLive ? "border-l-rose-500" : "border-l-slate-300"
-      } ${viewMode === "list" ? "p-3" : "p-4"}`}
+      className={`group rounded-lg border border-black/10 border-l-4 px-3 py-3 shadow-sm transition-shadow duration-200 hover:shadow-md sm:px-4 ${
+        isDarkTheme ? "border-white/10 bg-[#1b1b1b]" : "bg-white"} ${
+        isLive ? "border-l-rose-500" : "border-l-black"
+      }`}
     >
-      {viewMode === "list" ? (
-        <div className="flex items-center justify-between gap-3">
-          <div className="min-w-0 flex-1">
-            <div className="flex items-center gap-2 mb-1">
-              {flagUrl && (
-                <img
-                  src={flagUrl}
-                  alt={countryOrLeagueLabel || "country flag"}
-                  className="h-5 w-5 rounded-full border border-slate-200 bg-slate-100 p-0.5 object-contain flex-shrink-0"
-                />
-              )}
-              <p className="text-[10px] font-semibold uppercase tracking-[0.1em] text-slate-500 truncate">
-                {countryOrLeagueLabel || "League"}
-              </p>
+      <button
+        type="button"
+        onClick={toggleExpanded}
+        aria-expanded={isExpanded}
+        disabled={!hasStreams}
+        className="flex w-full flex-col gap-3 text-left lg:flex-row lg:items-center lg:justify-between disabled:cursor-default"
+      >
+        <div className="flex min-w-0 flex-1 items-center gap-3">
+          {timeLabel && (
+            <span className={`inline-flex w-[4.5rem] shrink-0 items-center justify-center gap-1.5 rounded-md border px-2 py-2 text-sm font-black tabular-nums ${isDarkTheme ? "border-white/10 bg-[#252525] text-white" : "border-black/10 bg-[#f2f1ed] text-slate-950"}`}>
+              <svg className="h-3.5 w-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" />
+                <path strokeLinecap="round" d="M12 7v5l3 2" />
+              </svg>
+              {timeLabel}
+            </span>
+          )}
+          <div className={`h-10 w-px shrink-0 ${isDarkTheme ? "bg-white/10" : "bg-black/10"}`} />
+          <div className="min-w-0 space-y-1">
+            <div className="flex min-w-0 items-center gap-2">
+              {renderTeamVisual(homeLogoUrl, resolvedHome)}
+              <h3 className={`truncate text-sm font-extrabold sm:text-base ${isDarkTheme ? "text-white" : "text-slate-950"}`}>
+                {resolvedHome}
+              </h3>
             </div>
-            <div className="flex items-center gap-4 min-w-0">
-              <div className="flex items-center gap-1.5 min-w-0">
-                {timeLabel && (
-                  <span className="text-slate-600 font-semibold text-xs flex-shrink-0">
-                    {timeLabel}
-                  </span>
-                )}
-                {renderTeamVisual(homeLogoUrl, resolvedHome)}
-                <h3 className="line-clamp-1 text-base font-extrabold text-slate-900 truncate">
-                  {resolvedHome}
+            {resolvedAway && (
+              <div className="flex min-w-0 items-center gap-2">
+                {renderTeamVisual(awayLogoUrl, resolvedAway)}
+                <h3 className={`truncate text-sm font-extrabold sm:text-base ${isDarkTheme ? "text-white" : "text-slate-950"}`}>
+                  {resolvedAway}
                 </h3>
               </div>
-              <span className="text-slate-400 text-xs flex-shrink-0">vs</span>
-              {resolvedAway && (
-                <div className="flex items-center gap-1.5 min-w-0">
-                  {renderTeamVisual(awayLogoUrl, resolvedAway)}
-                  <h3 className="line-clamp-1 text-base font-extrabold text-slate-900 truncate">
-                    {resolvedAway}
-                  </h3>
-                </div>
-              )}
-            </div>
-          </div>
-
-          <div className="flex items-center gap-2 flex-shrink-0">
-            {isLive && (
-              <span className="inline-flex items-center gap-1 rounded-full bg-rose-500 px-2 py-1 text-[10px] font-semibold text-white shadow-sm">
-                <span className="h-1 w-1 animate-pulse rounded-full bg-white" />
-                Live
-              </span>
             )}
           </div>
+          {isLive && (
+            <span className="ml-1 inline-flex items-center gap-1 bg-rose-500 px-2 py-0.5 text-[10px] font-bold uppercase text-white">
+              <span className="h-1 w-1 animate-pulse rounded-full bg-white" />
+              Live
+            </span>
+          )}
+        </div>
 
-          <div className="flex items-center gap-2 flex-shrink-0">
-            {hasStreams ? (
+        <div className={`flex flex-wrap items-center gap-2 border-t pt-3 lg:border-l lg:border-t-0 lg:pl-4 lg:pt-0 ${isDarkTheme ? "border-white/10" : "border-black/10"}`}>
+          <span className={`text-xs font-bold ${hasStreams ? "text-emerald-700" : "text-slate-400"}`}>
+            <span className="inline-flex items-center gap-1.5">
+              <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path strokeLinecap="round" d="M8 21h8M12 19v2M8 9h.01M12 9h.01M16 9h.01" />
+              </svg>
+              {hasStreams ? `${streamCount} stream${streamCount !== 1 ? "s" : ""}` : "No stream"}
+            </span>
+          </span>
+          <span className="inline-flex h-8 w-8 items-center justify-center text-slate-600" aria-hidden="true">
+            <svg className={`h-5 w-5 transition-transform ${isExpanded ? "rotate-180" : ""} ${isDarkTheme ? "text-slate-300" : "text-slate-600"}`} viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+            </svg>
+          </span>
+        </div>
+      </button>
+
+      {isExpanded && hasStreams && (
+        <div className={`mt-3 border-t pt-3 ${isDarkTheme ? "border-white/10" : "border-black/10"}`}>
+          <p className={`mb-2 text-[10px] font-bold uppercase tracking-[0.12em] ${isDarkTheme ? "text-slate-400" : "text-slate-500"}`}>
+            Available streams
+          </p>
+          <div className="grid gap-2 sm:grid-cols-2">
+            {streams.map((stream) => (
               <button
+                key={stream.id}
+                type="button"
                 onClick={startWatchSession}
-                className="inline-flex cursor-pointer items-center gap-1 rounded-lg bg-slate-900 px-3 py-2 text-xs font-semibold text-white transition-colors hover:bg-slate-800"
+                className={`flex items-center justify-between border px-3 py-2 text-left transition-colors ${isDarkTheme ? "border-white/10 bg-[#252525] hover:border-white/40 hover:bg-[#303030]" : "border-black/10 bg-[#f2f1ed] hover:border-black hover:bg-white"}`}
               >
-                Watch
+                <span className={`truncate text-sm font-bold ${isDarkTheme ? "text-white" : "text-slate-800"}`}>{stream.label}</span>
+                <span className={`ml-3 shrink-0 text-xs font-bold ${isDarkTheme ? "text-slate-400" : "text-slate-500"}`}>Watch →</span>
               </button>
-            ) : (
-              <span className="text-[11px] font-semibold text-slate-400">
-                No stream
-              </span>
-            )}
+            ))}
           </div>
         </div>
-      ) : (
-        <>
-          <div className="mb-3 flex items-start justify-between gap-3">
-            <div className="min-w-0 flex-1">
-              <div className="min-w-0">
-                <div className="mb-2 flex items-center gap-2">
-                  {flagUrl && (
-                    <img
-                      src={flagUrl}
-                      alt={countryOrLeagueLabel || "country flag"}
-                      className="h-7 w-7 rounded-full border border-slate-200 bg-slate-100 p-0.5 object-contain shadow-sm"
-                    />
-                  )}
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-slate-500">
-                    {countryOrLeagueLabel || "League TBD"}
-                  </p>
-                </div>
-
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2 px-1 py-1">
-                    {renderTeamVisual(homeLogoUrl, resolvedHome)}
-                    <h3 className="line-clamp-1 text-lg font-extrabold leading-tight text-slate-900">
-                      {resolvedHome}
-                    </h3>
-                  </div>
-
-                  {resolvedAway && (
-                    <div className="flex items-center gap-2 px-1 py-1">
-                      {renderTeamVisual(awayLogoUrl, resolvedAway)}
-                      <h3 className="line-clamp-1 text-lg font-extrabold leading-tight text-slate-900">
-                        {resolvedAway}
-                      </h3>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-2">
-              {isLive && (
-                <span className="inline-flex items-center gap-1 rounded-full bg-rose-500 px-3 py-1 text-[11px] font-semibold text-white shadow-sm">
-                  <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-white" />
-                  Live
-                </span>
-              )}
-            </div>
-          </div>
-
-          <div className="mb-3 flex text-xs">
-            {timeLabel && (
-              <div className="rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 font-medium text-slate-700">
-                🕐 {timeLabel}
-              </div>
-            )}
-          </div>
-
-          <div className="flex items-center justify-between border-t border-slate-100 pt-3">
-            <span
-              className={`rounded-full px-2.5 py-1 text-[11px] font-semibold ${
-                hasStreams
-                  ? "bg-emerald-100 text-emerald-700"
-                  : "bg-slate-100 text-slate-500"
-              }`}
-            >
-              {hasStreams
-                ? `${streamCount} stream${streamCount !== 1 ? "s" : ""}`
-                : "No streams"}
-            </span>
-
-            {hasStreams ? (
-              <button
-                onClick={startWatchSession}
-                className="inline-flex cursor-pointer items-center gap-2 rounded-lg bg-slate-900 px-4 py-2 text-xs font-semibold text-white transition-colors hover:bg-slate-800"
-              >
-                Watch
-                <span aria-hidden="true">→</span>
-              </button>
-            ) : (
-              <button
-                disabled
-                className="inline-flex cursor-not-allowed items-center rounded-lg bg-slate-100 px-3 py-2 text-xs font-semibold text-slate-400"
-              >
-                Unavailable
-              </button>
-            )}
-          </div>
-        </>
       )}
 
       <StreamModal

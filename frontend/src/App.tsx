@@ -1,11 +1,24 @@
 import { useEffect, useState } from "react";
-import { addHours } from "date-fns";
 import { GamesGrid } from "./components/GamesGrid";
 import type { Game } from "./components/GamesGrid";
 
 type GamesPayload = {
   matches?: Array<Partial<Game>>;
 };
+
+function formatLocalMatchTime(dateLabel?: string, timeLabel?: string) {
+  if (!dateLabel || !timeLabel) return timeLabel || undefined;
+
+  const sourceDate = new Date(`${dateLabel} ${new Date().getFullYear()} ${timeLabel} UTC`);
+  sourceDate.setUTCHours(sourceDate.getUTCHours() - 1);
+  if (Number.isNaN(sourceDate.getTime())) return timeLabel;
+
+  return new Intl.DateTimeFormat(undefined, {
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).format(sourceDate);
+}
 
 function App() {
   const [games, setGames] = useState<Game[]>([]);
@@ -26,7 +39,7 @@ function App() {
               id: Number.isFinite(game.id) ? Number(game.id) : index + 1,
               title: game.title || "Unknown match",
               dateLabel: game.dateLabel || undefined,
-              timeLabel: addHours(new Date(), 2).toISOString() || undefined,
+              timeLabel: formatLocalMatchTime(game.dateLabel, game.timeLabel),
               leagueLabel: game.leagueLabel || undefined,
               streamCount: Number.isFinite(game.streamCount)
                 ? Number(game.streamCount)
@@ -53,7 +66,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[radial-gradient(circle_at_top,_#e0f2fe_0%,_#f8fafc_45%,_#f1f5f9_100%)] py-8">
+    <div className="min-h-screen py-8 text-slate-950">
       <GamesGrid games={games} />
     </div>
   );

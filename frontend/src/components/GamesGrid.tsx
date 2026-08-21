@@ -32,8 +32,6 @@ interface GamesGridProps {
   games: Game[];
 }
 
-type ViewMode = 'grid' | 'list';
-
 const COUNTRY_NAME_OVERRIDES: Record<string, string> = {
   'Czech Republic': 'Czechia',
   England: 'United Kingdom',
@@ -49,10 +47,23 @@ function extractCountryFromLeague(leagueLabel?: string): string | null {
 export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
   const [filterLiveOnly, setFilterLiveOnly] = useState(false);
   const [filterWithStreams, setFilterWithStreams] = useState(false);
-  const [viewMode, setViewMode] = useState<ViewMode>('grid');
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
   const [flagByCountry, setFlagByCountry] = useState<Record<string, string>>({});
   const [searchTerm, setSearchTerm] = useState('');
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('');
+
+  useEffect(() => {
+    const pageBackground = isDarkTheme ? '#111111' : '#f2f1ed';
+    document.documentElement.style.backgroundColor = pageBackground;
+    document.body.style.backgroundColor = pageBackground;
+    document.body.style.color = isDarkTheme ? '#ffffff' : '#020617';
+
+    return () => {
+      document.documentElement.style.backgroundColor = '';
+      document.body.style.backgroundColor = '';
+      document.body.style.color = '';
+    };
+  }, [isDarkTheme]);
 
   useEffect(() => {
     const uniqueCountries = Array.from(
@@ -156,67 +167,65 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
     });
   }, [gamesWithResolvedFlags, filterLiveOnly, filterWithStreams, debouncedSearchTerm]);
 
-  const groupedByDate = useMemo(() => {
+  const groupedByLeague = useMemo(() => {
     const groups: Record<string, typeof filteredGames> = {};
     filteredGames.forEach((game) => {
-      const dateKey = game.dateLabel || 'Unknown Date';
-      if (!groups[dateKey]) {
-        groups[dateKey] = [];
+      const leagueKey = game.leagueLabel || 'League TBD';
+      if (!groups[leagueKey]) {
+        groups[leagueKey] = [];
       }
-      groups[dateKey].push(game);
+      groups[leagueKey].push(game);
     });
-    return Object.entries(groups).sort((a, b) => {
-      const dateA = new Date(a[0]);
-      const dateB = new Date(b[0]);
-      return dateA.getTime() - dateB.getTime();
-    });
+    return Object.entries(groups).sort(([leagueA], [leagueB]) => leagueA.localeCompare(leagueB));
   }, [filteredGames]);
 
   return (
-    <section className="mx-auto w-full max-w-7xl px-4 pb-8 md:px-6">
-      <div className="mb-5 rounded-xl border border-slate-200 bg-white p-4">
+    <section className={isDarkTheme ? "dark mx-auto min-h-screen w-full max-w-7xl bg-[#111111] px-4 pb-8 text-white md:px-6" : "mx-auto min-h-screen w-full max-w-7xl bg-[#f2f1ed] px-4 pb-8 text-slate-950 md:px-6"}>
+      <div className={isDarkTheme ? "mb-5 border-b border-white/10 bg-[#111111] p-4" : "mb-5 border-b border-black/10 bg-[#f2f1ed] p-4"}>
         <div className="mb-3">
-          <div className="w-full">
+          <div className="flex w-full items-center gap-3">
             <input
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Quick search: team, league..."
-              className="w-full rounded-lg border border-slate-300 bg-white px-4 py-3 text-base text-slate-800 outline-none transition-all placeholder:text-slate-400 focus:border-slate-500"
+              className={isDarkTheme ? "min-w-0 flex-1 border border-white/15 bg-[#1b1b1b] px-4 py-3 text-base text-white outline-none transition-all placeholder:text-slate-500 focus:border-white/50" : "min-w-0 flex-1 border border-black/15 bg-white px-4 py-3 text-base text-slate-800 outline-none transition-all placeholder:text-slate-400 focus:border-slate-500"}
             />
+            <button
+              type="button"
+              onClick={() => setIsDarkTheme((dark) => !dark)}
+              role="switch"
+              aria-checked={isDarkTheme}
+              aria-label={isDarkTheme ? "Switch to light theme" : "Switch to dark theme"}
+              className={isDarkTheme ? "relative inline-flex h-8 w-14 shrink-0 items-center rounded-full bg-white p-1" : "relative inline-flex h-8 w-14 shrink-0 items-center rounded-full bg-slate-300 p-1"}
+            >
+              <span className={isDarkTheme ? "inline-flex h-6 w-6 translate-x-6 items-center justify-center rounded-full bg-black text-white transition-transform" : "inline-flex h-6 w-6 translate-x-0 items-center justify-center rounded-full bg-white text-slate-700 transition-transform"}>
+                {isDarkTheme ? (
+                  <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4" />
+                    <path strokeLinecap="round" d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42" />
+                  </svg>
+                ) : (
+                  <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M21 12.8A8.5 8.5 0 1111.2 3 6.7 6.7 0 0021 12.8z" />
+                  </svg>
+                )}
+              </span>
+            </button>
           </div>
         </div>
-        <p className="text-sm font-semibold text-slate-700">
+        <p className={isDarkTheme ? "text-sm font-semibold text-slate-300" : "text-sm font-semibold text-slate-700"}>
           Showing {filteredGames.length} of {gamesWithResolvedFlags.length} matches
         </p>
       </div>
 
       <div className="mb-5 flex flex-wrap items-center gap-2">
-        <div className="mr-2 inline-flex rounded-lg border border-slate-200 bg-white p-1">
-          <button
-            onClick={() => setViewMode('grid')}
-            className={`rounded-md px-3 py-1.5 text-sm font-semibold transition-colors ${
-              viewMode === 'grid' ? 'bg-slate-900 text-white' : 'text-slate-600 hover:bg-slate-100'
-            }`}
-          >
-            Grid
-          </button>
-          <button
-            onClick={() => setViewMode('list')}
-            className={`rounded-md px-3 py-1.5 text-sm font-semibold transition-colors ${
-              viewMode === 'list' ? 'bg-slate-900 text-white' : 'text-slate-600 hover:bg-slate-100'
-            }`}
-          >
-            List
-          </button>
-        </div>
-
         <button
           onClick={() => setFilterLiveOnly(!filterLiveOnly)}
           className={`rounded-lg border px-3 py-2 text-sm font-semibold transition-colors ${
             filterLiveOnly
               ? 'border-rose-500 bg-rose-500 text-white'
-              : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50'
+              : isDarkTheme ? 'border-white/15 bg-[#1b1b1b] text-slate-200 hover:bg-[#252525]' : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50'
           }`}
         >
           Live Now
@@ -226,7 +235,7 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
           className={`rounded-lg border px-3 py-2 text-sm font-semibold transition-colors ${
             filterWithStreams
               ? 'border-emerald-500 bg-emerald-500 text-white'
-              : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50'
+              : isDarkTheme ? 'border-white/15 bg-[#1b1b1b] text-slate-200 hover:bg-[#252525]' : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50'
           }`}
         >
           Has Streams
@@ -237,7 +246,7 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
               setFilterLiveOnly(false);
               setFilterWithStreams(false);
             }}
-            className="rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-600 transition-colors hover:bg-slate-100"
+            className={isDarkTheme ? "rounded-lg border border-white/15 bg-[#1b1b1b] px-3 py-2 text-sm font-semibold text-slate-300 transition-colors hover:bg-[#252525]" : "rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-semibold text-slate-600 transition-colors hover:bg-slate-100"}
           >
             Reset
           </button>
@@ -246,26 +255,24 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
 
       {filteredGames.length > 0 ? (
         <div>
-          {groupedByDate.map(([dateLabel, gamesForDate]) => (
-            <div key={dateLabel}>
-              <div className="mb-6 flex items-center gap-4 px-1">
-                <div className="h-px flex-1 bg-gradient-to-r from-slate-300 to-transparent"></div>
-                <h2 className="text-lg font-bold text-slate-800 whitespace-nowrap">{dateLabel}</h2>
-                <div className="h-px flex-1 bg-gradient-to-l from-slate-300 to-transparent"></div>
+          {groupedByLeague.map(([leagueLabel, gamesForLeague]) => {
+            const country = extractCountryFromLeague(leagueLabel);
+            return (
+            <div key={leagueLabel} className="mb-5">
+              <div className="mb-2 flex items-center gap-3 px-1">
+                <div className="min-w-0 flex-1">
+                  <h2 className={isDarkTheme ? "truncate text-sm font-black text-white" : "truncate text-sm font-black text-slate-950"}>{leagueLabel.split('.')[1]?.trim() || leagueLabel}</h2>
+                  {country && <p className={isDarkTheme ? "text-xs text-slate-400" : "text-xs text-slate-500"}>{country}</p>}
+                </div>
               </div>
-              <div
-                className={
-                  viewMode === 'grid'
-                    ? 'grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 mb-6'
-                    : 'grid grid-cols-1 gap-3 mb-6'
-                }
-              >
-                {gamesForDate.map((game) => (
-                  <GameCard key={game.id} viewMode={viewMode} {...game} />
+              <div className="mb-6 grid grid-cols-1 gap-2">
+                {gamesForLeague.map((game) => (
+                  <GameCard key={game.id} isDarkTheme={isDarkTheme} {...game} />
                 ))}
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
       ) : (
         <div className="rounded-2xl border border-dashed border-slate-300 bg-white/70 py-16 text-center">
