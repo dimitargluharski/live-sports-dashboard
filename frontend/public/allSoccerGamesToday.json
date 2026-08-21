@@ -1,6 +1,6 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-08-21T11:11:58.765Z",
+  "scrapedAt": "2026-08-21T11:33:46.393Z",
   "count": 500,
   "matches": [
     {
@@ -128,23 +128,15 @@
       "title": "Sydney U-23 – Rockdale City Suns",
       "dateLabel": "21 August",
       "timeLabel": "10:30",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Australia. NPL NSW",
       "iconUrl": "https://cdn.livetv903.me/img/icons/au.gif",
       "iconAlt": "Australia. NPL NSW",
       "sectionLabel": "21 August",
       "isTopMatch": false,
       "rawDescription": "21 August at 10:30\n(Australia. NPL NSW)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/bNmJ-i7Y8Is?autoplay=1",
-          "language": "English",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Sydney U-23",
@@ -289,23 +281,15 @@
       "title": "Green Gully – St Albans Saints",
       "dateLabel": "21 August",
       "timeLabel": "10:30",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Australia. NPL Victoria",
       "iconUrl": "https://cdn.livetv903.me/img/icons/au.gif",
       "iconAlt": "Australia. NPL Victoria",
       "sectionLabel": "21 August",
       "isTopMatch": false,
       "rawDescription": "21 August at 10:30\n(Australia. NPL Victoria)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/hJhK337ahxc?autoplay=1",
-          "language": "English",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Green Gully",
@@ -324,6 +308,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700010803/700010793/1_21d18/",
         "matches": [
           {
+            "date": "21/08",
+            "competition": "Australia. NPL Victoria",
+            "homeTeam": "Green Gully",
+            "awayTeam": "St Albans Saints",
+            "score": "1:2",
+            "result": "L",
+            "winner": "away"
+          },
+          {
             "date": "08/05",
             "competition": "Australia. NPL Victoria",
             "homeTeam": "St Albans Saints",
@@ -340,15 +333,6 @@
             "score": "2:2",
             "result": "D",
             "winner": "draw"
-          },
-          {
-            "date": "13/04",
-            "competition": "Australia. NPL Victoria",
-            "homeTeam": "St Albans Saints",
-            "awayTeam": "Green Gully",
-            "score": "1:2",
-            "result": "W",
-            "winner": "away"
           }
         ],
         "homeTeam": "Green Gully",
@@ -1392,7 +1376,7 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://emb.apl425.me/\nplayer/live.php?id=251363&w=700&h=480",
+          "url": "https://emb.apl426.me/\nplayer/live.php?id=251363&w=700&h=480",
           "language": "Ukrainian",
           "bitrate": "1000kbps"
         },
@@ -62773,5 +62757,5 @@
       "headToHead": null
     }
   ],
-  "enrichedAt": "2026-08-21T11:11:58.767Z"
+  "enrichedAt": "2026-08-21T11:33:46.395Z"
 }

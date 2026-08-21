@@ -231,10 +231,21 @@ export const GameCard: React.FC<GameCardProps> = ({
         className="flex w-full flex-col gap-3 text-left lg:flex-row lg:items-center lg:justify-between disabled:cursor-default"
       >
         <div className="flex min-w-0 flex-1 items-center gap-3">
-          {timeLabel && (
-            <span className={`inline-flex w-[4.5rem] shrink-0 items-center justify-center gap-1.5 rounded-md border px-2 py-2 text-sm font-black tabular-nums ${isDarkTheme ? "border-white/10 bg-[#252525] text-white" : "border-black/10 bg-[#f2f1ed] text-slate-950"}`}>
-              <svg className="h-3.5 w-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path strokeLinecap="round" d="M12 7v5l3 2" /></svg>
-              {timeLabel}
+          {(isLive || timeLabel) && (
+            <span className={`inline-flex min-w-[4.5rem] shrink-0 items-center justify-center rounded-md border px-2.5 py-2 text-sm font-black tabular-nums ${isLive ? "border-rose-500/30 bg-rose-500 text-white" : isDarkTheme ? "border-white/10 bg-[#252525] text-white" : "border-black/10 bg-[#f2f1ed] text-slate-950"}`}>
+              {isLive ? (
+                <span className="flex flex-col items-center gap-0.5 leading-none">
+                  <span className="inline-flex items-center gap-1 text-sm font-black tracking-wide">
+                    <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-white" aria-hidden="true" />
+                    LIVE
+                  </span>
+                </span>
+              ) : (
+                <>
+                  <svg className="h-3.5 w-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path strokeLinecap="round" d="M12 7v5l3 2" /></svg>
+                  {timeLabel}
+                </>
+              )}
             </span>
           )}
           <div className={`h-10 w-px shrink-0 ${isDarkTheme ? "bg-white/10" : "bg-black/10"}`} />
@@ -248,7 +259,6 @@ export const GameCard: React.FC<GameCardProps> = ({
               <h3 className={`truncate text-sm font-extrabold sm:text-base ${isDarkTheme ? "text-white" : "text-slate-950"}`}>{resolvedAway}</h3>
             </div>}
           </div>
-          {isLive && <span className="ml-1 inline-flex items-center gap-1 bg-rose-500 px-2 py-0.5 text-[10px] font-bold uppercase text-white"><span className="h-1 w-1 animate-pulse rounded-full bg-white" />Live</span>}
         </div>
         <div className={`flex flex-wrap items-center gap-2 border-t pt-3 lg:border-l lg:border-t-0 lg:pl-4 lg:pt-0 ${isDarkTheme ? "border-white/10" : "border-black/10"}`}>
           <span className={`text-xs font-bold ${hasStreams ? "text-emerald-700" : isDarkTheme ? "text-slate-400" : "text-slate-500"}`}>
