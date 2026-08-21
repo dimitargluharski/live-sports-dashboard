@@ -6,6 +6,7 @@
     "hydrate": "bash ./hydrate-feed.sh",
     "hydrate:git": "bash ./hydrate-feed.sh --git-sync",
     "hydrate:watch": "bash ./hydrate-feed.sh --watch --interval 900",
+    "hydrate:watch:5m": "bash ./hydrate-feed.sh --watch --interval 300",
     "hydrate:watch:git": "bash ./hydrate-feed.sh --watch --interval 900 --git-sync",
     "hydrate:watch:1m": "bash ./hydrate-feed.sh --watch --interval 60",
     "chat:server": "pnpm --dir backend run chat:server",

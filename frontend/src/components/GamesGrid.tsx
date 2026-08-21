@@ -17,6 +17,9 @@ export interface Game {
   title: string;
   dateLabel?: string;
   timeLabel?: string;
+  scheduledStartAt?: number;
+  sourceIsLive?: boolean;
+  sourceStatusAt?: number;
   leagueLabel?: string;
   streamCount: number;
   isLive: boolean;
