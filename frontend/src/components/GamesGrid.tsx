@@ -1,6 +1,17 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { GameCard } from './GameCard';
 
+interface TeamForm {
+  matches?: Array<{
+    date: string;
+    competition: string;
+    opponent: string;
+    score: string;
+    result: 'W' | 'D' | 'L';
+  }>;
+  summary?: { W: number; D: number; L: number };
+}
+
 export interface Game {
   id: number;
   title: string;
@@ -16,6 +27,23 @@ export interface Game {
     language?: string | null;
     bitrate?: string | null;
   }>;
+  headToHead?: {
+    homeTeam?: string;
+    awayTeam?: string;
+    matches?: Array<{
+      date: string;
+      competition: string;
+      homeTeam: string;
+      awayTeam: string;
+      score: string;
+      result: 'W' | 'D' | 'L';
+      winner: 'home' | 'away' | 'draw';
+    }>;
+    form?: {
+      home?: TeamForm;
+      away?: TeamForm;
+    } | null;
+  } | null;
   teams?: {
     home?: {
       name?: string | null;

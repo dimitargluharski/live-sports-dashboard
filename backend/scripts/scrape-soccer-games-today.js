@@ -318,6 +318,107 @@ function parsePlayersFromNode($, node) {
   return parsePlayers(clone.text());
 }
 
+function extractHeadToHead(eventHtml, eventUrl, match) {
+  const $ = cheerio.load(eventHtml);
+  const titleTeams = splitTeamsFromTitle(match.title || "");
+  const homeTeam = titleTeams.home || "";
+  const awayTeam = titleTeams.away || "";
+  const h2hHeader = $("span.date b")
+    .filter((_, element) => /last games between these teams/i.test($(element).text()))
+    .first();
+
+  if (!h2hHeader.length) return null;
+
+  const compareLink = h2hHeader.closest("td").find("a").first();
+  const compareUrl = toAbsoluteUrl(compareLink.attr("href") || null, eventUrl);
+  const resultTable = h2hHeader.closest("table").nextAll("table").first();
+  const results = [];
+
+  resultTable.find("tr[title]").each((_, row) => {
+    const cells = $(row).find("> td");
+    if (cells.length < 4) return;
+
+    const date = normalizeSpace(cells.eq(0).text());
+    const resultHome = normalizeSpace(cells.eq(1).text());
+    const scoreText = normalizeSpace(cells.eq(2).text());
+    const resultAway = normalizeSpace(cells.eq(3).text());
+    const score = scoreText.match(/(\d+)\s*[:\-]\s*(\d+)/);
+    if (!resultHome || !resultAway || !score) return;
+
+    const homeScore = Number(score[1]);
+    const awayScore = Number(score[2]);
+    const normalizedHome = resultHome.toLowerCase();
+    const normalizedMatchHome = homeTeam.toLowerCase();
+    const homeWon = homeScore > awayScore;
+    const awayWon = awayScore > homeScore;
+    const currentHomeResult = normalizedHome === normalizedMatchHome
+      ? (homeWon ? "W" : awayWon ? "L" : "D")
+      : (awayWon ? "W" : homeWon ? "L" : "D");
+
+    results.push({
+      date,
+      competition: normalizeSpace($(row).attr("title") || ""),
+      homeTeam: resultHome,
+      awayTeam: resultAway,
+      score: `${homeScore}:${awayScore}`,
+      result: currentHomeResult,
+      winner: homeWon ? "home" : awayWon ? "away" : "draw",
+    });
+  });
+
+  return {
+    compareUrl: compareUrl || null,
+    matches: results.slice(0, 10),
+    homeTeam,
+    awayTeam,
+  };
+}
+
+function extractTeamForm(comparisonHtml, teamName) {
+  const $ = cheerio.load(comparisonHtml);
+  const normalizedTeam = normalizeSpace(teamName).toLowerCase();
+  const rows = [];
+  const allResultsBlock = $("div[id^='games'][id$='all']").first();
+
+  allResultsBlock.find("table").last().find("tr").each((_, row) => {
+    const cells = $(row).find("> td");
+    if (cells.length < 5) return;
+
+    const date = normalizeSpace(cells.eq(0).text());
+    const competition = normalizeSpace(cells.eq(1).text());
+    const firstTeam = normalizeSpace(cells.eq(2).text());
+    const scoreText = normalizeSpace(cells.eq(3).text());
+    const secondTeam = normalizeSpace(cells.eq(4).text());
+    const score = scoreText.match(/(\d+)\s*[:\-]\s*(\d+)/);
+    if (!date || !firstTeam || !secondTeam || !score) return;
+
+    const firstScore = Number(score[1]);
+    const secondScore = Number(score[2]);
+    const isFirstTeam = firstTeam.toLowerCase() === normalizedTeam;
+    const teamScore = isFirstTeam ? firstScore : secondScore;
+    const opponentScore = isFirstTeam ? secondScore : firstScore;
+    const result = teamScore > opponentScore ? "W" : teamScore < opponentScore ? "L" : "D";
+
+    rows.push({
+      date,
+      competition,
+      opponent: isFirstTeam ? secondTeam : firstTeam,
+      score: `${teamScore}:${opponentScore}`,
+      result,
+    });
+  });
+
+  const recentMatches = rows.slice(0, 5);
+
+  return {
+    matches: recentMatches,
+    summary: recentMatches.reduce((summary, item) => {
+      summary[item.result] += 1;
+      return summary;
+    }, { W: 0, D: 0, L: 0 }),
+  };
+}
+
 function extractTeamDetails(eventHtml, eventUrl, match) {
   const $ = cheerio.load(eventHtml);
   const titleTeams = splitTeamsFromTitle(match.title || "");
@@ -632,6 +733,22 @@ async function scrapeFeedDaysMatches() {
       const eventHtml = await fetchHtml(match.eventUrl);
       const streams = await extractPlayerLinks(eventHtml, match.eventUrl);
       const teamDetails = extractTeamDetails(eventHtml, match.eventUrl, match);
+      const headToHead = extractHeadToHead(eventHtml, match.eventUrl, {
+        ...match,
+        title: `${teamDetails.homeTeam || match.title} – ${teamDetails.awayTeam || ""}`,
+      });
+      let form = null;
+      if (headToHead?.compareUrl) {
+        try {
+          const comparisonHtml = await fetchHtml(headToHead.compareUrl);
+          form = {
+            home: extractTeamForm(comparisonHtml, teamDetails.homeTeam),
+            away: extractTeamForm(comparisonHtml, teamDetails.awayTeam),
+          };
+        } catch (error) {
+          console.warn(`[${i + 1}/${matches.length}] Form unavailable: ${match.title}`);
+        }
+      }
       match.streams = streams;
       match.streamCount = streams.length;
       match.teams = {
@@ -648,6 +765,7 @@ async function scrapeFeedDaysMatches() {
           substitutes: teamDetails.lineups?.substitutes?.away || [],
         },
       };
+      match.headToHead = headToHead ? { ...headToHead, form } : null;
       console.log(`[${i + 1}/${matches.length}] ${match.title} -> ${streams.length} streams`);
     } catch (error) {
       match.streams = [];
