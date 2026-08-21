@@ -57,10 +57,10 @@
 - `hydrate-feed.sh` updates `frontend/public/allSoccerGamesToday.json` only when there is a meaningful JSON change.
 - Generated backend cache and local env are ignored in git.
 
-## Match Chat (WebSocket MVP)
+## Soccer Chat (WebSocket MVP)
 
 - Backend WebSocket endpoint (default): `ws://localhost:8081/chat`
 - Health check (default): `http://localhost:8081/health`
-- Frontend room mapping: one chat room per match (`matchId`)
+- Frontend room mapping: one chat room per soccer game (`matchId`)
 - Optional frontend env:
   - `VITE_CHAT_WS_URL=ws://your-host:8081/chat`

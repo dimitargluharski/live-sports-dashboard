@@ -1,130 +1,10 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-08-21T11:33:46.393Z",
+  "scrapedAt": "2026-08-21T12:24:04.685Z",
   "count": 500,
   "matches": [
     {
       "id": 1,
-      "title": "Port Darwin (W) – Litchfield (W)",
-      "dateLabel": "21 August",
-      "timeLabel": "9:55",
-      "isLive": false,
-      "leagueLabel": "Australia. Women. NTPL",
-      "iconUrl": "https://cdn.livetv903.me/img/icons/au.gif",
-      "iconAlt": "Australia. Women. NTPL",
-      "sectionLabel": "21 August",
-      "isTopMatch": false,
-      "rawDescription": "21 August at 9:55\n(Australia. Women. NTPL)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Port Darwin (W)",
-          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/48194.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Litchfield (W)",
-          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/48146.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 2,
-      "title": "Druzhba-Kozaky – Bazys",
-      "dateLabel": "21 August",
-      "timeLabel": "10:00",
-      "isLive": false,
-      "leagueLabel": "Ukraine. Cup",
-      "iconUrl": "https://cdn.livetv903.me/img/icons/ua.gif",
-      "iconAlt": "Ukraine. Cup",
-      "sectionLabel": "21 August",
-      "isTopMatch": false,
-      "rawDescription": "21 August at 10:00\n(Ukraine. Cup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Druzhba-Kozaky",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Bazys",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 3,
-      "title": "Rebel – Agrobusiness",
-      "dateLabel": "21 August",
-      "timeLabel": "10:00",
-      "isLive": false,
-      "leagueLabel": "Ukraine. Cup",
-      "iconUrl": "https://cdn.livetv903.me/img/icons/ua.gif",
-      "iconAlt": "Ukraine. Cup",
-      "sectionLabel": "21 August",
-      "isTopMatch": false,
-      "rawDescription": "21 August at 10:00\n(Ukraine. Cup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Rebel",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Agrobusiness",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 4,
-      "title": "Bratslav Vinnytsia – Oleksandria",
-      "dateLabel": "21 August",
-      "timeLabel": "10:00",
-      "isLive": false,
-      "leagueLabel": "Ukraine. Cup",
-      "iconUrl": "https://cdn.livetv903.me/img/icons/ua.gif",
-      "iconAlt": "Ukraine. Cup",
-      "sectionLabel": "21 August",
-      "isTopMatch": false,
-      "rawDescription": "21 August at 10:00\n(Ukraine. Cup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Bratslav Vinnytsia",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Oleksandria",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 5,
       "title": "Sydney U-23 – Rockdale City Suns",
       "dateLabel": "21 August",
       "timeLabel": "10:30",
@@ -155,6 +35,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700010743/700010739/1_cb28a/",
         "matches": [
           {
+            "date": "21/08",
+            "competition": "Australia. NPL NSW",
+            "homeTeam": "Sydney U-23",
+            "awayTeam": "Rockdale City Suns",
+            "score": "2:1",
+            "result": "W",
+            "winner": "home"
+          },
+          {
             "date": "10/05",
             "competition": "Australia. NPL NSW",
             "homeTeam": "Rockdale City Suns",
@@ -171,15 +60,6 @@
             "score": "2:2",
             "result": "D",
             "winner": "draw"
-          },
-          {
-            "date": "18/05",
-            "competition": "Australia. NPL NSW",
-            "homeTeam": "Rockdale City Suns",
-            "awayTeam": "Sydney U-23",
-            "score": "2:1",
-            "result": "L",
-            "winner": "home"
           }
         ],
         "homeTeam": "Sydney U-23",
@@ -277,7 +157,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 2,
       "title": "Green Gully – St Albans Saints",
       "dateLabel": "21 August",
       "timeLabel": "10:30",
@@ -430,27 +310,19 @@
       }
     },
     {
-      "id": 7,
+      "id": 3,
       "title": "Sejong Sportstoto (W) – Gangjin Swans (W)",
       "dateLabel": "21 August",
       "timeLabel": "11:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "South Korea. Women. WK-League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/kr.gif",
       "iconAlt": "South Korea. Women. WK-League",
       "sectionLabel": "21 August",
       "isTopMatch": false,
       "rawDescription": "21 August at 11:00\n(South Korea. Women. WK-League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/nSKAAPl9H_g?autoplay=1",
-          "language": "Korean",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Sejong Sportstoto (W)",
@@ -468,27 +340,19 @@
       "headToHead": null
     },
     {
-      "id": 8,
+      "id": 4,
       "title": "Incheon Red Angels (W) – Mungyeong Sangmu (W)",
       "dateLabel": "21 August",
       "timeLabel": "11:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "South Korea. Women. WK-League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/kr.gif",
       "iconAlt": "South Korea. Women. WK-League",
       "sectionLabel": "21 August",
       "isTopMatch": false,
       "rawDescription": "21 August at 11:00\n(South Korea. Women. WK-League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/GHtA6Lye1qo?autoplay=1",
-          "language": "Korean",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Incheon Red Angels (W)",
@@ -506,27 +370,19 @@
       "headToHead": null
     },
     {
-      "id": 9,
+      "id": 5,
       "title": "Adelaide Olympic – Adelaide Atletico",
       "dateLabel": "21 August",
       "timeLabel": "11:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Australia. South Australia Australia State League 1",
       "iconUrl": "https://cdn.livetv903.me/img/icons/au.gif",
       "iconAlt": "Australia. South Australia Australia State League 1",
       "sectionLabel": "21 August",
       "isTopMatch": false,
       "rawDescription": "21 August at 11:00\n(Australia. South Australia Australia State League 1)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/tc9U_kBXeIg?autoplay=1",
-          "language": null,
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Adelaide Olympic",
@@ -544,6 +400,15 @@
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700010777/700066591/1_a0312/",
         "matches": [
+          {
+            "date": "21/08",
+            "competition": "Australia. South Australia Australia State League 1",
+            "homeTeam": "Adelaide Olympic",
+            "awayTeam": "Adelaide Atletico",
+            "score": "3:1",
+            "result": "W",
+            "winner": "home"
+          },
           {
             "date": "18/07",
             "competition": "Australia. South Australia Australia State League 1",
@@ -658,27 +523,19 @@
       }
     },
     {
-      "id": 10,
+      "id": 6,
       "title": "Seoul (W) – Hwacheon KSPO (W)",
       "dateLabel": "21 August",
       "timeLabel": "11:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "South Korea. Women. WK-League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/kr.gif",
       "iconAlt": "South Korea. Women. WK-League",
       "sectionLabel": "21 August",
       "isTopMatch": false,
       "rawDescription": "21 August at 11:00\n(South Korea. Women. WK-League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/rRNdWUIzDZg?autoplay=1",
-          "language": "Korean",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Seoul (W)",
@@ -696,11 +553,11 @@
       "headToHead": null
     },
     {
-      "id": 11,
+      "id": 7,
       "title": "Kashiwa Reysol – V-Varen Nagasaki",
       "dateLabel": "21 August",
       "timeLabel": "11:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Japan. J League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/jp.gif",
       "iconAlt": "Japan. J League",
@@ -767,14 +624,119 @@
           ]
         }
       },
-      "headToHead": null
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700016656/700016658/1_bc84b/",
+        "matches": [
+          {
+            "date": "21/08",
+            "competition": "Japan. J League",
+            "homeTeam": "Kashiwa Reysol",
+            "awayTeam": "V-Varen Nagasaki",
+            "score": "4:2",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Kashiwa Reysol",
+        "awayTeam": "V-Varen Nagasaki",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "08/08",
+                "competition": "J League",
+                "opponent": "Mito HollyHock",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "01/08",
+                "competition": "Friendly Match",
+                "opponent": "JEF United Chiba",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "06/06",
+                "competition": "J League",
+                "opponent": "Kyoto Sanga",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "30/05",
+                "competition": "J League",
+                "opponent": "Kyoto Sanga",
+                "score": "6:2",
+                "result": "W"
+              },
+              {
+                "date": "23/05",
+                "competition": "J League",
+                "opponent": "JEF United Chiba",
+                "score": "4:2",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "08/08",
+                "competition": "J League",
+                "opponent": "Kashiwa Reysol",
+                "score": "1:2",
+                "result": "L"
+              },
+              {
+                "date": "01/08",
+                "competition": "Friendly Match",
+                "opponent": "JEF United Chiba",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "06/06",
+                "competition": "J League",
+                "opponent": "Kashiwa Reysol",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "30/05",
+                "competition": "J League",
+                "opponent": "Kyoto Sanga",
+                "score": "6:2",
+                "result": "W"
+              },
+              {
+                "date": "23/05",
+                "competition": "J League",
+                "opponent": "Kashiwa Reysol",
+                "score": "2:4",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          }
+        }
+      }
     },
     {
-      "id": 12,
+      "id": 8,
       "title": "Armenia U19 (W) – Georgia U19 (W)",
       "dateLabel": "21 August",
       "timeLabel": "11:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. Friendly Match",
       "iconUrl": "https://cdn.livetv903.me/img/icons/friend.gif",
       "iconAlt": "Women. Friendly Match",
@@ -800,11 +762,11 @@
       "headToHead": null
     },
     {
-      "id": 13,
+      "id": 9,
       "title": "Seaford Rangers – Modbury Vista",
       "dateLabel": "21 August",
       "timeLabel": "11:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Australia. South Australia Australia State League 1",
       "iconUrl": "https://cdn.livetv903.me/img/icons/au.gif",
       "iconAlt": "Australia. South Australia Australia State League 1",
@@ -827,30 +789,127 @@
           "substitutes": []
         }
       },
-      "headToHead": null
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700023958/700046091/1_5d3c5/",
+        "matches": [
+          {
+            "date": "21/08",
+            "competition": "Australia. South Australia Australia State League 1",
+            "homeTeam": "Seaford Rangers",
+            "awayTeam": "Modbury Vista",
+            "score": "1:0",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Seaford Rangers",
+        "awayTeam": "Modbury Vista",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "04/07",
+                "competition": "South Australia Austr [..]",
+                "opponent": "Adelaide Titans",
+                "score": "3:3",
+                "result": "D"
+              },
+              {
+                "date": "08/05",
+                "competition": "South Australia Austr [..]",
+                "opponent": "Noarlunga Utd",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "29/03",
+                "competition": "Cup",
+                "opponent": "Pontian Eagles",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "10/02",
+                "competition": "Cup",
+                "opponent": "Fulham United",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "29/03",
+                "competition": "FFA Cup",
+                "opponent": "Modbury Jets",
+                "score": "0:6",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 3,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "04/07",
+                "competition": "South Australia Austr [..]",
+                "opponent": "Adelaide Titans",
+                "score": "3:3",
+                "result": "D"
+              },
+              {
+                "date": "08/05",
+                "competition": "South Australia Austr [..]",
+                "opponent": "Noarlunga Utd",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "29/03",
+                "competition": "Cup",
+                "opponent": "Seaford Rangers",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "10/02",
+                "competition": "Cup",
+                "opponent": "Seaford Rangers",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "29/03",
+                "competition": "FFA Cup",
+                "opponent": "Modbury Jets",
+                "score": "0:6",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 3,
+              "L": 1
+            }
+          }
+        }
+      }
     },
     {
-      "id": 14,
+      "id": 10,
       "title": "Defenders – Ratnam",
       "dateLabel": "21 August",
       "timeLabel": "11:15",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Sri Lanka. Premier League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/fsl.gif",
       "iconAlt": "Sri Lanka. Premier League",
       "sectionLabel": "21 August",
       "isTopMatch": false,
       "rawDescription": "21 August at 11:15\n(Sri Lanka. Premier League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/_5MRaEKhSJg?autoplay=1",
-          "language": "English",
-          "bitrate": null
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Defenders",
@@ -868,6 +927,15 @@
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700022538/700022548/1_91675/",
         "matches": [
+          {
+            "date": "21/08",
+            "competition": "Sri Lanka. Premier League",
+            "homeTeam": "Defenders",
+            "awayTeam": "Ratnam",
+            "score": "4:1",
+            "result": "W",
+            "winner": "home"
+          },
           {
             "date": "07/12",
             "competition": "Sri Lanka. Premier League",
@@ -973,7 +1041,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 11,
       "title": "Bentleigh Greens (W) – Preston Lions (W)",
       "dateLabel": "21 August",
       "timeLabel": "11:30",
@@ -1011,7 +1079,7 @@
       "headToHead": null
     },
     {
-      "id": 16,
+      "id": 12,
       "title": "Tokyo – JEF United Chiba",
       "dateLabel": "21 August",
       "timeLabel": "11:30",
@@ -1208,7 +1276,7 @@
       }
     },
     {
-      "id": 17,
+      "id": 13,
       "title": "Bentleigh Greens – Melbourne City II",
       "dateLabel": "21 August",
       "timeLabel": "11:30",
@@ -1361,7 +1429,7 @@
       }
     },
     {
-      "id": 18,
+      "id": 14,
       "title": "Lokomotiv Kyiv – Probiy",
       "dateLabel": "21 August",
       "timeLabel": "12:00",
@@ -1406,7 +1474,7 @@
       "headToHead": null
     },
     {
-      "id": 19,
+      "id": 15,
       "title": "Podolye – Viktoriya Sumy",
       "dateLabel": "21 August",
       "timeLabel": "12:00",
@@ -1444,7 +1512,7 @@
       "headToHead": null
     },
     {
-      "id": 20,
+      "id": 16,
       "title": "Garuda – Darwin Olympic",
       "dateLabel": "21 August",
       "timeLabel": "12:00",
@@ -1605,7 +1673,7 @@
       }
     },
     {
-      "id": 21,
+      "id": 17,
       "title": "Meshakhte – Dinamo Batumi",
       "dateLabel": "21 August",
       "timeLabel": "14:00",
@@ -1749,7 +1817,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 18,
       "title": "Shakhter Karagandy – Astana II",
       "dateLabel": "21 August",
       "timeLabel": "14:00",
@@ -1779,7 +1847,7 @@
       "headToHead": null
     },
     {
-      "id": 23,
+      "id": 19,
       "title": "Caspiy II – Zhayik",
       "dateLabel": "21 August",
       "timeLabel": "14:00",
@@ -1809,7 +1877,7 @@
       "headToHead": null
     },
     {
-      "id": 24,
+      "id": 20,
       "title": "BuxDu – Respublika FA",
       "dateLabel": "21 August",
       "timeLabel": "15:00",
@@ -1839,7 +1907,7 @@
       "headToHead": null
     },
     {
-      "id": 25,
+      "id": 21,
       "title": "Kattaqurgon – Gazalkent",
       "dateLabel": "21 August",
       "timeLabel": "15:00",
@@ -1869,7 +1937,7 @@
       "headToHead": null
     },
     {
-      "id": 26,
+      "id": 22,
       "title": "Wadi Degla – ZED",
       "dateLabel": "21 August",
       "timeLabel": "15:00",
@@ -2022,7 +2090,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 23,
       "title": "Kalba – Al Wasl",
       "dateLabel": "21 August",
       "timeLabel": "15:00",
@@ -2175,7 +2243,7 @@
       }
     },
     {
-      "id": 28,
+      "id": 24,
       "title": "Navbahor Namangan – Nasaf",
       "dateLabel": "21 August",
       "timeLabel": "15:00",
@@ -2328,7 +2396,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 25,
       "title": "Al-Gharafa – Al-Shahania",
       "dateLabel": "21 August",
       "timeLabel": "15:15",
@@ -2481,7 +2549,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 26,
       "title": "Orsha – BATE Res",
       "dateLabel": "21 August",
       "timeLabel": "15:30",
@@ -2634,7 +2702,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 27,
       "title": "Molodechno – Shakhtyor Sl",
       "dateLabel": "21 August",
       "timeLabel": "15:45",
@@ -2769,7 +2837,7 @@
       }
     },
     {
-      "id": 32,
+      "id": 28,
       "title": "Turan – Kairat-Zhastar",
       "dateLabel": "21 August",
       "timeLabel": "16:00",
@@ -2799,7 +2867,7 @@
       "headToHead": null
     },
     {
-      "id": 33,
+      "id": 29,
       "title": "Turan – Kairat-Zhastar",
       "dateLabel": "21 August",
       "timeLabel": "16:00",
@@ -2952,7 +3020,7 @@
       }
     },
     {
-      "id": 34,
+      "id": 30,
       "title": "Minsk – Vitebsk",
       "dateLabel": "21 August",
       "timeLabel": "16:00",
@@ -3105,7 +3173,7 @@
       }
     },
     {
-      "id": 35,
+      "id": 31,
       "title": "Liepaja – Grobina",
       "dateLabel": "21 August",
       "timeLabel": "16:00",
@@ -3258,7 +3326,7 @@
       }
     },
     {
-      "id": 36,
+      "id": 32,
       "title": "Auda – Tukums",
       "dateLabel": "21 August",
       "timeLabel": "16:00",
@@ -3411,7 +3479,7 @@
       }
     },
     {
-      "id": 37,
+      "id": 33,
       "title": "Ararat – Pyunik",
       "dateLabel": "21 August",
       "timeLabel": "16:00",
@@ -3564,7 +3632,7 @@
       }
     },
     {
-      "id": 38,
+      "id": 34,
       "title": "Pakhtakor – Surkhon Termez",
       "dateLabel": "21 August",
       "timeLabel": "16:00",
@@ -3717,7 +3785,7 @@
       }
     },
     {
-      "id": 39,
+      "id": 35,
       "title": "Flora U-21 – Viimsi",
       "dateLabel": "21 August",
       "timeLabel": "16:30",
@@ -3870,7 +3938,7 @@
       }
     },
     {
-      "id": 40,
+      "id": 36,
       "title": "Velke Mezirici – Tasovice",
       "dateLabel": "21 August",
       "timeLabel": "16:30",
@@ -4023,7 +4091,7 @@
       }
     },
     {
-      "id": 41,
+      "id": 37,
       "title": "Aluminij – Brinje Grosuplje",
       "dateLabel": "21 August",
       "timeLabel": "16:30",
@@ -4176,7 +4244,7 @@
       }
     },
     {
-      "id": 42,
+      "id": 38,
       "title": "Paks – Ujpest",
       "dateLabel": "21 August",
       "timeLabel": "16:30",
@@ -4329,7 +4397,7 @@
       }
     },
     {
-      "id": 43,
+      "id": 39,
       "title": "Al-Riyadh – Al Nassr",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -4482,7 +4550,7 @@
       }
     },
     {
-      "id": 44,
+      "id": 40,
       "title": "Levadia – Narva Trans",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -4635,7 +4703,7 @@
       }
     },
     {
-      "id": 45,
+      "id": 41,
       "title": "Chrobry Glogow – Warta Poznan",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -4788,7 +4856,7 @@
       }
     },
     {
-      "id": 46,
+      "id": 42,
       "title": "Simulcast",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -4818,7 +4886,7 @@
       "headToHead": null
     },
     {
-      "id": 47,
+      "id": 43,
       "title": "SJK – Lahti",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -4971,7 +5039,7 @@
       }
     },
     {
-      "id": 48,
+      "id": 44,
       "title": "Waldhof – Kaiserslautern",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -5106,7 +5174,7 @@
       }
     },
     {
-      "id": 49,
+      "id": 45,
       "title": "Preussen Muenster – Karlsruhe",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -5259,7 +5327,7 @@
       }
     },
     {
-      "id": 50,
+      "id": 46,
       "title": "St Toenis – Eintracht",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -5289,7 +5357,7 @@
       "headToHead": null
     },
     {
-      "id": 51,
+      "id": 47,
       "title": "Hvezda Cheb – Slovan Velvary",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -5319,7 +5387,142 @@
       "headToHead": null
     },
     {
-      "id": 52,
+      "id": 48,
+      "title": "Bridlicna – Hlucin",
+      "dateLabel": "21 August",
+      "timeLabel": "17:00",
+      "isLive": false,
+      "leagueLabel": "Czech Republic. 4. Liga",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/cz.gif",
+      "iconAlt": "Czech Republic. 4. Liga",
+      "sectionLabel": "21 August",
+      "isTopMatch": false,
+      "rawDescription": "21 August at 17:00\n(Czech Republic. 4. Liga)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Bridlicna",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/22024.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Hlucin",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/6788.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700048063/700020323/1_93922/",
+        "matches": [
+          {
+            "date": "25/07",
+            "competition": "Czech Republic. Cup",
+            "homeTeam": "Bridlicna",
+            "awayTeam": "Hlucin",
+            "score": "1:0",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Bridlicna",
+        "awayTeam": "Hlucin",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "16/08",
+                "competition": "4. Liga",
+                "opponent": "Bospor Bohumin",
+                "score": "2:4",
+                "result": "L"
+              },
+              {
+                "date": "12/08",
+                "competition": "Cup",
+                "opponent": "Tatran Vsechovice",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "08/08",
+                "competition": "4. Liga",
+                "opponent": "Sulko Zabreh",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "25/07",
+                "competition": "Cup",
+                "opponent": "Hlucin",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "10/06",
+                "competition": "4. Liga",
+                "opponent": "Opava II",
+                "score": "1:1",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 3,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "16/08",
+                "competition": "4. Liga",
+                "opponent": "Bospor Bohumin",
+                "score": "2:4",
+                "result": "L"
+              },
+              {
+                "date": "12/08",
+                "competition": "Cup",
+                "opponent": "Bridlicna",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "08/08",
+                "competition": "4. Liga",
+                "opponent": "Bridlicna",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "25/07",
+                "competition": "Cup",
+                "opponent": "Bridlicna",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "10/06",
+                "competition": "4. Liga",
+                "opponent": "Opava II",
+                "score": "1:1",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 3,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 49,
       "title": "Warta Poznan – Chrobry Glogow",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -5472,7 +5675,7 @@
       }
     },
     {
-      "id": 53,
+      "id": 50,
       "title": "Motorlet – Dukla Prague B",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -5625,7 +5828,7 @@
       }
     },
     {
-      "id": 54,
+      "id": 51,
       "title": "Vejle – Esbjerg",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -5769,7 +5972,7 @@
       }
     },
     {
-      "id": 55,
+      "id": 52,
       "title": "Hobro – AaB",
       "dateLabel": "21 August",
       "timeLabel": "17:00",
@@ -5922,7 +6125,7 @@
       }
     },
     {
-      "id": 56,
+      "id": 53,
       "title": "Al-Hazem – Al-Diriyah",
       "dateLabel": "21 August",
       "timeLabel": "17:15",
@@ -5952,7 +6155,7 @@
       "headToHead": null
     },
     {
-      "id": 57,
+      "id": 54,
       "title": "Union Berlin (W) – Bayern Munich (W)",
       "dateLabel": "21 August",
       "timeLabel": "17:20",
@@ -5982,7 +6185,7 @@
       "headToHead": null
     },
     {
-      "id": 58,
+      "id": 55,
       "title": "Austria Salzburg – KSV 1919",
       "dateLabel": "21 August",
       "timeLabel": "17:30",
@@ -6126,7 +6329,7 @@
       }
     },
     {
-      "id": 59,
+      "id": 56,
       "title": "Amstetten – Hertha Wels",
       "dateLabel": "21 August",
       "timeLabel": "17:30",
@@ -6279,7 +6482,7 @@
       }
     },
     {
-      "id": 60,
+      "id": 57,
       "title": "Wacker – St Poelten",
       "dateLabel": "21 August",
       "timeLabel": "17:30",
@@ -6423,7 +6626,7 @@
       }
     },
     {
-      "id": 61,
+      "id": 58,
       "title": "Liefering – Austria Vienna II",
       "dateLabel": "21 August",
       "timeLabel": "17:30",
@@ -6576,7 +6779,7 @@
       }
     },
     {
-      "id": 62,
+      "id": 59,
       "title": "Floriana – Sliema Wanderers",
       "dateLabel": "21 August",
       "timeLabel": "17:30",
@@ -6729,7 +6932,7 @@
       }
     },
     {
-      "id": 63,
+      "id": 60,
       "title": "Al-Arabi Doha – Al-Shamal",
       "dateLabel": "21 August",
       "timeLabel": "17:30",
@@ -6882,7 +7085,7 @@
       }
     },
     {
-      "id": 64,
+      "id": 61,
       "title": "Torpedo M – Spartak Kostroma",
       "dateLabel": "21 August",
       "timeLabel": "17:30",
@@ -7026,7 +7229,7 @@
       }
     },
     {
-      "id": 65,
+      "id": 62,
       "title": "Chomutov – Usti Nad Labem II",
       "dateLabel": "21 August",
       "timeLabel": "17:30",
@@ -7179,7 +7382,7 @@
       }
     },
     {
-      "id": 66,
+      "id": 63,
       "title": "Al Nasr Dubai – Al Wahda",
       "dateLabel": "21 August",
       "timeLabel": "17:35",
@@ -7332,7 +7535,7 @@
       }
     },
     {
-      "id": 67,
+      "id": 64,
       "title": "Sirius – Haecken",
       "dateLabel": "21 August",
       "timeLabel": "18:00",
@@ -7485,7 +7688,7 @@
       }
     },
     {
-      "id": 68,
+      "id": 65,
       "title": "Cajamarca – Atletico Grau",
       "dateLabel": "21 August",
       "timeLabel": "18:00",
@@ -7620,7 +7823,7 @@
       }
     },
     {
-      "id": 69,
+      "id": 66,
       "title": "Alashkert – Gandzasar",
       "dateLabel": "21 August",
       "timeLabel": "18:00",
@@ -7773,7 +7976,7 @@
       }
     },
     {
-      "id": 70,
+      "id": 67,
       "title": "Hranice – Havirov",
       "dateLabel": "21 August",
       "timeLabel": "18:00",
@@ -7803,7 +8006,7 @@
       "headToHead": null
     },
     {
-      "id": 71,
+      "id": 68,
       "title": "Benfica B – Portimonense",
       "dateLabel": "21 August",
       "timeLabel": "18:00",
@@ -7956,7 +8159,7 @@
       }
     },
     {
-      "id": 72,
+      "id": 69,
       "title": "Fredericia – Aarhus Fremad",
       "dateLabel": "21 August",
       "timeLabel": "18:00",
@@ -8091,7 +8294,7 @@
       }
     },
     {
-      "id": 73,
+      "id": 70,
       "title": "Zamalek – Al Ittihad",
       "dateLabel": "21 August",
       "timeLabel": "18:00",
@@ -8244,7 +8447,7 @@
       }
     },
     {
-      "id": 74,
+      "id": 71,
       "title": "Abu Qair Semad – National Bank",
       "dateLabel": "21 August",
       "timeLabel": "18:00",
@@ -8274,7 +8477,7 @@
       "headToHead": null
     },
     {
-      "id": 75,
+      "id": 72,
       "title": "Vikingur – B36 Torshavn",
       "dateLabel": "21 August",
       "timeLabel": "18:30",
@@ -8427,7 +8630,7 @@
       }
     },
     {
-      "id": 76,
+      "id": 73,
       "title": "Ried – Grazer AK",
       "dateLabel": "21 August",
       "timeLabel": "18:30",
@@ -8580,7 +8783,7 @@
       }
     },
     {
-      "id": 77,
+      "id": 74,
       "title": "Petrolul – Rapid Bucuresti",
       "dateLabel": "21 August",
       "timeLabel": "18:30",
@@ -8733,7 +8936,7 @@
       }
     },
     {
-      "id": 78,
+      "id": 75,
       "title": "Xamax – Stade Ls Ouchy",
       "dateLabel": "21 August",
       "timeLabel": "18:30",
@@ -8886,7 +9089,7 @@
       }
     },
     {
-      "id": 79,
+      "id": 76,
       "title": "Stade Nyonnais – Etoile Carouge",
       "dateLabel": "21 August",
       "timeLabel": "18:30",
@@ -9039,7 +9242,7 @@
       }
     },
     {
-      "id": 80,
+      "id": 77,
       "title": "Aldosivi – Union de Santa Fe",
       "dateLabel": "21 August",
       "timeLabel": "18:30",
@@ -9192,7 +9395,7 @@
       }
     },
     {
-      "id": 81,
+      "id": 78,
       "title": "Lokeren-Temse – Eupen",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -9345,7 +9548,7 @@
       }
     },
     {
-      "id": 82,
+      "id": 79,
       "title": "RSCA Futures – Excelsior Virton",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -9489,7 +9692,7 @@
       }
     },
     {
-      "id": 83,
+      "id": 80,
       "title": "Al Quadisiya – Al-Ittihad Jeddah",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -9642,7 +9845,7 @@
       }
     },
     {
-      "id": 84,
+      "id": 81,
       "title": "Al Faisaly – Neom",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -9786,7 +9989,7 @@
       }
     },
     {
-      "id": 85,
+      "id": 82,
       "title": "Sarajevo – BSK Banja Luka",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -9816,7 +10019,7 @@
       "headToHead": null
     },
     {
-      "id": 86,
+      "id": 83,
       "title": "Uniao Sao Joao U-20 – XV de Piracicaba U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -9846,7 +10049,7 @@
       "headToHead": null
     },
     {
-      "id": 87,
+      "id": 84,
       "title": "Uniao Suzano U-20 – Itapirense U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -9876,7 +10079,7 @@
       "headToHead": null
     },
     {
-      "id": 88,
+      "id": 85,
       "title": "Ponte Preta U-20 – Sertaozinho U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -9906,7 +10109,7 @@
       "headToHead": null
     },
     {
-      "id": 89,
+      "id": 86,
       "title": "Agua Santa U-20 – Tanabi U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -9936,7 +10139,7 @@
       "headToHead": null
     },
     {
-      "id": 90,
+      "id": 87,
       "title": "Santo Andre U-20 – Sao Caetano U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -10071,7 +10274,7 @@
       }
     },
     {
-      "id": 91,
+      "id": 88,
       "title": "EC Sao Bernardo U-20 – Velo Clube U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -10206,7 +10409,7 @@
       }
     },
     {
-      "id": 92,
+      "id": 89,
       "title": "Portuguesa Santista U-20 – Sao Bento U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -10236,7 +10439,7 @@
       "headToHead": null
     },
     {
-      "id": 93,
+      "id": 90,
       "title": "Guarani U-20 – Ituano U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -10380,7 +10583,7 @@
       }
     },
     {
-      "id": 94,
+      "id": 91,
       "title": "Referencia U-20 – Palmeiras SJ U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -10410,7 +10613,7 @@
       "headToHead": null
     },
     {
-      "id": 95,
+      "id": 92,
       "title": "Flamengo-SP U-20 – Capivariano U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -10563,7 +10766,7 @@
       }
     },
     {
-      "id": 96,
+      "id": 93,
       "title": "Corinthians U-20 – Juventus SP U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -10707,7 +10910,7 @@
       }
     },
     {
-      "id": 97,
+      "id": 94,
       "title": "Bandeirante U-20 – Botafogo-SP U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -10860,7 +11063,7 @@
       }
     },
     {
-      "id": 98,
+      "id": 95,
       "title": "Santos-SP U-20 – America SP U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -10890,7 +11093,7 @@
       "headToHead": null
     },
     {
-      "id": 99,
+      "id": 96,
       "title": "Ferroviaria U-20 – Jabaquara U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -10920,7 +11123,7 @@
       "headToHead": null
     },
     {
-      "id": 100,
+      "id": 97,
       "title": "RB Bragantino U-20 – Maua U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -10950,7 +11153,7 @@
       "headToHead": null
     },
     {
-      "id": 101,
+      "id": 98,
       "title": "Ibrachina U-20 – Desportivo Brasil U-20",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -11103,7 +11306,7 @@
       }
     },
     {
-      "id": 102,
+      "id": 99,
       "title": "Acassuso – Godoy Cruz",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -11238,7 +11441,7 @@
       }
     },
     {
-      "id": 103,
+      "id": 100,
       "title": "Dunkerque – Montpellier",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -11382,7 +11585,7 @@
       }
     },
     {
-      "id": 104,
+      "id": 101,
       "title": "Clermont – Dijon",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -11412,7 +11615,7 @@
       "headToHead": null
     },
     {
-      "id": 105,
+      "id": 102,
       "title": "Boulogne – Red Star",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -11565,7 +11768,7 @@
       }
     },
     {
-      "id": 106,
+      "id": 103,
       "title": "Sochaux – Guingamp",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -11718,7 +11921,7 @@
       }
     },
     {
-      "id": 107,
+      "id": 104,
       "title": "Pau – Nancy",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -11871,7 +12074,7 @@
       }
     },
     {
-      "id": 108,
+      "id": 105,
       "title": "Rudes – Lokomotiva Zagreb",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -12024,7 +12227,7 @@
       }
     },
     {
-      "id": 109,
+      "id": 106,
       "title": "Vitesse – Almere City",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -12177,7 +12380,7 @@
       }
     },
     {
-      "id": 110,
+      "id": 107,
       "title": "MVV Maastricht – Volendam",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -12330,7 +12533,7 @@
       }
     },
     {
-      "id": 111,
+      "id": 108,
       "title": "Mornar – Buducnost",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -12483,7 +12686,7 @@
       }
     },
     {
-      "id": 112,
+      "id": 109,
       "title": "Helmond Sport – RKC Waalwijk",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -12627,7 +12830,7 @@
       }
     },
     {
-      "id": 113,
+      "id": 110,
       "title": "Emmen – Jong AZ",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -12780,7 +12983,7 @@
       }
     },
     {
-      "id": 114,
+      "id": 111,
       "title": "Dordrecht – Roda JC",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -12933,7 +13136,7 @@
       }
     },
     {
-      "id": 115,
+      "id": 112,
       "title": "Den Bosch – Eindhoven",
       "dateLabel": "21 August",
       "timeLabel": "19:00",
@@ -13086,7 +13289,7 @@
       }
     },
     {
-      "id": 116,
+      "id": 113,
       "title": "Rapperswil-Jona – Winterthur",
       "dateLabel": "21 August",
       "timeLabel": "19:15",
@@ -13239,7 +13442,7 @@
       }
     },
     {
-      "id": 117,
+      "id": 114,
       "title": "Olimpija Ljubljana – Nafta",
       "dateLabel": "21 August",
       "timeLabel": "19:15",
@@ -13392,7 +13595,7 @@
       }
     },
     {
-      "id": 118,
+      "id": 115,
       "title": "Cherno More – Dunav",
       "dateLabel": "21 August",
       "timeLabel": "19:15",
@@ -13545,7 +13748,7 @@
       }
     },
     {
-      "id": 119,
+      "id": 116,
       "title": "Vicenza Virtus – Catanzaro",
       "dateLabel": "21 August",
       "timeLabel": "19:30",
@@ -13575,7 +13778,7 @@
       "headToHead": null
     },
     {
-      "id": 120,
+      "id": 117,
       "title": "Admira – First Vienna",
       "dateLabel": "21 August",
       "timeLabel": "19:30",
@@ -13728,7 +13931,7 @@
       }
     },
     {
-      "id": 121,
+      "id": 118,
       "title": "San Telmo – Deportivo Moron",
       "dateLabel": "21 August",
       "timeLabel": "19:30",
@@ -13881,7 +14084,7 @@
       }
     },
     {
-      "id": 122,
+      "id": 119,
       "title": "BB Erzurumspor – Galatasaray",
       "dateLabel": "21 August",
       "timeLabel": "19:30",
@@ -13911,7 +14114,7 @@
       "headToHead": null
     },
     {
-      "id": 123,
+      "id": 120,
       "title": "Albion – Boston River",
       "dateLabel": "21 August",
       "timeLabel": "19:30",
@@ -14064,7 +14267,7 @@
       }
     },
     {
-      "id": 124,
+      "id": 121,
       "title": "Fatih Karagumruk – Bursaspor",
       "dateLabel": "21 August",
       "timeLabel": "19:30",
@@ -14199,7 +14402,7 @@
       }
     },
     {
-      "id": 125,
+      "id": 122,
       "title": "Comunicaciones – Sportivo Italiano",
       "dateLabel": "21 August",
       "timeLabel": "19:30",
@@ -14352,7 +14555,7 @@
       }
     },
     {
-      "id": 126,
+      "id": 123,
       "title": "Lechia Gdansk – Pogon Siedlce",
       "dateLabel": "21 August",
       "timeLabel": "19:30",
@@ -14382,7 +14585,7 @@
       "headToHead": null
     },
     {
-      "id": 127,
+      "id": 124,
       "title": "Inverness – Partick Thistle",
       "dateLabel": "21 August",
       "timeLabel": "19:30",
@@ -14535,7 +14738,7 @@
       }
     },
     {
-      "id": 128,
+      "id": 125,
       "title": "Cracovia – Wieczysta",
       "dateLabel": "21 August",
       "timeLabel": "19:30",
@@ -14565,7 +14768,7 @@
       "headToHead": null
     },
     {
-      "id": 129,
+      "id": 126,
       "title": "Marseille – Strasbourg",
       "dateLabel": "21 August",
       "timeLabel": "19:45",
@@ -14718,7 +14921,7 @@
       }
     },
     {
-      "id": 130,
+      "id": 127,
       "title": "Wexford – Athlone Town",
       "dateLabel": "21 August",
       "timeLabel": "19:45",
@@ -14871,7 +15074,7 @@
       }
     },
     {
-      "id": 131,
+      "id": 128,
       "title": "Treaty United – Cork City",
       "dateLabel": "21 August",
       "timeLabel": "19:45",
@@ -15024,7 +15227,7 @@
       }
     },
     {
-      "id": 132,
+      "id": 129,
       "title": "Kerry – UCD",
       "dateLabel": "21 August",
       "timeLabel": "19:45",
@@ -15177,7 +15380,7 @@
       }
     },
     {
-      "id": 133,
+      "id": 130,
       "title": "Finn Harps – Cobh Ramblers",
       "dateLabel": "21 August",
       "timeLabel": "19:45",
@@ -15330,7 +15533,7 @@
       }
     },
     {
-      "id": 134,
+      "id": 131,
       "title": "Hansa Rostock – Stuttgart",
       "dateLabel": "21 August",
       "timeLabel": "19:45",
@@ -15360,7 +15563,7 @@
       "headToHead": null
     },
     {
-      "id": 135,
+      "id": 132,
       "title": "Dundalk – Galway United",
       "dateLabel": "21 August",
       "timeLabel": "19:45",
@@ -15513,7 +15716,7 @@
       }
     },
     {
-      "id": 136,
+      "id": 133,
       "title": "Drogheda United – St Patrick`s Athletic",
       "dateLabel": "21 August",
       "timeLabel": "19:45",
@@ -15666,7 +15869,7 @@
       }
     },
     {
-      "id": 137,
+      "id": 134,
       "title": "Bohemian – Derry City",
       "dateLabel": "21 August",
       "timeLabel": "19:45",
@@ -15819,7 +16022,7 @@
       }
     },
     {
-      "id": 138,
+      "id": 135,
       "title": "Standard Liege – RAAL La Louviere",
       "dateLabel": "21 August",
       "timeLabel": "19:45",
@@ -15963,7 +16166,7 @@
       }
     },
     {
-      "id": 139,
+      "id": 136,
       "title": "Union Brescia – Carpi",
       "dateLabel": "21 August",
       "timeLabel": "20:00",
@@ -16098,7 +16301,7 @@
       }
     },
     {
-      "id": 140,
+      "id": 137,
       "title": "Alcione – Renate",
       "dateLabel": "21 August",
       "timeLabel": "20:00",
@@ -16251,7 +16454,7 @@
       }
     },
     {
-      "id": 141,
+      "id": 138,
       "title": "Potenza – Casarano",
       "dateLabel": "21 August",
       "timeLabel": "20:00",
@@ -16395,7 +16598,7 @@
       }
     },
     {
-      "id": 142,
+      "id": 139,
       "title": "Giugliano – Scafatese",
       "dateLabel": "21 August",
       "timeLabel": "20:00",
@@ -16530,7 +16733,7 @@
       }
     },
     {
-      "id": 143,
+      "id": 140,
       "title": "Bari – Cavese",
       "dateLabel": "21 August",
       "timeLabel": "20:00",
@@ -16560,7 +16763,7 @@
       "headToHead": null
     },
     {
-      "id": 144,
+      "id": 141,
       "title": "Marsaxlokk – Hibernians",
       "dateLabel": "21 August",
       "timeLabel": "20:00",
@@ -16713,7 +16916,7 @@
       }
     },
     {
-      "id": 145,
+      "id": 142,
       "title": "Hound Dogs – College",
       "dateLabel": "21 August",
       "timeLabel": "20:00",
@@ -16857,7 +17060,7 @@
       }
     },
     {
-      "id": 146,
+      "id": 143,
       "title": "Sligo Rovers – Waterford",
       "dateLabel": "21 August",
       "timeLabel": "20:00",
@@ -17010,7 +17213,7 @@
       }
     },
     {
-      "id": 147,
+      "id": 144,
       "title": "Shamrock Rovers – Shelbourne",
       "dateLabel": "21 August",
       "timeLabel": "20:00",
@@ -17163,7 +17366,7 @@
       }
     },
     {
-      "id": 148,
+      "id": 145,
       "title": "Arsenal – Coventry City",
       "dateLabel": "21 August",
       "timeLabel": "20:00",
@@ -17193,7 +17396,7 @@
       "headToHead": null
     },
     {
-      "id": 149,
+      "id": 146,
       "title": "Real Betis – Real Sociedad",
       "dateLabel": "21 August",
       "timeLabel": "20:00",
@@ -17346,7 +17549,7 @@
       }
     },
     {
-      "id": 150,
+      "id": 147,
       "title": "Cordoba – Girona",
       "dateLabel": "21 August",
       "timeLabel": "20:00",
@@ -17376,7 +17579,7 @@
       "headToHead": null
     },
     {
-      "id": 151,
+      "id": 148,
       "title": "Tondela – Academica",
       "dateLabel": "21 August",
       "timeLabel": "20:15",
@@ -17520,7 +17723,7 @@
       }
     },
     {
-      "id": 152,
+      "id": 149,
       "title": "AD Fafe – Guimaraes B",
       "dateLabel": "21 August",
       "timeLabel": "20:30",
@@ -17673,7 +17876,7 @@
       }
     },
     {
-      "id": 153,
+      "id": 150,
       "title": "Anzoategui – Trujillanos",
       "dateLabel": "21 August",
       "timeLabel": "21:00",
@@ -17826,7 +18029,7 @@
       }
     },
     {
-      "id": 154,
+      "id": 151,
       "title": "Alianza Atletico – Sporting Cristal",
       "dateLabel": "21 August",
       "timeLabel": "21:00",
@@ -17979,7 +18182,7 @@
       }
     },
     {
-      "id": 155,
+      "id": 152,
       "title": "LDU Portoviejo – 22 de Julio",
       "dateLabel": "21 August",
       "timeLabel": "21:30",
@@ -18123,7 +18326,7 @@
       }
     },
     {
-      "id": 156,
+      "id": 153,
       "title": "Jaguares de Cordoba – Boyaca Chico",
       "dateLabel": "21 August",
       "timeLabel": "22:05",
@@ -18276,7 +18479,7 @@
       }
     },
     {
-      "id": 157,
+      "id": 154,
       "title": "Rubio Nu – Sportivo Trinidense",
       "dateLabel": "21 August",
       "timeLabel": "22:30",
@@ -18429,7 +18632,7 @@
       }
     },
     {
-      "id": 158,
+      "id": 155,
       "title": "Deportivo Madryn – Atletico Mitre",
       "dateLabel": "21 August",
       "timeLabel": "23:00",
@@ -18582,7 +18785,7 @@
       }
     },
     {
-      "id": 159,
+      "id": 156,
       "title": "Liverpool M – Cerro",
       "dateLabel": "21 August",
       "timeLabel": "23:00",
@@ -18735,7 +18938,7 @@
       }
     },
     {
-      "id": 160,
+      "id": 157,
       "title": "Brown de Adrogue – UAI Urquiza",
       "dateLabel": "21 August",
       "timeLabel": "23:00",
@@ -18888,7 +19091,7 @@
       }
     },
     {
-      "id": 161,
+      "id": 158,
       "title": "Laferrere – Villa Dalmine",
       "dateLabel": "21 August",
       "timeLabel": "23:00",
@@ -19041,7 +19244,7 @@
       }
     },
     {
-      "id": 162,
+      "id": 159,
       "title": "The Strongest – Universitario de Vinto",
       "dateLabel": "21 August",
       "timeLabel": "23:30",
@@ -19194,7 +19397,7 @@
       }
     },
     {
-      "id": 163,
+      "id": 160,
       "title": "Caracas – Carabobo",
       "dateLabel": "22 August",
       "timeLabel": "0:00",
@@ -19347,7 +19550,7 @@
       }
     },
     {
-      "id": 164,
+      "id": 161,
       "title": "Moka – Vega Real",
       "dateLabel": "22 August",
       "timeLabel": "0:00",
@@ -19377,7 +19580,7 @@
       "headToHead": null
     },
     {
-      "id": 165,
+      "id": 162,
       "title": "Pumas (W) – Queretaro (W)",
       "dateLabel": "22 August",
       "timeLabel": "0:00",
@@ -19407,7 +19610,7 @@
       "headToHead": null
     },
     {
-      "id": 166,
+      "id": 163,
       "title": "Rio Cuarto – San Lorenzo",
       "dateLabel": "22 August",
       "timeLabel": "0:00",
@@ -19551,7 +19754,7 @@
       }
     },
     {
-      "id": 167,
+      "id": 164,
       "title": "Brooklyn (W) – DC Power (W)",
       "dateLabel": "22 August",
       "timeLabel": "0:30",
@@ -19581,7 +19784,7 @@
       "headToHead": null
     },
     {
-      "id": 168,
+      "id": 165,
       "title": "CD Santo Domingo – Vinotinto",
       "dateLabel": "22 August",
       "timeLabel": "1:00",
@@ -19716,7 +19919,7 @@
       }
     },
     {
-      "id": 169,
+      "id": 166,
       "title": "Leones Del Norte – Independiente",
       "dateLabel": "22 August",
       "timeLabel": "1:00",
@@ -19851,7 +20054,7 @@
       }
     },
     {
-      "id": 170,
+      "id": 167,
       "title": "Simulcast",
       "dateLabel": "22 August",
       "timeLabel": "1:00",
@@ -19881,7 +20084,7 @@
       "headToHead": null
     },
     {
-      "id": 171,
+      "id": 168,
       "title": "CD Cuenca – Mushuc Runa",
       "dateLabel": "22 August",
       "timeLabel": "1:00",
@@ -20034,7 +20237,7 @@
       }
     },
     {
-      "id": 172,
+      "id": 169,
       "title": "Oriente Petrolero – SA Bulo Bulo",
       "dateLabel": "22 August",
       "timeLabel": "1:30",
@@ -20187,7 +20390,7 @@
       }
     },
     {
-      "id": 173,
+      "id": 170,
       "title": "Audax Italiano – Union La Calera",
       "dateLabel": "22 August",
       "timeLabel": "1:30",
@@ -20340,7 +20543,7 @@
       }
     },
     {
-      "id": 174,
+      "id": 171,
       "title": "Alianza Valledupar – Deportivo Pereira",
       "dateLabel": "22 August",
       "timeLabel": "1:30",
@@ -20493,7 +20696,7 @@
       }
     },
     {
-      "id": 175,
+      "id": 172,
       "title": "Leon – Monterrey",
       "dateLabel": "22 August",
       "timeLabel": "2:00",
@@ -20646,7 +20849,7 @@
       }
     },
     {
-      "id": 176,
+      "id": 173,
       "title": "Puntarenas – Perez Zeledon",
       "dateLabel": "22 August",
       "timeLabel": "2:00",
@@ -20799,7 +21002,7 @@
       }
     },
     {
-      "id": 177,
+      "id": 174,
       "title": "Inter FA – INCA-Aruba",
       "dateLabel": "22 August",
       "timeLabel": "2:00",
@@ -20829,7 +21032,7 @@
       "headToHead": null
     },
     {
-      "id": 178,
+      "id": 175,
       "title": "UANL – Atlante",
       "dateLabel": "22 August",
       "timeLabel": "2:00",
@@ -20859,7 +21062,7 @@
       "headToHead": null
     },
     {
-      "id": 179,
+      "id": 176,
       "title": "Motagua – UPNFM",
       "dateLabel": "22 August",
       "timeLabel": "2:00",
@@ -21012,7 +21215,7 @@
       }
     },
     {
-      "id": 180,
+      "id": 177,
       "title": "San Diego Wave (W) – Utah Royals (W)",
       "dateLabel": "22 August",
       "timeLabel": "3:00",
@@ -21042,7 +21245,7 @@
       "headToHead": null
     },
     {
-      "id": 181,
+      "id": 178,
       "title": "Canberra Olympic U-23 – Brindabella Blues U-23",
       "dateLabel": "22 August",
       "timeLabel": "3:00",
@@ -21186,7 +21389,7 @@
       }
     },
     {
-      "id": 182,
+      "id": 179,
       "title": "Canberra White Eagles U-23 – Monaro Panthers U-23",
       "dateLabel": "22 August",
       "timeLabel": "3:45",
@@ -21321,7 +21524,7 @@
       }
     },
     {
-      "id": 183,
+      "id": 180,
       "title": "Auckland City – Central Coast",
       "dateLabel": "22 August",
       "timeLabel": "4:00",
@@ -21456,7 +21659,7 @@
       }
     },
     {
-      "id": 184,
+      "id": 181,
       "title": "Monterrey (W) – Leon (W)",
       "dateLabel": "22 August",
       "timeLabel": "4:00",
@@ -21486,7 +21689,7 @@
       "headToHead": null
     },
     {
-      "id": 185,
+      "id": 182,
       "title": "Juarez – America",
       "dateLabel": "22 August",
       "timeLabel": "4:00",
@@ -21639,7 +21842,7 @@
       }
     },
     {
-      "id": 186,
+      "id": 183,
       "title": "Atletico La Paz – Cruz Azul Hidalgo",
       "dateLabel": "22 August",
       "timeLabel": "4:00",
@@ -21669,7 +21872,7 @@
       "headToHead": null
     },
     {
-      "id": 187,
+      "id": 184,
       "title": "Queretaro – Toluca",
       "dateLabel": "22 August",
       "timeLabel": "4:10",
@@ -21822,7 +22025,7 @@
       }
     },
     {
-      "id": 188,
+      "id": 185,
       "title": "Newcastle Croatia – Wallsend",
       "dateLabel": "22 August",
       "timeLabel": "5:00",
@@ -21852,7 +22055,7 @@
       "headToHead": null
     },
     {
-      "id": 189,
+      "id": 186,
       "title": "Canberra Olympic – Brindabella Blues",
       "dateLabel": "22 August",
       "timeLabel": "5:30",
@@ -22005,7 +22208,7 @@
       }
     },
     {
-      "id": 190,
+      "id": 187,
       "title": "NWS Spirit (W) – Manly United (W)",
       "dateLabel": "22 August",
       "timeLabel": "6:00",
@@ -22035,7 +22238,7 @@
       "headToHead": null
     },
     {
-      "id": 191,
+      "id": 188,
       "title": "Avondale (W) – Boroondara Eagles (W)",
       "dateLabel": "22 August",
       "timeLabel": "6:00",
@@ -22065,7 +22268,7 @@
       "headToHead": null
     },
     {
-      "id": 192,
+      "id": 189,
       "title": "Essendon Royals (W) – Heidelberg United (W)",
       "dateLabel": "22 August",
       "timeLabel": "6:00",
@@ -22095,7 +22298,7 @@
       "headToHead": null
     },
     {
-      "id": 193,
+      "id": 190,
       "title": "Keilor Park (W) – Box Hill United (W)",
       "dateLabel": "22 August",
       "timeLabel": "6:00",
@@ -22125,7 +22328,7 @@
       "headToHead": null
     },
     {
-      "id": 194,
+      "id": 191,
       "title": "Melbourne Victory II (W) – Alamein (W)",
       "dateLabel": "22 August",
       "timeLabel": "6:00",
@@ -22155,7 +22358,7 @@
       "headToHead": null
     },
     {
-      "id": 195,
+      "id": 192,
       "title": "Tuggeranong United – Canberra Juventus",
       "dateLabel": "22 August",
       "timeLabel": "6:00",
@@ -22290,7 +22493,7 @@
       }
     },
     {
-      "id": 196,
+      "id": 193,
       "title": "Queanbeyan City – O`Connor Knights",
       "dateLabel": "22 August",
       "timeLabel": "6:00",
@@ -22443,7 +22646,7 @@
       }
     },
     {
-      "id": 197,
+      "id": 194,
       "title": "Canberra White Eagles – Monaro Panthers",
       "dateLabel": "22 August",
       "timeLabel": "6:00",
@@ -22587,7 +22790,7 @@
       }
     },
     {
-      "id": 198,
+      "id": 195,
       "title": "Canberra – Belconnen United",
       "dateLabel": "22 August",
       "timeLabel": "6:00",
@@ -22740,7 +22943,7 @@
       }
     },
     {
-      "id": 199,
+      "id": 196,
       "title": "Melbourne City II – Bentleigh Greens",
       "dateLabel": "22 August",
       "timeLabel": "6:00",
@@ -22893,7 +23096,7 @@
       }
     },
     {
-      "id": 200,
+      "id": 197,
       "title": "Altona Magic – Avondale",
       "dateLabel": "22 August",
       "timeLabel": "6:15",
@@ -23046,7 +23249,7 @@
       }
     },
     {
-      "id": 201,
+      "id": 198,
       "title": "Playford City – Beograd",
       "dateLabel": "22 August",
       "timeLabel": "6:30",
@@ -23199,7 +23402,7 @@
       }
     },
     {
-      "id": 202,
+      "id": 199,
       "title": "North Brisbane – AC Carina",
       "dateLabel": "22 August",
       "timeLabel": "7:00",
@@ -23343,7 +23546,7 @@
       }
     },
     {
-      "id": 203,
+      "id": 200,
       "title": "Consadole Sapporo – Omiya Ardija",
       "dateLabel": "22 August",
       "timeLabel": "7:00",
@@ -23496,7 +23699,7 @@
       }
     },
     {
-      "id": 204,
+      "id": 201,
       "title": "Hume City – George Cross",
       "dateLabel": "22 August",
       "timeLabel": "7:00",
@@ -23640,7 +23843,7 @@
       }
     },
     {
-      "id": 205,
+      "id": 202,
       "title": "Bulleen Lions (W) – Spring Hills (W)",
       "dateLabel": "22 August",
       "timeLabel": "7:00",
@@ -23670,7 +23873,7 @@
       "headToHead": null
     },
     {
-      "id": 206,
+      "id": 203,
       "title": "New Lambton – Kahibah",
       "dateLabel": "22 August",
       "timeLabel": "7:00",
@@ -23700,7 +23903,7 @@
       "headToHead": null
     },
     {
-      "id": 207,
+      "id": 204,
       "title": "Sutherland Sharks – St George City",
       "dateLabel": "22 August",
       "timeLabel": "7:00",
@@ -23853,7 +24056,7 @@
       }
     },
     {
-      "id": 208,
+      "id": 205,
       "title": "Darwin Hearts – Azzurri United",
       "dateLabel": "22 August",
       "timeLabel": "7:30",
@@ -24006,7 +24209,7 @@
       }
     },
     {
-      "id": 209,
+      "id": 206,
       "title": "Dandenong City – Preston Lions",
       "dateLabel": "22 August",
       "timeLabel": "8:00",
@@ -24159,7 +24362,7 @@
       }
     },
     {
-      "id": 210,
+      "id": 207,
       "title": "UNSW – Manly United",
       "dateLabel": "22 August",
       "timeLabel": "8:15",
@@ -24294,7 +24497,7 @@
       }
     },
     {
-      "id": 211,
+      "id": 208,
       "title": "Fulham United – Adelaide Blue Eagles",
       "dateLabel": "22 August",
       "timeLabel": "8:30",
@@ -24447,7 +24650,7 @@
       }
     },
     {
-      "id": 212,
+      "id": 209,
       "title": "NWS Spirit – SD Raiders",
       "dateLabel": "22 August",
       "timeLabel": "8:30",
@@ -24600,7 +24803,7 @@
       }
     },
     {
-      "id": 213,
+      "id": 210,
       "title": "Vanraure Hachinohe – Vegalta Sendai",
       "dateLabel": "22 August",
       "timeLabel": "9:00",
@@ -24744,7 +24947,7 @@
       }
     },
     {
-      "id": 214,
+      "id": 211,
       "title": "Povltavska FA – Jiskra Domazlice",
       "dateLabel": "22 August",
       "timeLabel": "9:15",
@@ -24897,7 +25100,7 @@
       }
     },
     {
-      "id": 215,
+      "id": 212,
       "title": "Mlada-Boleslav B – Neratovice-Byskovice",
       "dateLabel": "22 August",
       "timeLabel": "9:15",
@@ -25041,7 +25244,7 @@
       }
     },
     {
-      "id": 216,
+      "id": 213,
       "title": "Loko Praha – Aritma Prague",
       "dateLabel": "22 August",
       "timeLabel": "9:15",
@@ -25185,7 +25388,7 @@
       }
     },
     {
-      "id": 217,
+      "id": 214,
       "title": "Slavia Prague C – Viktoria Plzen B",
       "dateLabel": "22 August",
       "timeLabel": "9:15",
@@ -25320,7 +25523,7 @@
       }
     },
     {
-      "id": 218,
+      "id": 215,
       "title": "Benesov – Sparta Prague B",
       "dateLabel": "22 August",
       "timeLabel": "9:15",
@@ -25350,7 +25553,7 @@
       "headToHead": null
     },
     {
-      "id": 219,
+      "id": 216,
       "title": "Mindil Aces – Palmerston Rovers",
       "dateLabel": "22 August",
       "timeLabel": "9:30",
@@ -25485,7 +25688,7 @@
       }
     },
     {
-      "id": 220,
+      "id": 217,
       "title": "St George – Blacktown City",
       "dateLabel": "22 August",
       "timeLabel": "9:30",
@@ -25638,7 +25841,7 @@
       }
     },
     {
-      "id": 221,
+      "id": 218,
       "title": "Kashima Antlers – Avispa Fukuoka",
       "dateLabel": "22 August",
       "timeLabel": "10:00",
@@ -25791,7 +25994,7 @@
       }
     },
     {
-      "id": 222,
+      "id": 219,
       "title": "Blaublitz Akita – Ventforet Kofu",
       "dateLabel": "22 August",
       "timeLabel": "10:00",
@@ -25944,7 +26147,7 @@
       }
     },
     {
-      "id": 223,
+      "id": 220,
       "title": "Matsumoto Yamaga – Ehime",
       "dateLabel": "22 August",
       "timeLabel": "10:00",
@@ -26097,7 +26300,7 @@
       }
     },
     {
-      "id": 224,
+      "id": 221,
       "title": "Osaka – Ryukyu",
       "dateLabel": "22 August",
       "timeLabel": "10:00",
@@ -26250,7 +26453,7 @@
       }
     },
     {
-      "id": 225,
+      "id": 222,
       "title": "Nara – Renofa Yamaguchi",
       "dateLabel": "22 August",
       "timeLabel": "10:00",
@@ -26280,7 +26483,7 @@
       "headToHead": null
     },
     {
-      "id": 226,
+      "id": 223,
       "title": "Dandenong Thunder – Oakleigh Cannons",
       "dateLabel": "22 August",
       "timeLabel": "10:00",
@@ -26433,7 +26636,7 @@
       }
     },
     {
-      "id": 227,
+      "id": 224,
       "title": "Yangpyeong – Gyeongju KHNP",
       "dateLabel": "22 August",
       "timeLabel": "10:00",
@@ -26586,7 +26789,7 @@
       }
     },
     {
-      "id": 228,
+      "id": 225,
       "title": "Pocheon Citizen – Mokpo",
       "dateLabel": "22 August",
       "timeLabel": "10:00",
@@ -26739,7 +26942,7 @@
       }
     },
     {
-      "id": 229,
+      "id": 226,
       "title": "Dangjin Citizen – Yeoju",
       "dateLabel": "22 August",
       "timeLabel": "10:00",
@@ -26892,7 +27095,7 @@
       }
     },
     {
-      "id": 230,
+      "id": 227,
       "title": "Fagiano Okayama – Tokyo Verdy",
       "dateLabel": "22 August",
       "timeLabel": "10:30",
@@ -27045,7 +27248,7 @@
       }
     },
     {
-      "id": 231,
+      "id": 228,
       "title": "Kataller Toyama – Imabari",
       "dateLabel": "22 August",
       "timeLabel": "10:30",
@@ -27198,7 +27401,7 @@
       }
     },
     {
-      "id": 232,
+      "id": 229,
       "title": "MetroStars – Croydon",
       "dateLabel": "22 August",
       "timeLabel": "10:30",
@@ -27351,7 +27554,7 @@
       }
     },
     {
-      "id": 233,
+      "id": 230,
       "title": "Ural – Tekstilshchik",
       "dateLabel": "22 August",
       "timeLabel": "10:30",
@@ -27381,7 +27584,7 @@
       "headToHead": null
     },
     {
-      "id": 234,
+      "id": 231,
       "title": "Lokomotiv M (W) – Spartak M (W)",
       "dateLabel": "22 August",
       "timeLabel": "10:30",
@@ -27411,7 +27614,7 @@
       "headToHead": null
     },
     {
-      "id": 235,
+      "id": 232,
       "title": "Nagoya Grampus – Gamba Osaka",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -27564,7 +27767,7 @@
       }
     },
     {
-      "id": 236,
+      "id": 233,
       "title": "Kyoto Sanga – Mito HollyHock",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -27594,7 +27797,7 @@
       "headToHead": null
     },
     {
-      "id": 237,
+      "id": 234,
       "title": "Cerezo Osaka – Shimizu S-Pulse",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -27747,7 +27950,7 @@
       }
     },
     {
-      "id": 238,
+      "id": 235,
       "title": "Eintracht (W) – Cologne (W)",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -27777,7 +27980,7 @@
       "headToHead": null
     },
     {
-      "id": 239,
+      "id": 236,
       "title": "Tegevajaro Miyazaki – Shonan Bellmare",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -27807,7 +28010,7 @@
       "headToHead": null
     },
     {
-      "id": 240,
+      "id": 237,
       "title": "Sagan Tosu – Tochigi City",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -27837,7 +28040,7 @@
       "headToHead": null
     },
     {
-      "id": 241,
+      "id": 238,
       "title": "Oita Trinita – Iwaki",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -27990,7 +28193,7 @@
       }
     },
     {
-      "id": 242,
+      "id": 239,
       "title": "Montedio Yamagata – Yokohama",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -28143,7 +28346,7 @@
       }
     },
     {
-      "id": 243,
+      "id": 240,
       "title": "Jubilo Iwata – Tokushima Vortis",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -28296,7 +28499,7 @@
       }
     },
     {
-      "id": 244,
+      "id": 241,
       "title": "Albirex Niigata – Fujieda MYFC",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -28326,7 +28529,7 @@
       "headToHead": null
     },
     {
-      "id": 245,
+      "id": 242,
       "title": "Os Belenenses – UD Santarem",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -28479,7 +28682,7 @@
       }
     },
     {
-      "id": 246,
+      "id": 243,
       "title": "Tochigi – Giravanz Kitakyushu",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -28632,7 +28835,7 @@
       }
     },
     {
-      "id": 247,
+      "id": 244,
       "title": "Thespa Gunma – Reilac Shiga",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -28662,7 +28865,7 @@
       "headToHead": null
     },
     {
-      "id": 248,
+      "id": 245,
       "title": "Roasso Kumamoto – Nagano Parceiro",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -28692,7 +28895,7 @@
       "headToHead": null
     },
     {
-      "id": 249,
+      "id": 246,
       "title": "Kagoshima Utd – Gifu",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -28845,7 +29048,7 @@
       }
     },
     {
-      "id": 250,
+      "id": 247,
       "title": "Gainare Tottori – Fukushima Utd",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -28998,7 +29201,7 @@
       }
     },
     {
-      "id": 251,
+      "id": 248,
       "title": "Leixoes – UD Leiria",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -29151,7 +29354,7 @@
       }
     },
     {
-      "id": 252,
+      "id": 249,
       "title": "Busan TC – Changwon City",
       "dateLabel": "22 August",
       "timeLabel": "11:00",
@@ -29304,7 +29507,7 @@
       }
     },
     {
-      "id": 253,
+      "id": 250,
       "title": "Sanfrecce Hiroshima – Kawasaki Frontale",
       "dateLabel": "22 August",
       "timeLabel": "11:15",
@@ -29457,7 +29660,7 @@
       }
     },
     {
-      "id": 254,
+      "id": 251,
       "title": "Port Darwin – Hellenic",
       "dateLabel": "22 August",
       "timeLabel": "11:30",
@@ -29610,7 +29813,7 @@
       }
     },
     {
-      "id": 255,
+      "id": 252,
       "title": "Port Darwin – Darwin Hearts",
       "dateLabel": "22 August",
       "timeLabel": "11:30",
@@ -29763,7 +29966,7 @@
       }
     },
     {
-      "id": 256,
+      "id": 253,
       "title": "Yokohama Marinos – Vissel Kobe",
       "dateLabel": "22 August",
       "timeLabel": "11:30",
@@ -29916,7 +30119,7 @@
       }
     },
     {
-      "id": 257,
+      "id": 254,
       "title": "Wuhan Three Towns – Tianjin TEDA",
       "dateLabel": "22 August",
       "timeLabel": "12:00",
@@ -30069,7 +30272,7 @@
       }
     },
     {
-      "id": 258,
+      "id": 255,
       "title": "Wehen – Leverkusen",
       "dateLabel": "22 August",
       "timeLabel": "12:00",
@@ -30099,7 +30302,7 @@
       "headToHead": null
     },
     {
-      "id": 259,
+      "id": 256,
       "title": "Energie Cottbus – Augsburg",
       "dateLabel": "22 August",
       "timeLabel": "12:00",
@@ -30129,7 +30332,7 @@
       "headToHead": null
     },
     {
-      "id": 260,
+      "id": 257,
       "title": "Belshina – Arsenal Dzerzhinsk",
       "dateLabel": "22 August",
       "timeLabel": "12:00",
@@ -30282,7 +30485,7 @@
       }
     },
     {
-      "id": 261,
+      "id": 258,
       "title": "Dalian Kuncheng – Wuxi Wugou",
       "dateLabel": "22 August",
       "timeLabel": "12:00",
@@ -30417,7 +30620,7 @@
       }
     },
     {
-      "id": 262,
+      "id": 259,
       "title": "Ningbo Professional – Yanbian Longding",
       "dateLabel": "22 August",
       "timeLabel": "12:00",
@@ -30570,7 +30773,7 @@
       }
     },
     {
-      "id": 263,
+      "id": 260,
       "title": "Dingnan United – Shijiazhuang KungFu",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -30723,7 +30926,7 @@
       }
     },
     {
-      "id": 264,
+      "id": 261,
       "title": "FarDU – Shortan",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -30753,7 +30956,7 @@
       "headToHead": null
     },
     {
-      "id": 265,
+      "id": 262,
       "title": "Luton Town – Notts County",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -30783,7 +30986,7 @@
       "headToHead": null
     },
     {
-      "id": 266,
+      "id": 263,
       "title": "Doncaster Rovers – Barnsley",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -30936,7 +31139,7 @@
       }
     },
     {
-      "id": 267,
+      "id": 264,
       "title": "Walsall – Grimsby Town",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -31089,7 +31292,7 @@
       }
     },
     {
-      "id": 268,
+      "id": 265,
       "title": "Salford City – Chesterfield",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -31242,7 +31445,7 @@
       }
     },
     {
-      "id": 269,
+      "id": 266,
       "title": "Bristol Rovers – Newport County",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -31395,7 +31598,7 @@
       }
     },
     {
-      "id": 270,
+      "id": 267,
       "title": "Hull City – Manchester Utd",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -31425,7 +31628,7 @@
       "headToHead": null
     },
     {
-      "id": 271,
+      "id": 268,
       "title": "Millwall – Norwich City",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -31578,7 +31781,7 @@
       }
     },
     {
-      "id": 272,
+      "id": 269,
       "title": "Lincoln City – Portsmouth",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -31731,7 +31934,7 @@
       }
     },
     {
-      "id": 273,
+      "id": 270,
       "title": "Birmingham City – Bristol City",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -31884,7 +32087,7 @@
       }
     },
     {
-      "id": 274,
+      "id": 271,
       "title": "Nantong Zhiyun – Shaanxi Union",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -32037,7 +32240,7 @@
       }
     },
     {
-      "id": 275,
+      "id": 272,
       "title": "Meizhou Hakka – Guangdong GZ-Power",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -32172,7 +32375,7 @@
       }
     },
     {
-      "id": 276,
+      "id": 273,
       "title": "Guangxi Hengchen – Suzhou Dongwu",
       "dateLabel": "22 August",
       "timeLabel": "12:30",
@@ -32307,7 +32510,7 @@
       }
     },
     {
-      "id": 277,
+      "id": 274,
       "title": "Shenzhen Peng City – Zhejiang Greentown",
       "dateLabel": "22 August",
       "timeLabel": "12:35",
@@ -32460,7 +32663,7 @@
       }
     },
     {
-      "id": 278,
+      "id": 275,
       "title": "Chengdu Rongcheng – Shanghai Shenhua",
       "dateLabel": "22 August",
       "timeLabel": "12:35",
@@ -32613,7 +32816,7 @@
       }
     },
     {
-      "id": 279,
+      "id": 276,
       "title": "Super Nova – Daugavpils",
       "dateLabel": "22 August",
       "timeLabel": "13:00",
@@ -32766,7 +32969,7 @@
       }
     },
     {
-      "id": 280,
+      "id": 277,
       "title": "Qingdao West Coast – Shandong Taishan",
       "dateLabel": "22 August",
       "timeLabel": "13:00",
@@ -32919,7 +33122,7 @@
       }
     },
     {
-      "id": 281,
+      "id": 278,
       "title": "Beijing Guoan – Yunnan Yukun",
       "dateLabel": "22 August",
       "timeLabel": "13:00",
@@ -33072,7 +33275,7 @@
       }
     },
     {
-      "id": 282,
+      "id": 279,
       "title": "Nantes – Rodez",
       "dateLabel": "22 August",
       "timeLabel": "13:00",
@@ -33102,7 +33305,7 @@
       "headToHead": null
     },
     {
-      "id": 283,
+      "id": 280,
       "title": "Metz – Laval",
       "dateLabel": "22 August",
       "timeLabel": "13:00",
@@ -33255,7 +33458,7 @@
       }
     },
     {
-      "id": 284,
+      "id": 281,
       "title": "Nuremberg (W) – Wolfsburg (W)",
       "dateLabel": "22 August",
       "timeLabel": "13:00",
@@ -33285,7 +33488,7 @@
       "headToHead": null
     },
     {
-      "id": 285,
+      "id": 282,
       "title": "Okzhetpes – Kyzylzhar",
       "dateLabel": "22 August",
       "timeLabel": "13:00",
@@ -33438,7 +33641,7 @@
       }
     },
     {
-      "id": 286,
+      "id": 283,
       "title": "Vsetin – Unicov",
       "dateLabel": "22 August",
       "timeLabel": "13:00",
@@ -33582,7 +33785,7 @@
       }
     },
     {
-      "id": 287,
+      "id": 284,
       "title": "Fakel – Orenburg",
       "dateLabel": "22 August",
       "timeLabel": "13:30",
@@ -33735,7 +33938,7 @@
       }
     },
     {
-      "id": 288,
+      "id": 285,
       "title": "Korona Kielce – Motor",
       "dateLabel": "22 August",
       "timeLabel": "13:45",
@@ -33888,7 +34091,7 @@
       }
     },
     {
-      "id": 289,
+      "id": 286,
       "title": "Oergryte – Halmstad",
       "dateLabel": "22 August",
       "timeLabel": "14:00",
@@ -34041,7 +34244,7 @@
       }
     },
     {
-      "id": 290,
+      "id": 287,
       "title": "Varnsdorf – Horni Redice",
       "dateLabel": "22 August",
       "timeLabel": "14:00",
@@ -34071,7 +34274,7 @@
       "headToHead": null
     },
     {
-      "id": 291,
+      "id": 288,
       "title": "Thailand THA – Vietnam VNM",
       "dateLabel": "22 August",
       "timeLabel": "14:00",
@@ -34224,7 +34427,7 @@
       }
     },
     {
-      "id": 292,
+      "id": 289,
       "title": "Slavia Mazyr – Gomel",
       "dateLabel": "22 August",
       "timeLabel": "14:00",
@@ -34377,7 +34580,7 @@
       }
     },
     {
-      "id": 293,
+      "id": 290,
       "title": "Sekhukhune United – Orlando Pirates",
       "dateLabel": "22 August",
       "timeLabel": "14:00",
@@ -34530,7 +34733,7 @@
       }
     },
     {
-      "id": 294,
+      "id": 291,
       "title": "Vizela – Amarante",
       "dateLabel": "22 August",
       "timeLabel": "14:00",
@@ -34560,7 +34763,7 @@
       "headToHead": null
     },
     {
-      "id": 295,
+      "id": 292,
       "title": "Banik Sous – Benatky Nad Jizerou",
       "dateLabel": "22 August",
       "timeLabel": "14:00",
@@ -34713,7 +34916,7 @@
       }
     },
     {
-      "id": 296,
+      "id": 293,
       "title": "Rapid Vienna II – Floridsdorf",
       "dateLabel": "22 August",
       "timeLabel": "14:30",
@@ -34866,7 +35069,7 @@
       }
     },
     {
-      "id": 297,
+      "id": 294,
       "title": "Polonia Bytom – Grodzisk Mazowiecki",
       "dateLabel": "22 August",
       "timeLabel": "14:30",
@@ -35019,7 +35222,7 @@
       }
     },
     {
-      "id": 298,
+      "id": 295,
       "title": "Podbeskidzie – Odra Opole",
       "dateLabel": "22 August",
       "timeLabel": "14:30",
@@ -35172,7 +35375,7 @@
       }
     },
     {
-      "id": 299,
+      "id": 296,
       "title": "Nieciecza – Polonia Warsaw",
       "dateLabel": "22 August",
       "timeLabel": "14:30",
@@ -35325,7 +35528,7 @@
       }
     },
     {
-      "id": 300,
+      "id": 297,
       "title": "Saarbruecken – Hertha Berlin",
       "dateLabel": "22 August",
       "timeLabel": "14:30",
@@ -35355,7 +35558,7 @@
       "headToHead": null
     },
     {
-      "id": 301,
+      "id": 298,
       "title": "Duisburg – Elversberg",
       "dateLabel": "22 August",
       "timeLabel": "14:30",
@@ -35499,7 +35702,7 @@
       }
     },
     {
-      "id": 302,
+      "id": 299,
       "title": "Erzgebirge Aue – Hoffenheim",
       "dateLabel": "22 August",
       "timeLabel": "14:30",
@@ -35529,7 +35732,7 @@
       "headToHead": null
     },
     {
-      "id": 303,
+      "id": 300,
       "title": "Lueneburg – Werder Bremen",
       "dateLabel": "22 August",
       "timeLabel": "14:30",
@@ -35559,7 +35762,7 @@
       "headToHead": null
     },
     {
-      "id": 304,
+      "id": 301,
       "title": "Viktoria Cologne – Nuremberg",
       "dateLabel": "22 August",
       "timeLabel": "14:30",
@@ -35589,7 +35792,7 @@
       "headToHead": null
     },
     {
-      "id": 305,
+      "id": 302,
       "title": "Hemelingen – Hanover 96",
       "dateLabel": "22 August",
       "timeLabel": "14:30",
@@ -35619,7 +35822,7 @@
       "headToHead": null
     },
     {
-      "id": 306,
+      "id": 303,
       "title": "Simulcast",
       "dateLabel": "22 August",
       "timeLabel": "14:30",
@@ -35649,7 +35852,7 @@
       "headToHead": null
     },
     {
-      "id": 307,
+      "id": 304,
       "title": "Vasas – Puskas",
       "dateLabel": "22 August",
       "timeLabel": "14:30",
@@ -35802,7 +36005,7 @@
       }
     },
     {
-      "id": 308,
+      "id": 305,
       "title": "Ogre United – Jelgava",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -35946,7 +36149,7 @@
       }
     },
     {
-      "id": 309,
+      "id": 306,
       "title": "St Johnstone – Celtic",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -36099,7 +36302,7 @@
       }
     },
     {
-      "id": 310,
+      "id": 307,
       "title": "Rangers – St Mirren",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -36252,7 +36455,7 @@
       }
     },
     {
-      "id": 311,
+      "id": 308,
       "title": "Motherwell – Aberdeen",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -36405,7 +36608,7 @@
       }
     },
     {
-      "id": 312,
+      "id": 309,
       "title": "Hibernian – Kilmarnock",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -36558,7 +36761,7 @@
       }
     },
     {
-      "id": 313,
+      "id": 310,
       "title": "Falkirk – Hearts",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -36711,7 +36914,7 @@
       }
     },
     {
-      "id": 314,
+      "id": 311,
       "title": "Raith Rovers – Ayr United",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -36864,7 +37067,7 @@
       }
     },
     {
-      "id": 315,
+      "id": 312,
       "title": "Queen`s Park – Stenhousemuir",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -36894,7 +37097,7 @@
       "headToHead": null
     },
     {
-      "id": 316,
+      "id": 313,
       "title": "Greenock Morton – Arbroath",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -37047,7 +37250,7 @@
       }
     },
     {
-      "id": 317,
+      "id": 314,
       "title": "Wycombe – Plymouth Argyle",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -37200,7 +37403,7 @@
       }
     },
     {
-      "id": 318,
+      "id": 315,
       "title": "Wigan Athletic – Leyton Orient",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -37353,7 +37556,7 @@
       }
     },
     {
-      "id": 319,
+      "id": 316,
       "title": "Livingston – Dunfermline",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -37506,7 +37709,7 @@
       }
     },
     {
-      "id": 320,
+      "id": 317,
       "title": "Stockport – Blackpool",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -37659,7 +37862,7 @@
       }
     },
     {
-      "id": 321,
+      "id": 318,
       "title": "Stevenage – Oxford Utd",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -37812,7 +38015,7 @@
       }
     },
     {
-      "id": 322,
+      "id": 319,
       "title": "Peterborough United – Mansfield Town",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -37965,7 +38168,7 @@
       }
     },
     {
-      "id": 323,
+      "id": 320,
       "title": "Milton Keynes – Huddersfield",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -37995,7 +38198,7 @@
       "headToHead": null
     },
     {
-      "id": 324,
+      "id": 321,
       "title": "Leicester City – Burton Albion",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -38139,7 +38342,7 @@
       }
     },
     {
-      "id": 325,
+      "id": 322,
       "title": "Bromley – Cambridge Utd",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -38292,7 +38495,7 @@
       }
     },
     {
-      "id": 326,
+      "id": 323,
       "title": "AFC Wimbledon – Reading",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -38445,7 +38648,7 @@
       }
     },
     {
-      "id": 327,
+      "id": 324,
       "title": "Swindon – Cheltenham Town",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -38598,7 +38801,7 @@
       }
     },
     {
-      "id": 328,
+      "id": 325,
       "title": "Shrewsbury Town – Barnet",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -38742,7 +38945,7 @@
       }
     },
     {
-      "id": 329,
+      "id": 326,
       "title": "Rotherham Utd – York City",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -38772,7 +38975,7 @@
       "headToHead": null
     },
     {
-      "id": 330,
+      "id": 327,
       "title": "Central Espanol – Juventud Las Piedras",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -38925,7 +39128,7 @@
       }
     },
     {
-      "id": 331,
+      "id": 328,
       "title": "Rochdale – Crawley Town",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -39078,7 +39281,7 @@
       }
     },
     {
-      "id": 332,
+      "id": 329,
       "title": "Port Vale – Tranmere Rovers",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -39231,7 +39434,7 @@
       }
     },
     {
-      "id": 333,
+      "id": 330,
       "title": "Fleetwood Town – Gillingham",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -39384,7 +39587,7 @@
       }
     },
     {
-      "id": 334,
+      "id": 331,
       "title": "Exeter City – Accrington Stanley",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -39528,7 +39731,7 @@
       }
     },
     {
-      "id": 335,
+      "id": 332,
       "title": "Crewe Alexandra – Northampton Town",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -39663,7 +39866,7 @@
       }
     },
     {
-      "id": 336,
+      "id": 333,
       "title": "Colchester Utd – Oldham Athletic",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -39816,7 +40019,7 @@
       }
     },
     {
-      "id": 337,
+      "id": 334,
       "title": "Nottingham Forest – Leeds Utd",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -39969,7 +40172,7 @@
       }
     },
     {
-      "id": 338,
+      "id": 335,
       "title": "Ipswich Town – Sunderland",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -40122,7 +40325,7 @@
       }
     },
     {
-      "id": 339,
+      "id": 336,
       "title": "Everton – Crystal Palace",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -40275,7 +40478,7 @@
       }
     },
     {
-      "id": 340,
+      "id": 337,
       "title": "Kairat – Irtysh",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -40410,7 +40613,7 @@
       }
     },
     {
-      "id": 341,
+      "id": 338,
       "title": "Simulcast",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -40440,7 +40643,7 @@
       "headToHead": null
     },
     {
-      "id": 342,
+      "id": 339,
       "title": "Southampton – Stoke City",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -40593,7 +40796,7 @@
       }
     },
     {
-      "id": 343,
+      "id": 340,
       "title": "Queens Park Rangers – Bolton Wanderers",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -40623,7 +40826,7 @@
       "headToHead": null
     },
     {
-      "id": 344,
+      "id": 341,
       "title": "Preston – Wolverhampton",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -40758,7 +40961,7 @@
       }
     },
     {
-      "id": 345,
+      "id": 342,
       "title": "Derby County – Cardiff City",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -40911,7 +41114,7 @@
       }
     },
     {
-      "id": 346,
+      "id": 343,
       "title": "Blackburn – Middlesbrough",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -41064,7 +41267,7 @@
       }
     },
     {
-      "id": 347,
+      "id": 344,
       "title": "Wrexham – Watford",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -41208,7 +41411,7 @@
       }
     },
     {
-      "id": 348,
+      "id": 345,
       "title": "West Ham United – Charlton Athletic",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -41238,7 +41441,7 @@
       "headToHead": null
     },
     {
-      "id": 349,
+      "id": 346,
       "title": "Swansea City – Sheffield Utd",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -41391,7 +41594,7 @@
       }
     },
     {
-      "id": 350,
+      "id": 347,
       "title": "Sandnes Ulf – Bryne",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -41544,7 +41747,7 @@
       }
     },
     {
-      "id": 351,
+      "id": 348,
       "title": "Shirak – Urartu",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -41697,7 +41900,7 @@
       }
     },
     {
-      "id": 352,
+      "id": 349,
       "title": "Tammeka – Kuressaare",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -41850,7 +42053,7 @@
       }
     },
     {
-      "id": 353,
+      "id": 350,
       "title": "Zulte Waregem – Beveren",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -42003,7 +42206,7 @@
       }
     },
     {
-      "id": 354,
+      "id": 351,
       "title": "Club NXT – Seraing",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -42156,7 +42359,7 @@
       }
     },
     {
-      "id": 355,
+      "id": 352,
       "title": "Dender EH – Beerschot",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -42309,7 +42512,7 @@
       }
     },
     {
-      "id": 356,
+      "id": 353,
       "title": "Shabab Al Ahli – Al Dhafra",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -42462,7 +42665,7 @@
       }
     },
     {
-      "id": 357,
+      "id": 354,
       "title": "Ajman – Hatta",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -42615,7 +42818,7 @@
       }
     },
     {
-      "id": 358,
+      "id": 355,
       "title": "Ferencvaros – Honved",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -42768,7 +42971,7 @@
       }
     },
     {
-      "id": 359,
+      "id": 356,
       "title": "Ilves – VPS",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -42921,7 +43124,7 @@
       }
     },
     {
-      "id": 360,
+      "id": 357,
       "title": "Jaro – Oulu",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -43074,7 +43277,7 @@
       }
     },
     {
-      "id": 361,
+      "id": 358,
       "title": "Asyut Petroleum – Petrojet",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -43209,7 +43412,7 @@
       }
     },
     {
-      "id": 362,
+      "id": 359,
       "title": "El Geish – Al Mokawloon",
       "dateLabel": "22 August",
       "timeLabel": "15:00",
@@ -43362,7 +43565,7 @@
       }
     },
     {
-      "id": 363,
+      "id": 360,
       "title": "Al-Duhail – Al-Sailiya",
       "dateLabel": "22 August",
       "timeLabel": "15:15",
@@ -43515,7 +43718,7 @@
       }
     },
     {
-      "id": 364,
+      "id": 361,
       "title": "Fortuna Sittard – AZ",
       "dateLabel": "22 August",
       "timeLabel": "15:30",
@@ -43668,7 +43871,7 @@
       }
     },
     {
-      "id": 365,
+      "id": 362,
       "title": "Gabala – Shafa",
       "dateLabel": "22 August",
       "timeLabel": "15:30",
@@ -43698,7 +43901,7 @@
       "headToHead": null
     },
     {
-      "id": 366,
+      "id": 363,
       "title": "NAC Breda – Jong Ajax",
       "dateLabel": "22 August",
       "timeLabel": "15:30",
@@ -43851,7 +44054,7 @@
       }
     },
     {
-      "id": 367,
+      "id": 364,
       "title": "Maritimo – Viseu",
       "dateLabel": "22 August",
       "timeLabel": "15:30",
@@ -44004,7 +44207,7 @@
       }
     },
     {
-      "id": 368,
+      "id": 365,
       "title": "TJ Unie Hlubina – Frydek-Mistek",
       "dateLabel": "22 August",
       "timeLabel": "15:30",
@@ -44157,7 +44360,7 @@
       }
     },
     {
-      "id": 369,
+      "id": 366,
       "title": "Vitkovice – SFK Vrchovina",
       "dateLabel": "22 August",
       "timeLabel": "15:30",
@@ -44310,7 +44513,7 @@
       }
     },
     {
-      "id": 370,
+      "id": 367,
       "title": "Naftan – Neman",
       "dateLabel": "22 August",
       "timeLabel": "15:45",
@@ -44463,7 +44666,7 @@
       }
     },
     {
-      "id": 371,
+      "id": 368,
       "title": "Real Oviedo – Leganes",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -44616,7 +44819,7 @@
       }
     },
     {
-      "id": 372,
+      "id": 369,
       "title": "Akhmat – Rostov",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -44769,7 +44972,7 @@
       }
     },
     {
-      "id": 373,
+      "id": 370,
       "title": "Balti – Zimbru",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -44922,7 +45125,7 @@
       }
     },
     {
-      "id": 374,
+      "id": 371,
       "title": "SCR Altach – Hartberg",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -45075,7 +45278,7 @@
       }
     },
     {
-      "id": 375,
+      "id": 372,
       "title": "Sabah – Sumqayit",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -45228,7 +45431,7 @@
       }
     },
     {
-      "id": 376,
+      "id": 373,
       "title": "Qarabag – Kapaz",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -45381,7 +45584,7 @@
       }
     },
     {
-      "id": 377,
+      "id": 374,
       "title": "Sokol Brozany – Pardubice B",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -45534,7 +45737,7 @@
       }
     },
     {
-      "id": 378,
+      "id": 375,
       "title": "Spaeri – Samgurali",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -45678,7 +45881,7 @@
       }
     },
     {
-      "id": 379,
+      "id": 376,
       "title": "Dila – Torpedo Kt",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -45831,7 +46034,7 @@
       }
     },
     {
-      "id": 380,
+      "id": 377,
       "title": "Zlin – Slovan Liberec",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -45984,7 +46187,7 @@
       }
     },
     {
-      "id": 381,
+      "id": 378,
       "title": "Mlada-Boleslav – Slovacko",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -46137,7 +46340,7 @@
       }
     },
     {
-      "id": 382,
+      "id": 379,
       "title": "Karvina – Sparta Prague",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -46290,7 +46493,7 @@
       }
     },
     {
-      "id": 383,
+      "id": 380,
       "title": "Artis Brno – Sparta Prague",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -46443,7 +46646,7 @@
       }
     },
     {
-      "id": 384,
+      "id": 381,
       "title": "Kraluv Dvur – Pisek",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -46596,7 +46799,7 @@
       }
     },
     {
-      "id": 385,
+      "id": 382,
       "title": "Athletic Bilbao – Sevilla",
       "dateLabel": "22 August",
       "timeLabel": "16:00",
@@ -46749,7 +46952,7 @@
       }
     },
     {
-      "id": 386,
+      "id": 383,
       "title": "Lens – Auxerre",
       "dateLabel": "22 August",
       "timeLabel": "16:15",
@@ -46902,7 +47105,7 @@
       }
     },
     {
-      "id": 387,
+      "id": 384,
       "title": "Bregenz – Sturm Graz II",
       "dateLabel": "22 August",
       "timeLabel": "16:30",
@@ -47055,7 +47258,7 @@
       }
     },
     {
-      "id": 388,
+      "id": 385,
       "title": "UTA Arad – Corvinul",
       "dateLabel": "22 August",
       "timeLabel": "16:30",
@@ -47199,7 +47402,7 @@
       }
     },
     {
-      "id": 389,
+      "id": 386,
       "title": "Piast Gliwice – Legia Warsaw",
       "dateLabel": "22 August",
       "timeLabel": "16:30",
@@ -47352,7 +47555,7 @@
       }
     },
     {
-      "id": 390,
+      "id": 387,
       "title": "Mura – Koper",
       "dateLabel": "22 August",
       "timeLabel": "16:30",
@@ -47505,7 +47708,7 @@
       }
     },
     {
-      "id": 391,
+      "id": 388,
       "title": "MTK – Nyíregyhaza Spartacus",
       "dateLabel": "22 August",
       "timeLabel": "16:30",
@@ -47658,7 +47861,7 @@
       }
     },
     {
-      "id": 392,
+      "id": 389,
       "title": "Al-Fateh – Al-Ettifaq",
       "dateLabel": "22 August",
       "timeLabel": "16:45",
@@ -47811,7 +48014,7 @@
       }
     },
     {
-      "id": 393,
+      "id": 390,
       "title": "Sport Huancayo – Deportivo Moquegua",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -47946,7 +48149,7 @@
       }
     },
     {
-      "id": 394,
+      "id": 391,
       "title": "Simulcast",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -47976,7 +48179,7 @@
       "headToHead": null
     },
     {
-      "id": 395,
+      "id": 392,
       "title": "Ospitaletto – Lumezzane",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -48120,7 +48323,7 @@
       }
     },
     {
-      "id": 396,
+      "id": 393,
       "title": "Juventus NG U-23 – Novara",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -48273,7 +48476,7 @@
       }
     },
     {
-      "id": 397,
+      "id": 394,
       "title": "Cittadella – Pergolettese",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -48417,7 +48620,7 @@
       }
     },
     {
-      "id": 398,
+      "id": 395,
       "title": "Umraniyespor – Esenler Erokspor",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -48570,7 +48773,7 @@
       }
     },
     {
-      "id": 399,
+      "id": 396,
       "title": "Igdir – Kayserispor",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -48723,7 +48926,7 @@
       }
     },
     {
-      "id": 400,
+      "id": 397,
       "title": "Corum – Kasimpasa",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -48753,7 +48956,7 @@
       "headToHead": null
     },
     {
-      "id": 401,
+      "id": 398,
       "title": "Rizespor – Samsunspor",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -48906,7 +49109,7 @@
       }
     },
     {
-      "id": 402,
+      "id": 399,
       "title": "1860 Munich – Holstein Kiel",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -48936,7 +49139,7 @@
       "headToHead": null
     },
     {
-      "id": 403,
+      "id": 400,
       "title": "Grossaspach – Arminia",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -48966,7 +49169,7 @@
       "headToHead": null
     },
     {
-      "id": 404,
+      "id": 401,
       "title": "Eintracht Trier – RB Leipzig",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -48996,7 +49199,7 @@
       "headToHead": null
     },
     {
-      "id": 405,
+      "id": 402,
       "title": "Lions Gibraltar – Magpies",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -49149,7 +49352,7 @@
       }
     },
     {
-      "id": 406,
+      "id": 403,
       "title": "Lusitano Ginasio – Mafra",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -49293,7 +49496,7 @@
       }
     },
     {
-      "id": 407,
+      "id": 404,
       "title": "Trofense – Sao Joao Ver",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -49446,7 +49649,7 @@
       }
     },
     {
-      "id": 408,
+      "id": 405,
       "title": "Harju – Nomme Kalju",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -49599,7 +49802,7 @@
       }
     },
     {
-      "id": 409,
+      "id": 406,
       "title": "Zemplin Michalovce – Skalica",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -49752,7 +49955,7 @@
       }
     },
     {
-      "id": 410,
+      "id": 407,
       "title": "Dunajska Streda – Podbrezova",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -49905,7 +50108,7 @@
       }
     },
     {
-      "id": 411,
+      "id": 408,
       "title": "Ruzomberok – Banska Bystrica",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -50058,7 +50261,7 @@
       }
     },
     {
-      "id": 412,
+      "id": 409,
       "title": "Ludogorets – Slavia Sofia",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -50211,7 +50414,7 @@
       }
     },
     {
-      "id": 413,
+      "id": 410,
       "title": "Luzern – Lausanne",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -50364,7 +50567,7 @@
       }
     },
     {
-      "id": 414,
+      "id": 411,
       "title": "Wil – Kriens",
       "dateLabel": "22 August",
       "timeLabel": "17:00",
@@ -50517,7 +50720,7 @@
       }
     },
     {
-      "id": 415,
+      "id": 412,
       "title": "Al-Kholood – Al-Taawoun",
       "dateLabel": "22 August",
       "timeLabel": "17:10",
@@ -50670,7 +50873,7 @@
       }
     },
     {
-      "id": 416,
+      "id": 413,
       "title": "Charleroi – Mechelen",
       "dateLabel": "22 August",
       "timeLabel": "17:15",
@@ -50823,7 +51026,7 @@
       }
     },
     {
-      "id": 417,
+      "id": 414,
       "title": "Udinese – Como",
       "dateLabel": "22 August",
       "timeLabel": "17:30",
@@ -50976,7 +51179,7 @@
       }
     },
     {
-      "id": 418,
+      "id": 415,
       "title": "Inter – Monza",
       "dateLabel": "22 August",
       "timeLabel": "17:30",
@@ -51129,7 +51332,7 @@
       }
     },
     {
-      "id": 419,
+      "id": 416,
       "title": "Slaven – Gorica",
       "dateLabel": "22 August",
       "timeLabel": "17:30",
@@ -51282,7 +51485,7 @@
       }
     },
     {
-      "id": 420,
+      "id": 417,
       "title": "Brentford – Tottenham",
       "dateLabel": "22 August",
       "timeLabel": "17:30",
@@ -51435,7 +51638,7 @@
       }
     },
     {
-      "id": 421,
+      "id": 418,
       "title": "Macva – Radnicki Nis",
       "dateLabel": "22 August",
       "timeLabel": "17:30",
@@ -51579,7 +51782,7 @@
       }
     },
     {
-      "id": 422,
+      "id": 419,
       "title": "Birkirkara – Hamrun Spartans",
       "dateLabel": "22 August",
       "timeLabel": "17:30",
@@ -51732,7 +51935,7 @@
       }
     },
     {
-      "id": 423,
+      "id": 420,
       "title": "AB Gladsaxe – Hvidovre",
       "dateLabel": "22 August",
       "timeLabel": "17:30",
@@ -51876,7 +52079,7 @@
       }
     },
     {
-      "id": 424,
+      "id": 421,
       "title": "Al-Sadd – Al-Ahli Doha",
       "dateLabel": "22 August",
       "timeLabel": "17:30",
@@ -52029,7 +52232,7 @@
       }
     },
     {
-      "id": 425,
+      "id": 422,
       "title": "Al Ain – Khor Fakkan",
       "dateLabel": "22 August",
       "timeLabel": "17:35",
@@ -52182,7 +52385,7 @@
       }
     },
     {
-      "id": 426,
+      "id": 423,
       "title": "Sparta Rotterdam – Utrecht",
       "dateLabel": "22 August",
       "timeLabel": "17:45",
@@ -52335,7 +52538,7 @@
       }
     },
     {
-      "id": 427,
+      "id": 424,
       "title": "Zira – Imisli",
       "dateLabel": "22 August",
       "timeLabel": "17:45",
@@ -52488,7 +52691,7 @@
       }
     },
     {
-      "id": 428,
+      "id": 425,
       "title": "Dundee United – Dundee",
       "dateLabel": "22 August",
       "timeLabel": "17:45",
@@ -52641,7 +52844,7 @@
       }
     },
     {
-      "id": 429,
+      "id": 426,
       "title": "Ceuta – Las Palmas",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -52785,7 +52988,7 @@
       }
     },
     {
-      "id": 430,
+      "id": 427,
       "title": "Albacete – Real Sociedad B",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -52929,7 +53132,7 @@
       }
     },
     {
-      "id": 431,
+      "id": 428,
       "title": "Milsami – Petrocub",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -53082,7 +53285,7 @@
       }
     },
     {
-      "id": 432,
+      "id": 429,
       "title": "Suedtirol – Virtus Entella",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -53226,7 +53429,7 @@
       }
     },
     {
-      "id": 433,
+      "id": 430,
       "title": "Carrarese – Mantova",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -53379,7 +53582,7 @@
       }
     },
     {
-      "id": 434,
+      "id": 431,
       "title": "Covilha – Atletico",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -53532,7 +53735,7 @@
       }
     },
     {
-      "id": 435,
+      "id": 432,
       "title": "Maccabi Petah Tikva – Kiryat Shmona",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -53685,7 +53888,7 @@
       }
     },
     {
-      "id": 436,
+      "id": 433,
       "title": "Ironi Tiberias – Hapoel Petah Tikva",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -53838,7 +54041,7 @@
       }
     },
     {
-      "id": 437,
+      "id": 434,
       "title": "Kalamata – Aris",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -53868,7 +54071,7 @@
       "headToHead": null
     },
     {
-      "id": 438,
+      "id": 435,
       "title": "AEK – Iraklis Thessaloniki",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -53898,7 +54101,7 @@
       "headToHead": null
     },
     {
-      "id": 439,
+      "id": 436,
       "title": "Estoril Praia – Rio Ave",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -54051,7 +54254,7 @@
       }
     },
     {
-      "id": 440,
+      "id": 437,
       "title": "Radnicki 1923 – Novi Beograd",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -54204,7 +54407,7 @@
       }
     },
     {
-      "id": 441,
+      "id": 438,
       "title": "Rustavi – Gagra",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -54348,7 +54551,7 @@
       }
     },
     {
-      "id": 442,
+      "id": 439,
       "title": "Lusitania – Torreense",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -54501,7 +54704,7 @@
       }
     },
     {
-      "id": 443,
+      "id": 440,
       "title": "Al Masry – Smouha",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -54654,7 +54857,7 @@
       }
     },
     {
-      "id": 444,
+      "id": 441,
       "title": "Ghazl El Mehalla – Pyramids",
       "dateLabel": "22 August",
       "timeLabel": "18:00",
@@ -54807,7 +55010,7 @@
       }
     },
     {
-      "id": 445,
+      "id": 442,
       "title": "CSKA – Lokomotiv M",
       "dateLabel": "22 August",
       "timeLabel": "18:15",
@@ -54960,7 +55163,7 @@
       }
     },
     {
-      "id": 446,
+      "id": 443,
       "title": "Sturm – Austria Lustenau",
       "dateLabel": "22 August",
       "timeLabel": "18:30",
@@ -55113,7 +55316,7 @@
       }
     },
     {
-      "id": 447,
+      "id": 444,
       "title": "Maccabi Haifa – Hapoel Ramat Gan",
       "dateLabel": "22 August",
       "timeLabel": "18:30",
@@ -55143,7 +55346,7 @@
       "headToHead": null
     },
     {
-      "id": 448,
+      "id": 445,
       "title": "Valencia – Celta",
       "dateLabel": "22 August",
       "timeLabel": "18:30",
@@ -55296,7 +55499,7 @@
       }
     },
     {
-      "id": 449,
+      "id": 446,
       "title": "Saint-Etienne – Grenoble",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -55449,7 +55652,7 @@
       }
     },
     {
-      "id": 450,
+      "id": 447,
       "title": "NEC – Excelsior",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -55602,7 +55805,7 @@
       }
     },
     {
-      "id": 451,
+      "id": 448,
       "title": "Cerro Largo – Defensor Sporting",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -55755,7 +55958,7 @@
       }
     },
     {
-      "id": 452,
+      "id": 449,
       "title": "Al-Khaleej – Al-Shabab Riyadh",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -55908,7 +56111,7 @@
       }
     },
     {
-      "id": 453,
+      "id": 450,
       "title": "Jezero – Sutjeska",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -56061,7 +56264,7 @@
       }
     },
     {
-      "id": 454,
+      "id": 451,
       "title": "Al Ahli Jeddah – Abha",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -56214,7 +56417,7 @@
       }
     },
     {
-      "id": 455,
+      "id": 452,
       "title": "Mladost DG – Petrovac",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -56367,7 +56570,7 @@
       }
     },
     {
-      "id": 456,
+      "id": 453,
       "title": "Defensores Unidos – San Martin Burzaco",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -56502,7 +56705,7 @@
       }
     },
     {
-      "id": 457,
+      "id": 454,
       "title": "HFX Wanderers – Vancouver Langley",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -56655,7 +56858,7 @@
       }
     },
     {
-      "id": 458,
+      "id": 455,
       "title": "Argentino de Merlo – Arsenal de Sarandi",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -56790,7 +56993,7 @@
       }
     },
     {
-      "id": 459,
+      "id": 456,
       "title": "Talleres Remedios – Excursionistas",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -56925,7 +57128,7 @@
       }
     },
     {
-      "id": 460,
+      "id": 457,
       "title": "Ituzaingo – Deportivo Merlo",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -57078,7 +57281,7 @@
       }
     },
     {
-      "id": 461,
+      "id": 458,
       "title": "Flandria – Deportivo Liniers",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -57231,7 +57434,7 @@
       }
     },
     {
-      "id": 462,
+      "id": 459,
       "title": "Slavia Prague – Bohemians",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -57384,7 +57587,7 @@
       }
     },
     {
-      "id": 463,
+      "id": 460,
       "title": "Lierse – Patro Eisden",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -57537,7 +57740,7 @@
       }
     },
     {
-      "id": 464,
+      "id": 461,
       "title": "Tristan Suarez – Agropecuario",
       "dateLabel": "22 August",
       "timeLabel": "19:00",
@@ -57690,7 +57893,7 @@
       }
     },
     {
-      "id": 465,
+      "id": 462,
       "title": "Cajamarca – Comerciantes Unidos",
       "dateLabel": "22 August",
       "timeLabel": "19:15",
@@ -57843,7 +58046,7 @@
       }
     },
     {
-      "id": 466,
+      "id": 463,
       "title": "Slask – Widzew Lodz",
       "dateLabel": "22 August",
       "timeLabel": "19:15",
@@ -57996,7 +58199,7 @@
       }
     },
     {
-      "id": 467,
+      "id": 464,
       "title": "Celje – Radomlje",
       "dateLabel": "22 August",
       "timeLabel": "19:15",
@@ -58149,7 +58352,7 @@
       }
     },
     {
-      "id": 468,
+      "id": 465,
       "title": "Levski – Spartak Varna",
       "dateLabel": "22 August",
       "timeLabel": "19:15",
@@ -58302,7 +58505,7 @@
       }
     },
     {
-      "id": 469,
+      "id": 466,
       "title": "Patronato – Gimnasia de Jujuy",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -58455,7 +58658,7 @@
       }
     },
     {
-      "id": 470,
+      "id": 467,
       "title": "Dinamo Bucharest – U Cluj",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -58608,7 +58811,7 @@
       }
     },
     {
-      "id": 471,
+      "id": 468,
       "title": "Antalyaspor – Pendikspor",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -58761,7 +58964,7 @@
       }
     },
     {
-      "id": 472,
+      "id": 469,
       "title": "Bodrumspor – Muglaspor",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -58896,7 +59099,7 @@
       }
     },
     {
-      "id": 473,
+      "id": 470,
       "title": "Fenerbahce – Konyaspor",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -59049,7 +59252,7 @@
       }
     },
     {
-      "id": 474,
+      "id": 471,
       "title": "Dortmund – Bayern Munich",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -59202,7 +59405,7 @@
       }
     },
     {
-      "id": 475,
+      "id": 472,
       "title": "Olympiacos – Atromitos",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -59355,7 +59558,7 @@
       }
     },
     {
-      "id": 476,
+      "id": 473,
       "title": "Longford Town – Bray Wanderers",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -59508,7 +59711,7 @@
       }
     },
     {
-      "id": 477,
+      "id": 474,
       "title": "Deportivo Armenio – Real Pilar",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -59661,7 +59864,7 @@
       }
     },
     {
-      "id": 478,
+      "id": 475,
       "title": "Kosice – Slovan Bratislava",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -59814,7 +60017,7 @@
       }
     },
     {
-      "id": 479,
+      "id": 476,
       "title": "Defensores de Belgrano – Almirante Brown",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -59967,7 +60170,7 @@
       }
     },
     {
-      "id": 480,
+      "id": 477,
       "title": "Nueva Chicago – Atlanta",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -60120,7 +60323,7 @@
       }
     },
     {
-      "id": 481,
+      "id": 478,
       "title": "Zurich – Basel",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -60273,7 +60476,7 @@
       }
     },
     {
-      "id": 482,
+      "id": 479,
       "title": "Almagro – Colegiales",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -60426,7 +60629,7 @@
       }
     },
     {
-      "id": 483,
+      "id": 480,
       "title": "San Miguel – Colon Santa Fe",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -60570,7 +60773,7 @@
       }
     },
     {
-      "id": 484,
+      "id": 481,
       "title": "San Martin SJ – Gimnasia y Tiro",
       "dateLabel": "22 August",
       "timeLabel": "19:30",
@@ -60723,7 +60926,7 @@
       }
     },
     {
-      "id": 485,
+      "id": 482,
       "title": "Velez – Sloga Doboj",
       "dateLabel": "22 August",
       "timeLabel": "19:45",
@@ -60876,7 +61079,7 @@
       }
     },
     {
-      "id": 486,
+      "id": 483,
       "title": "Siroki Brijeg – Radnik Bijeljina",
       "dateLabel": "22 August",
       "timeLabel": "19:45",
@@ -61029,7 +61232,7 @@
       }
     },
     {
-      "id": 487,
+      "id": 484,
       "title": "Simulcast",
       "dateLabel": "22 August",
       "timeLabel": "19:45",
@@ -61059,7 +61262,7 @@
       "headToHead": null
     },
     {
-      "id": 488,
+      "id": 485,
       "title": "Parma – Cagliari",
       "dateLabel": "22 August",
       "timeLabel": "19:45",
@@ -61212,7 +61415,7 @@
       }
     },
     {
-      "id": 489,
+      "id": 486,
       "title": "Genoa – Napoli",
       "dateLabel": "22 August",
       "timeLabel": "19:45",
@@ -61365,7 +61568,7 @@
       }
     },
     {
-      "id": 490,
+      "id": 487,
       "title": "Antwerp – Genk",
       "dateLabel": "22 August",
       "timeLabel": "19:45",
@@ -61518,7 +61721,7 @@
       }
     },
     {
-      "id": 491,
+      "id": 488,
       "title": "Troyes – Paris",
       "dateLabel": "22 August",
       "timeLabel": "19:45",
@@ -61671,7 +61874,7 @@
       }
     },
     {
-      "id": 492,
+      "id": 489,
       "title": "Toulouse – Lyon",
       "dateLabel": "22 August",
       "timeLabel": "19:45",
@@ -61824,7 +62027,7 @@
       }
     },
     {
-      "id": 493,
+      "id": 490,
       "title": "Nice – Lorient",
       "dateLabel": "22 August",
       "timeLabel": "19:45",
@@ -61977,7 +62180,7 @@
       }
     },
     {
-      "id": 494,
+      "id": 491,
       "title": "Le Mans – Brest",
       "dateLabel": "22 August",
       "timeLabel": "19:45",
@@ -62007,7 +62210,7 @@
       "headToHead": null
     },
     {
-      "id": 495,
+      "id": 492,
       "title": "Chaco For Ever – Los Andes",
       "dateLabel": "22 August",
       "timeLabel": "20:00",
@@ -62142,7 +62345,7 @@
       }
     },
     {
-      "id": 496,
+      "id": 493,
       "title": "ABB – GV San Jose",
       "dateLabel": "22 August",
       "timeLabel": "20:00",
@@ -62286,7 +62489,7 @@
       }
     },
     {
-      "id": 497,
+      "id": 494,
       "title": "Empoli – Cremonese",
       "dateLabel": "22 August",
       "timeLabel": "20:00",
@@ -62430,7 +62633,7 @@
       }
     },
     {
-      "id": 498,
+      "id": 495,
       "title": "Benevento – Modena",
       "dateLabel": "22 August",
       "timeLabel": "20:00",
@@ -62574,7 +62777,7 @@
       }
     },
     {
-      "id": 499,
+      "id": 496,
       "title": "Heerenveen – PEC Zwolle",
       "dateLabel": "22 August",
       "timeLabel": "20:00",
@@ -62727,7 +62930,7 @@
       }
     },
     {
-      "id": 500,
+      "id": 497,
       "title": "Avellino – Arezzo",
       "dateLabel": "22 August",
       "timeLabel": "20:00",
@@ -62755,7 +62958,448 @@
         }
       },
       "headToHead": null
+    },
+    {
+      "id": 498,
+      "title": "Gimnasia y Esgrima LP – Gimnasia Mendoza",
+      "dateLabel": "22 August",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Argentina. Liga Profesional",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/ar.gif",
+      "iconAlt": "Argentina. Liga Profesional",
+      "sectionLabel": "22 August",
+      "isTopMatch": false,
+      "rawDescription": "22 August at 20:00\n(Argentina. Liga Profesional)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Gimnasia y Esgrima LP",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/622.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Gimnasia Mendoza",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/10598.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700009574/700009653/1_d558c/",
+        "matches": [
+          {
+            "date": "21/02",
+            "competition": "Argentina. Liga Profesional",
+            "homeTeam": "Gimnasia Mendoza",
+            "awayTeam": "Gimnasia y Esgrima LP",
+            "score": "0:1",
+            "result": "W",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Gimnasia y Esgrima LP",
+        "awayTeam": "Gimnasia Mendoza",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "18/08",
+                "competition": "Cup",
+                "opponent": "Deportivo Riestra",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "15/08",
+                "competition": "Liga Profesional",
+                "opponent": "Estudiantes LP",
+                "score": "0:4",
+                "result": "L"
+              },
+              {
+                "date": "09/08",
+                "competition": "Liga Profesional",
+                "opponent": "Barracas Central",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "02/08",
+                "competition": "Liga Profesional",
+                "opponent": "Aldosivi",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "29/07",
+                "competition": "Liga Profesional",
+                "opponent": "River Plate",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "18/08",
+                "competition": "Cup",
+                "opponent": "Deportivo Riestra",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "15/08",
+                "competition": "Liga Profesional",
+                "opponent": "Estudiantes LP",
+                "score": "0:4",
+                "result": "L"
+              },
+              {
+                "date": "09/08",
+                "competition": "Liga Profesional",
+                "opponent": "Gimnasia y Esgrima LP",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "02/08",
+                "competition": "Liga Profesional",
+                "opponent": "Aldosivi",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "29/07",
+                "competition": "Liga Profesional",
+                "opponent": "Gimnasia y Esgrima LP",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 499,
+      "title": "Atletico Tucuman – Instituto",
+      "dateLabel": "22 August",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Argentina. Liga Profesional",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/ar.gif",
+      "iconAlt": "Argentina. Liga Profesional",
+      "sectionLabel": "22 August",
+      "isTopMatch": false,
+      "rawDescription": "22 August at 20:00\n(Argentina. Liga Profesional)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Atletico Tucuman",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/777.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Instituto",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/10169.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700009562/700009648/1_1d6be/",
+        "matches": [
+          {
+            "date": "21/02",
+            "competition": "Argentina. Liga Profesional",
+            "homeTeam": "Instituto",
+            "awayTeam": "Atletico Tucuman",
+            "score": "2:1",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "12/10",
+            "competition": "Argentina. Liga Profesional",
+            "homeTeam": "Instituto",
+            "awayTeam": "Atletico Tucuman",
+            "score": "2:0",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "08/04",
+            "competition": "Argentina. Liga Profesional",
+            "homeTeam": "Atletico Tucuman",
+            "awayTeam": "Instituto",
+            "score": "3:2",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Atletico Tucuman",
+        "awayTeam": "Instituto",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "17/08",
+                "competition": "Liga Profesional",
+                "opponent": "Rio Cuarto",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "12/08",
+                "competition": "Cup",
+                "opponent": "Independiente",
+                "score": "4:0",
+                "result": "W"
+              },
+              {
+                "date": "08/08",
+                "competition": "Liga Profesional",
+                "opponent": "Sarmiento",
+                "score": "1:2",
+                "result": "L"
+              },
+              {
+                "date": "04/08",
+                "competition": "Liga Profesional",
+                "opponent": "Huracan",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "31/07",
+                "competition": "Liga Profesional",
+                "opponent": "Central Cordoba",
+                "score": "2:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "17/08",
+                "competition": "Liga Profesional",
+                "opponent": "Rio Cuarto",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "12/08",
+                "competition": "Cup",
+                "opponent": "Atletico Tucuman",
+                "score": "0:4",
+                "result": "L"
+              },
+              {
+                "date": "08/08",
+                "competition": "Liga Profesional",
+                "opponent": "Atletico Tucuman",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "04/08",
+                "competition": "Liga Profesional",
+                "opponent": "Huracan",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "31/07",
+                "competition": "Liga Profesional",
+                "opponent": "Central Cordoba",
+                "score": "2:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 500,
+      "title": "Lecco – Arzignano Valchiampo",
+      "dateLabel": "22 August",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Italy. Serie C. Group A",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/it.gif",
+      "iconAlt": "Italy. Serie C. Group A",
+      "sectionLabel": "22 August",
+      "isTopMatch": false,
+      "rawDescription": "22 August at 20:00\n(Italy. Serie C. Group A)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Lecco",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/8696.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Arzignano Valchiampo",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/10204.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700023848/700024695/1_6c87f/",
+        "matches": [
+          {
+            "date": "07/03",
+            "competition": "Italy. Serie C. Group A",
+            "homeTeam": "Arzignano Valchiampo",
+            "awayTeam": "Lecco",
+            "score": "0:1",
+            "result": "W",
+            "winner": "away"
+          },
+          {
+            "date": "02/11",
+            "competition": "Italy. Serie C. Group A",
+            "homeTeam": "Lecco",
+            "awayTeam": "Arzignano Valchiampo",
+            "score": "5:1",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "01/02",
+            "competition": "Italy. Serie C. Group A",
+            "homeTeam": "Arzignano Valchiampo",
+            "awayTeam": "Lecco",
+            "score": "2:0",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Lecco",
+        "awayTeam": "Arzignano Valchiampo",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "16/08",
+                "competition": "Cup. Serie C",
+                "opponent": "Desenzano Calvina",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "02/08",
+                "competition": "Friendly Match",
+                "opponent": "Hellas Verona",
+                "score": "0:3",
+                "result": "L"
+              },
+              {
+                "date": "20/05",
+                "competition": "Serie C. Play-Off",
+                "opponent": "Catania",
+                "score": "3:3",
+                "result": "D"
+              },
+              {
+                "date": "13/05",
+                "competition": "Serie C. Play-Off",
+                "opponent": "Pianese",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "10/05",
+                "competition": "Serie C. Play-Off",
+                "opponent": "Pianese",
+                "score": "1:1",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 4,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "16/08",
+                "competition": "Cup. Serie C",
+                "opponent": "Lecco",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "02/08",
+                "competition": "Friendly Match",
+                "opponent": "Hellas Verona",
+                "score": "0:3",
+                "result": "L"
+              },
+              {
+                "date": "20/05",
+                "competition": "Serie C. Play-Off",
+                "opponent": "Catania",
+                "score": "3:3",
+                "result": "D"
+              },
+              {
+                "date": "13/05",
+                "competition": "Serie C. Play-Off",
+                "opponent": "Lecco",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "10/05",
+                "competition": "Serie C. Play-Off",
+                "opponent": "Pianese",
+                "score": "1:1",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 4,
+              "L": 1
+            }
+          }
+        }
+      }
     }
   ],
-  "enrichedAt": "2026-08-21T11:33:46.395Z"
+  "enrichedAt": "2026-08-21T12:24:04.687Z"
 }
