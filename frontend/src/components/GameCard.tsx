@@ -220,11 +220,17 @@ export const GameCard: React.FC<GameCardProps> = ({
           <div className="min-w-0 space-y-1">
             <div className="flex min-w-0 items-center gap-2">
               {renderTeamVisual(homeLogoUrl, resolvedHome)}
-              <h3 className={`truncate text-sm font-extrabold sm:text-base ${isDarkTheme ? "text-white" : "text-slate-950"}`}>{resolvedHome}</h3>
+              <div className="min-w-0">
+                <span className={`block text-[8px] font-bold uppercase tracking-[0.1em] ${isDarkTheme ? "text-slate-500" : "text-slate-400"}`}>Home</span>
+                <h3 className={`truncate text-sm font-extrabold sm:text-base ${isDarkTheme ? "text-white" : "text-slate-950"}`}>{resolvedHome}</h3>
+              </div>
             </div>
             {resolvedAway && <div className="flex min-w-0 items-center gap-2">
               {renderTeamVisual(awayLogoUrl, resolvedAway)}
-              <h3 className={`truncate text-sm font-extrabold sm:text-base ${isDarkTheme ? "text-white" : "text-slate-950"}`}>{resolvedAway}</h3>
+              <div className="min-w-0">
+                <span className={`block text-[8px] font-bold uppercase tracking-[0.1em] ${isDarkTheme ? "text-slate-500" : "text-slate-400"}`}>Away</span>
+                <h3 className={`truncate text-sm font-extrabold sm:text-base ${isDarkTheme ? "text-white" : "text-slate-950"}`}>{resolvedAway}</h3>
+              </div>
             </div>}
           </div>
         </div>
@@ -255,13 +261,16 @@ export const GameCard: React.FC<GameCardProps> = ({
           </div>}
           {visibleTab === "h2h" && h2hMatches.length > 0 && <div>
             <div className="mb-2 flex flex-wrap items-center gap-1.5">
-              <span className="inline-flex items-center justify-center bg-emerald-100 px-2 py-1 text-[10px] font-black text-emerald-700">Home wins {formSummary.W}</span>
+              <span className="inline-flex items-center justify-center bg-emerald-100 px-2 py-1 text-[10px] font-black text-emerald-700">{resolvedHome} wins {formSummary.W}</span>
               <span className="inline-flex items-center justify-center bg-slate-100 px-2 py-1 text-[10px] font-black text-slate-600">Draws {formSummary.D}</span>
-              <span className="inline-flex items-center justify-center bg-slate-200 px-2 py-1 text-[10px] font-black text-slate-600">Home losses {formSummary.L}</span>
+              <span className="inline-flex items-center justify-center bg-rose-100 px-2 py-1 text-[10px] font-black text-rose-700">{resolvedHome} losses {formSummary.L}</span>
             </div>
+            <p className={`mb-2 text-[10px] font-medium ${isDarkTheme ? "text-slate-400" : "text-slate-500"}`}>
+              H = home · A = away · Green = winner
+            </p>
             <div className="grid gap-1.5 sm:grid-cols-2">
               {h2hMatches.slice(0, 5).map((meeting) => <div key={`${meeting.date}-${meeting.score}-${meeting.homeTeam}`} className={`grid grid-cols-[3.5rem_1fr_auto] items-center gap-2 px-2 py-1.5 text-xs ${isDarkTheme ? "bg-[#252525] text-slate-200" : "bg-[#f2f1ed] text-slate-700"}`}>
-                <span className="text-slate-400">{meeting.date}</span><span className="truncate font-bold"><span className={meeting.winner === "home" ? "font-bold text-emerald-600" : isDarkTheme ? "font-bold text-slate-400" : "font-bold text-slate-500"}>{meeting.homeTeam}</span> <span className={isDarkTheme ? "text-slate-500" : "text-slate-400"}>-</span> <span className={meeting.winner === "away" ? "font-bold text-emerald-600" : isDarkTheme ? "font-bold text-slate-400" : "font-bold text-slate-500"}>{meeting.awayTeam}</span></span><span className={`font-black ${meeting.winner === "draw" ? "text-slate-500" : "text-emerald-600"}`}>{meeting.score} {meeting.winner === "draw" ? "X" : "✓"}</span>
+                <span className="text-slate-400">{meeting.date}</span><span className="flex min-w-0 items-center gap-1.5 truncate font-bold"><span title="Historical home team" className={`shrink-0 text-[9px] font-black uppercase ${isDarkTheme ? "text-slate-500" : "text-slate-400"}`}>H</span><span className={`truncate ${meeting.winner === "home" ? "font-bold text-emerald-600" : isDarkTheme ? "font-bold text-slate-400" : "font-bold text-slate-500"}`}>{meeting.homeTeam}</span><span className={isDarkTheme ? "text-slate-500" : "text-slate-400"}>-</span><span title="Historical away team" className={`shrink-0 text-[9px] font-black uppercase ${isDarkTheme ? "text-slate-500" : "text-slate-400"}`}>A</span><span className={`truncate ${meeting.winner === "away" ? "font-bold text-emerald-600" : isDarkTheme ? "font-bold text-slate-400" : "font-bold text-slate-500"}`}>{meeting.awayTeam}</span></span><span className={`font-black ${meeting.winner === "draw" ? "text-slate-500" : "text-emerald-600"}`}>{meeting.score} {meeting.winner === "draw" ? "X" : "✓"}</span>
               </div>)}
             </div>
           </div>}
