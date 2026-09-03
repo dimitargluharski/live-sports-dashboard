@@ -8,6 +8,9 @@
     "hydrate:git": "bash ./hydrate-feed.sh --git-sync",
     "hydrate:watch": "bash ./hydrate-feed.sh --watch --interval 900",
     "hydrate:watch:git": "bash ./hydrate-feed.sh --watch --interval 900 --git-sync",
+    "health": "pnpm --dir backend run health",
+    "health:monitor": "pnpm --dir backend run health:monitor",
+    "frontend": "pnpm --dir frontend run dev --host 0.0.0.0",
     "frontend:dev": "node frontend/node_modules/vite/bin/vite.js --host 0.0.0.0",
     "frontend:build": "npm --prefix frontend run build",
     "backend:check": "node --check backend/scripts/scrape-soccer-games-today.js"

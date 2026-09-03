@@ -1,0 +1,15 @@
+{
+  "status": "healthy",
+  "checkedAt": "2026-09-03T08:07:49.667Z",
+  "checks": {
+    "homepage": {
+      "status": "ok",
+      "httpStatus": 200,
+      "url": "https://livetv.sx/enx/allupcomingsports/1/"
+    },
+    "footballListing": {
+      "status": "ok",
+      "foundEventLink": true
+    }
+  }
+}
