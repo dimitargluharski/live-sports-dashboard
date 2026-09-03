@@ -3,18 +3,13 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
+    "dev": "bash ./run-live-stack.sh",
     "hydrate": "bash ./hydrate-feed.sh",
     "hydrate:git": "bash ./hydrate-feed.sh --git-sync",
     "hydrate:watch": "bash ./hydrate-feed.sh --watch --interval 900",
-    "hydrate:watch:5m": "bash ./hydrate-feed.sh --watch --interval 300",
     "hydrate:watch:git": "bash ./hydrate-feed.sh --watch --interval 900 --git-sync",
-    "hydrate:watch:1m": "bash ./hydrate-feed.sh --watch --interval 60",
-    "chat:server": "pnpm --dir backend run chat:server",
-    "stack:dev": "bash ./run-live-stack.sh",
-    "stack:dev:chat": "bash ./run-live-stack.sh --with-chat",
-    "frontend:dev": "pnpm --dir frontend dev",
-    "frontend:build": "pnpm --dir frontend build",
-    "backend:check": "node --check backend/scripts/scrape-soccer-games-today.js",
-    "stack:dev:chat:git": "./hydrate-feed.sh --watch --interval 900 --git-sync"
+    "frontend:dev": "node frontend/node_modules/vite/bin/vite.js --host 0.0.0.0",
+    "frontend:build": "npm --prefix frontend run build",
+    "backend:check": "node --check backend/scripts/scrape-soccer-games-today.js"
   }
 }

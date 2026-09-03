@@ -6,6 +6,7 @@ BACKEND_DIR="$ROOT_DIR/backend"
 FRONTEND_PUBLIC_DIR="$ROOT_DIR/frontend/public"
 BACKEND_ENV_FILE="$BACKEND_DIR/.env"
 FRONTEND_JSON_REL="frontend/public/allSoccerGamesToday.json"
+LOCK_DIR="$BACKEND_DIR/.cache/hydrate.lock"
 
 RAW_JSON="$BACKEND_DIR/.cache/allSoccerGamesToday.raw.json"
 ENRICHED_JSON="$BACKEND_DIR/public/allSoccerGamesToday.json"
@@ -69,13 +70,20 @@ fi
 
 ensure_backend_env() {
   if [[ ! -f "$BACKEND_ENV_FILE" ]]; then
-    echo "ERROR: Missing re quired backend env file: $BACKEND_ENV_FILE"
+    echo "ERROR: Missing required backend env file: $BACKEND_ENV_FILE"
     echo "Create $BACKEND_ENV_FILE and set FEED_BASE_URL, FEED_HOME_PATH, FEED_EVENT_PATH_SEGMENT."
     exit 1
   fi
 }
 
 ensure_backend_env
+
+mkdir -p "$(dirname "$LOCK_DIR")"
+if ! mkdir "$LOCK_DIR" 2>/dev/null; then
+  echo "ERROR: Another hydrate process is already running."
+  exit 1
+fi
+trap 'rmdir "$LOCK_DIR" >/dev/null 2>&1 || true' EXIT
 
 resolve_git_branch() {
   if [[ -n "$GIT_BRANCH" ]]; then
@@ -197,7 +205,7 @@ run_once() {
   printf "\n[1/3] Running unified scraper (streams + logos + lineups + sanitize)...\n"
   (
     cd "$BACKEND_DIR"
-    pnpm run scrape:soccer-today
+    node scripts/scrape-soccer-games-today.js
   )
 
   if [[ ! -f "$ENRICHED_JSON" ]]; then
@@ -207,7 +215,8 @@ run_once() {
 
   printf "\n[2/3] Checking for meaningful JSON changes...\n"
   if json_changed_meaningfully "$FRONTEND_JSON" "$ENRICHED_JSON"; then
-    cp "$ENRICHED_JSON" "$FRONTEND_JSON"
+    cp "$ENRICHED_JSON" "$FRONTEND_JSON.$$.tmp"
+    mv -f "$FRONTEND_JSON.$$.tmp" "$FRONTEND_JSON"
     echo "Updated frontend JSON: $FRONTEND_JSON"
     did_update=1
   else

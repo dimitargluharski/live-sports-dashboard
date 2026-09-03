@@ -14,10 +14,13 @@
     - `FEED_HOME_PATH=/enx/allupcomingsports/1/`
     - `FEED_EVENT_PATH_SEGMENT=/eventinfo/`
 
-3. Next runs:
-   - `./hydrate-feed.sh`
+3. Start the development stack:
+   - `bash ./run-live-stack.sh`
 
-## One-command scripts (from project root)
+## Commands (from project root)
+
+- Start frontend and one 15-minute scraper watcher:
+  - `pnpm run dev`
 
 - Run hydrate once:
   - `pnpm run hydrate`
@@ -28,23 +31,8 @@
 - Run hydrate watcher every 15 min:
   - `pnpm run hydrate:watch`
 
-- Run hydrate watcher every 5 min:
-  - `pnpm run hydrate:watch:5m`
-
 - Run hydrate watcher every 15 min + auto commit/push:
   - `pnpm run hydrate:watch:git`
-
-- Run hydrate watcher every 1 min (debug):
-  - `pnpm run hydrate:watch:1m`
-
-- Run hydrate watcher + frontend dev together:
-  - `pnpm run stack:dev`
-
-- Run chat server only:
-  - `pnpm run chat:server`
-
-- Run hydrate watcher + chat server + frontend dev together:
-  - `pnpm run stack:dev:chat`
 
 - Start frontend dev server:
   - `pnpm run frontend:dev`
@@ -58,12 +46,7 @@
 ## Notes
 
 - `hydrate-feed.sh` updates `frontend/public/allSoccerGamesToday.json` only when there is a meaningful JSON change.
+- Run only one `hydrate` or `dev` process at a time; the hydration script rejects duplicate watchers.
+- The scraper writes the raw, logo, and enriched JSON outputs. `scrape-team-logos.js` is retained as an older standalone utility and is not part of the normal flow.
 - Generated backend cache and local env are ignored in git.
 
-## Soccer Chat (WebSocket MVP)
-
-- Backend WebSocket endpoint (default): `ws://localhost:8081/chat`
-- Health check (default): `http://localhost:8081/health`
-- Frontend room mapping: one chat room per soccer game (`matchId`)
-- Optional frontend env:
-  - `VITE_CHAT_WS_URL=ws://your-host:8081/chat`

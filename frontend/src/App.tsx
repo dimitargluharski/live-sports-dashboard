@@ -9,6 +9,7 @@ type GamesPayload = {
 const SOURCE_TIME_OFFSET_HOURS = -1;
 const ASSUMED_MATCH_DURATION_MS = 2 * 60 * 60 * 1000;
 const MAX_SOURCE_STATUS_AGE_MS = 10 * 60 * 1000;
+const FEED_REFRESH_INTERVAL_MS = 30_000;
 
 function parseScheduledStart(dateLabel?: string, timeLabel?: string) {
   if (!dateLabel || !timeLabel) return null;
@@ -46,7 +47,7 @@ function App() {
   useEffect(() => {
     let isMounted = true;
 
-    fetch("/allSoccerGamesToday.json", { cache: "no-store" })
+    const loadGames = () => fetch("/allSoccerGamesToday.json", { cache: "no-store" })
       .then((res) => {
         if (!res.ok)
           throw new Error(`Failed to load games JSON (${res.status})`);
@@ -85,12 +86,14 @@ function App() {
       })
       .catch((error) => {
         console.error("Failed to load allSoccerGamesToday.json:", error);
-        if (!isMounted) return;
-        setGames([]);
       });
+
+    loadGames();
+    const feedTimer = window.setInterval(loadGames, FEED_REFRESH_INTERVAL_MS);
 
     return () => {
       isMounted = false;
+      window.clearInterval(feedTimer);
     };
   }, []);
 

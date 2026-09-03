@@ -77,6 +77,12 @@ function wait(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function writeJsonAtomically(filePath, value) {
+  const temporaryPath = `${filePath}.${process.pid}.tmp`;
+  fs.writeFileSync(temporaryPath, JSON.stringify(value, null, 2), "utf-8");
+  fs.renameSync(temporaryPath, filePath);
+}
+
 function normalizeSpace(text) {
   return (text || "").replace(/\s+/g, " ").trim();
 }
@@ -788,9 +794,9 @@ async function scrapeFeedDaysMatches() {
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
   fs.mkdirSync(path.dirname(OUTPUT_LOGOS_PATH), { recursive: true });
   fs.mkdirSync(path.dirname(OUTPUT_ENRICHED_PATH), { recursive: true });
-  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2), "utf-8");
-  fs.writeFileSync(OUTPUT_LOGOS_PATH, JSON.stringify(logosPayload, null, 2), "utf-8");
-  fs.writeFileSync(OUTPUT_ENRICHED_PATH, JSON.stringify(enrichedPayload, null, 2), "utf-8");
+  writeJsonAtomically(OUTPUT_PATH, payload);
+  writeJsonAtomically(OUTPUT_LOGOS_PATH, logosPayload);
+  writeJsonAtomically(OUTPUT_ENRICHED_PATH, enrichedPayload);
   console.log(`Saved: ${OUTPUT_PATH}`);
   console.log(`Saved logos payload: ${OUTPUT_LOGOS_PATH}`);
   console.log(`Saved enriched matches payload: ${OUTPUT_ENRICHED_PATH}`);
