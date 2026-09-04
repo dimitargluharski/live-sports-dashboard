@@ -51,10 +51,6 @@ const OUTPUT_ENRICHED_PATH = path.resolve(
 );
 
 const DEFAULT_TIMEOUT_MS = 45_000;
-const configuredMaxDays = Number(process.env.FEED_DAYS_MAX || "");
-const MAX_DAY_EVENTS = Number.isFinite(configuredMaxDays) && configuredMaxDays > 0
-  ? Math.floor(configuredMaxDays)
-  : null;
 const DAYS_WINDOW = Number(process.env.FEED_DAYS_WINDOW || "2");
 const ALLOW_INSECURE_TLS = process.env.FEED_INSECURE_TLS === "1";
 let preferInsecureTlsForRun = ALLOW_INSECURE_TLS;
@@ -585,8 +581,6 @@ function extractDayMatchRows(listHtml, footballPageUrl) {
   let includeCurrentDateSection = false;
 
   rowsRoot.find("tr").each((_, tr) => {
-    if (MAX_DAY_EVENTS !== null && rows.length >= MAX_DAY_EVENTS) return;
-
     const row = $(tr);
     const headerBold = normalizeSpace(row.find("td[colspan] b").first().text());
     const headerCellText = normalizeSpace(row.find("td[colspan]").first().text());
@@ -610,8 +604,6 @@ function extractDayMatchRows(listHtml, footballPageUrl) {
     if (!currentDateLabel || inTopSection || !includeCurrentDateSection) return;
 
     row.find(`a.live[href*='${EVENT_PATH_SEGMENT}'], a[href*='${EVENT_PATH_SEGMENT}']`).each((__, anchor) => {
-      if (MAX_DAY_EVENTS !== null && rows.length >= MAX_DAY_EVENTS) return;
-
       const eventHref = $(anchor).attr("href");
       const eventUrl = toAbsoluteUrl(eventHref, footballPageUrl);
       if (!eventUrl || seen.has(eventUrl)) return;
@@ -726,7 +718,7 @@ async function scrapeFeedDaysMatches() {
 
   const matches = extractDayMatchRows(footballHtml, footballPageUrl);
   console.log(
-    `Found ${matches.length} day matches (${MAX_DAY_EVENTS === null ? "no limit" : `cap=${MAX_DAY_EVENTS}`}, window=${Math.max(DAYS_WINDOW, 1)} day(s)).`,
+    `Found ${matches.length} day matches (no match limit, window=${Math.max(DAYS_WINDOW, 1)} day(s)).`,
   );
 
   for (let i = 0; i < matches.length; i += 1) {
