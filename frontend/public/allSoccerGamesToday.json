@@ -1,7 +1,7 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-04T23:32:22.437Z",
-  "count": 492,
+  "scrapedAt": "2026-09-04T23:54:52.231Z",
+  "count": 493,
   "matches": [
     {
       "id": 1,
@@ -500,10 +500,10 @@
             "Emiliano Ozuna",
             "Enzo Hoyos",
             "Federico Tevez",
+            "Franco Garcia",
             "Gino Olguin",
             "Gustavo Canto",
             "Laureano Marra",
-            "Lautaro Parisi",
             "Matias Kabalin",
             "Sebastian Corda"
           ],
@@ -1232,7 +1232,7 @@
       "title": "Carolina Core – New England Revolution II",
       "dateLabel": "5 September",
       "timeLabel": "0:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "USA. MLS Next Pro",
       "iconUrl": "https://cdn.livetv903.me/img/icons/us.gif",
       "iconAlt": "USA. MLS Next Pro",
@@ -1393,7 +1393,7 @@
       "title": "New York City – Nashville",
       "dateLabel": "5 September",
       "timeLabel": "0:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "USA. MLS",
       "iconUrl": "https://cdn.livetv903.me/img/icons/us.gif",
       "iconAlt": "USA. MLS",
@@ -1590,15 +1590,23 @@
       "title": "Athletic MG – Vila Nova",
       "dateLabel": "5 September",
       "timeLabel": "0:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Brazil. Serie B",
       "iconUrl": "https://cdn.livetv903.me/img/icons/br.gif",
       "iconAlt": "Brazil. Serie B",
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 0:30\n(Brazil. Serie B)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.vdocity.com/1/_Af5CWEGUAYPqtJhbRUSUYApqLpLd1fkqN5sBPQWMF",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Athletic MG",
@@ -1900,8 +1908,30 @@
         "home": {
           "name": "Deportes Concepcion",
           "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/8031.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Nicolas Araya",
+            "Jorge Henriquez",
+            "Mario Sandoval",
+            "Nicolas Fuentes",
+            "Norman Rodriguez",
+            "Joaquin Larrivey",
+            "Cristian Riquelme",
+            "Ethan Espinoza",
+            "Fausto Grillo",
+            "Fernando Martinez",
+            "Yonathan Rodriguez"
+          ],
+          "substitutes": [
+            "Aldrix Jara",
+            "Matias Cavalleri",
+            "Misael Davila",
+            "Nery Veloso",
+            "Joaquin Montecinos",
+            "Carlos Escobar",
+            "Diego Carrasco",
+            "Dilan Varas",
+            "Fernando Romero"
+          ]
         },
         "away": {
           "name": "Audax Italiano",
@@ -2047,8 +2077,16 @@
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 1:30\n(Ecuador. Serie A)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.vdocity.com/1/_2UbEamZvh72YBZXetbARpDt2HzDzyq1MqmKm",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Tecnico Univ",
@@ -2200,8 +2238,16 @@
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 1:30\n(Brazil. Serie B)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.vdocity.com/1/_2UbEamZvh72YBZXetbABKe2eSwSm9MEjAZto",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "CRB",
@@ -2353,8 +2399,16 @@
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 1:30\n(Brazil. Women. Serie A1)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/JUF6rCh1Zrk?autoplay=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Palmeiras (W)",
@@ -2383,8 +2437,16 @@
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 1:30\n(Colombia. Primera B)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.vdocity.com/1/_2UbEamZvh72YBZXetbALz2bZgJdb315pHNC5",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Orsomarso",
@@ -56358,7 +56420,37 @@
           }
         }
       }
+    },
+    {
+      "id": 493,
+      "title": "Eldense – Mallorca",
+      "dateLabel": "5 September",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Spain. Segunda Division",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/es.gif",
+      "iconAlt": "Spain. Segunda Division",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 20:00\n(Spain. Segunda Division)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Eldense",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/8758.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Mallorca",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/3768.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
     }
   ],
-  "enrichedAt": "2026-09-04T23:32:22.438Z"
+  "enrichedAt": "2026-09-04T23:54:52.232Z"
 }
