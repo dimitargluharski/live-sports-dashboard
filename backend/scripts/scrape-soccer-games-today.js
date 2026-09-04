@@ -7,7 +7,7 @@
 const fs = require("fs");
 const path = require("path");
 const cheerio = require("cheerio");
-const { Agent, fetch } = require("undici");
+const { fetch } = require("undici");
 const { markJobStarted, markJobSucceeded, markJobFailed } = require("./job-status-tracker");
 
 function loadDotEnv() {
@@ -57,12 +57,11 @@ const MAX_DAY_EVENTS = Number.isFinite(configuredMaxDays) && configuredMaxDays >
   : null;
 const DAYS_WINDOW = Number(process.env.FEED_DAYS_WINDOW || "2");
 const ALLOW_INSECURE_TLS = process.env.FEED_INSECURE_TLS === "1";
-
-const insecureDispatcher = ALLOW_INSECURE_TLS
-  ? new Agent({ connect: { rejectUnauthorized: false } })
-  : null;
-const fallbackInsecureDispatcher = new Agent({ connect: { rejectUnauthorized: false } });
 let preferInsecureTlsForRun = ALLOW_INSECURE_TLS;
+
+if (ALLOW_INSECURE_TLS) {
+  process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+}
 
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -112,11 +111,10 @@ async function fetchHtml(url) {
   const timeout = setTimeout(() => controller.abort(), DEFAULT_TIMEOUT_MS);
 
   try {
-    const doFetch = (dispatcher) =>
+    const doFetch = () =>
       fetch(url, {
         signal: controller.signal,
         redirect: "follow",
-        dispatcher,
         headers: {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
           Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -126,12 +124,9 @@ async function fetchHtml(url) {
         cache: "no-store",
       });
 
-    const shouldUseInsecureFirst = preferInsecureTlsForRun && insecureHostRegex.test(url);
-    const initialDispatcher = shouldUseInsecureFirst ? fallbackInsecureDispatcher : (insecureDispatcher || undefined);
-
     let res;
     try {
-      res = await doFetch(initialDispatcher);
+      res = await doFetch();
     } catch (error) {
       const code = error?.cause?.code || error?.code;
       const shouldRetryInsecure =
@@ -144,6 +139,7 @@ async function fetchHtml(url) {
       }
 
       preferInsecureTlsForRun = true;
+      process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
       const failedHost = (() => {
         try {
           return new URL(url).host;
@@ -152,7 +148,7 @@ async function fetchHtml(url) {
         }
       })();
       console.warn(`TLS verify failed for host ${failedHost}. Retrying with insecure TLS fallback and enabling insecure TLS for this run.`);
-      res = await doFetch(fallbackInsecureDispatcher);
+      res = await doFetch();
     }
 
     if (!res.ok) {
