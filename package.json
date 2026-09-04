@@ -7,6 +7,8 @@
     "hydrate": "bash ./hydrate-feed.sh",
     "hydrate:git": "bash ./hydrate-feed.sh --git-sync",
     "hydrate:watch": "bash ./hydrate-feed.sh --watch --interval 900",
+    "hydrate:watch:10": "bash ./hydrate-feed.sh --watch --interval 600",
+    "hydrate:watch:15": "bash ./hydrate-feed.sh --watch --interval 900",
     "hydrate:watch:git": "bash ./hydrate-feed.sh --watch --interval 900 --git-sync",
     "health": "pnpm --dir backend run health",
     "health:monitor": "pnpm --dir backend run health:monitor",

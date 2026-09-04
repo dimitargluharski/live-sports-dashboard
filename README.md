@@ -34,6 +34,7 @@
   - The health bot must be invited with `View Channel`, `Send Messages`, and `Embed Links` permissions. `DISCORD_HEALTHCHECK_WEBHOOK_URL` is supported as an alternative.
   - Run `pnpm run health:monitor` to check the live website, the last scraper result, JSON freshness, and that the frontend JSON matches the backend JSON.
   - The monitor writes to `backend/public/health-monitor-status.json`; set `HEALTHCHECK_MAX_JSON_AGE_MINUTES` to change the default 30-minute freshness limit.
+  - The scraper feed window defaults to two days through `FEED_DAYS_WINDOW=2`; matches outside that window are removed from the next generated JSON update.
 
 ## Commands (from project root)
 
@@ -48,6 +49,12 @@
 
 - Run hydrate watcher every 15 min:
   - `pnpm run hydrate:watch`
+
+- Run hydrate watcher every 10 min:
+  - `pnpm run hydrate:watch:10`
+
+- Run hydrate watcher every 15 min explicitly:
+  - `pnpm run hydrate:watch:15`
 
 - Run hydrate watcher every 15 min + auto commit/push:
   - `pnpm run hydrate:watch:git`
@@ -64,6 +71,7 @@
 ## Notes
 
 - `hydrate-feed.sh` updates `frontend/public/allSoccerGamesToday.json` only when there is a meaningful JSON change.
+- The project stores the feed as JSON rather than a database. Each scrape rebuilds the feed for the configured two-day window, so matches older than two days disappear from the next update.
 - Each hydration cycle runs `backend/scripts/health-check-monitor.js` after the frontend JSON update and before optional Git sync.
 - Run only one `hydrate` or `dev` process at a time; the hydration script rejects duplicate watchers.
 - The scraper writes the raw, logo, and enriched JSON outputs. `scrape-team-logos.js` is retained as an older standalone utility and is not part of the normal flow.
