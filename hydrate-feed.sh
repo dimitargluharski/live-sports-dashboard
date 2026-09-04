@@ -126,7 +126,10 @@ git_sync_json() {
 
   local commit_msg="chore(feed): refresh allSoccerGamesToday.json ($(date -u '+%Y-%m-%d %H:%M UTC'))"
   git -C "$ROOT_DIR" commit -m "$commit_msg"
-  git -C "$ROOT_DIR" push "$GIT_REMOTE" "$GIT_BRANCH"
+  if ! git -C "$ROOT_DIR" push "$GIT_REMOTE" "$GIT_BRANCH"; then
+    echo "ERROR: Git sync failed while pushing $GIT_BRANCH to $GIT_REMOTE."
+    return 1
+  fi
   echo "Git sync complete: pushed $FRONTEND_JSON_REL to $GIT_REMOTE/$GIT_BRANCH"
 }
 
