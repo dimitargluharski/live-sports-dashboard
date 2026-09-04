@@ -1,7 +1,7 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-04T21:18:19.905Z",
-  "count": 473,
+  "scrapedAt": "2026-09-04T21:40:39.241Z",
+  "count": 483,
   "matches": [
     {
       "id": 1,
@@ -53909,7 +53909,1159 @@
           }
         }
       }
+    },
+    {
+      "id": 474,
+      "title": "Simulcast",
+      "dateLabel": "5 September",
+      "timeLabel": "19:45",
+      "isLive": false,
+      "leagueLabel": "France. Ligue 1",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/fr.gif",
+      "iconAlt": "France. Ligue 1",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 19:45\n(France. Ligue 1)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": null,
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": null,
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 475,
+      "title": "Nice – Le Mans",
+      "dateLabel": "5 September",
+      "timeLabel": "19:45",
+      "isLive": false,
+      "leagueLabel": "France. Ligue 1",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/fr.gif",
+      "iconAlt": "France. Ligue 1",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 19:45\n(France. Ligue 1)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Nice",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/125.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Le Mans",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/3941.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 476,
+      "title": "Le Havre – Brest",
+      "dateLabel": "5 September",
+      "timeLabel": "19:45",
+      "isLive": false,
+      "leagueLabel": "France. Ligue 1",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/fr.gif",
+      "iconAlt": "France. Ligue 1",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 19:45\n(France. Ligue 1)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Le Havre",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/3932.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Brest",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/3755.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000454/700000039/1_f85e1/",
+        "matches": [
+          {
+            "date": "08/03",
+            "competition": "France. Ligue 1",
+            "homeTeam": "Brest",
+            "awayTeam": "Le Havre",
+            "score": "2:0",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "29/10",
+            "competition": "France. Ligue 1",
+            "homeTeam": "Le Havre",
+            "awayTeam": "Brest",
+            "score": "1:0",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "26/01",
+            "competition": "France. Ligue 1",
+            "homeTeam": "Le Havre",
+            "awayTeam": "Brest",
+            "score": "0:1",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Le Havre",
+        "awayTeam": "Brest",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "29/08",
+                "competition": "Ligue 1",
+                "opponent": "Lyon",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "23/08",
+                "competition": "Ligue 1",
+                "opponent": "AS Monaco",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "15/08",
+                "competition": "Friendly Match",
+                "opponent": "Le Mans",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "08/08",
+                "competition": "Friendly Match",
+                "opponent": "Real Oviedo",
+                "score": "2:3",
+                "result": "L"
+              },
+              {
+                "date": "04/08",
+                "competition": "Friendly Match",
+                "opponent": "Ipswich Town",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "29/08",
+                "competition": "Ligue 1",
+                "opponent": "Lyon",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "23/08",
+                "competition": "Ligue 1",
+                "opponent": "Le Havre",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "15/08",
+                "competition": "Friendly Match",
+                "opponent": "Le Mans",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "08/08",
+                "competition": "Friendly Match",
+                "opponent": "Real Oviedo",
+                "score": "2:3",
+                "result": "L"
+              },
+              {
+                "date": "04/08",
+                "competition": "Friendly Match",
+                "opponent": "Ipswich Town",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 477,
+      "title": "Radnik Bijeljina – Sloga Doboj",
+      "dateLabel": "5 September",
+      "timeLabel": "19:45",
+      "isLive": false,
+      "leagueLabel": "Bosnia and Herzegovina. Premier League",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/ba.gif",
+      "iconAlt": "Bosnia and Herzegovina. Premier League",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 19:45\n(Bosnia and Herzegovina. Premier League)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Radnik Bijeljina",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/6583.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Sloga Doboj",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/6864.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700009538/700014600/1_dd89a/",
+        "matches": [
+          {
+            "date": "14/03",
+            "competition": "Bosnia and Herzegovina. Premier League",
+            "homeTeam": "Radnik Bijeljina",
+            "awayTeam": "Sloga Doboj",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "28/11",
+            "competition": "Bosnia and Herzegovina. Premier League",
+            "homeTeam": "Sloga Doboj",
+            "awayTeam": "Radnik Bijeljina",
+            "score": "2:1",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "12/09",
+            "competition": "Bosnia and Herzegovina. Premier League",
+            "homeTeam": "Radnik Bijeljina",
+            "awayTeam": "Sloga Doboj",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "Radnik Bijeljina",
+        "awayTeam": "Sloga Doboj",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "02/09",
+                "competition": "Premier League",
+                "opponent": "Velez",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "30/08",
+                "competition": "Premier League",
+                "opponent": "Borac Banja Luka",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "28/08",
+                "competition": "Premier League",
+                "opponent": "Borac Banja Luka",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "22/08",
+                "competition": "Premier League",
+                "opponent": "Siroki Brijeg",
+                "score": "1:2",
+                "result": "L"
+              },
+              {
+                "date": "22/08",
+                "competition": "Premier League",
+                "opponent": "Siroki Brijeg",
+                "score": "0:0",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 4,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "02/09",
+                "competition": "Premier League",
+                "opponent": "Velez",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "30/08",
+                "competition": "Premier League",
+                "opponent": "Radnik Bijeljina",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "28/08",
+                "competition": "Premier League",
+                "opponent": "Radnik Bijeljina",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "22/08",
+                "competition": "Premier League",
+                "opponent": "Siroki Brijeg",
+                "score": "1:2",
+                "result": "L"
+              },
+              {
+                "date": "22/08",
+                "competition": "Premier League",
+                "opponent": "Siroki Brijeg",
+                "score": "0:0",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 4,
+              "L": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 478,
+      "title": "Rijeka – Osijek",
+      "dateLabel": "5 September",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Croatia. HNL",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/hr.gif",
+      "iconAlt": "Croatia. HNL",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 20:00\n(Croatia. HNL)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Rijeka",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/651.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Osijek",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/654.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000627/700000628/1_698b2/",
+        "matches": [
+          {
+            "date": "12/04",
+            "competition": "Croatia. HNL",
+            "homeTeam": "Rijeka",
+            "awayTeam": "Osijek",
+            "score": "0:2",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "01/02",
+            "competition": "Croatia. HNL",
+            "homeTeam": "Osijek",
+            "awayTeam": "Rijeka",
+            "score": "1:0",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "27/10",
+            "competition": "Croatia. HNL",
+            "homeTeam": "Rijeka",
+            "awayTeam": "Osijek",
+            "score": "4:2",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Rijeka",
+        "awayTeam": "Osijek",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "31/08",
+                "competition": "HNL",
+                "opponent": "Gorica",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "27/08",
+                "competition": "Europa Conference Leag [..]",
+                "opponent": "Midtjylland",
+                "score": "1:4",
+                "result": "L"
+              },
+              {
+                "date": "23/08",
+                "competition": "HNL",
+                "opponent": "Istra",
+                "score": "3:2",
+                "result": "W"
+              },
+              {
+                "date": "20/08",
+                "competition": "Europa Conference Leag [..]",
+                "opponent": "Midtjylland",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "16/08",
+                "competition": "HNL",
+                "opponent": "Varazdin",
+                "score": "0:2",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "31/08",
+                "competition": "HNL",
+                "opponent": "Gorica",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "27/08",
+                "competition": "Europa Conference Leag [..]",
+                "opponent": "Rijeka",
+                "score": "4:1",
+                "result": "W"
+              },
+              {
+                "date": "23/08",
+                "competition": "HNL",
+                "opponent": "Rijeka",
+                "score": "2:3",
+                "result": "L"
+              },
+              {
+                "date": "20/08",
+                "competition": "Europa Conference Leag [..]",
+                "opponent": "Midtjylland",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "16/08",
+                "competition": "HNL",
+                "opponent": "Varazdin",
+                "score": "0:2",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 479,
+      "title": "Vis Pesaro – Ostiamare",
+      "dateLabel": "5 September",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Italy. Serie C. Group B",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/it.gif",
+      "iconAlt": "Italy. Serie C. Group B",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 20:00\n(Italy. Serie C. Group B)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Vis Pesaro",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/7826.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Ostiamare",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/36383.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 480,
+      "title": "St Mirren – Celtic",
+      "dateLabel": "5 September",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Scotland. Premiership",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/sc.gif",
+      "iconAlt": "Scotland. Premiership",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 20:00\n(Scotland. Premiership)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "St Mirren",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/1113.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Celtic",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/37652.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700008706/700008693/1_5cb11/",
+        "matches": [
+          {
+            "date": "11/04",
+            "competition": "Scotland. Premiership",
+            "homeTeam": "Celtic",
+            "awayTeam": "St Mirren",
+            "score": "1:0",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "14/12",
+            "competition": "Scotland. League Cup",
+            "homeTeam": "St Mirren",
+            "awayTeam": "Celtic",
+            "score": "3:1",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "22/11",
+            "competition": "Scotland. Premiership",
+            "homeTeam": "St Mirren",
+            "awayTeam": "Celtic",
+            "score": "0:1",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "St Mirren",
+        "awayTeam": "Celtic",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "02/09",
+                "competition": "Premiership",
+                "opponent": "Kilmarnock",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "30/08",
+                "competition": "Premiership",
+                "opponent": "Motherwell",
+                "score": "3:3",
+                "result": "D"
+              },
+              {
+                "date": "16/08",
+                "competition": "League Cup",
+                "opponent": "Rangers",
+                "score": "1:5",
+                "result": "L"
+              },
+              {
+                "date": "08/08",
+                "competition": "Premiership",
+                "opponent": "St Johnstone",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "01/08",
+                "competition": "Premiership",
+                "opponent": "Falkirk",
+                "score": "2:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "02/09",
+                "competition": "Premiership",
+                "opponent": "Kilmarnock",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "30/08",
+                "competition": "Premiership",
+                "opponent": "St Mirren",
+                "score": "3:3",
+                "result": "D"
+              },
+              {
+                "date": "16/08",
+                "competition": "League Cup",
+                "opponent": "Rangers",
+                "score": "1:5",
+                "result": "L"
+              },
+              {
+                "date": "08/08",
+                "competition": "Premiership",
+                "opponent": "St Mirren",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "01/08",
+                "competition": "Premiership",
+                "opponent": "Falkirk",
+                "score": "2:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 481,
+      "title": "Potenza – Monopoli",
+      "dateLabel": "5 September",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Italy. Serie C. Group C",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/it.gif",
+      "iconAlt": "Italy. Serie C. Group C",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 20:00\n(Italy. Serie C. Group C)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Potenza",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/35101.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Monopoli",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/21660.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700021421/700023220/1_35a61/",
+        "matches": [
+          {
+            "date": "01/09",
+            "competition": "Italy. Cup. Serie C",
+            "homeTeam": "Potenza",
+            "awayTeam": "Monopoli",
+            "score": "1:1",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "26/04",
+            "competition": "Italy. Serie C. Group C",
+            "homeTeam": "Potenza",
+            "awayTeam": "Monopoli",
+            "score": "2:2",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "21/12",
+            "competition": "Italy. Serie C. Group C",
+            "homeTeam": "Monopoli",
+            "awayTeam": "Potenza",
+            "score": "2:1",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Potenza",
+        "awayTeam": "Monopoli",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "01/09",
+                "competition": "Cup. Serie C",
+                "opponent": "Monopoli",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "29/08",
+                "competition": "Serie C. Group C",
+                "opponent": "Cosenza",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "21/08",
+                "competition": "Serie C. Group C",
+                "opponent": "Casarano",
+                "score": "4:1",
+                "result": "W"
+              },
+              {
+                "date": "08/08",
+                "competition": "Cup",
+                "opponent": "Ascoli",
+                "score": "1:3",
+                "result": "L"
+              },
+              {
+                "date": "20/05",
+                "competition": "Serie C. Play-Off",
+                "opponent": "Ascoli",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "01/09",
+                "competition": "Cup. Serie C",
+                "opponent": "Potenza",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "29/08",
+                "competition": "Serie C. Group C",
+                "opponent": "Cosenza",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "21/08",
+                "competition": "Serie C. Group C",
+                "opponent": "Potenza",
+                "score": "1:4",
+                "result": "L"
+              },
+              {
+                "date": "08/08",
+                "competition": "Cup",
+                "opponent": "Ascoli",
+                "score": "1:3",
+                "result": "L"
+              },
+              {
+                "date": "20/05",
+                "competition": "Serie C. Play-Off",
+                "opponent": "Ascoli",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 482,
+      "title": "Giugliano – Sorrento",
+      "dateLabel": "5 September",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Italy. Serie C. Group C",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/it.gif",
+      "iconAlt": "Italy. Serie C. Group C",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 20:00\n(Italy. Serie C. Group C)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Giugliano",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/25349.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Sorrento",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/21663.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700021268/700028179/1_82dbe/",
+        "matches": [
+          {
+            "date": "16/08",
+            "competition": "Italy. Cup. Serie C",
+            "homeTeam": "Giugliano",
+            "awayTeam": "Sorrento",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "10/02",
+            "competition": "Italy. Serie C. Group C",
+            "homeTeam": "Sorrento",
+            "awayTeam": "Giugliano",
+            "score": "1:0",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "29/09",
+            "competition": "Italy. Serie C. Group C",
+            "homeTeam": "Giugliano",
+            "awayTeam": "Sorrento",
+            "score": "0:1",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Giugliano",
+        "awayTeam": "Sorrento",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "28/08",
+                "competition": "Serie C. Group C",
+                "opponent": "Casarano",
+                "score": "3:4",
+                "result": "L"
+              },
+              {
+                "date": "21/08",
+                "competition": "Serie C. Group C",
+                "opponent": "Scafatese",
+                "score": "3:3",
+                "result": "D"
+              },
+              {
+                "date": "16/08",
+                "competition": "Cup. Serie C",
+                "opponent": "Sorrento",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "05/08",
+                "competition": "Friendly Match",
+                "opponent": "Catanzaro",
+                "score": "0:3",
+                "result": "L"
+              },
+              {
+                "date": "26/04",
+                "competition": "Serie C. Group C",
+                "opponent": "Casertana",
+                "score": "1:1",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 3,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "28/08",
+                "competition": "Serie C. Group C",
+                "opponent": "Casarano",
+                "score": "3:4",
+                "result": "L"
+              },
+              {
+                "date": "21/08",
+                "competition": "Serie C. Group C",
+                "opponent": "Giugliano",
+                "score": "3:3",
+                "result": "D"
+              },
+              {
+                "date": "16/08",
+                "competition": "Cup. Serie C",
+                "opponent": "Giugliano",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "05/08",
+                "competition": "Friendly Match",
+                "opponent": "Catanzaro",
+                "score": "0:3",
+                "result": "L"
+              },
+              {
+                "date": "26/04",
+                "competition": "Serie C. Group C",
+                "opponent": "Casertana",
+                "score": "1:1",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 3,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 483,
+      "title": "Bari – Casarano",
+      "dateLabel": "5 September",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Italy. Serie C. Group C",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/it.gif",
+      "iconAlt": "Italy. Serie C. Group C",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 20:00\n(Italy. Serie C. Group C)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Bari",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/4920.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Casarano",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/8623.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700013911/700021186/1_17add/",
+        "matches": [
+          {
+            "date": "16/08",
+            "competition": "Italy. Cup. Serie C",
+            "homeTeam": "Bari",
+            "awayTeam": "Casarano",
+            "score": "1:0",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "04/08",
+            "competition": "Friendly Match",
+            "homeTeam": "Bari",
+            "awayTeam": "Casarano",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "Bari",
+        "awayTeam": "Casarano",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "01/09",
+                "competition": "Cup. Serie C",
+                "opponent": "Picerno",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "28/08",
+                "competition": "Serie C. Group C",
+                "opponent": "Barletta",
+                "score": "0:3",
+                "result": "L"
+              },
+              {
+                "date": "21/08",
+                "competition": "Serie C. Group C",
+                "opponent": "Cavese",
+                "score": "3:0",
+                "result": "W"
+              },
+              {
+                "date": "16/08",
+                "competition": "Cup. Serie C",
+                "opponent": "Casarano",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "22/05",
+                "competition": "Serie B",
+                "opponent": "Suedtirol",
+                "score": "0:0",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 2,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "01/09",
+                "competition": "Cup. Serie C",
+                "opponent": "Bari",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "28/08",
+                "competition": "Serie C. Group C",
+                "opponent": "Barletta",
+                "score": "0:3",
+                "result": "L"
+              },
+              {
+                "date": "21/08",
+                "competition": "Serie C. Group C",
+                "opponent": "Bari",
+                "score": "0:3",
+                "result": "L"
+              },
+              {
+                "date": "16/08",
+                "competition": "Cup. Serie C",
+                "opponent": "Bari",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "22/05",
+                "competition": "Serie B",
+                "opponent": "Suedtirol",
+                "score": "0:0",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 2,
+              "L": 3
+            }
+          }
+        }
+      }
     }
   ],
-  "enrichedAt": "2026-09-04T21:18:19.906Z"
+  "enrichedAt": "2026-09-04T21:40:39.242Z"
 }
