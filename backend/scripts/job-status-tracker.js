@@ -1,5 +1,10 @@
 const fs = require("fs");
 const path = require("path");
+const {
+  notifyScraperStarted,
+  notifyScraperSucceeded,
+  notifyScraperFailed,
+} = require("../../discord/discord-notifier");
 
 const STATUS_PATH = path.join(__dirname, "../public/scrape-status.json");
 
@@ -37,6 +42,7 @@ function markJobStarted(kind) {
     startedAt: new Date().toISOString(),
     error: null,
   });
+  void notifyScraperStarted(kind);
 }
 
 function markJobSucceeded(kind, count, meta = {}) {
@@ -47,6 +53,7 @@ function markJobSucceeded(kind, count, meta = {}) {
     meta,
     error: null,
   });
+  void notifyScraperSucceeded(kind, count, meta);
 }
 
 function markJobFailed(kind, error) {
@@ -55,6 +62,7 @@ function markJobFailed(kind, error) {
     finishedAt: new Date().toISOString(),
     error: error || "Unknown error",
   });
+  void notifyScraperFailed(kind, error);
 }
 
 module.exports = {

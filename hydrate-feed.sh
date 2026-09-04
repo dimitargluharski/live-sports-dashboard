@@ -223,12 +223,18 @@ run_once() {
     echo "No meaningful data changes. Frontend JSON unchanged."
   fi
 
+  printf "\n[3/4] Running post-hydration health monitor...\n"
+  (
+    cd "$BACKEND_DIR"
+    node scripts/health-check-monitor.js
+  )
+
   if ! git_sync_json "$did_update"; then
     echo "ERROR: Git sync failed."
     return 1
   fi
 
-  printf "\n[3/3] Done.\n"
+  printf "\n[4/4] Done.\n"
 }
 
 if [[ "$WATCH_MODE" -eq 1 ]]; then
