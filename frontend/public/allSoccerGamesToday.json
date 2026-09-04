@@ -1,7 +1,7 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-04T23:09:51.714Z",
-  "count": 490,
+  "scrapedAt": "2026-09-04T23:32:22.437Z",
+  "count": 492,
   "matches": [
     {
       "id": 1,
@@ -503,15 +503,15 @@
             "Gino Olguin",
             "Gustavo Canto",
             "Laureano Marra",
+            "Lautaro Parisi",
             "Matias Kabalin",
-            "Santiago Garcia",
             "Sebastian Corda"
           ],
           "substitutes": [
             "Tiago Esidin Gonzalez",
             "Emanuel Dening",
-            "Francisco Cuzzani",
             "Gonzalo Castellani",
+            "Jonathan Menendez",
             "Lucas Ruiz",
             "Misael Taron",
             "Nazareno Kihm",
@@ -56052,7 +56052,313 @@
           }
         }
       }
+    },
+    {
+      "id": 491,
+      "title": "Goias – Fortaleza",
+      "dateLabel": "5 September",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Brazil. Serie B",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/br.gif",
+      "iconAlt": "Brazil. Serie B",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 20:00\n(Brazil. Serie B)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Goias",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/30293.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Fortaleza",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/747.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000353/700000355/1_2451d/",
+        "matches": [
+          {
+            "date": "03/05",
+            "competition": "Brazil. Serie B",
+            "homeTeam": "Fortaleza",
+            "awayTeam": "Goias",
+            "score": "4:1",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "03/12",
+            "competition": "Brazil. Serie A",
+            "homeTeam": "Fortaleza",
+            "awayTeam": "Goias",
+            "score": "1:0",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "05/08",
+            "competition": "Brazil. Serie A",
+            "homeTeam": "Goias",
+            "awayTeam": "Fortaleza",
+            "score": "1:0",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Goias",
+        "awayTeam": "Fortaleza",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "28/08",
+                "competition": "Serie B",
+                "opponent": "Sao Bernardo",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "22/08",
+                "competition": "Serie B",
+                "opponent": "Cuiaba",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "18/08",
+                "competition": "Serie B",
+                "opponent": "Juventude",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "15/08",
+                "competition": "Serie B",
+                "opponent": "Criciuma",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "10/08",
+                "competition": "Serie B",
+                "opponent": "Londrina",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "28/08",
+                "competition": "Serie B",
+                "opponent": "Goias",
+                "score": "1:2",
+                "result": "L"
+              },
+              {
+                "date": "22/08",
+                "competition": "Serie B",
+                "opponent": "Cuiaba",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "18/08",
+                "competition": "Serie B",
+                "opponent": "Goias",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "15/08",
+                "competition": "Serie B",
+                "opponent": "Criciuma",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "10/08",
+                "competition": "Serie B",
+                "opponent": "Goias",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 492,
+      "title": "Novorizontino – Avai",
+      "dateLabel": "5 September",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Brazil. Serie B",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/br.gif",
+      "iconAlt": "Brazil. Serie B",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 20:00\n(Brazil. Serie B)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Novorizontino",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/6257.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Avai",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/3871.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700014744/700000361/1_dc215/",
+        "matches": [
+          {
+            "date": "04/05",
+            "competition": "Brazil. Serie B",
+            "homeTeam": "Avai",
+            "awayTeam": "Novorizontino",
+            "score": "3:3",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "03/08",
+            "competition": "Brazil. Serie B",
+            "homeTeam": "Novorizontino",
+            "awayTeam": "Avai",
+            "score": "1:1",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "02/08",
+            "competition": "Brazil. Serie B",
+            "homeTeam": "Novorizontino",
+            "awayTeam": "Avai",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "Novorizontino",
+        "awayTeam": "Avai",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "29/08",
+                "competition": "Serie B",
+                "opponent": "Sport Recife",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "24/08",
+                "competition": "Serie B",
+                "opponent": "Athletic MG",
+                "score": "4:1",
+                "result": "W"
+              },
+              {
+                "date": "20/08",
+                "competition": "Serie B",
+                "opponent": "America Mineiro",
+                "score": "3:0",
+                "result": "W"
+              },
+              {
+                "date": "16/08",
+                "competition": "Serie B",
+                "opponent": "CRB",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "09/08",
+                "competition": "Serie B",
+                "opponent": "Juventude",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "29/08",
+                "competition": "Serie B",
+                "opponent": "Novorizontino",
+                "score": "1:2",
+                "result": "L"
+              },
+              {
+                "date": "24/08",
+                "competition": "Serie B",
+                "opponent": "Athletic MG",
+                "score": "4:1",
+                "result": "W"
+              },
+              {
+                "date": "20/08",
+                "competition": "Serie B",
+                "opponent": "Novorizontino",
+                "score": "0:3",
+                "result": "L"
+              },
+              {
+                "date": "16/08",
+                "competition": "Serie B",
+                "opponent": "CRB",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "09/08",
+                "competition": "Serie B",
+                "opponent": "Novorizontino",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          }
+        }
+      }
     }
   ],
-  "enrichedAt": "2026-09-04T23:09:51.715Z"
+  "enrichedAt": "2026-09-04T23:32:22.438Z"
 }
