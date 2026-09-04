@@ -1,7 +1,7 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-04T22:02:52.329Z",
-  "count": 484,
+  "scrapedAt": "2026-09-04T22:25:10.259Z",
+  "count": 485,
   "matches": [
     {
       "id": 1,
@@ -15,8 +15,16 @@
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 0:00\n(Brazil. Copa Paulista)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/7gAdDQIg_P4?autoplay=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Bandeirante",
@@ -951,14 +959,55 @@
         "home": {
           "name": "Loudoun United",
           "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/5969.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Ethan Bandre",
+            "Jacob Erlandson",
+            "Akil Watts",
+            "Bolu Akinyode",
+            "Richard Aman",
+            "Abdellatif Aboukoura",
+            "Edward Davis",
+            "James Murphy",
+            "Pacifique Niyongabire",
+            "Kwame Awuah",
+            "Salvatore Mazzaferro"
+          ],
+          "substitutes": [
+            "Luca Piras",
+            "Christian Torres",
+            "Sean Young",
+            "Giorgi Lomtadze",
+            "Noah Adnan",
+            "Jordan Farr",
+            "Liam Barrus",
+            "Marcos Dias",
+            "Ryan Conner"
+          ]
         },
         "away": {
           "name": "CS Switchbacks",
           "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/30540.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Christian Herrera",
+            "Khori Bennett",
+            "Devon Williams",
+            "Brennan Creek",
+            "Talen Maples",
+            "Aidan Rocha",
+            "Bryce Jamison",
+            "Adrien Perez",
+            "Jonas Fjeldberg",
+            "Matthew Mahoney",
+            "Jabari De Coteau"
+          ],
+          "substitutes": [
+            "Sadam Masereka",
+            "Duke Lacroix",
+            "Steven Echevarria",
+            "Frank Daroma",
+            "Garven-Michee",
+            "Colin Shutler"
+          ]
         }
       },
       "headToHead": {
@@ -55205,7 +55254,160 @@
           }
         }
       }
+    },
+    {
+      "id": 485,
+      "title": "RB Bragantino – Bahia",
+      "dateLabel": "5 September",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Brazil. Serie A",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/br.gif",
+      "iconAlt": "Brazil. Serie A",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 20:00\n(Brazil. Serie A)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "RB Bragantino",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/518.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Bahia",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/1066.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700008600/700000351/1_f8075/",
+        "matches": [
+          {
+            "date": "18/03",
+            "competition": "Brazil. Serie A",
+            "homeTeam": "Bahia",
+            "awayTeam": "RB Bragantino",
+            "score": "2:0",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "02/11",
+            "competition": "Brazil. Serie A",
+            "homeTeam": "Bahia",
+            "awayTeam": "RB Bragantino",
+            "score": "2:1",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "12/06",
+            "competition": "Brazil. Serie A",
+            "homeTeam": "RB Bragantino",
+            "awayTeam": "Bahia",
+            "score": "0:3",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "RB Bragantino",
+        "awayTeam": "Bahia",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "30/08",
+                "competition": "Serie A",
+                "opponent": "Sao Paolo",
+                "score": "1:2",
+                "result": "L"
+              },
+              {
+                "date": "23/08",
+                "competition": "Serie A",
+                "opponent": "Gremio-RS",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "19/08",
+                "competition": "Copa Sudamericana",
+                "opponent": "Atletico-MG",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "15/08",
+                "competition": "Serie A",
+                "opponent": "Athletico-PR",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "12/08",
+                "competition": "Copa Sudamericana",
+                "opponent": "Atletico-MG",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 2,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "30/08",
+                "competition": "Serie A",
+                "opponent": "Sao Paolo",
+                "score": "1:2",
+                "result": "L"
+              },
+              {
+                "date": "23/08",
+                "competition": "Serie A",
+                "opponent": "RB Bragantino",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "19/08",
+                "competition": "Copa Sudamericana",
+                "opponent": "Atletico-MG",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "15/08",
+                "competition": "Serie A",
+                "opponent": "Athletico-PR",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "12/08",
+                "competition": "Copa Sudamericana",
+                "opponent": "RB Bragantino",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 2,
+              "L": 2
+            }
+          }
+        }
+      }
     }
   ],
-  "enrichedAt": "2026-09-04T22:02:52.330Z"
+  "enrichedAt": "2026-09-04T22:25:10.260Z"
 }
