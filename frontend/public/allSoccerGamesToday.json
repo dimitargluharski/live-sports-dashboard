@@ -1,14 +1,14 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-04T22:47:22.804Z",
-  "count": 488,
+  "scrapedAt": "2026-09-04T23:09:51.714Z",
+  "count": 490,
   "matches": [
     {
       "id": 1,
       "title": "Bandeirante – Uniao Sao Joao U-20",
       "dateLabel": "5 September",
       "timeLabel": "0:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Brazil. Copa Paulista",
       "iconUrl": "https://cdn.livetv903.me/img/icons/br.gif",
       "iconAlt": "Brazil. Copa Paulista",
@@ -151,15 +151,23 @@
       "title": "Houston Dynamo 2 – Austin II",
       "dateLabel": "5 September",
       "timeLabel": "0:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "USA. MLS Next Pro",
       "iconUrl": "https://cdn.livetv903.me/img/icons/us.gif",
       "iconAlt": "USA. MLS Next Pro",
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 0:00\n(USA. MLS Next Pro)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/Yhd6O3TcNhw?autoplay=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Houston Dynamo 2",
@@ -304,15 +312,23 @@
       "title": "Inter Miami II – Orlando City B",
       "dateLabel": "5 September",
       "timeLabel": "0:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "USA. MLS Next Pro",
       "iconUrl": "https://cdn.livetv903.me/img/icons/us.gif",
       "iconAlt": "USA. MLS Next Pro",
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 0:00\n(USA. MLS Next Pro)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/F_KAvJctX1U?autoplay=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Inter Miami II",
@@ -457,49 +473,79 @@
       "title": "Ferro Carril Oeste – Atletico Mitre",
       "dateLabel": "5 September",
       "timeLabel": "0:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Argentina. Primera Nacional",
       "iconUrl": "https://cdn.livetv903.me/img/icons/ar.gif",
       "iconAlt": "Argentina. Primera Nacional",
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 0:00\n(Argentina. Primera Nacional)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.vdocity.com/1/_Af5CWEGUAYPqtJhbRUSUY9CiYe4ejWfW2JLBFX1mr",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Ferro Carril Oeste",
           "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/1700.gif",
           "startingLineup": [
             "Fernando Monetti",
-            "Matias Kabalin",
             "Angel Gonzalez",
-            "Santiago Garcia",
-            "Sebastian Corda",
-            "Laureano Marra",
-            "Gustavo Canto",
-            "Gino Olguin",
-            "Federico Tevez",
+            "Emiliano Ozuna",
             "Enzo Hoyos",
-            "Emiliano Ozuna"
+            "Federico Tevez",
+            "Gino Olguin",
+            "Gustavo Canto",
+            "Laureano Marra",
+            "Matias Kabalin",
+            "Santiago Garcia",
+            "Sebastian Corda"
           ],
           "substitutes": [
+            "Tiago Esidin Gonzalez",
+            "Emanuel Dening",
+            "Francisco Cuzzani",
+            "Gonzalo Castellani",
+            "Lucas Ruiz",
             "Misael Taron",
             "Nazareno Kihm",
             "Nicolas Gomez",
-            "Pepe Uriel",
-            "Lucas Ruiz",
-            "Gonzalo Castellani",
-            "Francisco Cuzzani",
-            "Emanuel Dening",
-            "Tiago Esidin Gonzalez"
+            "Pepe Uriel"
           ]
         },
         "away": {
           "name": "Atletico Mitre",
           "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/1471.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Ignacio Pietrobono",
+            "Franco Ferrari",
+            "Enzo Avaro",
+            "Daniel Abello",
+            "Brian Mieres",
+            "Juan Alessandroni",
+            "Lautaro Mendoza",
+            "Marcos Machado",
+            "Martin Vazquez",
+            "Mateo Maldonado",
+            "Yonathan Cabral"
+          ],
+          "substitutes": [
+            "Joaquin Ledesma",
+            "Gonzalo Valdivia",
+            "Juan Zarate",
+            "Matias Ferrari",
+            "Maximiliano Romero",
+            "Oscar Garrido",
+            "Segundo Rodriguez",
+            "Alan Lopez",
+            "Agustin Ramirez"
+          ]
         }
       },
       "headToHead": {
@@ -632,15 +678,23 @@
       "title": "Philadelphia II – Columbus Crew II",
       "dateLabel": "5 September",
       "timeLabel": "0:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "USA. MLS Next Pro",
       "iconUrl": "https://cdn.livetv903.me/img/icons/us.gif",
       "iconAlt": "USA. MLS Next Pro",
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 0:00\n(USA. MLS Next Pro)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/H1zGwDaft3w?autoplay=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Philadelphia II",
@@ -785,15 +839,23 @@
       "title": "DC Power (W) – Sporting Jacksonville (W)",
       "dateLabel": "5 September",
       "timeLabel": "0:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "USA. Women. USL",
       "iconUrl": "https://cdn.livetv903.me/img/icons/us.gif",
       "iconAlt": "USA. Women. USL",
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 0:00\n(USA. Women. USL)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/kUAZI0YAACY?autoplay=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "DC Power (W)",
@@ -815,15 +877,23 @@
       "title": "Toronto II – Cincinnati 2",
       "dateLabel": "5 September",
       "timeLabel": "0:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "USA. MLS Next Pro",
       "iconUrl": "https://cdn.livetv903.me/img/icons/us.gif",
       "iconAlt": "USA. MLS Next Pro",
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 0:00\n(USA. MLS Next Pro)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/eLlGBBDLnpI?autoplay=1",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Toronto II",
@@ -968,15 +1038,23 @@
       "title": "Loudoun United – CS Switchbacks",
       "dateLabel": "5 September",
       "timeLabel": "0:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "USA. USL",
       "iconUrl": "https://cdn.livetv903.me/img/icons/usl.gif",
       "iconAlt": "USA. USL",
       "sectionLabel": "5 September",
       "isTopMatch": false,
       "rawDescription": "5 September at 0:00\n(USA. USL)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.vdocity.com/1/_Af5CWEGUAYPqtJhbRUSUY9CiiJTDek2grBz2Ldp5p",
+          "language": null,
+          "bitrate": null
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Loudoun United",
@@ -55695,7 +55773,286 @@
         }
       },
       "headToHead": null
+    },
+    {
+      "id": 489,
+      "title": "Swansea City – Wrexham",
+      "dateLabel": "5 September",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "England. Championship",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/en.gif",
+      "iconAlt": "England. Championship",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 20:00\n(England. Championship)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Swansea City",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/3896.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Wrexham",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/5851.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000390/700015919/1_b90e0/",
+        "matches": [
+          {
+            "date": "13/03",
+            "competition": "England. Championship",
+            "homeTeam": "Wrexham",
+            "awayTeam": "Swansea City",
+            "score": "2:0",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "19/12",
+            "competition": "England. Championship",
+            "homeTeam": "Swansea City",
+            "awayTeam": "Wrexham",
+            "score": "2:1",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Swansea City",
+        "awayTeam": "Wrexham",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "01/09",
+                "competition": "Championship",
+                "opponent": "Watford",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "29/08",
+                "competition": "Championship",
+                "opponent": "Derby County",
+                "score": "3:0",
+                "result": "W"
+              },
+              {
+                "date": "22/08",
+                "competition": "Championship",
+                "opponent": "Sheffield Utd",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "15/08",
+                "competition": "Championship",
+                "opponent": "Stoke City",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "08/08",
+                "competition": "League Cup",
+                "opponent": "Birmingham City",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "01/09",
+                "competition": "Championship",
+                "opponent": "Swansea City",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "29/08",
+                "competition": "Championship",
+                "opponent": "Derby County",
+                "score": "3:0",
+                "result": "W"
+              },
+              {
+                "date": "22/08",
+                "competition": "Championship",
+                "opponent": "Swansea City",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "15/08",
+                "competition": "Championship",
+                "opponent": "Stoke City",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "08/08",
+                "competition": "League Cup",
+                "opponent": "Swansea City",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 490,
+      "title": "Willem II – Excelsior",
+      "dateLabel": "5 September",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Netherlands. Eredivisie",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/nl.gif",
+      "iconAlt": "Netherlands. Eredivisie",
+      "sectionLabel": "5 September",
+      "isTopMatch": false,
+      "rawDescription": "5 September at 20:00\n(Netherlands. Eredivisie)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Willem II",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/30229.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Excelsior",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/30478.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000239/700000563/1_bee03/",
+        "matches": [
+          {
+            "date": "30/12",
+            "competition": "Friendly Match",
+            "homeTeam": "Willem II",
+            "awayTeam": "Excelsior",
+            "score": "3:1",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Willem II",
+        "awayTeam": "Excelsior",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "30/08",
+                "competition": "Eredivisie",
+                "opponent": "Heerenveen",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "15/08",
+                "competition": "Eredivisie",
+                "opponent": "NEC",
+                "score": "1:4",
+                "result": "L"
+              },
+              {
+                "date": "08/08",
+                "competition": "Eredivisie",
+                "opponent": "Go Ahead Eagles",
+                "score": "1:4",
+                "result": "L"
+              },
+              {
+                "date": "01/08",
+                "competition": "Friendly Match",
+                "opponent": "OFI",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "25/07",
+                "competition": "Friendly Match",
+                "opponent": "Mechelen",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "30/08",
+                "competition": "Eredivisie",
+                "opponent": "Willem II",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "15/08",
+                "competition": "Eredivisie",
+                "opponent": "Willem II",
+                "score": "4:1",
+                "result": "W"
+              },
+              {
+                "date": "08/08",
+                "competition": "Eredivisie",
+                "opponent": "Go Ahead Eagles",
+                "score": "1:4",
+                "result": "L"
+              },
+              {
+                "date": "01/08",
+                "competition": "Friendly Match",
+                "opponent": "Willem II",
+                "score": "1:2",
+                "result": "L"
+              },
+              {
+                "date": "25/07",
+                "competition": "Friendly Match",
+                "opponent": "Willem II",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          }
+        }
+      }
     }
   ],
-  "enrichedAt": "2026-09-04T22:47:22.805Z"
+  "enrichedAt": "2026-09-04T23:09:51.715Z"
 }
