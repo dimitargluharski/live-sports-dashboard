@@ -808,5 +808,5 @@ async function scrapeFeedDaysMatches() {
 scrapeFeedDaysMatches().catch((error) => {
   markJobFailed("days", error instanceof Error ? error.message : "Unknown error");
   console.error("Day-matches scraper failed:", error);
-  process.exit(1);
+  process.exitCode = 1;
 });
