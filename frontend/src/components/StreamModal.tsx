@@ -165,13 +165,12 @@ export const StreamModal: React.FC<StreamModalProps> = ({
   const renderTeamBadge = (
     teamName: string,
     visualUrl?: string | null,
-    align: 'left' | 'right' = 'left',
+    accentColor?: string | null,
   ) => {
-    const directionClass = align === 'right' ? 'flex-row-reverse text-right' : 'text-left';
-
     return (
       <div
-        className={`flex w-full min-w-0 items-center gap-2 rounded-lg px-3 py-2 ring-1 sm:rounded-xl sm:px-4 sm:py-2.5 ${teamBadgeClass} ${directionClass}`}
+        className={`flex w-full min-w-0 items-center justify-center gap-2 rounded-lg border border-l-[6px] px-3 py-2 text-center ring-1 sm:rounded-xl sm:px-4 sm:py-2.5 ${isDarkTheme ? 'border-white/5' : 'border-black/5'} ${teamBadgeClass}`}
+        style={{ borderLeftColor: accentColor || undefined }}
       >
         {visualUrl && (
           <img
@@ -215,13 +214,13 @@ export const StreamModal: React.FC<StreamModalProps> = ({
         >
           <div className={`sticky top-0 border-b px-3 py-2 sm:px-4 sm:py-3 ${headerClass}`}>
             <div className="grid min-w-0 grid-cols-1 items-center gap-2 sm:gap-3 md:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] md:gap-4">
-              {renderTeamBadge(resolvedHomeTeam, homeTeamVisual, 'left')}
+              {renderTeamBadge(resolvedHomeTeam, homeTeamVisual, homeTeamColor)}
               {resolvedAwayTeam && (
                 <span className={`mx-auto inline-flex h-9 w-9 items-center justify-center rounded-full border text-sm font-black uppercase shadow-sm ${vsClass}`}>
                   vs
                 </span>
               )}
-              {resolvedAwayTeam ? renderTeamBadge(resolvedAwayTeam, awayTeamVisual, 'right') : <div aria-hidden="true" />}
+              {resolvedAwayTeam ? renderTeamBadge(resolvedAwayTeam, awayTeamVisual, awayTeamColor) : <div aria-hidden="true" />}
             </div>
 
             <div className="pointer-events-none absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-white/10 to-transparent" />
@@ -265,7 +264,7 @@ export const StreamModal: React.FC<StreamModalProps> = ({
                   </div>
                 </div>
 
-                <div className={`mb-4 rounded-2xl p-2 shadow-sm ${isDarkTheme ? 'shadow-black/25' : 'shadow-slate-900/10'}`}>
+                <div className="mb-4 rounded-2xl p-2">
                 <div className="relative overflow-hidden rounded-2xl bg-black">
                   {selectedStreamUnavailable ? (
                     <div className="flex aspect-video flex-col items-center justify-center gap-2 px-6 text-center text-white">

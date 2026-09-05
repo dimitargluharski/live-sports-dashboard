@@ -91,6 +91,7 @@ export const GameCard: React.FC<GameCardProps> = ({
 
   const resolvedHome = homeTeamName || title;
   const resolvedAway = awayTeamName || null;
+
   const formSummary = h2hMatches.reduce(
     (summary, meeting) => ({ ...summary, [meeting.result]: summary[meeting.result] + 1 }),
     { W: 0, D: 0, L: 0 },
