@@ -37,8 +37,23 @@ function isStartedBySchedule(scheduledStartAt?: number, now = Date.now()) {
   return now >= scheduledStartAt && now <= scheduledStartAt + ASSUMED_MATCH_DURATION_MS;
 }
 
+function isEndedBySchedule(scheduledStartAt?: number, now = Date.now()) {
+  if (!scheduledStartAt) return false;
+  return now > scheduledStartAt + ASSUMED_MATCH_DURATION_MS;
+}
+
 function isFreshSourceLive(sourceIsLive?: boolean, sourceStatusAt?: number, now = Date.now()) {
   return Boolean(sourceIsLive && sourceStatusAt && now - sourceStatusAt <= MAX_SOURCE_STATUS_AGE_MS);
+}
+
+function isGameEnded(
+  scheduledStartAt?: number,
+  sourceIsLive?: boolean,
+  sourceStatusAt?: number,
+  now = Date.now(),
+) {
+  if (isFreshSourceLive(sourceIsLive, sourceStatusAt, now)) return false;
+  return isEndedBySchedule(scheduledStartAt, now);
 }
 
 function App() {
@@ -71,10 +86,19 @@ function App() {
                   : 0,
               sourceIsLive: Boolean(game.isLive),
               sourceStatusAt: Number.isFinite(sourceStatusAt) ? sourceStatusAt : undefined,
-              isLive: isFreshSourceLive(
+              isEnded: isGameEnded(
+                parseScheduledStart(game.dateLabel, game.timeLabel)?.getTime(),
                 Boolean(game.isLive),
                 Number.isFinite(sourceStatusAt) ? sourceStatusAt : undefined,
-              ) || isStartedBySchedule(parseScheduledStart(game.dateLabel, game.timeLabel)?.getTime()),
+              ),
+              isLive: !isGameEnded(
+                parseScheduledStart(game.dateLabel, game.timeLabel)?.getTime(),
+                Boolean(game.isLive),
+                Number.isFinite(sourceStatusAt) ? sourceStatusAt : undefined,
+              ) && (isFreshSourceLive(
+                Boolean(game.isLive),
+                Number.isFinite(sourceStatusAt) ? sourceStatusAt : undefined,
+              ) || isStartedBySchedule(parseScheduledStart(game.dateLabel, game.timeLabel)?.getTime())),
               streams: Array.isArray(game.streams) ? game.streams : [],
               headToHead: game.headToHead || null,
               teams: game.teams,
@@ -101,8 +125,10 @@ function App() {
     const updateLiveStatuses = () => {
       setGames((currentGames) => currentGames.map((game) => ({
         ...game,
-        isLive: isFreshSourceLive(game.sourceIsLive, game.sourceStatusAt)
-          || isStartedBySchedule(game.scheduledStartAt),
+        isEnded: isGameEnded(game.scheduledStartAt, game.sourceIsLive, game.sourceStatusAt),
+        isLive: !isGameEnded(game.scheduledStartAt, game.sourceIsLive, game.sourceStatusAt)
+          && (isFreshSourceLive(game.sourceIsLive, game.sourceStatusAt)
+            || isStartedBySchedule(game.scheduledStartAt)),
       })));
     };
 

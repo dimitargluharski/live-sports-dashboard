@@ -20,6 +20,7 @@ export interface Game {
   scheduledStartAt?: number;
   sourceIsLive?: boolean;
   sourceStatusAt?: number;
+  isEnded?: boolean;
   leagueLabel?: string;
   streamCount: number;
   isLive: boolean;
