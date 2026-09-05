@@ -76,6 +76,7 @@ export const GameCard: React.FC<GameCardProps> = ({
   const [isExpanded, setIsExpanded] = useState(false);
   const [activeTab, setActiveTab] = useState<"streams" | "h2h" | "form">("streams");
   const [showStreamModal, setShowStreamModal] = useState(false);
+  const [initialStream, setInitialStream] = useState<Stream | null>(null);
   const hasStreams = streamCount > 0;
   const canWatchStreams = hasStreams && !isEnded;
   const h2hMatches = headToHead?.matches || [];
@@ -160,7 +161,8 @@ export const GameCard: React.FC<GameCardProps> = ({
     );
   };
 
-  const startWatchSession = () => {
+  const startWatchSession = (stream: Stream) => {
+    setInitialStream(stream);
     setShowStreamModal(true);
   };
 
@@ -204,8 +206,10 @@ export const GameCard: React.FC<GameCardProps> = ({
 
   return (
     <article
-      className={`group rounded-lg border border-black/10 border-l-4 px-2.5 py-2 shadow-sm transition-shadow duration-200 hover:shadow-md sm:px-3 ${
-        isDarkTheme ? "border-white/10 bg-[#1b1b1b]" : "bg-white"} ${
+      className={`group rounded-lg border border-l-4 px-2.5 py-2 shadow-sm transition-shadow duration-200 hover:shadow-md sm:px-3 ${
+        isDarkTheme
+          ? isEnded ? "border-white/10 bg-[#171717]" : "border-white/10 bg-[#1b1b1b]"
+          : isEnded ? "border-slate-300 bg-slate-100" : "border-black/10 bg-white"} ${
         isEnded ? (isDarkTheme ? "border-l-slate-700" : "border-l-slate-400") : isLive ? "border-l-rose-500" : isDarkTheme ? "border-l-slate-500" : "border-l-black"
       }`}
     >
@@ -267,7 +271,7 @@ export const GameCard: React.FC<GameCardProps> = ({
       </button>
 
       {isExpanded && canExpand && (
-        <div className={`border-t ${isDarkTheme ? "border-white/10" : "border-black/10"}`}>
+        <div className="mt-2 pt-1">
           <div className={`mb-2 flex gap-1 border-b ${isDarkTheme ? "border-white/10" : "border-black/10"}`}>
             {canWatchStreams && <button type="button" onClick={() => setActiveTab("streams")} className={`cursor-pointer border-b-2 px-3 py-2 text-xs font-black ${visibleTab === "streams" ? "border-emerald-500 text-emerald-600" : "border-transparent text-slate-400"}`}>Streams ({streams.length})</button>}
             {h2hMatches.length > 0 && <button type="button" onClick={() => setActiveTab("h2h")} className={`cursor-pointer border-b-2 px-3 py-2 text-xs font-black ${visibleTab === "h2h" ? "border-blue-500 text-blue-600" : "border-transparent text-slate-400"}`}>H2H ({h2hMatches.length})</button>}
@@ -279,7 +283,7 @@ export const GameCard: React.FC<GameCardProps> = ({
             <span className="inline-flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full bg-rose-500" aria-hidden="true" />Unavailable</span>
           </div>}
           {visibleTab === "streams" && canWatchStreams && <div className="grid gap-2 sm:grid-cols-2">
-            {streams.map((stream) => <button key={stream.id} type="button" onClick={startWatchSession} className={`flex cursor-pointer items-center justify-between border px-3 py-2 text-left transition-colors ${isDarkTheme ? "border-white/10 bg-[#252525] hover:border-white/40 hover:bg-[#303030]" : "border-black/10 bg-[#f2f1ed] hover:border-black hover:bg-white"}`}>
+            {streams.map((stream) => <button key={stream.id} type="button" onClick={() => startWatchSession(stream)} className={`flex cursor-pointer items-center justify-between rounded-md border px-3 py-2 text-left transition-colors ${isDarkTheme ? "border-white/10 bg-[#252525] hover:border-white/40 hover:bg-[#303030]" : "border-black/10 bg-[#f2f1ed] hover:border-black hover:bg-white"}`}>
               <span className="flex min-w-0 items-center gap-2 leading-none">{renderHealthDot(stream)}<span className={`truncate text-sm font-bold ${isDarkTheme ? "text-white" : "text-slate-800"}`}>{stream.label}</span></span>
               <span className={`ml-3 shrink-0 text-xs font-bold ${isDarkTheme ? "text-slate-400" : "text-slate-500"}`}>Watch →</span>
             </button>)}
@@ -300,12 +304,12 @@ export const GameCard: React.FC<GameCardProps> = ({
             </div>
           </div>}
           {visibleTab === "form" && hasForm && headToHead?.form && <div>
-            <div className={`mb-4 grid gap-2 border-l-2 px-3 py-2 ${isDarkTheme ? "border-amber-400 bg-amber-400/10" : "border-amber-500 bg-amber-50"}`}>
+            <div className={`mb-4 grid gap-2 rounded-md border-l-2 px-3 py-2 ${isDarkTheme ? "border-amber-400 bg-amber-400/10" : "border-amber-500 bg-amber-50"}`}>
               {[getFormInsight(resolvedHome, headToHead.form.home), getFormInsight(resolvedAway || "Away team", headToHead.form.away)].filter(Boolean).map((insight) => <p key={insight} className={`text-xs leading-relaxed ${isDarkTheme ? "text-slate-200" : "text-slate-700"}`}>{renderFormInsight(insight as string)}</p>)}
             </div>
             <div className="grid gap-3 sm:grid-cols-2">
               {([[resolvedHome, headToHead.form.home], [resolvedAway, headToHead.form.away]] as Array<[string | null, TeamForm | undefined]>).map(([team, teamForm]) => team && teamForm ? (
-                <div key={team} className={`border p-3 shadow-sm ${isDarkTheme ? "border-white/10 bg-[#252525]" : "border-black/10 bg-white"}`}>
+                <div key={team} className={`rounded-md border p-3 shadow-sm ${isDarkTheme ? "border-white/10 bg-[#252525]" : "border-black/10 bg-white"}`}>
                   <div className="mb-3 flex items-center justify-between gap-2">
                     <div className="flex min-w-0 items-center gap-2">
                       {renderTeamVisual(team === resolvedHome ? homeLogoUrl : awayLogoUrl, team)}
@@ -332,8 +336,11 @@ export const GameCard: React.FC<GameCardProps> = ({
         homeTeamVisual={homeLogoUrl || flagUrl || null}
         awayTeamVisual={awayLogoUrl || flagUrl || null}
         streams={streams}
+        initialStream={initialStream}
+        isDarkTheme={isDarkTheme}
         onClose={() => {
           setShowStreamModal(false);
+          setInitialStream(null);
         }}
       />
     </article>
