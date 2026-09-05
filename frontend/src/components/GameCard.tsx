@@ -50,6 +50,7 @@ interface GameCardProps {
   leagueLabel?: string;
   streamCount: number;
   isLive: boolean;
+  isEnded?: boolean;
   streams?: Stream[];
   headToHead?: HeadToHead | null;
   isDarkTheme?: boolean;
@@ -63,6 +64,7 @@ export const GameCard: React.FC<GameCardProps> = ({
   timeLabel,
   streamCount,
   isLive,
+  isEnded = false,
   streams = [],
   headToHead = null,
   isDarkTheme = false,
@@ -71,10 +73,11 @@ export const GameCard: React.FC<GameCardProps> = ({
   const [activeTab, setActiveTab] = useState<"streams" | "h2h" | "form">("streams");
   const [showStreamModal, setShowStreamModal] = useState(false);
   const hasStreams = streamCount > 0;
+  const canWatchStreams = hasStreams && !isEnded;
   const h2hMatches = headToHead?.matches || [];
   const hasForm = Boolean(headToHead?.form?.home?.matches?.length || headToHead?.form?.away?.matches?.length);
-  const canExpand = hasStreams || h2hMatches.length > 0 || hasForm;
-  const visibleTab = activeTab === "streams" && !hasStreams
+  const canExpand = canWatchStreams || h2hMatches.length > 0 || hasForm;
+  const visibleTab = activeTab === "streams" && !canWatchStreams
     ? h2hMatches.length > 0 ? "h2h" : "form"
     : activeTab;
   const [homeTeamName, awayTeamName] = title
@@ -188,7 +191,7 @@ export const GameCard: React.FC<GameCardProps> = ({
     <article
       className={`group rounded-lg border border-black/10 border-l-4 px-2.5 py-2 shadow-sm transition-shadow duration-200 hover:shadow-md sm:px-3 ${
         isDarkTheme ? "border-white/10 bg-[#1b1b1b]" : "bg-white"} ${
-        isLive ? "border-l-rose-500" : isDarkTheme ? "border-l-slate-500" : "border-l-black"
+        isEnded ? (isDarkTheme ? "border-l-slate-700" : "border-l-slate-400") : isLive ? "border-l-rose-500" : isDarkTheme ? "border-l-slate-500" : "border-l-black"
       }`}
     >
       <button
@@ -199,9 +202,11 @@ export const GameCard: React.FC<GameCardProps> = ({
         className={`flex w-full flex-col gap-2 text-left lg:flex-row lg:items-center lg:justify-between ${canExpand ? "cursor-pointer" : "cursor-default"}`}
       >
         <div className="flex min-w-0 flex-1 items-center gap-2.5">
-          {(isLive || timeLabel) && (
+          {(isLive || isEnded || timeLabel) && (
             <span className={`inline-flex h-10 w-20 shrink-0 items-center justify-center gap-1.5 rounded-md border px-2 text-sm font-black tabular-nums ${isLive ? "border-rose-500/30 bg-rose-500 text-white" : isDarkTheme ? "border-white/10 bg-[#252525] text-white" : "border-black/10 bg-[#f2f1ed] text-slate-950"}`}>
-              {isLive ? (
+              {isEnded ? (
+                <span className="text-xs font-black tracking-wide">ENDED</span>
+              ) : isLive ? (
                 <span className="flex flex-col items-center gap-0.5 leading-none">
                   <span className="inline-flex items-center gap-1 text-sm font-black tracking-wide">
                     <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-white" aria-hidden="true" />
@@ -235,8 +240,8 @@ export const GameCard: React.FC<GameCardProps> = ({
           </div>
         </div>
         <div className={`flex flex-wrap items-center gap-2 border-t pt-2 lg:border-l lg:border-t-0 lg:pl-3 lg:pt-0 ${isDarkTheme ? "border-white/10" : "border-black/10"}`}>
-          <span className={`text-xs font-bold ${hasStreams ? "text-emerald-700" : isDarkTheme ? "text-slate-400" : "text-slate-500"}`}>
-            <span className="inline-flex items-center gap-1.5"><svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" /><path strokeLinecap="round" d="M8 21h8M12 19v2M8 9h.01M12 9h.01M16 9h.01" /></svg>{hasStreams ? `${streamCount} stream${streamCount !== 1 ? "s" : ""}` : "No stream"}</span>
+          <span className={`text-xs font-bold ${canWatchStreams ? "text-emerald-700" : isDarkTheme ? "text-slate-400" : "text-slate-500"}`}>
+            <span className="inline-flex items-center gap-1.5"><svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" /><path strokeLinecap="round" d="M8 21h8M12 19v2M8 9h.01M12 9h.01M16 9h.01" /></svg>{isEnded ? "Stream over" : hasStreams ? `${streamCount} stream${streamCount !== 1 ? "s" : ""}` : "No stream"}</span>
           </span>
           <span className="inline-flex h-8 w-8 items-center justify-center text-slate-600" aria-hidden="true">
             <svg className={`h-5 w-5 transition-transform ${isExpanded ? "rotate-180" : ""} ${isDarkTheme ? "text-slate-300" : "text-slate-600"}`} viewBox="0 0 20 20" fill="currentColor">
@@ -249,11 +254,11 @@ export const GameCard: React.FC<GameCardProps> = ({
       {isExpanded && canExpand && (
         <div className={`mt-2 border-t pt-2 ${isDarkTheme ? "border-white/10" : "border-black/10"}`}>
           <div className={`mb-2 flex gap-1 border-b ${isDarkTheme ? "border-white/10" : "border-black/10"}`}>
-            {hasStreams && <button type="button" onClick={() => setActiveTab("streams")} className={`cursor-pointer border-b-2 px-3 py-2 text-xs font-black ${visibleTab === "streams" ? "border-emerald-500 text-emerald-600" : "border-transparent text-slate-400"}`}>Streams ({streams.length})</button>}
+            {canWatchStreams && <button type="button" onClick={() => setActiveTab("streams")} className={`cursor-pointer border-b-2 px-3 py-2 text-xs font-black ${visibleTab === "streams" ? "border-emerald-500 text-emerald-600" : "border-transparent text-slate-400"}`}>Streams ({streams.length})</button>}
             {h2hMatches.length > 0 && <button type="button" onClick={() => setActiveTab("h2h")} className={`cursor-pointer border-b-2 px-3 py-2 text-xs font-black ${visibleTab === "h2h" ? "border-blue-500 text-blue-600" : "border-transparent text-slate-400"}`}>H2H ({h2hMatches.length})</button>}
             {hasForm && <button type="button" onClick={() => setActiveTab("form")} className={`cursor-pointer border-b-2 px-3 py-2 text-xs font-black ${visibleTab === "form" ? "border-amber-500 text-amber-600" : "border-transparent text-slate-400"}`}>Form</button>}
           </div>
-          {visibleTab === "streams" && hasStreams && <div className="grid gap-2 sm:grid-cols-2">
+          {visibleTab === "streams" && canWatchStreams && <div className="grid gap-2 sm:grid-cols-2">
             {streams.map((stream) => <button key={stream.id} type="button" onClick={startWatchSession} className={`flex cursor-pointer items-center justify-between border px-3 py-2 text-left transition-colors ${isDarkTheme ? "border-white/10 bg-[#252525] hover:border-white/40 hover:bg-[#303030]" : "border-black/10 bg-[#f2f1ed] hover:border-black hover:bg-white"}`}>
               <span className={`truncate text-sm font-bold ${isDarkTheme ? "text-white" : "text-slate-800"}`}>{stream.label}</span>
               <span className={`ml-3 shrink-0 text-xs font-bold ${isDarkTheme ? "text-slate-400" : "text-slate-500"}`}>Watch →</span>

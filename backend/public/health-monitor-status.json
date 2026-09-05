@@ -1,0 +1,40 @@
+{
+  "status": "healthy",
+  "checkedAt": "2026-09-05T06:25:23.143Z",
+  "checks": {
+    "website": {
+      "status": "ok",
+      "httpStatus": 200,
+      "url": "https://livetv.sx/enx/allupcomingsports/1/"
+    },
+    "json": {
+      "status": "ok",
+      "maxAgeMinutes": 30,
+      "match": true,
+      "files": {
+        "backend": {
+          "exists": true,
+          "modifiedAt": "2026-09-05T06:25:22.113Z",
+          "ageMinutes": 0,
+          "bytes": 1647465,
+          "validJson": true
+        },
+        "frontend": {
+          "exists": true,
+          "modifiedAt": "2026-09-05T06:25:22.765Z",
+          "ageMinutes": 0,
+          "bytes": 1647465,
+          "validJson": true
+        }
+      }
+    },
+    "scraper": {
+      "status": "ok",
+      "jobStatus": "success",
+      "finishedAt": "2026-09-05T06:25:22.114Z",
+      "ageMinutes": 0,
+      "count": 500,
+      "error": null
+    }
+  }
+}

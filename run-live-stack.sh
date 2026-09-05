@@ -17,4 +17,4 @@ cd "$ROOT_DIR"
 ./hydrate-feed.sh --watch --interval 900 &
 HYDRATE_PID=$!
 
-"$ROOT_DIR/frontend/node_modules/.bin/vite" --host 0.0.0.0
+pnpm --dir "$ROOT_DIR/frontend" run dev --host 0.0.0.0
