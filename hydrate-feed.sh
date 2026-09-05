@@ -151,6 +151,7 @@ const VOLATILE_KEYS = new Set([
   "scrapedAt",
   "enrichedAt",
   "sourceFile",
+  "healthCheckedAt",
 ]);
 
 function normalize(value) {
@@ -205,7 +206,7 @@ NODE
 run_once() {
   local did_update=0
 
-  printf "\n[1/3] Running unified scraper (streams + logos + lineups + sanitize)...\n"
+  printf "\n[1/5] Running unified scraper (streams + logos + lineups + sanitize)...\n"
   (
     cd "$BACKEND_DIR"
     node scripts/scrape-soccer-games-today.js
@@ -216,7 +217,13 @@ run_once() {
     exit 1
   fi
 
-  printf "\n[2/3] Checking for meaningful JSON changes...\n"
+  printf "\n[2/4] Checking stream links...\n"
+  (
+    cd "$BACKEND_DIR"
+    node scripts/stream-health-check.js
+  )
+
+  printf "\n[3/4] Checking for meaningful JSON changes...\n"
   if json_changed_meaningfully "$FRONTEND_JSON" "$ENRICHED_JSON"; then
     cp "$ENRICHED_JSON" "$FRONTEND_JSON.$$.tmp"
     mv -f "$FRONTEND_JSON.$$.tmp" "$FRONTEND_JSON"
@@ -226,18 +233,20 @@ run_once() {
     echo "No meaningful data changes. Frontend JSON unchanged."
   fi
 
-  printf "\n[3/4] Running post-hydration health monitor...\n"
-  (
+  printf "\n[4/5] Running post-hydration health monitor...\n"
+  if ! (
     cd "$BACKEND_DIR"
     node scripts/health-check-monitor.js
-  )
+  ); then
+    echo "WARNING: Health monitor reported a problem. Feed update completed; inspect backend/public/health-monitor-status.json."
+  fi
 
   if ! git_sync_json "$did_update"; then
     echo "ERROR: Git sync failed."
     return 1
   fi
 
-  printf "\n[4/4] Done.\n"
+  printf "\n[5/5] Done.\n"
 }
 
 if [[ "$WATCH_MODE" -eq 1 ]]; then

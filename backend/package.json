@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "scrape:soccer-today": "node scripts/scrape-soccer-games-today.js",
+    "health:streams": "node scripts/stream-health-check.js",
     "health": "node scripts/health-check.js",
     "health:monitor": "node scripts/health-check-monitor.js",
-    "check": "node --check scripts/scrape-soccer-games-today.js"
+    "check": "node --check scripts/scrape-soccer-games-today.js && node --check scripts/stream-health-check.js"
   },
   "keywords": [],
   "author": "",
