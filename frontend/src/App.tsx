@@ -105,7 +105,9 @@ function App() {
             }))
           : [];
 
-        const previewGames: Game[] = new URLSearchParams(window.location.search).get("previewEnded") === "1"
+        const searchParams = new URLSearchParams(window.location.search);
+        const isTestMode = searchParams.has("tests");
+        const previewGames: Game[] = isTestMode
           ? [{
               id: -1,
               title: "Preview United – Finished City",
