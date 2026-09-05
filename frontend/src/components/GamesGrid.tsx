@@ -268,7 +268,7 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
               >
                 i
               </button>
-              <span id="stream-disclaimer" role="tooltip" className={isDarkTheme ? "pointer-events-none absolute right-0 top-7 z-20 hidden w-72 border border-white/15 bg-[#252525] p-3 text-left text-xs font-normal leading-relaxed text-slate-200 shadow-xl group-hover:block group-focus-within:block" : "pointer-events-none absolute right-0 top-7 z-20 hidden w-72 border border-black/10 bg-white p-3 text-left text-xs font-normal leading-relaxed text-slate-600 shadow-xl group-hover:block group-focus-within:block"}>
+              <span id="stream-disclaimer" role="tooltip" className={isDarkTheme ? "pointer-events-none absolute right-0 top-7 z-20 hidden w-72 rounded-md border border-white/15 bg-[#252525] p-3 text-left text-xs font-normal leading-relaxed text-slate-200 shadow-xl group-hover:block group-focus-within:block" : "pointer-events-none absolute right-0 top-7 z-20 hidden w-72 rounded-md border border-black/10 bg-white p-3 text-left text-xs font-normal leading-relaxed text-slate-600 shadow-xl group-hover:block group-focus-within:block"}>
                 Stream content is provided by external sources. sportix.live does not host, store, or control the third-party streams. Availability and legality may vary by source and location.
               </span>
             </div>
@@ -302,7 +302,7 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Quick search: team, league..."
-              className={isDarkTheme ? "w-full border border-white/15 bg-[#1b1b1b] px-4 py-2.5 text-sm text-white outline-none transition-all placeholder:text-slate-500 focus:border-white/50" : "w-full border border-black/15 bg-white px-4 py-2.5 text-sm text-slate-800 outline-none transition-all placeholder:text-slate-400 focus:border-slate-500"}
+              className={isDarkTheme ? "w-full rounded-md border border-white/15 bg-[#1b1b1b] px-4 py-2.5 text-sm text-white outline-none transition-all placeholder:text-slate-500 focus:border-white/50" : "w-full rounded-md border border-black/15 bg-white px-4 py-2.5 text-sm text-slate-800 outline-none transition-all placeholder:text-slate-400 focus:border-slate-500"}
             />
           </div>
         </div>
@@ -359,7 +359,7 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
           })}
         </div>
       ) : (
-        <div className="rounded-2xl border border-dashed border-slate-300 bg-white/70 py-16 text-center">
+        <div className="rounded-2xl bg-white/70 py-16 text-center">
           <p className="text-lg font-medium text-slate-500">
             No games match your filters
           </p>
