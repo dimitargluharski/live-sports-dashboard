@@ -30,6 +30,10 @@ export interface Game {
     url: string;
     language?: string | null;
     bitrate?: string | null;
+    healthStatus?: 'healthy' | 'failed' | 'unknown';
+    healthCheckedAt?: string;
+    healthHttpStatus?: number;
+    healthError?: string;
   }>;
   headToHead?: {
     homeTeam?: string;

@@ -11,10 +11,11 @@
     "hydrate:watch:15": "bash ./hydrate-feed.sh --watch --interval 900",
     "hydrate:watch:git": "bash ./hydrate-feed.sh --watch --interval 900 --git-sync",
     "health": "pnpm --dir backend run health",
+    "health:streams": "pnpm --dir backend run health:streams",
     "health:monitor": "pnpm --dir backend run health:monitor",
     "frontend": "pnpm --dir frontend run dev --host 0.0.0.0",
     "frontend:dev": "pnpm --dir frontend run dev --host 0.0.0.0",
     "frontend:build": "npm --prefix frontend run build",
-    "backend:check": "node --check backend/scripts/scrape-soccer-games-today.js"
+    "backend:check": "node --check backend/scripts/scrape-soccer-games-today.js && node --check backend/scripts/stream-health-check.js"
   }
 }

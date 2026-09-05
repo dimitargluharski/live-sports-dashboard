@@ -7,6 +7,10 @@ interface Stream {
   url: string;
   language?: string | null;
   bitrate?: string | null;
+  healthStatus?: "healthy" | "failed" | "unknown";
+  healthCheckedAt?: string;
+  healthHttpStatus?: number;
+  healthError?: string;
 }
 
 interface HeadToHead {
@@ -187,6 +191,17 @@ export const GameCard: React.FC<GameCardProps> = ({
     );
   };
 
+  const renderHealthDot = (stream: Stream) => {
+    const isHealthy = stream.healthStatus === "healthy";
+    const label = isHealthy ? "Available stream" : "Unavailable stream";
+
+    return <span
+      title={label}
+      aria-label={label}
+      className={`inline-block h-2.5 w-2.5 shrink-0 rounded-full ${isHealthy ? "bg-emerald-500" : "bg-rose-500"}`}
+    />;
+  };
+
   return (
     <article
       className={`group rounded-lg border border-black/10 border-l-4 px-2.5 py-2 shadow-sm transition-shadow duration-200 hover:shadow-md sm:px-3 ${
@@ -252,15 +267,20 @@ export const GameCard: React.FC<GameCardProps> = ({
       </button>
 
       {isExpanded && canExpand && (
-        <div className={`mt-2 border-t pt-2 ${isDarkTheme ? "border-white/10" : "border-black/10"}`}>
+        <div className={`border-t ${isDarkTheme ? "border-white/10" : "border-black/10"}`}>
           <div className={`mb-2 flex gap-1 border-b ${isDarkTheme ? "border-white/10" : "border-black/10"}`}>
             {canWatchStreams && <button type="button" onClick={() => setActiveTab("streams")} className={`cursor-pointer border-b-2 px-3 py-2 text-xs font-black ${visibleTab === "streams" ? "border-emerald-500 text-emerald-600" : "border-transparent text-slate-400"}`}>Streams ({streams.length})</button>}
             {h2hMatches.length > 0 && <button type="button" onClick={() => setActiveTab("h2h")} className={`cursor-pointer border-b-2 px-3 py-2 text-xs font-black ${visibleTab === "h2h" ? "border-blue-500 text-blue-600" : "border-transparent text-slate-400"}`}>H2H ({h2hMatches.length})</button>}
             {hasForm && <button type="button" onClick={() => setActiveTab("form")} className={`cursor-pointer border-b-2 px-3 py-2 text-xs font-black ${visibleTab === "form" ? "border-amber-500 text-amber-600" : "border-transparent text-slate-400"}`}>Form</button>}
           </div>
+          {visibleTab === "streams" && canWatchStreams && <div className={`mb-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-[10px] font-semibold ${isDarkTheme ? "text-slate-400" : "text-slate-500"}`} aria-label="Stream status legend">
+            <span className="font-black uppercase tracking-[0.08em]">Stream status</span>
+            <span className="inline-flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full bg-emerald-500" aria-hidden="true" />Available</span>
+            <span className="inline-flex items-center gap-1"><span className="inline-block h-2 w-2 rounded-full bg-rose-500" aria-hidden="true" />Unavailable</span>
+          </div>}
           {visibleTab === "streams" && canWatchStreams && <div className="grid gap-2 sm:grid-cols-2">
             {streams.map((stream) => <button key={stream.id} type="button" onClick={startWatchSession} className={`flex cursor-pointer items-center justify-between border px-3 py-2 text-left transition-colors ${isDarkTheme ? "border-white/10 bg-[#252525] hover:border-white/40 hover:bg-[#303030]" : "border-black/10 bg-[#f2f1ed] hover:border-black hover:bg-white"}`}>
-              <span className={`truncate text-sm font-bold ${isDarkTheme ? "text-white" : "text-slate-800"}`}>{stream.label}</span>
+              <span className="flex min-w-0 items-center gap-2"><span className={`truncate text-sm font-bold ${isDarkTheme ? "text-white" : "text-slate-800"}`}>{stream.label}</span>{renderHealthDot(stream)}</span>
               <span className={`ml-3 shrink-0 text-xs font-bold ${isDarkTheme ? "text-slate-400" : "text-slate-500"}`}>Watch →</span>
             </button>)}
           </div>}

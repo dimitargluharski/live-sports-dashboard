@@ -143,12 +143,34 @@ function checkScraperStatus() {
   }
 }
 
+function checkStreamHealth() {
+  try {
+    const payload = readJson(backendJsonPath);
+    const streams = (Array.isArray(payload.matches) ? payload.matches : [])
+      .flatMap((match) => Array.isArray(match.streams) ? match.streams : []);
+    const healthy = streams.filter((stream) => stream.healthStatus === "healthy").length;
+    const failed = streams.filter((stream) => stream.healthStatus === "failed").length;
+    const unknown = streams.length - healthy - failed;
+
+    return {
+      status: failed === 0 && unknown === 0 ? "ok" : "failed",
+      total: streams.length,
+      healthy,
+      failed,
+      unknown,
+    };
+  } catch (error) {
+    return { status: "failed", total: 0, healthy: 0, failed: 0, unknown: 0, error: error.message };
+  }
+}
+
 async function run() {
   const result = { status: "failed", checkedAt: new Date().toISOString(), checks: {} };
   try {
     result.checks.website = await checkWebsite();
     result.checks.json = checkJsonFiles();
     result.checks.scraper = checkScraperStatus();
+    result.checks.streams = checkStreamHealth();
     const checksPassed = Object.values(result.checks).every((check) => check.status === "ok");
     result.status = checksPassed ? "healthy" : "failed";
     if (!checksPassed) throw new Error("One or more health checks failed");

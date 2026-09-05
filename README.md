@@ -33,6 +33,8 @@
   - Health checks automatically send their result through a separate Discord bot using `DISCORD_HEALTHCHECK_BOT_TOKEN=<health-bot-token>` and `DISCORD_HEALTHCHECK_CHANNEL_ID=<health-channel-id>` from `backend/.env`.
   - The health bot must be invited with `View Channel`, `Send Messages`, and `Embed Links` permissions. `DISCORD_HEALTHCHECK_WEBHOOK_URL` is supported as an alternative.
   - Run `pnpm run health:monitor` to check the live website, the last scraper result, JSON freshness, and that the frontend JSON matches the backend JSON.
+  - Stream links are checked during every hydrate cycle. HTTP iframe/video links must return 2xx; `.m3u8` links must return a valid HLS playlist. Results are stored as `healthStatus` on each stream and shown as green/red dots in the frontend.
+  - Run `pnpm run health:streams` to check the current backend feed without scraping new matches. Use `STREAM_HEALTH_TIMEOUT_MS` and `STREAM_HEALTH_CONCURRENCY` in `backend/.env` to tune the checks.
   - The monitor writes to `backend/public/health-monitor-status.json`; set `HEALTHCHECK_MAX_JSON_AGE_MINUTES` to change the default 30-minute freshness limit.
   - The scraper feed window defaults to two days through `FEED_DAYS_WINDOW=2`; matches outside that window are removed from the next generated JSON update.
 
@@ -67,6 +69,9 @@
 
 - Check backend scraper syntax:
   - `pnpm run backend:check`
+
+- Check current stream links without scraping:
+  - `pnpm run health:streams`
 
 ## Notes
 
