@@ -198,7 +198,7 @@ export const GameCard: React.FC<GameCardProps> = ({
     return <span
       title={label}
       aria-label={label}
-      className={`inline-block h-2.5 w-2.5 shrink-0 rounded-full ${isHealthy ? "bg-emerald-500" : "bg-rose-500"}`}
+      className={`inline-flex h-2.5 w-2.5 shrink-0 items-center justify-center rounded-full ${isHealthy ? "bg-emerald-500" : "bg-rose-500"}`}
     />;
   };
 
@@ -280,7 +280,7 @@ export const GameCard: React.FC<GameCardProps> = ({
           </div>}
           {visibleTab === "streams" && canWatchStreams && <div className="grid gap-2 sm:grid-cols-2">
             {streams.map((stream) => <button key={stream.id} type="button" onClick={startWatchSession} className={`flex cursor-pointer items-center justify-between border px-3 py-2 text-left transition-colors ${isDarkTheme ? "border-white/10 bg-[#252525] hover:border-white/40 hover:bg-[#303030]" : "border-black/10 bg-[#f2f1ed] hover:border-black hover:bg-white"}`}>
-              <span className="flex min-w-0 items-center gap-2"><span className={`truncate text-sm font-bold ${isDarkTheme ? "text-white" : "text-slate-800"}`}>{stream.label}</span>{renderHealthDot(stream)}</span>
+              <span className="flex min-w-0 items-center gap-2 leading-none">{renderHealthDot(stream)}<span className={`truncate text-sm font-bold ${isDarkTheme ? "text-white" : "text-slate-800"}`}>{stream.label}</span></span>
               <span className={`ml-3 shrink-0 text-xs font-bold ${isDarkTheme ? "text-slate-400" : "text-slate-500"}`}>Watch →</span>
             </button>)}
           </div>}
