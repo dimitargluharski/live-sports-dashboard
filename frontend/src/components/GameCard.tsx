@@ -182,13 +182,13 @@ export const GameCard: React.FC<GameCardProps> = ({
         <img
           src={visualUrl}
           alt={`${teamName} emblem`}
-          className="h-8 w-8 rounded-full border border-slate-200 bg-white p-1 object-contain"
+          className={`h-8 w-8 rounded-full border p-1 object-contain ${isEnded ? isDarkTheme ? "border-white/10 bg-[#1b1b1b] opacity-60 grayscale" : "border-stone-400 bg-stone-200 opacity-70 grayscale" : "border-slate-200 bg-white"}`}
         />
       );
     }
 
     return (
-      <span className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 bg-slate-100 text-xs font-bold text-slate-600">
+      <span className={`inline-flex h-8 w-8 items-center justify-center rounded-full border text-xs font-bold ${isEnded ? isDarkTheme ? "border-white/10 bg-[#1b1b1b] text-slate-500" : "border-stone-400 bg-stone-200 text-stone-500" : "border-slate-200 bg-slate-100 text-slate-600"}`}>
         {teamName.slice(0, 2).toUpperCase()}
       </span>
     );
@@ -209,9 +209,9 @@ export const GameCard: React.FC<GameCardProps> = ({
     <article
       className={`group rounded-lg border border-l-4 px-2.5 py-2 shadow-sm transition-shadow duration-200 hover:shadow-md sm:px-3 ${
         isDarkTheme
-          ? isEnded ? "border-white/10 bg-[#171717]" : "border-white/10 bg-[#1b1b1b]"
-          : isEnded ? "border-slate-300 bg-slate-100" : "border-black/10 bg-white"} ${
-        isEnded ? (isDarkTheme ? "border-l-slate-700" : "border-l-slate-400") : isLive ? "border-l-rose-500" : isDarkTheme ? "border-l-slate-500" : "border-l-black"
+          ? isEnded ? "border-white/15 bg-[#121212]" : "border-white/10 bg-[#1b1b1b]"
+          : isEnded ? "border-stone-500 bg-stone-300" : "border-black/10 bg-white"} ${
+        isEnded ? (isDarkTheme ? "border-l-slate-700" : "border-l-stone-700") : isLive ? "border-l-rose-500" : isDarkTheme ? "border-l-slate-500" : "border-l-black"
       }`}
     >
       <button
@@ -223,7 +223,7 @@ export const GameCard: React.FC<GameCardProps> = ({
       >
         <div className="flex min-w-0 flex-1 items-center gap-2.5">
           {(isLive || isEnded || timeLabel) && (
-            <span className={`inline-flex h-10 w-20 shrink-0 items-center justify-center gap-1.5 rounded-md border px-2 text-sm font-black tabular-nums ${isLive ? "border-rose-500/30 bg-rose-500 text-white" : isDarkTheme ? "border-white/10 bg-[#252525] text-white" : "border-black/10 bg-[#f2f1ed] text-slate-950"}`}>
+            <span className={`inline-flex h-10 w-20 shrink-0 items-center justify-center gap-1.5 rounded-md border px-2 text-sm font-black tabular-nums ${isLive ? "border-rose-500/30 bg-rose-500 text-white" : isEnded ? isDarkTheme ? "border-white/20 bg-[#252525] text-slate-200" : "border-stone-500 bg-stone-400 text-stone-900" : isDarkTheme ? "border-white/10 bg-[#252525] text-white" : "border-black/10 bg-[#f2f1ed] text-slate-950"}`}>
               {isEnded ? (
                 <span className="text-xs font-black tracking-wide">ENDED</span>
               ) : isLive ? (
@@ -247,14 +247,14 @@ export const GameCard: React.FC<GameCardProps> = ({
               {renderTeamVisual(homeLogoUrl, resolvedHome)}
               <div className="min-w-0">
                 <span className={`block text-[8px] font-bold uppercase tracking-[0.1em] ${isDarkTheme ? "text-slate-500" : "text-slate-400"}`}>Home</span>
-                <h3 className={`truncate text-sm font-extrabold sm:text-base ${isDarkTheme ? "text-white" : "text-slate-950"}`}>{resolvedHome}</h3>
+                <h3 className={`truncate text-sm font-extrabold sm:text-base ${isEnded ? isDarkTheme ? "text-slate-400" : "text-stone-700" : isDarkTheme ? "text-white" : "text-slate-950"}`}>{resolvedHome}</h3>
               </div>
             </div>
             {resolvedAway && <div className="flex min-w-0 items-center gap-2">
               {renderTeamVisual(awayLogoUrl, resolvedAway)}
               <div className="min-w-0">
                 <span className={`block text-[8px] font-bold uppercase tracking-[0.1em] ${isDarkTheme ? "text-slate-500" : "text-slate-400"}`}>Away</span>
-                <h3 className={`truncate text-sm font-extrabold sm:text-base ${isDarkTheme ? "text-white" : "text-slate-950"}`}>{resolvedAway}</h3>
+                <h3 className={`truncate text-sm font-extrabold sm:text-base ${isEnded ? isDarkTheme ? "text-slate-400" : "text-stone-700" : isDarkTheme ? "text-white" : "text-slate-950"}`}>{resolvedAway}</h3>
               </div>
             </div>}
           </div>

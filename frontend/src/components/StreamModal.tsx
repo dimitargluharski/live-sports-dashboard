@@ -209,7 +209,7 @@ export const StreamModal: React.FC<StreamModalProps> = ({
           role="dialog"
           aria-modal="true"
           aria-label={`${gameTitle} stream player`}
-          className={`flex max-h-[calc(100dvh-1rem)] w-full flex-col overflow-y-auto rounded-xl border shadow-2xl shadow-slate-900/20 backdrop-blur sm:max-h-[90vh] sm:rounded-2xl ${modalSurfaceClass}`}
+          className={`flex max-h-[calc(100dvh-1rem)] w-full flex-col overflow-hidden rounded-xl border shadow-2xl shadow-slate-900/20 backdrop-blur sm:max-h-[90vh] sm:rounded-2xl ${modalSurfaceClass}`}
           onClick={(e) => e.stopPropagation()}
         >
           <div className={`sticky top-0 border-b px-3 py-2 sm:px-4 sm:py-3 ${headerClass}`}>
@@ -226,7 +226,7 @@ export const StreamModal: React.FC<StreamModalProps> = ({
             <div className="pointer-events-none absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-white/10 to-transparent" />
           </div>
 
-          <div className="flex-1 overflow-y-auto p-3 sm:p-6" style={headerTintStyle}>
+          <div className="flex-1 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden p-3 sm:p-6" style={headerTintStyle}>
             {selectedStream ? (
               <>
                 <div className="mx-2 mb-2 flex flex-wrap items-center justify-between gap-2 px-0 py-0">

@@ -105,7 +105,26 @@ function App() {
             }))
           : [];
 
-        setGames(normalizedGames);
+        const previewGames: Game[] = new URLSearchParams(window.location.search).get("previewEnded") === "1"
+          ? [{
+              id: -1,
+              title: "Preview United – Finished City",
+              dateLabel: "1 September",
+              timeLabel: "00:00",
+              scheduledStartAt: parseScheduledStart("1 September", "00:00")?.getTime(),
+              leagueLabel: "Demo. Ended match preview",
+              streamCount: 0,
+              isLive: false,
+              isEnded: true,
+              streams: [],
+              teams: {
+                home: { name: "Preview United" },
+                away: { name: "Finished City" },
+              },
+            }]
+          : [];
+
+        setGames([...normalizedGames, ...previewGames]);
 
       })
       .catch((error) => {

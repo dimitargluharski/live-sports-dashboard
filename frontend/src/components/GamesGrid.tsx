@@ -142,7 +142,6 @@ const COUNTRY_CODES: Record<string, string> = {
 const THEME_STORAGE_KEY = 'sportix-theme';
 const LIVE_FILTER_STORAGE_KEY = 'sportix-filter-live';
 const STREAMS_FILTER_STORAGE_KEY = 'sportix-filter-streams';
-
 function extractCountryFromLeague(leagueLabel?: string): string | null {
   if (!leagueLabel) return null;
   const firstToken = leagueLabel.split('.')[0]?.trim();
@@ -150,9 +149,44 @@ function extractCountryFromLeague(leagueLabel?: string): string | null {
   return firstToken;
 }
 
+function isQualificationLeague(leagueLabel: string): boolean {
+  return /\bqualifications?\b/i.test(leagueLabel);
+}
+
 function getCountryFlagUrl(country: string | null): string | null {
   const code = country ? COUNTRY_CODES[country] : null;
   return code ? `https://flagcdn.com/w40/${code}.png` : null;
+}
+
+function getDateGroupKey(dateLabel?: string): string {
+  if (!dateLabel) return 'date-tba';
+
+  const date = new Date(`${dateLabel} ${new Date().getFullYear()}`);
+  if (Number.isNaN(date.getTime())) return 'date-tba';
+  return [date.getFullYear(), date.getMonth() + 1, date.getDate()]
+    .map((part) => String(part).padStart(2, '0'))
+    .join('-');
+}
+
+function getDateGroupLabel(dateKey: string): string {
+  if (dateKey === 'date-tba') return 'Date TBA';
+
+  const date = new Date(`${dateKey}T00:00:00`);
+  const today = new Date();
+  const tomorrow = new Date(today);
+  tomorrow.setDate(today.getDate() + 1);
+  const formatDayKey = (value: Date) => [value.getFullYear(), value.getMonth() + 1, value.getDate()]
+    .map((part) => String(part).padStart(2, '0'))
+    .join('-');
+
+  if (dateKey === formatDayKey(today)) return '';
+  if (dateKey === formatDayKey(tomorrow)) return 'Tomorrow';
+
+  return new Intl.DateTimeFormat(undefined, {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+  }).format(date);
 }
 
 export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
@@ -165,6 +199,7 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
   const [isDarkTheme, setIsDarkTheme] = useState(() => (
     typeof window !== 'undefined' && window.localStorage.getItem(THEME_STORAGE_KEY) === 'dark'
   ));
+  const [expandedLargeCompetitions, setExpandedLargeCompetitions] = useState<Record<string, boolean>>({});
   const [searchTerm, setSearchTerm] = useState('');
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('');
 
@@ -233,16 +268,19 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
   const liveGamesCount = gamesWithResolvedFlags.filter((game) => game.isLive).length;
   const streamGamesCount = gamesWithResolvedFlags.filter((game) => game.streamCount > 0).length;
 
-  const groupedByLeague = useMemo(() => {
-    const groups: Record<string, typeof filteredGames> = {};
+  const groupedByDate = useMemo(() => {
+    const groups: Record<string, Game[]> = {};
     filteredGames.forEach((game) => {
-      const leagueKey = game.leagueLabel || 'League TBD';
-      if (!groups[leagueKey]) {
-        groups[leagueKey] = [];
-      }
-      groups[leagueKey].push(game);
+      const dateKey = getDateGroupKey(game.dateLabel);
+      if (!groups[dateKey]) groups[dateKey] = [];
+      groups[dateKey].push(game);
     });
-    return Object.entries(groups).sort(([leagueA], [leagueB]) => leagueA.localeCompare(leagueB));
+
+    return Object.entries(groups).sort(([dateA], [dateB]) => {
+      if (dateA === 'date-tba') return 1;
+      if (dateB === 'date-tba') return -1;
+      return dateA.localeCompare(dateB);
+    });
   }, [filteredGames]);
 
   return (
@@ -339,22 +377,80 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
 
       {filteredGames.length > 0 ? (
         <div>
-          {groupedByLeague.map(([leagueLabel, gamesForLeague]) => {
-            const country = extractCountryFromLeague(leagueLabel);
+          {groupedByDate.map(([dateKey, gamesForDate]) => {
+            const leaguesForDate: Record<string, Game[]> = {};
+            const dateGroupLabel = getDateGroupLabel(dateKey);
+            const dateGroupDate = dateKey === 'date-tba'
+              ? ''
+              : new Intl.DateTimeFormat(undefined, { day: 'numeric', month: 'short' }).format(new Date(`${dateKey}T00:00:00`));
+            gamesForDate.forEach((game) => {
+              const leagueLabel = game.leagueLabel || 'League TBD';
+              if (!leaguesForDate[leagueLabel]) leaguesForDate[leagueLabel] = [];
+              leaguesForDate[leagueLabel].push(game);
+            });
+
             return (
-            <div key={leagueLabel} className="mb-5">
-              <div className="mb-2 flex items-center gap-3 px-1">
-                <div className="min-w-0 flex-1">
-                  <h2 className={isDarkTheme ? "truncate text-sm font-black text-white" : "truncate text-sm font-black text-slate-950"}>{leagueLabel.split('.')[1]?.trim() || leagueLabel}</h2>
-                  {country && <p className={isDarkTheme ? "text-xs text-slate-400" : "text-xs text-slate-500"}>{country}</p>}
-                </div>
+              <div key={dateKey} className="mb-7">
+                {dateGroupLabel && (
+                  dateGroupLabel === 'Tomorrow' ? (
+                    <div className="mb-4 flex items-center gap-4 py-3">
+                      <span className="h-px flex-1 bg-gradient-to-r from-transparent via-black/15 to-black/15 dark:via-white/15 dark:to-white/15" aria-hidden="true" />
+                      <div className="flex shrink-0 items-baseline gap-2">
+                        <h2 className={isDarkTheme ? "text-sm font-black uppercase tracking-[0.08em] text-white" : "text-sm font-black uppercase tracking-[0.08em] text-slate-950"}>Tomorrow</h2>
+                        <span className={isDarkTheme ? "text-xs font-semibold text-slate-400" : "text-xs font-semibold text-slate-500"}>{dateGroupDate}</span>
+                        <span className={isDarkTheme ? "text-[11px] font-medium text-slate-500" : "text-[11px] font-medium text-slate-400"}>
+                          ({gamesForDate.length} {gamesForDate.length === 1 ? 'match' : 'matches'})
+                        </span>
+                      </div>
+                      <span className="h-px flex-1 bg-gradient-to-l from-transparent via-black/15 to-black/15 dark:via-white/15 dark:to-white/15" aria-hidden="true" />
+                    </div>
+                  ) : (
+                    <div className="mb-3 flex items-center gap-3 border-b border-black/10 pb-2 dark:border-white/10">
+                      <h2 className={isDarkTheme ? "text-base font-black text-white" : "text-base font-black text-slate-950"}>{dateGroupLabel}</h2>
+                      <span className={isDarkTheme ? "text-xs font-semibold text-slate-500" : "text-xs font-semibold text-slate-400"}>
+                        {gamesForDate.length} {gamesForDate.length === 1 ? 'match' : 'matches'}
+                      </span>
+                    </div>
+                  )
+                )}
+                {Object.entries(leaguesForDate).sort(([leagueA], [leagueB]) => leagueA.localeCompare(leagueB)).map(([leagueLabel, gamesForLeague]) => {
+                  const country = extractCountryFromLeague(leagueLabel);
+                  const isQualificationSection = isQualificationLeague(leagueLabel);
+                  const competitionKey = `${dateKey}:${leagueLabel}`;
+                  const isCompetitionExpanded = !isQualificationSection || Boolean(expandedLargeCompetitions[competitionKey]);
+                  return (
+                    <div key={leagueLabel} className={`mb-5 ${isQualificationSection ? isDarkTheme ? 'overflow-hidden rounded-xl border border-amber-300/20 bg-amber-200/[0.025]' : 'overflow-hidden rounded-xl border border-amber-600/25 bg-amber-50/35' : ''}`}>
+                      <button
+                        type="button"
+                        onClick={() => isQualificationSection && setExpandedLargeCompetitions((current) => ({ ...current, [competitionKey]: !isCompetitionExpanded }))}
+                        aria-expanded={isQualificationSection ? isCompetitionExpanded : undefined}
+                        className={`flex w-full items-center gap-3 text-left ${isQualificationSection ? isDarkTheme ? 'cursor-pointer border-b border-l-4 border-white/10 border-l-amber-300 bg-amber-200/[0.06] px-3 py-3 hover:bg-amber-200/[0.1]' : 'cursor-pointer border-b border-l-4 border-black/10 border-l-amber-600 bg-amber-100/60 px-3 py-3 hover:bg-amber-100/90' : 'mb-2 px-1'}`}
+                      >
+                        {isQualificationSection && (
+                          <span className={isDarkTheme ? 'inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-amber-300/15 text-amber-200' : 'inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-amber-100 text-amber-800'} aria-hidden="true">
+                            <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M4 19h16M6 19v-5h4v5M10 19v-9h4v9M14 19v-3h4v3" />
+                            </svg>
+                          </span>
+                        )}
+                        <div className="min-w-0 flex-1">
+                          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                            <h3 className={isDarkTheme ? "truncate text-sm font-black text-white" : "truncate text-sm font-black text-slate-950"}>{leagueLabel.split('.')[1]?.trim() || leagueLabel}</h3>
+                          </div>
+                          {country && <p className={isDarkTheme ? "text-xs text-slate-400" : "text-xs text-slate-500"}>{country}</p>}
+                        </div>
+                        {isQualificationSection && <span className={isDarkTheme ? "shrink-0 rounded-full bg-amber-300/15 px-2.5 py-1 text-xs font-bold text-amber-200" : "shrink-0 rounded-full bg-amber-100 px-2.5 py-1 text-xs font-bold text-amber-900"}>{gamesForLeague.length} matches</span>}
+                        {isQualificationSection && <svg className={`h-5 w-5 shrink-0 text-slate-400 transition-transform ${isCompetitionExpanded ? 'rotate-180' : ''}`} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01-.02-1.06z" clipRule="evenodd" /></svg>}
+                      </button>
+                      {isCompetitionExpanded && <div className={`grid grid-cols-1 gap-2 ${isQualificationSection ? 'p-3' : ''}`}>
+                        {gamesForLeague.map((game) => (
+                          <GameCard key={game.id} isDarkTheme={isDarkTheme} {...game} />
+                        ))}
+                      </div>}
+                    </div>
+                  );
+                })}
               </div>
-              <div className="mb-6 grid grid-cols-1 gap-2">
-                {gamesForLeague.map((game) => (
-                  <GameCard key={game.id} isDarkTheme={isDarkTheme} {...game} />
-                ))}
-              </div>
-            </div>
             );
           })}
         </div>
