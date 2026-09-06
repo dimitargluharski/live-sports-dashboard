@@ -1,6 +1,6 @@
 {
   "status": "healthy",
-  "checkedAt": "2026-09-05T21:09:29.403Z",
+  "checkedAt": "2026-09-06T12:26:32.093Z",
   "checks": {
     "website": {
       "status": "ok",
@@ -14,16 +14,16 @@
       "files": {
         "backend": {
           "exists": true,
-          "modifiedAt": "2026-09-05T21:09:28.932Z",
+          "modifiedAt": "2026-09-06T12:26:31.626Z",
           "ageMinutes": 0,
-          "bytes": 1561169,
+          "bytes": 1525400,
           "validJson": true
         },
         "frontend": {
           "exists": true,
-          "modifiedAt": "2026-09-05T21:09:29.068Z",
+          "modifiedAt": "2026-09-06T12:26:31.758Z",
           "ageMinutes": 0,
-          "bytes": 1561169,
+          "bytes": 1525400,
           "validJson": true
         }
       }
@@ -31,15 +31,15 @@
     "scraper": {
       "status": "ok",
       "jobStatus": "success",
-      "finishedAt": "2026-09-05T21:09:28.227Z",
-      "ageMinutes": 0,
-      "count": 453,
+      "finishedAt": "2026-09-06T12:26:23.987Z",
+      "ageMinutes": 0.1,
+      "count": 425,
       "error": null
     },
     "streams": {
       "status": "ok",
-      "total": 0,
-      "healthy": 0,
+      "total": 151,
+      "healthy": 151,
       "failed": 0,
       "unknown": 0
     }

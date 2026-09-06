@@ -1,226 +1,27 @@
-import React, { useEffect, useMemo, useState } from 'react';
-import { GameCard } from './GameCard';
-
-interface TeamForm {
-  matches?: Array<{
-    date: string;
-    competition: string;
-    opponent: string;
-    score: string;
-    result: 'W' | 'D' | 'L';
-  }>;
-  summary?: { W: number; D: number; L: number };
-}
-
-export interface Game {
-  id: number;
-  title: string;
-  dateLabel?: string;
-  timeLabel?: string;
-  scheduledStartAt?: number;
-  sourceIsLive?: boolean;
-  sourceStatusAt?: number;
-  isEnded?: boolean;
-  leagueLabel?: string;
-  streamCount: number;
-  isLive: boolean;
-  streams?: Array<{
-    id: number;
-    label: string;
-    url: string;
-    language?: string | null;
-    bitrate?: string | null;
-    healthStatus?: 'healthy' | 'failed' | 'unknown';
-    healthCheckedAt?: string;
-    healthHttpStatus?: number;
-    healthError?: string;
-  }>;
-  headToHead?: {
-    homeTeam?: string;
-    awayTeam?: string;
-    matches?: Array<{
-      date: string;
-      competition: string;
-      homeTeam: string;
-      awayTeam: string;
-      score: string;
-      result: 'W' | 'D' | 'L';
-      winner: 'home' | 'away' | 'draw';
-    }>;
-    form?: {
-      home?: TeamForm;
-      away?: TeamForm;
-    } | null;
-  } | null;
-  teams?: {
-    home?: {
-      name?: string | null;
-      logoUrl?: string | null;
-    };
-    away?: {
-      name?: string | null;
-      logoUrl?: string | null;
-    };
-  };
-}
+import { useEffect, useMemo, useState } from 'react';
+import { CompetitionGroup } from './CompetitionGroup';
+import { GameFilters } from './GameFilters';
+import { LIVE_FILTER_STORAGE_KEY, STREAMS_FILTER_STORAGE_KEY } from '../constants/app';
+import { useTheme } from '../contexts/useTheme';
+import { usePersistentState } from '../hooks/usePersistentState';
+import { extractCountryFromLeague } from '../utils/extractCountryFromLeague';
+import { getCountryFlagUrl } from '../utils/getCountryFlagUrl';
+import { isQualificationLeague } from '../utils/isQualificationLeague';
+import type { Game } from '../types/game';
+import { getDateGroupKey } from '../utils/getDateGroupKey';
+import { getDateGroupLabel } from '../utils/getDateGroupLabel';
 
 interface GamesGridProps {
   games: Game[];
 }
 
-const COUNTRY_CODES: Record<string, string> = {
-  Argentina: 'ar',
-  Australia: 'au',
-  Austria: 'at',
-  Belgium: 'be',
-  Brazil: 'br',
-  Bulgaria: 'bg',
-  Canada: 'ca',
-  Chile: 'cl',
-  China: 'cn',
-  Colombia: 'co',
-  Croatia: 'hr',
-  Cyprus: 'cy',
-  Czechia: 'cz',
-  Denmark: 'dk',
-  Ecuador: 'ec',
-  Egypt: 'eg',
-  England: 'gb-eng',
-  Estonia: 'ee',
-  Finland: 'fi',
-  France: 'fr',
-  Georgia: 'ge',
-  Germany: 'de',
-  Greece: 'gr',
-  Hungary: 'hu',
-  Iceland: 'is',
-  India: 'in',
-  Indonesia: 'id',
-  Ireland: 'ie',
-  Israel: 'il',
-  Italy: 'it',
-  Japan: 'jp',
-  Kazakhstan: 'kz',
-  Latvia: 'lv',
-  Lithuania: 'lt',
-  Luxembourg: 'lu',
-  Malaysia: 'my',
-  Mexico: 'mx',
-  Moldova: 'md',
-  Montenegro: 'me',
-  Netherlands: 'nl',
-  'New Zealand': 'nz',
-  Nigeria: 'ng',
-  Norway: 'no',
-  Paraguay: 'py',
-  Peru: 'pe',
-  Poland: 'pl',
-  Portugal: 'pt',
-  Romania: 'ro',
-  Russia: 'ru',
-  Scotland: 'gb-sct',
-  Serbia: 'rs',
-  Singapore: 'sg',
-  Slovakia: 'sk',
-  Slovenia: 'si',
-  'South Africa': 'za',
-  'South Korea': 'kr',
-  Spain: 'es',
-  Sweden: 'se',
-  Switzerland: 'ch',
-  Thailand: 'th',
-  Tunisia: 'tn',
-  Turkey: 'tr',
-  Ukraine: 'ua',
-  Uruguay: 'uy',
-  USA: 'us',
-  Uzbekistan: 'uz',
-  Wales: 'gb-wls',
-  World: 'un',
-};
-
-const THEME_STORAGE_KEY = 'sportix-theme';
-const LIVE_FILTER_STORAGE_KEY = 'sportix-filter-live';
-const STREAMS_FILTER_STORAGE_KEY = 'sportix-filter-streams';
-function extractCountryFromLeague(leagueLabel?: string): string | null {
-  if (!leagueLabel) return null;
-  const firstToken = leagueLabel.split('.')[0]?.trim();
-  if (!firstToken) return null;
-  return firstToken;
-}
-
-function isQualificationLeague(leagueLabel: string): boolean {
-  return /\bqualifications?\b/i.test(leagueLabel);
-}
-
-function getCountryFlagUrl(country: string | null): string | null {
-  const code = country ? COUNTRY_CODES[country] : null;
-  return code ? `https://flagcdn.com/w40/${code}.png` : null;
-}
-
-function getDateGroupKey(dateLabel?: string): string {
-  if (!dateLabel) return 'date-tba';
-
-  const date = new Date(`${dateLabel} ${new Date().getFullYear()}`);
-  if (Number.isNaN(date.getTime())) return 'date-tba';
-  return [date.getFullYear(), date.getMonth() + 1, date.getDate()]
-    .map((part) => String(part).padStart(2, '0'))
-    .join('-');
-}
-
-function getDateGroupLabel(dateKey: string): string {
-  if (dateKey === 'date-tba') return 'Date TBA';
-
-  const date = new Date(`${dateKey}T00:00:00`);
-  const today = new Date();
-  const tomorrow = new Date(today);
-  tomorrow.setDate(today.getDate() + 1);
-  const formatDayKey = (value: Date) => [value.getFullYear(), value.getMonth() + 1, value.getDate()]
-    .map((part) => String(part).padStart(2, '0'))
-    .join('-');
-
-  if (dateKey === formatDayKey(today)) return '';
-  if (dateKey === formatDayKey(tomorrow)) return 'Tomorrow';
-
-  return new Intl.DateTimeFormat(undefined, {
-    weekday: 'long',
-    day: 'numeric',
-    month: 'long',
-  }).format(date);
-}
-
-export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
-  const [filterLiveOnly, setFilterLiveOnly] = useState(() => (
-    typeof window !== 'undefined' && window.localStorage.getItem(LIVE_FILTER_STORAGE_KEY) === 'true'
-  ));
-  const [filterWithStreams, setFilterWithStreams] = useState(() => (
-    typeof window !== 'undefined' && window.localStorage.getItem(STREAMS_FILTER_STORAGE_KEY) === 'true'
-  ));
-  const [isDarkTheme, setIsDarkTheme] = useState(() => (
-    typeof window !== 'undefined' && window.localStorage.getItem(THEME_STORAGE_KEY) === 'dark'
-  ));
+export function GamesGrid({ games }: GamesGridProps) {
+  const { isDarkTheme, toggleTheme } = useTheme();
+  const [filterLiveOnly, setFilterLiveOnly] = usePersistentState(LIVE_FILTER_STORAGE_KEY, false);
+  const [filterWithStreams, setFilterWithStreams] = usePersistentState(STREAMS_FILTER_STORAGE_KEY, false);
   const [expandedLargeCompetitions, setExpandedLargeCompetitions] = useState<Record<string, boolean>>({});
   const [searchTerm, setSearchTerm] = useState('');
   const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('');
-
-  useEffect(() => {
-    const pageBackground = isDarkTheme ? '#111111' : '#f2f1ed';
-    document.documentElement.style.backgroundColor = pageBackground;
-    document.body.style.backgroundColor = pageBackground;
-    document.body.style.color = isDarkTheme ? '#ffffff' : '#020617';
-
-    return () => {
-      document.documentElement.style.backgroundColor = '';
-      document.body.style.backgroundColor = '';
-      document.body.style.color = '';
-    };
-  }, [isDarkTheme]);
-
-  useEffect(() => {
-    window.localStorage.setItem(THEME_STORAGE_KEY, isDarkTheme ? 'dark' : 'light');
-    window.localStorage.setItem(LIVE_FILTER_STORAGE_KEY, String(filterLiveOnly));
-    window.localStorage.setItem(STREAMS_FILTER_STORAGE_KEY, String(filterWithStreams));
-  }, [isDarkTheme, filterLiveOnly, filterWithStreams]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -265,8 +66,15 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
     });
   }, [gamesWithResolvedFlags, filterLiveOnly, filterWithStreams, debouncedSearchTerm]);
 
-  const liveGamesCount = gamesWithResolvedFlags.filter((game) => game.isLive).length;
-  const streamGamesCount = gamesWithResolvedFlags.filter((game) => game.streamCount > 0).length;
+  const { liveGamesCount, streamGamesCount } = useMemo(() => (
+    gamesWithResolvedFlags.reduce(
+      (counts, game) => ({
+        liveGamesCount: counts.liveGamesCount + Number(game.isLive),
+        streamGamesCount: counts.streamGamesCount + Number(game.streamCount > 0),
+      }),
+      { liveGamesCount: 0, streamGamesCount: 0 },
+    )
+  ), [gamesWithResolvedFlags]);
 
   const groupedByDate = useMemo(() => {
     const groups: Record<string, Game[]> = {};
@@ -312,7 +120,7 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
             </div>
             <button
               type="button"
-              onClick={() => setIsDarkTheme((dark) => !dark)}
+              onClick={toggleTheme}
               role="switch"
               aria-checked={isDarkTheme}
               aria-label={isDarkTheme ? "Switch to light theme" : "Switch to dark theme"}
@@ -346,34 +154,15 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
         </div>
       </header>
 
-      <div className="mb-5 flex flex-wrap items-center gap-2">
-        <button
-          onClick={() => setFilterLiveOnly(!filterLiveOnly)}
-          className={`cursor-pointer rounded-lg border px-3 py-2 text-sm font-semibold transition-colors ${
-            filterLiveOnly
-              ? 'border-rose-500 bg-rose-500 text-white hover:bg-rose-600'
-              : isDarkTheme ? 'border-white/15 bg-[#1b1b1b] text-slate-200 hover:bg-[#252525]' : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50'
-          }`}
-        >
-          <span className="inline-flex items-center gap-1.5">
-            <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><circle cx="12" cy="12" r="8" /><path strokeLinecap="round" d="M12 8v4l2.5 1.5" /></svg>
-            Live Now ({liveGamesCount})
-          </span>
-        </button>
-        <button
-          onClick={() => setFilterWithStreams(!filterWithStreams)}
-          className={`cursor-pointer rounded-lg border px-3 py-2 text-sm font-semibold transition-colors ${
-            filterWithStreams
-              ? 'border-emerald-500 bg-emerald-500 text-white hover:bg-emerald-600'
-              : isDarkTheme ? 'border-white/15 bg-[#1b1b1b] text-slate-200 hover:bg-[#252525]' : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50'
-          }`}
-        >
-          <span className="inline-flex items-center gap-1.5">
-            <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" /><path strokeLinecap="round" d="M8 21h8M12 19v2M8 9h.01M12 9h.01M16 9h.01" /></svg>
-            Has Streams ({streamGamesCount})
-          </span>
-        </button>
-      </div>
+      <GameFilters
+        isDarkTheme={isDarkTheme}
+        filterLiveOnly={filterLiveOnly}
+        filterWithStreams={filterWithStreams}
+        liveGamesCount={liveGamesCount}
+        streamGamesCount={streamGamesCount}
+        onToggleLive={() => setFilterLiveOnly((current) => !current)}
+        onToggleStreams={() => setFilterWithStreams((current) => !current)}
+      />
 
       {filteredGames.length > 0 ? (
         <div>
@@ -414,40 +203,20 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
                   )
                 )}
                 {Object.entries(leaguesForDate).sort(([leagueA], [leagueB]) => leagueA.localeCompare(leagueB)).map(([leagueLabel, gamesForLeague]) => {
-                  const country = extractCountryFromLeague(leagueLabel);
-                  const isQualificationSection = isQualificationLeague(leagueLabel);
                   const competitionKey = `${dateKey}:${leagueLabel}`;
-                  const isCompetitionExpanded = !isQualificationSection || Boolean(expandedLargeCompetitions[competitionKey]);
+                  const hasSearchResult = debouncedSearchTerm.length > 0 && gamesForLeague.length > 0;
+                  const isCompetitionExpanded = !isQualificationLeague(leagueLabel)
+                    || hasSearchResult
+                    || Boolean(expandedLargeCompetitions[competitionKey]);
                   return (
-                    <div key={leagueLabel} className={`mb-5 ${isQualificationSection ? isDarkTheme ? 'overflow-hidden rounded-xl border border-amber-300/20 bg-amber-200/[0.025]' : 'overflow-hidden rounded-xl border border-amber-600/25 bg-amber-50/35' : ''}`}>
-                      <button
-                        type="button"
-                        onClick={() => isQualificationSection && setExpandedLargeCompetitions((current) => ({ ...current, [competitionKey]: !isCompetitionExpanded }))}
-                        aria-expanded={isQualificationSection ? isCompetitionExpanded : undefined}
-                        className={`flex w-full items-center gap-3 text-left ${isQualificationSection ? isDarkTheme ? 'cursor-pointer border-b border-l-4 border-white/10 border-l-amber-300 bg-amber-200/[0.06] px-3 py-3 hover:bg-amber-200/[0.1]' : 'cursor-pointer border-b border-l-4 border-black/10 border-l-amber-600 bg-amber-100/60 px-3 py-3 hover:bg-amber-100/90' : 'mb-2 px-1'}`}
-                      >
-                        {isQualificationSection && (
-                          <span className={isDarkTheme ? 'inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-amber-300/15 text-amber-200' : 'inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-amber-100 text-amber-800'} aria-hidden="true">
-                            <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M4 19h16M6 19v-5h4v5M10 19v-9h4v9M14 19v-3h4v3" />
-                            </svg>
-                          </span>
-                        )}
-                        <div className="min-w-0 flex-1">
-                          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-                            <h3 className={isDarkTheme ? "truncate text-sm font-black text-white" : "truncate text-sm font-black text-slate-950"}>{leagueLabel.split('.')[1]?.trim() || leagueLabel}</h3>
-                          </div>
-                          {country && <p className={isDarkTheme ? "text-xs text-slate-400" : "text-xs text-slate-500"}>{country}</p>}
-                        </div>
-                        {isQualificationSection && <span className={isDarkTheme ? "shrink-0 rounded-full bg-amber-300/15 px-2.5 py-1 text-xs font-bold text-amber-200" : "shrink-0 rounded-full bg-amber-100 px-2.5 py-1 text-xs font-bold text-amber-900"}>{gamesForLeague.length} matches</span>}
-                        {isQualificationSection && <svg className={`h-5 w-5 shrink-0 text-slate-400 transition-transform ${isCompetitionExpanded ? 'rotate-180' : ''}`} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01-.02-1.06z" clipRule="evenodd" /></svg>}
-                      </button>
-                      {isCompetitionExpanded && <div className={`grid grid-cols-1 gap-2 ${isQualificationSection ? 'p-3' : ''}`}>
-                        {gamesForLeague.map((game) => (
-                          <GameCard key={game.id} isDarkTheme={isDarkTheme} {...game} />
-                        ))}
-                      </div>}
-                    </div>
+                    <CompetitionGroup
+                      key={leagueLabel}
+                      leagueLabel={leagueLabel}
+                      games={gamesForLeague}
+                      isDarkTheme={isDarkTheme}
+                      isExpanded={isCompetitionExpanded}
+                      onToggle={() => setExpandedLargeCompetitions((current) => ({ ...current, [competitionKey]: !isCompetitionExpanded }))}
+                    />
                   );
                 })}
               </div>
@@ -463,4 +232,4 @@ export const GamesGrid: React.FC<GamesGridProps> = ({ games }) => {
       )}
     </section>
   );
-};
+}
