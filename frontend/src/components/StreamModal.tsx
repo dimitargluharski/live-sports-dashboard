@@ -242,9 +242,12 @@ export const StreamModal: React.FC<StreamModalProps> = ({
                 </div>
 
                 {streams.length > 1 && (
-                  <div className="p-3">
-                    <p className="mb-2 text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">Alternative broadcasts</p>
-                    <div className="flex flex-wrap gap-2">
+                  <div className="border-t border-black/10 p-3 dark:border-white/10">
+                    <div className="mb-2 flex items-center justify-between gap-3">
+                      <p className="text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">Alternative broadcasts</p>
+                      <span className="shrink-0 text-[10px] font-bold text-slate-400">{streams.length} available</span>
+                    </div>
+                    <div className={`grid max-h-36 grid-cols-1 gap-1.5 overflow-y-auto pr-1 sm:grid-cols-2 ${isDarkTheme ? 'scrollbar-thumb-white/20' : 'scrollbar-thumb-black/20'}`}>
                       {streams.map((stream) => {
                         const isActive = selectedStream.id === stream.id;
                         return (
@@ -253,15 +256,17 @@ export const StreamModal: React.FC<StreamModalProps> = ({
                             type="button"
                             onClick={() => handleSelectStream(stream)}
                             aria-pressed={isActive}
-                            className={`cursor-pointer rounded-md border px-2 py-1 text-xs font-semibold transition-colors ${
+                            className={`flex min-w-0 cursor-pointer items-center rounded-md border px-2 py-1.5 text-left text-xs font-semibold transition-colors ${
                               isActive
                                 ? 'border-sky-600 bg-sky-600 text-white'
-                                : 'border-slate-200 bg-white text-slate-700 hover:border-sky-300 hover:bg-sky-50 hover:text-sky-700'
+                                : isDarkTheme
+                                  ? 'border-white/10 bg-[#252525] text-slate-200 hover:border-sky-400/60 hover:bg-[#303030] hover:text-white'
+                                  : 'border-slate-200 bg-white text-slate-700 hover:border-sky-300 hover:bg-sky-50 hover:text-sky-700'
                             }`}
                           >
-                            <span className="inline-flex items-center gap-2 leading-none">
+                            <span className="inline-flex min-w-0 items-center gap-2 leading-none">
                               <StreamHealthDot stream={stream} />
-                              {stream.label}
+                              <span className="truncate">{stream.label}</span>
                             </span>
                           </button>
                         );

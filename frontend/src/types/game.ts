@@ -51,6 +51,7 @@ export interface Game {
   leagueLabel?: string;
   streamCount: number;
   isLive: boolean;
+  isPreview?: boolean;
   streams?: Stream[];
   headToHead?: HeadToHead | null;
   teams?: {

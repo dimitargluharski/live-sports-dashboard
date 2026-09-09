@@ -1,1 +1,82 @@
 @import "tailwindcss";
+
+.champions-carousel {
+	--swiper-navigation-color: #0f766e;
+	--swiper-pagination-color: #475569;
+	--swiper-pagination-bullet-inactive-color: #94a3b8;
+	--swiper-pagination-bullet-inactive-opacity: 1;
+	width: min(100%, 60rem);
+	margin: 0 auto;
+	padding: 0 0 0.25rem;
+}
+
+.champions-stage {
+	position: relative;
+	padding-top: 0.75rem;
+}
+
+.champions-section > button > svg {
+	display: none;
+}
+
+.champions-carousel.swiper-grab-cursor,
+.champions-carousel.swiper-grab-cursor .swiper-slide {
+	cursor: grab;
+}
+
+.champions-carousel.swiper-grab-cursor .swiper-slide > article {
+	cursor: grab;
+}
+
+.champions-carousel.swiper-grab-cursor .swiper-slide > article > button {
+	cursor: pointer !important;
+}
+
+.champions-carousel.swiper-grab-cursor .swiper-slide > article > div button {
+	cursor: pointer !important;
+}
+
+.champions-carousel .swiper-slide > article[data-streams-available="true"] > button,
+.champions-carousel .swiper-slide > article[data-streams-available="true"] > div button {
+	cursor: pointer !important;
+}
+
+.champions-carousel.swiper-grabbing,
+.champions-carousel.swiper-grabbing * {
+	cursor: grabbing !important;
+}
+
+.champions-carousel.swiper-grabbing .swiper-slide > article > button,
+.champions-carousel.swiper-grabbing .swiper-slide > article > div button {
+	cursor: pointer !important;
+}
+
+.dark .champions-carousel {
+	--swiper-navigation-color: #5eead4;
+	--swiper-pagination-color: #e5e5e5;
+	--swiper-pagination-bullet-inactive-color: #a3a3a3;
+}
+
+.champions-carousel .swiper-pagination {
+	bottom: 0.5rem;
+	z-index: 2;
+}
+
+.champions-carousel .swiper-pagination-bullet {
+	width: 0.45rem;
+	height: 0.45rem;
+	transition: width 180ms ease, border-radius 180ms ease;
+}
+
+.champions-carousel .swiper-pagination-bullet-active {
+	width: 1.1rem;
+	border-radius: 9999px;
+}
+
+@media (max-width: 640px) {
+	.champions-carousel {
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+	}
+}

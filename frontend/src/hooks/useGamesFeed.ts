@@ -38,7 +38,12 @@ export function useGamesFeed(): UseGamesFeedResult {
           : [];
 
         if (!isMounted) return;
-        setGames([...normalizedGames, ...getPreviewGames()]);
+        const previewGames = getPreviewGames();
+        const previewDateLabel = normalizedGames.find((game) => game.dateLabel)?.dateLabel;
+        const alignedPreviewGames = previewDateLabel
+          ? previewGames.map((game) => ({ ...game, dateLabel: previewDateLabel }))
+          : previewGames;
+        setGames([...normalizedGames, ...alignedPreviewGames]);
         setError(null);
       } catch (loadError) {
         if (!isMounted) return;

@@ -10,6 +10,7 @@ import { isQualificationLeague } from '../utils/isQualificationLeague';
 import type { Game } from '../types/game';
 import { getDateGroupKey } from '../utils/getDateGroupKey';
 import { getDateGroupLabel } from '../utils/getDateGroupLabel';
+import { isSimulcastGame } from '../utils/isSimulcastGame';
 
 interface GamesGridProps {
   games: Game[];
@@ -32,7 +33,7 @@ export function GamesGrid({ games }: GamesGridProps) {
   }, [searchTerm]);
 
   const gamesWithResolvedFlags = useMemo(() => {
-    return games.map((game) => {
+    return games.filter((game) => !isSimulcastGame(game)).map((game) => {
       const country = extractCountryFromLeague(game.leagueLabel);
       const homeLogoUrl = game.teams?.home?.logoUrl || null;
       const awayLogoUrl = game.teams?.away?.logoUrl || null;
@@ -91,6 +92,9 @@ export function GamesGrid({ games }: GamesGridProps) {
     });
   }, [filteredGames]);
 
+  const firstDateKey = groupedByDate[0]?.[0];
+  const currentDayLabel = firstDateKey ? getDateGroupLabel(firstDateKey) : new Intl.DateTimeFormat(undefined, { weekday: 'long', month: 'long', day: 'numeric' }).format(new Date());
+
   return (
     <section className={isDarkTheme ? "dark mx-auto min-h-screen w-full max-w-7xl bg-[#111111] px-4 pb-8 text-white md:px-6" : "mx-auto min-h-screen w-full max-w-7xl bg-[#f2f1ed] px-4 pb-8 text-slate-950 md:px-6"}>
       <header className={isDarkTheme ? "mb-4 border-b border-white/10 pb-4" : "mb-4 border-b border-black/10 pb-4"}>
@@ -105,6 +109,7 @@ export function GamesGrid({ games }: GamesGridProps) {
             <h1 className={isDarkTheme ? "text-xs font-bold tracking-[0.14em] text-slate-200" : "text-xs font-bold tracking-[0.14em] text-slate-800"}>sportix.live</h1>
           </div>
           <div className="flex items-center gap-3">
+            <span className={isDarkTheme ? "text-xs font-bold text-slate-300" : "text-xs font-bold text-slate-700"}>{currentDayLabel}</span>
             <div className="group relative flex items-center">
               <button
                 type="button"
@@ -180,7 +185,7 @@ export function GamesGrid({ games }: GamesGridProps) {
 
             return (
               <div key={dateKey} className="mb-7">
-                {dateGroupLabel && (
+                {dateGroupLabel && dateKey !== firstDateKey && (
                   dateGroupLabel === 'Tomorrow' ? (
                     <div className="mb-4 flex items-center gap-4 py-3">
                       <span className="h-px flex-1 bg-gradient-to-r from-transparent via-black/15 to-black/15 dark:via-white/15 dark:to-white/15" aria-hidden="true" />
@@ -214,9 +219,14 @@ export function GamesGrid({ games }: GamesGridProps) {
                 }).map(([leagueLabel, gamesForLeague]) => {
                   const competitionKey = `${dateKey}:${leagueLabel}`;
                   const hasSearchResult = debouncedSearchTerm.length > 0 && gamesForLeague.length > 0;
-                  const isCompetitionExpanded = !isQualificationLeague(leagueLabel)
-                    || hasSearchResult
-                    || Boolean(expandedLargeCompetitions[competitionKey]);
+                  const isChampionsLeague = leagueLabel.trim().toLowerCase() === 'champions league';
+                  const isQualification = isQualificationLeague(leagueLabel);
+                  const isCompetitionExpanded = hasSearchResult
+                    || (isChampionsLeague
+                      ? true
+                      : isQualification
+                        ? Boolean(expandedLargeCompetitions[competitionKey])
+                        : true);
                   return (
                     <CompetitionGroup
                       key={leagueLabel}

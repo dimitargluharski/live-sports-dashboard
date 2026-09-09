@@ -6,6 +6,7 @@ interface TeamVisualProps {
   flagUrl?: string | null;
   isEnded: boolean;
   isDarkTheme: boolean;
+  size?: 'default' | 'large';
 }
 
 export const TeamVisual: React.FC<TeamVisualProps> = ({
@@ -14,8 +15,10 @@ export const TeamVisual: React.FC<TeamVisualProps> = ({
   flagUrl,
   isEnded,
   isDarkTheme,
+  size = 'default',
 }) => {
   const visualUrl = logoUrl || flagUrl || null;
+  const visualSizeClass = size === 'large' ? 'h-10 w-10' : 'h-8 w-8';
   const visualClass = isEnded
     ? isDarkTheme
       ? 'border-white/10 bg-[#1b1b1b] opacity-60 grayscale'
@@ -32,13 +35,13 @@ export const TeamVisual: React.FC<TeamVisualProps> = ({
       <img
         src={visualUrl}
         alt={`${teamName} emblem`}
-        className={`h-8 w-8 rounded-full border p-1 object-contain ${visualClass}`}
+        className={`${visualSizeClass} rounded-full border p-1 object-contain ${visualClass}`}
       />
     );
   }
 
   return (
-    <span className={`inline-flex h-8 w-8 items-center justify-center rounded-full border text-xs font-bold ${fallbackClass}`}>
+    <span className={`inline-flex ${visualSizeClass} items-center justify-center rounded-full border text-xs font-bold ${fallbackClass}`}>
       {teamName.slice(0, 2).toUpperCase()}
     </span>
   );

@@ -1,5 +1,8 @@
 import React from 'react';
 import { GameCardTeamRow } from './GameCardTeamRow';
+import { TeamVisual } from './TeamVisual';
+import type { TeamForm } from '../types/game';
+import { getFormWinProbabilities } from '../utils/getFormWinProbabilities';
 
 interface GameCardHeaderProps {
   timeLabel?: string;
@@ -16,6 +19,10 @@ interface GameCardHeaderProps {
   homeLogoUrl?: string | null;
   awayLogoUrl?: string | null;
   flagUrl?: string | null;
+  hideScheduledTime?: boolean;
+  horizontalTeams?: boolean;
+  homeForm?: TeamForm;
+  awayForm?: TeamForm;
   onToggle: () => void;
 }
 
@@ -34,8 +41,81 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
   homeLogoUrl,
   awayLogoUrl,
   flagUrl,
+  hideScheduledTime = false,
+  horizontalTeams = false,
+  homeForm,
+  awayForm,
   onToggle,
-}) => (
+}) => {
+  if (horizontalTeams) {
+    const statusLabel = isLive ? 'LIVE' : isEnded ? 'ENDED' : timeLabel || 'TIME';
+    const statusClass = isLive
+      ? 'bg-rose-500 text-white'
+      : isEnded
+        ? isDarkTheme ? 'border border-white/25 bg-[#303030] text-neutral-100' : 'border border-stone-500 bg-stone-300 text-stone-900'
+        : isDarkTheme ? 'bg-[#252525] text-neutral-200' : 'bg-[#f2f1ed] text-slate-800';
+    const formProbabilities = getFormWinProbabilities(homeForm, awayForm);
+    const formStat = (
+      <div className={`mt-1.5 flex min-w-max items-center gap-2 text-[10px] font-black tabular-nums ${isDarkTheme ? 'text-neutral-300' : 'text-slate-600'}`} title="Estimated win chances from recent form" aria-label={`Estimated win chances: home ${formProbabilities.home} percent, away ${formProbabilities.away} percent`}>
+        <span>H {formProbabilities.home}%</span>
+        <span className={`h-px min-w-0 flex-1 ${isDarkTheme ? 'bg-neutral-500' : 'bg-slate-400'}`} aria-hidden="true" />
+        <span>A {formProbabilities.away}%</span>
+      </div>
+    );
+    return (
+      <button
+        type="button"
+        onClick={onToggle}
+        aria-expanded={isExpanded}
+        disabled={!canExpand}
+        className={`w-full ${canExpand ? 'cursor-pointer' : 'cursor-default'}`}
+      >
+        <div className="grid grid-cols-[minmax(0,1fr)_5rem_minmax(0,1fr)] items-start gap-3 sm:gap-8">
+          <div className="flex min-w-0 justify-self-center flex-col items-center gap-1.5 text-center">
+            <div className="flex items-center justify-center gap-2">
+              <div className="flex min-w-0 flex-col items-center">
+                <TeamVisual teamName={homeTeam} logoUrl={homeLogoUrl} flagUrl={flagUrl} isEnded={isEnded} isDarkTheme={isDarkTheme} size="large" />
+                <span className={`mt-1 block max-w-32 truncate text-center text-sm font-black ${isDarkTheme ? 'text-white' : 'text-slate-950'}`}>{homeTeam}</span>
+              </div>
+            </div>
+          </div>
+          <div className="col-start-2 flex min-w-max self-center justify-self-center flex-col items-center gap-1 text-center">
+            {isLive ? <div className="flex items-center gap-2" title="Estimated win chances from recent form" aria-label={`Estimated win chances: home ${formProbabilities.home} percent, away ${formProbabilities.away} percent`}>
+              <span className={`font-black tabular-nums ${isLive || isEnded ? 'text-[11px]' : 'text-[10px]'} ${isDarkTheme ? 'text-neutral-300' : 'text-slate-600'}`}>H {formProbabilities.home}%</span>
+              <span className={`h-5 w-px ${isDarkTheme ? 'bg-neutral-500' : 'bg-slate-400'}`} aria-hidden="true" />
+              <span className={`rounded-md font-black tabular-nums ${isLive || isEnded ? 'px-3 py-2 text-xs' : 'px-2.5 py-1.5 text-[11px]'} ${statusClass}`}>
+                <span className="mr-1 inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-current" aria-hidden="true" />
+                {statusLabel}
+              </span>
+              <span className={`h-5 w-px ${isDarkTheme ? 'bg-neutral-500' : 'bg-slate-400'}`} aria-hidden="true" />
+              <span className={`font-black tabular-nums ${isLive || isEnded ? 'text-[11px]' : 'text-[10px]'} ${isDarkTheme ? 'text-neutral-300' : 'text-slate-600'}`}>A {formProbabilities.away}%</span>
+            </div> : (
+              <>
+                <span className={`rounded-md px-2.5 py-1.5 text-[11px] font-black tabular-nums ${statusClass}`}>{statusLabel}</span>
+                {!isEnded && formStat}
+              </>
+            )}
+          </div>
+          {awayTeam ? (
+            <div className="flex min-w-0 justify-self-center flex-col items-center gap-1.5 text-center">
+              <div className="flex min-w-0 flex-col items-center">
+                <TeamVisual teamName={awayTeam} logoUrl={awayLogoUrl} flagUrl={flagUrl} isEnded={isEnded} isDarkTheme={isDarkTheme} size="large" />
+                <span className={`mt-1 block max-w-32 truncate text-center text-sm font-black ${isDarkTheme ? 'text-white' : 'text-slate-950'}`}>{awayTeam}</span>
+              </div>
+            </div>
+          ) : <span />}
+        </div>
+        <div className={`mt-3 flex items-center justify-end gap-2 border-t pt-2 ${isDarkTheme ? 'border-white/10' : 'border-black/10'}`}>
+          <span className={`text-xs font-bold ${canWatchStreams ? 'text-emerald-600' : isDarkTheme ? 'text-neutral-400' : 'text-slate-500'}`}>
+            {isEnded ? 'Stream over' : hasStreams ? `${streamCount} stream${streamCount !== 1 ? 's' : ''}` : 'No stream'}
+          </span>
+          <svg className={`h-4 w-4 text-slate-400 transition-transform ${isExpanded ? 'rotate-180' : ''}`} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 011.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01-.02-1.06z" clipRule="evenodd" /></svg>
+        </div>
+      </button>
+    );
+  }
+
+  return (
   <button
     type="button"
     onClick={onToggle}
@@ -44,7 +124,7 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
     className={`flex w-full flex-col gap-2 text-left lg:flex-row lg:items-center lg:justify-between ${canExpand ? 'cursor-pointer' : 'cursor-default'}`}
   >
     <div className="flex min-w-0 flex-1 items-center gap-2.5">
-      {(isLive || isEnded || timeLabel) && (
+      {(isLive || isEnded || (timeLabel && !hideScheduledTime)) && (
         <span className={`inline-flex h-10 w-20 shrink-0 items-center justify-center gap-1.5 rounded-md border px-2 text-sm font-black tabular-nums ${isLive ? 'border-rose-500/30 bg-rose-500 text-white' : isEnded ? isDarkTheme ? 'border-white/20 bg-[#252525] text-slate-200' : 'border-stone-500 bg-stone-400 text-stone-900' : isDarkTheme ? 'border-white/10 bg-[#252525] text-white' : 'border-black/10 bg-[#f2f1ed] text-slate-950'}`}>
           {isEnded ? (
             <span className="text-xs font-black tracking-wide">ENDED</span>
@@ -63,9 +143,10 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
           )}
         </span>
       )}
-      <div className={`h-10 w-px shrink-0 ${isDarkTheme ? 'bg-white/10' : 'bg-black/10'}`} />
-      <div className="min-w-0 space-y-1">
+      {!horizontalTeams && <div className={`h-10 w-px shrink-0 ${isDarkTheme ? 'bg-white/10' : 'bg-black/10'}`} />}
+      <div className={horizontalTeams ? 'grid min-w-0 flex-1 grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2 sm:gap-4' : 'min-w-0 space-y-1'}>
         <GameCardTeamRow label="Home" teamName={homeTeam} logoUrl={homeLogoUrl} flagUrl={flagUrl} isEnded={isEnded} isDarkTheme={isDarkTheme} />
+          {horizontalTeams && <span className={`text-center text-[10px] font-black uppercase tracking-[0.14em] ${isDarkTheme ? 'text-teal-200/70' : 'text-teal-700/70'}`}>vs</span>}
         {awayTeam && <GameCardTeamRow label="Away" teamName={awayTeam} logoUrl={awayLogoUrl} flagUrl={flagUrl} isEnded={isEnded} isDarkTheme={isDarkTheme} />}
       </div>
     </div>
@@ -78,4 +159,5 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
       </span>
     </div>
   </button>
-);
+  );
+};
