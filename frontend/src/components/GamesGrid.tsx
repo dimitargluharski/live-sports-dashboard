@@ -202,7 +202,16 @@ export function GamesGrid({ games }: GamesGridProps) {
                     </div>
                   )
                 )}
-                {Object.entries(leaguesForDate).sort(([leagueA], [leagueB]) => leagueA.localeCompare(leagueB)).map(([leagueLabel, gamesForLeague]) => {
+                {Object.entries(leaguesForDate).sort(([leagueA], [leagueB]) => {
+                  const isChampionsLeagueA = leagueA.trim().toLowerCase() === 'champions league';
+                  const isChampionsLeagueB = leagueB.trim().toLowerCase() === 'champions league';
+
+                  if (isChampionsLeagueA !== isChampionsLeagueB) {
+                    return isChampionsLeagueA ? -1 : 1;
+                  }
+
+                  return leagueA.localeCompare(leagueB);
+                }).map(([leagueLabel, gamesForLeague]) => {
                   const competitionKey = `${dateKey}:${leagueLabel}`;
                   const hasSearchResult = debouncedSearchTerm.length > 0 && gamesForLeague.length > 0;
                   const isCompetitionExpanded = !isQualificationLeague(leagueLabel)

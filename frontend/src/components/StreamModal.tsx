@@ -5,6 +5,8 @@ import { StreamHealthDot } from './StreamHealthDot';
 import type { Stream } from '../types/game';
 import { getDominantLogoColor } from '../utils/getDominantLogoColor';
 import { isVideoUrl } from '../utils/isVideoUrl';
+import { isWrapperStreamUrl } from '../utils/isWrapperStreamUrl';
+import { ExternalStreamPlayer } from './ExternalStreamPlayer';
 
 interface StreamModalProps {
   isOpen: boolean;
@@ -32,7 +34,11 @@ export const StreamModal: React.FC<StreamModalProps> = ({
   onClose,
 }) => {
   const [selectedStream, setSelectedStream] = useState<Stream | null>(initialStream);
-  const [isPlayerLoading, setIsPlayerLoading] = useState(Boolean(initialStream && initialStream.healthStatus !== 'failed'));
+  const [isPlayerLoading, setIsPlayerLoading] = useState(Boolean(
+    initialStream
+      && initialStream.healthStatus !== 'failed'
+      && !isWrapperStreamUrl(initialStream.url),
+  ));
   const [hasPlaybackError, setHasPlaybackError] = useState(false);
   const [homeTeamColor, setHomeTeamColor] = useState<string | null>(null);
   const [awayTeamColor, setAwayTeamColor] = useState<string | null>(null);
@@ -69,13 +75,14 @@ export const StreamModal: React.FC<StreamModalProps> = ({
 
   const handleSelectStream = (stream: Stream) => {
     setSelectedStream(stream);
-    setIsPlayerLoading(stream.healthStatus !== 'failed');
+    setIsPlayerLoading(stream.healthStatus !== 'failed' && !isWrapperStreamUrl(stream.url));
     setHasPlaybackError(false);
   };
 
   const selectedStreamUnavailable = Boolean(
     selectedStream && (selectedStream.healthStatus === 'failed' || hasPlaybackError),
   );
+  const selectedStreamIsWrapper = Boolean(selectedStream && isWrapperStreamUrl(selectedStream.url));
 
   const resolvedHomeTeam = homeTeamName || gameTitle;
   const resolvedAwayTeam = awayTeamName || null;
@@ -144,7 +151,7 @@ export const StreamModal: React.FC<StreamModalProps> = ({
             <div className="pointer-events-none absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-white/10 to-transparent" />
           </div>
 
-          <div className="flex-1 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden p-3 sm:p-6" style={headerTintStyle}>
+          <div className="min-h-0 flex-1 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden p-3 sm:p-6" style={headerTintStyle}>
             {selectedStream ? (
               <>
                 <div className="mx-2 mb-2 flex flex-wrap items-center justify-between gap-2 px-0 py-0">
@@ -183,14 +190,14 @@ export const StreamModal: React.FC<StreamModalProps> = ({
                 </div>
 
                 <div className="mb-4 rounded-2xl p-2">
-                <div className="relative overflow-hidden rounded-2xl bg-black">
+                <div className="relative aspect-video shrink-0 overflow-hidden rounded-2xl bg-black">
                   {selectedStreamUnavailable ? (
                     <div className="flex aspect-video flex-col items-center justify-center gap-2 px-6 text-center text-white">
                       <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-rose-500/20 text-rose-300" aria-hidden="true">!</span>
                       <p className="text-base font-bold">Stream unavailable</p>
                       <p className="max-w-sm text-sm text-slate-300">This source did not respond successfully. Try another stream.</p>
                     </div>
-                  ) : isPlayerLoading ? (
+                  ) : isPlayerLoading && !selectedStreamIsWrapper ? (
                     <div className="absolute inset-0 z-10 flex items-center justify-center bg-slate-900/50 backdrop-blur-sm">
                       <div className="inline-flex items-center gap-2 rounded-full bg-white/95 px-4 py-2 text-sm font-semibold text-slate-700">
                         <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-sky-500" />
@@ -199,9 +206,11 @@ export const StreamModal: React.FC<StreamModalProps> = ({
                     </div>
                   ) : null}
 
-                  {!selectedStreamUnavailable && isVideoUrl(selectedStream.url) ? (
+                  {!selectedStreamUnavailable && selectedStreamIsWrapper ? (
+                    <ExternalStreamPlayer streamUrl={selectedStream.url} isDarkTheme={isDarkTheme} />
+                  ) : !selectedStreamUnavailable && isVideoUrl(selectedStream.url) ? (
                     <video
-                      className="w-full aspect-video"
+                      className="block h-full w-full object-contain"
                       controls
                       autoPlay
                       controlsList="nodownload"
@@ -216,9 +225,10 @@ export const StreamModal: React.FC<StreamModalProps> = ({
                     </video>
                   ) : !selectedStreamUnavailable ? (
                     <iframe
-                      className="w-full aspect-video border-0"
+                      className="absolute inset-0 block h-full w-full overflow-hidden border-0"
                       src={selectedStream.url}
                       title={selectedStream.label}
+                      scrolling="no"
                       allowFullScreen
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       onLoad={() => setIsPlayerLoading(false)}
