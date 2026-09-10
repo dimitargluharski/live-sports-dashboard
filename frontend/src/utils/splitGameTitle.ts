@@ -1,4 +1,11 @@
 export function splitGameTitle(title: string): [string, string | undefined] {
-  const [homeTeam, awayTeam] = title.split(/\s+[–-]\s+/).map((item) => item.trim());
-  return [homeTeam || title, awayTeam || undefined];
+  const normalizedTitle = title.trim();
+  const match = normalizedTitle.match(/^(.*?)(?:\s+(?:vs|–|-|—)\s+)(.*)$/i);
+
+  if (!match) {
+    return [normalizedTitle || 'Unknown match', undefined];
+  }
+
+  const [, homeTeam, awayTeam] = match;
+  return [homeTeam.trim() || normalizedTitle, awayTeam.trim() || undefined];
 }

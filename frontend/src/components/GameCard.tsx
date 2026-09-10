@@ -69,8 +69,10 @@ export const GameCard = React.memo<GameCardProps>(({
     ? h2hMatches.length > 0 ? 'h2h' : 'form'
     : activeTab;
   const [titleHome, titleAway] = splitGameTitle(title);
-  const resolvedHome = teams?.home?.name || titleHome;
-  const resolvedAway = teams?.away?.name || titleAway || null;
+  const explicitHome = teams?.home?.name?.trim() || null;
+  const explicitAway = teams?.away?.name?.trim() || null;
+  const resolvedHome = explicitHome || titleHome;
+  const resolvedAway = explicitAway || titleAway || null;
   const formSummary = getFormSummary(h2hMatches);
 
   useEffect(() => {
@@ -119,8 +121,8 @@ export const GameCard = React.memo<GameCardProps>(({
     <article className={`group ${isChampionsLeague ? 'mx-auto w-full max-w-3xl' : ''} rounded-lg border px-2.5 py-2 shadow-sm transition-shadow duration-200 hover:shadow-md sm:px-3 ${
       isChampionsLeague && !isPreview
         ? isDarkTheme
-          ? isEnded ? 'rounded-xl border-white/15 border-t-2 border-l-4 border-t-neutral-500 border-l-neutral-500 bg-[#202020] px-4 py-3 shadow-[0_8px_18px_rgba(0,0,0,0.14)] sm:px-5' : 'rounded-xl border-white/10 border-t-2 border-l-4 border-t-neutral-500 border-l-neutral-500 bg-[#1b1b1b] px-4 py-3 shadow-[0_10px_22px_rgba(0,0,0,0.16)] sm:px-5'
-          : isEnded ? 'rounded-xl border-stone-400/60 border-t-2 border-l-4 border-t-stone-500 border-l-stone-500 bg-[#f3f1ed] px-4 py-3 shadow-[0_8px_18px_rgba(71,62,48,0.08)] sm:px-5' : 'rounded-xl border-black/10 border-t-2 border-l-4 border-t-slate-400 border-l-slate-400 bg-white px-4 py-3 shadow-[0_10px_22px_rgba(71,62,48,0.08)] sm:px-5'
+          ? isEnded ? 'rounded-xl border-white/10 border-t border-l-2 border-t-neutral-400 border-l-neutral-400 bg-[#202020] px-4 py-3 shadow-[0_8px_18px_rgba(0,0,0,0.14)] sm:px-5' : 'rounded-xl border-white/10 border-t border-l-2 border-t-neutral-400 border-l-neutral-400 bg-[#1b1b1b] px-4 py-3 shadow-[0_10px_22px_rgba(0,0,0,0.16)] sm:px-5'
+          : isEnded ? 'rounded-xl border-stone-300 border-t border-l-2 border-t-stone-400 border-l-stone-400 bg-[#f3f1ed] px-4 py-3 shadow-[0_8px_18px_rgba(71,62,48,0.08)] sm:px-5' : 'rounded-xl border-slate-200 border-t border-l-2 border-t-slate-300 border-l-slate-300 bg-white px-4 py-3 shadow-[0_10px_22px_rgba(71,62,48,0.08)] sm:px-5'
         : isPreview && isLive
            ? isDarkTheme ? 'rounded-xl border-white/10 border-t-2 border-l-4 border-t-rose-500 border-l-rose-500 bg-[#2a171c] px-4 py-3 shadow-[0_10px_22px_rgba(244,63,94,0.16)] sm:px-5' : 'rounded-xl border-black/10 border-t-2 border-l-4 border-t-rose-500 border-l-rose-500 bg-rose-50 px-4 py-3 shadow-[0_10px_22px_rgba(244,63,94,0.14)] sm:px-5'
         : isDarkTheme
@@ -149,7 +151,7 @@ export const GameCard = React.memo<GameCardProps>(({
         homeLogoUrl={homeLogoUrl}
         awayLogoUrl={awayLogoUrl}
         flagUrl={flagUrl}
-        hideScheduledTime={isChampionsLeague}
+        hideScheduledTime={false}
         horizontalTeams={isChampionsLeague}
         homeForm={headToHead?.form?.home}
         awayForm={headToHead?.form?.away}

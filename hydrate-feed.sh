@@ -7,6 +7,7 @@ FRONTEND_PUBLIC_DIR="$ROOT_DIR/frontend/public"
 BACKEND_ENV_FILE="$BACKEND_DIR/.env"
 FRONTEND_JSON_REL="frontend/public/allSoccerGamesToday.json"
 LOCK_DIR="$BACKEND_DIR/.cache/hydrate.lock"
+LOCK_PID_FILE="$LOCK_DIR/pid"
 
 RAW_JSON="$BACKEND_DIR/.cache/allSoccerGamesToday.raw.json"
 ENRICHED_JSON="$BACKEND_DIR/public/allSoccerGamesToday.json"
@@ -78,12 +79,55 @@ ensure_backend_env() {
 
 ensure_backend_env
 
-mkdir -p "$(dirname "$LOCK_DIR")"
-if ! mkdir "$LOCK_DIR" 2>/dev/null; then
-  echo "ERROR: Another hydrate process is already running."
-  exit 1
-fi
-trap 'rmdir "$LOCK_DIR" >/dev/null 2>&1 || true' EXIT
+acquire_lock() {
+  mkdir -p "$(dirname "$LOCK_DIR")"
+
+  if mkdir "$LOCK_DIR" 2>/dev/null; then
+    echo "$$" > "$LOCK_PID_FILE"
+    return 0
+  fi
+
+  local existing_pid=""
+  if [[ -f "$LOCK_PID_FILE" ]]; then
+    existing_pid="$(tr -dc '0-9' < "$LOCK_PID_FILE")"
+  fi
+
+  if [[ -n "$existing_pid" ]] && kill -0 "$existing_pid" >/dev/null 2>&1; then
+    echo "ERROR: Another hydrate process is already running (pid: $existing_pid)."
+    echo "Stop it or wait for it to finish, then retry."
+    exit 1
+  fi
+
+  # Legacy lock dirs may not have a pid file; detect active hydrators before recovering.
+  local other_pids=""
+  if command -v pgrep >/dev/null 2>&1; then
+    other_pids="$(pgrep -f "hydrate-feed.sh" 2>/dev/null | awk -v me="$$" '$1 != me {print $1}' | tr '\n' ' ' || true)"
+  else
+    other_pids="$(ps 2>/dev/null | awk -v me="$$" 'index($0, "hydrate-feed.sh") && $1 != me {print $1}' | tr '\n' ' ' || true)"
+  fi
+  if [[ -n "${other_pids// /}" ]]; then
+    echo "ERROR: Another hydrate process appears to be running (pid(s): $other_pids)."
+    echo "Stop it or wait for it to finish, then retry."
+    exit 1
+  fi
+
+  echo "WARNING: Found stale hydrate lock. Recovering..."
+  rm -rf "$LOCK_DIR"
+
+  if ! mkdir "$LOCK_DIR" 2>/dev/null; then
+    echo "ERROR: Unable to acquire hydrate lock at $LOCK_DIR"
+    exit 1
+  fi
+
+  echo "$$" > "$LOCK_PID_FILE"
+}
+
+cleanup_lock() {
+  rm -rf "$LOCK_DIR" >/dev/null 2>&1 || true
+}
+
+acquire_lock
+trap cleanup_lock EXIT
 
 resolve_git_branch() {
   if [[ -n "$GIT_BRANCH" ]]; then
