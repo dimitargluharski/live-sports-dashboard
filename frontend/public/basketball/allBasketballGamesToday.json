@@ -1,7 +1,7 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-10T21:21:08.208Z",
-  "count": 66,
+  "scrapedAt": "2026-09-10T21:44:33.298Z",
+  "count": 67,
   "matches": [
     {
       "id": 1,
@@ -5729,6 +5729,36 @@
     },
     {
       "id": 63,
+      "title": "Spain (W) – USA (W)",
+      "dateLabel": "12 September",
+      "timeLabel": "19:00",
+      "isLive": false,
+      "leagueLabel": "Women. World Championship",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Women. World Championship",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 19:00\n(Women. World Championship)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Spain (W)",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/flag60.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "USA (W)",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/flag205.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 64,
       "title": "Goettingen – Mitteldeutscher",
       "dateLabel": "12 September",
       "timeLabel": "19:00",
@@ -5881,7 +5911,7 @@
       }
     },
     {
-      "id": 64,
+      "id": 65,
       "title": "Lithuania – Latvia",
       "dateLabel": "12 September",
       "timeLabel": "19:20",
@@ -6034,7 +6064,7 @@
       }
     },
     {
-      "id": 65,
+      "id": 66,
       "title": "Netherlands (W) – Ukraine (W)",
       "dateLabel": "12 September",
       "timeLabel": "19:45",
@@ -6064,7 +6094,7 @@
       "headToHead": null
     },
     {
-      "id": 66,
+      "id": 67,
       "title": "Serbia – Belgium",
       "dateLabel": "12 September",
       "timeLabel": "20:10",
@@ -6217,5 +6247,5 @@
       }
     }
   ],
-  "enrichedAt": "2026-09-10T21:21:08.208Z"
+  "enrichedAt": "2026-09-10T21:44:33.299Z"
 }

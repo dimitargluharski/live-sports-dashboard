@@ -1,7 +1,7 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-10T21:20:11.880Z",
-  "count": 481,
+  "scrapedAt": "2026-09-10T21:43:39.520Z",
+  "count": 488,
   "matches": [
     {
       "id": 1,
@@ -58995,7 +58995,937 @@
           }
         }
       }
+    },
+    {
+      "id": 482,
+      "title": "Bryne – Stabaek",
+      "dateLabel": "12 September",
+      "timeLabel": "19:00",
+      "isLive": false,
+      "leagueLabel": "Norway. 1. Divisjon",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/no.gif",
+      "iconAlt": "Norway. 1. Divisjon",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 19:00\n(Norway. 1. Divisjon)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Bryne",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/5578.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Stabaek",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/282.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700017760/700000168/1_8ddc9/",
+        "matches": [
+          {
+            "date": "27/06",
+            "competition": "Norway. 1. Divisjon",
+            "homeTeam": "Stabaek",
+            "awayTeam": "Bryne",
+            "score": "2:0",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "01/09",
+            "competition": "Norway. 1. Divisjon",
+            "homeTeam": "Bryne",
+            "awayTeam": "Stabaek",
+            "score": "3:0",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "08/05",
+            "competition": "Norway. Cup",
+            "homeTeam": "Stabaek",
+            "awayTeam": "Bryne",
+            "score": "5:1",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Bryne",
+        "awayTeam": "Stabaek",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "1. Divisjon",
+                "opponent": "Strommen",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "1. Divisjon",
+                "opponent": "Haugesund",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "26/08",
+                "competition": "Cup",
+                "opponent": "Rosseland",
+                "score": "3:0",
+                "result": "W"
+              },
+              {
+                "date": "22/08",
+                "competition": "1. Divisjon",
+                "opponent": "Sandnes Ulf",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "15/08",
+                "competition": "1. Divisjon",
+                "opponent": "Moss",
+                "score": "2:1",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "1. Divisjon",
+                "opponent": "Strommen",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "1. Divisjon",
+                "opponent": "Bryne",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "26/08",
+                "competition": "Cup",
+                "opponent": "Rosseland",
+                "score": "3:0",
+                "result": "W"
+              },
+              {
+                "date": "22/08",
+                "competition": "1. Divisjon",
+                "opponent": "Sandnes Ulf",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "15/08",
+                "competition": "1. Divisjon",
+                "opponent": "Bryne",
+                "score": "1:2",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 483,
+      "title": "Iraklis Thessaloniki – Atromitos",
+      "dateLabel": "12 September",
+      "timeLabel": "19:00",
+      "isLive": false,
+      "leagueLabel": "Greece. Super League",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/gr.gif",
+      "iconAlt": "Greece. Super League",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 19:00\n(Greece. Super League)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Iraklis Thessaloniki",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/30392.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Atromitos",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/331.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 484,
+      "title": "9 de Octubre – Independiente Juniors",
+      "dateLabel": "12 September",
+      "timeLabel": "19:00",
+      "isLive": false,
+      "leagueLabel": "Ecuador. Serie B",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/ec.gif",
+      "iconAlt": "Ecuador. Serie B",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 19:00\n(Ecuador. Serie B)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "9 de Octubre",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/2512.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Independiente Juniors",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/2394.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700014729/700014723/1_47a4b/",
+        "matches": [
+          {
+            "date": "15/08",
+            "competition": "Ecuador. Serie B",
+            "homeTeam": "9 de Octubre",
+            "awayTeam": "Independiente Juniors",
+            "score": "2:2",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "25/05",
+            "competition": "Ecuador. Serie B",
+            "homeTeam": "Independiente Juniors",
+            "awayTeam": "9 de Octubre",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "21/05",
+            "competition": "Ecuador. Serie B",
+            "homeTeam": "Independiente Juniors",
+            "awayTeam": "9 de Octubre",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "9 de Octubre",
+        "awayTeam": "Independiente Juniors",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "04/09",
+                "competition": "Serie B",
+                "opponent": "Atletico Rojiblanco",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "28/08",
+                "competition": "Serie B",
+                "opponent": "Cuenca Juniors",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "20/08",
+                "competition": "Serie B",
+                "opponent": "San Antonio Cotacachi",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "15/08",
+                "competition": "Serie B",
+                "opponent": "Independiente Juniors",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "06/08",
+                "competition": "Serie B",
+                "opponent": "El Nacional",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 4,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "04/09",
+                "competition": "Serie B",
+                "opponent": "Atletico Rojiblanco",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "28/08",
+                "competition": "Serie B",
+                "opponent": "Cuenca Juniors",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "20/08",
+                "competition": "Serie B",
+                "opponent": "San Antonio Cotacachi",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "15/08",
+                "competition": "Serie B",
+                "opponent": "9 de Octubre",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "06/08",
+                "competition": "Serie B",
+                "opponent": "El Nacional",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 4,
+              "L": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 485,
+      "title": "Talleres Remedios – Deportivo Liniers",
+      "dateLabel": "12 September",
+      "timeLabel": "19:00",
+      "isLive": false,
+      "leagueLabel": "Argentina. Primera B Metropolitana",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/ar.gif",
+      "iconAlt": "Argentina. Primera B Metropolitana",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 19:00\n(Argentina. Primera B Metropolitana)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Talleres Remedios",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/10525.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Deportivo Liniers",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/11029.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700013613/700023863/1_cccb7/",
+        "matches": [
+          {
+            "date": "03/05",
+            "competition": "Argentina. Primera B Metropolitana",
+            "homeTeam": "Deportivo Liniers",
+            "awayTeam": "Talleres Remedios",
+            "score": "0:1",
+            "result": "W",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Talleres Remedios",
+        "awayTeam": "Deportivo Liniers",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Real Pilar",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "29/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "UAI Urquiza",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "25/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Villa Dalmine",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "22/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Excursionistas",
+                "score": "1:2",
+                "result": "L"
+              },
+              {
+                "date": "15/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Arsenal de Sarandi",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Real Pilar",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "29/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Talleres Remedios",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "25/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Villa Dalmine",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "22/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Talleres Remedios",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "15/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Arsenal de Sarandi",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 486,
+      "title": "Laferrere – Villa San Carlos",
+      "dateLabel": "12 September",
+      "timeLabel": "19:00",
+      "isLive": false,
+      "leagueLabel": "Argentina. Primera B Metropolitana",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/ar.gif",
+      "iconAlt": "Argentina. Primera B Metropolitana",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 19:00\n(Argentina. Primera B Metropolitana)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Laferrere",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/10764.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Villa San Carlos",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/10523.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700013644/700013620/1_4bb98/",
+        "matches": [
+          {
+            "date": "02/05",
+            "competition": "Argentina. Primera B Metropolitana",
+            "homeTeam": "Villa San Carlos",
+            "awayTeam": "Laferrere",
+            "score": "0:2",
+            "result": "W",
+            "winner": "away"
+          },
+          {
+            "date": "04/07",
+            "competition": "Argentina. Primera B Metropolitana",
+            "homeTeam": "Laferrere",
+            "awayTeam": "Villa San Carlos",
+            "score": "0:1",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "15/02",
+            "competition": "Argentina. Primera B Metropolitana",
+            "homeTeam": "Villa San Carlos",
+            "awayTeam": "Laferrere",
+            "score": "2:0",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Laferrere",
+        "awayTeam": "Villa San Carlos",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "06/09",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Deportivo Liniers",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "29/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Real Pilar",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "25/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "UAI Urquiza",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "21/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Villa Dalmine",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "15/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Excursionistas",
+                "score": "3:5",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 2,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "06/09",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Deportivo Liniers",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "29/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Laferrere",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "25/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "UAI Urquiza",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "21/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Laferrere",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "15/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Excursionistas",
+                "score": "3:5",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 2,
+              "L": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 487,
+      "title": "Deportivo Armenio – Sportivo Italiano",
+      "dateLabel": "12 September",
+      "timeLabel": "19:00",
+      "isLive": false,
+      "leagueLabel": "Argentina. Primera B Metropolitana",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/ar.gif",
+      "iconAlt": "Argentina. Primera B Metropolitana",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 19:00\n(Argentina. Primera B Metropolitana)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Deportivo Armenio",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/30271.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Sportivo Italiano",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/10770.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700013628/700013647/1_f18b0/",
+        "matches": [
+          {
+            "date": "02/05",
+            "competition": "Argentina. Primera B Metropolitana",
+            "homeTeam": "Sportivo Italiano",
+            "awayTeam": "Deportivo Armenio",
+            "score": "1:0",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "01/12",
+            "competition": "Argentina. Primera B Metropolitana",
+            "homeTeam": "Deportivo Armenio",
+            "awayTeam": "Sportivo Italiano",
+            "score": "1:1",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "29/11",
+            "competition": "Argentina. Primera B Metropolitana",
+            "homeTeam": "Deportivo Armenio",
+            "awayTeam": "Sportivo Italiano",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "Deportivo Armenio",
+        "awayTeam": "Sportivo Italiano",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "Primera B Metropolitana",
+                "opponent": "San Martin Burzaco",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "30/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Villa San Carlos",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "26/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Deportivo Liniers",
+                "score": "1:3",
+                "result": "L"
+              },
+              {
+                "date": "22/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Real Pilar",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "16/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "UAI Urquiza",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "Primera B Metropolitana",
+                "opponent": "San Martin Burzaco",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "30/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Deportivo Armenio",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "26/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Deportivo Liniers",
+                "score": "1:3",
+                "result": "L"
+              },
+              {
+                "date": "22/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Deportivo Armenio",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "16/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "UAI Urquiza",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 488,
+      "title": "Defensores Unidos – Dock Sud",
+      "dateLabel": "12 September",
+      "timeLabel": "19:00",
+      "isLive": false,
+      "leagueLabel": "Argentina. Primera B Metropolitana",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/ar.gif",
+      "iconAlt": "Argentina. Primera B Metropolitana",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 19:00\n(Argentina. Primera B Metropolitana)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Defensores Unidos",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/34553.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Dock Sud",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/10767.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700013624/700013641/1_2141c/",
+        "matches": [
+          {
+            "date": "02/05",
+            "competition": "Argentina. Primera B Metropolitana",
+            "homeTeam": "Dock Sud",
+            "awayTeam": "Defensores Unidos",
+            "score": "2:0",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "08/08",
+            "competition": "Argentina. Primera B Metropolitana",
+            "homeTeam": "Dock Sud",
+            "awayTeam": "Defensores Unidos",
+            "score": "0:1",
+            "result": "W",
+            "winner": "away"
+          },
+          {
+            "date": "09/04",
+            "competition": "Argentina. Primera B Metropolitana",
+            "homeTeam": "Defensores Unidos",
+            "awayTeam": "Dock Sud",
+            "score": "2:0",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Defensores Unidos",
+        "awayTeam": "Dock Sud",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Deportivo Merlo",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "29/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Deportivo Camioneros",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "25/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Sportivo Italiano",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "22/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "San Martin Burzaco",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "16/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Villa San Carlos",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 2,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Deportivo Merlo",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "29/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Defensores Unidos",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "25/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Sportivo Italiano",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "22/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Defensores Unidos",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "16/08",
+                "competition": "Primera B Metropolitana",
+                "opponent": "Villa San Carlos",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 2,
+              "L": 2
+            }
+          }
+        }
+      }
     }
   ],
-  "enrichedAt": "2026-09-10T21:20:11.881Z"
+  "enrichedAt": "2026-09-10T21:43:39.521Z"
 }
