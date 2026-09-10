@@ -1,6 +1,6 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-10T20:38:00.337Z",
+  "scrapedAt": "2026-09-10T20:57:01.244Z",
   "count": 32,
   "matches": [
     {
@@ -8,106 +8,15 @@
       "title": "Australia (W) – Spain (W)",
       "dateLabel": "10 September",
       "timeLabel": "19:45",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. World Championship",
       "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
       "iconAlt": "Women. World Championship",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 19:45\n(Women. World Championship)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266937&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:38:00.937Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266938&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:38:00.947Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 3,
-          "label": "Stream 6",
-          "url": "https://restream.website/basketball1/trutv.php",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:38:00.947Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 4,
-          "label": "Stream 7",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=249287&w=700&h=480",
-          "language": "Russian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:38:00.948Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 5,
-          "label": "Stream 9",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266206&w=700&h=480",
-          "language": "German",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:38:00.949Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 6,
-          "label": "Stream 11",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267281&w=700&h=480",
-          "language": "Serbian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:38:00.950Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 7,
-          "label": "Stream 13",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=ID&w=700&h=480",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:38:00.950Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 8,
-          "label": "Stream 15",
-          "url": "https://abisnews.com/arena5premiumserbia.php",
-          "language": "Serbian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:38:00.950Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 9,
-          "label": "Stream 16",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5V2LA3ZLBjpfXFfbTtwuoT",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:38:01.105Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 9,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Australia (W)",
@@ -3128,5 +3037,5 @@
       "headToHead": null
     }
   ],
-  "enrichedAt": "2026-09-10T20:38:00.337Z"
+  "enrichedAt": "2026-09-10T20:57:01.244Z"
 }
