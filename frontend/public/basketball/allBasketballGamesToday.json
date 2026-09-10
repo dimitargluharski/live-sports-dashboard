@@ -1,223 +1,10 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-10T20:57:01.244Z",
-  "count": 32,
+  "scrapedAt": "2026-09-10T21:21:08.208Z",
+  "count": 66,
   "matches": [
     {
       "id": 1,
-      "title": "Australia (W) – Spain (W)",
-      "dateLabel": "10 September",
-      "timeLabel": "19:45",
-      "isLive": false,
-      "leagueLabel": "Women. World Championship",
-      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
-      "iconAlt": "Women. World Championship",
-      "sectionLabel": "10 September",
-      "isTopMatch": false,
-      "rawDescription": "10 September at 19:45\n(Women. World Championship)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Australia (W)",
-          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/flag12.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Spain (W)",
-          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/flag60.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 2,
-      "title": "Santo Andre U-20 – Sorocaba U-20",
-      "dateLabel": "10 September",
-      "timeLabel": "23:00",
-      "isLive": false,
-      "leagueLabel": "Brazil. Campeonato Paulista U20",
-      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
-      "iconAlt": "Brazil. Campeonato Paulista U20",
-      "sectionLabel": "10 September",
-      "isTopMatch": false,
-      "rawDescription": "10 September at 23:00\n(Brazil. Campeonato Paulista U20)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Santo Andre U-20",
-          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/37996.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Sorocaba U-20",
-          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/30789.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700066931/700059559/3_b5c3f/",
-        "matches": [
-          {
-            "date": "10/09",
-            "competition": "Brazil. Campeonato Paulista U20",
-            "homeTeam": "Santo Andre U-20",
-            "awayTeam": "Sorocaba U-20",
-            "score": "0:0",
-            "result": "D",
-            "winner": "draw"
-          },
-          {
-            "date": "27/07",
-            "competition": "Brazil. Campeonato Paulista U20",
-            "homeTeam": "Sorocaba U-20",
-            "awayTeam": "Santo Andre U-20",
-            "score": "87:45",
-            "result": "L",
-            "winner": "home"
-          },
-          {
-            "date": "30/06",
-            "competition": "Brazil. Campeonato Paulista U20",
-            "homeTeam": "Sorocaba U-20",
-            "awayTeam": "Santo Andre U-20",
-            "score": "0:0",
-            "result": "D",
-            "winner": "draw"
-          }
-        ],
-        "homeTeam": "Santo Andre U-20",
-        "awayTeam": "Sorocaba U-20",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "10/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Sorocaba U-20",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "07/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Sao Jose U-20",
-                "score": "61:100",
-                "result": "L"
-              },
-              {
-                "date": "04/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Araraquara U-20",
-                "score": "52:115",
-                "result": "L"
-              },
-              {
-                "date": "27/08",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Santos U-20",
-                "score": "73:65",
-                "result": "W"
-              },
-              {
-                "date": "19/08",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Mogi das Cruzes U-20",
-                "score": "48:111",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 1,
-              "L": 3
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "10/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Santo Andre U-20",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "07/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Sao Jose U-20",
-                "score": "61:100",
-                "result": "L"
-              },
-              {
-                "date": "04/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Araraquara U-20",
-                "score": "52:115",
-                "result": "L"
-              },
-              {
-                "date": "27/08",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Santo Andre U-20",
-                "score": "65:73",
-                "result": "L"
-              },
-              {
-                "date": "19/08",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Santo Andre U-20",
-                "score": "111:48",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 1,
-              "L": 3
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 3,
-      "title": "Deportivo Amambay – Capiata Bulls",
-      "dateLabel": "10 September",
-      "timeLabel": "23:30",
-      "isLive": false,
-      "leagueLabel": "Paraguay. LNB",
-      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
-      "iconAlt": "Paraguay. LNB",
-      "sectionLabel": "10 September",
-      "isTopMatch": false,
-      "rawDescription": "10 September at 23:30\n(Paraguay. LNB)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Deportivo Amambay",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Capiata Bulls",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 4,
       "title": "Felix Perez Cardozo – Olimpia Kings",
       "dateLabel": "11 September",
       "timeLabel": "0:00",
@@ -247,7 +34,7 @@
       "headToHead": null
     },
     {
-      "id": 5,
+      "id": 2,
       "title": "Deportivo Campoalto – San Alfonso",
       "dateLabel": "11 September",
       "timeLabel": "0:30",
@@ -400,7 +187,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 3,
       "title": "China – Kazakhstan",
       "dateLabel": "11 September",
       "timeLabel": "2:00",
@@ -553,7 +340,7 @@
       }
     },
     {
-      "id": 7,
+      "id": 4,
       "title": "Abejas de Leon – Gambusinos",
       "dateLabel": "11 September",
       "timeLabel": "2:00",
@@ -697,7 +484,7 @@
       }
     },
     {
-      "id": 8,
+      "id": 5,
       "title": "El Calor – Panteras Aguascalientes",
       "dateLabel": "11 September",
       "timeLabel": "2:15",
@@ -850,7 +637,7 @@
       }
     },
     {
-      "id": 9,
+      "id": 6,
       "title": "Correbasket UAT – Dorados de Chihuahua",
       "dateLabel": "11 September",
       "timeLabel": "2:15",
@@ -1003,7 +790,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 7,
       "title": "Santos del Potosi – Fuerza Regia",
       "dateLabel": "11 September",
       "timeLabel": "3:00",
@@ -1156,7 +943,7 @@
       }
     },
     {
-      "id": 11,
+      "id": 8,
       "title": "Lobos Plateados – Freseros de Irapuato",
       "dateLabel": "11 September",
       "timeLabel": "3:00",
@@ -1300,7 +1087,7 @@
       }
     },
     {
-      "id": 12,
+      "id": 9,
       "title": "Mineros de Zacatecas – Diablos Rojos",
       "dateLabel": "11 September",
       "timeLabel": "3:05",
@@ -1453,7 +1240,7 @@
       }
     },
     {
-      "id": 13,
+      "id": 10,
       "title": "Philippines – Bahrain",
       "dateLabel": "11 September",
       "timeLabel": "5:00",
@@ -1483,7 +1270,7 @@
       "headToHead": null
     },
     {
-      "id": 14,
+      "id": 11,
       "title": "Indonesia – South Korea",
       "dateLabel": "11 September",
       "timeLabel": "8:00",
@@ -1636,7 +1423,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 12,
       "title": "Saudi Arabia – Japan",
       "dateLabel": "11 September",
       "timeLabel": "11:00",
@@ -1666,7 +1453,7 @@
       "headToHead": null
     },
     {
-      "id": 16,
+      "id": 13,
       "title": "Europe Cup",
       "dateLabel": "11 September",
       "timeLabel": "12:30",
@@ -1696,7 +1483,7 @@
       "headToHead": null
     },
     {
-      "id": 17,
+      "id": 14,
       "title": "Spain (W) – Slovenia (W)",
       "dateLabel": "11 September",
       "timeLabel": "12:30",
@@ -1726,7 +1513,7 @@
       "headToHead": null
     },
     {
-      "id": 18,
+      "id": 15,
       "title": "France – Estonia",
       "dateLabel": "11 September",
       "timeLabel": "12:55",
@@ -1879,7 +1666,7 @@
       }
     },
     {
-      "id": 19,
+      "id": 16,
       "title": "Germany (W) – Belgium (W)",
       "dateLabel": "11 September",
       "timeLabel": "13:20",
@@ -1909,7 +1696,7 @@
       "headToHead": null
     },
     {
-      "id": 20,
+      "id": 17,
       "title": "Netherlands – Italy",
       "dateLabel": "11 September",
       "timeLabel": "14:10",
@@ -2062,7 +1849,7 @@
       }
     },
     {
-      "id": 21,
+      "id": 18,
       "title": "Hungary (W) – Slovenia (W)",
       "dateLabel": "11 September",
       "timeLabel": "14:35",
@@ -2092,7 +1879,7 @@
       "headToHead": null
     },
     {
-      "id": 22,
+      "id": 19,
       "title": "France – Germany",
       "dateLabel": "11 September",
       "timeLabel": "15:00",
@@ -2245,7 +2032,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 20,
       "title": "Aris – Maccabi T-A",
       "dateLabel": "11 September",
       "timeLabel": "16:00",
@@ -2275,7 +2062,7 @@
       "headToHead": null
     },
     {
-      "id": 24,
+      "id": 21,
       "title": "Europe Cup",
       "dateLabel": "11 September",
       "timeLabel": "17:55",
@@ -2305,7 +2092,7 @@
       "headToHead": null
     },
     {
-      "id": 25,
+      "id": 22,
       "title": "Germany (W) – Poland (W)",
       "dateLabel": "11 September",
       "timeLabel": "17:55",
@@ -2335,7 +2122,7 @@
       "headToHead": null
     },
     {
-      "id": 26,
+      "id": 23,
       "title": "Spain – Italy",
       "dateLabel": "11 September",
       "timeLabel": "18:20",
@@ -2488,7 +2275,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 24,
       "title": "Spain (W) – Hungary (W)",
       "dateLabel": "11 September",
       "timeLabel": "18:45",
@@ -2518,7 +2305,7 @@
       "headToHead": null
     },
     {
-      "id": 28,
+      "id": 25,
       "title": "Hamburg – Rostock",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -2671,7 +2458,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 26,
       "title": "Olympiacos – Crvena Zvezda",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -2824,7 +2611,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 27,
       "title": "Germany – Estonia",
       "dateLabel": "11 September",
       "timeLabel": "19:20",
@@ -2977,7 +2764,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 28,
       "title": "Poland (W) – Belgium (W)",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -3007,7 +2794,7 @@
       "headToHead": null
     },
     {
-      "id": 32,
+      "id": 29,
       "title": "Netherlands – Spain",
       "dateLabel": "11 September",
       "timeLabel": "20:10",
@@ -3035,7 +2822,3400 @@
         }
       },
       "headToHead": null
+    },
+    {
+      "id": 30,
+      "title": "Pinheiros U-20 – Mogi das Cruzes U-20",
+      "dateLabel": "12 September",
+      "timeLabel": "1:00",
+      "isLive": false,
+      "leagueLabel": "Brazil. Campeonato Paulista U20",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Brazil. Campeonato Paulista U20",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 1:00\n(Brazil. Campeonato Paulista U20)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Pinheiros U-20",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/31318.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Mogi das Cruzes U-20",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/30929.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700054643/700056185/3_03d73/",
+        "matches": [
+          {
+            "date": "10/09",
+            "competition": "Brazil. Campeonato Paulista U20",
+            "homeTeam": "Pinheiros U-20",
+            "awayTeam": "Mogi das Cruzes U-20",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "16/06",
+            "competition": "Brazil. Campeonato Paulista U20",
+            "homeTeam": "Mogi das Cruzes U-20",
+            "awayTeam": "Pinheiros U-20",
+            "score": "84:89",
+            "result": "W",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Pinheiros U-20",
+        "awayTeam": "Mogi das Cruzes U-20",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "10/09",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Mogi das Cruzes U-20",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "03/09",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Franca U-20",
+                "score": "83:94",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Araraquara U-20",
+                "score": "93:68",
+                "result": "W"
+              },
+              {
+                "date": "27/08",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Limeira U-20",
+                "score": "92:67",
+                "result": "W"
+              },
+              {
+                "date": "24/08",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Sao Jose U-20",
+                "score": "71:95",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "10/09",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Pinheiros U-20",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "03/09",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Pinheiros U-20",
+                "score": "94:83",
+                "result": "W"
+              },
+              {
+                "date": "30/08",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Pinheiros U-20",
+                "score": "68:93",
+                "result": "L"
+              },
+              {
+                "date": "27/08",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Pinheiros U-20",
+                "score": "67:92",
+                "result": "L"
+              },
+              {
+                "date": "24/08",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Sao Jose U-20",
+                "score": "71:95",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 31,
+      "title": "Colonias Gold – Deportivo San Jose",
+      "dateLabel": "12 September",
+      "timeLabel": "1:00",
+      "isLive": false,
+      "leagueLabel": "Paraguay. LNB",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Paraguay. LNB",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 1:00\n(Paraguay. LNB)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Colonias Gold",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/31138.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Deportivo San Jose",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/23459.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700055350/700037620/3_decb2/",
+        "matches": [
+          {
+            "date": "04/06",
+            "competition": "Paraguay. Primera Division",
+            "homeTeam": "Colonias Gold",
+            "awayTeam": "Deportivo San Jose",
+            "score": "93:106",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "14/05",
+            "competition": "Paraguay. Primera Division",
+            "homeTeam": "Deportivo San Jose",
+            "awayTeam": "Colonias Gold",
+            "score": "87:76",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "21/04",
+            "competition": "Paraguay. Primera Division",
+            "homeTeam": "Colonias Gold",
+            "awayTeam": "Deportivo San Jose",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "Colonias Gold",
+        "awayTeam": "Deportivo San Jose",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "Primera Division",
+                "opponent": "Felix Perez Cardozo",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "04/09",
+                "competition": "Primera Division",
+                "opponent": "Felix Perez Cardozo",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "01/09",
+                "competition": "Primera Division",
+                "opponent": "San Alfonso",
+                "score": "90:45",
+                "result": "W"
+              },
+              {
+                "date": "23/08",
+                "competition": "Primera Division",
+                "opponent": "Amambay",
+                "score": "80:72",
+                "result": "W"
+              },
+              {
+                "date": "20/08",
+                "competition": "Primera Division",
+                "opponent": "Deportivo Campoalto",
+                "score": "91:74",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 2,
+              "L": 0
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "Primera Division",
+                "opponent": "Colonias Gold",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "04/09",
+                "competition": "Primera Division",
+                "opponent": "Colonias Gold",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "01/09",
+                "competition": "Primera Division",
+                "opponent": "San Alfonso",
+                "score": "90:45",
+                "result": "W"
+              },
+              {
+                "date": "23/08",
+                "competition": "Primera Division",
+                "opponent": "Colonias Gold",
+                "score": "72:80",
+                "result": "L"
+              },
+              {
+                "date": "20/08",
+                "competition": "Primera Division",
+                "opponent": "Deportivo Campoalto",
+                "score": "91:74",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 2,
+              "L": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 32,
+      "title": "Chinese Taipei – Iran",
+      "dateLabel": "12 September",
+      "timeLabel": "2:00",
+      "isLive": false,
+      "leagueLabel": "Asian Games",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/fiba.gif",
+      "iconAlt": "Asian Games",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 2:00\n(Asian Games)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Chinese Taipei",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/19988.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Iran",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/2561.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/4127/1044/3_a93c7/",
+        "matches": [
+          {
+            "date": "17/07",
+            "competition": "International Tournament. Men. William Jones Cup. Taipei, Chinese Taipei. Round Robin",
+            "homeTeam": "Iran",
+            "awayTeam": "Chinese Taipei",
+            "score": "87:75",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "04/09",
+            "competition": "",
+            "homeTeam": "Chinese Taipei",
+            "awayTeam": "Iran",
+            "score": "63:69",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "14/08",
+            "competition": "",
+            "homeTeam": "Iran",
+            "awayTeam": "Chinese Taipei",
+            "score": "76:84",
+            "result": "W",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Chinese Taipei",
+        "awayTeam": "Iran",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "24/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Japan",
+                "score": "57:96",
+                "result": "L"
+              },
+              {
+                "date": "21/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Malaysia",
+                "score": "152:48",
+                "result": "W"
+              },
+              {
+                "date": "26/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "China",
+                "score": "3:21",
+                "result": "L"
+              },
+              {
+                "date": "25/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "Kazakhstan",
+                "score": "19:21",
+                "result": "L"
+              },
+              {
+                "date": "25/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "Indonesia",
+                "score": "21:20",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "24/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Chinese Taipei",
+                "score": "96:57",
+                "result": "W"
+              },
+              {
+                "date": "21/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Chinese Taipei",
+                "score": "48:152",
+                "result": "L"
+              },
+              {
+                "date": "26/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "China",
+                "score": "3:21",
+                "result": "L"
+              },
+              {
+                "date": "25/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "Kazakhstan",
+                "score": "19:21",
+                "result": "L"
+              },
+              {
+                "date": "25/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "Indonesia",
+                "score": "21:20",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 33,
+      "title": "Abejas de Leon – Gambusinos",
+      "dateLabel": "12 September",
+      "timeLabel": "2:00",
+      "isLive": false,
+      "leagueLabel": "Mexico. LNBP",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Mexico. LNBP",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 2:00\n(Mexico. LNBP)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Abejas de Leon",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/29617.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Gambusinos",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/34632.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700014333/700064885/3_26b8e/",
+        "matches": [
+          {
+            "date": "16/08",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Abejas de Leon",
+            "awayTeam": "Gambusinos",
+            "score": "94:95",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "15/08",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Abejas de Leon",
+            "awayTeam": "Gambusinos",
+            "score": "66:77",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Abejas de Leon",
+        "awayTeam": "Gambusinos",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "04/09",
+                "competition": "Friendly Match",
+                "opponent": "Mineros de Zacatecas",
+                "score": "86:96",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Fuerza Regia",
+                "score": "76:75",
+                "result": "W"
+              },
+              {
+                "date": "29/08",
+                "competition": "LNBP",
+                "opponent": "Fuerza Regia",
+                "score": "84:95",
+                "result": "L"
+              },
+              {
+                "date": "26/08",
+                "competition": "LNBP",
+                "opponent": "Diablos Rojos",
+                "score": "73:75",
+                "result": "L"
+              },
+              {
+                "date": "25/08",
+                "competition": "LNBP",
+                "opponent": "Diablos Rojos",
+                "score": "81:73",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "04/09",
+                "competition": "Friendly Match",
+                "opponent": "Mineros de Zacatecas",
+                "score": "86:96",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Fuerza Regia",
+                "score": "76:75",
+                "result": "W"
+              },
+              {
+                "date": "29/08",
+                "competition": "LNBP",
+                "opponent": "Fuerza Regia",
+                "score": "84:95",
+                "result": "L"
+              },
+              {
+                "date": "26/08",
+                "competition": "LNBP",
+                "opponent": "Abejas de Leon",
+                "score": "75:73",
+                "result": "W"
+              },
+              {
+                "date": "25/08",
+                "competition": "LNBP",
+                "opponent": "Abejas de Leon",
+                "score": "73:81",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 34,
+      "title": "El Calor – Panteras Aguascalientes",
+      "dateLabel": "12 September",
+      "timeLabel": "2:15",
+      "isLive": false,
+      "leagueLabel": "Mexico. LNBP",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Mexico. LNBP",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 2:15\n(Mexico. LNBP)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "El Calor",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/29994.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Panteras Aguascalientes",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/1158.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700061254/700014282/3_4f9c5/",
+        "matches": [
+          {
+            "date": "09/08",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "El Calor",
+            "awayTeam": "Panteras Aguascalientes",
+            "score": "96:93",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "08/08",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "El Calor",
+            "awayTeam": "Panteras Aguascalientes",
+            "score": "80:74",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "05/10",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Panteras Aguascalientes",
+            "awayTeam": "El Calor",
+            "score": "61:88",
+            "result": "W",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "El Calor",
+        "awayTeam": "Panteras Aguascalientes",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "31/08",
+                "competition": "LNBP",
+                "opponent": "Soles de Mexicali",
+                "score": "86:89",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Soles de Mexicali",
+                "score": "75:102",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Soles de Mexicali",
+                "score": "75:102",
+                "result": "L"
+              },
+              {
+                "date": "26/08",
+                "competition": "LNBP",
+                "opponent": "Astros de Jalisco",
+                "score": "79:88",
+                "result": "L"
+              },
+              {
+                "date": "24/08",
+                "competition": "LNBP",
+                "opponent": "Astros de Jalisco",
+                "score": "50:89",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 0,
+              "L": 5
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "31/08",
+                "competition": "LNBP",
+                "opponent": "Soles de Mexicali",
+                "score": "86:89",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Soles de Mexicali",
+                "score": "75:102",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Soles de Mexicali",
+                "score": "75:102",
+                "result": "L"
+              },
+              {
+                "date": "26/08",
+                "competition": "LNBP",
+                "opponent": "El Calor",
+                "score": "88:79",
+                "result": "W"
+              },
+              {
+                "date": "24/08",
+                "competition": "LNBP",
+                "opponent": "El Calor",
+                "score": "89:50",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 35,
+      "title": "Correbasket UAT – Dorados de Chihuahua",
+      "dateLabel": "12 September",
+      "timeLabel": "2:15",
+      "isLive": false,
+      "leagueLabel": "Mexico. LNBP",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Mexico. LNBP",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 2:15\n(Mexico. LNBP)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Correbasket UAT",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/34664.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Dorados de Chihuahua",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/8710.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700024143/700014316/3_ab55a/",
+        "matches": [
+          {
+            "date": "05/09",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Correbasket UAT",
+            "awayTeam": "Dorados de Chihuahua",
+            "score": "85:96",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "04/09",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Correbasket UAT",
+            "awayTeam": "Dorados de Chihuahua",
+            "score": "87:77",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "28/09",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Dorados de Chihuahua",
+            "awayTeam": "Correbasket UAT",
+            "score": "70:59",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Correbasket UAT",
+        "awayTeam": "Dorados de Chihuahua",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Panteras Aguascalientes",
+                "score": "88:100",
+                "result": "L"
+              },
+              {
+                "date": "29/08",
+                "competition": "LNBP",
+                "opponent": "Panteras Aguascalientes",
+                "score": "78:111",
+                "result": "L"
+              },
+              {
+                "date": "26/08",
+                "competition": "LNBP",
+                "opponent": "Soles de Mexicali",
+                "score": "78:74",
+                "result": "W"
+              },
+              {
+                "date": "24/08",
+                "competition": "LNBP",
+                "opponent": "Soles de Mexicali",
+                "score": "74:100",
+                "result": "L"
+              },
+              {
+                "date": "17/08",
+                "competition": "LNBP",
+                "opponent": "El Calor",
+                "score": "99:108",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Panteras Aguascalientes",
+                "score": "88:100",
+                "result": "L"
+              },
+              {
+                "date": "29/08",
+                "competition": "LNBP",
+                "opponent": "Panteras Aguascalientes",
+                "score": "78:111",
+                "result": "L"
+              },
+              {
+                "date": "26/08",
+                "competition": "LNBP",
+                "opponent": "Correbasket UAT",
+                "score": "74:78",
+                "result": "L"
+              },
+              {
+                "date": "24/08",
+                "competition": "LNBP",
+                "opponent": "Correbasket UAT",
+                "score": "100:74",
+                "result": "W"
+              },
+              {
+                "date": "17/08",
+                "competition": "LNBP",
+                "opponent": "Correbasket UAT",
+                "score": "108:99",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 36,
+      "title": "Santos del Potosi – Fuerza Regia",
+      "dateLabel": "12 September",
+      "timeLabel": "3:00",
+      "isLive": false,
+      "leagueLabel": "Mexico. LNBP",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Mexico. LNBP",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 3:00\n(Mexico. LNBP)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Santos del Potosi",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/34663.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Fuerza Regia",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/8713.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700055191/700014299/3_b4e41/",
+        "matches": [
+          {
+            "date": "30/07",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Santos del Potosi",
+            "awayTeam": "Fuerza Regia",
+            "score": "82:97",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "29/07",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Santos del Potosi",
+            "awayTeam": "Fuerza Regia",
+            "score": "82:103",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "22/09",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Fuerza Regia",
+            "awayTeam": "Santos del Potosi",
+            "score": "88:67",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Santos del Potosi",
+        "awayTeam": "Fuerza Regia",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "31/08",
+                "competition": "LNBP",
+                "opponent": "Diablos Rojos",
+                "score": "95:82",
+                "result": "W"
+              },
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Diablos Rojos",
+                "score": "87:97",
+                "result": "L"
+              },
+              {
+                "date": "26/08",
+                "competition": "LNBP",
+                "opponent": "Dorados de Chihuahua",
+                "score": "94:102",
+                "result": "L"
+              },
+              {
+                "date": "25/08",
+                "competition": "LNBP",
+                "opponent": "Dorados de Chihuahua",
+                "score": "87:63",
+                "result": "W"
+              },
+              {
+                "date": "22/08",
+                "competition": "LNBP",
+                "opponent": "Panteras Aguascalientes",
+                "score": "88:104",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "31/08",
+                "competition": "LNBP",
+                "opponent": "Diablos Rojos",
+                "score": "95:82",
+                "result": "W"
+              },
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Diablos Rojos",
+                "score": "87:97",
+                "result": "L"
+              },
+              {
+                "date": "26/08",
+                "competition": "LNBP",
+                "opponent": "Santos del Potosi",
+                "score": "102:94",
+                "result": "W"
+              },
+              {
+                "date": "25/08",
+                "competition": "LNBP",
+                "opponent": "Santos del Potosi",
+                "score": "63:87",
+                "result": "L"
+              },
+              {
+                "date": "22/08",
+                "competition": "LNBP",
+                "opponent": "Panteras Aguascalientes",
+                "score": "88:104",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 37,
+      "title": "Lobos Plateados – Freseros de Irapuato",
+      "dateLabel": "12 September",
+      "timeLabel": "3:00",
+      "isLive": false,
+      "leagueLabel": "Mexico. LNBP",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Mexico. LNBP",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 3:00\n(Mexico. LNBP)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Lobos Plateados",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/29968.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Freseros de Irapuato",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/34662.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700061253/700054873/3_cdc45/",
+        "matches": [
+          {
+            "date": "04/08",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Lobos Plateados",
+            "awayTeam": "Freseros de Irapuato",
+            "score": "100:91",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "04/08",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Lobos Plateados",
+            "awayTeam": "Freseros de Irapuato",
+            "score": "92:94",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Lobos Plateados",
+        "awayTeam": "Freseros de Irapuato",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "04/09",
+                "competition": "Friendly Match",
+                "opponent": "Soles de Mexicali",
+                "score": "67:71",
+                "result": "L"
+              },
+              {
+                "date": "31/08",
+                "competition": "LNBP",
+                "opponent": "Gambusinos",
+                "score": "85:75",
+                "result": "W"
+              },
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Gambusinos",
+                "score": "79:65",
+                "result": "W"
+              },
+              {
+                "date": "26/08",
+                "competition": "LNBP",
+                "opponent": "Fuerza Regia",
+                "score": "90:91",
+                "result": "L"
+              },
+              {
+                "date": "25/08",
+                "competition": "LNBP",
+                "opponent": "Fuerza Regia",
+                "score": "98:88",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "04/09",
+                "competition": "Friendly Match",
+                "opponent": "Soles de Mexicali",
+                "score": "67:71",
+                "result": "L"
+              },
+              {
+                "date": "31/08",
+                "competition": "LNBP",
+                "opponent": "Gambusinos",
+                "score": "85:75",
+                "result": "W"
+              },
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Gambusinos",
+                "score": "79:65",
+                "result": "W"
+              },
+              {
+                "date": "26/08",
+                "competition": "LNBP",
+                "opponent": "Lobos Plateados",
+                "score": "91:90",
+                "result": "W"
+              },
+              {
+                "date": "25/08",
+                "competition": "LNBP",
+                "opponent": "Lobos Plateados",
+                "score": "88:98",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 38,
+      "title": "Astros de Jalisco – Soles de Mexicali",
+      "dateLabel": "12 September",
+      "timeLabel": "3:15",
+      "isLive": false,
+      "leagueLabel": "Mexico. LNBP",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Mexico. LNBP",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 3:15\n(Mexico. LNBP)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Astros de Jalisco",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/8575.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Soles de Mexicali",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/34660.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700014289/700014331/3_557c3/",
+        "matches": [
+          {
+            "date": "06/09",
+            "competition": "Friendly Match",
+            "homeTeam": "Soles de Mexicali",
+            "awayTeam": "Astros de Jalisco",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "13/08",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Soles de Mexicali",
+            "awayTeam": "Astros de Jalisco",
+            "score": "81:78",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "13/08",
+            "competition": "Mexico. LNBP",
+            "homeTeam": "Soles de Mexicali",
+            "awayTeam": "Astros de Jalisco",
+            "score": "81:78",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Astros de Jalisco",
+        "awayTeam": "Soles de Mexicali",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "07/09",
+                "competition": "Friendly Match",
+                "opponent": "Mineros de Zacatecas",
+                "score": "71:87",
+                "result": "L"
+              },
+              {
+                "date": "06/09",
+                "competition": "Friendly Match",
+                "opponent": "Soles de Mexicali",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "05/09",
+                "competition": "Friendly Match",
+                "opponent": "Fuerza Regia",
+                "score": "83:76",
+                "result": "W"
+              },
+              {
+                "date": "31/08",
+                "competition": "LNBP",
+                "opponent": "Freseros de Irapuato",
+                "score": "77:67",
+                "result": "W"
+              },
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Freseros de Irapuato",
+                "score": "129:117",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "07/09",
+                "competition": "Friendly Match",
+                "opponent": "Mineros de Zacatecas",
+                "score": "71:87",
+                "result": "L"
+              },
+              {
+                "date": "06/09",
+                "competition": "Friendly Match",
+                "opponent": "Astros de Jalisco",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "05/09",
+                "competition": "Friendly Match",
+                "opponent": "Astros de Jalisco",
+                "score": "76:83",
+                "result": "L"
+              },
+              {
+                "date": "31/08",
+                "competition": "LNBP",
+                "opponent": "Freseros de Irapuato",
+                "score": "77:67",
+                "result": "W"
+              },
+              {
+                "date": "30/08",
+                "competition": "LNBP",
+                "opponent": "Freseros de Irapuato",
+                "score": "129:117",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 39,
+      "title": "Qatar – Jordan",
+      "dateLabel": "12 September",
+      "timeLabel": "5:00",
+      "isLive": false,
+      "leagueLabel": "Asian Games",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/fiba.gif",
+      "iconAlt": "Asian Games",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 5:00\n(Asian Games)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Qatar",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/2267.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Jordan",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/2435.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/42/14/3_4c5bd/",
+        "matches": [
+          {
+            "date": "24/08",
+            "competition": ". . Men. 2018. Indonesia. Group Stage",
+            "homeTeam": "Qatar",
+            "awayTeam": "Jordan",
+            "score": "21:7",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "27/09",
+            "competition": "Asian Championship. Men. 2015. China. 2nd group stage",
+            "homeTeam": "Qatar",
+            "awayTeam": "Jordan",
+            "score": "73:84",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "05/08",
+            "competition": "",
+            "homeTeam": "Qatar",
+            "awayTeam": "Jordan",
+            "score": "75:61",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Qatar",
+        "awayTeam": "Jordan",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "23/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Iran",
+                "score": "52:95",
+                "result": "L"
+              },
+              {
+                "date": "20/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Saudi Arabia",
+                "score": "57:68",
+                "result": "L"
+              },
+              {
+                "date": "26/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "Kazakhstan",
+                "score": "17:21",
+                "result": "L"
+              },
+              {
+                "date": "25/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "China",
+                "score": "13:21",
+                "result": "L"
+              },
+              {
+                "date": "25/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "New Zealand",
+                "score": "21:20",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "23/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Iran",
+                "score": "52:95",
+                "result": "L"
+              },
+              {
+                "date": "20/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Saudi Arabia",
+                "score": "57:68",
+                "result": "L"
+              },
+              {
+                "date": "26/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "Kazakhstan",
+                "score": "17:21",
+                "result": "L"
+              },
+              {
+                "date": "25/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "China",
+                "score": "13:21",
+                "result": "L"
+              },
+              {
+                "date": "25/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "New Zealand",
+                "score": "21:20",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 40,
+      "title": "Bahrain – China",
+      "dateLabel": "12 September",
+      "timeLabel": "8:00",
+      "isLive": false,
+      "leagueLabel": "Asian Games",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/fiba.gif",
+      "iconAlt": "Asian Games",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 8:00\n(Asian Games)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Bahrain",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/2330.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "China",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/2309.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/34/49/3_bbf94/",
+        "matches": [
+          {
+            "date": "07/08",
+            "competition": "",
+            "homeTeam": "Bahrain",
+            "awayTeam": "China",
+            "score": "66:88",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "15/09",
+            "competition": "Men. Asian Championship 2011. China",
+            "homeTeam": "China",
+            "awayTeam": "Bahrain",
+            "score": "101:49",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Bahrain",
+        "awayTeam": "China",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "24/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Lebanon",
+                "score": "73:116",
+                "result": "L"
+              },
+              {
+                "date": "21/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "India",
+                "score": "68:67",
+                "result": "W"
+              },
+              {
+                "date": "14/02",
+                "competition": "Internationals. Men. [..]",
+                "opponent": "Iraq",
+                "score": "67:67",
+                "result": "D"
+              },
+              {
+                "date": "13/02",
+                "competition": "Internationals. Men. [..]",
+                "opponent": "Syria",
+                "score": "64:81",
+                "result": "L"
+              },
+              {
+                "date": "11/02",
+                "competition": "Internationals. Men. [..]",
+                "opponent": "Jordan",
+                "score": "65:80",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "24/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Lebanon",
+                "score": "73:116",
+                "result": "L"
+              },
+              {
+                "date": "21/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Bahrain",
+                "score": "67:68",
+                "result": "L"
+              },
+              {
+                "date": "14/02",
+                "competition": "Internationals. Men. [..]",
+                "opponent": "Bahrain",
+                "score": "67:67",
+                "result": "D"
+              },
+              {
+                "date": "13/02",
+                "competition": "Internationals. Men. [..]",
+                "opponent": "Syria",
+                "score": "64:81",
+                "result": "L"
+              },
+              {
+                "date": "11/02",
+                "competition": "Internationals. Men. [..]",
+                "opponent": "Jordan",
+                "score": "65:80",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 1,
+              "L": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 41,
+      "title": "Kazakhstan – Philippines",
+      "dateLabel": "12 September",
+      "timeLabel": "11:00",
+      "isLive": false,
+      "leagueLabel": "Asian Games",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/fiba.gif",
+      "iconAlt": "Asian Games",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 11:00\n(Asian Games)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Kazakhstan",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/4512.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Philippines",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/6678.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/120/2796/3_c520b/",
+        "matches": [
+          {
+            "date": "24/02",
+            "competition": "Internationals. World Cup. Men. 2019. Qualification. Asia and Oceania. 2nd Round",
+            "homeTeam": "Kazakhstan",
+            "awayTeam": "Philippines",
+            "score": "75:93",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "30/11",
+            "competition": "World Cup. Men. 2019. Qualification. Asia and Oceania. 2nd Round",
+            "homeTeam": "Philippines",
+            "awayTeam": "Kazakhstan",
+            "score": "88:92",
+            "result": "W",
+            "winner": "away"
+          },
+          {
+            "date": "16/08",
+            "competition": "Asian Games. Men. 2018. Indonesia. Group Stage",
+            "homeTeam": "Kazakhstan",
+            "awayTeam": "Philippines",
+            "score": "59:96",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Kazakhstan",
+        "awayTeam": "Philippines",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "24/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Jordan",
+                "score": "68:71",
+                "result": "L"
+              },
+              {
+                "date": "21/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Palestine",
+                "score": "79:76",
+                "result": "W"
+              },
+              {
+                "date": "26/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "Mongolia",
+                "score": "13:21",
+                "result": "L"
+              },
+              {
+                "date": "26/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "Qatar",
+                "score": "21:17",
+                "result": "W"
+              },
+              {
+                "date": "25/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "Indonesia",
+                "score": "17:14",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "24/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Kazakhstan",
+                "score": "71:68",
+                "result": "W"
+              },
+              {
+                "date": "21/02",
+                "competition": "Asia Cup. Men. 2021. [..]",
+                "opponent": "Kazakhstan",
+                "score": "76:79",
+                "result": "L"
+              },
+              {
+                "date": "26/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "Mongolia",
+                "score": "13:21",
+                "result": "L"
+              },
+              {
+                "date": "26/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "Kazakhstan",
+                "score": "17:21",
+                "result": "L"
+              },
+              {
+                "date": "25/05",
+                "competition": "Asian Cup. Men. . Chi [..]",
+                "opponent": "Indonesia",
+                "score": "17:14",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 42,
+      "title": "Europe Cup",
+      "dateLabel": "12 September",
+      "timeLabel": "12:30",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 12:30\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": null,
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": null,
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 43,
+      "title": "France (W) – Sweden (W)",
+      "dateLabel": "12 September",
+      "timeLabel": "12:30",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 12:30\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "France (W)",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/35945.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Sweden (W)",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/35276.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 44,
+      "title": "Latvia – Ireland",
+      "dateLabel": "12 September",
+      "timeLabel": "12:55",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 12:55\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Latvia",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/1505.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Ireland",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/1980.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 45,
+      "title": "Netherlands (W) – Azerbaijan (W)",
+      "dateLabel": "12 September",
+      "timeLabel": "13:20",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 13:20\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Netherlands (W)",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Azerbaijan (W)",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 46,
+      "title": "Belgium – Switzerland",
+      "dateLabel": "12 September",
+      "timeLabel": "14:10",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 14:10\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Belgium",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/4489.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Switzerland",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/4887.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/83/90/3_b0b18/",
+        "matches": [
+          {
+            "date": "23/06",
+            "competition": ". European Championship. Men. 2017. Qualification. France. Group Stage",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Belgium",
+            "score": "22:9",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "14/09",
+            "competition": "European Championship. Men. 2017. Qualification. Group Stage",
+            "homeTeam": "Belgium",
+            "awayTeam": "Switzerland",
+            "score": "87:49",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "03/09",
+            "competition": "European Championship. Men. 2017. Qualification. Group Stage",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Belgium",
+            "score": "72:87",
+            "result": "W",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Belgium",
+        "awayTeam": "Switzerland",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "22/02",
+                "competition": "Qualification",
+                "opponent": "Czech Republic",
+                "score": "86:91",
+                "result": "L"
+              },
+              {
+                "date": "20/02",
+                "competition": "Qualification",
+                "opponent": "Denmark",
+                "score": "88:65",
+                "result": "W"
+              },
+              {
+                "date": "29/11",
+                "competition": "Qualification",
+                "opponent": "Lithuania",
+                "score": "71:84",
+                "result": "L"
+              },
+              {
+                "date": "27/11",
+                "competition": "Qualification",
+                "opponent": "Czech Republic",
+                "score": "90:62",
+                "result": "W"
+              },
+              {
+                "date": "24/02",
+                "competition": "EuroBasket. Men. 2021 [..]",
+                "opponent": "Denmark",
+                "score": "88:72",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "22/02",
+                "competition": "Qualification",
+                "opponent": "Belgium",
+                "score": "91:86",
+                "result": "W"
+              },
+              {
+                "date": "20/02",
+                "competition": "Qualification",
+                "opponent": "Belgium",
+                "score": "65:88",
+                "result": "L"
+              },
+              {
+                "date": "29/11",
+                "competition": "Qualification",
+                "opponent": "Lithuania",
+                "score": "71:84",
+                "result": "L"
+              },
+              {
+                "date": "27/11",
+                "competition": "Qualification",
+                "opponent": "Czech Republic",
+                "score": "90:62",
+                "result": "W"
+              },
+              {
+                "date": "24/02",
+                "competition": "EuroBasket. Men. 2021 [..]",
+                "opponent": "Denmark",
+                "score": "88:72",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 47,
+      "title": "France (W) – Czech Republic (W)",
+      "dateLabel": "12 September",
+      "timeLabel": "14:35",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 14:35\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "France (W)",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/35945.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Czech Republic (W)",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/36723.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 48,
+      "title": "Ionios – Panorama",
+      "dateLabel": "12 September",
+      "timeLabel": "15:00",
+      "isLive": false,
+      "leagueLabel": "Greece. Cup",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Greece. Cup",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 15:00\n(Greece. Cup)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Ionios",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Panorama",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 49,
+      "title": "Panellinios – Ethnikos Distomou",
+      "dateLabel": "12 September",
+      "timeLabel": "15:00",
+      "isLive": false,
+      "leagueLabel": "Greece. Cup",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Greece. Cup",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 15:00\n(Greece. Cup)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Panellinios",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Ethnikos Distomou",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 50,
+      "title": "Gargalianoi – Ionikos Nikaias",
+      "dateLabel": "12 September",
+      "timeLabel": "15:00",
+      "isLive": false,
+      "leagueLabel": "Greece. Cup",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Greece. Cup",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 15:00\n(Greece. Cup)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Gargalianoi",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Ionikos Nikaias",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 51,
+      "title": "Ermis Argyroupolis – Esperos Lamias",
+      "dateLabel": "12 September",
+      "timeLabel": "15:00",
+      "isLive": false,
+      "leagueLabel": "Greece. Cup",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Greece. Cup",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 15:00\n(Greece. Cup)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Ermis Argyroupolis",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Esperos Lamias",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 52,
+      "title": "Aigaleo – Palaio Faliro",
+      "dateLabel": "12 September",
+      "timeLabel": "15:00",
+      "isLive": false,
+      "leagueLabel": "Greece. Cup",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Greece. Cup",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 15:00\n(Greece. Cup)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Aigaleo",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Palaio Faliro",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 53,
+      "title": "Eleusinas – Sporting Athens",
+      "dateLabel": "12 September",
+      "timeLabel": "15:00",
+      "isLive": false,
+      "leagueLabel": "Greece. Cup",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Greece. Cup",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 15:00\n(Greece. Cup)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Eleusinas",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Sporting Athens",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 54,
+      "title": "Apollon Patras – Ilysiakos",
+      "dateLabel": "12 September",
+      "timeLabel": "15:00",
+      "isLive": false,
+      "leagueLabel": "Greece. Cup",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Greece. Cup",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 15:00\n(Greece. Cup)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Apollon Patras",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Ilysiakos",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 55,
+      "title": "ASE Douka – Holargos",
+      "dateLabel": "12 September",
+      "timeLabel": "15:00",
+      "isLive": false,
+      "leagueLabel": "Greece. Cup",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Greece. Cup",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 15:00\n(Greece. Cup)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "ASE Douka",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Holargos",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 56,
+      "title": "Lithuania – Ireland",
+      "dateLabel": "12 September",
+      "timeLabel": "15:00",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 15:00\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Lithuania",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/1720.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Ireland",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/1980.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/105/110/3_b9141/",
+        "matches": [
+          {
+            "date": "01/07",
+            "competition": ". European Championship. Men. 2018. Qualification. Romania. Playoffs. Semifinal",
+            "homeTeam": "Ireland",
+            "awayTeam": "Lithuania",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "Lithuania",
+        "awayTeam": "Ireland",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "04/07",
+                "competition": "Qualifying",
+                "opponent": "Slovenia",
+                "score": "85:96",
+                "result": "L"
+              },
+              {
+                "date": "03/07",
+                "competition": "Qualifying",
+                "opponent": "Poland",
+                "score": "88:69",
+                "result": "W"
+              },
+              {
+                "date": "01/07",
+                "competition": "Qualifying",
+                "opponent": "South Korea",
+                "score": "96:57",
+                "result": "W"
+              },
+              {
+                "date": "29/06",
+                "competition": "Qualifying",
+                "opponent": "Venezuela",
+                "score": "76:65",
+                "result": "W"
+              },
+              {
+                "date": "24/06",
+                "competition": "Friendly Match",
+                "opponent": "Dominican Republic",
+                "score": "95:69",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 4,
+              "D": 0,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "04/07",
+                "competition": "Qualifying",
+                "opponent": "Lithuania",
+                "score": "96:85",
+                "result": "W"
+              },
+              {
+                "date": "03/07",
+                "competition": "Qualifying",
+                "opponent": "Lithuania",
+                "score": "69:88",
+                "result": "L"
+              },
+              {
+                "date": "01/07",
+                "competition": "Qualifying",
+                "opponent": "South Korea",
+                "score": "96:57",
+                "result": "W"
+              },
+              {
+                "date": "29/06",
+                "competition": "Qualifying",
+                "opponent": "Lithuania",
+                "score": "65:76",
+                "result": "L"
+              },
+              {
+                "date": "24/06",
+                "competition": "Friendly Match",
+                "opponent": "Lithuania",
+                "score": "69:95",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 57,
+      "title": "France (W) – Germany (W)",
+      "dateLabel": "12 September",
+      "timeLabel": "15:30",
+      "isLive": false,
+      "leagueLabel": "Women. World Championship",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Women. World Championship",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 15:30\n(Women. World Championship)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "France (W)",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/flag66.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Germany (W)",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/flag50.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 58,
+      "title": "Giessen – Chemnitz",
+      "dateLabel": "12 September",
+      "timeLabel": "17:30",
+      "isLive": false,
+      "leagueLabel": "Germany. BBL-Cup",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Germany. BBL-Cup",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 17:30\n(Germany. BBL-Cup)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Giessen",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/4824.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Chemnitz",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/9940.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000812/700025928/3_b34bc/",
+        "matches": [
+          {
+            "date": "14/10",
+            "competition": "Germany. BBL-Cup",
+            "homeTeam": "Chemnitz",
+            "awayTeam": "Giessen",
+            "score": "89:64",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "29/04",
+            "competition": "Germany. Bundesliga",
+            "homeTeam": "Giessen",
+            "awayTeam": "Chemnitz",
+            "score": "70:91",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "11/12",
+            "competition": "Germany. Bundesliga",
+            "homeTeam": "Chemnitz",
+            "awayTeam": "Giessen",
+            "score": "82:75",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Giessen",
+        "awayTeam": "Chemnitz",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "29/05",
+                "competition": "ProA",
+                "opponent": "Kirchheim",
+                "score": "85:89",
+                "result": "L"
+              },
+              {
+                "date": "26/05",
+                "competition": "ProA",
+                "opponent": "Kirchheim",
+                "score": "63:91",
+                "result": "L"
+              },
+              {
+                "date": "23/05",
+                "competition": "ProA",
+                "opponent": "Kirchheim",
+                "score": "75:91",
+                "result": "L"
+              },
+              {
+                "date": "20/05",
+                "competition": "ProA",
+                "opponent": "Kirchheim",
+                "score": "90:77",
+                "result": "W"
+              },
+              {
+                "date": "13/05",
+                "competition": "ProA",
+                "opponent": "Crailsheim",
+                "score": "86:88",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "29/05",
+                "competition": "ProA",
+                "opponent": "Giessen",
+                "score": "89:85",
+                "result": "W"
+              },
+              {
+                "date": "26/05",
+                "competition": "ProA",
+                "opponent": "Kirchheim",
+                "score": "63:91",
+                "result": "L"
+              },
+              {
+                "date": "23/05",
+                "competition": "ProA",
+                "opponent": "Giessen",
+                "score": "91:75",
+                "result": "W"
+              },
+              {
+                "date": "20/05",
+                "competition": "ProA",
+                "opponent": "Kirchheim",
+                "score": "90:77",
+                "result": "W"
+              },
+              {
+                "date": "13/05",
+                "competition": "ProA",
+                "opponent": "Crailsheim",
+                "score": "86:88",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 59,
+      "title": "Ukraine (W) – Azerbaijan (W)",
+      "dateLabel": "12 September",
+      "timeLabel": "17:55",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 17:55\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Ukraine (W)",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Azerbaijan (W)",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 60,
+      "title": "Europe Cup",
+      "dateLabel": "12 September",
+      "timeLabel": "17:55",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 17:55\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": null,
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": null,
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 61,
+      "title": "Serbia – Switzerland",
+      "dateLabel": "12 September",
+      "timeLabel": "18:20",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 18:20\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Serbia",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/3193.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Switzerland",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/4887.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/92/90/3_1fc21/",
+        "matches": [
+          {
+            "date": "21/02",
+            "competition": "EuroBasket. Qualification",
+            "homeTeam": "Serbia",
+            "awayTeam": "Switzerland",
+            "score": "88:81",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "28/11",
+            "competition": "EuroBasket. Qualification",
+            "homeTeam": "Switzerland",
+            "awayTeam": "Serbia",
+            "score": "92:90",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "02/07",
+            "competition": ". European Championship. Men. 2016. Qualification. Netherlands. Playoffs. Quarterfinal",
+            "homeTeam": "Serbia",
+            "awayTeam": "Switzerland",
+            "score": "17:13",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Serbia",
+        "awayTeam": "Switzerland",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "04/07",
+                "competition": "Qualifying",
+                "opponent": "Italy",
+                "score": "95:102",
+                "result": "L"
+              },
+              {
+                "date": "03/07",
+                "competition": "Qualifying",
+                "opponent": "Puerto Rico",
+                "score": "102:84",
+                "result": "W"
+              },
+              {
+                "date": "30/06",
+                "competition": "Qualifying",
+                "opponent": "Philippines",
+                "score": "83:76",
+                "result": "W"
+              },
+              {
+                "date": "29/06",
+                "competition": "Qualifying",
+                "opponent": "Dominican Republic",
+                "score": "94:76",
+                "result": "W"
+              },
+              {
+                "date": "23/06",
+                "competition": "Friendly Match",
+                "opponent": "Mexico",
+                "score": "81:77",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 4,
+              "D": 0,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "04/07",
+                "competition": "Qualifying",
+                "opponent": "Serbia",
+                "score": "102:95",
+                "result": "W"
+              },
+              {
+                "date": "03/07",
+                "competition": "Qualifying",
+                "opponent": "Serbia",
+                "score": "84:102",
+                "result": "L"
+              },
+              {
+                "date": "30/06",
+                "competition": "Qualifying",
+                "opponent": "Serbia",
+                "score": "76:83",
+                "result": "L"
+              },
+              {
+                "date": "29/06",
+                "competition": "Qualifying",
+                "opponent": "Dominican Republic",
+                "score": "94:76",
+                "result": "W"
+              },
+              {
+                "date": "23/06",
+                "competition": "Friendly Match",
+                "opponent": "Serbia",
+                "score": "77:81",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 62,
+      "title": "Czech Republic (W) – Sweden (W)",
+      "dateLabel": "12 September",
+      "timeLabel": "18:45",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 18:45\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Czech Republic (W)",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/36723.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Sweden (W)",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/35276.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 63,
+      "title": "Goettingen – Mitteldeutscher",
+      "dateLabel": "12 September",
+      "timeLabel": "19:00",
+      "isLive": false,
+      "leagueLabel": "Germany. BBL-Cup",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Germany. BBL-Cup",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 19:00\n(Germany. BBL-Cup)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Goettingen",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/4507.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Mitteldeutscher",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/4932.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000813/700000816/3_27dbd/",
+        "matches": [
+          {
+            "date": "25/01",
+            "competition": "Germany. Bundesliga",
+            "homeTeam": "Goettingen",
+            "awayTeam": "Mitteldeutscher",
+            "score": "80:94",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "18/01",
+            "competition": "Germany. Bundesliga",
+            "homeTeam": "Mitteldeutscher",
+            "awayTeam": "Goettingen",
+            "score": "93:91",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "24/08",
+            "competition": "Friendly Match",
+            "homeTeam": "Mitteldeutscher",
+            "awayTeam": "Goettingen",
+            "score": "79:68",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Goettingen",
+        "awayTeam": "Mitteldeutscher",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "14/05",
+                "competition": "ProA",
+                "opponent": "Kirchheim",
+                "score": "85:90",
+                "result": "L"
+              },
+              {
+                "date": "12/05",
+                "competition": "ProA",
+                "opponent": "Kirchheim",
+                "score": "82:89",
+                "result": "L"
+              },
+              {
+                "date": "09/05",
+                "competition": "ProA",
+                "opponent": "Kirchheim",
+                "score": "67:81",
+                "result": "L"
+              },
+              {
+                "date": "06/05",
+                "competition": "ProA",
+                "opponent": "Kirchheim",
+                "score": "84:73",
+                "result": "W"
+              },
+              {
+                "date": "02/05",
+                "competition": "ProA",
+                "opponent": "Crailsheim",
+                "score": "87:96",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "14/05",
+                "competition": "ProA",
+                "opponent": "Kirchheim",
+                "score": "85:90",
+                "result": "L"
+              },
+              {
+                "date": "12/05",
+                "competition": "ProA",
+                "opponent": "Goettingen",
+                "score": "89:82",
+                "result": "W"
+              },
+              {
+                "date": "09/05",
+                "competition": "ProA",
+                "opponent": "Kirchheim",
+                "score": "67:81",
+                "result": "L"
+              },
+              {
+                "date": "06/05",
+                "competition": "ProA",
+                "opponent": "Goettingen",
+                "score": "73:84",
+                "result": "L"
+              },
+              {
+                "date": "02/05",
+                "competition": "ProA",
+                "opponent": "Crailsheim",
+                "score": "87:96",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 64,
+      "title": "Lithuania – Latvia",
+      "dateLabel": "12 September",
+      "timeLabel": "19:20",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 19:20\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Lithuania",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/1720.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Latvia",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/1505.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/105/104/3_b8c37/",
+        "matches": [
+          {
+            "date": "09/09",
+            "competition": "Friendlies. Internationals. Men",
+            "homeTeam": "Lithuania",
+            "awayTeam": "Latvia",
+            "score": "80:97",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "19/08",
+            "competition": "",
+            "homeTeam": "Latvia",
+            "awayTeam": "Lithuania",
+            "score": "82:77",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "06/09",
+            "competition": "European Championship. Men. 2015. Finals. Group Stage. Latvia",
+            "homeTeam": "Latvia",
+            "awayTeam": "Lithuania",
+            "score": "49:68",
+            "result": "W",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Lithuania",
+        "awayTeam": "Latvia",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "04/07",
+                "competition": "Qualifying",
+                "opponent": "Slovenia",
+                "score": "85:96",
+                "result": "L"
+              },
+              {
+                "date": "03/07",
+                "competition": "Qualifying",
+                "opponent": "Poland",
+                "score": "88:69",
+                "result": "W"
+              },
+              {
+                "date": "01/07",
+                "competition": "Qualifying",
+                "opponent": "South Korea",
+                "score": "96:57",
+                "result": "W"
+              },
+              {
+                "date": "29/06",
+                "competition": "Qualifying",
+                "opponent": "Venezuela",
+                "score": "76:65",
+                "result": "W"
+              },
+              {
+                "date": "24/06",
+                "competition": "Friendly Match",
+                "opponent": "Dominican Republic",
+                "score": "95:69",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 4,
+              "D": 0,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "04/07",
+                "competition": "Qualifying",
+                "opponent": "Lithuania",
+                "score": "96:85",
+                "result": "W"
+              },
+              {
+                "date": "03/07",
+                "competition": "Qualifying",
+                "opponent": "Lithuania",
+                "score": "69:88",
+                "result": "L"
+              },
+              {
+                "date": "01/07",
+                "competition": "Qualifying",
+                "opponent": "South Korea",
+                "score": "96:57",
+                "result": "W"
+              },
+              {
+                "date": "29/06",
+                "competition": "Qualifying",
+                "opponent": "Lithuania",
+                "score": "65:76",
+                "result": "L"
+              },
+              {
+                "date": "24/06",
+                "competition": "Friendly Match",
+                "opponent": "Lithuania",
+                "score": "69:95",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 65,
+      "title": "Netherlands (W) – Ukraine (W)",
+      "dateLabel": "12 September",
+      "timeLabel": "19:45",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 19:45\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Netherlands (W)",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/36712.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Ukraine (W)",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/36732.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 66,
+      "title": "Serbia – Belgium",
+      "dateLabel": "12 September",
+      "timeLabel": "20:10",
+      "isLive": false,
+      "leagueLabel": "3x3",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/3x3.gif",
+      "iconAlt": "3x3",
+      "sectionLabel": "12 September",
+      "isTopMatch": false,
+      "rawDescription": "12 September at 20:10\n(3x3)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Serbia",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/3193.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Belgium",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/4489.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/92/83/3_71ad1/",
+        "matches": [
+          {
+            "date": "07/09",
+            "competition": "",
+            "homeTeam": "Belgium",
+            "awayTeam": "Serbia",
+            "score": "54:71",
+            "result": "W",
+            "winner": "away"
+          },
+          {
+            "date": "11/09",
+            "competition": "National Teams. Men. ECH-2013. Slovenia. Second Round",
+            "homeTeam": "Belgium",
+            "awayTeam": "Serbia",
+            "score": "69:76",
+            "result": "W",
+            "winner": "away"
+          },
+          {
+            "date": "24/08",
+            "competition": "",
+            "homeTeam": "Belgium",
+            "awayTeam": "Serbia",
+            "score": "52:79",
+            "result": "W",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Serbia",
+        "awayTeam": "Belgium",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "04/07",
+                "competition": "Qualifying",
+                "opponent": "Italy",
+                "score": "95:102",
+                "result": "L"
+              },
+              {
+                "date": "03/07",
+                "competition": "Qualifying",
+                "opponent": "Puerto Rico",
+                "score": "102:84",
+                "result": "W"
+              },
+              {
+                "date": "30/06",
+                "competition": "Qualifying",
+                "opponent": "Philippines",
+                "score": "83:76",
+                "result": "W"
+              },
+              {
+                "date": "29/06",
+                "competition": "Qualifying",
+                "opponent": "Dominican Republic",
+                "score": "94:76",
+                "result": "W"
+              },
+              {
+                "date": "23/06",
+                "competition": "Friendly Match",
+                "opponent": "Mexico",
+                "score": "81:77",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 4,
+              "D": 0,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "04/07",
+                "competition": "Qualifying",
+                "opponent": "Serbia",
+                "score": "102:95",
+                "result": "W"
+              },
+              {
+                "date": "03/07",
+                "competition": "Qualifying",
+                "opponent": "Serbia",
+                "score": "84:102",
+                "result": "L"
+              },
+              {
+                "date": "30/06",
+                "competition": "Qualifying",
+                "opponent": "Serbia",
+                "score": "76:83",
+                "result": "L"
+              },
+              {
+                "date": "29/06",
+                "competition": "Qualifying",
+                "opponent": "Dominican Republic",
+                "score": "94:76",
+                "result": "W"
+              },
+              {
+                "date": "23/06",
+                "competition": "Friendly Match",
+                "opponent": "Serbia",
+                "score": "77:81",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
     }
   ],
-  "enrichedAt": "2026-09-10T20:57:01.244Z"
+  "enrichedAt": "2026-09-10T21:21:08.208Z"
 }
