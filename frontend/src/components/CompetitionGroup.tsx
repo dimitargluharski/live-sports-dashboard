@@ -1,14 +1,17 @@
 import { useState } from 'react';
 import { GameCard } from './GameCard';
 import { ChampionsLeagueCarousel } from './ChampionsLeagueCarousel';
+import { TournamentStageSection } from './TournamentStageSection';
 import type { Game } from '../types/game';
 import { extractCountryFromLeague } from '../utils/extractCountryFromLeague';
+import { groupGamesByTournamentLabel } from '../utils/groupGamesByTournamentLabel';
 import { isQualificationLeague } from '../utils/isQualificationLeague';
 
 interface CompetitionGroupProps {
   leagueLabel: string;
   games: Game[];
   isDarkTheme: boolean;
+  isToday: boolean;
   isExpanded: boolean;
   onToggle: () => void;
 }
@@ -17,14 +20,45 @@ export function CompetitionGroup({
   leagueLabel,
   games,
   isDarkTheme,
+  isToday,
   isExpanded,
   onToggle,
 }: CompetitionGroupProps) {
   const country = extractCountryFromLeague(leagueLabel);
+  const showCountry = Boolean(country) && country?.trim().toLowerCase() !== leagueLabel.trim().toLowerCase();
   const isChampionsLeagueSection = leagueLabel.trim().toLowerCase() === 'champions league';
   const isQualificationSection = isQualificationLeague(leagueLabel);
   const liveChampionsMatches = isChampionsLeagueSection ? games.filter((game) => game.isLive).length : 0;
   const [championsBackground, setChampionsBackground] = useState<string | undefined>();
+  const tournamentStageSegments = isChampionsLeagueSection ? [] : groupGamesByTournamentLabel(games);
+  const hasTournamentStages = tournamentStageSegments.some((segment) => segment.label);
+
+  if (hasTournamentStages && isToday) {
+    return (
+      <div className="mb-5">
+        {tournamentStageSegments.map((segment, index) => {
+          if (!segment.label) {
+            if (!segment.matches.length) return null;
+            return (
+              <div key={`plain-${index}`} className="mb-5 grid grid-cols-1 gap-2">
+                {segment.matches.map((game) => <GameCard key={game.id} isDarkTheme={isDarkTheme} {...game} />)}
+              </div>
+            );
+          }
+
+          return (
+            <TournamentStageSection
+              key={segment.label.id}
+              title={segment.label.title}
+              badgeLabel={leagueLabel}
+              games={segment.matches}
+              isDarkTheme={isDarkTheme}
+            />
+          );
+        })}
+      </div>
+    );
+  }
 
   return (
     <div className={`mb-5 ${isChampionsLeagueSection ? isDarkTheme ? 'champions-section overflow-hidden rounded-lg border border-white/10 bg-white/[0.02] pb-0' : 'champions-section overflow-hidden rounded-lg border border-black/10 bg-black/[0.02] pb-0' : isQualificationSection ? isDarkTheme ? 'overflow-hidden rounded-xl border border-amber-300/20 bg-amber-200/[0.025]' : 'overflow-hidden rounded-xl border border-amber-600/25 bg-amber-50/35' : ''}`} style={isChampionsLeagueSection && championsBackground ? { background: championsBackground } : undefined}>
@@ -47,7 +81,7 @@ export function CompetitionGroup({
             {isChampionsLeagueSection && <span className={isDarkTheme ? 'rounded-full border border-white/20 bg-neutral-800 px-2 py-0.5 text-[10px] font-black uppercase tracking-[0.16em] text-neutral-200' : 'rounded-full border border-black/15 bg-neutral-100 px-2 py-0.5 text-[10px] font-black uppercase tracking-[0.16em] text-neutral-700'}>UEFA</span>}
             {isChampionsLeagueSection && <span className={isDarkTheme ? 'text-[11px] font-bold text-neutral-300' : 'text-[11px] font-bold text-neutral-600'}>{games.length} matches</span>}
           </div>
-          {!isChampionsLeagueSection && country && <p className={isDarkTheme ? 'text-xs text-neutral-400' : 'text-xs text-slate-500'}>{country}</p>}
+          {!isChampionsLeagueSection && showCountry && <p className={isDarkTheme ? 'text-xs text-neutral-400' : 'text-xs text-slate-500'}>{country}</p>}
         </div>
         {isChampionsLeagueSection && <div className="ml-auto flex shrink-0 items-center gap-1.5 text-[11px] font-bold tabular-nums">
           {liveChampionsMatches > 0 && <span className={isDarkTheme ? 'inline-flex items-center gap-1 rounded-full border border-rose-300/25 bg-rose-500/10 px-2 py-1 font-black uppercase tracking-[0.08em] text-rose-200' : 'inline-flex items-center gap-1 rounded-full border border-rose-500/25 bg-rose-50 px-2 py-1 font-black uppercase tracking-[0.08em] text-rose-700'}><span className="h-1.5 w-1.5 rounded-full bg-current" aria-hidden="true" />{liveChampionsMatches} live</span>}
@@ -61,7 +95,20 @@ export function CompetitionGroup({
         </div>
       ) : (
         <div className={`grid grid-cols-1 gap-2 ${isQualificationSection ? 'p-3' : ''}`}>
-          {games.map((game) => <GameCard key={game.id} isDarkTheme={isDarkTheme} {...game} />)}
+          {hasTournamentStages
+            ? tournamentStageSegments.map((segment, index) => (
+              <div key={segment.label?.id ?? `segment-${index}`}>
+                {segment.label && (
+                  <h4 className={`mb-2 truncate text-xs font-black uppercase tracking-wide ${isDarkTheme ? 'text-slate-300' : 'text-slate-600'}`}>
+                    {segment.label.title}
+                  </h4>
+                )}
+                <div className="grid grid-cols-1 gap-2">
+                  {segment.matches.map((game) => <GameCard key={game.id} isDarkTheme={isDarkTheme} {...game} />)}
+                </div>
+              </div>
+            ))
+            : games.map((game) => <GameCard key={game.id} isDarkTheme={isDarkTheme} {...game} />)}
         </div>
       ))}
     </div>

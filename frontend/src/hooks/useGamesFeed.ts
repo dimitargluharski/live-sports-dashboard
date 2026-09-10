@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
-import { FEED_REFRESH_INTERVAL_MS, STATUS_REFRESH_INTERVAL_MS } from '../constants/app';
+import { FEED_REFRESH_INTERVAL_MS, SPORT_FEED_URLS, STATUS_REFRESH_INTERVAL_MS } from '../constants/app';
 import { isFreshSourceLive } from '../utils/isFreshSourceLive';
 import { isGameEnded } from '../utils/isGameEnded';
 import { isStartedBySchedule } from '../utils/isStartedBySchedule';
 import { getPreviewGames } from '../utils/getPreviewGames';
 import { getSourceStatusAt } from '../utils/getSourceStatusAt';
 import { normalizeGame } from '../utils/normalizeGame';
-import type { Game, GamesPayload } from '../types/game';
+import type { Game, GamesPayload, Sport } from '../types/game';
 
 interface UseGamesFeedResult {
   games: Game[];
@@ -14,17 +14,18 @@ interface UseGamesFeedResult {
   error: Error | null;
 }
 
-export function useGamesFeed(): UseGamesFeedResult {
+export function useGamesFeed(sport: Sport): UseGamesFeedResult {
   const [games, setGames] = useState<Game[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<Error | null>(null);
 
   useEffect(() => {
     let isMounted = true;
+    const feedUrl = SPORT_FEED_URLS[sport];
 
     const loadGames = async () => {
       try {
-        const response = await fetch('/allSoccerGamesToday.json', { cache: 'no-store' });
+        const response = await fetch(feedUrl, { cache: 'no-store' });
         if (!response.ok) throw new Error(`Failed to load games JSON (${response.status})`);
 
         const data = await response.json() as GamesPayload;
@@ -49,12 +50,13 @@ export function useGamesFeed(): UseGamesFeedResult {
         if (!isMounted) return;
         const nextError = loadError instanceof Error ? loadError : new Error('Unknown feed error');
         setError(nextError);
-        console.error('Failed to load allSoccerGamesToday.json:', nextError);
+        console.error(`Failed to load ${feedUrl}:`, nextError);
       } finally {
         if (isMounted) setIsLoading(false);
       }
     };
 
+    setIsLoading(true);
     loadGames();
     const feedTimer = window.setInterval(loadGames, FEED_REFRESH_INTERVAL_MS);
 
@@ -62,7 +64,7 @@ export function useGamesFeed(): UseGamesFeedResult {
       isMounted = false;
       window.clearInterval(feedTimer);
     };
-  }, []);
+  }, [sport]);
 
   useEffect(() => {
     const statusTimer = window.setInterval(() => {

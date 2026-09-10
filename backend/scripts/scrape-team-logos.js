@@ -32,10 +32,10 @@ if (!BASE_URL) {
   throw new Error("Missing required env: FEED_BASE_URL");
 }
 const INPUT_PATH = path.resolve(process.cwd(), process.env.FEED_INPUT_JSON || "./.cache/allSoccerGamesToday.raw.json");
-const OUTPUT_PATH = path.resolve(process.cwd(), process.env.FEED_TEAM_LOGOS_OUTPUT || "./public/teamLogosByEvent.json");
+const OUTPUT_PATH = path.resolve(process.cwd(), process.env.FEED_TEAM_LOGOS_OUTPUT || "./public/soccer/teamLogosByEvent.json");
 const OUTPUT_ENRICHED_PATH = path.resolve(
   process.cwd(),
-  process.env.FEED_ENRICHED_OUTPUT || "./public/allSoccerGamesToday.json",
+  process.env.FEED_ENRICHED_OUTPUT || "./public/soccer/allSoccerGamesToday.json",
 );
 
 const DEFAULT_TIMEOUT_MS = 45_000;

@@ -1,6 +1,6 @@
-// Day sections scraper (excluding Top Matches Today)
+// Day sections scraper for basketball (excluding Top Matches Today)
 // Flow:
-// 1) Open homepage and resolve football listing URL.
+// 1) Open the basketball listing URL directly (defaults to livetv.sx's basketball section).
 // 2) Parse day sections from main matches column, skipping Top Matches Today block.
 // 3) Resolve stream links from each event page.
 
@@ -34,20 +34,20 @@ function loadDotEnv() {
 loadDotEnv();
 
 const BASE_URL = (process.env.FEED_BASE_URL || "").trim().replace(/\/+$/, "");
-const HOME_PATH = process.env.FEED_HOME_PATH || "/";
-const EVENT_PATH_SEGMENT = process.env.FEED_EVENT_PATH_SEGMENT || "/eventinfo/";
+const BASKETBALL_HOME_PATH = process.env.FEED_BASKETBALL_HOME_PATH || "/enx/allupcomingsports/3/";
+const EVENT_PATH_SEGMENT = process.env.FEED_BASKETBALL_EVENT_PATH_SEGMENT || "/eventinfo/";
 if (!BASE_URL) {
   throw new Error("Missing required env: FEED_BASE_URL");
 }
-const HOME_URL = new URL(HOME_PATH, `${BASE_URL}/`).toString();
-const OUTPUT_PATH = path.join(__dirname, "../.cache/allSoccerGamesToday.raw.json");
+const HOME_URL = new URL(BASKETBALL_HOME_PATH, `${BASE_URL}/`).toString();
+const OUTPUT_PATH = path.join(__dirname, "../.cache/allBasketballGamesToday.raw.json");
 const OUTPUT_LOGOS_PATH = path.resolve(
   process.cwd(),
-  process.env.FEED_TEAM_LOGOS_OUTPUT || "./public/soccer/teamLogosByEvent.json",
+  process.env.FEED_BASKETBALL_TEAM_LOGOS_OUTPUT || "./public/basketball/basketballTeamLogosByEvent.json",
 );
 const OUTPUT_ENRICHED_PATH = path.resolve(
   process.cwd(),
-  process.env.FEED_ENRICHED_OUTPUT || "./public/soccer/allSoccerGamesToday.json",
+  process.env.FEED_BASKETBALL_ENRICHED_OUTPUT || "./public/basketball/allBasketballGamesToday.json",
 );
 
 const DEFAULT_TIMEOUT_MS = 45_000;
@@ -189,7 +189,7 @@ async function resolveEmbeddedPlayerUrl(playerUrl) {
   }
 }
 
-function findFootballPageUrl(homeHtml) {
+function findBasketballPageUrl(homeHtml) {
   const $ = cheerio.load(homeHtml);
 
   let href = null;
@@ -200,8 +200,8 @@ function findFootballPageUrl(homeHtml) {
     const alt = ($(img).attr("alt") || "").toLowerCase();
     const id = ($(img).attr("id") || "").toLowerCase();
 
-    const isFootball = title.includes("football") || alt.includes("football") || id === "s1";
-    if (!isFootball) return;
+    const isBasketball = title.includes("basketball") || alt.includes("basketball") || id === "s2";
+    if (!isBasketball) return;
 
     const anchorHref = $(img).closest("a").attr("href");
     if (anchorHref) {
@@ -568,7 +568,7 @@ function getPrimaryMatchesColumnRoot($) {
   return bestRoot;
 }
 
-function extractDayMatchRows(listHtml, footballPageUrl) {
+function extractDayMatchRows(listHtml, basketballPageUrl) {
   const $ = cheerio.load(listHtml);
   const rows = [];
   const seen = new Set();
@@ -605,7 +605,7 @@ function extractDayMatchRows(listHtml, footballPageUrl) {
 
     row.find(`a.live[href*='${EVENT_PATH_SEGMENT}'], a[href*='${EVENT_PATH_SEGMENT}']`).each((__, anchor) => {
       const eventHref = $(anchor).attr("href");
-      const eventUrl = toAbsoluteUrl(eventHref, footballPageUrl);
+      const eventUrl = toAbsoluteUrl(eventHref, basketballPageUrl);
       if (!eventUrl || seen.has(eventUrl)) return;
 
       const containerTd = $(anchor).closest("td");
@@ -635,7 +635,7 @@ function extractDayMatchRows(listHtml, footballPageUrl) {
         timeLabel,
         isLive,
         leagueLabel,
-        iconUrl: toAbsoluteUrl(rowFirstIcon.attr("src") || null, footballPageUrl),
+        iconUrl: toAbsoluteUrl(rowFirstIcon.attr("src") || null, basketballPageUrl),
         iconAlt: normalizeSpace(rowFirstIcon.attr("alt") || "") || null,
         sectionLabel: currentDateLabel,
         isTopMatch: false,
@@ -699,24 +699,24 @@ async function extractPlayerLinks(eventHtml, eventUrl) {
 
 async function scrapeFeedDaysMatches() {
   const jobStartMs = Date.now();
-  markJobStarted("days");
+  markJobStarted("basketball-days");
   if (ALLOW_INSECURE_TLS) {
     console.warn("FEED_INSECURE_TLS=1 is enabled. TLS certificate validation is disabled for this run.");
   }
 
-  console.log("Opening homepage feed...");
+  console.log("Opening basketball listing page...");
   const homeHtml = await fetchHtml(HOME_URL);
 
   const isDirectListingUrl = /\/allupcomingsports\//i.test(HOME_URL);
-  const footballPageUrl = isDirectListingUrl ? HOME_URL : findFootballPageUrl(homeHtml);
-  if (!footballPageUrl) {
-    throw new Error("Football anchor not found on homepage.");
+  const basketballPageUrl = isDirectListingUrl ? HOME_URL : findBasketballPageUrl(homeHtml);
+  if (!basketballPageUrl) {
+    throw new Error("Basketball anchor not found on homepage.");
   }
 
-  console.log("Resolved football page.");
-  const footballHtml = await fetchHtml(footballPageUrl);
+  console.log("Resolved basketball page.");
+  const basketballHtml = isDirectListingUrl ? homeHtml : await fetchHtml(basketballPageUrl);
 
-  const matches = extractDayMatchRows(footballHtml, footballPageUrl);
+  const matches = extractDayMatchRows(basketballHtml, basketballPageUrl);
   console.log(
     `Found ${matches.length} day matches (no match limit, window=${Math.max(DAYS_WINDOW, 1)} day(s)).`,
   );
@@ -790,11 +790,11 @@ async function scrapeFeedDaysMatches() {
   console.log(`Saved enriched matches payload: ${OUTPUT_ENRICHED_PATH}`);
   const durationMs = Date.now() - jobStartMs;
   const outputBytes = fs.statSync(OUTPUT_PATH).size;
-  markJobSucceeded("days", matches.length, { durationMs, outputBytes });
+  markJobSucceeded("basketball-days", matches.length, { durationMs, outputBytes });
 }
 
 scrapeFeedDaysMatches().catch((error) => {
-  markJobFailed("days", error instanceof Error ? error.message : "Unknown error");
-  console.error("Day-matches scraper failed:", error);
+  markJobFailed("basketball-days", error instanceof Error ? error.message : "Unknown error");
+  console.error("Basketball day-matches scraper failed:", error);
   process.exitCode = 1;
 });

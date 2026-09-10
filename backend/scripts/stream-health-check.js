@@ -20,7 +20,7 @@ function loadDotEnv() {
 
 loadDotEnv();
 
-const inputPath = path.resolve(process.cwd(), process.env.FEED_ENRICHED_OUTPUT || "./public/allSoccerGamesToday.json");
+const inputPath = path.resolve(process.cwd(), process.env.FEED_ENRICHED_OUTPUT || "./public/soccer/allSoccerGamesToday.json");
 const timeoutMs = Number(process.env.STREAM_HEALTH_TIMEOUT_MS || 12000);
 const concurrency = Math.max(1, Number(process.env.STREAM_HEALTH_CONCURRENCY || 8));
 const insecureDispatcher = new Agent({ connect: { rejectUnauthorized: false } });
