@@ -1,167 +1,14 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-10T19:59:41.698Z",
-  "count": 187,
+  "scrapedAt": "2026-09-10T20:18:36.138Z",
+  "count": 186,
   "matches": [
     {
       "id": 1,
-      "title": "Tigre II – Atletico Tucuman II",
-      "dateLabel": "10 September",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "Argentina. Reserve League",
-      "iconUrl": "https://cdn.livetv903.me/img/icons/ar.gif",
-      "iconAlt": "Argentina. Reserve League",
-      "sectionLabel": "10 September",
-      "isTopMatch": false,
-      "rawDescription": "10 September at 19:00\n(Argentina. Reserve League)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Tigre II",
-          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/19097.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Atletico Tucuman II",
-          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/19018.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700038905/700039589/1_d755c/",
-        "matches": [
-          {
-            "date": "10/09",
-            "competition": "Argentina. Reserve League",
-            "homeTeam": "Tigre II",
-            "awayTeam": "Atletico Tucuman II",
-            "score": "2:0",
-            "result": "W",
-            "winner": "home"
-          },
-          {
-            "date": "09/04",
-            "competition": "Argentina. Reserve League",
-            "homeTeam": "Atletico Tucuman II",
-            "awayTeam": "Tigre II",
-            "score": "2:2",
-            "result": "D",
-            "winner": "draw"
-          },
-          {
-            "date": "19/05",
-            "competition": "Argentina. Reserve League",
-            "homeTeam": "Atletico Tucuman II",
-            "awayTeam": "Tigre II",
-            "score": "1:0",
-            "result": "L",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Tigre II",
-        "awayTeam": "Atletico Tucuman II",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "02/09",
-                "competition": "Reserve League",
-                "opponent": "Godoy Cruz II",
-                "score": "2:2",
-                "result": "D"
-              },
-              {
-                "date": "27/08",
-                "competition": "Reserve League",
-                "opponent": "Gimnasia Mendoza II",
-                "score": "1:3",
-                "result": "L"
-              },
-              {
-                "date": "20/08",
-                "competition": "Reserve League",
-                "opponent": "Barracas Central II",
-                "score": "3:1",
-                "result": "W"
-              },
-              {
-                "date": "04/08",
-                "competition": "Reserve League",
-                "opponent": "Banfield II",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "22/07",
-                "competition": "Reserve League",
-                "opponent": "Rosario Central II",
-                "score": "1:3",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 2,
-              "L": 2
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "02/09",
-                "competition": "Reserve League",
-                "opponent": "Godoy Cruz II",
-                "score": "2:2",
-                "result": "D"
-              },
-              {
-                "date": "27/08",
-                "competition": "Reserve League",
-                "opponent": "Tigre II",
-                "score": "3:1",
-                "result": "W"
-              },
-              {
-                "date": "20/08",
-                "competition": "Reserve League",
-                "opponent": "Barracas Central II",
-                "score": "3:1",
-                "result": "W"
-              },
-              {
-                "date": "04/08",
-                "competition": "Reserve League",
-                "opponent": "Banfield II",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "22/07",
-                "competition": "Reserve League",
-                "opponent": "Tigre II",
-                "score": "3:1",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 3,
-              "D": 2,
-              "L": 0
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 2,
       "title": "Panathinaikos – Kifisia",
       "dateLabel": "10 September",
       "timeLabel": "19:15",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Greece. Super League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/gr.gif",
       "iconAlt": "Greece. Super League",
@@ -176,7 +23,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.486Z",
+          "healthCheckedAt": "2026-09-10T20:18:36.760Z",
           "healthHttpStatus": 200
         },
         {
@@ -186,7 +33,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.496Z",
+          "healthCheckedAt": "2026-09-10T20:18:36.770Z",
           "healthHttpStatus": 200
         },
         {
@@ -196,7 +43,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.497Z",
+          "healthCheckedAt": "2026-09-10T20:18:36.771Z",
           "healthHttpStatus": 200
         },
         {
@@ -206,7 +53,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.498Z",
+          "healthCheckedAt": "2026-09-10T20:18:36.772Z",
           "healthHttpStatus": 200
         },
         {
@@ -216,7 +63,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.499Z",
+          "healthCheckedAt": "2026-09-10T20:18:36.772Z",
           "healthHttpStatus": 200
         },
         {
@@ -226,7 +73,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.500Z",
+          "healthCheckedAt": "2026-09-10T20:18:36.773Z",
           "healthHttpStatus": 200
         }
       ],
@@ -421,7 +268,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Cannes – Amiens",
       "dateLabel": "10 September",
       "timeLabel": "19:45",
@@ -451,7 +298,7 @@
       "headToHead": null
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Bayern Munich – Bodoe/Glimt",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -470,7 +317,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.500Z",
+          "healthCheckedAt": "2026-09-10T20:18:36.773Z",
           "healthHttpStatus": 200
         },
         {
@@ -480,7 +327,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.501Z",
+          "healthCheckedAt": "2026-09-10T20:18:36.774Z",
           "healthHttpStatus": 200
         },
         {
@@ -490,7 +337,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.866Z",
+          "healthCheckedAt": "2026-09-10T20:18:37.182Z",
           "healthHttpStatus": 200
         },
         {
@@ -500,7 +347,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.889Z",
+          "healthCheckedAt": "2026-09-10T20:18:37.190Z",
           "healthHttpStatus": 200
         },
         {
@@ -510,7 +357,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.890Z",
+          "healthCheckedAt": "2026-09-10T20:18:37.294Z",
           "healthHttpStatus": 200
         },
         {
@@ -520,7 +367,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.957Z",
+          "healthCheckedAt": "2026-09-10T20:18:37.401Z",
           "healthHttpStatus": 200
         },
         {
@@ -530,7 +377,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:42.985Z",
+          "healthCheckedAt": "2026-09-10T20:18:37.411Z",
           "healthHttpStatus": 200
         },
         {
@@ -540,7 +387,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.078Z",
+          "healthCheckedAt": "2026-09-10T20:18:37.454Z",
           "healthHttpStatus": 200
         },
         {
@@ -550,7 +397,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.114Z",
+          "healthCheckedAt": "2026-09-10T20:18:37.486Z",
           "healthHttpStatus": 200
         },
         {
@@ -560,7 +407,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.138Z",
+          "healthCheckedAt": "2026-09-10T20:18:37.493Z",
           "healthHttpStatus": 200
         },
         {
@@ -570,7 +417,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.494Z",
+          "healthCheckedAt": "2026-09-10T20:18:37.861Z",
           "healthHttpStatus": 200
         },
         {
@@ -580,301 +427,311 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.705Z",
+          "healthCheckedAt": "2026-09-10T20:18:37.934Z",
           "healthHttpStatus": 200
         },
         {
           "id": 13,
           "label": "Stream 15",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266472&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=265250&w=700&h=480",
+          "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.737Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.090Z",
           "healthHttpStatus": 200
         },
         {
           "id": 14,
           "label": "Stream 17",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266878&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266472&w=700&h=480",
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.766Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.175Z",
           "healthHttpStatus": 200
         },
         {
           "id": 15,
           "label": "Stream 19",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266965&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266878&w=700&h=480",
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.789Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.176Z",
           "healthHttpStatus": 200
         },
         {
           "id": 16,
           "label": "Stream 21",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=213687&w=700&h=480",
-          "language": "Russian",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266965&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.831Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.177Z",
           "healthHttpStatus": 200
         },
         {
           "id": 17,
           "label": "Stream 23",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=242312&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=213687&w=700&h=480",
           "language": "Russian",
-          "bitrate": "3000kbps",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.853Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.221Z",
           "healthHttpStatus": 200
         },
         {
           "id": 18,
           "label": "Stream 25",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=242313&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=242312&w=700&h=480",
           "language": "Russian",
-          "bitrate": "5000kbps",
+          "bitrate": "3000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.873Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.255Z",
           "healthHttpStatus": 200
         },
         {
           "id": 19,
           "label": "Stream 27",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=247876&w=700&h=480",
-          "language": "Serbian",
-          "bitrate": "1551kbps",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=242313&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.894Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.255Z",
           "healthHttpStatus": 200
         },
         {
           "id": 20,
           "label": "Stream 29",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=253248&w=700&h=480",
-          "language": "Greek",
-          "bitrate": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=247876&w=700&h=480",
+          "language": "Serbian",
+          "bitrate": "1551kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.921Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.282Z",
           "healthHttpStatus": 200
         },
         {
           "id": 21,
           "label": "Stream 31",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266116&w=700&h=480",
-          "language": "Romanian",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=253248&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.933Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.297Z",
           "healthHttpStatus": 200
         },
         {
           "id": 22,
           "label": "Stream 33",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266229&w=700&h=480",
-          "language": "Dutch",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266116&w=700&h=480",
+          "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:43.950Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.305Z",
           "healthHttpStatus": 200
         },
         {
           "id": 23,
           "label": "Stream 35",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266667&w=700&h=480",
-          "language": "Italian",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266229&w=700&h=480",
+          "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.006Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.346Z",
           "healthHttpStatus": 200
         },
         {
           "id": 24,
           "label": "Stream 37",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266874&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266667&w=700&h=480",
+          "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.018Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.421Z",
           "healthHttpStatus": 200
         },
         {
           "id": 25,
           "label": "Stream 39",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266931&w=700&h=480",
-          "language": "Greek",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266874&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.032Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.425Z",
           "healthHttpStatus": 200
         },
         {
           "id": 26,
           "label": "Stream 41",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267125&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266931&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.033Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.442Z",
           "healthHttpStatus": 200
         },
         {
           "id": 27,
           "label": "Stream 43",
-          "url": "https://abisnews.com/tudnusa.php",
-          "language": "Spanish",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267125&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.094Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.449Z",
           "healthHttpStatus": 200
         },
         {
           "id": 28,
-          "label": "Stream 44",
-          "url": "https://livesports247.click/sx/skyaustria2de.php",
-          "language": "German",
+          "label": "Stream 46",
+          "url": "https://abisnews.com/tudnusa.php",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.104Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.518Z",
           "healthHttpStatus": 200
         },
         {
           "id": 29,
-          "label": "Stream 45",
-          "url": "https://playfa.st/ch.php?id=46",
-          "language": "Italian",
+          "label": "Stream 47",
+          "url": "https://livesports247.click/sx/skyaustria2de.php",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.112Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.518Z",
           "healthHttpStatus": 200
         },
         {
           "id": 30,
-          "label": "Stream 46",
-          "url": "https://theseagreen.xyz/channel.html?id=2",
-          "language": "Portuguese",
+          "label": "Stream 48",
+          "url": "https://playfa.st/ch.php?id=46",
+          "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.113Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.525Z",
           "healthHttpStatus": 200
         },
         {
           "id": 31,
-          "label": "Stream 47",
-          "url": "https://vivtopslive.vivtops.st/channel6",
-          "language": "German",
+          "label": "Stream 49",
+          "url": "https://theseagreen.xyz/channel.html?id=2",
+          "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.169Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.525Z",
           "healthHttpStatus": 200
         },
         {
           "id": 32,
-          "label": "Stream 48",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWi4J7PufBErUa7858v1x",
-          "language": "Spanish",
+          "label": "Stream 50",
+          "url": "https://vivtopslive.vivtops.st/channel6",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.192Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.614Z",
           "healthHttpStatus": 200
         },
         {
           "id": 33,
-          "label": "Stream 49",
-          "url": "https://buzznews4u.com/live/skyaustria2_german.php",
-          "language": "German",
+          "label": "Stream 51",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWi4J7PufBErUa7858v1x",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.230Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.625Z",
           "healthHttpStatus": 200
         },
         {
           "id": 34,
-          "label": "Stream 50",
-          "url": "https://buzznews4u.com/live/ch2_german.php",
+          "label": "Stream 52",
+          "url": "https://buzznews4u.com/live/skyaustria2_german.php",
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.285Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.641Z",
           "healthHttpStatus": 200
         },
         {
           "id": 35,
-          "label": "Stream 51",
-          "url": "https://playfa.st/ch.php?id=17",
+          "label": "Stream 53",
+          "url": "https://buzznews4u.com/live/ch2_german.php",
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.293Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.651Z",
           "healthHttpStatus": 200
         },
         {
           "id": 36,
-          "label": "Stream 52",
-          "url": "https://abisnews.com/okkosport2.php",
-          "language": "Russian",
+          "label": "Stream 54",
+          "url": "https://playfa.st/ch.php?id=17",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.337Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.684Z",
           "healthHttpStatus": 200
         },
         {
           "id": 37,
-          "label": "Stream 54",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d63d8a57cf471394bfa9f619bbd68b01ae27a801&lang=en&eid=399041284&lid=2850353&ci=7&si=1",
-          "language": "English",
-          "bitrate": "8000kbps",
+          "label": "Stream 55",
+          "url": "https://abisnews.com/okkosport2.php",
+          "language": "Russian",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.338Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.725Z",
           "healthHttpStatus": 200
         },
         {
           "id": 38,
-          "label": "Stream 56",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=016d48fb89bb9505ab3f883db1bfb3a7c0a3eccc&lang=en&eid=399041284&lid=2844391&ci=7&si=1",
-          "language": "Russian",
+          "label": "Stream 57",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d63d8a57cf471394bfa9f619bbd68b01ae27a801&lang=en&eid=399041284&lid=2850353&ci=7&si=1",
+          "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.422Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.738Z",
           "healthHttpStatus": 200
         },
         {
           "id": 39,
-          "label": "Stream 58",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d08013df6e437a1fdf1e0c34f573fdf6a40c7fce&lang=en&eid=399041284&lid=2856171&ci=7&si=1",
-          "language": "Portuguese",
+          "label": "Stream 59",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=016d48fb89bb9505ab3f883db1bfb3a7c0a3eccc&lang=en&eid=399041284&lid=2844391&ci=7&si=1",
+          "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.438Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.790Z",
           "healthHttpStatus": 200
         },
         {
           "id": 40,
-          "label": "Stream 60",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=868a6187d6aeec65ded84bd777814c9f7b7a9027&lang=en&eid=399041284&lid=2992937&ci=7&si=1",
-          "language": "Dutch",
-          "bitrate": null,
+          "label": "Stream 61",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d08013df6e437a1fdf1e0c34f573fdf6a40c7fce&lang=en&eid=399041284&lid=2856171&ci=7&si=1",
+          "language": "Portuguese",
+          "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.573Z",
+          "healthCheckedAt": "2026-09-10T20:18:38.855Z",
           "healthHttpStatus": 200
         },
         {
           "id": 41,
-          "label": "Stream 62",
+          "label": "Stream 63",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=868a6187d6aeec65ded84bd777814c9f7b7a9027&lang=en&eid=399041284&lid=2992937&ci=7&si=1",
+          "language": "Dutch",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T20:18:38.999Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 42,
+          "label": "Stream 65",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=fcd7621df513f600652b4813d5d8fd1daed60058&lang=en&eid=399041284&lid=2960425&ci=7&si=1",
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.652Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.024Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 41,
+      "streamCount": 42,
       "teams": {
         "home": {
           "name": "Bayern Munich",
@@ -938,7 +795,7 @@
       "headToHead": null
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Slavia Prague – Lens",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -957,7 +814,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.705Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.105Z",
           "healthHttpStatus": 200
         },
         {
@@ -967,7 +824,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.708Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.119Z",
           "healthHttpStatus": 200
         },
         {
@@ -977,7 +834,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.749Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.134Z",
           "healthHttpStatus": 200
         },
         {
@@ -987,7 +844,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.774Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.181Z",
           "healthHttpStatus": 200
         },
         {
@@ -997,7 +854,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.801Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.182Z",
           "healthHttpStatus": 200
         },
         {
@@ -1007,7 +864,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.805Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.197Z",
           "healthHttpStatus": 200
         },
         {
@@ -1017,7 +874,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.805Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.211Z",
           "healthHttpStatus": 200
         },
         {
@@ -1027,7 +884,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.850Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.233Z",
           "healthHttpStatus": 200
         },
         {
@@ -1037,7 +894,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.870Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.270Z",
           "healthHttpStatus": 200
         },
         {
@@ -1047,7 +904,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.893Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.295Z",
           "healthHttpStatus": 200
         },
         {
@@ -1057,7 +914,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.925Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.384Z",
           "healthHttpStatus": 200
         },
         {
@@ -1067,7 +924,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.989Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.388Z",
           "healthHttpStatus": 200
         },
         {
@@ -1077,7 +934,7 @@
           "language": "Russian",
           "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:44.989Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.443Z",
           "healthHttpStatus": 200
         },
         {
@@ -1087,7 +944,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.004Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.465Z",
           "healthHttpStatus": 200
         },
         {
@@ -1097,7 +954,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.081Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.465Z",
           "healthHttpStatus": 200
         },
         {
@@ -1107,7 +964,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.089Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.553Z",
           "healthHttpStatus": 200
         },
         {
@@ -1117,7 +974,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.089Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.553Z",
           "healthHttpStatus": 200
         },
         {
@@ -1127,7 +984,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.158Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.561Z",
           "healthHttpStatus": 200
         },
         {
@@ -1137,7 +994,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.164Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.589Z",
           "healthHttpStatus": 200
         },
         {
@@ -1147,7 +1004,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.181Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.641Z",
           "healthHttpStatus": 200
         },
         {
@@ -1157,7 +1014,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.189Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.642Z",
           "healthHttpStatus": 200
         },
         {
@@ -1167,7 +1024,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.205Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.645Z",
           "healthHttpStatus": 200
         },
         {
@@ -1177,7 +1034,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.233Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.681Z",
           "healthHttpStatus": 200
         },
         {
@@ -1187,7 +1044,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.241Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.753Z",
           "healthHttpStatus": 200
         },
         {
@@ -1197,7 +1054,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.335Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.765Z",
           "healthHttpStatus": 200
         },
         {
@@ -1207,7 +1064,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.426Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.870Z",
           "healthHttpStatus": 200
         },
         {
@@ -1217,7 +1074,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.444Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.874Z",
           "healthHttpStatus": 200
         },
         {
@@ -1227,7 +1084,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.446Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.883Z",
           "healthHttpStatus": 200
         },
         {
@@ -1237,7 +1094,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.456Z",
+          "healthCheckedAt": "2026-09-10T20:18:39.965Z",
           "healthHttpStatus": 200
         },
         {
@@ -1247,7 +1104,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.521Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.031Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1319,7 +1176,7 @@
       "headToHead": null
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Simulcast",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -1338,7 +1195,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.577Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.062Z",
           "healthHttpStatus": 200
         },
         {
@@ -1348,7 +1205,7 @@
           "language": "Russian",
           "bitrate": "955kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.629Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.130Z",
           "healthHttpStatus": 200
         },
         {
@@ -1358,7 +1215,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.661Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.137Z",
           "healthHttpStatus": 200
         },
         {
@@ -1368,7 +1225,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.673Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.154Z",
           "healthHttpStatus": 200
         },
         {
@@ -1378,7 +1235,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.714Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.210Z",
           "healthHttpStatus": 200
         },
         {
@@ -1388,7 +1245,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.741Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.221Z",
           "healthHttpStatus": 200
         },
         {
@@ -1398,7 +1255,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.746Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.245Z",
           "healthHttpStatus": 200
         },
         {
@@ -1408,7 +1265,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.764Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.246Z",
           "healthHttpStatus": 200
         },
         {
@@ -1418,7 +1275,7 @@
           "language": "Georgian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.807Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.283Z",
           "healthHttpStatus": 200
         },
         {
@@ -1428,7 +1285,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.901Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.361Z",
           "healthHttpStatus": 200
         },
         {
@@ -1438,7 +1295,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.916Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.384Z",
           "healthHttpStatus": 200
         },
         {
@@ -1448,7 +1305,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.942Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.444Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1470,7 +1327,7 @@
       "headToHead": null
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Manchester Utd – Sabah",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -1489,7 +1346,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.967Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.453Z",
           "healthHttpStatus": 200
         },
         {
@@ -1499,7 +1356,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.969Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.465Z",
           "healthHttpStatus": 200
         },
         {
@@ -1509,7 +1366,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:45.990Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.477Z",
           "healthHttpStatus": 200
         },
         {
@@ -1519,7 +1376,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.027Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.478Z",
           "healthHttpStatus": 200
         },
         {
@@ -1529,7 +1386,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.028Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.534Z",
           "healthHttpStatus": 200
         },
         {
@@ -1539,7 +1396,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.049Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.550Z",
           "healthHttpStatus": 200
         },
         {
@@ -1549,7 +1406,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.052Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.569Z",
           "healthHttpStatus": 200
         },
         {
@@ -1559,7 +1416,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.069Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.574Z",
           "healthHttpStatus": 200
         },
         {
@@ -1569,7 +1426,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.117Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.586Z",
           "healthHttpStatus": 200
         },
         {
@@ -1579,7 +1436,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.147Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.618Z",
           "healthHttpStatus": 200
         },
         {
@@ -1589,7 +1446,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.148Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.625Z",
           "healthHttpStatus": 200
         },
         {
@@ -1599,7 +1456,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.148Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.626Z",
           "healthHttpStatus": 200
         },
         {
@@ -1609,7 +1466,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.153Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.645Z",
           "healthHttpStatus": 200
         },
         {
@@ -1619,7 +1476,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.328Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.818Z",
           "healthHttpStatus": 200
         },
         {
@@ -1629,7 +1486,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.342Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.821Z",
           "healthHttpStatus": 200
         },
         {
@@ -1639,7 +1496,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.353Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.821Z",
           "healthHttpStatus": 200
         },
         {
@@ -1649,7 +1506,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.373Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.837Z",
           "healthHttpStatus": 200
         },
         {
@@ -1659,7 +1516,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.398Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.884Z",
           "healthHttpStatus": 200
         },
         {
@@ -1669,7 +1526,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.417Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.885Z",
           "healthHttpStatus": 200
         },
         {
@@ -1679,7 +1536,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.489Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.960Z",
           "healthHttpStatus": 200
         },
         {
@@ -1689,347 +1546,347 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.508Z",
+          "healthCheckedAt": "2026-09-10T20:18:40.971Z",
           "healthHttpStatus": 200
         },
         {
           "id": 22,
           "label": "Stream 32",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=211069&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267035&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.525Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.001Z",
           "healthHttpStatus": 200
         },
         {
           "id": 23,
           "label": "Stream 34",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=232729&w=700&h=480",
-          "language": "Ukrainian",
-          "bitrate": "3000kbps",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267240&w=700&h=480",
+          "language": "Arabic",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.572Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.041Z",
           "healthHttpStatus": 200
         },
         {
           "id": 24,
           "label": "Stream 36",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=237115&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "2700kbps",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=211069&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.593Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.049Z",
           "healthHttpStatus": 200
         },
         {
           "id": 25,
           "label": "Stream 38",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=242325&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "5000kbps",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=232729&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": "3000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.609Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.073Z",
           "healthHttpStatus": 200
         },
         {
           "id": 26,
           "label": "Stream 40",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=260259&w=700&h=480",
-          "language": "Serbian",
-          "bitrate": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=237115&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2700kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.787Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.119Z",
           "healthHttpStatus": 200
         },
         {
           "id": 27,
           "label": "Stream 42",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=265923&w=700&h=480",
-          "language": null,
-          "bitrate": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=242325&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.932Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.346Z",
           "healthHttpStatus": 200
         },
         {
           "id": 28,
           "label": "Stream 44",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266117&w=700&h=480",
-          "language": "Slovenian",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=260259&w=700&h=480",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.936Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.361Z",
           "healthHttpStatus": 200
         },
         {
           "id": 29,
           "label": "Stream 46",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266242&w=700&h=480",
-          "language": "Azerbaijani",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=265923&w=700&h=480",
+          "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.937Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.444Z",
           "healthHttpStatus": 200
         },
         {
           "id": 30,
           "label": "Stream 48",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266250&w=700&h=480",
-          "language": "Spanish",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266117&w=700&h=480",
+          "language": "Slovenian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.961Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.447Z",
           "healthHttpStatus": 200
         },
         {
           "id": 31,
           "label": "Stream 50",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266732&w=700&h=480",
-          "language": "Danish",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266242&w=700&h=480",
+          "language": "Azerbaijani",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:46.982Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.453Z",
           "healthHttpStatus": 200
         },
         {
           "id": 32,
           "label": "Stream 52",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266862&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266250&w=700&h=480",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.010Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.455Z",
           "healthHttpStatus": 200
         },
         {
           "id": 33,
           "label": "Stream 54",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267035&w=700&h=480",
-          "language": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266732&w=700&h=480",
+          "language": "Danish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.014Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.539Z",
           "healthHttpStatus": 200
         },
         {
           "id": 34,
           "label": "Stream 56",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267059&w=700&h=480",
-          "language": "Polish",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266862&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.015Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.542Z",
           "healthHttpStatus": 200
         },
         {
           "id": 35,
           "label": "Stream 58",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267240&w=700&h=480",
-          "language": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267059&w=700&h=480",
+          "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.015Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.547Z",
           "healthHttpStatus": 200
         },
         {
           "id": 36,
-          "label": "Stream 63",
+          "label": "Stream 64",
           "url": "https://abisnews.com/beinsport1ar.php",
           "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.043Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.559Z",
           "healthHttpStatus": 200
         },
         {
           "id": 37,
-          "label": "Stream 64",
+          "label": "Stream 65",
           "url": "https://abisnews.com/canalplusextra1pl.php",
           "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.057Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.636Z",
           "healthHttpStatus": 200
         },
         {
           "id": 38,
-          "label": "Stream 65",
+          "label": "Stream 66",
           "url": "https://abisnews.com/megogosport2.php",
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.089Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.642Z",
           "healthHttpStatus": 200
         },
         {
           "id": 39,
-          "label": "Stream 66",
+          "label": "Stream 67",
           "url": "https://abisnews.com/setantasport1georgia.php",
           "language": "Georgian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.098Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.644Z",
           "healthHttpStatus": 200
         },
         {
           "id": 40,
-          "label": "Stream 67",
+          "label": "Stream 68",
           "url": "https://abisnews.com/sport5il.php",
           "language": "Hebrew",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.098Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.645Z",
           "healthHttpStatus": 200
         },
         {
           "id": 41,
-          "label": "Stream 68",
+          "label": "Stream 69",
           "url": "https://playfa.st/ch.php?id=44",
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.098Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.651Z",
           "healthHttpStatus": 200
         },
         {
           "id": 42,
-          "label": "Stream 69",
+          "label": "Stream 70",
           "url": "https://playfa.st/ch.php?id=53",
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.098Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.707Z",
           "healthHttpStatus": 200
         },
         {
           "id": 43,
-          "label": "Stream 70",
+          "label": "Stream 71",
           "url": "https://playfa.st/ch.php?id=78",
           "language": "Swedish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.133Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.743Z",
           "healthHttpStatus": 200
         },
         {
           "id": 44,
-          "label": "Stream 71",
+          "label": "Stream 72",
           "url": "https://shd247.world/frame12.html",
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.150Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.760Z",
           "healthHttpStatus": 200
         },
         {
           "id": 45,
-          "label": "Stream 72",
+          "label": "Stream 73",
           "url": "https://welivesportz.cfd/livetv/arena3hr.php",
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.165Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.761Z",
           "healthHttpStatus": 200
         },
         {
           "id": 46,
-          "label": "Stream 73",
+          "label": "Stream 74",
           "url": "https://buzznews4u.com/live/skyaustria4_german.php",
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.182Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.776Z",
           "healthHttpStatus": 200
         },
         {
           "id": 47,
-          "label": "Stream 74",
+          "label": "Stream 75",
           "url": "https://buzznews4u.com/live/ch4_german.php",
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.213Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.879Z",
           "healthHttpStatus": 200
         },
         {
           "id": 48,
-          "label": "Stream 75",
+          "label": "Stream 76",
           "url": "https://abisnews.com/arena2premiumserbia.php",
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.217Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.880Z",
           "healthHttpStatus": 200
         },
         {
           "id": 49,
-          "label": "Stream 76",
+          "label": "Stream 77",
           "url": "https://abisnews.com/kazsport.php",
           "language": "Kazakh",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.318Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.936Z",
           "healthHttpStatus": 200
         },
         {
           "id": 50,
-          "label": "Stream 77",
+          "label": "Stream 78",
           "url": "https://abisnews.com/arenasport3hr.php",
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.319Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.960Z",
           "healthHttpStatus": 200
         },
         {
           "id": 51,
-          "label": "Stream 79",
+          "label": "Stream 80",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=75a56863b6fe0407ad4305b4d7ee5643c3923565&lang=en&eid=399041192&lid=2853564&ci=7&si=1",
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.335Z",
+          "healthCheckedAt": "2026-09-10T20:18:41.991Z",
           "healthHttpStatus": 200
         },
         {
           "id": 52,
-          "label": "Stream 81",
+          "label": "Stream 82",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&lang=en&eid=399041192&lid=2987940&ci=7&si=1",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.362Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.006Z",
           "healthHttpStatus": 200
         },
         {
           "id": 53,
-          "label": "Stream 83",
+          "label": "Stream 84",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=36cad67fed5a739757a9db844a551aa845a8d51b&lang=en&eid=399041192&lid=2854601&ci=7&si=1",
           "language": "Portuguese",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.449Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.063Z",
           "healthHttpStatus": 200
         },
         {
           "id": 54,
-          "label": "Stream 85",
+          "label": "Stream 86",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=e38b33c56332de27ff25df223cdf488b1ec6051f&lang=en&eid=399041192&lid=2844387&ci=7&si=1",
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.461Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.091Z",
           "healthHttpStatus": 200
         },
         {
           "id": 55,
-          "label": "Stream 87",
+          "label": "Stream 88",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=6e672fbd2d325fde727a61aa2ef8b8b02e05c6a4&lang=en&eid=399041192&lid=2993476&ci=7&si=1",
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.513Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.127Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2100,7 +1957,7 @@
       "headToHead": null
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Como – RB Leipzig",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -2119,7 +1976,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.529Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.180Z",
           "healthHttpStatus": 200
         },
         {
@@ -2129,7 +1986,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.553Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.183Z",
           "healthHttpStatus": 200
         },
         {
@@ -2139,7 +1996,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.561Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.184Z",
           "healthHttpStatus": 200
         },
         {
@@ -2149,7 +2006,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.613Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.243Z",
           "healthHttpStatus": 200
         },
         {
@@ -2159,7 +2016,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.629Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.263Z",
           "healthHttpStatus": 200
         },
         {
@@ -2169,7 +2026,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.637Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.271Z",
           "healthHttpStatus": 200
         },
         {
@@ -2179,7 +2036,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.674Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.303Z",
           "healthHttpStatus": 200
         },
         {
@@ -2189,7 +2046,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.674Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.319Z",
           "healthHttpStatus": 200
         },
         {
@@ -2199,7 +2056,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.714Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.334Z",
           "healthHttpStatus": 200
         },
         {
@@ -2209,7 +2066,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.714Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.398Z",
           "healthHttpStatus": 200
         },
         {
@@ -2219,7 +2076,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.749Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.487Z",
           "healthHttpStatus": 200
         },
         {
@@ -2229,7 +2086,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.841Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.495Z",
           "healthHttpStatus": 200
         },
         {
@@ -2239,7 +2096,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.849Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.513Z",
           "healthHttpStatus": 200
         },
         {
@@ -2249,7 +2106,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.887Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.560Z",
           "healthHttpStatus": 200
         },
         {
@@ -2259,7 +2116,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.926Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.599Z",
           "healthHttpStatus": 200
         },
         {
@@ -2269,7 +2126,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.941Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.611Z",
           "healthHttpStatus": 200
         },
         {
@@ -2279,7 +2136,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.951Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.664Z",
           "healthHttpStatus": 200
         },
         {
@@ -2289,7 +2146,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:47.969Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.665Z",
           "healthHttpStatus": 200
         },
         {
@@ -2299,7 +2156,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.011Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.699Z",
           "healthHttpStatus": 200
         },
         {
@@ -2309,7 +2166,7 @@
           "language": "Russian",
           "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.085Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.756Z",
           "healthHttpStatus": 200
         },
         {
@@ -2319,7 +2176,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.161Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.827Z",
           "healthHttpStatus": 200
         },
         {
@@ -2329,7 +2186,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.205Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.863Z",
           "healthHttpStatus": 200
         },
         {
@@ -2339,7 +2196,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.222Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.863Z",
           "healthHttpStatus": 200
         },
         {
@@ -2349,7 +2206,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.239Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.935Z",
           "healthHttpStatus": 200
         },
         {
@@ -2359,7 +2216,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.245Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.936Z",
           "healthHttpStatus": 200
         },
         {
@@ -2369,7 +2226,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.289Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.959Z",
           "healthHttpStatus": 200
         },
         {
@@ -2379,7 +2236,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.305Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.959Z",
           "healthHttpStatus": 200
         },
         {
@@ -2389,7 +2246,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.322Z",
+          "healthCheckedAt": "2026-09-10T20:18:42.986Z",
           "healthHttpStatus": 200
         },
         {
@@ -2399,7 +2256,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.333Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.043Z",
           "healthHttpStatus": 200
         },
         {
@@ -2409,7 +2266,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.381Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.047Z",
           "healthHttpStatus": 200
         },
         {
@@ -2419,7 +2276,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.389Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.067Z",
           "healthHttpStatus": 200
         },
         {
@@ -2429,7 +2286,7 @@
           "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.409Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.068Z",
           "healthHttpStatus": 200
         },
         {
@@ -2439,7 +2296,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.413Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.070Z",
           "healthHttpStatus": 200
         },
         {
@@ -2449,7 +2306,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.473Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.083Z",
           "healthHttpStatus": 200
         },
         {
@@ -2459,7 +2316,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.473Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.152Z",
           "healthHttpStatus": 200
         },
         {
@@ -2469,7 +2326,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.482Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.152Z",
           "healthHttpStatus": 200
         },
         {
@@ -2479,7 +2336,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.496Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.155Z",
           "healthHttpStatus": 200
         },
         {
@@ -2489,7 +2346,7 @@
           "language": "Bulgarian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.511Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.162Z",
           "healthHttpStatus": 200
         },
         {
@@ -2499,7 +2356,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.550Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.178Z",
           "healthHttpStatus": 200
         },
         {
@@ -2509,7 +2366,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.598Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.340Z",
           "healthHttpStatus": 200
         },
         {
@@ -2519,7 +2376,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.635Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.351Z",
           "healthHttpStatus": 200
         },
         {
@@ -2529,7 +2386,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.702Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.360Z",
           "healthHttpStatus": 200
         },
         {
@@ -2539,7 +2396,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.703Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.384Z",
           "healthHttpStatus": 200
         },
         {
@@ -2549,7 +2406,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.722Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.396Z",
           "healthHttpStatus": 200
         },
         {
@@ -2559,7 +2416,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.728Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.483Z",
           "healthHttpStatus": 200
         },
         {
@@ -2569,7 +2426,7 @@
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.813Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.498Z",
           "healthHttpStatus": 200
         },
         {
@@ -2579,7 +2436,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.822Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.551Z",
           "healthHttpStatus": 200
         },
         {
@@ -2589,7 +2446,7 @@
           "language": "Portuguese",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.854Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.563Z",
           "healthHttpStatus": 200
         },
         {
@@ -2599,7 +2456,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:48.981Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.684Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2670,7 +2527,7 @@
       "headToHead": null
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Cerro – Cerrito",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -2689,7 +2546,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.017Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.715Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2825,7 +2682,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Stevenage – Luton Town",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -2844,7 +2701,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.029Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.719Z",
           "healthHttpStatus": 200
         },
         {
@@ -2854,7 +2711,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.039Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.728Z",
           "healthHttpStatus": 200
         },
         {
@@ -2864,7 +2721,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.067Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.759Z",
           "healthHttpStatus": 200
         },
         {
@@ -2874,7 +2731,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.073Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.811Z",
           "healthHttpStatus": 200
         },
         {
@@ -2884,7 +2741,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.173Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.887Z",
           "healthHttpStatus": 200
         },
         {
@@ -2894,7 +2751,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.256Z",
+          "healthCheckedAt": "2026-09-10T20:18:43.955Z",
           "healthHttpStatus": 200
         },
         {
@@ -2904,7 +2761,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.310Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.060Z",
           "healthHttpStatus": 200
         },
         {
@@ -2914,7 +2771,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.361Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.062Z",
           "healthHttpStatus": 200
         },
         {
@@ -2924,7 +2781,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.385Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.087Z",
           "healthHttpStatus": 200
         },
         {
@@ -2934,27 +2791,27 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.397Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.099Z",
           "healthHttpStatus": 200
         },
         {
           "id": 11,
           "label": "Stream 14",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266602&w=700&h=480",
-          "language": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267282&w=700&h=480",
+          "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.423Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.125Z",
           "healthHttpStatus": 200
         },
         {
           "id": 12,
           "label": "Stream 16",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267282&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266602&w=700&h=480",
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.436Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.152Z",
           "healthHttpStatus": 200
         },
         {
@@ -2964,7 +2821,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.437Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.167Z",
           "healthHttpStatus": 200
         },
         {
@@ -2974,7 +2831,7 @@
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.505Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.223Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3150,7 +3007,7 @@
       }
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Estrela – Braga",
       "dateLabel": "10 September",
       "timeLabel": "20:15",
@@ -3169,7 +3026,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.512Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.259Z",
           "healthHttpStatus": 200
         },
         {
@@ -3179,7 +3036,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.585Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.311Z",
           "healthHttpStatus": 200
         },
         {
@@ -3189,7 +3046,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.593Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.351Z",
           "healthHttpStatus": 200
         },
         {
@@ -3199,7 +3056,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.609Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.383Z",
           "healthHttpStatus": 200
         },
         {
@@ -3209,7 +3066,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.628Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.415Z",
           "healthHttpStatus": 200
         },
         {
@@ -3219,7 +3076,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.666Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.450Z",
           "healthHttpStatus": 200
         },
         {
@@ -3229,7 +3086,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.673Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.451Z",
           "healthHttpStatus": 200
         },
         {
@@ -3239,7 +3096,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.697Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.463Z",
           "healthHttpStatus": 200
         },
         {
@@ -3249,7 +3106,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.708Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.479Z",
           "healthHttpStatus": 200
         },
         {
@@ -3259,7 +3116,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.733Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.495Z",
           "healthHttpStatus": 200
         },
         {
@@ -3269,7 +3126,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.745Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.511Z",
           "healthHttpStatus": 200
         },
         {
@@ -3279,7 +3136,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.765Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.531Z",
           "healthHttpStatus": 200
         },
         {
@@ -3289,7 +3146,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.769Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.531Z",
           "healthHttpStatus": 200
         },
         {
@@ -3299,7 +3156,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.801Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.546Z",
           "healthHttpStatus": 200
         },
         {
@@ -3309,7 +3166,7 @@
           "language": "Polish",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.827Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.580Z",
           "healthHttpStatus": 200
         },
         {
@@ -3319,7 +3176,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.877Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.630Z",
           "healthHttpStatus": 200
         },
         {
@@ -3329,7 +3186,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.910Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.679Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3523,11 +3380,11 @@
       }
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "San Jose II – Ventura County",
       "dateLabel": "10 September",
       "timeLabel": "21:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "USA. MLS Next Pro",
       "iconUrl": "https://cdn.livetv903.me/img/icons/us.gif",
       "iconAlt": "USA. MLS Next Pro",
@@ -3542,7 +3399,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:49.925Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.687Z",
           "healthHttpStatus": 200
         },
         {
@@ -3552,7 +3409,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:50.014Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.759Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3697,11 +3554,11 @@
       }
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Astillero – Univ Catolica Quito",
       "dateLabel": "10 September",
       "timeLabel": "21:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Ecuador. Cup",
       "iconUrl": "https://cdn.livetv903.me/img/icons/ec.gif",
       "iconAlt": "Ecuador. Cup",
@@ -3716,7 +3573,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:50.032Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.831Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3771,7 +3628,7 @@
       }
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "Cumbaya – Gualaceo",
       "dateLabel": "10 September",
       "timeLabel": "21:30",
@@ -3924,7 +3781,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "San Antonio Cotacachi – Atletico Rojiblanco",
       "dateLabel": "10 September",
       "timeLabel": "21:30",
@@ -3943,7 +3800,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:59:50.037Z",
+          "healthCheckedAt": "2026-09-10T20:18:44.836Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4079,7 +3936,7 @@
       }
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "Export Sebaco – Diriangen",
       "dateLabel": "10 September",
       "timeLabel": "22:00",
@@ -4090,8 +3947,19 @@
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 22:00\n(Nicaragua. Liga Primera)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.vdocity.com/1/_Af5CWEGUAYPqtJhbRUSUZWiPj6c9GtmYpgPiTq8fC",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T20:18:44.840Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Export Sebaco",
@@ -4232,7 +4100,7 @@
       }
     },
     {
-      "id": 17,
+      "id": 16,
       "title": "Aurora – Municipal",
       "dateLabel": "10 September",
       "timeLabel": "22:00",
@@ -4243,8 +4111,19 @@
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 22:00\n(Guatemala. Liga Nacional)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.vdocity.com/1/_Af5CWEGUAYPqtJhbRUSUZWiPeGQrpH5xQjZnvGjWZ",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T20:18:44.871Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Aurora",
@@ -4385,7 +4264,7 @@
       }
     },
     {
-      "id": 18,
+      "id": 17,
       "title": "Patriotas Boyaca – Barranquilla",
       "dateLabel": "10 September",
       "timeLabel": "23:00",
@@ -4538,7 +4417,7 @@
       }
     },
     {
-      "id": 19,
+      "id": 18,
       "title": "Orsomarso – Tigres Bogota",
       "dateLabel": "10 September",
       "timeLabel": "23:00",
@@ -4691,7 +4570,7 @@
       }
     },
     {
-      "id": 20,
+      "id": 19,
       "title": "Solomon Islands U19 – Tahiti U19",
       "dateLabel": "10 September",
       "timeLabel": "23:00",
@@ -4721,7 +4600,7 @@
       "headToHead": null
     },
     {
-      "id": 21,
+      "id": 20,
       "title": "Vila Nova – Goias",
       "dateLabel": "10 September",
       "timeLabel": "23:30",
@@ -4874,7 +4753,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 21,
       "title": "Sao Bernardo – Londrina",
       "dateLabel": "10 September",
       "timeLabel": "23:30",
@@ -5027,7 +4906,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 22,
       "title": "Tomayapo – Always Ready",
       "dateLabel": "10 September",
       "timeLabel": "23:30",
@@ -5057,7 +4936,7 @@
       "headToHead": null
     },
     {
-      "id": 24,
+      "id": 23,
       "title": "Salcedo – Cibao",
       "dateLabel": "11 September",
       "timeLabel": "0:00",
@@ -5210,7 +5089,7 @@
       }
     },
     {
-      "id": 25,
+      "id": 24,
       "title": "Montreal Roses (W) – Toronto (W)",
       "dateLabel": "11 September",
       "timeLabel": "0:00",
@@ -5240,7 +5119,7 @@
       "headToHead": null
     },
     {
-      "id": 26,
+      "id": 25,
       "title": "Antofagasta – Cobreloa",
       "dateLabel": "11 September",
       "timeLabel": "0:00",
@@ -5393,7 +5272,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 26,
       "title": "Managua – Real Esteli",
       "dateLabel": "11 September",
       "timeLabel": "1:00",
@@ -5546,7 +5425,7 @@
       }
     },
     {
-      "id": 28,
+      "id": 27,
       "title": "Malacateco – Antigua GFC",
       "dateLabel": "11 September",
       "timeLabel": "1:00",
@@ -5699,7 +5578,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 28,
       "title": "Sport Recife – Ponte Preta",
       "dateLabel": "11 September",
       "timeLabel": "1:30",
@@ -5852,7 +5731,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 29,
       "title": "Independiente – Flamengo-RJ",
       "dateLabel": "11 September",
       "timeLabel": "1:30",
@@ -5996,7 +5875,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 30,
       "title": "Cienciano – MC Torque",
       "dateLabel": "11 September",
       "timeLabel": "1:30",
@@ -6026,7 +5905,7 @@
       "headToHead": null
     },
     {
-      "id": 32,
+      "id": 31,
       "title": "Bolivar – Independiente Petrolero",
       "dateLabel": "11 September",
       "timeLabel": "1:30",
@@ -6170,7 +6049,7 @@
       }
     },
     {
-      "id": 33,
+      "id": 32,
       "title": "Millonarios – Deportivo Cali",
       "dateLabel": "11 September",
       "timeLabel": "2:00",
@@ -6323,7 +6202,7 @@
       }
     },
     {
-      "id": 34,
+      "id": 33,
       "title": "Alebrijes – Durango",
       "dateLabel": "11 September",
       "timeLabel": "2:00",
@@ -6467,7 +6346,7 @@
       }
     },
     {
-      "id": 35,
+      "id": 34,
       "title": "Marathon – Alajuelense",
       "dateLabel": "11 September",
       "timeLabel": "2:06",
@@ -6602,7 +6481,7 @@
       }
     },
     {
-      "id": 36,
+      "id": 35,
       "title": "New Zealand U19 – New Caledonia U19",
       "dateLabel": "11 September",
       "timeLabel": "3:00",
@@ -6632,7 +6511,7 @@
       "headToHead": null
     },
     {
-      "id": 37,
+      "id": 36,
       "title": "Xelaju MC – Coban Imperial",
       "dateLabel": "11 September",
       "timeLabel": "3:00",
@@ -6785,7 +6664,7 @@
       }
     },
     {
-      "id": 38,
+      "id": 37,
       "title": "Pumas – Leon",
       "dateLabel": "11 September",
       "timeLabel": "4:05",
@@ -6938,7 +6817,7 @@
       }
     },
     {
-      "id": 39,
+      "id": 38,
       "title": "LA Firpo – Olimpia",
       "dateLabel": "11 September",
       "timeLabel": "4:06",
@@ -6968,7 +6847,7 @@
       "headToHead": null
     },
     {
-      "id": 40,
+      "id": 39,
       "title": "Kolos Kovalivka (W) – Kharkiv (W)",
       "dateLabel": "11 September",
       "timeLabel": "9:00",
@@ -6998,7 +6877,7 @@
       "headToHead": null
     },
     {
-      "id": 41,
+      "id": 40,
       "title": "SeaSters (W) – Ladomir (W)",
       "dateLabel": "11 September",
       "timeLabel": "10:00",
@@ -7028,7 +6907,7 @@
       "headToHead": null
     },
     {
-      "id": 42,
+      "id": 41,
       "title": "Palmerston Rovers – Hellenic",
       "dateLabel": "11 September",
       "timeLabel": "10:00",
@@ -7172,7 +7051,7 @@
       }
     },
     {
-      "id": 43,
+      "id": 42,
       "title": "Prospect United – Parramatta",
       "dateLabel": "11 September",
       "timeLabel": "10:00",
@@ -7316,7 +7195,7 @@
       }
     },
     {
-      "id": 44,
+      "id": 43,
       "title": "Slovan Liberec B – Pardubice B",
       "dateLabel": "11 September",
       "timeLabel": "10:00",
@@ -7469,7 +7348,7 @@
       }
     },
     {
-      "id": 45,
+      "id": 44,
       "title": "UCSA – Chernihiv",
       "dateLabel": "11 September",
       "timeLabel": "10:30",
@@ -7499,7 +7378,7 @@
       "headToHead": null
     },
     {
-      "id": 46,
+      "id": 45,
       "title": "Essendon Royals – Keilor Park",
       "dateLabel": "11 September",
       "timeLabel": "10:30",
@@ -7643,7 +7522,7 @@
       }
     },
     {
-      "id": 47,
+      "id": 46,
       "title": "Oakleigh Cannons – South Melbourne",
       "dateLabel": "11 September",
       "timeLabel": "10:30",
@@ -7796,7 +7675,7 @@
       }
     },
     {
-      "id": 48,
+      "id": 47,
       "title": "Box Hill United (W) – Bulleen Lions (W)",
       "dateLabel": "11 September",
       "timeLabel": "10:30",
@@ -7826,7 +7705,7 @@
       "headToHead": null
     },
     {
-      "id": 49,
+      "id": 48,
       "title": "Vissel Kobe – Kashima Antlers",
       "dateLabel": "11 September",
       "timeLabel": "11:00",
@@ -7979,7 +7858,7 @@
       }
     },
     {
-      "id": 50,
+      "id": 49,
       "title": "Kyoto Sanga – Kashiwa Reysol",
       "dateLabel": "11 September",
       "timeLabel": "11:00",
@@ -8132,7 +8011,7 @@
       }
     },
     {
-      "id": 51,
+      "id": 50,
       "title": "Adelaide City – West Torrens Birkalla",
       "dateLabel": "11 September",
       "timeLabel": "11:00",
@@ -8285,7 +8164,7 @@
       }
     },
     {
-      "id": 52,
+      "id": 51,
       "title": "Kolos – Karpaty",
       "dateLabel": "11 September",
       "timeLabel": "11:00",
@@ -8438,7 +8317,7 @@
       }
     },
     {
-      "id": 53,
+      "id": 52,
       "title": "Daejeon Korail – Ulsan Citizen",
       "dateLabel": "11 September",
       "timeLabel": "11:00",
@@ -8591,7 +8470,7 @@
       }
     },
     {
-      "id": 54,
+      "id": 53,
       "title": "Casuarina – Port Darwin",
       "dateLabel": "11 September",
       "timeLabel": "12:00",
@@ -8744,7 +8623,7 @@
       }
     },
     {
-      "id": 55,
+      "id": 54,
       "title": "Batyr – Tobol 2",
       "dateLabel": "11 September",
       "timeLabel": "12:00",
@@ -8774,7 +8653,7 @@
       "headToHead": null
     },
     {
-      "id": 56,
+      "id": 55,
       "title": "Tampines Rovers – Balestier Khalsa",
       "dateLabel": "11 September",
       "timeLabel": "12:30",
@@ -8927,7 +8806,7 @@
       }
     },
     {
-      "id": 57,
+      "id": 56,
       "title": "Zhayik – Shakhter Karaganda",
       "dateLabel": "11 September",
       "timeLabel": "13:00",
@@ -8957,7 +8836,7 @@
       "headToHead": null
     },
     {
-      "id": 58,
+      "id": 57,
       "title": "Kaspiy 2 – Arys",
       "dateLabel": "11 September",
       "timeLabel": "13:00",
@@ -8987,7 +8866,7 @@
       "headToHead": null
     },
     {
-      "id": 59,
+      "id": 58,
       "title": "Van – BKMA",
       "dateLabel": "11 September",
       "timeLabel": "13:00",
@@ -9140,7 +9019,7 @@
       }
     },
     {
-      "id": 60,
+      "id": 59,
       "title": "Imisli – Neftchi",
       "dateLabel": "11 September",
       "timeLabel": "13:30",
@@ -9293,7 +9172,7 @@
       }
     },
     {
-      "id": 61,
+      "id": 60,
       "title": "MOIK – Simal",
       "dateLabel": "11 September",
       "timeLabel": "13:30",
@@ -9323,7 +9202,7 @@
       "headToHead": null
     },
     {
-      "id": 62,
+      "id": 61,
       "title": "Gazalkent – Yaypan",
       "dateLabel": "11 September",
       "timeLabel": "14:00",
@@ -9353,7 +9232,7 @@
       "headToHead": null
     },
     {
-      "id": 63,
+      "id": 62,
       "title": "Tanzania (W) U-20 – Canada (W) U-20",
       "dateLabel": "11 September",
       "timeLabel": "14:00",
@@ -9383,7 +9262,7 @@
       "headToHead": null
     },
     {
-      "id": 64,
+      "id": 63,
       "title": "England U20 (W) – Brazil U20 (W)",
       "dateLabel": "11 September",
       "timeLabel": "14:00",
@@ -9413,7 +9292,7 @@
       "headToHead": null
     },
     {
-      "id": 65,
+      "id": 64,
       "title": "Tanzania U20 (W) – Canada U20 (W)",
       "dateLabel": "11 September",
       "timeLabel": "14:00",
@@ -9443,7 +9322,7 @@
       "headToHead": null
     },
     {
-      "id": 66,
+      "id": 65,
       "title": "Taraz – Khan Tengri",
       "dateLabel": "11 September",
       "timeLabel": "14:00",
@@ -9473,7 +9352,7 @@
       "headToHead": null
     },
     {
-      "id": 67,
+      "id": 66,
       "title": "Hatta – Al Dhafra",
       "dateLabel": "11 September",
       "timeLabel": "14:40",
@@ -9626,7 +9505,7 @@
       }
     },
     {
-      "id": 68,
+      "id": 67,
       "title": "Khor Fakkan – Bani Yas",
       "dateLabel": "11 September",
       "timeLabel": "14:40",
@@ -9779,7 +9658,7 @@
       }
     },
     {
-      "id": 69,
+      "id": 68,
       "title": "Ogre United – Liepaja",
       "dateLabel": "11 September",
       "timeLabel": "15:00",
@@ -9932,7 +9811,7 @@
       }
     },
     {
-      "id": 70,
+      "id": 69,
       "title": "Sobemap – Enugu Rangers",
       "dateLabel": "11 September",
       "timeLabel": "15:00",
@@ -9995,7 +9874,7 @@
       }
     },
     {
-      "id": 71,
+      "id": 70,
       "title": "Al-Gharafa – Lusail",
       "dateLabel": "11 September",
       "timeLabel": "15:00",
@@ -10139,7 +10018,7 @@
       }
     },
     {
-      "id": 72,
+      "id": 71,
       "title": "Lokomotiv Tashkent – Mashal",
       "dateLabel": "11 September",
       "timeLabel": "15:00",
@@ -10292,7 +10171,7 @@
       }
     },
     {
-      "id": 73,
+      "id": 72,
       "title": "Buxoro – Navbahor Namangan",
       "dateLabel": "11 September",
       "timeLabel": "15:00",
@@ -10445,7 +10324,7 @@
       }
     },
     {
-      "id": 74,
+      "id": 73,
       "title": "Farul – UTA Arad",
       "dateLabel": "11 September",
       "timeLabel": "16:00",
@@ -10598,7 +10477,7 @@
       }
     },
     {
-      "id": 75,
+      "id": 74,
       "title": "Riga – Auda",
       "dateLabel": "11 September",
       "timeLabel": "16:00",
@@ -10751,7 +10630,7 @@
       }
     },
     {
-      "id": 76,
+      "id": 75,
       "title": "Krylia Sovetov – Rodina",
       "dateLabel": "11 September",
       "timeLabel": "16:00",
@@ -10781,7 +10660,7 @@
       "headToHead": null
     },
     {
-      "id": 77,
+      "id": 76,
       "title": "Al-Hussein – Al-Baqa`a",
       "dateLabel": "11 September",
       "timeLabel": "16:00",
@@ -10934,7 +10813,7 @@
       }
     },
     {
-      "id": 78,
+      "id": 77,
       "title": "Ararat-Armenia – Syunik",
       "dateLabel": "11 September",
       "timeLabel": "16:00",
@@ -10964,7 +10843,7 @@
       "headToHead": null
     },
     {
-      "id": 79,
+      "id": 78,
       "title": "Al Quadisiya – Al-Ettifaq",
       "dateLabel": "11 September",
       "timeLabel": "16:25",
@@ -11117,7 +10996,7 @@
       }
     },
     {
-      "id": 80,
+      "id": 79,
       "title": "Primorje – Bilje",
       "dateLabel": "11 September",
       "timeLabel": "16:30",
@@ -11270,7 +11149,7 @@
       }
     },
     {
-      "id": 81,
+      "id": 80,
       "title": "Al Faisaly – Al-Ittihad Jeddah",
       "dateLabel": "11 September",
       "timeLabel": "16:45",
@@ -11414,7 +11293,7 @@
       }
     },
     {
-      "id": 82,
+      "id": 81,
       "title": "Argentina (W) U-20 – Mexico (W) U-20",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -11444,7 +11323,7 @@
       "headToHead": null
     },
     {
-      "id": 83,
+      "id": 82,
       "title": "Argentina U20 (W) – Mexico U20 (W)",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -11474,7 +11353,7 @@
       "headToHead": null
     },
     {
-      "id": 84,
+      "id": 83,
       "title": "Poland U20 (W) – Benin U20 (W)",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -11504,7 +11383,7 @@
       "headToHead": null
     },
     {
-      "id": 85,
+      "id": 84,
       "title": "APR – Aigles du Congo",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -11639,7 +11518,7 @@
       }
     },
     {
-      "id": 86,
+      "id": 85,
       "title": "Polonia Warsaw – Polonia Bytom",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -11783,7 +11662,7 @@
       }
     },
     {
-      "id": 87,
+      "id": 86,
       "title": "Hobro – Vejle",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -11927,7 +11806,7 @@
       }
     },
     {
-      "id": 88,
+      "id": 87,
       "title": "Pisek – Dynamo Ceske Budejovice",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -12071,7 +11950,7 @@
       }
     },
     {
-      "id": 89,
+      "id": 88,
       "title": "Rakow – Motor",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -12224,7 +12103,7 @@
       }
     },
     {
-      "id": 90,
+      "id": 89,
       "title": "Al-Najma – East Riffa",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -12377,7 +12256,7 @@
       }
     },
     {
-      "id": 91,
+      "id": 90,
       "title": "A`Ali – Malkiya",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -12530,7 +12409,7 @@
       }
     },
     {
-      "id": 92,
+      "id": 91,
       "title": "Al Wahda – Sharjah",
       "dateLabel": "11 September",
       "timeLabel": "17:15",
@@ -12683,7 +12562,7 @@
       }
     },
     {
-      "id": 93,
+      "id": 92,
       "title": "Ajman – Kalba",
       "dateLabel": "11 September",
       "timeLabel": "17:15",
@@ -12836,7 +12715,7 @@
       }
     },
     {
-      "id": 94,
+      "id": 93,
       "title": "Al-Rayyan – Al-Ahli Doha",
       "dateLabel": "11 September",
       "timeLabel": "17:15",
@@ -12989,7 +12868,7 @@
       }
     },
     {
-      "id": 95,
+      "id": 94,
       "title": "Werder Bremen (W) – Hamburg (W)",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -13019,7 +12898,7 @@
       "headToHead": null
     },
     {
-      "id": 96,
+      "id": 95,
       "title": "Zeleznicar Pancevo – Macva",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -13172,7 +13051,7 @@
       }
     },
     {
-      "id": 97,
+      "id": 96,
       "title": "Rapid Vienna II – First Vienna",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -13325,7 +13204,7 @@
       }
     },
     {
-      "id": 98,
+      "id": 97,
       "title": "Amstetten – Austria Vienna II",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -13478,7 +13357,7 @@
       }
     },
     {
-      "id": 99,
+      "id": 98,
       "title": "Admira – KSV 1919",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -13631,7 +13510,7 @@
       }
     },
     {
-      "id": 100,
+      "id": 99,
       "title": "Simulcast",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -13661,7 +13540,7 @@
       "headToHead": null
     },
     {
-      "id": 101,
+      "id": 100,
       "title": "Skenderbeu – Tirana",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -13814,7 +13693,7 @@
       }
     },
     {
-      "id": 102,
+      "id": 101,
       "title": "Nuremberg – Hanover 96",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -13967,7 +13846,7 @@
       }
     },
     {
-      "id": 103,
+      "id": 102,
       "title": "Darmstadt – Arminia",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -14120,7 +13999,7 @@
       }
     },
     {
-      "id": 104,
+      "id": 103,
       "title": "Viktoria Cologne – Hansa Rostock",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -14273,7 +14152,7 @@
       }
     },
     {
-      "id": 105,
+      "id": 104,
       "title": "Haecken – Mjaellby",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -14426,7 +14305,7 @@
       }
     },
     {
-      "id": 106,
+      "id": 105,
       "title": "Besiktas – BB Erzurumspor",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -14456,7 +14335,7 @@
       "headToHead": null
     },
     {
-      "id": 107,
+      "id": 106,
       "title": "Vendsyssel – Aarhus Fremad",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -14591,7 +14470,7 @@
       }
     },
     {
-      "id": 108,
+      "id": 107,
       "title": "Copenhagen – Horsens",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -14744,7 +14623,7 @@
       }
     },
     {
-      "id": 109,
+      "id": 108,
       "title": "Empoli – Arezzo",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -14774,7 +14653,7 @@
       "headToHead": null
     },
     {
-      "id": 110,
+      "id": 109,
       "title": "Sariyer – Bandirmaspor",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -14918,7 +14797,7 @@
       }
     },
     {
-      "id": 111,
+      "id": 110,
       "title": "AEL Limassol – Nea Salamina",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -15071,7 +14950,7 @@
       }
     },
     {
-      "id": 112,
+      "id": 111,
       "title": "Minsk – Slavia Mazyr",
       "dateLabel": "11 September",
       "timeLabel": "18:10",
@@ -15224,7 +15103,7 @@
       }
     },
     {
-      "id": 113,
+      "id": 112,
       "title": "Al-Faisaly Amman – Doqarah",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -15254,7 +15133,7 @@
       "headToHead": null
     },
     {
-      "id": 114,
+      "id": 113,
       "title": "AB Argir – B68 Toftir",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -15407,7 +15286,7 @@
       }
     },
     {
-      "id": 115,
+      "id": 114,
       "title": "Stade Nyonnais – Xamax",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -15560,7 +15439,7 @@
       }
     },
     {
-      "id": 116,
+      "id": 115,
       "title": "Rapperswil-Jona – Yverdon",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -15713,7 +15592,7 @@
       }
     },
     {
-      "id": 117,
+      "id": 116,
       "title": "Stade Ls Ouchy – Wil",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -15866,7 +15745,7 @@
       }
     },
     {
-      "id": 118,
+      "id": 117,
       "title": "Ried – RB Salzburg",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -16019,7 +15898,7 @@
       }
     },
     {
-      "id": 119,
+      "id": 118,
       "title": "Stellenbosch – Sekhukhune United",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -16172,7 +16051,7 @@
       }
     },
     {
-      "id": 120,
+      "id": 119,
       "title": "Torreense – Leixoes",
       "dateLabel": "11 September",
       "timeLabel": "18:45",
@@ -16325,7 +16204,7 @@
       }
     },
     {
-      "id": 121,
+      "id": 120,
       "title": "Al Ahli Jeddah – Al-Hazem",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -16478,7 +16357,7 @@
       }
     },
     {
-      "id": 122,
+      "id": 121,
       "title": "Cherno More – Lokomotiv Sofia",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -16631,7 +16510,7 @@
       }
     },
     {
-      "id": 123,
+      "id": 122,
       "title": "Miercurea Ciuc – Dinamo Bucharest",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -16784,7 +16663,7 @@
       }
     },
     {
-      "id": 124,
+      "id": 123,
       "title": "Gent II – Dender EH",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -16937,7 +16816,7 @@
       }
     },
     {
-      "id": 125,
+      "id": 124,
       "title": "Beerschot – Lierse",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -17090,7 +16969,7 @@
       }
     },
     {
-      "id": 126,
+      "id": 125,
       "title": "Celik Zenica – Radnik Bijeljina",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -17225,7 +17104,7 @@
       }
     },
     {
-      "id": 127,
+      "id": 126,
       "title": "Tabor Sezana – Dravinja",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -17378,7 +17257,7 @@
       }
     },
     {
-      "id": 128,
+      "id": 127,
       "title": "Rodez – Grenoble",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -17531,7 +17410,7 @@
       }
     },
     {
-      "id": 129,
+      "id": 128,
       "title": "Nancy – Reims",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -17675,7 +17554,7 @@
       }
     },
     {
-      "id": 130,
+      "id": 129,
       "title": "Montpellier – Pau",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -17828,7 +17707,7 @@
       }
     },
     {
-      "id": 131,
+      "id": 130,
       "title": "Dijon – Laval",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -17972,7 +17851,7 @@
       }
     },
     {
-      "id": 132,
+      "id": 131,
       "title": "Clermont – Boulogne",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -18125,7 +18004,7 @@
       }
     },
     {
-      "id": 133,
+      "id": 132,
       "title": "Cruz Azul Hidalgo – Piratas",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -18155,7 +18034,7 @@
       "headToHead": null
     },
     {
-      "id": 134,
+      "id": 133,
       "title": "AZ – Willem II",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -18308,7 +18187,7 @@
       }
     },
     {
-      "id": 135,
+      "id": 134,
       "title": "Spartak Subotica – Napredak",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -18338,7 +18217,7 @@
       "headToHead": null
     },
     {
-      "id": 136,
+      "id": 135,
       "title": "Heracles Almelo – Jong AZ",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -18482,7 +18361,7 @@
       }
     },
     {
-      "id": 137,
+      "id": 136,
       "title": "Helmond Sport – Jong PSV",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -18635,7 +18514,7 @@
       }
     },
     {
-      "id": 138,
+      "id": 137,
       "title": "Emmen – De Graafschap",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -18788,7 +18667,7 @@
       }
     },
     {
-      "id": 139,
+      "id": 138,
       "title": "Eindhoven – Dordrecht",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -18941,7 +18820,7 @@
       }
     },
     {
-      "id": 140,
+      "id": 139,
       "title": "VVV-Venlo – TOP Oss",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -19094,7 +18973,7 @@
       }
     },
     {
-      "id": 141,
+      "id": 140,
       "title": "NAC Breda – Jong Utrecht",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -19247,7 +19126,7 @@
       }
     },
     {
-      "id": 142,
+      "id": 141,
       "title": "Simulcast",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -19277,7 +19156,7 @@
       "headToHead": null
     },
     {
-      "id": 143,
+      "id": 142,
       "title": "MVV Maastricht – Almere City",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -19430,7 +19309,7 @@
       }
     },
     {
-      "id": 144,
+      "id": 143,
       "title": "Jong Ajax – RKC Waalwijk",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -19574,7 +19453,7 @@
       }
     },
     {
-      "id": 145,
+      "id": 144,
       "title": "Etoile Carouge – Winterthur",
       "dateLabel": "11 September",
       "timeLabel": "19:15",
@@ -19604,7 +19483,7 @@
       "headToHead": null
     },
     {
-      "id": 146,
+      "id": 145,
       "title": "Brinje Grosuplje – Nafta",
       "dateLabel": "11 September",
       "timeLabel": "19:15",
@@ -19757,7 +19636,7 @@
       }
     },
     {
-      "id": 147,
+      "id": 146,
       "title": "Union Berlin – Schalke 04",
       "dateLabel": "11 September",
       "timeLabel": "19:30",
@@ -19901,7 +19780,7 @@
       }
     },
     {
-      "id": 148,
+      "id": 147,
       "title": "Burgos – Ceuta",
       "dateLabel": "11 September",
       "timeLabel": "19:30",
@@ -20045,7 +19924,7 @@
       }
     },
     {
-      "id": 149,
+      "id": 148,
       "title": "Wacker – Voitsberg",
       "dateLabel": "11 September",
       "timeLabel": "19:30",
@@ -20075,7 +19954,7 @@
       "headToHead": null
     },
     {
-      "id": 150,
+      "id": 149,
       "title": "Greenock Morton – Livingston",
       "dateLabel": "11 September",
       "timeLabel": "19:30",
@@ -20228,7 +20107,7 @@
       }
     },
     {
-      "id": 151,
+      "id": 150,
       "title": "Wisla Krakow – Jagiellonia",
       "dateLabel": "11 September",
       "timeLabel": "19:30",
@@ -20381,7 +20260,7 @@
       }
     },
     {
-      "id": 152,
+      "id": 151,
       "title": "Deportivo de La Coruna (W) – Real Madrid (W)",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -20411,7 +20290,7 @@
       "headToHead": null
     },
     {
-      "id": 153,
+      "id": 152,
       "title": "Mechelen – Anderlecht",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -20564,7 +20443,7 @@
       }
     },
     {
-      "id": 154,
+      "id": 153,
       "title": "Wexford – Finn Harps",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -20717,7 +20596,7 @@
       }
     },
     {
-      "id": 155,
+      "id": 154,
       "title": "UCD – Athlone Town",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -20870,7 +20749,7 @@
       }
     },
     {
-      "id": 156,
+      "id": 155,
       "title": "Kerry – Bray Wanderers",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -21023,7 +20902,7 @@
       }
     },
     {
-      "id": 157,
+      "id": 156,
       "title": "Cork City – Cobh Ramblers",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -21176,7 +21055,7 @@
       }
     },
     {
-      "id": 158,
+      "id": 157,
       "title": "Rennes – Marseille",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -21329,7 +21208,7 @@
       }
     },
     {
-      "id": 159,
+      "id": 158,
       "title": "Shelbourne – Derry City",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -21482,7 +21361,7 @@
       }
     },
     {
-      "id": 160,
+      "id": 159,
       "title": "Galway United – Bohemian",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -21635,7 +21514,7 @@
       }
     },
     {
-      "id": 161,
+      "id": 160,
       "title": "Drogheda United – Sligo Rovers",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -21788,7 +21667,7 @@
       }
     },
     {
-      "id": 162,
+      "id": 161,
       "title": "Waterford – Dundalk",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -21941,7 +21820,7 @@
       }
     },
     {
-      "id": 163,
+      "id": 162,
       "title": "Puszcza – LKS Lodz",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -22094,7 +21973,7 @@
       }
     },
     {
-      "id": 164,
+      "id": 163,
       "title": "Venezia – Fiorentina",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -22247,7 +22126,7 @@
       }
     },
     {
-      "id": 165,
+      "id": 164,
       "title": "Stenhousemuir – Hearts",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -22277,7 +22156,7 @@
       "headToHead": null
     },
     {
-      "id": 166,
+      "id": 165,
       "title": "Salernitana – Potenza",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -22430,7 +22309,7 @@
       }
     },
     {
-      "id": 167,
+      "id": 166,
       "title": "Casarano – Barletta",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -22583,7 +22462,7 @@
       }
     },
     {
-      "id": 168,
+      "id": 167,
       "title": "Audace Cerignola – Giugliano",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -22736,7 +22615,7 @@
       }
     },
     {
-      "id": 169,
+      "id": 168,
       "title": "Altamura – Bari",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -22766,7 +22645,7 @@
       "headToHead": null
     },
     {
-      "id": 170,
+      "id": 169,
       "title": "Sevilla – Valencia",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -22919,7 +22798,7 @@
       }
     },
     {
-      "id": 171,
+      "id": 170,
       "title": "St Patrick`s Athletic – Shamrock Rovers",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -23072,7 +22951,7 @@
       }
     },
     {
-      "id": 172,
+      "id": 171,
       "title": "Magpies – Hound Dogs",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -23225,7 +23104,7 @@
       }
     },
     {
-      "id": 173,
+      "id": 172,
       "title": "Ameliano – San Lorenzo",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -23369,7 +23248,7 @@
       }
     },
     {
-      "id": 174,
+      "id": 173,
       "title": "West Ham United – Wrexham",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -23399,7 +23278,7 @@
       "headToHead": null
     },
     {
-      "id": 175,
+      "id": 174,
       "title": "Pisa – Virtus Entella",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -23534,7 +23413,7 @@
       }
     },
     {
-      "id": 176,
+      "id": 175,
       "title": "Benevento – Hellas Verona",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -23564,7 +23443,7 @@
       "headToHead": null
     },
     {
-      "id": 177,
+      "id": 176,
       "title": "Cuenca Juniors – Vinotinto",
       "dateLabel": "11 September",
       "timeLabel": "20:30",
@@ -23717,7 +23596,7 @@
       }
     },
     {
-      "id": 178,
+      "id": 177,
       "title": "Academica – Benfica B",
       "dateLabel": "11 September",
       "timeLabel": "20:45",
@@ -23861,7 +23740,7 @@
       }
     },
     {
-      "id": 179,
+      "id": 178,
       "title": "Cajamarca – Juan Pablo II",
       "dateLabel": "11 September",
       "timeLabel": "21:00",
@@ -24014,7 +23893,7 @@
       }
     },
     {
-      "id": 180,
+      "id": 179,
       "title": "Newell`s Old Boys – Velez Sarsfield",
       "dateLabel": "11 September",
       "timeLabel": "21:00",
@@ -24167,7 +24046,7 @@
       }
     },
     {
-      "id": 181,
+      "id": 180,
       "title": "LDU Portoviejo – CD Santo Domingo",
       "dateLabel": "11 September",
       "timeLabel": "22:30",
@@ -24311,7 +24190,7 @@
       }
     },
     {
-      "id": 182,
+      "id": 181,
       "title": "2 de Mayo – Libertad",
       "dateLabel": "11 September",
       "timeLabel": "22:30",
@@ -24464,7 +24343,7 @@
       }
     },
     {
-      "id": 183,
+      "id": 182,
       "title": "Ituzaingo – Comunicaciones",
       "dateLabel": "11 September",
       "timeLabel": "23:00",
@@ -24617,7 +24496,7 @@
       }
     },
     {
-      "id": 184,
+      "id": 183,
       "title": "Papua New Guinea U19 – Fiji U19",
       "dateLabel": "11 September",
       "timeLabel": "23:00",
@@ -24647,7 +24526,7 @@
       "headToHead": null
     },
     {
-      "id": 185,
+      "id": 184,
       "title": "SA Bulo Bulo – Aurora",
       "dateLabel": "11 September",
       "timeLabel": "23:00",
@@ -24800,7 +24679,7 @@
       }
     },
     {
-      "id": 186,
+      "id": 185,
       "title": "Defensa y Justicia – Gimnasia Mendoza",
       "dateLabel": "11 September",
       "timeLabel": "23:15",
@@ -24935,7 +24814,7 @@
       }
     },
     {
-      "id": 187,
+      "id": 186,
       "title": "Racing Louisville (W) – Gotham (W)",
       "dateLabel": "11 September",
       "timeLabel": "23:30",
@@ -24965,5 +24844,5 @@
       "headToHead": null
     }
   ],
-  "enrichedAt": "2026-09-10T19:59:41.699Z"
+  "enrichedAt": "2026-09-10T20:18:36.138Z"
 }

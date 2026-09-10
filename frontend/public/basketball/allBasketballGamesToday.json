@@ -1,33 +1,22 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-10T20:00:17.575Z",
-  "count": 32,
+  "scrapedAt": "2026-09-10T20:19:12.865Z",
+  "count": 33,
   "matches": [
     {
       "id": 1,
       "title": "Bremerhaven – Braunschweig",
       "dateLabel": "10 September",
       "timeLabel": "19:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Germany. BBL-Cup",
       "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
       "iconAlt": "Germany. BBL-Cup",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 19:00\n(Germany. BBL-Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5V2LENmSwbpANipZUBzL4b",
-          "language": "German",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:00:18.309Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Bremerhaven",
@@ -165,85 +154,95 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266938&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266937&w=700&h=480",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:00:18.319Z",
+          "healthCheckedAt": "2026-09-10T20:19:13.487Z",
           "healthHttpStatus": 200
         },
         {
           "id": 2,
           "label": "Stream 4",
-          "url": "https://restream.website/basketball1/trutv.php",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266938&w=700&h=480",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:00:18.320Z",
+          "healthCheckedAt": "2026-09-10T20:19:13.498Z",
           "healthHttpStatus": 200
         },
         {
           "id": 3,
-          "label": "Stream 5",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=249287&w=700&h=480",
-          "language": "Russian",
+          "label": "Stream 6",
+          "url": "https://restream.website/basketball1/trutv.php",
+          "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:00:18.321Z",
+          "healthCheckedAt": "2026-09-10T20:19:13.499Z",
           "healthHttpStatus": 200
         },
         {
           "id": 4,
           "label": "Stream 7",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266206&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=249287&w=700&h=480",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:00:18.321Z",
+          "healthCheckedAt": "2026-09-10T20:19:13.499Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
           "label": "Stream 9",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267281&w=700&h=480",
-          "language": "Serbian",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266206&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:00:18.322Z",
+          "healthCheckedAt": "2026-09-10T20:19:13.500Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 11",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=ID&w=700&h=480",
-          "language": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267281&w=700&h=480",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:00:18.322Z",
+          "healthCheckedAt": "2026-09-10T20:19:13.501Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
           "label": "Stream 13",
-          "url": "https://abisnews.com/arena5premiumserbia.php",
-          "language": "Serbian",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=ID&w=700&h=480",
+          "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:00:18.323Z",
+          "healthCheckedAt": "2026-09-10T20:19:13.501Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
-          "label": "Stream 14",
+          "label": "Stream 15",
+          "url": "https://abisnews.com/arena5premiumserbia.php",
+          "language": "Serbian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T20:19:13.502Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 9,
+          "label": "Stream 16",
           "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5V2LA3ZLBjpfXFfbTtwuoT",
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:00:18.528Z",
+          "healthCheckedAt": "2026-09-10T20:19:13.686Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 8,
+      "streamCount": 9,
       "teams": {
         "home": {
           "name": "Australia (W)",
@@ -262,6 +261,159 @@
     },
     {
       "id": 3,
+      "title": "Santo Andre U-20 – Sorocaba U-20",
+      "dateLabel": "10 September",
+      "timeLabel": "23:00",
+      "isLive": false,
+      "leagueLabel": "Brazil. Campeonato Paulista U20",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/basket.gif",
+      "iconAlt": "Brazil. Campeonato Paulista U20",
+      "sectionLabel": "10 September",
+      "isTopMatch": false,
+      "rawDescription": "10 September at 23:00\n(Brazil. Campeonato Paulista U20)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Santo Andre U-20",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/37996.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Sorocaba U-20",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/30789.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700066931/700059559/3_b5c3f/",
+        "matches": [
+          {
+            "date": "10/09",
+            "competition": "Brazil. Campeonato Paulista U20",
+            "homeTeam": "Santo Andre U-20",
+            "awayTeam": "Sorocaba U-20",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "27/07",
+            "competition": "Brazil. Campeonato Paulista U20",
+            "homeTeam": "Sorocaba U-20",
+            "awayTeam": "Santo Andre U-20",
+            "score": "87:45",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "30/06",
+            "competition": "Brazil. Campeonato Paulista U20",
+            "homeTeam": "Sorocaba U-20",
+            "awayTeam": "Santo Andre U-20",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "Santo Andre U-20",
+        "awayTeam": "Sorocaba U-20",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "10/09",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Sorocaba U-20",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "07/09",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Sao Jose U-20",
+                "score": "61:100",
+                "result": "L"
+              },
+              {
+                "date": "04/09",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Araraquara U-20",
+                "score": "52:115",
+                "result": "L"
+              },
+              {
+                "date": "27/08",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Santos U-20",
+                "score": "73:65",
+                "result": "W"
+              },
+              {
+                "date": "19/08",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Mogi das Cruzes U-20",
+                "score": "48:111",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "10/09",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Santo Andre U-20",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "07/09",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Sao Jose U-20",
+                "score": "61:100",
+                "result": "L"
+              },
+              {
+                "date": "04/09",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Araraquara U-20",
+                "score": "52:115",
+                "result": "L"
+              },
+              {
+                "date": "27/08",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Santo Andre U-20",
+                "score": "65:73",
+                "result": "L"
+              },
+              {
+                "date": "19/08",
+                "competition": "Campeonato Paulista U20",
+                "opponent": "Santo Andre U-20",
+                "score": "111:48",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
       "title": "Deportivo Amambay – Capiata Bulls",
       "dateLabel": "10 September",
       "timeLabel": "23:30",
@@ -291,7 +443,7 @@
       "headToHead": null
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Felix Perez Cardozo – Olimpia Kings",
       "dateLabel": "11 September",
       "timeLabel": "0:00",
@@ -321,7 +473,7 @@
       "headToHead": null
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Deportivo Campoalto – San Alfonso",
       "dateLabel": "11 September",
       "timeLabel": "0:30",
@@ -474,7 +626,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "China – Kazakhstan",
       "dateLabel": "11 September",
       "timeLabel": "2:00",
@@ -627,7 +779,7 @@
       }
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Abejas de Leon – Gambusinos",
       "dateLabel": "11 September",
       "timeLabel": "2:00",
@@ -771,7 +923,7 @@
       }
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "El Calor – Panteras Aguascalientes",
       "dateLabel": "11 September",
       "timeLabel": "2:15",
@@ -924,7 +1076,7 @@
       }
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Correbasket UAT – Dorados de Chihuahua",
       "dateLabel": "11 September",
       "timeLabel": "2:15",
@@ -1077,7 +1229,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 11,
       "title": "Santos del Potosi – Fuerza Regia",
       "dateLabel": "11 September",
       "timeLabel": "3:00",
@@ -1230,7 +1382,7 @@
       }
     },
     {
-      "id": 11,
+      "id": 12,
       "title": "Lobos Plateados – Freseros de Irapuato",
       "dateLabel": "11 September",
       "timeLabel": "3:00",
@@ -1374,7 +1526,7 @@
       }
     },
     {
-      "id": 12,
+      "id": 13,
       "title": "Mineros de Zacatecas – Diablos Rojos",
       "dateLabel": "11 September",
       "timeLabel": "3:05",
@@ -1527,7 +1679,7 @@
       }
     },
     {
-      "id": 13,
+      "id": 14,
       "title": "Philippines – Bahrain",
       "dateLabel": "11 September",
       "timeLabel": "5:00",
@@ -1557,7 +1709,7 @@
       "headToHead": null
     },
     {
-      "id": 14,
+      "id": 15,
       "title": "Indonesia – South Korea",
       "dateLabel": "11 September",
       "timeLabel": "8:00",
@@ -1710,7 +1862,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 16,
       "title": "Saudi Arabia – Japan",
       "dateLabel": "11 September",
       "timeLabel": "11:00",
@@ -1740,7 +1892,7 @@
       "headToHead": null
     },
     {
-      "id": 16,
+      "id": 17,
       "title": "Europe Cup",
       "dateLabel": "11 September",
       "timeLabel": "12:30",
@@ -1770,7 +1922,7 @@
       "headToHead": null
     },
     {
-      "id": 17,
+      "id": 18,
       "title": "Spain (W) – Slovenia (W)",
       "dateLabel": "11 September",
       "timeLabel": "12:30",
@@ -1800,7 +1952,7 @@
       "headToHead": null
     },
     {
-      "id": 18,
+      "id": 19,
       "title": "France – Estonia",
       "dateLabel": "11 September",
       "timeLabel": "12:55",
@@ -1953,7 +2105,7 @@
       }
     },
     {
-      "id": 19,
+      "id": 20,
       "title": "Germany (W) – Belgium (W)",
       "dateLabel": "11 September",
       "timeLabel": "13:20",
@@ -1983,7 +2135,7 @@
       "headToHead": null
     },
     {
-      "id": 20,
+      "id": 21,
       "title": "Netherlands – Italy",
       "dateLabel": "11 September",
       "timeLabel": "14:10",
@@ -2136,7 +2288,7 @@
       }
     },
     {
-      "id": 21,
+      "id": 22,
       "title": "Hungary (W) – Slovenia (W)",
       "dateLabel": "11 September",
       "timeLabel": "14:35",
@@ -2166,7 +2318,7 @@
       "headToHead": null
     },
     {
-      "id": 22,
+      "id": 23,
       "title": "France – Germany",
       "dateLabel": "11 September",
       "timeLabel": "15:00",
@@ -2319,7 +2471,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 24,
       "title": "Aris – Maccabi T-A",
       "dateLabel": "11 September",
       "timeLabel": "16:00",
@@ -2349,7 +2501,7 @@
       "headToHead": null
     },
     {
-      "id": 24,
+      "id": 25,
       "title": "Europe Cup",
       "dateLabel": "11 September",
       "timeLabel": "17:55",
@@ -2379,7 +2531,7 @@
       "headToHead": null
     },
     {
-      "id": 25,
+      "id": 26,
       "title": "Germany (W) – Poland (W)",
       "dateLabel": "11 September",
       "timeLabel": "17:55",
@@ -2409,7 +2561,7 @@
       "headToHead": null
     },
     {
-      "id": 26,
+      "id": 27,
       "title": "Spain – Italy",
       "dateLabel": "11 September",
       "timeLabel": "18:20",
@@ -2562,7 +2714,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 28,
       "title": "Spain (W) – Hungary (W)",
       "dateLabel": "11 September",
       "timeLabel": "18:45",
@@ -2592,7 +2744,7 @@
       "headToHead": null
     },
     {
-      "id": 28,
+      "id": 29,
       "title": "Hamburg – Rostock",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -2745,7 +2897,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 30,
       "title": "Olympiacos – Crvena Zvezda",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -2898,7 +3050,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 31,
       "title": "Germany – Estonia",
       "dateLabel": "11 September",
       "timeLabel": "19:20",
@@ -3051,7 +3203,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 32,
       "title": "Poland (W) – Belgium (W)",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -3081,7 +3233,7 @@
       "headToHead": null
     },
     {
-      "id": 32,
+      "id": 33,
       "title": "Netherlands – Spain",
       "dateLabel": "11 September",
       "timeLabel": "20:10",
@@ -3111,5 +3263,5 @@
       "headToHead": null
     }
   ],
-  "enrichedAt": "2026-09-10T20:00:17.575Z"
+  "enrichedAt": "2026-09-10T20:19:12.866Z"
 }
