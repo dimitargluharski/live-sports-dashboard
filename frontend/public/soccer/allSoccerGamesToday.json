@@ -1,6 +1,6 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-10T17:49:02.885Z",
+  "scrapedAt": "2026-09-10T18:08:01.246Z",
   "count": 216,
   "matches": [
     {
@@ -8,26 +8,15 @@
       "title": "Simulcast",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Israel. Liga Leumit",
       "iconUrl": "https://cdn.livetv903.me/img/icons/il.gif",
       "iconAlt": "Israel. Liga Leumit",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Israel. Liga Leumit)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5Uuqmmsi3hVaCFJCvTfxoa",
-          "language": "Hebrew",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.449Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": null,
@@ -49,36 +38,15 @@
       "title": "Ittihad Al-Ramtha – Al-Sareeh",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Jordan. Division 1",
       "iconUrl": "https://cdn.livetv903.me/img/icons/jo.gif",
       "iconAlt": "Jordan. Division 1",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Jordan. Division 1)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266230&w=700&h=480",
-          "language": "Arabic",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.459Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://www.youtube.com/embed/sCBiNoA9HZ4?autoplay=1",
-          "language": "Arabic",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.460Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 2,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Ittihad Al-Ramtha",
@@ -96,6 +64,15 @@
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700028276/700020029/1_19d4a/",
         "matches": [
+          {
+            "date": "10/09",
+            "competition": "Jordan. Division 1",
+            "homeTeam": "Ittihad Al-Ramtha",
+            "awayTeam": "Al-Sareeh",
+            "score": "1:0",
+            "result": "W",
+            "winner": "home"
+          },
           {
             "date": "23/09",
             "competition": "Jordan. Division 1",
@@ -214,26 +191,15 @@
       "title": "Super Nova – Tukums",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Latvia. Virsliga",
       "iconUrl": "https://cdn.livetv903.me/img/icons/lv.gif",
       "iconAlt": "Latvia. Virsliga",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Latvia. Virsliga)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5UuqhcKyrkjSXc2tmFk1PE",
-          "language": "Latvian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.461Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Super Nova",
@@ -252,6 +218,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700020137/700017104/1_d97fa/",
         "matches": [
           {
+            "date": "10/09",
+            "competition": "Latvia. Virsliga",
+            "homeTeam": "Super Nova",
+            "awayTeam": "Tukums",
+            "score": "1:0",
+            "result": "W",
+            "winner": "home"
+          },
+          {
             "date": "11/07",
             "competition": "Latvia. Cup",
             "homeTeam": "Tukums",
@@ -268,15 +243,6 @@
             "score": "1:2",
             "result": "W",
             "winner": "away"
-          },
-          {
-            "date": "11/05",
-            "competition": "Latvia. Virsliga",
-            "homeTeam": "Super Nova",
-            "awayTeam": "Tukums",
-            "score": "1:1",
-            "result": "D",
-            "winner": "draw"
           }
         ],
         "homeTeam": "Super Nova",
@@ -378,26 +344,15 @@
       "title": "Al Riffa – Al-Khaldiya",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Bahrain. Premier League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/bh.gif",
       "iconAlt": "Bahrain. Premier League",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Bahrain. Premier League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/59dssnC8pnI?autoplay=1",
-          "language": "Arabic",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.461Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Al Riffa",
@@ -416,6 +371,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700014346/700028934/1_4a13a/",
         "matches": [
           {
+            "date": "10/09",
+            "competition": "Bahrain. Premier League",
+            "homeTeam": "Al Riffa",
+            "awayTeam": "Al-Khaldiya",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
             "date": "10/04",
             "competition": "Bahrain. Cup",
             "homeTeam": "Al-Khaldiya",
@@ -432,15 +396,6 @@
             "score": "2:1",
             "result": "L",
             "winner": "home"
-          },
-          {
-            "date": "01/11",
-            "competition": "Bahrain. Premier League",
-            "homeTeam": "Al Riffa",
-            "awayTeam": "Al-Khaldiya",
-            "score": "0:2",
-            "result": "L",
-            "winner": "away"
           }
         ],
         "homeTeam": "Al Riffa",
@@ -542,36 +497,15 @@
       "title": "Al-Muharraq – Manama",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Bahrain. Premier League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/bh.gif",
       "iconAlt": "Bahrain. Premier League",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Bahrain. Premier League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5UuqmcDKUnGD1RQZ5NYq39",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.462Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 3",
-          "url": "https://www.youtube.com/embed/r0mGXD1yF08?autoplay=1",
-          "language": "Arabic",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.463Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 2,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Al-Muharraq",
@@ -590,6 +524,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700014360/700014358/1_41368/",
         "matches": [
           {
+            "date": "10/09",
+            "competition": "Bahrain. Premier League",
+            "homeTeam": "Al-Muharraq",
+            "awayTeam": "Manama",
+            "score": "3:1",
+            "result": "W",
+            "winner": "home"
+          },
+          {
             "date": "07/05",
             "competition": "Bahrain. Premier League",
             "homeTeam": "Manama",
@@ -606,15 +549,6 @@
             "score": "3:0",
             "result": "W",
             "winner": "home"
-          },
-          {
-            "date": "04/05",
-            "competition": "Bahrain. Premier League",
-            "homeTeam": "Manama",
-            "awayTeam": "Al-Muharraq",
-            "score": "0:3",
-            "result": "W",
-            "winner": "away"
           }
         ],
         "homeTeam": "Al-Muharraq",
@@ -716,56 +650,15 @@
       "title": "China U20 (W) – Nigeria U20 (W)",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. World Cup U-20",
       "iconUrl": "https://cdn.livetv903.me/img/icons/friend.gif",
       "iconAlt": "Women. World Cup U-20",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Women. World Cup U-20)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266941&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.463Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267151&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.678Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 3,
-          "label": "Stream 6",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267153&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.729Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 4,
-          "label": "Stream 8",
-          "url": "https://dlive.sx/stream/stream-172.php",
-          "language": "Polish",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.762Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 4,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "China U20 (W)",
@@ -787,56 +680,15 @@
       "title": "Colombia U20 (W) – Portugal U20 (W)",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. World Cup U-20",
       "iconUrl": "https://cdn.livetv903.me/img/icons/friend.gif",
       "iconAlt": "Women. World Cup U-20",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Women. World Cup U-20)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267246&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.805Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267251&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.810Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 3,
-          "label": "Stream 6",
-          "url": "https://dlive.sx/stream/stream-2.php",
-          "language": "Spanish",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.870Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 4,
-          "label": "Stream 8",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=cba8d369eac629b577750edb90370cd1c5fb03b7&lang=en&eid=409894236&lid=2846535&ci=1715&si=1",
-          "language": "English",
-          "bitrate": "8000kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.890Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 4,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Colombia U20 (W)",
@@ -1011,26 +863,15 @@
       "title": "Maccabi Jaffa – Hapoel Raanana",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Israel. Liga Leumit",
       "iconUrl": "https://cdn.livetv903.me/img/icons/il.gif",
       "iconAlt": "Israel. Liga Leumit",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Israel. Liga Leumit)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5UuqhXVnaJ7kwC64qiBcDu",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.891Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Maccabi Jaffa",
@@ -1049,6 +890,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700029320/700009217/1_89118/",
         "matches": [
           {
+            "date": "10/09",
+            "competition": "Israel. Liga Leumit",
+            "homeTeam": "Maccabi Jaffa",
+            "awayTeam": "Hapoel Raanana",
+            "score": "1:3",
+            "result": "L",
+            "winner": "away"
+          },
+          {
             "date": "30/04",
             "competition": "Israel. Liga Leumit",
             "homeTeam": "Hapoel Raanana",
@@ -1065,15 +915,6 @@
             "score": "1:1",
             "result": "D",
             "winner": "draw"
-          },
-          {
-            "date": "24/10",
-            "competition": "Israel. Liga Leumit",
-            "homeTeam": "Hapoel Raanana",
-            "awayTeam": "Maccabi Jaffa",
-            "score": "1:2",
-            "result": "W",
-            "winner": "away"
           }
         ],
         "homeTeam": "Maccabi Jaffa",
@@ -1175,26 +1016,15 @@
       "title": "Maccabi Bnei Raina – Hapoel Afula",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Israel. Liga Leumit",
       "iconUrl": "https://cdn.livetv903.me/img/icons/il.gif",
       "iconAlt": "Israel. Liga Leumit",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Israel. Liga Leumit)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5UuqhSfbHqW5Ln9EvAdD5G",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:03.938Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Maccabi Bnei Raina",
@@ -1213,6 +1043,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700018245/700009233/1_ea762/",
         "matches": [
           {
+            "date": "10/09",
+            "competition": "Israel. Liga Leumit",
+            "homeTeam": "Maccabi Bnei Raina",
+            "awayTeam": "Hapoel Afula",
+            "score": "4:2",
+            "result": "W",
+            "winner": "home"
+          },
+          {
             "date": "28/07",
             "competition": "Friendly Match",
             "homeTeam": "Hapoel Afula",
@@ -1229,15 +1068,6 @@
             "score": "2:1",
             "result": "W",
             "winner": "home"
-          },
-          {
-            "date": "15/10",
-            "competition": "Israel. Liga Leumit",
-            "homeTeam": "Hapoel Afula",
-            "awayTeam": "Maccabi Bnei Raina",
-            "score": "0:0",
-            "result": "D",
-            "winner": "draw"
           }
         ],
         "homeTeam": "Maccabi Bnei Raina",
@@ -1339,26 +1169,15 @@
       "title": "Ironi Modiin – Bnei Yehuda",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Israel. Liga Leumit",
       "iconUrl": "https://cdn.livetv903.me/img/icons/il.gif",
       "iconAlt": "Israel. Liga Leumit",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Israel. Liga Leumit)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5UuqhMqQ1NtPkNCQzd4ovd",
-          "language": "Hebrew",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.057Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Ironi Modiin",
@@ -1377,6 +1196,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700033528/700009210/1_ea601/",
         "matches": [
           {
+            "date": "10/09",
+            "competition": "Israel. Liga Leumit",
+            "homeTeam": "Ironi Modiin",
+            "awayTeam": "Bnei Yehuda",
+            "score": "2:4",
+            "result": "L",
+            "winner": "away"
+          },
+          {
             "date": "30/07",
             "competition": "Israel. State Cup",
             "homeTeam": "Bnei Yehuda",
@@ -1392,15 +1220,6 @@
             "awayTeam": "Ironi Modiin",
             "score": "1:0",
             "result": "L",
-            "winner": "home"
-          },
-          {
-            "date": "24/10",
-            "competition": "Israel. Liga Leumit",
-            "homeTeam": "Ironi Modiin",
-            "awayTeam": "Bnei Yehuda",
-            "score": "3:1",
-            "result": "W",
             "winner": "home"
           }
         ],
@@ -1503,26 +1322,15 @@
       "title": "Hapoel Rishon LeZion – Kiryat Yam",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Israel. Liga Leumit",
       "iconUrl": "https://cdn.livetv903.me/img/icons/il.gif",
       "iconAlt": "Israel. Liga Leumit",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Israel. Liga Leumit)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5UuqmrhuLA7FnfF2r1EMx8",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.073Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Hapoel Rishon LeZion",
@@ -1541,6 +1349,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700009220/700063297/1_268e8/",
         "matches": [
           {
+            "date": "10/09",
+            "competition": "Israel. Liga Leumit",
+            "homeTeam": "Hapoel Rishon LeZion",
+            "awayTeam": "Kiryat Yam",
+            "score": "4:2",
+            "result": "W",
+            "winner": "home"
+          },
+          {
             "date": "05/05",
             "competition": "Israel. Liga Leumit",
             "homeTeam": "Hapoel Rishon LeZion",
@@ -1557,15 +1374,6 @@
             "score": "2:0",
             "result": "L",
             "winner": "home"
-          },
-          {
-            "date": "21/09",
-            "competition": "Israel. Liga Leumit",
-            "homeTeam": "Hapoel Rishon LeZion",
-            "awayTeam": "Kiryat Yam",
-            "score": "0:2",
-            "result": "L",
-            "winner": "away"
           }
         ],
         "homeTeam": "Hapoel Rishon LeZion",
@@ -1667,7 +1475,7 @@
       "title": "Hapoel Kfar Shalem – Maccabi Ahi Nazareth",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Israel. Liga Leumit",
       "iconUrl": "https://cdn.livetv903.me/img/icons/il.gif",
       "iconAlt": "Israel. Liga Leumit",
@@ -1690,33 +1498,127 @@
           "substitutes": []
         }
       },
-      "headToHead": null
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700023833/700009230/1_840ab/",
+        "matches": [
+          {
+            "date": "10/09",
+            "competition": "Israel. Liga Leumit",
+            "homeTeam": "Hapoel Kfar Shalem",
+            "awayTeam": "Maccabi Ahi Nazareth",
+            "score": "3:3",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "Hapoel Kfar Shalem",
+        "awayTeam": "Maccabi Ahi Nazareth",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "06/09",
+                "competition": "Liga Leumit",
+                "opponent": "Ashdod",
+                "score": "0:4",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "Liga Leumit",
+                "opponent": "Kiryat Yam",
+                "score": "3:2",
+                "result": "W"
+              },
+              {
+                "date": "23/08",
+                "competition": "Liga Leumit",
+                "opponent": "Bnei Yehuda",
+                "score": "1:3",
+                "result": "L"
+              },
+              {
+                "date": "18/08",
+                "competition": "Liga Leumit",
+                "opponent": "Kafr Qasim",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "06/08",
+                "competition": "Toto Cup",
+                "opponent": "Bnei Yehuda",
+                "score": "1:1",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "06/09",
+                "competition": "Liga Leumit",
+                "opponent": "Ashdod",
+                "score": "0:4",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "Liga Leumit",
+                "opponent": "Hapoel Kfar Shalem",
+                "score": "2:3",
+                "result": "L"
+              },
+              {
+                "date": "23/08",
+                "competition": "Liga Leumit",
+                "opponent": "Bnei Yehuda",
+                "score": "1:3",
+                "result": "L"
+              },
+              {
+                "date": "18/08",
+                "competition": "Liga Leumit",
+                "opponent": "Hapoel Kfar Shalem",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "06/08",
+                "competition": "Toto Cup",
+                "opponent": "Bnei Yehuda",
+                "score": "1:1",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 1,
+              "L": 4
+            }
+          }
+        }
+      }
     },
     {
       "id": 14,
       "title": "Hapoel Kfar Saba – Maccabi Kiryat Gat",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Israel. Liga Leumit",
       "iconUrl": "https://cdn.livetv903.me/img/icons/il.gif",
       "iconAlt": "Israel. Liga Leumit",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Israel. Liga Leumit)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://dlive.sx/stream/stream-145.php",
-          "language": "Hebrew",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.081Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Hapoel Kfar Saba",
@@ -1731,33 +1633,127 @@
           "substitutes": []
         }
       },
-      "headToHead": null
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700009213/700020846/1_e519d/",
+        "matches": [
+          {
+            "date": "10/09",
+            "competition": "Israel. Liga Leumit",
+            "homeTeam": "Hapoel Kfar Saba",
+            "awayTeam": "Maccabi Kiryat Gat",
+            "score": "2:0",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Hapoel Kfar Saba",
+        "awayTeam": "Maccabi Kiryat Gat",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "06/09",
+                "competition": "Liga Leumit",
+                "opponent": "Hapoel Raanana",
+                "score": "1:6",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "Liga Leumit",
+                "opponent": "Maccabi Herzliya",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "23/08",
+                "competition": "Liga Leumit",
+                "opponent": "Ironi Modiin",
+                "score": "1:4",
+                "result": "L"
+              },
+              {
+                "date": "18/08",
+                "competition": "Liga Leumit",
+                "opponent": "Hapoel Rishon LeZion",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "06/08",
+                "competition": "Toto Cup",
+                "opponent": "Hapoel Raanana",
+                "score": "5:1",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "06/09",
+                "competition": "Liga Leumit",
+                "opponent": "Hapoel Raanana",
+                "score": "1:6",
+                "result": "L"
+              },
+              {
+                "date": "30/08",
+                "competition": "Liga Leumit",
+                "opponent": "Maccabi Herzliya",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "23/08",
+                "competition": "Liga Leumit",
+                "opponent": "Hapoel Kfar Saba",
+                "score": "4:1",
+                "result": "W"
+              },
+              {
+                "date": "18/08",
+                "competition": "Liga Leumit",
+                "opponent": "Hapoel Rishon LeZion",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "06/08",
+                "competition": "Toto Cup",
+                "opponent": "Hapoel Kfar Saba",
+                "score": "1:5",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
     },
     {
       "id": 15,
       "title": "Levadia U-21 – Tartu Welco",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Estonia. Esiliiga",
       "iconUrl": "https://cdn.livetv903.me/img/icons/ee.gif",
       "iconAlt": "Estonia. Esiliiga",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Estonia. Esiliiga)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/OLCqMKqAJGk?autoplay=1",
-          "language": "Estonian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.185Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Levadia U-21",
@@ -1776,6 +1772,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700016706/700016767/1_16d7f/",
         "matches": [
           {
+            "date": "10/09",
+            "competition": "Estonia. Esiliiga",
+            "homeTeam": "Levadia U-21",
+            "awayTeam": "Tartu Welco",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
             "date": "20/08",
             "competition": "Estonia. Esiliiga",
             "homeTeam": "Tartu Welco",
@@ -1792,15 +1797,6 @@
             "score": "1:3",
             "result": "L",
             "winner": "away"
-          },
-          {
-            "date": "17/04",
-            "competition": "Estonia. Esiliiga",
-            "homeTeam": "Tartu Welco",
-            "awayTeam": "Levadia U-21",
-            "score": "3:2",
-            "result": "L",
-            "winner": "home"
           }
         ],
         "homeTeam": "Levadia U-21",
@@ -1902,26 +1898,15 @@
       "title": "Viimsi – Elva",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Estonia. Esiliiga",
       "iconUrl": "https://cdn.livetv903.me/img/icons/ee.gif",
       "iconAlt": "Estonia. Esiliiga",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Estonia. Esiliiga)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/hOrhh8DuDsk?autoplay=1",
-          "language": "Estonian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.231Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Viimsi",
@@ -1940,6 +1925,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700017392/700016702/1_3eece/",
         "matches": [
           {
+            "date": "10/09",
+            "competition": "Estonia. Esiliiga",
+            "homeTeam": "Viimsi",
+            "awayTeam": "Elva",
+            "score": "5:0",
+            "result": "W",
+            "winner": "home"
+          },
+          {
             "date": "16/07",
             "competition": "Estonia. Esiliiga",
             "homeTeam": "Viimsi",
@@ -1956,15 +1950,6 @@
             "score": "0:1",
             "result": "W",
             "winner": "away"
-          },
-          {
-            "date": "03/04",
-            "competition": "Estonia. Esiliiga",
-            "homeTeam": "Elva",
-            "awayTeam": "Viimsi",
-            "score": "1:0",
-            "result": "L",
-            "winner": "home"
           }
         ],
         "homeTeam": "Viimsi",
@@ -2066,26 +2051,15 @@
       "title": "Sundby – Midtjylland",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Denmark. Cup",
       "iconUrl": "https://cdn.livetv903.me/img/icons/dk.gif",
       "iconAlt": "Denmark. Cup",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 17:00\n(Denmark. Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 3",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5Uuqmh3WmEstbqMNzv7Zes",
-          "language": "Danish",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.270Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Sundby",
@@ -2100,7 +2074,112 @@
           "substitutes": []
         }
       },
-      "headToHead": null
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700060690/700000317/1_7864f/",
+        "matches": [
+          {
+            "date": "10/09",
+            "competition": "Denmark. Cup",
+            "homeTeam": "Sundby",
+            "awayTeam": "Midtjylland",
+            "score": "0:7",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Sundby",
+        "awayTeam": "Midtjylland",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "Denmark Series",
+                "opponent": "ASA Aarhus",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "05/09",
+                "competition": "3 Division",
+                "opponent": "ASA Aarhus",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "29/08",
+                "competition": "3 Division",
+                "opponent": "Ringsted",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "29/08",
+                "competition": "Denmark Series",
+                "opponent": "Ringsted",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "25/08",
+                "competition": "Cup",
+                "opponent": "Frederikssund",
+                "score": "2:2",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 2,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "Denmark Series",
+                "opponent": "Sundby",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "05/09",
+                "competition": "3 Division",
+                "opponent": "Sundby",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "29/08",
+                "competition": "3 Division",
+                "opponent": "Ringsted",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "29/08",
+                "competition": "Denmark Series",
+                "opponent": "Ringsted",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "25/08",
+                "competition": "Cup",
+                "opponent": "Frederikssund",
+                "score": "2:2",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 2,
+              "L": 3
+            }
+          }
+        }
+      }
     },
     {
       "id": 18,
@@ -2122,7 +2201,7 @@
           "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.302Z",
+          "healthCheckedAt": "2026-09-10T18:08:01.848Z",
           "healthHttpStatus": 200
         },
         {
@@ -2132,7 +2211,7 @@
           "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.304Z",
+          "healthCheckedAt": "2026-09-10T18:08:01.857Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2449,7 +2528,7 @@
           "language": "Russian",
           "bitrate": "999kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.309Z",
+          "healthCheckedAt": "2026-09-10T18:08:01.858Z",
           "healthHttpStatus": 200
         },
         {
@@ -2459,7 +2538,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.378Z",
+          "healthCheckedAt": "2026-09-10T18:08:01.859Z",
           "healthHttpStatus": 200
         },
         {
@@ -2469,7 +2548,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.386Z",
+          "healthCheckedAt": "2026-09-10T18:08:01.859Z",
           "healthHttpStatus": 200
         },
         {
@@ -2479,7 +2558,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.387Z",
+          "healthCheckedAt": "2026-09-10T18:08:01.860Z",
           "healthHttpStatus": 200
         },
         {
@@ -2489,7 +2568,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.413Z",
+          "healthCheckedAt": "2026-09-10T18:08:01.860Z",
           "healthHttpStatus": 200
         },
         {
@@ -2499,7 +2578,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.437Z",
+          "healthCheckedAt": "2026-09-10T18:08:01.861Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2663,7 +2742,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.453Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.090Z",
           "healthHttpStatus": 200
         },
         {
@@ -2673,7 +2752,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.461Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.091Z",
           "healthHttpStatus": 200
         },
         {
@@ -2683,7 +2762,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.469Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.092Z",
           "healthHttpStatus": 200
         },
         {
@@ -2693,7 +2772,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.539Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.093Z",
           "healthHttpStatus": 200
         },
         {
@@ -2703,7 +2782,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.633Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.188Z",
           "healthHttpStatus": 200
         },
         {
@@ -2713,7 +2792,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.634Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.188Z",
           "healthHttpStatus": 200
         },
         {
@@ -2723,7 +2802,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.645Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.331Z",
           "healthHttpStatus": 200
         },
         {
@@ -2733,7 +2812,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.683Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.350Z",
           "healthHttpStatus": 200
         },
         {
@@ -2743,7 +2822,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.697Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.351Z",
           "healthHttpStatus": 200
         },
         {
@@ -2753,7 +2832,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.765Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.371Z",
           "healthHttpStatus": 200
         },
         {
@@ -2763,7 +2842,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.797Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.397Z",
           "healthHttpStatus": 200
         },
         {
@@ -2773,7 +2852,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.822Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.421Z",
           "healthHttpStatus": 200
         },
         {
@@ -2783,7 +2862,7 @@
           "language": "Russian",
           "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.822Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.464Z",
           "healthHttpStatus": 200
         },
         {
@@ -2793,7 +2872,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.905Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.539Z",
           "healthHttpStatus": 200
         },
         {
@@ -2803,7 +2882,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:04.989Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.637Z",
           "healthHttpStatus": 200
         },
         {
@@ -2813,7 +2892,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.009Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.731Z",
           "healthHttpStatus": 200
         },
         {
@@ -2823,7 +2902,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.033Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.792Z",
           "healthHttpStatus": 200
         },
         {
@@ -2833,7 +2912,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.061Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.824Z",
           "healthHttpStatus": 200
         },
         {
@@ -2843,7 +2922,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.085Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.871Z",
           "healthHttpStatus": 200
         },
         {
@@ -2853,7 +2932,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.113Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.885Z",
           "healthHttpStatus": 200
         },
         {
@@ -2863,7 +2942,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.137Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.909Z",
           "healthHttpStatus": 200
         },
         {
@@ -2873,7 +2952,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.141Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.957Z",
           "healthHttpStatus": 200
         },
         {
@@ -2883,7 +2962,7 @@
           "language": "Russian",
           "bitrate": "2700kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.161Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.967Z",
           "healthHttpStatus": 200
         },
         {
@@ -2893,7 +2972,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.173Z",
+          "healthCheckedAt": "2026-09-10T18:08:02.997Z",
           "healthHttpStatus": 200
         },
         {
@@ -2903,7 +2982,7 @@
           "language": "Dutch",
           "bitrate": "1469kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.188Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.007Z",
           "healthHttpStatus": 200
         },
         {
@@ -2913,7 +2992,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.213Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.040Z",
           "healthHttpStatus": 200
         },
         {
@@ -2923,7 +3002,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.268Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.040Z",
           "healthHttpStatus": 200
         },
         {
@@ -2933,7 +3012,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.295Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.096Z",
           "healthHttpStatus": 200
         },
         {
@@ -2943,7 +3022,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.300Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.123Z",
           "healthHttpStatus": 200
         },
         {
@@ -2953,7 +3032,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.348Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.123Z",
           "healthHttpStatus": 200
         },
         {
@@ -2963,7 +3042,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.365Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.183Z",
           "healthHttpStatus": 200
         },
         {
@@ -2973,7 +3052,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.381Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.202Z",
           "healthHttpStatus": 200
         },
         {
@@ -2983,7 +3062,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.397Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.202Z",
           "healthHttpStatus": 200
         },
         {
@@ -2993,7 +3072,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.425Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.291Z",
           "healthHttpStatus": 200
         },
         {
@@ -3003,7 +3082,7 @@
           "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.437Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.291Z",
           "healthHttpStatus": 200
         },
         {
@@ -3013,7 +3092,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.449Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.291Z",
           "healthHttpStatus": 200
         },
         {
@@ -3023,7 +3102,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.465Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.339Z",
           "healthHttpStatus": 200
         },
         {
@@ -3033,7 +3112,7 @@
           "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.473Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.339Z",
           "healthHttpStatus": 200
         },
         {
@@ -3043,7 +3122,7 @@
           "language": "Georgian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.477Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.389Z",
           "healthHttpStatus": 200
         },
         {
@@ -3053,7 +3132,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.493Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.400Z",
           "healthHttpStatus": 200
         },
         {
@@ -3063,7 +3142,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.517Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.401Z",
           "healthHttpStatus": 200
         },
         {
@@ -3073,7 +3152,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.525Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.401Z",
           "healthHttpStatus": 200
         },
         {
@@ -3083,7 +3162,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.526Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.429Z",
           "healthHttpStatus": 200
         },
         {
@@ -3093,7 +3172,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.541Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.439Z",
           "healthHttpStatus": 200
         },
         {
@@ -3103,7 +3182,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.557Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.450Z",
           "healthHttpStatus": 200
         },
         {
@@ -3113,7 +3192,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.569Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.597Z",
           "healthHttpStatus": 200
         },
         {
@@ -3123,7 +3202,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.726Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.723Z",
           "healthHttpStatus": 200
         },
         {
@@ -3133,7 +3212,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.778Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.795Z",
           "healthHttpStatus": 200
         },
         {
@@ -3143,7 +3222,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.805Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.826Z",
           "healthHttpStatus": 200
         },
         {
@@ -3153,7 +3232,7 @@
           "language": "Kazakh",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.847Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.872Z",
           "healthHttpStatus": 200
         },
         {
@@ -3163,7 +3242,7 @@
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.856Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.895Z",
           "healthHttpStatus": 200
         },
         {
@@ -3173,7 +3252,7 @@
           "language": "Portuguese",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.861Z",
+          "healthCheckedAt": "2026-09-10T18:08:03.954Z",
           "healthHttpStatus": 200
         },
         {
@@ -3183,7 +3262,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.865Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.012Z",
           "healthHttpStatus": 200
         },
         {
@@ -3193,7 +3272,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.921Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.094Z",
           "healthHttpStatus": 200
         },
         {
@@ -3203,7 +3282,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.922Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.139Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3398,7 +3477,7 @@
           "language": "Russian",
           "bitrate": "955kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:05.990Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.211Z",
           "healthHttpStatus": 200
         },
         {
@@ -3408,7 +3487,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.050Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.221Z",
           "healthHttpStatus": 200
         },
         {
@@ -3418,7 +3497,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.057Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.243Z",
           "healthHttpStatus": 200
         },
         {
@@ -3428,7 +3507,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.064Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.293Z",
           "healthHttpStatus": 200
         },
         {
@@ -3438,7 +3517,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.065Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.298Z",
           "healthHttpStatus": 200
         },
         {
@@ -3448,7 +3527,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.129Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.299Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3489,7 +3568,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.134Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.325Z",
           "healthHttpStatus": 200
         },
         {
@@ -3499,7 +3578,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.148Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.336Z",
           "healthHttpStatus": 200
         },
         {
@@ -3509,7 +3588,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.160Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.408Z",
           "healthHttpStatus": 200
         },
         {
@@ -3519,7 +3598,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.162Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.408Z",
           "healthHttpStatus": 200
         },
         {
@@ -3529,7 +3608,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.217Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.480Z",
           "healthHttpStatus": 200
         },
         {
@@ -3539,7 +3618,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.229Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.485Z",
           "healthHttpStatus": 200
         },
         {
@@ -3549,7 +3628,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.230Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.499Z",
           "healthHttpStatus": 200
         },
         {
@@ -3559,7 +3638,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.237Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.714Z",
           "healthHttpStatus": 200
         },
         {
@@ -3569,7 +3648,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.249Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.891Z",
           "healthHttpStatus": 200
         },
         {
@@ -3579,7 +3658,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.278Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.907Z",
           "healthHttpStatus": 200
         },
         {
@@ -3589,7 +3668,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.314Z",
+          "healthCheckedAt": "2026-09-10T18:08:04.931Z",
           "healthHttpStatus": 200
         },
         {
@@ -3599,27 +3678,27 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.337Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.025Z",
           "healthHttpStatus": 200
         },
         {
           "id": 13,
           "label": "Stream 15",
-          "url": "https://playfa.st/ch.php?id=8",
+          "url": "https://playfa.st/ch.php?id=2",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.369Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.027Z",
           "healthHttpStatus": 200
         },
         {
           "id": 14,
           "label": "Stream 16",
-          "url": "https://playfa.st/ch.php?id=2",
+          "url": "https://playfa.st/ch.php?id=8",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.429Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.086Z",
           "healthHttpStatus": 200
         },
         {
@@ -3629,7 +3708,7 @@
           "language": "Russian",
           "bitrate": "955kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.433Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.229Z",
           "healthHttpStatus": 200
         },
         {
@@ -3639,7 +3718,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.521Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.261Z",
           "healthHttpStatus": 200
         },
         {
@@ -3649,381 +3728,411 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.586Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.306Z",
           "healthHttpStatus": 200
         },
         {
           "id": 18,
           "label": "Stream 23",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266952&w=700&h=480",
-          "language": "French",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266472&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.597Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.327Z",
           "healthHttpStatus": 200
         },
         {
           "id": 19,
           "label": "Stream 25",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=209634&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266952&w=700&h=480",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.654Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.344Z",
           "healthHttpStatus": 200
         },
         {
           "id": 20,
           "label": "Stream 27",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=210723&w=700&h=480",
-          "language": null,
-          "bitrate": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=242312&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "3000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.665Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.348Z",
           "healthHttpStatus": 200
         },
         {
           "id": 21,
           "label": "Stream 29",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=211538&w=700&h=480",
-          "language": "Greek",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=209634&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.673Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.383Z",
           "healthHttpStatus": 200
         },
         {
           "id": 22,
           "label": "Stream 31",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=237141&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "2500kbps",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=210723&w=700&h=480",
+          "language": null,
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.697Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.421Z",
           "healthHttpStatus": 200
         },
         {
           "id": 23,
           "label": "Stream 33",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=242325&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "5000kbps",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=211538&w=700&h=480",
+          "language": "Greek",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.753Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.426Z",
           "healthHttpStatus": 200
         },
         {
           "id": 24,
           "label": "Stream 35",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=247876&w=700&h=480",
-          "language": "Serbian",
-          "bitrate": "1551kbps",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=213687&w=700&h=480",
+          "language": null,
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.885Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.426Z",
           "healthHttpStatus": 200
         },
         {
           "id": 25,
           "label": "Stream 37",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=261876&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=237141&w=700&h=480",
           "language": "Russian",
-          "bitrate": null,
+          "bitrate": "2500kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.893Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.451Z",
           "healthHttpStatus": 200
         },
         {
           "id": 26,
           "label": "Stream 39",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266116&w=700&h=480",
-          "language": "Romanian",
-          "bitrate": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=242325&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.904Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.477Z",
           "healthHttpStatus": 200
         },
         {
           "id": 27,
           "label": "Stream 41",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266226&w=700&h=480",
-          "language": "French",
-          "bitrate": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=247876&w=700&h=480",
+          "language": "Serbian",
+          "bitrate": "1551kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.993Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.528Z",
           "healthHttpStatus": 200
         },
         {
           "id": 28,
           "label": "Stream 43",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266240&w=700&h=480",
-          "language": "Turkish",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=261876&w=700&h=480",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:06.994Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.528Z",
           "healthHttpStatus": 200
         },
         {
           "id": 29,
           "label": "Stream 45",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266241&w=700&h=480",
-          "language": "Turkish",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266116&w=700&h=480",
+          "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.005Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.565Z",
           "healthHttpStatus": 200
         },
         {
           "id": 30,
           "label": "Stream 47",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266242&w=700&h=480",
-          "language": "Azerbaijani",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266226&w=700&h=480",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.006Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.610Z",
           "healthHttpStatus": 200
         },
         {
           "id": 31,
           "label": "Stream 49",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266505&w=700&h=480",
-          "language": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266240&w=700&h=480",
+          "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.085Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.654Z",
           "healthHttpStatus": 200
         },
         {
           "id": 32,
           "label": "Stream 51",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266840&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266241&w=700&h=480",
+          "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.086Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.716Z",
           "healthHttpStatus": 200
         },
         {
           "id": 33,
           "label": "Stream 53",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266847&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266242&w=700&h=480",
+          "language": "Azerbaijani",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.086Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.733Z",
           "healthHttpStatus": 200
         },
         {
           "id": 34,
           "label": "Stream 55",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266885&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266505&w=700&h=480",
+          "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.088Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.745Z",
           "healthHttpStatus": 200
         },
         {
           "id": 35,
           "label": "Stream 57",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266966&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266840&w=700&h=480",
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.097Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.786Z",
           "healthHttpStatus": 200
         },
         {
           "id": 36,
           "label": "Stream 59",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267003&w=700&h=480",
-          "language": "Russian",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266847&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.098Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.815Z",
           "healthHttpStatus": 200
         },
         {
           "id": 37,
           "label": "Stream 61",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267042&w=700&h=480",
-          "language": "Greek",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266885&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.169Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.816Z",
           "healthHttpStatus": 200
         },
         {
           "id": 38,
           "label": "Stream 63",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267056&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266966&w=700&h=480",
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.172Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.820Z",
           "healthHttpStatus": 200
         },
         {
           "id": 39,
           "label": "Stream 65",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267116&w=700&h=480",
-          "language": "French",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267003&w=700&h=480",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.177Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.826Z",
           "healthHttpStatus": 200
         },
         {
           "id": 40,
           "label": "Stream 67",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267125&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267042&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.177Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.858Z",
           "healthHttpStatus": 200
         },
         {
           "id": 41,
           "label": "Stream 69",
-          "url": "https://abisnews.com/tudnusa.php",
-          "language": "Spanish",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267056&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.178Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.877Z",
           "healthHttpStatus": 200
         },
         {
           "id": 42,
-          "label": "Stream 70",
-          "url": "https://iplayer.is/india/6abdf0f506f6a58f16f794ae98e96fb7",
-          "language": "Albanian",
+          "label": "Stream 71",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267116&w=700&h=480",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.213Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.898Z",
           "healthHttpStatus": 200
         },
         {
           "id": 43,
-          "label": "Stream 71",
-          "url": "https://playfa.st/ch.php?id=47",
-          "language": "Italian",
+          "label": "Stream 73",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267125&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.220Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.899Z",
           "healthHttpStatus": 200
         },
         {
           "id": 44,
-          "label": "Stream 72",
-          "url": "https://playfa.st/ch.php?id=50",
-          "language": "French",
+          "label": "Stream 75",
+          "url": "https://abisnews.com/tudnusa.php",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.241Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.909Z",
           "healthHttpStatus": 200
         },
         {
           "id": 45,
-          "label": "Stream 73",
-          "url": "https://restream.website/restream7/tudn.php",
-          "language": "Spanish",
+          "label": "Stream 76",
+          "url": "https://iplayer.is/india/6abdf0f506f6a58f16f794ae98e96fb7",
+          "language": "Albanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.242Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.910Z",
           "healthHttpStatus": 200
         },
         {
           "id": 46,
-          "label": "Stream 74",
-          "url": "https://shd247.world/frame24.html",
-          "language": "Portuguese",
+          "label": "Stream 77",
+          "url": "https://playfa.st/ch.php?id=47",
+          "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.253Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.910Z",
           "healthHttpStatus": 200
         },
         {
           "id": 47,
-          "label": "Stream 75",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5Uy5zx5HZxjLts99K1exBm",
-          "language": "Spanish",
+          "label": "Stream 78",
+          "url": "https://playfa.st/ch.php?id=50",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.256Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.959Z",
           "healthHttpStatus": 200
         },
         {
           "id": 48,
-          "label": "Stream 76",
-          "url": "https://buzznews4u.com/live/skyaustria3_german.php",
-          "language": "German",
+          "label": "Stream 79",
+          "url": "https://restream.website/restream7/tudn.php",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.265Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.981Z",
           "healthHttpStatus": 200
         },
         {
           "id": 49,
-          "label": "Stream 77",
-          "url": "https://buzznews4u.com/live/trt1_turkey.php",
-          "language": "Turkish",
+          "label": "Stream 80",
+          "url": "https://shd247.world/frame24.html",
+          "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.265Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.992Z",
           "healthHttpStatus": 200
         },
         {
           "id": 50,
-          "label": "Stream 78",
-          "url": "https://abisnews.com/okkofutbol.php",
-          "language": "Russian",
+          "label": "Stream 81",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5Uy5zx5HZxjLts99K1exBm",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.281Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.992Z",
           "healthHttpStatus": 200
         },
         {
           "id": 51,
-          "label": "Stream 79",
-          "url": "https://abisnews.com/sportvbelarus.php",
-          "language": "Russian",
+          "label": "Stream 82",
+          "url": "https://buzznews4u.com/live/skyaustria3_german.php",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.361Z",
+          "healthCheckedAt": "2026-09-10T18:08:05.993Z",
           "healthHttpStatus": 200
         },
         {
           "id": 52,
-          "label": "Stream 81",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d63d8a57cf471394bfa9f619bbd68b01ae27a801&lang=en&eid=399041166&lid=2850353&ci=7&si=1",
-          "language": "English",
-          "bitrate": "8000kbps",
+          "label": "Stream 83",
+          "url": "https://buzznews4u.com/live/trt1_turkey.php",
+          "language": "Turkish",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.381Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.010Z",
           "healthHttpStatus": 200
         },
         {
           "id": 53,
-          "label": "Stream 83",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=016d48fb89bb9505ab3f883db1bfb3a7c0a3eccc&lang=en&eid=399041166&lid=2844391&ci=7&si=1",
+          "label": "Stream 84",
+          "url": "https://abisnews.com/okkofutbol.php",
           "language": "Russian",
-          "bitrate": "8000kbps",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.433Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.176Z",
           "healthHttpStatus": 200
         },
         {
           "id": 54,
           "label": "Stream 85",
+          "url": "https://abisnews.com/sportvbelarus.php",
+          "language": "Russian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:06.197Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 55,
+          "label": "Stream 87",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d63d8a57cf471394bfa9f619bbd68b01ae27a801&lang=en&eid=399041166&lid=2850353&ci=7&si=1",
+          "language": "English",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:06.248Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 56,
+          "label": "Stream 89",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=016d48fb89bb9505ab3f883db1bfb3a7c0a3eccc&lang=en&eid=399041166&lid=2844391&ci=7&si=1",
+          "language": "Russian",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:06.269Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 57,
+          "label": "Stream 91",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=36cad67fed5a739757a9db844a551aa845a8d51b&lang=en&eid=399041166&lid=2854601&ci=7&si=1",
           "language": "Portuguese",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.449Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.370Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 54,
+      "streamCount": 57,
       "teams": {
         "home": {
           "name": "Fenerbahce",
@@ -4108,7 +4217,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.454Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.490Z",
           "healthHttpStatus": 200
         },
         {
@@ -4118,7 +4227,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.462Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.536Z",
           "healthHttpStatus": 200
         },
         {
@@ -4128,7 +4237,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.533Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.557Z",
           "healthHttpStatus": 200
         },
         {
@@ -4138,7 +4247,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.545Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.567Z",
           "healthHttpStatus": 200
         },
         {
@@ -4148,7 +4257,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.601Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.608Z",
           "healthHttpStatus": 200
         },
         {
@@ -4158,7 +4267,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.612Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.640Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4322,7 +4431,7 @@
           "language": "Swedish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.621Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.747Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4530,7 +4639,7 @@
           "language": "Swedish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.637Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.789Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4738,7 +4847,7 @@
           "language": "Swedish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.697Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.807Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4946,7 +5055,7 @@
           "language": "Swedish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.931Z",
+          "healthCheckedAt": "2026-09-10T18:08:06.946Z",
           "healthHttpStatus": 200
         },
         {
@@ -4956,7 +5065,7 @@
           "language": "Swedish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:07.932Z",
+          "healthCheckedAt": "2026-09-10T18:08:07.023Z",
           "healthHttpStatus": 200
         }
       ],
@@ -5164,7 +5273,7 @@
           "language": "Georgian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:08.000Z",
+          "healthCheckedAt": "2026-09-10T18:08:07.072Z",
           "healthHttpStatus": 200
         }
       ],
@@ -5328,7 +5437,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:08.001Z",
+          "healthCheckedAt": "2026-09-10T18:08:07.123Z",
           "healthHttpStatus": 200
         }
       ],
@@ -5492,7 +5601,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:08.009Z",
+          "healthCheckedAt": "2026-09-10T18:08:07.162Z",
           "healthHttpStatus": 200
         },
         {
@@ -5502,7 +5611,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:08.025Z",
+          "healthCheckedAt": "2026-09-10T18:08:07.184Z",
           "healthHttpStatus": 200
         },
         {
@@ -5512,7 +5621,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T17:49:08.077Z",
+          "healthCheckedAt": "2026-09-10T18:08:07.280Z",
           "healthHttpStatus": 200
         }
       ],
@@ -5748,8 +5857,449 @@
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 20:00\n(Champions League)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266027&w=700&h=480",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.317Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://abisnews.com/maxtnt2.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.400Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 3,
+          "label": "Stream 5",
+          "url": "https://abisnews.com/paramount4.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.401Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 4,
+          "label": "Stream 6",
+          "url": "https://abisnews.com/virginmedia2.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.410Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 5,
+          "label": "Stream 7",
+          "url": "https://livesports247.click/sx/bt2en.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.466Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 6,
+          "label": "Stream 8",
+          "url": "https://restream.website/restream7/tnt2.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.477Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 7,
+          "label": "Stream 9",
+          "url": "https://shd247.world/frame23.html",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.478Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 8,
+          "label": "Stream 10",
+          "url": "https://buzznews4u.com/live/bt2_english.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.504Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 9,
+          "label": "Stream 11",
+          "url": "https://buzznews4u.com/live/ch2_english.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.509Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 10,
+          "label": "Stream 12",
+          "url": "https://playfa.st/ch.php?id=2",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.544Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 11,
+          "label": "Stream 13",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=253172&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "955kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.653Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 12,
+          "label": "Stream 15",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266878&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.698Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 13,
+          "label": "Stream 17",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266965&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.730Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 14,
+          "label": "Stream 19",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=242313&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "5000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.781Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 15,
+          "label": "Stream 21",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=265253&w=700&h=480",
+          "language": "Dutch",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.810Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 16,
+          "label": "Stream 23",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266116&w=700&h=480",
+          "language": "Romanian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.893Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 17,
+          "label": "Stream 25",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266196&w=700&h=480",
+          "language": "Italian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.910Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 18,
+          "label": "Stream 27",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266229&w=700&h=480",
+          "language": "Dutch",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.998Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 19,
+          "label": "Stream 29",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266245&w=700&h=480",
+          "language": "Turkish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:07.998Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 20,
+          "label": "Stream 31",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266652&w=700&h=480",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.027Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 21,
+          "label": "Stream 33",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266874&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.090Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 22,
+          "label": "Stream 35",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266931&w=700&h=480",
+          "language": "Greek",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.091Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 23,
+          "label": "Stream 37",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267056&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.091Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 24,
+          "label": "Stream 39",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267089&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.109Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 25,
+          "label": "Stream 41",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=6581962533&w=700&h=480",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.124Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 26,
+          "label": "Stream 43",
+          "url": "https://abisnews.com/qleague.php",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.148Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 27,
+          "label": "Stream 44",
+          "url": "https://abisnews.com/tudnusa.php",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.162Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 28,
+          "label": "Stream 45",
+          "url": "https://iplayer.is/india/43fd0538ee7ee2ce6e6195c624edc569",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.170Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 29,
+          "label": "Stream 46",
+          "url": "https://livesports247.click/sx/skyaustria2de.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.170Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 30,
+          "label": "Stream 47",
+          "url": "https://playfa.st/ch.php?id=46",
+          "language": "Italian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.203Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 31,
+          "label": "Stream 48",
+          "url": "https://playfa.st/ch.php?id=52",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.206Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 32,
+          "label": "Stream 49",
+          "url": "https://theseagreen.xyz/channel.html?id=2",
+          "language": "Portuguese",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.224Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 33,
+          "label": "Stream 50",
+          "url": "https://vivtopslive.vivtops.st/channel6",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.243Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 34,
+          "label": "Stream 51",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWi4DHCdCZZG4dHCXaWsK",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.244Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 35,
+          "label": "Stream 52",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWi4J7PufBErUa7858v1x",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.252Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 36,
+          "label": "Stream 53",
+          "url": "https://buzznews4u.com/live/skyaustria2_german.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.314Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 37,
+          "label": "Stream 54",
+          "url": "https://buzznews4u.com/live/ch2_german.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.513Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 38,
+          "label": "Stream 55",
+          "url": "https://abisnews.com/megogosport.php",
+          "language": "Ukrainian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.635Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 39,
+          "label": "Stream 56",
+          "url": "https://abisnews.com/okkosport2.php",
+          "language": "Russian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.635Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 40,
+          "label": "Stream 57",
+          "url": "https://playfa.st/ch.php?id=17",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.696Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 41,
+          "label": "Stream 59",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d63d8a57cf471394bfa9f619bbd68b01ae27a801&lang=en&eid=399041284&lid=2850353&ci=7&si=1",
+          "language": "English",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.710Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 42,
+          "label": "Stream 61",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d08013df6e437a1fdf1e0c34f573fdf6a40c7fce&lang=en&eid=399041284&lid=2856171&ci=7&si=1",
+          "language": "Portuguese",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.715Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 43,
+          "label": "Stream 63",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=868a6187d6aeec65ded84bd777814c9f7b7a9027&lang=en&eid=399041284&lid=2992937&ci=7&si=1",
+          "language": "Dutch",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.820Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 44,
+          "label": "Stream 65",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=fcd7621df513f600652b4813d5d8fd1daed60058&lang=en&eid=399041284&lid=2960425&ci=7&si=1",
+          "language": "Dutch",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.872Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 44,
       "teams": {
         "home": {
           "name": "Bayern Munich",
@@ -5778,8 +6328,339 @@
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 20:00\n(Champions League)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267120&w=700&h=480",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.882Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://abisnews.com/paramount6.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.891Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 3,
+          "label": "Stream 5",
+          "url": "https://playfa.st/ch.php?id=5",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.949Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 4,
+          "label": "Stream 6",
+          "url": "https://shd247.world/frame26.html",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.952Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 5,
+          "label": "Stream 7",
+          "url": "https://vivtopslive.vivtops.st/channel5",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:08.962Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 6,
+          "label": "Stream 8",
+          "url": "https://buzznews4u.com/live/bt5_english.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.026Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 7,
+          "label": "Stream 9",
+          "url": "https://buzznews4u.com/live/ch5_english.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.035Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 8,
+          "label": "Stream 10",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=253172&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "955kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.053Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 9,
+          "label": "Stream 12",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266122&w=700&h=480",
+          "language": "Czech",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.143Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 10,
+          "label": "Stream 14",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266306&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.173Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 11,
+          "label": "Stream 16",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=242328&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "5000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.189Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 12,
+          "label": "Stream 18",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266213&w=700&h=480",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.231Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 13,
+          "label": "Stream 20",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266500&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.271Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 14,
+          "label": "Stream 22",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266886&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.276Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 15,
+          "label": "Stream 24",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266888&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.322Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 16,
+          "label": "Stream 26",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267110&w=700&h=480",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.333Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 17,
+          "label": "Stream 28",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267121&w=700&h=480",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.364Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 18,
+          "label": "Stream 31",
+          "url": "https://abisnews.com/arenasport7hr.php",
+          "language": "Croatian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.375Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 19,
+          "label": "Stream 32",
+          "url": "https://abisnews.com/beinsport4ar.php",
+          "language": "Arabic",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.415Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 20,
+          "label": "Stream 33",
+          "url": "https://livesports247.click/sx/bt5en.php",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.426Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 21,
+          "label": "Stream 34",
+          "url": "https://livesports247.click/sx/canalfootfr.php",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.458Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 22,
+          "label": "Stream 35",
+          "url": "https://livesports247.click/sx/skyaustria5de.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.459Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 23,
+          "label": "Stream 36",
+          "url": "https://playfa.st/ch.php?id=43",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.488Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 24,
+          "label": "Stream 37",
+          "url": "https://playfa.st/ch.php?id=45",
+          "language": "Czech",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.520Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 25,
+          "label": "Stream 38",
+          "url": "https://playfa.st/ch.php?id=50",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.686Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 26,
+          "label": "Stream 39",
+          "url": "https://restream.website/restream7/tnt5.php",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.769Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 27,
+          "label": "Stream 40",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWhzDPs1B2nnFFczxLYFJ",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.837Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 28,
+          "label": "Stream 41",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWhzJE4HdeUNfCSvVtwPw",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:09.992Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 29,
+          "label": "Stream 42",
+          "url": "https://buzznews4u.com/live/ch5_german.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.096Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 30,
+          "label": "Stream 43",
+          "url": "https://buzznews4u.com/live/canalfoot_france.php",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.151Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 31,
+          "label": "Stream 44",
+          "url": "https://buzznews4u.com/live/skyaustria5_german.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.154Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 32,
+          "label": "Stream 45",
+          "url": "https://abisnews.com/arena4premiumserbia.php",
+          "language": "Serbian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.181Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 33,
+          "label": "Stream 47",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=9231f38e71a85ad24b4c11a5e360992e30c916ed&lang=en&eid=399041293&lid=2993473&ci=7&si=1",
+          "language": "Dutch",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.190Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 33,
       "teams": {
         "home": {
           "name": "Slavia Prague",
@@ -5808,8 +6689,139 @@
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 20:00\n(Champions League)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://abisnews.com/paramountsimulcast.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.218Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 3",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=249287&w=700&h=480",
+          "language": "Russian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.251Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 3,
+          "label": "Stream 5",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=253172&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "955kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.301Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 4,
+          "label": "Stream 7",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266158&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.341Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 5,
+          "label": "Stream 9",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266848&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.373Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 6,
+          "label": "Stream 11",
+          "url": "https://playfa.st/ch.php?id=23",
+          "language": "Greek",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.383Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 7,
+          "label": "Stream 12",
+          "url": "https://playfa.st/ch.php?id=99",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.413Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 8,
+          "label": "Stream 13",
+          "url": "https://buzznews4u.com/live/skyaustria1_german.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.429Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 9,
+          "label": "Stream 14",
+          "url": "https://abisnews.com/setantasport3georgia.php",
+          "language": "Georgian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.450Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 10,
+          "label": "Stream 15",
+          "url": "https://abisnews.com/cosmote1.php",
+          "language": "Greek",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.528Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 11,
+          "label": "Stream 16",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWi48T1LjwsfegTPXbJDm",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.600Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 12,
+          "label": "Stream 17",
+          "url": "https://abisnews.com/okkofutbol.php",
+          "language": "Russian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.725Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 13,
+          "label": "Stream 18",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5V2LAJ3v37fiJVW5M5CHmA",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.800Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 13,
       "teams": {
         "home": {
           "name": null,
@@ -5838,8 +6850,449 @@
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 20:00\n(Champions League)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266032&w=700&h=480",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.867Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266031&w=700&h=480",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.938Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 3,
+          "label": "Stream 6",
+          "url": "https://abisnews.com/maxtnt1.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.980Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 4,
+          "label": "Stream 7",
+          "url": "https://abisnews.com/paramount3.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:10.981Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 5,
+          "label": "Stream 8",
+          "url": "https://playfa.st/ch.php?id=1",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.021Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 6,
+          "label": "Stream 9",
+          "url": "https://shd247.world/frame22.html",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.026Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 7,
+          "label": "Stream 10",
+          "url": "https://theseagreen.xyz/channel.html?id=1",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.066Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 8,
+          "label": "Stream 11",
+          "url": "https://theseagreen.xyz/channel.html?id=6",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.073Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 9,
+          "label": "Stream 12",
+          "url": "https://vivtopslive.vivtops.st/channel1",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.104Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 10,
+          "label": "Stream 14",
+          "url": "https://buzznews4u.com/live/viaplay1_english.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.165Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 11,
+          "label": "Stream 15",
+          "url": "https://buzznews4u.com/live/ch1_english.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.177Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 12,
+          "label": "Stream 16",
+          "url": "https://buzznews4u.com/live/bt1_english.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.186Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 13,
+          "label": "Stream 17",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=253172&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "955kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.226Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 14,
+          "label": "Stream 19",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266102&w=700&h=480",
+          "language": "Serbian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.309Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 15,
+          "label": "Stream 21",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266122&w=700&h=480",
+          "language": "Czech",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.370Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 16,
+          "label": "Stream 23",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266866&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.391Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 17,
+          "label": "Stream 25",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266867&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.460Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 18,
+          "label": "Stream 27",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=242325&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "5000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.467Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 19,
+          "label": "Stream 29",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266117&w=700&h=480",
+          "language": "Slovenian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.547Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 20,
+          "label": "Stream 31",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266732&w=700&h=480",
+          "language": "Danish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.575Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 21,
+          "label": "Stream 33",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266862&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.628Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 22,
+          "label": "Stream 35",
+          "url": "https://abisnews.com/beinsport1ar.php",
+          "language": "Arabic",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.639Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 23,
+          "label": "Stream 36",
+          "url": "https://abisnews.com/canalplusextra1pl.php",
+          "language": "Polish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.656Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 24,
+          "label": "Stream 37",
+          "url": "https://abisnews.com/megogosport2.php",
+          "language": "Czech",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.709Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 25,
+          "label": "Stream 38",
+          "url": "https://abisnews.com/setantasport1georgia.php",
+          "language": "Georgian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.716Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 26,
+          "label": "Stream 39",
+          "url": "https://abisnews.com/sport5il.php",
+          "language": "Hebrew",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.727Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 27,
+          "label": "Stream 40",
+          "url": "https://abisnews.com/tnt4k.php",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.780Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 28,
+          "label": "Stream 41",
+          "url": "https://iplayer.is/india/07e97573bd8253cefeba561a5c833566",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.780Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 29,
+          "label": "Stream 42",
+          "url": "https://playfa.st/ch.php?id=29",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.797Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 30,
+          "label": "Stream 43",
+          "url": "https://playfa.st/ch.php?id=44",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.831Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 31,
+          "label": "Stream 44",
+          "url": "https://playfa.st/ch.php?id=53",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.851Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 32,
+          "label": "Stream 45",
+          "url": "https://playfa.st/ch.php?id=78",
+          "language": "Swedish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.851Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 33,
+          "label": "Stream 46",
+          "url": "https://shd247.world/frame12.html",
+          "language": "Portuguese",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:11.950Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 34,
+          "label": "Stream 50",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWhz3jUSFoRbRMy9sDjwK",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.050Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 35,
+          "label": "Stream 51",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWhz8ZfiiR7BqJo5Qn95x",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.177Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 36,
+          "label": "Stream 52",
+          "url": "https://buzznews4u.com/live/ch4_german.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.193Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 37,
+          "label": "Stream 53",
+          "url": "https://buzznews4u.com/live/skyaustria4_german.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.373Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 38,
+          "label": "Stream 54",
+          "url": "https://abisnews.com/kazsport.php",
+          "language": "Kazakh",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.428Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 39,
+          "label": "Stream 55",
+          "url": "https://abisnews.com/arenasport3hr.php",
+          "language": "Croatian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.493Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 40,
+          "label": "Stream 56",
+          "url": "https://abisnews.com/arena2premiumserbia.php",
+          "language": "Serbian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.557Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 41,
+          "label": "Stream 58",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=75a56863b6fe0407ad4305b4d7ee5643c3923565&lang=en&eid=399041192&lid=2853564&ci=7&si=1",
+          "language": "English",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.564Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 42,
+          "label": "Stream 60",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&lang=en&eid=399041192&lid=2987940&ci=7&si=1",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.585Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 43,
+          "label": "Stream 62",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=36cad67fed5a739757a9db844a551aa845a8d51b&lang=en&eid=399041192&lid=2854601&ci=7&si=1",
+          "language": "Portuguese",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.628Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 44,
+          "label": "Stream 64",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=6e672fbd2d325fde727a61aa2ef8b8b02e05c6a4&lang=en&eid=399041192&lid=2993476&ci=7&si=1",
+          "language": "Czech",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.673Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 44,
       "teams": {
         "home": {
           "name": "Manchester Utd",
@@ -5868,8 +7321,179 @@
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 20:00\n(Champions League)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 3",
+          "url": "https://buzznews4u.com/live/ch3_english.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.748Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://buzznews4u.com/live/bt3_english.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.758Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 3,
+          "label": "Stream 5",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=253172&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "955kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.772Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 4,
+          "label": "Stream 7",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266028&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.803Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 5,
+          "label": "Stream 9",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266199&w=700&h=480",
+          "language": "Italian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.843Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 6,
+          "label": "Stream 11",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266775&w=700&h=480",
+          "language": "Serbian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.857Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 7,
+          "label": "Stream 13",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266840&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.883Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 8,
+          "label": "Stream 15",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266847&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.900Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 9,
+          "label": "Stream 17",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266968&w=700&h=480",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.929Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 10,
+          "label": "Stream 21",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWhyt55sLa4QbUKJn6we3",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.930Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 11,
+          "label": "Stream 22",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWhyxuH9oBk11R9EKfLng",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.970Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 12,
+          "label": "Stream 23",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWi4NwbC7nvStWw3chKAb",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:12.981Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 13,
+          "label": "Stream 24",
+          "url": "https://buzznews4u.com/live/skyaustria3_german.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.011Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 14,
+          "label": "Stream 25",
+          "url": "https://buzznews4u.com/live/ch3_german.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.024Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 15,
+          "label": "Stream 27",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=5f966c123759de46dff29c379266b7a403452033&lang=en&eid=399041210&lid=2791516&ci=7&si=1",
+          "language": "English",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.313Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 16,
+          "label": "Stream 29",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=dae7d1251f069516cc0a9c8f15f6639d2a17df1e&lang=en&eid=399041210&lid=2856516&ci=7&si=1",
+          "language": "Portuguese",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.352Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 17,
+          "label": "Stream 31",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=fd572fdeeaaff430ab2775e3bae1620295660ebd&lang=en&eid=399041210&lid=3002359&ci=7&si=1",
+          "language": "Czech",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.358Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 17,
       "teams": {
         "home": {
           "name": "Como",
@@ -5898,8 +7522,19 @@
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 20:00\n(Uruguay. Cup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TYLAkxtk6sbpAaLYaMf22",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.445Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Cerro",
@@ -6042,8 +7677,139 @@
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 20:00\n(England. League One)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=265424&w=700&h=480",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.494Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://abisnews.com/skymain.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.525Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 3,
+          "label": "Stream 5",
+          "url": "https://livesports247.click/sx/skysport5en.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.536Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 4,
+          "label": "Stream 6",
+          "url": "https://playfa.st/ch.php?id=4",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.575Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 5,
+          "label": "Stream 7",
+          "url": "https://shd247.world/frame27.html",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.578Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 6,
+          "label": "Stream 10",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TYLAqo62ZVHQaXAU7v4Af",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.587Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 7,
+          "label": "Stream 11",
+          "url": "https://buzznews4u.com/live/skysport5_english.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.612Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 8,
+          "label": "Stream 12",
+          "url": "https://bilibiligames.lol/bili-011/skysportsfootball-uk.php",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.716Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 9,
+          "label": "Stream 13",
+          "url": "https://restream.website/restream7/skyfootball.php",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.797Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 10,
+          "label": "Stream 14",
+          "url": "https://sports247.ru/channel/embed/sky-sports-football-uk",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.829Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 11,
+          "label": "Stream 15",
+          "url": "https://theseagreen.xyz/channel.html?id=8",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.901Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 12,
+          "label": "Stream 16",
+          "url": "https://vivtopslive.vivtops.st/channel7",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.949Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 13,
+          "label": "Stream 18",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=8dbe2d515e9131fa311353537736f8c94be9b26d&lang=en&eid=399039486&lid=2848030&ci=58&si=1",
+          "language": "English",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T18:08:13.970Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 13,
       "teams": {
         "home": {
           "name": "Stevenage",
@@ -27727,5 +29493,5 @@
       "headToHead": null
     }
   ],
-  "enrichedAt": "2026-09-10T17:49:02.886Z"
+  "enrichedAt": "2026-09-10T18:08:01.247Z"
 }
