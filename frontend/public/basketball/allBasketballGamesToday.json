@@ -1,6 +1,6 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-10T12:44:40.800Z",
+  "scrapedAt": "2026-09-10T13:15:40.480Z",
   "count": 37,
   "matches": [
     {
@@ -21,24 +21,43 @@
           "label": "Stream 2",
           "url": "https://restream.website/basketball1/trutv.php",
           "language": "English",
-          "bitrate": null
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T13:15:41.087Z",
+          "healthHttpStatus": 200
         },
         {
           "id": 2,
           "label": "Stream 3",
           "url": "https://emb.apl600.online/\nplayer/live.php?id=266105&w=700&h=480",
           "language": "Croatian",
-          "bitrate": null
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T13:15:41.096Z",
+          "healthHttpStatus": 200
         },
         {
           "id": 3,
           "label": "Stream 5",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266208&w=700&h=480",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T13:15:41.097Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 4,
+          "label": "Stream 7",
           "url": "https://abisnews.com/arena5premiumserbia.php",
           "language": "Serbian",
-          "bitrate": null
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T13:15:41.098Z",
+          "healthHttpStatus": 200
         }
       ],
-      "streamCount": 3,
+      "streamCount": 4,
       "teams": {
         "home": {
           "name": "China (W)",
@@ -3332,5 +3351,5 @@
       "headToHead": null
     }
   ],
-  "enrichedAt": "2026-09-10T12:44:40.800Z"
+  "enrichedAt": "2026-09-10T13:15:40.481Z"
 }

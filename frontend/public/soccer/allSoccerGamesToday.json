@@ -1,33 +1,22 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-10T12:17:02.472Z",
-  "count": 243,
+  "scrapedAt": "2026-09-10T13:15:10.298Z",
+  "count": 242,
   "matches": [
     {
       "id": 1,
       "title": "Elimai II – Akademiya Ontustik",
       "dateLabel": "10 September",
       "timeLabel": "12:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Kazakhstan. 1 Division",
       "iconUrl": "https://cdn.livetv903.me/img/icons/kz.gif",
       "iconAlt": "Kazakhstan. 1 Division",
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 12:00\n(Kazakhstan. 1 Division)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/ohJEwsMtVHI?autoplay=1",
-          "language": "Russian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.496Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Elimai II",
@@ -42,103 +31,101 @@
           "substitutes": []
         }
       },
-      "headToHead": null
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700067207/700025831/1_f0df3/",
+        "matches": [
+          {
+            "date": "10/09",
+            "competition": "Kazakhstan. 1 Division",
+            "homeTeam": "Elimai II",
+            "awayTeam": "Akademiya Ontustik",
+            "score": "0:1",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Elimai II",
+        "awayTeam": "Akademiya Ontustik",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "04/09",
+                "competition": "1 Division",
+                "opponent": "Zhayik",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "27/08",
+                "competition": "1 Division",
+                "opponent": "Shakhter Karagandy",
+                "score": "0:3",
+                "result": "L"
+              },
+              {
+                "date": "06/08",
+                "competition": "1 Division",
+                "opponent": "Kairat-Zhastar",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "24/07",
+                "competition": "1 Division",
+                "opponent": "Taraz",
+                "score": "0:1",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "04/09",
+                "competition": "1 Division",
+                "opponent": "Zhayik",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "27/08",
+                "competition": "1 Division",
+                "opponent": "Elimai II",
+                "score": "3:0",
+                "result": "W"
+              },
+              {
+                "date": "06/08",
+                "competition": "1 Division",
+                "opponent": "Elimai II",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "24/07",
+                "competition": "1 Division",
+                "opponent": "Elimai II",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      }
     },
     {
       "id": 2,
-      "title": "Kairat-Zhastar – Astana-2",
-      "dateLabel": "10 September",
-      "timeLabel": "12:00",
-      "isLive": true,
-      "leagueLabel": "Kazakhstan. 1 Division",
-      "iconUrl": "https://cdn.livetv903.me/img/icons/kz.gif",
-      "iconAlt": "Kazakhstan. 1 Division",
-      "sectionLabel": "10 September",
-      "isTopMatch": false,
-      "rawDescription": "10 September at 12:00\n(Kazakhstan. 1 Division)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/p8k6kOvUNP0?autoplay=1",
-          "language": "Russian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.507Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
-      "teams": {
-        "home": {
-          "name": "Kairat-Zhastar",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Astana-2",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 3,
-      "title": "Fenerbahce U-19 – Roma U-19",
-      "dateLabel": "10 September",
-      "timeLabel": "12:00",
-      "isLive": true,
-      "leagueLabel": "UEFA Youth League",
-      "iconUrl": "https://cdn.livetv903.me/img/icons/uefay.gif",
-      "iconAlt": "UEFA Youth League",
-      "sectionLabel": "10 September",
-      "isTopMatch": false,
-      "rawDescription": "10 September at 12:00\n(UEFA Youth League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266062&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.507Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://www.hlsplayer.org/play?url=https%3A%2F%2Ffbtv.fenerbahce.org%2Ffenerbahcetv.stream%2Fplaylist.m3u8",
-          "language": "Turkish",
-          "bitrate": null,
-          "healthStatus": "failed",
-          "healthCheckedAt": "2026-09-10T12:17:03.508Z",
-          "healthHttpStatus": 200,
-          "healthError": "Invalid m3u8 playlist"
-        }
-      ],
-      "streamCount": 2,
-      "teams": {
-        "home": {
-          "name": "Fenerbahce U-19",
-          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/19223.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Roma U-19",
-          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/9319.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 4,
       "title": "Kryvbas (W) – Panthers (W)",
       "dateLabel": "10 September",
       "timeLabel": "13:00",
@@ -157,7 +144,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.508Z",
+          "healthCheckedAt": "2026-09-10T13:15:10.855Z",
           "healthHttpStatus": 200
         }
       ],
@@ -179,7 +166,7 @@
       "headToHead": null
     },
     {
-      "id": 5,
+      "id": 3,
       "title": "Aktobe 2 – Turan",
       "dateLabel": "10 September",
       "timeLabel": "13:00",
@@ -198,7 +185,7 @@
           "language": "Kazakh",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.509Z",
+          "healthCheckedAt": "2026-09-10T13:15:10.864Z",
           "healthHttpStatus": 200
         }
       ],
@@ -220,7 +207,7 @@
       "headToHead": null
     },
     {
-      "id": 6,
+      "id": 4,
       "title": "Slavia Prague U-19 – Lens U-19",
       "dateLabel": "10 September",
       "timeLabel": "13:00",
@@ -250,7 +237,7 @@
       "headToHead": null
     },
     {
-      "id": 7,
+      "id": 5,
       "title": "PSV U-19 – Shakhtar Donetsk U-19",
       "dateLabel": "10 September",
       "timeLabel": "13:00",
@@ -269,7 +256,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.509Z",
+          "healthCheckedAt": "2026-09-10T13:15:10.865Z",
           "healthHttpStatus": 200
         }
       ],
@@ -396,11 +383,11 @@
       }
     },
     {
-      "id": 8,
+      "id": 6,
       "title": "Nyva Vinnytsia – Dynamo Kiev",
       "dateLabel": "10 September",
       "timeLabel": "13:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Ukraine. Cup",
       "iconUrl": "https://cdn.livetv903.me/img/icons/ua.gif",
       "iconAlt": "Ukraine. Cup",
@@ -415,7 +402,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.510Z",
+          "healthCheckedAt": "2026-09-10T13:15:10.866Z",
           "healthHttpStatus": 200
         }
       ],
@@ -437,11 +424,11 @@
       "headToHead": null
     },
     {
-      "id": 9,
+      "id": 7,
       "title": "Zaqatala – Baku Sporting",
       "dateLabel": "10 September",
       "timeLabel": "13:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Azerbaijan. 1 League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/az.gif",
       "iconAlt": "Azerbaijan. 1 League",
@@ -456,7 +443,7 @@
           "language": "Azerbaijani",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.780Z",
+          "healthCheckedAt": "2026-09-10T13:15:10.866Z",
           "healthHttpStatus": 200
         }
       ],
@@ -601,11 +588,11 @@
       }
     },
     {
-      "id": 10,
+      "id": 8,
       "title": "Sabail – Asta Mingachevir",
       "dateLabel": "10 September",
       "timeLabel": "13:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Azerbaijan. 1 League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/az.gif",
       "iconAlt": "Azerbaijan. 1 League",
@@ -620,7 +607,7 @@
           "language": "Azerbaijani",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.787Z",
+          "healthCheckedAt": "2026-09-10T13:15:10.867Z",
           "healthHttpStatus": 200
         }
       ],
@@ -765,11 +752,11 @@
       }
     },
     {
-      "id": 11,
+      "id": 9,
       "title": "North Korea U20 (W) – Costa Rica U20 (W)",
       "dateLabel": "10 September",
       "timeLabel": "14:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Women. World Cup U-20",
       "iconUrl": "https://cdn.livetv903.me/img/icons/friend.gif",
       "iconAlt": "Women. World Cup U-20",
@@ -784,7 +771,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.810Z",
+          "healthCheckedAt": "2026-09-10T13:15:10.868Z",
           "healthHttpStatus": 200
         }
       ],
@@ -806,11 +793,11 @@
       "headToHead": null
     },
     {
-      "id": 12,
+      "id": 10,
       "title": "Spain U20 (W) – New Caledonia U20 (W)",
       "dateLabel": "10 September",
       "timeLabel": "14:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Women. World Cup U-20",
       "iconUrl": "https://cdn.livetv903.me/img/icons/friend.gif",
       "iconAlt": "Women. World Cup U-20",
@@ -825,7 +812,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.819Z",
+          "healthCheckedAt": "2026-09-10T13:15:10.868Z",
           "healthHttpStatus": 200
         },
         {
@@ -835,7 +822,7 @@
           "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.821Z",
+          "healthCheckedAt": "2026-09-10T13:15:11.084Z",
           "healthHttpStatus": 200
         },
         {
@@ -845,7 +832,7 @@
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.857Z",
+          "healthCheckedAt": "2026-09-10T13:15:11.125Z",
           "healthHttpStatus": 200
         }
       ],
@@ -867,11 +854,11 @@
       "headToHead": null
     },
     {
-      "id": 13,
+      "id": 11,
       "title": "Cabrayil – Khankendi",
       "dateLabel": "10 September",
       "timeLabel": "14:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Azerbaijan. 1 League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/az.gif",
       "iconAlt": "Azerbaijan. 1 League",
@@ -886,7 +873,7 @@
           "language": "Azerbaijani",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T12:17:03.885Z",
+          "healthCheckedAt": "2026-09-10T13:15:11.126Z",
           "healthHttpStatus": 200
         }
       ],
@@ -908,11 +895,11 @@
       "headToHead": null
     },
     {
-      "id": 14,
+      "id": 12,
       "title": "Chile U20 (W) – Uruguay U20 (W)",
       "dateLabel": "10 September",
       "timeLabel": "14:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Women. Friendly Match. National Teams",
       "iconUrl": "https://cdn.livetv903.me/img/icons/friend.gif",
       "iconAlt": "Women. Friendly Match. National Teams",
@@ -938,11 +925,11 @@
       "headToHead": null
     },
     {
-      "id": 15,
+      "id": 13,
       "title": "Manchester United U-19 – Sabah U-19",
       "dateLabel": "10 September",
       "timeLabel": "14:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "UEFA Youth League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/uefay.gif",
       "iconAlt": "UEFA Youth League",
@@ -968,11 +955,11 @@
       "headToHead": null
     },
     {
-      "id": 16,
+      "id": 14,
       "title": "Como U-19 – RB Leipzig U-19",
       "dateLabel": "10 September",
       "timeLabel": "14:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "UEFA Youth League",
       "iconUrl": "https://cdn.livetv903.me/img/icons/uefay.gif",
       "iconAlt": "UEFA Youth League",
@@ -998,7 +985,7 @@
       "headToHead": null
     },
     {
-      "id": 17,
+      "id": 15,
       "title": "United – Shabab Al Ahli",
       "dateLabel": "10 September",
       "timeLabel": "14:40",
@@ -1028,7 +1015,7 @@
       "headToHead": null
     },
     {
-      "id": 18,
+      "id": 16,
       "title": "Al Jazira – Al Nasr Dubai",
       "dateLabel": "10 September",
       "timeLabel": "14:40",
@@ -1181,7 +1168,7 @@
       }
     },
     {
-      "id": 19,
+      "id": 17,
       "title": "Al-Shamal – Al-Wakrah",
       "dateLabel": "10 September",
       "timeLabel": "15:00",
@@ -1334,7 +1321,7 @@
       }
     },
     {
-      "id": 20,
+      "id": 18,
       "title": "Dinamo Samarkand – Qizilqum",
       "dateLabel": "10 September",
       "timeLabel": "15:00",
@@ -1487,7 +1474,7 @@
       }
     },
     {
-      "id": 21,
+      "id": 19,
       "title": "Andijon – Kokand",
       "dateLabel": "10 September",
       "timeLabel": "15:00",
@@ -1631,7 +1618,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 20,
       "title": "Al-Wakrah – Al-Shamal",
       "dateLabel": "10 September",
       "timeLabel": "15:00",
@@ -1784,7 +1771,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 21,
       "title": "Bayern Munich U-19 – Bodo/Glimt U-19",
       "dateLabel": "10 September",
       "timeLabel": "15:00",
@@ -1795,8 +1782,29 @@
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 15:00\n(UEFA Youth League)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=5f595b1bbade5e7c915d99f90645f4c30d4ba540&lang=en&eid=399917053&lid=2999037&ci=970&si=1",
+          "language": "Polish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T13:15:11.164Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=868a6187d6aeec65ded84bd777814c9f7b7a9027&lang=en&eid=399917053&lid=2992937&ci=970&si=1",
+          "language": "Dutch",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T13:15:11.173Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 2,
       "teams": {
         "home": {
           "name": "Bayern Munich U-19",
@@ -1814,7 +1822,7 @@
       "headToHead": null
     },
     {
-      "id": 24,
+      "id": 22,
       "title": "Tallinn – Maardu",
       "dateLabel": "10 September",
       "timeLabel": "15:30",
@@ -1967,7 +1975,7 @@
       }
     },
     {
-      "id": 25,
+      "id": 23,
       "title": "Nomme United U-21 – Tallinna Kalev",
       "dateLabel": "10 September",
       "timeLabel": "15:30",
@@ -2120,7 +2128,7 @@
       }
     },
     {
-      "id": 26,
+      "id": 24,
       "title": "Nomme Kalju U-21 – Flora U-21",
       "dateLabel": "10 September",
       "timeLabel": "15:30",
@@ -2273,7 +2281,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 25,
       "title": "Ljuboten (W) – Tiverija (W)",
       "dateLabel": "10 September",
       "timeLabel": "15:30",
@@ -2303,7 +2311,7 @@
       "headToHead": null
     },
     {
-      "id": 28,
+      "id": 26,
       "title": "Asteras – Aris",
       "dateLabel": "10 September",
       "timeLabel": "15:45",
@@ -2456,7 +2464,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 27,
       "title": "Levadiakos – Aris",
       "dateLabel": "10 September",
       "timeLabel": "15:45",
@@ -2609,7 +2617,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 28,
       "title": "Khorezm Urganch – Sogdiana",
       "dateLabel": "10 September",
       "timeLabel": "16:00",
@@ -2762,7 +2770,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 29,
       "title": "Foresters – Wiliete",
       "dateLabel": "10 September",
       "timeLabel": "16:00",
@@ -2855,7 +2863,7 @@
       }
     },
     {
-      "id": 32,
+      "id": 30,
       "title": "Teleoptik – Proleter 023",
       "dateLabel": "10 September",
       "timeLabel": "16:00",
@@ -2885,7 +2893,7 @@
       "headToHead": null
     },
     {
-      "id": 33,
+      "id": 31,
       "title": "Dinamo Tbilisi – Meshakhte",
       "dateLabel": "10 September",
       "timeLabel": "16:00",
@@ -3029,7 +3037,7 @@
       }
     },
     {
-      "id": 34,
+      "id": 32,
       "title": "Esteghlal Khuzestan – Tractor",
       "dateLabel": "10 September",
       "timeLabel": "16:30",
@@ -3182,7 +3190,7 @@
       }
     },
     {
-      "id": 35,
+      "id": 33,
       "title": "Finland U17 (W) – England U17 (W)",
       "dateLabel": "10 September",
       "timeLabel": "16:30",
@@ -3212,7 +3220,7 @@
       "headToHead": null
     },
     {
-      "id": 36,
+      "id": 34,
       "title": "Ittihad Al-Ramtha – Al-Sareeh",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -3356,7 +3364,7 @@
       }
     },
     {
-      "id": 37,
+      "id": 35,
       "title": "Super Nova – Tukums",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -3509,7 +3517,7 @@
       }
     },
     {
-      "id": 38,
+      "id": 36,
       "title": "Al Riffa – Al-Khaldiya",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -3662,7 +3670,7 @@
       }
     },
     {
-      "id": 39,
+      "id": 37,
       "title": "Al-Muharraq – Manama",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -3815,7 +3823,7 @@
       }
     },
     {
-      "id": 40,
+      "id": 38,
       "title": "China U20 (W) – Nigeria U20 (W)",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -3845,7 +3853,7 @@
       "headToHead": null
     },
     {
-      "id": 41,
+      "id": 39,
       "title": "Colombia U20 (W) – Portugal U20 (W)",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -3875,7 +3883,7 @@
       "headToHead": null
     },
     {
-      "id": 42,
+      "id": 40,
       "title": "Al-Jazeera Amman – Shabab Al-Ordon",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -4028,7 +4036,7 @@
       }
     },
     {
-      "id": 43,
+      "id": 41,
       "title": "Maccabi Jaffa – Hapoel Raanana",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -4181,7 +4189,7 @@
       }
     },
     {
-      "id": 44,
+      "id": 42,
       "title": "Maccabi Bnei Raina – Hapoel Afula",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -4334,7 +4342,7 @@
       }
     },
     {
-      "id": 45,
+      "id": 43,
       "title": "Ironi Modiin – Bnei Yehuda",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -4487,7 +4495,7 @@
       }
     },
     {
-      "id": 46,
+      "id": 44,
       "title": "Hapoel Rishon LeZion – Kiryat Yam",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -4640,7 +4648,7 @@
       }
     },
     {
-      "id": 47,
+      "id": 45,
       "title": "Hapoel Kfar Shalem – Maccabi Ahi Nazareth",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -4670,7 +4678,7 @@
       "headToHead": null
     },
     {
-      "id": 48,
+      "id": 46,
       "title": "Hapoel Kfar Saba – Maccabi Kiryat Gat",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -4700,7 +4708,7 @@
       "headToHead": null
     },
     {
-      "id": 49,
+      "id": 47,
       "title": "Levadia U-21 – Tartu Welco",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -4853,7 +4861,7 @@
       }
     },
     {
-      "id": 50,
+      "id": 48,
       "title": "Viimsi – Elva",
       "dateLabel": "10 September",
       "timeLabel": "17:00",
@@ -5006,7 +5014,7 @@
       }
     },
     {
-      "id": 51,
+      "id": 49,
       "title": "Al Ain – Al Wasl",
       "dateLabel": "10 September",
       "timeLabel": "17:15",
@@ -5159,7 +5167,7 @@
       }
     },
     {
-      "id": 52,
+      "id": 50,
       "title": "Al-Sailiya – Al-Sadd",
       "dateLabel": "10 September",
       "timeLabel": "17:15",
@@ -5312,7 +5320,7 @@
       }
     },
     {
-      "id": 53,
+      "id": 51,
       "title": "Shinnik – Torpedo M",
       "dateLabel": "10 September",
       "timeLabel": "17:30",
@@ -5465,7 +5473,7 @@
       }
     },
     {
-      "id": 54,
+      "id": 52,
       "title": "PSV – Shakhtar Donetsk",
       "dateLabel": "10 September",
       "timeLabel": "17:45",
@@ -5600,7 +5608,7 @@
       }
     },
     {
-      "id": 55,
+      "id": 53,
       "title": "Simulcast",
       "dateLabel": "10 September",
       "timeLabel": "17:45",
@@ -5630,7 +5638,7 @@
       "headToHead": null
     },
     {
-      "id": 56,
+      "id": 54,
       "title": "Fenerbahce – Roma",
       "dateLabel": "10 September",
       "timeLabel": "17:45",
@@ -5660,7 +5668,7 @@
       "headToHead": null
     },
     {
-      "id": 57,
+      "id": 55,
       "title": "Radnik – Crvena Zvezda",
       "dateLabel": "10 September",
       "timeLabel": "18:00",
@@ -5813,7 +5821,7 @@
       }
     },
     {
-      "id": 58,
+      "id": 56,
       "title": "Varberg – Norrkoeping",
       "dateLabel": "10 September",
       "timeLabel": "18:00",
@@ -5966,7 +5974,7 @@
       }
     },
     {
-      "id": 59,
+      "id": 57,
       "title": "Sundsvall – Oerebro",
       "dateLabel": "10 September",
       "timeLabel": "18:00",
@@ -6119,7 +6127,7 @@
       }
     },
     {
-      "id": 60,
+      "id": 58,
       "title": "Oestersund – Brage",
       "dateLabel": "10 September",
       "timeLabel": "18:00",
@@ -6272,7 +6280,7 @@
       }
     },
     {
-      "id": 61,
+      "id": 59,
       "title": "Falkenberg – Oester",
       "dateLabel": "10 September",
       "timeLabel": "18:00",
@@ -6425,7 +6433,7 @@
       }
     },
     {
-      "id": 62,
+      "id": 60,
       "title": "Gagra – Torpedo Kt",
       "dateLabel": "10 September",
       "timeLabel": "18:00",
@@ -6578,7 +6586,7 @@
       }
     },
     {
-      "id": 63,
+      "id": 61,
       "title": "Panathinaikos – Kifisia",
       "dateLabel": "10 September",
       "timeLabel": "19:15",
@@ -6731,7 +6739,7 @@
       }
     },
     {
-      "id": 64,
+      "id": 62,
       "title": "Cannes – Amiens",
       "dateLabel": "10 September",
       "timeLabel": "19:45",
@@ -6761,7 +6769,7 @@
       "headToHead": null
     },
     {
-      "id": 65,
+      "id": 63,
       "title": "Bayern Munich – Bodoe/Glimt",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -6791,7 +6799,7 @@
       "headToHead": null
     },
     {
-      "id": 66,
+      "id": 64,
       "title": "Slavia Prague – Lens",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -6821,7 +6829,7 @@
       "headToHead": null
     },
     {
-      "id": 67,
+      "id": 65,
       "title": "Simulcast",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -6851,7 +6859,7 @@
       "headToHead": null
     },
     {
-      "id": 68,
+      "id": 66,
       "title": "Manchester Utd – Sabah",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -6881,7 +6889,7 @@
       "headToHead": null
     },
     {
-      "id": 69,
+      "id": 67,
       "title": "Como – RB Leipzig",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -6911,7 +6919,7 @@
       "headToHead": null
     },
     {
-      "id": 70,
+      "id": 68,
       "title": "Cerro – Cerrito",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -7055,7 +7063,7 @@
       }
     },
     {
-      "id": 71,
+      "id": 69,
       "title": "Stevenage – Luton Town",
       "dateLabel": "10 September",
       "timeLabel": "20:00",
@@ -7199,7 +7207,7 @@
       }
     },
     {
-      "id": 72,
+      "id": 70,
       "title": "Estrela – Braga",
       "dateLabel": "10 September",
       "timeLabel": "20:15",
@@ -7352,7 +7360,7 @@
       }
     },
     {
-      "id": 73,
+      "id": 71,
       "title": "San Jose II – Ventura County",
       "dateLabel": "10 September",
       "timeLabel": "21:00",
@@ -7505,7 +7513,7 @@
       }
     },
     {
-      "id": 74,
+      "id": 72,
       "title": "Astillero – Univ Catolica Quito",
       "dateLabel": "10 September",
       "timeLabel": "21:00",
@@ -7568,7 +7576,7 @@
       }
     },
     {
-      "id": 75,
+      "id": 73,
       "title": "Cumbaya – Gualaceo",
       "dateLabel": "10 September",
       "timeLabel": "21:30",
@@ -7721,7 +7729,7 @@
       }
     },
     {
-      "id": 76,
+      "id": 74,
       "title": "San Antonio Cotacachi – Atletico Rojiblanco",
       "dateLabel": "10 September",
       "timeLabel": "21:30",
@@ -7865,7 +7873,7 @@
       }
     },
     {
-      "id": 77,
+      "id": 75,
       "title": "Export Sebaco – Diriangen",
       "dateLabel": "10 September",
       "timeLabel": "22:00",
@@ -8018,7 +8026,7 @@
       }
     },
     {
-      "id": 78,
+      "id": 76,
       "title": "Aurora – Municipal",
       "dateLabel": "10 September",
       "timeLabel": "22:00",
@@ -8171,7 +8179,7 @@
       }
     },
     {
-      "id": 79,
+      "id": 77,
       "title": "Patriotas Boyaca – Barranquilla",
       "dateLabel": "10 September",
       "timeLabel": "23:00",
@@ -8324,7 +8332,7 @@
       }
     },
     {
-      "id": 80,
+      "id": 78,
       "title": "Orsomarso – Tigres Bogota",
       "dateLabel": "10 September",
       "timeLabel": "23:00",
@@ -8477,7 +8485,7 @@
       }
     },
     {
-      "id": 81,
+      "id": 79,
       "title": "Solomon Islands U19 – Tahiti U19",
       "dateLabel": "10 September",
       "timeLabel": "23:00",
@@ -8507,7 +8515,7 @@
       "headToHead": null
     },
     {
-      "id": 82,
+      "id": 80,
       "title": "Vila Nova – Goias",
       "dateLabel": "10 September",
       "timeLabel": "23:30",
@@ -8660,7 +8668,7 @@
       }
     },
     {
-      "id": 83,
+      "id": 81,
       "title": "Sao Bernardo – Londrina",
       "dateLabel": "10 September",
       "timeLabel": "23:30",
@@ -8813,7 +8821,7 @@
       }
     },
     {
-      "id": 84,
+      "id": 82,
       "title": "Tomayapo – Always Ready",
       "dateLabel": "10 September",
       "timeLabel": "23:30",
@@ -8843,7 +8851,7 @@
       "headToHead": null
     },
     {
-      "id": 85,
+      "id": 83,
       "title": "Montreal Roses (W) – Toronto (W)",
       "dateLabel": "11 September",
       "timeLabel": "0:00",
@@ -8873,7 +8881,7 @@
       "headToHead": null
     },
     {
-      "id": 86,
+      "id": 84,
       "title": "Salcedo – Cibao",
       "dateLabel": "11 September",
       "timeLabel": "1:00",
@@ -9026,7 +9034,7 @@
       }
     },
     {
-      "id": 87,
+      "id": 85,
       "title": "Managua – Real Esteli",
       "dateLabel": "11 September",
       "timeLabel": "1:00",
@@ -9179,7 +9187,7 @@
       }
     },
     {
-      "id": 88,
+      "id": 86,
       "title": "Malacateco – Antigua GFC",
       "dateLabel": "11 September",
       "timeLabel": "1:00",
@@ -9332,7 +9340,7 @@
       }
     },
     {
-      "id": 89,
+      "id": 87,
       "title": "Sport Recife – Ponte Preta",
       "dateLabel": "11 September",
       "timeLabel": "1:30",
@@ -9485,7 +9493,7 @@
       }
     },
     {
-      "id": 90,
+      "id": 88,
       "title": "Independiente – Flamengo-RJ",
       "dateLabel": "11 September",
       "timeLabel": "1:30",
@@ -9629,7 +9637,7 @@
       }
     },
     {
-      "id": 91,
+      "id": 89,
       "title": "Cienciano – MC Torque",
       "dateLabel": "11 September",
       "timeLabel": "1:30",
@@ -9659,7 +9667,7 @@
       "headToHead": null
     },
     {
-      "id": 92,
+      "id": 90,
       "title": "Bolivar – Independiente Petrolero",
       "dateLabel": "11 September",
       "timeLabel": "1:30",
@@ -9803,7 +9811,7 @@
       }
     },
     {
-      "id": 93,
+      "id": 91,
       "title": "Millonarios – Deportivo Cali",
       "dateLabel": "11 September",
       "timeLabel": "2:00",
@@ -9956,7 +9964,7 @@
       }
     },
     {
-      "id": 94,
+      "id": 92,
       "title": "Alebrijes – Durango",
       "dateLabel": "11 September",
       "timeLabel": "2:00",
@@ -10100,7 +10108,7 @@
       }
     },
     {
-      "id": 95,
+      "id": 93,
       "title": "Marathon – Alajuelense",
       "dateLabel": "11 September",
       "timeLabel": "2:06",
@@ -10235,7 +10243,7 @@
       }
     },
     {
-      "id": 96,
+      "id": 94,
       "title": "New Zealand U19 – New Caledonia U19",
       "dateLabel": "11 September",
       "timeLabel": "3:00",
@@ -10265,7 +10273,7 @@
       "headToHead": null
     },
     {
-      "id": 97,
+      "id": 95,
       "title": "Xelaju MC – Coban Imperial",
       "dateLabel": "11 September",
       "timeLabel": "3:00",
@@ -10418,17 +10426,17 @@
       }
     },
     {
-      "id": 98,
+      "id": 96,
       "title": "Pumas – Leon",
       "dateLabel": "11 September",
-      "timeLabel": "4:00",
+      "timeLabel": "4:05",
       "isLive": false,
       "leagueLabel": "Mexico. Liga MX",
       "iconUrl": "https://cdn.livetv903.me/img/icons/mx.gif",
       "iconAlt": "Mexico. Liga MX",
       "sectionLabel": "11 September",
       "isTopMatch": false,
-      "rawDescription": "11 September at 4:00\n(Mexico. Liga MX)",
+      "rawDescription": "11 September at 4:05\n(Mexico. Liga MX)",
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -10571,7 +10579,7 @@
       }
     },
     {
-      "id": 99,
+      "id": 97,
       "title": "LA Firpo – Olimpia",
       "dateLabel": "11 September",
       "timeLabel": "4:06",
@@ -10601,7 +10609,7 @@
       "headToHead": null
     },
     {
-      "id": 100,
+      "id": 98,
       "title": "Kolos Kovalivka (W) – Kharkiv (W)",
       "dateLabel": "11 September",
       "timeLabel": "9:00",
@@ -10631,7 +10639,7 @@
       "headToHead": null
     },
     {
-      "id": 101,
+      "id": 99,
       "title": "SeaSters (W) – Ladomir (W)",
       "dateLabel": "11 September",
       "timeLabel": "10:00",
@@ -10661,7 +10669,7 @@
       "headToHead": null
     },
     {
-      "id": 102,
+      "id": 100,
       "title": "Palmerston Rovers – Hellenic",
       "dateLabel": "11 September",
       "timeLabel": "10:00",
@@ -10805,7 +10813,7 @@
       }
     },
     {
-      "id": 103,
+      "id": 101,
       "title": "Prospect United – Parramatta",
       "dateLabel": "11 September",
       "timeLabel": "10:00",
@@ -10949,7 +10957,7 @@
       }
     },
     {
-      "id": 104,
+      "id": 102,
       "title": "Slovan Liberec B – Pardubice B",
       "dateLabel": "11 September",
       "timeLabel": "10:00",
@@ -11102,7 +11110,7 @@
       }
     },
     {
-      "id": 105,
+      "id": 103,
       "title": "UCSA – Chernihiv",
       "dateLabel": "11 September",
       "timeLabel": "10:30",
@@ -11132,7 +11140,7 @@
       "headToHead": null
     },
     {
-      "id": 106,
+      "id": 104,
       "title": "Essendon Royals – Keilor Park",
       "dateLabel": "11 September",
       "timeLabel": "10:30",
@@ -11276,7 +11284,7 @@
       }
     },
     {
-      "id": 107,
+      "id": 105,
       "title": "Box Hill United (W) – Bulleen Lions (W)",
       "dateLabel": "11 September",
       "timeLabel": "10:30",
@@ -11306,7 +11314,7 @@
       "headToHead": null
     },
     {
-      "id": 108,
+      "id": 106,
       "title": "Vissel Kobe – Kashima Antlers",
       "dateLabel": "11 September",
       "timeLabel": "11:00",
@@ -11459,7 +11467,7 @@
       }
     },
     {
-      "id": 109,
+      "id": 107,
       "title": "Kyoto Sanga – Kashiwa Reysol",
       "dateLabel": "11 September",
       "timeLabel": "11:00",
@@ -11612,7 +11620,7 @@
       }
     },
     {
-      "id": 110,
+      "id": 108,
       "title": "Oakleigh Cannons – South Melbourne",
       "dateLabel": "11 September",
       "timeLabel": "11:00",
@@ -11765,7 +11773,7 @@
       }
     },
     {
-      "id": 111,
+      "id": 109,
       "title": "Adelaide City – West Torrens Birkalla",
       "dateLabel": "11 September",
       "timeLabel": "11:00",
@@ -11918,7 +11926,160 @@
       }
     },
     {
-      "id": 112,
+      "id": 110,
+      "title": "Kolos – Karpaty",
+      "dateLabel": "11 September",
+      "timeLabel": "11:00",
+      "isLive": false,
+      "leagueLabel": "Ukraine. Premier League",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/ua.gif",
+      "iconAlt": "Ukraine. Premier League",
+      "sectionLabel": "11 September",
+      "isTopMatch": false,
+      "rawDescription": "11 September at 11:00\n(Ukraine. Premier League)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Kolos",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/33394.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Karpaty",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/96.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000332/700000341/1_06fe3/",
+        "matches": [
+          {
+            "date": "09/09",
+            "competition": "Ukraine. Cup",
+            "homeTeam": "Kolos",
+            "awayTeam": "Karpaty",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          },
+          {
+            "date": "01/03",
+            "competition": "Ukraine. Premier League",
+            "homeTeam": "Karpaty",
+            "awayTeam": "Kolos",
+            "score": "0:1",
+            "result": "W",
+            "winner": "away"
+          },
+          {
+            "date": "16/08",
+            "competition": "Ukraine. Premier League",
+            "homeTeam": "Kolos",
+            "awayTeam": "Karpaty",
+            "score": "1:1",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "Kolos",
+        "awayTeam": "Karpaty",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "09/09",
+                "competition": "Cup",
+                "opponent": "Karpaty",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "05/09",
+                "competition": "Premier League",
+                "opponent": "Kryvbas",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "28/08",
+                "competition": "Premier League",
+                "opponent": "Obolon",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "22/08",
+                "competition": "Cup",
+                "opponent": "UCSA",
+                "score": "3:0",
+                "result": "W"
+              },
+              {
+                "date": "16/08",
+                "competition": "Premier League",
+                "opponent": "Dynamo Kyiv",
+                "score": "1:2",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 3,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "09/09",
+                "competition": "Cup",
+                "opponent": "Kolos",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "05/09",
+                "competition": "Premier League",
+                "opponent": "Kryvbas",
+                "score": "2:2",
+                "result": "D"
+              },
+              {
+                "date": "28/08",
+                "competition": "Premier League",
+                "opponent": "Kolos",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "22/08",
+                "competition": "Cup",
+                "opponent": "UCSA",
+                "score": "3:0",
+                "result": "W"
+              },
+              {
+                "date": "16/08",
+                "competition": "Premier League",
+                "opponent": "Dynamo Kyiv",
+                "score": "1:2",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 3,
+              "L": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 111,
       "title": "Daejeon Korail – Ulsan Citizen",
       "dateLabel": "11 September",
       "timeLabel": "11:00",
@@ -12071,7 +12232,7 @@
       }
     },
     {
-      "id": 113,
+      "id": 112,
       "title": "Casuarina – Port Darwin",
       "dateLabel": "11 September",
       "timeLabel": "12:00",
@@ -12224,7 +12385,7 @@
       }
     },
     {
-      "id": 114,
+      "id": 113,
       "title": "Batyr – Tobol 2",
       "dateLabel": "11 September",
       "timeLabel": "12:00",
@@ -12254,7 +12415,7 @@
       "headToHead": null
     },
     {
-      "id": 115,
+      "id": 114,
       "title": "Tampines Rovers – Balestier Khalsa",
       "dateLabel": "11 September",
       "timeLabel": "12:30",
@@ -12407,7 +12568,7 @@
       }
     },
     {
-      "id": 116,
+      "id": 115,
       "title": "Zhayik – Shakhter Karaganda",
       "dateLabel": "11 September",
       "timeLabel": "13:00",
@@ -12437,7 +12598,7 @@
       "headToHead": null
     },
     {
-      "id": 117,
+      "id": 116,
       "title": "Kaspiy 2 – Arys",
       "dateLabel": "11 September",
       "timeLabel": "13:00",
@@ -12467,7 +12628,7 @@
       "headToHead": null
     },
     {
-      "id": 118,
+      "id": 117,
       "title": "Van – BKMA",
       "dateLabel": "11 September",
       "timeLabel": "13:00",
@@ -12620,7 +12781,7 @@
       }
     },
     {
-      "id": 119,
+      "id": 118,
       "title": "Imisli – Neftchi",
       "dateLabel": "11 September",
       "timeLabel": "13:30",
@@ -12773,160 +12934,7 @@
       }
     },
     {
-      "id": 120,
-      "title": "Kolos – Karpaty",
-      "dateLabel": "11 September",
-      "timeLabel": "13:30",
-      "isLive": false,
-      "leagueLabel": "Ukraine. Premier League",
-      "iconUrl": "https://cdn.livetv903.me/img/icons/ua.gif",
-      "iconAlt": "Ukraine. Premier League",
-      "sectionLabel": "11 September",
-      "isTopMatch": false,
-      "rawDescription": "11 September at 13:30\n(Ukraine. Premier League)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Kolos",
-          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/33394.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Karpaty",
-          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/96.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700000332/700000341/1_06fe3/",
-        "matches": [
-          {
-            "date": "09/09",
-            "competition": "Ukraine. Cup",
-            "homeTeam": "Kolos",
-            "awayTeam": "Karpaty",
-            "score": "0:0",
-            "result": "D",
-            "winner": "draw"
-          },
-          {
-            "date": "01/03",
-            "competition": "Ukraine. Premier League",
-            "homeTeam": "Karpaty",
-            "awayTeam": "Kolos",
-            "score": "0:1",
-            "result": "W",
-            "winner": "away"
-          },
-          {
-            "date": "16/08",
-            "competition": "Ukraine. Premier League",
-            "homeTeam": "Kolos",
-            "awayTeam": "Karpaty",
-            "score": "1:1",
-            "result": "D",
-            "winner": "draw"
-          }
-        ],
-        "homeTeam": "Kolos",
-        "awayTeam": "Karpaty",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "09/09",
-                "competition": "Cup",
-                "opponent": "Karpaty",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "05/09",
-                "competition": "Premier League",
-                "opponent": "Kryvbas",
-                "score": "2:2",
-                "result": "D"
-              },
-              {
-                "date": "28/08",
-                "competition": "Premier League",
-                "opponent": "Obolon",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "22/08",
-                "competition": "Cup",
-                "opponent": "UCSA",
-                "score": "3:0",
-                "result": "W"
-              },
-              {
-                "date": "16/08",
-                "competition": "Premier League",
-                "opponent": "Dynamo Kyiv",
-                "score": "1:2",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 3,
-              "L": 1
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "09/09",
-                "competition": "Cup",
-                "opponent": "Kolos",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "05/09",
-                "competition": "Premier League",
-                "opponent": "Kryvbas",
-                "score": "2:2",
-                "result": "D"
-              },
-              {
-                "date": "28/08",
-                "competition": "Premier League",
-                "opponent": "Kolos",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "22/08",
-                "competition": "Cup",
-                "opponent": "UCSA",
-                "score": "3:0",
-                "result": "W"
-              },
-              {
-                "date": "16/08",
-                "competition": "Premier League",
-                "opponent": "Dynamo Kyiv",
-                "score": "1:2",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 3,
-              "L": 1
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 121,
+      "id": 119,
       "title": "MOIK – Simal",
       "dateLabel": "11 September",
       "timeLabel": "13:30",
@@ -12956,7 +12964,7 @@
       "headToHead": null
     },
     {
-      "id": 122,
+      "id": 120,
       "title": "Gazalkent – Yaypan",
       "dateLabel": "11 September",
       "timeLabel": "14:00",
@@ -12986,7 +12994,7 @@
       "headToHead": null
     },
     {
-      "id": 123,
+      "id": 121,
       "title": "Tanzania (W) U-20 – Canada (W) U-20",
       "dateLabel": "11 September",
       "timeLabel": "14:00",
@@ -13016,7 +13024,7 @@
       "headToHead": null
     },
     {
-      "id": 124,
+      "id": 122,
       "title": "England U20 (W) – Brazil U20 (W)",
       "dateLabel": "11 September",
       "timeLabel": "14:00",
@@ -13046,7 +13054,7 @@
       "headToHead": null
     },
     {
-      "id": 125,
+      "id": 123,
       "title": "Tanzania U20 (W) – Canada U20 (W)",
       "dateLabel": "11 September",
       "timeLabel": "14:00",
@@ -13076,7 +13084,7 @@
       "headToHead": null
     },
     {
-      "id": 126,
+      "id": 124,
       "title": "Taraz – Khan Tengri",
       "dateLabel": "11 September",
       "timeLabel": "14:00",
@@ -13106,7 +13114,7 @@
       "headToHead": null
     },
     {
-      "id": 127,
+      "id": 125,
       "title": "Hatta – Al Dhafra",
       "dateLabel": "11 September",
       "timeLabel": "14:40",
@@ -13259,7 +13267,7 @@
       }
     },
     {
-      "id": 128,
+      "id": 126,
       "title": "Khor Fakkan – Bani Yas",
       "dateLabel": "11 September",
       "timeLabel": "14:40",
@@ -13412,7 +13420,7 @@
       }
     },
     {
-      "id": 129,
+      "id": 127,
       "title": "Ogre United – Liepaja",
       "dateLabel": "11 September",
       "timeLabel": "15:00",
@@ -13565,7 +13573,7 @@
       }
     },
     {
-      "id": 130,
+      "id": 128,
       "title": "Sobemap – Enugu Rangers",
       "dateLabel": "11 September",
       "timeLabel": "15:00",
@@ -13628,7 +13636,7 @@
       }
     },
     {
-      "id": 131,
+      "id": 129,
       "title": "Al-Gharafa – Lusail",
       "dateLabel": "11 September",
       "timeLabel": "15:00",
@@ -13772,7 +13780,7 @@
       }
     },
     {
-      "id": 132,
+      "id": 130,
       "title": "Lokomotiv Tashkent – Mashal",
       "dateLabel": "11 September",
       "timeLabel": "15:00",
@@ -13925,7 +13933,7 @@
       }
     },
     {
-      "id": 133,
+      "id": 131,
       "title": "Buxoro – Navbahor Namangan",
       "dateLabel": "11 September",
       "timeLabel": "15:00",
@@ -14078,7 +14086,7 @@
       }
     },
     {
-      "id": 134,
+      "id": 132,
       "title": "Farul – UTA Arad",
       "dateLabel": "11 September",
       "timeLabel": "16:00",
@@ -14231,7 +14239,7 @@
       }
     },
     {
-      "id": 135,
+      "id": 133,
       "title": "Riga – Auda",
       "dateLabel": "11 September",
       "timeLabel": "16:00",
@@ -14384,7 +14392,7 @@
       }
     },
     {
-      "id": 136,
+      "id": 134,
       "title": "Krylia Sovetov – Rodina",
       "dateLabel": "11 September",
       "timeLabel": "16:00",
@@ -14414,7 +14422,7 @@
       "headToHead": null
     },
     {
-      "id": 137,
+      "id": 135,
       "title": "Al-Hussein – Al-Baqa`a",
       "dateLabel": "11 September",
       "timeLabel": "16:00",
@@ -14567,7 +14575,7 @@
       }
     },
     {
-      "id": 138,
+      "id": 136,
       "title": "Ararat-Armenia – Syunik",
       "dateLabel": "11 September",
       "timeLabel": "16:00",
@@ -14597,7 +14605,7 @@
       "headToHead": null
     },
     {
-      "id": 139,
+      "id": 137,
       "title": "Al Quadisiya – Al-Ettifaq",
       "dateLabel": "11 September",
       "timeLabel": "16:25",
@@ -14750,7 +14758,7 @@
       }
     },
     {
-      "id": 140,
+      "id": 138,
       "title": "Primorje – Bilje",
       "dateLabel": "11 September",
       "timeLabel": "16:30",
@@ -14903,7 +14911,7 @@
       }
     },
     {
-      "id": 141,
+      "id": 139,
       "title": "Al Faisaly – Al-Ittihad Jeddah",
       "dateLabel": "11 September",
       "timeLabel": "16:45",
@@ -15047,7 +15055,7 @@
       }
     },
     {
-      "id": 142,
+      "id": 140,
       "title": "Argentina U20 (W) – Mexico U20 (W)",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -15077,7 +15085,7 @@
       "headToHead": null
     },
     {
-      "id": 143,
+      "id": 141,
       "title": "Poland U20 (W) – Benin U20 (W)",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -15107,7 +15115,7 @@
       "headToHead": null
     },
     {
-      "id": 144,
+      "id": 142,
       "title": "APR – Aigles du Congo",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -15242,7 +15250,7 @@
       }
     },
     {
-      "id": 145,
+      "id": 143,
       "title": "Polonia Warsaw – Polonia Bytom",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -15386,7 +15394,7 @@
       }
     },
     {
-      "id": 146,
+      "id": 144,
       "title": "Hobro – Vejle",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -15530,7 +15538,7 @@
       }
     },
     {
-      "id": 147,
+      "id": 145,
       "title": "Pisek – Dynamo Ceske Budejovice",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -15674,7 +15682,7 @@
       }
     },
     {
-      "id": 148,
+      "id": 146,
       "title": "Rakow – Motor",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -15827,7 +15835,7 @@
       }
     },
     {
-      "id": 149,
+      "id": 147,
       "title": "Al-Najma – East Riffa",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -15980,7 +15988,7 @@
       }
     },
     {
-      "id": 150,
+      "id": 148,
       "title": "A`Ali – Malkiya",
       "dateLabel": "11 September",
       "timeLabel": "17:00",
@@ -16133,7 +16141,7 @@
       }
     },
     {
-      "id": 151,
+      "id": 149,
       "title": "Al Wahda – Sharjah",
       "dateLabel": "11 September",
       "timeLabel": "17:15",
@@ -16286,7 +16294,7 @@
       }
     },
     {
-      "id": 152,
+      "id": 150,
       "title": "Ajman – Kalba",
       "dateLabel": "11 September",
       "timeLabel": "17:15",
@@ -16439,7 +16447,7 @@
       }
     },
     {
-      "id": 153,
+      "id": 151,
       "title": "Al-Rayyan – Al-Ahli Doha",
       "dateLabel": "11 September",
       "timeLabel": "17:15",
@@ -16592,7 +16600,7 @@
       }
     },
     {
-      "id": 154,
+      "id": 152,
       "title": "Werder Bremen (W) – Hamburg (W)",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -16622,7 +16630,7 @@
       "headToHead": null
     },
     {
-      "id": 155,
+      "id": 153,
       "title": "Zeleznicar Pancevo – Macva",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -16775,7 +16783,7 @@
       }
     },
     {
-      "id": 156,
+      "id": 154,
       "title": "Rapid Vienna II – First Vienna",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -16928,7 +16936,7 @@
       }
     },
     {
-      "id": 157,
+      "id": 155,
       "title": "Amstetten – Austria Vienna II",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -17081,7 +17089,7 @@
       }
     },
     {
-      "id": 158,
+      "id": 156,
       "title": "Admira – KSV 1919",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -17234,7 +17242,7 @@
       }
     },
     {
-      "id": 159,
+      "id": 157,
       "title": "Simulcast",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -17264,7 +17272,7 @@
       "headToHead": null
     },
     {
-      "id": 160,
+      "id": 158,
       "title": "Skenderbeu – Tirana",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -17417,7 +17425,7 @@
       }
     },
     {
-      "id": 161,
+      "id": 159,
       "title": "Nuremberg – Hanover 96",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -17570,7 +17578,7 @@
       }
     },
     {
-      "id": 162,
+      "id": 160,
       "title": "Darmstadt – Arminia",
       "dateLabel": "11 September",
       "timeLabel": "17:30",
@@ -17723,7 +17731,7 @@
       }
     },
     {
-      "id": 163,
+      "id": 161,
       "title": "Viktoria Cologne – Hansa Rostock",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -17876,7 +17884,7 @@
       }
     },
     {
-      "id": 164,
+      "id": 162,
       "title": "Haecken – Mjaellby",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -18029,7 +18037,7 @@
       }
     },
     {
-      "id": 165,
+      "id": 163,
       "title": "Besiktas – BB Erzurumspor",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -18059,7 +18067,7 @@
       "headToHead": null
     },
     {
-      "id": 166,
+      "id": 164,
       "title": "Vendsyssel – Aarhus Fremad",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -18194,7 +18202,7 @@
       }
     },
     {
-      "id": 167,
+      "id": 165,
       "title": "Copenhagen – Horsens",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -18347,7 +18355,7 @@
       }
     },
     {
-      "id": 168,
+      "id": 166,
       "title": "Empoli – Arezzo",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -18377,7 +18385,7 @@
       "headToHead": null
     },
     {
-      "id": 169,
+      "id": 167,
       "title": "Sariyer – Bandirmaspor",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -18521,7 +18529,7 @@
       }
     },
     {
-      "id": 170,
+      "id": 168,
       "title": "AEL Limassol – Nea Salamina",
       "dateLabel": "11 September",
       "timeLabel": "18:00",
@@ -18674,7 +18682,7 @@
       }
     },
     {
-      "id": 171,
+      "id": 169,
       "title": "Minsk – Slavia Mazyr",
       "dateLabel": "11 September",
       "timeLabel": "18:10",
@@ -18827,7 +18835,7 @@
       }
     },
     {
-      "id": 172,
+      "id": 170,
       "title": "Al-Faisaly Amman – Doqarah",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -18857,7 +18865,7 @@
       "headToHead": null
     },
     {
-      "id": 173,
+      "id": 171,
       "title": "AB Argir – B68 Toftir",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -19010,7 +19018,7 @@
       }
     },
     {
-      "id": 174,
+      "id": 172,
       "title": "Stade Nyonnais – Xamax",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -19163,7 +19171,7 @@
       }
     },
     {
-      "id": 175,
+      "id": 173,
       "title": "Rapperswil-Jona – Yverdon",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -19316,7 +19324,7 @@
       }
     },
     {
-      "id": 176,
+      "id": 174,
       "title": "Stade Ls Ouchy – Wil",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -19469,7 +19477,7 @@
       }
     },
     {
-      "id": 177,
+      "id": 175,
       "title": "Ried – RB Salzburg",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -19622,7 +19630,7 @@
       }
     },
     {
-      "id": 178,
+      "id": 176,
       "title": "Stellenbosch – Sekhukhune United",
       "dateLabel": "11 September",
       "timeLabel": "18:30",
@@ -19775,7 +19783,7 @@
       }
     },
     {
-      "id": 179,
+      "id": 177,
       "title": "Torreense – Leixoes",
       "dateLabel": "11 September",
       "timeLabel": "18:45",
@@ -19928,7 +19936,7 @@
       }
     },
     {
-      "id": 180,
+      "id": 178,
       "title": "Al Ahli Jeddah – Al-Hazem",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -20081,7 +20089,7 @@
       }
     },
     {
-      "id": 181,
+      "id": 179,
       "title": "Cherno More – Lokomotiv Sofia",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -20234,7 +20242,7 @@
       }
     },
     {
-      "id": 182,
+      "id": 180,
       "title": "Miercurea Ciuc – Dinamo Bucharest",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -20387,7 +20395,7 @@
       }
     },
     {
-      "id": 183,
+      "id": 181,
       "title": "Gent II – Dender EH",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -20540,7 +20548,7 @@
       }
     },
     {
-      "id": 184,
+      "id": 182,
       "title": "Beerschot – Lierse",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -20693,7 +20701,142 @@
       }
     },
     {
-      "id": 185,
+      "id": 183,
+      "title": "Celik Zenica – Radnik Bijeljina",
+      "dateLabel": "11 September",
+      "timeLabel": "19:00",
+      "isLive": false,
+      "leagueLabel": "Bosnia and Herzegovina. Premier League",
+      "iconUrl": "https://cdn.livetv903.me/img/icons/ba.gif",
+      "iconAlt": "Bosnia and Herzegovina. Premier League",
+      "sectionLabel": "11 September",
+      "isTopMatch": false,
+      "rawDescription": "11 September at 19:00\n(Bosnia and Herzegovina. Premier League)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Celik Zenica",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/12632.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Radnik Bijeljina",
+          "logoUrl": "https://cdn.livetv903.me/img/teams/fullsize/ods/6583.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700009542/700009538/1_5520a/",
+        "matches": [
+          {
+            "date": "19/02",
+            "competition": "Bosnia and Herzegovina. Cup",
+            "homeTeam": "Celik Zenica",
+            "awayTeam": "Radnik Bijeljina",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "Celik Zenica",
+        "awayTeam": "Radnik Bijeljina",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "Premier League",
+                "opponent": "BSK Banja Luka",
+                "score": "2:3",
+                "result": "L"
+              },
+              {
+                "date": "01/09",
+                "competition": "Premier League",
+                "opponent": "Sloga Doboj",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "28/08",
+                "competition": "Premier League",
+                "opponent": "Velez",
+                "score": "3:0",
+                "result": "W"
+              },
+              {
+                "date": "23/08",
+                "competition": "Premier League",
+                "opponent": "Borac Banja Luka",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "14/08",
+                "competition": "Premier League",
+                "opponent": "Siroki Brijeg",
+                "score": "1:2",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "05/09",
+                "competition": "Premier League",
+                "opponent": "BSK Banja Luka",
+                "score": "2:3",
+                "result": "L"
+              },
+              {
+                "date": "01/09",
+                "competition": "Premier League",
+                "opponent": "Sloga Doboj",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "28/08",
+                "competition": "Premier League",
+                "opponent": "Celik Zenica",
+                "score": "0:3",
+                "result": "L"
+              },
+              {
+                "date": "23/08",
+                "competition": "Premier League",
+                "opponent": "Borac Banja Luka",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "14/08",
+                "competition": "Premier League",
+                "opponent": "Celik Zenica",
+                "score": "2:1",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 184,
       "title": "Tabor Sezana – Dravinja",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -20846,7 +20989,7 @@
       }
     },
     {
-      "id": 186,
+      "id": 185,
       "title": "Rodez – Grenoble",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -20999,7 +21142,7 @@
       }
     },
     {
-      "id": 187,
+      "id": 186,
       "title": "Nancy – Reims",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -21143,7 +21286,7 @@
       }
     },
     {
-      "id": 188,
+      "id": 187,
       "title": "Montpellier – Pau",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -21296,7 +21439,7 @@
       }
     },
     {
-      "id": 189,
+      "id": 188,
       "title": "Dijon – Laval",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -21440,7 +21583,7 @@
       }
     },
     {
-      "id": 190,
+      "id": 189,
       "title": "Clermont – Boulogne",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -21593,7 +21736,7 @@
       }
     },
     {
-      "id": 191,
+      "id": 190,
       "title": "Cruz Azul Hidalgo – Piratas",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -21623,7 +21766,7 @@
       "headToHead": null
     },
     {
-      "id": 192,
+      "id": 191,
       "title": "AZ – Willem II",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -21776,7 +21919,7 @@
       }
     },
     {
-      "id": 193,
+      "id": 192,
       "title": "Spartak Subotica – Napredak",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -21806,7 +21949,7 @@
       "headToHead": null
     },
     {
-      "id": 194,
+      "id": 193,
       "title": "Heracles Almelo – Jong AZ",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -21950,7 +22093,7 @@
       }
     },
     {
-      "id": 195,
+      "id": 194,
       "title": "Helmond Sport – Jong PSV",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -22103,7 +22246,7 @@
       }
     },
     {
-      "id": 196,
+      "id": 195,
       "title": "Emmen – De Graafschap",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -22256,7 +22399,7 @@
       }
     },
     {
-      "id": 197,
+      "id": 196,
       "title": "Eindhoven – Dordrecht",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -22409,7 +22552,7 @@
       }
     },
     {
-      "id": 198,
+      "id": 197,
       "title": "VVV-Venlo – TOP Oss",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -22562,7 +22705,7 @@
       }
     },
     {
-      "id": 199,
+      "id": 198,
       "title": "NAC Breda – Jong Utrecht",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -22715,7 +22858,7 @@
       }
     },
     {
-      "id": 200,
+      "id": 199,
       "title": "Simulcast",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -22745,7 +22888,7 @@
       "headToHead": null
     },
     {
-      "id": 201,
+      "id": 200,
       "title": "MVV Maastricht – Almere City",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -22898,7 +23041,7 @@
       }
     },
     {
-      "id": 202,
+      "id": 201,
       "title": "Jong Ajax – RKC Waalwijk",
       "dateLabel": "11 September",
       "timeLabel": "19:00",
@@ -23042,7 +23185,7 @@
       }
     },
     {
-      "id": 203,
+      "id": 202,
       "title": "Etoile Carouge – Winterthur",
       "dateLabel": "11 September",
       "timeLabel": "19:15",
@@ -23072,7 +23215,7 @@
       "headToHead": null
     },
     {
-      "id": 204,
+      "id": 203,
       "title": "Brinje Grosuplje – Nafta",
       "dateLabel": "11 September",
       "timeLabel": "19:15",
@@ -23225,7 +23368,7 @@
       }
     },
     {
-      "id": 205,
+      "id": 204,
       "title": "Union Berlin – Schalke 04",
       "dateLabel": "11 September",
       "timeLabel": "19:30",
@@ -23369,7 +23512,7 @@
       }
     },
     {
-      "id": 206,
+      "id": 205,
       "title": "Burgos – Ceuta",
       "dateLabel": "11 September",
       "timeLabel": "19:30",
@@ -23513,7 +23656,7 @@
       }
     },
     {
-      "id": 207,
+      "id": 206,
       "title": "Wacker – Voitsberg",
       "dateLabel": "11 September",
       "timeLabel": "19:30",
@@ -23543,7 +23686,7 @@
       "headToHead": null
     },
     {
-      "id": 208,
+      "id": 207,
       "title": "Greenock Morton – Livingston",
       "dateLabel": "11 September",
       "timeLabel": "19:30",
@@ -23696,7 +23839,7 @@
       }
     },
     {
-      "id": 209,
+      "id": 208,
       "title": "Wisla Krakow – Jagiellonia",
       "dateLabel": "11 September",
       "timeLabel": "19:30",
@@ -23849,7 +23992,7 @@
       }
     },
     {
-      "id": 210,
+      "id": 209,
       "title": "Deportivo de La Coruna (W) – Real Madrid (W)",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -23879,7 +24022,7 @@
       "headToHead": null
     },
     {
-      "id": 211,
+      "id": 210,
       "title": "Mechelen – Anderlecht",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -24032,7 +24175,7 @@
       }
     },
     {
-      "id": 212,
+      "id": 211,
       "title": "Wexford – Finn Harps",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -24185,7 +24328,7 @@
       }
     },
     {
-      "id": 213,
+      "id": 212,
       "title": "UCD – Athlone Town",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -24338,7 +24481,7 @@
       }
     },
     {
-      "id": 214,
+      "id": 213,
       "title": "Kerry – Bray Wanderers",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -24491,7 +24634,7 @@
       }
     },
     {
-      "id": 215,
+      "id": 214,
       "title": "Cork City – Cobh Ramblers",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -24644,7 +24787,7 @@
       }
     },
     {
-      "id": 216,
+      "id": 215,
       "title": "Rennes – Marseille",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -24797,7 +24940,7 @@
       }
     },
     {
-      "id": 217,
+      "id": 216,
       "title": "Shelbourne – Derry City",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -24950,7 +25093,7 @@
       }
     },
     {
-      "id": 218,
+      "id": 217,
       "title": "Galway United – Bohemian",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -25103,7 +25246,7 @@
       }
     },
     {
-      "id": 219,
+      "id": 218,
       "title": "Drogheda United – Sligo Rovers",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -25256,7 +25399,7 @@
       }
     },
     {
-      "id": 220,
+      "id": 219,
       "title": "Waterford – Dundalk",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -25409,7 +25552,7 @@
       }
     },
     {
-      "id": 221,
+      "id": 220,
       "title": "Puszcza – LKS Lodz",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -25562,7 +25705,7 @@
       }
     },
     {
-      "id": 222,
+      "id": 221,
       "title": "Venezia – Fiorentina",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -25715,7 +25858,7 @@
       }
     },
     {
-      "id": 223,
+      "id": 222,
       "title": "Stenhousemuir – Hearts",
       "dateLabel": "11 September",
       "timeLabel": "19:45",
@@ -25745,7 +25888,7 @@
       "headToHead": null
     },
     {
-      "id": 224,
+      "id": 223,
       "title": "Salernitana – Potenza",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -25898,7 +26041,7 @@
       }
     },
     {
-      "id": 225,
+      "id": 224,
       "title": "Casarano – Barletta",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -26051,7 +26194,7 @@
       }
     },
     {
-      "id": 226,
+      "id": 225,
       "title": "Audace Cerignola – Giugliano",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -26204,7 +26347,7 @@
       }
     },
     {
-      "id": 227,
+      "id": 226,
       "title": "Altamura – Bari",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -26234,7 +26377,7 @@
       "headToHead": null
     },
     {
-      "id": 228,
+      "id": 227,
       "title": "Sevilla – Valencia",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -26387,7 +26530,7 @@
       }
     },
     {
-      "id": 229,
+      "id": 228,
       "title": "St Patrick`s Athletic – Shamrock Rovers",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -26540,7 +26683,7 @@
       }
     },
     {
-      "id": 230,
+      "id": 229,
       "title": "Magpies – Hound Dogs",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -26693,7 +26836,7 @@
       }
     },
     {
-      "id": 231,
+      "id": 230,
       "title": "West Ham United – Wrexham",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -26723,7 +26866,7 @@
       "headToHead": null
     },
     {
-      "id": 232,
+      "id": 231,
       "title": "Pisa – Virtus Entella",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -26858,7 +27001,7 @@
       }
     },
     {
-      "id": 233,
+      "id": 232,
       "title": "Benevento – Hellas Verona",
       "dateLabel": "11 September",
       "timeLabel": "20:00",
@@ -26888,7 +27031,7 @@
       "headToHead": null
     },
     {
-      "id": 234,
+      "id": 233,
       "title": "Cuenca Juniors – Vinotinto",
       "dateLabel": "11 September",
       "timeLabel": "20:30",
@@ -27041,7 +27184,7 @@
       }
     },
     {
-      "id": 235,
+      "id": 234,
       "title": "Academica – Benfica B",
       "dateLabel": "11 September",
       "timeLabel": "20:45",
@@ -27185,7 +27328,7 @@
       }
     },
     {
-      "id": 236,
+      "id": 235,
       "title": "Cajamarca – Juan Pablo II",
       "dateLabel": "11 September",
       "timeLabel": "21:00",
@@ -27338,7 +27481,7 @@
       }
     },
     {
-      "id": 237,
+      "id": 236,
       "title": "Newell`s Old Boys – Velez Sarsfield",
       "dateLabel": "11 September",
       "timeLabel": "21:00",
@@ -27491,7 +27634,7 @@
       }
     },
     {
-      "id": 238,
+      "id": 237,
       "title": "LDU Portoviejo – CD Santo Domingo",
       "dateLabel": "11 September",
       "timeLabel": "22:30",
@@ -27635,7 +27778,7 @@
       }
     },
     {
-      "id": 239,
+      "id": 238,
       "title": "Ituzaingo – Comunicaciones",
       "dateLabel": "11 September",
       "timeLabel": "23:00",
@@ -27788,7 +27931,7 @@
       }
     },
     {
-      "id": 240,
+      "id": 239,
       "title": "Papua New Guinea U19 – Fiji U19",
       "dateLabel": "11 September",
       "timeLabel": "23:00",
@@ -27818,7 +27961,7 @@
       "headToHead": null
     },
     {
-      "id": 241,
+      "id": 240,
       "title": "SA Bulo Bulo – Aurora",
       "dateLabel": "11 September",
       "timeLabel": "23:00",
@@ -27971,7 +28114,7 @@
       }
     },
     {
-      "id": 242,
+      "id": 241,
       "title": "Defensa y Justicia – Gimnasia Mendoza",
       "dateLabel": "11 September",
       "timeLabel": "23:15",
@@ -28106,7 +28249,7 @@
       }
     },
     {
-      "id": 243,
+      "id": 242,
       "title": "Racing Louisville (W) – Gotham (W)",
       "dateLabel": "11 September",
       "timeLabel": "23:30",
@@ -28136,5 +28279,5 @@
       "headToHead": null
     }
   ],
-  "enrichedAt": "2026-09-10T12:17:02.473Z"
+  "enrichedAt": "2026-09-10T13:15:10.299Z"
 }

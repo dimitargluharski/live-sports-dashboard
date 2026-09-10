@@ -6,12 +6,15 @@ BACKEND_DIR="$ROOT_DIR/backend"
 FRONTEND_PUBLIC_DIR="$ROOT_DIR/frontend/public"
 BACKEND_ENV_FILE="$BACKEND_DIR/.env"
 FRONTEND_JSON_REL="frontend/public/soccer/allSoccerGamesToday.json"
+FRONTEND_JSON_BASKETBALL_REL="frontend/public/basketball/allBasketballGamesToday.json"
 LOCK_DIR="$BACKEND_DIR/.cache/hydrate.lock"
 LOCK_PID_FILE="$LOCK_DIR/pid"
 
 RAW_JSON="$BACKEND_DIR/.cache/allSoccerGamesToday.raw.json"
 ENRICHED_JSON="$BACKEND_DIR/public/soccer/allSoccerGamesToday.json"
 FRONTEND_JSON="$FRONTEND_PUBLIC_DIR/soccer/allSoccerGamesToday.json"
+ENRICHED_JSON_BASKETBALL="$BACKEND_DIR/public/basketball/allBasketballGamesToday.json"
+FRONTEND_JSON_BASKETBALL="$FRONTEND_PUBLIC_DIR/basketball/allBasketballGamesToday.json"
 
 WATCH_MODE=0
 INTERVAL_SECONDS=900
@@ -161,20 +164,20 @@ git_sync_json() {
 
   resolve_git_branch
 
-  git -C "$ROOT_DIR" add "$FRONTEND_JSON_REL"
+  git -C "$ROOT_DIR" add "$FRONTEND_JSON_REL" "$FRONTEND_JSON_BASKETBALL_REL"
 
-  if git -C "$ROOT_DIR" diff --cached --quiet -- "$FRONTEND_JSON_REL"; then
-    echo "Git sync: no staged diff for $FRONTEND_JSON_REL"
+  if git -C "$ROOT_DIR" diff --cached --quiet -- "$FRONTEND_JSON_REL" "$FRONTEND_JSON_BASKETBALL_REL"; then
+    echo "Git sync: no staged diff for $FRONTEND_JSON_REL or $FRONTEND_JSON_BASKETBALL_REL"
     return 0
   fi
 
-  local commit_msg="chore(feed): refresh allSoccerGamesToday.json ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+  local commit_msg="chore(feed): refresh soccer & basketball feeds ($(date -u '+%Y-%m-%d %H:%M UTC'))"
   git -C "$ROOT_DIR" commit -m "$commit_msg"
   if ! git -C "$ROOT_DIR" push "$GIT_REMOTE" "$GIT_BRANCH"; then
     echo "ERROR: Git sync failed while pushing $GIT_BRANCH to $GIT_REMOTE."
     return 1
   fi
-  echo "Git sync complete: pushed $FRONTEND_JSON_REL to $GIT_REMOTE/$GIT_BRANCH"
+  echo "Git sync complete: pushed $FRONTEND_JSON_REL and $FRONTEND_JSON_BASKETBALL_REL to $GIT_REMOTE/$GIT_BRANCH"
 }
 
 json_changed_meaningfully() {
@@ -250,35 +253,68 @@ NODE
 run_once() {
   local did_update=0
 
-  printf "\n[1/5] Running unified scraper (streams + logos + lineups + sanitize)...\n"
-  (
+  printf "\n[1/7] Running soccer scraper (streams + logos + lineups + sanitize)...\n"
+  if ! (
     cd "$BACKEND_DIR"
     node scripts/scrape-soccer-games-today.js
-  )
-
-  if [[ ! -f "$ENRICHED_JSON" ]]; then
-    echo "ERROR: Expected enriched JSON not found: $ENRICHED_JSON"
-    exit 1
+  ); then
+    echo "WARNING: Soccer scraper failed this cycle. Skipping soccer update."
   fi
 
-  printf "\n[2/4] Checking stream links...\n"
-  (
-    cd "$BACKEND_DIR"
-    node scripts/stream-health-check.js
-  )
+  if [[ ! -f "$ENRICHED_JSON" ]]; then
+    echo "WARNING: Expected enriched JSON not found: $ENRICHED_JSON. Skipping soccer steps this cycle."
+  else
+    printf "\n[2/7] Checking soccer stream links...\n"
+    if ! (
+      cd "$BACKEND_DIR"
+      node scripts/stream-health-check.js
+    ); then
+      echo "WARNING: Soccer stream health check failed this cycle."
+    fi
+  fi
 
-  printf "\n[3/4] Checking for meaningful JSON changes...\n"
-  if json_changed_meaningfully "$FRONTEND_JSON" "$ENRICHED_JSON"; then
+  printf "\n[3/7] Running basketball scraper...\n"
+  if ! (
+    cd "$BACKEND_DIR"
+    node scripts/scrape-basketball-games-today.js
+  ); then
+    echo "WARNING: Basketball scraper failed this cycle. Skipping basketball update."
+  fi
+
+  if [[ -f "$ENRICHED_JSON_BASKETBALL" ]]; then
+    printf "\n[4/7] Checking basketball stream links...\n"
+    if ! (
+      cd "$BACKEND_DIR"
+      FEED_ENRICHED_OUTPUT="public/basketball/allBasketballGamesToday.json" node scripts/stream-health-check.js
+    ); then
+      echo "WARNING: Basketball stream health check failed this cycle."
+    fi
+  else
+    echo "WARNING: Expected basketball JSON not found: $ENRICHED_JSON_BASKETBALL. Skipping basketball stream check."
+  fi
+
+  printf "\n[5/7] Checking for meaningful JSON changes...\n"
+  if [[ -f "$ENRICHED_JSON" ]] && json_changed_meaningfully "$FRONTEND_JSON" "$ENRICHED_JSON"; then
     mkdir -p "$(dirname "$FRONTEND_JSON")"
     cp "$ENRICHED_JSON" "$FRONTEND_JSON.$$.tmp"
     mv -f "$FRONTEND_JSON.$$.tmp" "$FRONTEND_JSON"
     echo "Updated frontend JSON: $FRONTEND_JSON"
     did_update=1
   else
-    echo "No meaningful data changes. Frontend JSON unchanged."
+    echo "No meaningful soccer data changes. Frontend JSON unchanged."
   fi
 
-  printf "\n[4/5] Running post-hydration health monitor...\n"
+  if [[ -f "$ENRICHED_JSON_BASKETBALL" ]] && json_changed_meaningfully "$FRONTEND_JSON_BASKETBALL" "$ENRICHED_JSON_BASKETBALL"; then
+    mkdir -p "$(dirname "$FRONTEND_JSON_BASKETBALL")"
+    cp "$ENRICHED_JSON_BASKETBALL" "$FRONTEND_JSON_BASKETBALL.$$.tmp"
+    mv -f "$FRONTEND_JSON_BASKETBALL.$$.tmp" "$FRONTEND_JSON_BASKETBALL"
+    echo "Updated frontend JSON: $FRONTEND_JSON_BASKETBALL"
+    did_update=1
+  else
+    echo "No meaningful basketball data changes. Frontend JSON unchanged."
+  fi
+
+  printf "\n[6/7] Running post-hydration health monitor (soccer)...\n"
   if ! (
     cd "$BACKEND_DIR"
     node scripts/health-check-monitor.js
@@ -291,7 +327,7 @@ run_once() {
     return 1
   fi
 
-  printf "\n[5/5] Done.\n"
+  printf "\n[7/7] Done.\n"
 }
 
 if [[ "$WATCH_MODE" -eq 1 ]]; then
@@ -299,7 +335,9 @@ if [[ "$WATCH_MODE" -eq 1 ]]; then
   while true; do
     echo "----------------------------------------"
     echo "Cycle started: $(date '+%Y-%m-%d %H:%M:%S')"
-    run_once
+    if ! run_once; then
+      echo "WARNING: Cycle failed. Will retry next interval."
+    fi
     echo "Next cycle in $INTERVAL_SECONDS seconds..."
     sleep "$INTERVAL_SECONDS"
   done

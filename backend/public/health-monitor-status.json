@@ -1,6 +1,6 @@
 {
-  "status": "failed",
-  "checkedAt": "2026-09-10T12:17:05.638Z",
+  "status": "healthy",
+  "checkedAt": "2026-09-10T13:15:42.484Z",
   "checks": {
     "website": {
       "status": "ok",
@@ -14,16 +14,16 @@
       "files": {
         "backend": {
           "exists": true,
-          "modifiedAt": "2026-09-10T12:17:04.947Z",
-          "ageMinutes": 0,
-          "bytes": 823767,
+          "modifiedAt": "2026-09-10T13:15:11.484Z",
+          "ageMinutes": 0.5,
+          "bytes": 827974,
           "validJson": true
         },
         "frontend": {
           "exists": true,
-          "modifiedAt": "2026-09-10T12:17:05.207Z",
+          "modifiedAt": "2026-09-10T13:15:41.998Z",
           "ageMinutes": 0,
-          "bytes": 823767,
+          "bytes": 827974,
           "validJson": true
         }
       }
@@ -31,18 +31,17 @@
     "scraper": {
       "status": "ok",
       "jobStatus": "success",
-      "finishedAt": "2026-09-10T12:17:02.484Z",
-      "ageMinutes": 0.1,
-      "count": 243,
+      "finishedAt": "2026-09-10T13:15:10.311Z",
+      "ageMinutes": 0.5,
+      "count": 242,
       "error": null
     },
     "streams": {
-      "status": "failed",
-      "total": 15,
-      "healthy": 14,
-      "failed": 1,
+      "status": "ok",
+      "total": 13,
+      "healthy": 13,
+      "failed": 0,
       "unknown": 0
     }
-  },
-  "error": "One or more health checks failed"
+  }
 }
