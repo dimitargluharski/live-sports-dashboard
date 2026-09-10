@@ -1,6 +1,6 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-10T19:41:22.487Z",
+  "scrapedAt": "2026-09-10T20:00:17.575Z",
   "count": 32,
   "matches": [
     {
@@ -23,7 +23,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:41:23.170Z",
+          "healthCheckedAt": "2026-09-10T20:00:18.309Z",
           "healthHttpStatus": 200
         }
       ],
@@ -42,7 +42,112 @@
           "substitutes": []
         }
       },
-      "headToHead": null
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700018617/700000809/3_d7524/",
+        "matches": [
+          {
+            "date": "10/09",
+            "competition": "Germany. BBL-Cup",
+            "homeTeam": "Bremerhaven",
+            "awayTeam": "Braunschweig",
+            "score": "67:87",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Bremerhaven",
+        "awayTeam": "Braunschweig",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "30/05",
+                "competition": "ProA",
+                "opponent": "Phoenix Hagen",
+                "score": "65:85",
+                "result": "L"
+              },
+              {
+                "date": "28/05",
+                "competition": "ProA",
+                "opponent": "Phoenix Hagen",
+                "score": "85:75",
+                "result": "W"
+              },
+              {
+                "date": "26/05",
+                "competition": "ProA",
+                "opponent": "Phoenix Hagen",
+                "score": "78:83",
+                "result": "L"
+              },
+              {
+                "date": "23/05",
+                "competition": "ProA",
+                "opponent": "Phoenix Hagen",
+                "score": "87:80",
+                "result": "W"
+              },
+              {
+                "date": "20/05",
+                "competition": "ProA",
+                "opponent": "Phoenix Hagen",
+                "score": "80:85",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "30/05",
+                "competition": "ProA",
+                "opponent": "Phoenix Hagen",
+                "score": "65:85",
+                "result": "L"
+              },
+              {
+                "date": "28/05",
+                "competition": "ProA",
+                "opponent": "Bremerhaven",
+                "score": "75:85",
+                "result": "L"
+              },
+              {
+                "date": "26/05",
+                "competition": "ProA",
+                "opponent": "Phoenix Hagen",
+                "score": "78:83",
+                "result": "L"
+              },
+              {
+                "date": "23/05",
+                "competition": "ProA",
+                "opponent": "Bremerhaven",
+                "score": "80:87",
+                "result": "L"
+              },
+              {
+                "date": "20/05",
+                "competition": "ProA",
+                "opponent": "Phoenix Hagen",
+                "score": "80:85",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 0,
+              "L": 5
+            }
+          }
+        }
+      }
     },
     {
       "id": 2,
@@ -64,7 +169,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:41:23.180Z",
+          "healthCheckedAt": "2026-09-10T20:00:18.319Z",
           "healthHttpStatus": 200
         },
         {
@@ -74,7 +179,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:41:23.180Z",
+          "healthCheckedAt": "2026-09-10T20:00:18.320Z",
           "healthHttpStatus": 200
         },
         {
@@ -84,7 +189,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:41:23.181Z",
+          "healthCheckedAt": "2026-09-10T20:00:18.321Z",
           "healthHttpStatus": 200
         },
         {
@@ -94,7 +199,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:41:23.182Z",
+          "healthCheckedAt": "2026-09-10T20:00:18.321Z",
           "healthHttpStatus": 200
         },
         {
@@ -104,7 +209,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:41:23.182Z",
+          "healthCheckedAt": "2026-09-10T20:00:18.322Z",
           "healthHttpStatus": 200
         },
         {
@@ -114,7 +219,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:41:23.183Z",
+          "healthCheckedAt": "2026-09-10T20:00:18.322Z",
           "healthHttpStatus": 200
         },
         {
@@ -124,7 +229,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:41:23.183Z",
+          "healthCheckedAt": "2026-09-10T20:00:18.323Z",
           "healthHttpStatus": 200
         },
         {
@@ -134,7 +239,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T19:41:23.350Z",
+          "healthCheckedAt": "2026-09-10T20:00:18.528Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3006,5 +3111,5 @@
       "headToHead": null
     }
   ],
-  "enrichedAt": "2026-09-10T19:41:22.488Z"
+  "enrichedAt": "2026-09-10T20:00:17.575Z"
 }
