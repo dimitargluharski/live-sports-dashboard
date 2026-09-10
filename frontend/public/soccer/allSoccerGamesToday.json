@@ -1,6 +1,6 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-09-10T20:18:36.138Z",
+  "scrapedAt": "2026-09-10T20:37:26.118Z",
   "count": 186,
   "matches": [
     {
@@ -15,69 +15,8 @@
       "sectionLabel": "10 September",
       "isTopMatch": false,
       "rawDescription": "10 September at 19:15\n(Greece. Super League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://playfa.st/ch.php?id=24",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:36.760Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 3",
-          "url": "https://shd247.world/frame11.html",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:36.770Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 3,
-          "label": "Stream 4",
-          "url": "https://theseagreen.xyz/channel.html?id=19",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:36.771Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 4,
-          "label": "Stream 5",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5V2L9xj8uHCyvqimYMPWep",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:36.772Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 5,
-          "label": "Stream 6",
-          "url": "https://buzznews4u.com/live/ote2_greece.php",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:36.772Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 6,
-          "label": "Stream 7",
-          "url": "https://buzznews4u.com/live/ch2_greece.php",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:36.773Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 6,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Panathinaikos",
@@ -146,6 +85,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700000292/700018933/1_8aeb2/",
         "matches": [
           {
+            "date": "10/09",
+            "competition": "Greece. Super League",
+            "homeTeam": "Panathinaikos",
+            "awayTeam": "Kifisia",
+            "score": "3:1",
+            "result": "W",
+            "winner": "home"
+          },
+          {
             "date": "01/02",
             "competition": "Greece. Super League",
             "homeTeam": "Panathinaikos",
@@ -161,15 +109,6 @@
             "awayTeam": "Kifisia",
             "score": "1:0",
             "result": "W",
-            "winner": "home"
-          },
-          {
-            "date": "14/09",
-            "competition": "Greece. Super League",
-            "homeTeam": "Kifisia",
-            "awayTeam": "Panathinaikos",
-            "score": "3:2",
-            "result": "L",
             "winner": "home"
           }
         ],
@@ -317,7 +256,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:36.773Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.707Z",
           "healthHttpStatus": 200
         },
         {
@@ -327,7 +266,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:36.774Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.716Z",
           "healthHttpStatus": 200
         },
         {
@@ -337,7 +276,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:37.182Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.717Z",
           "healthHttpStatus": 200
         },
         {
@@ -347,7 +286,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:37.190Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.718Z",
           "healthHttpStatus": 200
         },
         {
@@ -357,7 +296,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:37.294Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.719Z",
           "healthHttpStatus": 200
         },
         {
@@ -367,7 +306,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:37.401Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.719Z",
           "healthHttpStatus": 200
         },
         {
@@ -377,7 +316,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:37.411Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.720Z",
           "healthHttpStatus": 200
         },
         {
@@ -387,7 +326,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:37.454Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.720Z",
           "healthHttpStatus": 200
         },
         {
@@ -397,7 +336,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:37.486Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.926Z",
           "healthHttpStatus": 200
         },
         {
@@ -407,7 +346,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:37.493Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.944Z",
           "healthHttpStatus": 200
         },
         {
@@ -417,7 +356,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:37.861Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.981Z",
           "healthHttpStatus": 200
         },
         {
@@ -427,7 +366,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:37.934Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.989Z",
           "healthHttpStatus": 200
         },
         {
@@ -437,7 +376,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.090Z",
+          "healthCheckedAt": "2026-09-10T20:37:26.990Z",
           "healthHttpStatus": 200
         },
         {
@@ -447,7 +386,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.175Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.073Z",
           "healthHttpStatus": 200
         },
         {
@@ -457,7 +396,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.176Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.166Z",
           "healthHttpStatus": 200
         },
         {
@@ -467,7 +406,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.177Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.248Z",
           "healthHttpStatus": 200
         },
         {
@@ -477,7 +416,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.221Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.335Z",
           "healthHttpStatus": 200
         },
         {
@@ -487,7 +426,7 @@
           "language": "Russian",
           "bitrate": "3000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.255Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.407Z",
           "healthHttpStatus": 200
         },
         {
@@ -497,7 +436,7 @@
           "language": "Russian",
           "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.255Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.411Z",
           "healthHttpStatus": 200
         },
         {
@@ -507,7 +446,7 @@
           "language": "Serbian",
           "bitrate": "1551kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.282Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.476Z",
           "healthHttpStatus": 200
         },
         {
@@ -517,7 +456,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.297Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.488Z",
           "healthHttpStatus": 200
         },
         {
@@ -527,7 +466,7 @@
           "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.305Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.529Z",
           "healthHttpStatus": 200
         },
         {
@@ -537,7 +476,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.346Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.604Z",
           "healthHttpStatus": 200
         },
         {
@@ -547,7 +486,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.421Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.605Z",
           "healthHttpStatus": 200
         },
         {
@@ -557,7 +496,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.425Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.696Z",
           "healthHttpStatus": 200
         },
         {
@@ -567,7 +506,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.442Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.703Z",
           "healthHttpStatus": 200
         },
         {
@@ -577,7 +516,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.449Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.780Z",
           "healthHttpStatus": 200
         },
         {
@@ -587,7 +526,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.518Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.781Z",
           "healthHttpStatus": 200
         },
         {
@@ -597,7 +536,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.518Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.781Z",
           "healthHttpStatus": 200
         },
         {
@@ -607,7 +546,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.525Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.856Z",
           "healthHttpStatus": 200
         },
         {
@@ -617,7 +556,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.525Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.869Z",
           "healthHttpStatus": 200
         },
         {
@@ -627,7 +566,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.614Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.876Z",
           "healthHttpStatus": 200
         },
         {
@@ -637,7 +576,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.625Z",
+          "healthCheckedAt": "2026-09-10T20:37:27.904Z",
           "healthHttpStatus": 200
         },
         {
@@ -647,7 +586,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.641Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.081Z",
           "healthHttpStatus": 200
         },
         {
@@ -657,7 +596,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.651Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.148Z",
           "healthHttpStatus": 200
         },
         {
@@ -667,7 +606,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.684Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.157Z",
           "healthHttpStatus": 200
         },
         {
@@ -677,7 +616,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.725Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.207Z",
           "healthHttpStatus": 200
         },
         {
@@ -687,7 +626,7 @@
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.738Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.288Z",
           "healthHttpStatus": 200
         },
         {
@@ -697,7 +636,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.790Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.304Z",
           "healthHttpStatus": 200
         },
         {
@@ -707,7 +646,7 @@
           "language": "Portuguese",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.855Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.373Z",
           "healthHttpStatus": 200
         },
         {
@@ -717,7 +656,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:38.999Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.422Z",
           "healthHttpStatus": 200
         },
         {
@@ -727,7 +666,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.024Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.517Z",
           "healthHttpStatus": 200
         }
       ],
@@ -814,7 +753,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.105Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.647Z",
           "healthHttpStatus": 200
         },
         {
@@ -824,7 +763,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.119Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.676Z",
           "healthHttpStatus": 200
         },
         {
@@ -834,7 +773,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.134Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.715Z",
           "healthHttpStatus": 200
         },
         {
@@ -844,7 +783,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.181Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.715Z",
           "healthHttpStatus": 200
         },
         {
@@ -854,7 +793,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.182Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.736Z",
           "healthHttpStatus": 200
         },
         {
@@ -864,7 +803,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.197Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.739Z",
           "healthHttpStatus": 200
         },
         {
@@ -874,7 +813,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.211Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.752Z",
           "healthHttpStatus": 200
         },
         {
@@ -884,7 +823,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.233Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.756Z",
           "healthHttpStatus": 200
         },
         {
@@ -894,7 +833,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.270Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.809Z",
           "healthHttpStatus": 200
         },
         {
@@ -904,7 +843,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.295Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.810Z",
           "healthHttpStatus": 200
         },
         {
@@ -914,7 +853,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.384Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.888Z",
           "healthHttpStatus": 200
         },
         {
@@ -924,191 +863,201 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.388Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.920Z",
           "healthHttpStatus": 200
         },
         {
           "id": 13,
           "label": "Stream 18",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=242328&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "5000kbps",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267291&w=700&h=480",
+          "language": null,
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.443Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.923Z",
           "healthHttpStatus": 200
         },
         {
           "id": 14,
           "label": "Stream 20",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=264635&w=700&h=480",
-          "language": "Greek",
-          "bitrate": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=242328&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.465Z",
+          "healthCheckedAt": "2026-09-10T20:37:28.972Z",
           "healthHttpStatus": 200
         },
         {
           "id": 15,
           "label": "Stream 22",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266226&w=700&h=480",
-          "language": "French",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=264635&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.465Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.000Z",
           "healthHttpStatus": 200
         },
         {
           "id": 16,
           "label": "Stream 24",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266886&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266226&w=700&h=480",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.553Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.000Z",
           "healthHttpStatus": 200
         },
         {
           "id": 17,
           "label": "Stream 26",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266888&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266886&w=700&h=480",
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.553Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.076Z",
           "healthHttpStatus": 200
         },
         {
           "id": 18,
           "label": "Stream 28",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267116&w=700&h=480",
-          "language": "French",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266888&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.561Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.076Z",
           "healthHttpStatus": 200
         },
         {
           "id": 19,
-          "label": "Stream 31",
-          "url": "https://abisnews.com/arenasport7hr.php",
-          "language": "Croatian",
+          "label": "Stream 30",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267116&w=700&h=480",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.589Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.124Z",
           "healthHttpStatus": 200
         },
         {
           "id": 20,
-          "label": "Stream 32",
-          "url": "https://livesports247.click/sx/skyaustria5de.php",
-          "language": "German",
+          "label": "Stream 33",
+          "url": "https://abisnews.com/arenasport7hr.php",
+          "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.641Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.132Z",
           "healthHttpStatus": 200
         },
         {
           "id": 21,
-          "label": "Stream 33",
-          "url": "https://playfa.st/ch.php?id=43",
-          "language": "Czech",
+          "label": "Stream 34",
+          "url": "https://livesports247.click/sx/skyaustria5de.php",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.642Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.160Z",
           "healthHttpStatus": 200
         },
         {
           "id": 22,
-          "label": "Stream 34",
-          "url": "https://playfa.st/ch.php?id=45",
+          "label": "Stream 35",
+          "url": "https://playfa.st/ch.php?id=43",
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.645Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.167Z",
           "healthHttpStatus": 200
         },
         {
           "id": 23,
-          "label": "Stream 35",
-          "url": "https://playfa.st/ch.php?id=50",
-          "language": "French",
+          "label": "Stream 36",
+          "url": "https://playfa.st/ch.php?id=45",
+          "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.681Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.200Z",
           "healthHttpStatus": 200
         },
         {
           "id": 24,
-          "label": "Stream 36",
-          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWhzJE4HdeUNfCSvVtwPw",
-          "language": "Spanish",
+          "label": "Stream 37",
+          "url": "https://playfa.st/ch.php?id=50",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.753Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.224Z",
           "healthHttpStatus": 200
         },
         {
           "id": 25,
-          "label": "Stream 37",
-          "url": "https://buzznews4u.com/live/ch5_german.php",
-          "language": "German",
+          "label": "Stream 38",
+          "url": "https://www.vdocity.com/1/_VkS5FxyQndeYQc1y5TWhzJE4HdeUNfCSvVtwPw",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.765Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.289Z",
           "healthHttpStatus": 200
         },
         {
           "id": 26,
-          "label": "Stream 38",
+          "label": "Stream 39",
           "url": "https://buzznews4u.com/live/canalfoot_france.php",
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.870Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.304Z",
           "healthHttpStatus": 200
         },
         {
           "id": 27,
-          "label": "Stream 39",
-          "url": "https://abisnews.com/arena4premiumserbia.php",
-          "language": "Serbian",
+          "label": "Stream 40",
+          "url": "https://buzznews4u.com/live/ch5_german.php",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.874Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.368Z",
           "healthHttpStatus": 200
         },
         {
           "id": 28,
-          "label": "Stream 40",
-          "url": "https://buzznews4u.com/live/skyaustria5_german.php",
-          "language": "German",
+          "label": "Stream 41",
+          "url": "https://abisnews.com/arena4premiumserbia.php",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.883Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.393Z",
           "healthHttpStatus": 200
         },
         {
           "id": 29,
           "label": "Stream 42",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=350b2044f1c9e87e18d8fbda1bcc456c22cf9296&lang=en&eid=399041293&lid=2844729&ci=7&si=1",
-          "language": "Russian",
-          "bitrate": "8000kbps",
+          "url": "https://buzznews4u.com/live/skyaustria5_german.php",
+          "language": "German",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:39.965Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.403Z",
           "healthHttpStatus": 200
         },
         {
           "id": 30,
           "label": "Stream 44",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=350b2044f1c9e87e18d8fbda1bcc456c22cf9296&lang=en&eid=399041293&lid=2844729&ci=7&si=1",
+          "language": "Russian",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T20:37:29.472Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 31,
+          "label": "Stream 46",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=9231f38e71a85ad24b4c11a5e360992e30c916ed&lang=en&eid=399041293&lid=2993473&ci=7&si=1",
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.031Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.566Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 30,
+      "streamCount": 31,
       "teams": {
         "home": {
           "name": "Slavia Prague",
@@ -1195,7 +1144,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.062Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.567Z",
           "healthHttpStatus": 200
         },
         {
@@ -1205,7 +1154,7 @@
           "language": "Russian",
           "bitrate": "955kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.130Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.648Z",
           "healthHttpStatus": 200
         },
         {
@@ -1215,7 +1164,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.137Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.665Z",
           "healthHttpStatus": 200
         },
         {
@@ -1225,7 +1174,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.154Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.676Z",
           "healthHttpStatus": 200
         },
         {
@@ -1235,7 +1184,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.210Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.724Z",
           "healthHttpStatus": 200
         },
         {
@@ -1245,7 +1194,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.221Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.740Z",
           "healthHttpStatus": 200
         },
         {
@@ -1255,7 +1204,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.245Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.742Z",
           "healthHttpStatus": 200
         },
         {
@@ -1265,7 +1214,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.246Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.755Z",
           "healthHttpStatus": 200
         },
         {
@@ -1275,7 +1224,7 @@
           "language": "Georgian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.283Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.761Z",
           "healthHttpStatus": 200
         },
         {
@@ -1285,7 +1234,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.361Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.826Z",
           "healthHttpStatus": 200
         },
         {
@@ -1295,7 +1244,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.384Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.852Z",
           "healthHttpStatus": 200
         },
         {
@@ -1305,7 +1254,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.444Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.917Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1342,555 +1291,545 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266032&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266031&w=700&h=480",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.453Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.923Z",
           "healthHttpStatus": 200
         },
         {
           "id": 2,
           "label": "Stream 4",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266031&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.465Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 3,
-          "label": "Stream 6",
           "url": "https://emb.apl600.online/\nplayer/live.php?id=266955&w=700&h=480",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.477Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.945Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 4,
-          "label": "Stream 9",
+          "id": 3,
+          "label": "Stream 7",
           "url": "https://abisnews.com/maxtnt1.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.478Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.961Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 5,
-          "label": "Stream 10",
+          "id": 4,
+          "label": "Stream 8",
           "url": "https://abisnews.com/paramount3.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.534Z",
+          "healthCheckedAt": "2026-09-10T20:37:29.997Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 6,
-          "label": "Stream 11",
+          "id": 5,
+          "label": "Stream 9",
           "url": "https://abisnews.com/tnt4k.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.550Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.001Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 7,
-          "label": "Stream 12",
+          "id": 6,
+          "label": "Stream 10",
           "url": "https://bilibiligames.lol/bili-011/tntsports1-uk.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.569Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.003Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 7,
+          "label": "Stream 11",
+          "url": "https://iplayer.is/india/07e97573bd8253cefeba561a5c833566",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T20:37:30.027Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
           "label": "Stream 13",
-          "url": "https://iplayer.is/india/07e97573bd8253cefeba561a5c833566",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.574Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 9,
-          "label": "Stream 15",
           "url": "https://playfa.st/ch.php?id=1",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.586Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.052Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 10,
-          "label": "Stream 16",
+          "id": 9,
+          "label": "Stream 14",
           "url": "https://restream.website/restream7/tnt1.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.618Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.073Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 11,
-          "label": "Stream 17",
+          "id": 10,
+          "label": "Stream 15",
           "url": "https://shd247.world/frame22.html",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.625Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.074Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 12,
-          "label": "Stream 18",
+          "id": 11,
+          "label": "Stream 16",
           "url": "https://sports247.ru/channel/embed/tnt-sport-1-uk",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.626Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.096Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 13,
-          "label": "Stream 19",
+          "id": 12,
+          "label": "Stream 17",
           "url": "https://theseagreen.xyz/channel.html?id=6",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.645Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.127Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 14,
-          "label": "Stream 20",
+          "id": 13,
+          "label": "Stream 18",
           "url": "https://vivtopslive.vivtops.st/channel1",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.818Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.273Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 15,
-          "label": "Stream 21",
+          "id": 14,
+          "label": "Stream 19",
           "url": "https://buzznews4u.com/live/bt1_english.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.821Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.289Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 16,
-          "label": "Stream 22",
+          "id": 15,
+          "label": "Stream 20",
           "url": "https://buzznews4u.com/live/viaplay1_english.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.821Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.289Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 17,
-          "label": "Stream 23",
+          "id": 16,
+          "label": "Stream 21",
           "url": "https://buzznews4u.com/live/ch1_english.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.837Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.290Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 17,
+          "label": "Stream 22",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266102&w=700&h=480",
+          "language": "Serbian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T20:37:30.340Z",
           "healthHttpStatus": 200
         },
         {
           "id": 18,
           "label": "Stream 24",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266102&w=700&h=480",
-          "language": "Serbian",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266122&w=700&h=480",
+          "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.884Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.357Z",
           "healthHttpStatus": 200
         },
         {
           "id": 19,
           "label": "Stream 26",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266122&w=700&h=480",
-          "language": "Czech",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266866&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.885Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.416Z",
           "healthHttpStatus": 200
         },
         {
           "id": 20,
           "label": "Stream 28",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266866&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266867&w=700&h=480",
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.960Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.431Z",
           "healthHttpStatus": 200
         },
         {
           "id": 21,
           "label": "Stream 30",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266867&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267035&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:40.971Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.492Z",
           "healthHttpStatus": 200
         },
         {
           "id": 22,
           "label": "Stream 32",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267035&w=700&h=480",
-          "language": "Greek",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=267240&w=700&h=480",
+          "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.001Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.507Z",
           "healthHttpStatus": 200
         },
         {
           "id": 23,
           "label": "Stream 34",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=267240&w=700&h=480",
-          "language": "Arabic",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=211069&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.041Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.508Z",
           "healthHttpStatus": 200
         },
         {
           "id": 24,
           "label": "Stream 36",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=211069&w=700&h=480",
-          "language": "German",
-          "bitrate": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=232729&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": "3000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.049Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.569Z",
           "healthHttpStatus": 200
         },
         {
           "id": 25,
           "label": "Stream 38",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=232729&w=700&h=480",
-          "language": "Ukrainian",
-          "bitrate": "3000kbps",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=237115&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2700kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.073Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.584Z",
           "healthHttpStatus": 200
         },
         {
           "id": 26,
           "label": "Stream 40",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=237115&w=700&h=480",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=242325&w=700&h=480",
           "language": "Russian",
-          "bitrate": "2700kbps",
+          "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.119Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.584Z",
           "healthHttpStatus": 200
         },
         {
           "id": 27,
           "label": "Stream 42",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=242325&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "5000kbps",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=260259&w=700&h=480",
+          "language": "Serbian",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.346Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.669Z",
           "healthHttpStatus": 200
         },
         {
           "id": 28,
           "label": "Stream 44",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=260259&w=700&h=480",
-          "language": "Serbian",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=265923&w=700&h=480",
+          "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.361Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.669Z",
           "healthHttpStatus": 200
         },
         {
           "id": 29,
           "label": "Stream 46",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=265923&w=700&h=480",
-          "language": null,
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266117&w=700&h=480",
+          "language": "Slovenian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.444Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.729Z",
           "healthHttpStatus": 200
         },
         {
           "id": 30,
           "label": "Stream 48",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266117&w=700&h=480",
-          "language": "Slovenian",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266242&w=700&h=480",
+          "language": "Azerbaijani",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.447Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.749Z",
           "healthHttpStatus": 200
         },
         {
           "id": 31,
           "label": "Stream 50",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266242&w=700&h=480",
-          "language": "Azerbaijani",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266250&w=700&h=480",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.453Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.755Z",
           "healthHttpStatus": 200
         },
         {
           "id": 32,
           "label": "Stream 52",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266250&w=700&h=480",
-          "language": "Spanish",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266732&w=700&h=480",
+          "language": "Danish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.455Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.813Z",
           "healthHttpStatus": 200
         },
         {
           "id": 33,
           "label": "Stream 54",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266732&w=700&h=480",
-          "language": "Danish",
+          "url": "https://emb.apl600.online/\nplayer/live.php?id=266862&w=700&h=480",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.539Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.821Z",
           "healthHttpStatus": 200
         },
         {
           "id": 34,
           "label": "Stream 56",
-          "url": "https://emb.apl600.online/\nplayer/live.php?id=266862&w=700&h=480",
-          "language": "German",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.542Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 35,
-          "label": "Stream 58",
           "url": "https://emb.apl600.online/\nplayer/live.php?id=267059&w=700&h=480",
           "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.547Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.828Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 36,
-          "label": "Stream 64",
+          "id": 35,
+          "label": "Stream 62",
           "url": "https://abisnews.com/beinsport1ar.php",
           "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.559Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.873Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 37,
-          "label": "Stream 65",
+          "id": 36,
+          "label": "Stream 63",
           "url": "https://abisnews.com/canalplusextra1pl.php",
           "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.636Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.909Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 38,
-          "label": "Stream 66",
+          "id": 37,
+          "label": "Stream 64",
           "url": "https://abisnews.com/megogosport2.php",
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.642Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.910Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 39,
-          "label": "Stream 67",
+          "id": 38,
+          "label": "Stream 65",
           "url": "https://abisnews.com/setantasport1georgia.php",
           "language": "Georgian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.644Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.910Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 40,
-          "label": "Stream 68",
+          "id": 39,
+          "label": "Stream 66",
           "url": "https://abisnews.com/sport5il.php",
           "language": "Hebrew",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.645Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.921Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 41,
-          "label": "Stream 69",
+          "id": 40,
+          "label": "Stream 67",
           "url": "https://playfa.st/ch.php?id=44",
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.651Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.948Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 42,
-          "label": "Stream 70",
+          "id": 41,
+          "label": "Stream 68",
           "url": "https://playfa.st/ch.php?id=53",
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.707Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.957Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 43,
-          "label": "Stream 71",
+          "id": 42,
+          "label": "Stream 69",
           "url": "https://playfa.st/ch.php?id=78",
           "language": "Swedish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.743Z",
+          "healthCheckedAt": "2026-09-10T20:37:30.957Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 44,
-          "label": "Stream 72",
+          "id": 43,
+          "label": "Stream 70",
           "url": "https://shd247.world/frame12.html",
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.760Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.017Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 45,
-          "label": "Stream 73",
+          "id": 44,
+          "label": "Stream 71",
           "url": "https://welivesportz.cfd/livetv/arena3hr.php",
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.761Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.017Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 46,
-          "label": "Stream 74",
+          "id": 45,
+          "label": "Stream 72",
           "url": "https://buzznews4u.com/live/skyaustria4_german.php",
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.776Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.018Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 47,
-          "label": "Stream 75",
+          "id": 46,
+          "label": "Stream 73",
           "url": "https://buzznews4u.com/live/ch4_german.php",
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.879Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.052Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 48,
-          "label": "Stream 76",
+          "id": 47,
+          "label": "Stream 74",
           "url": "https://abisnews.com/arena2premiumserbia.php",
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.880Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.085Z",
           "healthHttpStatus": 200
         },
         {
-          "id": 49,
-          "label": "Stream 77",
+          "id": 48,
+          "label": "Stream 75",
           "url": "https://abisnews.com/kazsport.php",
           "language": "Kazakh",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.936Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.153Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 49,
+          "label": "Stream 76",
+          "url": "https://abisnews.com/arenasport3hr.php",
+          "language": "Croatian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-09-10T20:37:31.161Z",
           "healthHttpStatus": 200
         },
         {
           "id": 50,
           "label": "Stream 78",
-          "url": "https://abisnews.com/arenasport3hr.php",
-          "language": "Croatian",
-          "bitrate": null,
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=75a56863b6fe0407ad4305b4d7ee5643c3923565&lang=en&eid=399041192&lid=2853564&ci=7&si=1",
+          "language": "English",
+          "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.960Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.201Z",
           "healthHttpStatus": 200
         },
         {
           "id": 51,
           "label": "Stream 80",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=75a56863b6fe0407ad4305b4d7ee5643c3923565&lang=en&eid=399041192&lid=2853564&ci=7&si=1",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&lang=en&eid=399041192&lid=2987940&ci=7&si=1",
           "language": "English",
-          "bitrate": "8000kbps",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:41.991Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.213Z",
           "healthHttpStatus": 200
         },
         {
           "id": 52,
           "label": "Stream 82",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&lang=en&eid=399041192&lid=2987940&ci=7&si=1",
-          "language": "English",
-          "bitrate": null,
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=36cad67fed5a739757a9db844a551aa845a8d51b&lang=en&eid=399041192&lid=2854601&ci=7&si=1",
+          "language": "Portuguese",
+          "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.006Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.228Z",
           "healthHttpStatus": 200
         },
         {
           "id": 53,
           "label": "Stream 84",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=36cad67fed5a739757a9db844a551aa845a8d51b&lang=en&eid=399041192&lid=2854601&ci=7&si=1",
-          "language": "Portuguese",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=e38b33c56332de27ff25df223cdf488b1ec6051f&lang=en&eid=399041192&lid=2844387&ci=7&si=1",
+          "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.063Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.236Z",
           "healthHttpStatus": 200
         },
         {
           "id": 54,
           "label": "Stream 86",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=e38b33c56332de27ff25df223cdf488b1ec6051f&lang=en&eid=399041192&lid=2844387&ci=7&si=1",
-          "language": "Russian",
-          "bitrate": "8000kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.091Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 55,
-          "label": "Stream 88",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=6e672fbd2d325fde727a61aa2ef8b8b02e05c6a4&lang=en&eid=399041192&lid=2993476&ci=7&si=1",
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.127Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.404Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 55,
+      "streamCount": 54,
       "teams": {
         "home": {
           "name": "Manchester Utd",
@@ -1976,7 +1915,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.180Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.405Z",
           "healthHttpStatus": 200
         },
         {
@@ -1986,7 +1925,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.183Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.412Z",
           "healthHttpStatus": 200
         },
         {
@@ -1996,7 +1935,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.184Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.420Z",
           "healthHttpStatus": 200
         },
         {
@@ -2006,7 +1945,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.243Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.456Z",
           "healthHttpStatus": 200
         },
         {
@@ -2016,7 +1955,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.263Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.480Z",
           "healthHttpStatus": 200
         },
         {
@@ -2026,7 +1965,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.271Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.488Z",
           "healthHttpStatus": 200
         },
         {
@@ -2036,7 +1975,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.303Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.496Z",
           "healthHttpStatus": 200
         },
         {
@@ -2046,7 +1985,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.319Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.496Z",
           "healthHttpStatus": 200
         },
         {
@@ -2056,7 +1995,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.334Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.549Z",
           "healthHttpStatus": 200
         },
         {
@@ -2066,7 +2005,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.398Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.559Z",
           "healthHttpStatus": 200
         },
         {
@@ -2076,7 +2015,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.487Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.584Z",
           "healthHttpStatus": 200
         },
         {
@@ -2086,7 +2025,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.495Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.625Z",
           "healthHttpStatus": 200
         },
         {
@@ -2096,7 +2035,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.513Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.684Z",
           "healthHttpStatus": 200
         },
         {
@@ -2106,7 +2045,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.560Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.692Z",
           "healthHttpStatus": 200
         },
         {
@@ -2116,7 +2055,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.599Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.769Z",
           "healthHttpStatus": 200
         },
         {
@@ -2126,7 +2065,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.611Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.775Z",
           "healthHttpStatus": 200
         },
         {
@@ -2136,7 +2075,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.664Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.792Z",
           "healthHttpStatus": 200
         },
         {
@@ -2146,7 +2085,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.665Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.837Z",
           "healthHttpStatus": 200
         },
         {
@@ -2156,7 +2095,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.699Z",
+          "healthCheckedAt": "2026-09-10T20:37:31.844Z",
           "healthHttpStatus": 200
         },
         {
@@ -2166,7 +2105,7 @@
           "language": "Russian",
           "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.756Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.037Z",
           "healthHttpStatus": 200
         },
         {
@@ -2176,7 +2115,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.827Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.040Z",
           "healthHttpStatus": 200
         },
         {
@@ -2186,7 +2125,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.863Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.057Z",
           "healthHttpStatus": 200
         },
         {
@@ -2196,7 +2135,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.863Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.080Z",
           "healthHttpStatus": 200
         },
         {
@@ -2206,7 +2145,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.935Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.132Z",
           "healthHttpStatus": 200
         },
         {
@@ -2216,7 +2155,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.936Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.132Z",
           "healthHttpStatus": 200
         },
         {
@@ -2226,7 +2165,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.959Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.150Z",
           "healthHttpStatus": 200
         },
         {
@@ -2236,7 +2175,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.959Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.166Z",
           "healthHttpStatus": 200
         },
         {
@@ -2246,7 +2185,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:42.986Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.199Z",
           "healthHttpStatus": 200
         },
         {
@@ -2256,7 +2195,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.043Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.216Z",
           "healthHttpStatus": 200
         },
         {
@@ -2266,7 +2205,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.047Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.223Z",
           "healthHttpStatus": 200
         },
         {
@@ -2276,7 +2215,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.067Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.277Z",
           "healthHttpStatus": 200
         },
         {
@@ -2286,7 +2225,7 @@
           "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.068Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.283Z",
           "healthHttpStatus": 200
         },
         {
@@ -2296,7 +2235,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.070Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.299Z",
           "healthHttpStatus": 200
         },
         {
@@ -2306,7 +2245,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.083Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.324Z",
           "healthHttpStatus": 200
         },
         {
@@ -2316,7 +2255,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.152Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.347Z",
           "healthHttpStatus": 200
         },
         {
@@ -2326,7 +2265,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.152Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.359Z",
           "healthHttpStatus": 200
         },
         {
@@ -2336,7 +2275,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.155Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.368Z",
           "healthHttpStatus": 200
         },
         {
@@ -2346,7 +2285,7 @@
           "language": "Bulgarian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.162Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.368Z",
           "healthHttpStatus": 200
         },
         {
@@ -2356,7 +2295,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.178Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.376Z",
           "healthHttpStatus": 200
         },
         {
@@ -2366,7 +2305,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.340Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.459Z",
           "healthHttpStatus": 200
         },
         {
@@ -2376,7 +2315,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.351Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.484Z",
           "healthHttpStatus": 200
         },
         {
@@ -2386,7 +2325,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.360Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.535Z",
           "healthHttpStatus": 200
         },
         {
@@ -2396,7 +2335,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.384Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.544Z",
           "healthHttpStatus": 200
         },
         {
@@ -2406,7 +2345,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.396Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.569Z",
           "healthHttpStatus": 200
         },
         {
@@ -2416,7 +2355,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.483Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.589Z",
           "healthHttpStatus": 200
         },
         {
@@ -2426,7 +2365,7 @@
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.498Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.648Z",
           "healthHttpStatus": 200
         },
         {
@@ -2436,7 +2375,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.551Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.656Z",
           "healthHttpStatus": 200
         },
         {
@@ -2446,7 +2385,7 @@
           "language": "Portuguese",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.563Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.772Z",
           "healthHttpStatus": 200
         },
         {
@@ -2456,7 +2395,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.684Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.832Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2546,7 +2485,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.715Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.848Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2701,7 +2640,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.719Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.858Z",
           "healthHttpStatus": 200
         },
         {
@@ -2711,7 +2650,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.728Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.859Z",
           "healthHttpStatus": 200
         },
         {
@@ -2721,7 +2660,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.759Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.931Z",
           "healthHttpStatus": 200
         },
         {
@@ -2731,7 +2670,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.811Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.952Z",
           "healthHttpStatus": 200
         },
         {
@@ -2741,7 +2680,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.887Z",
+          "healthCheckedAt": "2026-09-10T20:37:32.978Z",
           "healthHttpStatus": 200
         },
         {
@@ -2751,7 +2690,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:43.955Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.016Z",
           "healthHttpStatus": 200
         },
         {
@@ -2761,7 +2700,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.060Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.063Z",
           "healthHttpStatus": 200
         },
         {
@@ -2771,7 +2710,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.062Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.177Z",
           "healthHttpStatus": 200
         },
         {
@@ -2781,7 +2720,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.087Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.188Z",
           "healthHttpStatus": 200
         },
         {
@@ -2791,7 +2730,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.099Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.223Z",
           "healthHttpStatus": 200
         },
         {
@@ -2801,7 +2740,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.125Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.253Z",
           "healthHttpStatus": 200
         },
         {
@@ -2811,7 +2750,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.152Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.300Z",
           "healthHttpStatus": 200
         },
         {
@@ -2821,7 +2760,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.167Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.331Z",
           "healthHttpStatus": 200
         },
         {
@@ -2831,7 +2770,7 @@
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.223Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.381Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3026,7 +2965,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.259Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.382Z",
           "healthHttpStatus": 200
         },
         {
@@ -3036,7 +2975,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.311Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.448Z",
           "healthHttpStatus": 200
         },
         {
@@ -3046,7 +2985,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.351Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.448Z",
           "healthHttpStatus": 200
         },
         {
@@ -3056,7 +2995,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.383Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.479Z",
           "healthHttpStatus": 200
         },
         {
@@ -3066,7 +3005,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.415Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.531Z",
           "healthHttpStatus": 200
         },
         {
@@ -3076,7 +3015,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.450Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.532Z",
           "healthHttpStatus": 200
         },
         {
@@ -3086,7 +3025,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.451Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.551Z",
           "healthHttpStatus": 200
         },
         {
@@ -3096,7 +3035,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.463Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.556Z",
           "healthHttpStatus": 200
         },
         {
@@ -3106,7 +3045,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.479Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.559Z",
           "healthHttpStatus": 200
         },
         {
@@ -3116,7 +3055,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.495Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.616Z",
           "healthHttpStatus": 200
         },
         {
@@ -3126,7 +3065,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.511Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.616Z",
           "healthHttpStatus": 200
         },
         {
@@ -3136,7 +3075,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.531Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.632Z",
           "healthHttpStatus": 200
         },
         {
@@ -3146,7 +3085,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.531Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.643Z",
           "healthHttpStatus": 200
         },
         {
@@ -3156,7 +3095,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.546Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.668Z",
           "healthHttpStatus": 200
         },
         {
@@ -3166,7 +3105,7 @@
           "language": "Polish",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.580Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.693Z",
           "healthHttpStatus": 200
         },
         {
@@ -3176,7 +3115,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.630Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.760Z",
           "healthHttpStatus": 200
         },
         {
@@ -3186,7 +3125,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.679Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.769Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3399,7 +3338,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.687Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.836Z",
           "healthHttpStatus": 200
         },
         {
@@ -3409,7 +3348,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.759Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.911Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3573,7 +3512,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.831Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.950Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3632,7 +3571,7 @@
       "title": "Cumbaya – Gualaceo",
       "dateLabel": "10 September",
       "timeLabel": "21:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Ecuador. Serie B",
       "iconUrl": "https://cdn.livetv903.me/img/icons/ec.gif",
       "iconAlt": "Ecuador. Serie B",
@@ -3785,7 +3724,7 @@
       "title": "San Antonio Cotacachi – Atletico Rojiblanco",
       "dateLabel": "10 September",
       "timeLabel": "21:30",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Ecuador. Serie B",
       "iconUrl": "https://cdn.livetv903.me/img/icons/ec.gif",
       "iconAlt": "Ecuador. Serie B",
@@ -3800,7 +3739,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.836Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.963Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3955,7 +3894,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.840Z",
+          "healthCheckedAt": "2026-09-10T20:37:33.972Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4119,7 +4058,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-09-10T20:18:44.871Z",
+          "healthCheckedAt": "2026-09-10T20:37:34.003Z",
           "healthHttpStatus": 200
         }
       ],
@@ -24844,5 +24783,5 @@
       "headToHead": null
     }
   ],
-  "enrichedAt": "2026-09-10T20:18:36.138Z"
+  "enrichedAt": "2026-09-10T20:37:26.119Z"
 }
