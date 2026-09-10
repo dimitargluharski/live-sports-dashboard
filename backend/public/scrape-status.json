@@ -24,5 +24,17 @@
       "outputPath": "/Users/gluharski/Desktop/live-sports-dashboard/backend/public/teamLogosByEvent.json",
       "enrichedOutputPath": "/Users/gluharski/Desktop/live-sports-dashboard/backend/public/allSoccerGamesToday.json"
     }
+  },
+  "basketball-days": {
+    "status": "success",
+    "startedAt": "2026-09-10T12:44:10.249Z",
+    "error": null,
+    "updatedAt": "2026-09-10T12:44:40.807Z",
+    "finishedAt": "2026-09-10T12:44:40.806Z",
+    "count": 37,
+    "meta": {
+      "durationMs": 30557,
+      "outputBytes": 101333
+    }
   }
 }

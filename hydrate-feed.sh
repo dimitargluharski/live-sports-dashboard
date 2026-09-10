@@ -5,13 +5,13 @@ ROOT_DIR="$(cd "$(dirname "$0")" && pwd)"
 BACKEND_DIR="$ROOT_DIR/backend"
 FRONTEND_PUBLIC_DIR="$ROOT_DIR/frontend/public"
 BACKEND_ENV_FILE="$BACKEND_DIR/.env"
-FRONTEND_JSON_REL="frontend/public/allSoccerGamesToday.json"
+FRONTEND_JSON_REL="frontend/public/soccer/allSoccerGamesToday.json"
 LOCK_DIR="$BACKEND_DIR/.cache/hydrate.lock"
 LOCK_PID_FILE="$LOCK_DIR/pid"
 
 RAW_JSON="$BACKEND_DIR/.cache/allSoccerGamesToday.raw.json"
-ENRICHED_JSON="$BACKEND_DIR/public/allSoccerGamesToday.json"
-FRONTEND_JSON="$FRONTEND_PUBLIC_DIR/allSoccerGamesToday.json"
+ENRICHED_JSON="$BACKEND_DIR/public/soccer/allSoccerGamesToday.json"
+FRONTEND_JSON="$FRONTEND_PUBLIC_DIR/soccer/allSoccerGamesToday.json"
 
 WATCH_MODE=0
 INTERVAL_SECONDS=900
@@ -269,6 +269,7 @@ run_once() {
 
   printf "\n[3/4] Checking for meaningful JSON changes...\n"
   if json_changed_meaningfully "$FRONTEND_JSON" "$ENRICHED_JSON"; then
+    mkdir -p "$(dirname "$FRONTEND_JSON")"
     cp "$ENRICHED_JSON" "$FRONTEND_JSON.$$.tmp"
     mv -f "$FRONTEND_JSON.$$.tmp" "$FRONTEND_JSON"
     echo "Updated frontend JSON: $FRONTEND_JSON"

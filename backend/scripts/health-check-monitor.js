@@ -24,8 +24,8 @@ function loadDotEnv() {
 loadDotEnv();
 
 const rootDir = path.resolve(__dirname, "../..");
-const backendJsonPath = path.join(rootDir, "backend/public/allSoccerGamesToday.json");
-const frontendJsonPath = path.join(rootDir, "frontend/public/allSoccerGamesToday.json");
+const backendJsonPath = path.join(rootDir, "backend/public/soccer/allSoccerGamesToday.json");
+const frontendJsonPath = path.join(rootDir, "frontend/public/soccer/allSoccerGamesToday.json");
 const scraperStatusPath = path.join(rootDir, "backend/public/scrape-status.json");
 const statusPath = path.join(rootDir, "backend/public/health-monitor-status.json");
 const baseUrl = (process.env.FEED_BASE_URL || "").trim().replace(/\/+$/, "");

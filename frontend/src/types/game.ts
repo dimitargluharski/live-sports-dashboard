@@ -1,3 +1,5 @@
+export type Sport = 'soccer' | 'basketball';
+
 export interface TeamForm {
   matches?: Array<{
     date: string;

@@ -16,6 +16,7 @@
     "frontend": "pnpm --dir frontend run dev --host 0.0.0.0",
     "frontend:dev": "pnpm --dir frontend run dev --host 0.0.0.0",
     "frontend:build": "npm --prefix frontend run build",
-    "backend:check": "node --check backend/scripts/scrape-soccer-games-today.js && node --check backend/scripts/stream-health-check.js"
+    "scrape:basketball-today": "pnpm --dir backend run scrape:basketball-today",
+    "backend:check": "node --check backend/scripts/scrape-soccer-games-today.js && node --check backend/scripts/scrape-basketball-games-today.js && node --check backend/scripts/stream-health-check.js"
   }
 }

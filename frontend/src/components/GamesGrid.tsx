@@ -1,22 +1,27 @@
 import { useEffect, useMemo, useState } from 'react';
 import { CompetitionGroup } from './CompetitionGroup';
 import { GameFilters } from './GameFilters';
+import { SportTabs } from './SportTabs';
 import { LIVE_FILTER_STORAGE_KEY, STREAMS_FILTER_STORAGE_KEY } from '../constants/app';
 import { useTheme } from '../contexts/useTheme';
 import { usePersistentState } from '../hooks/usePersistentState';
 import { extractCountryFromLeague } from '../utils/extractCountryFromLeague';
 import { getCountryFlagUrl } from '../utils/getCountryFlagUrl';
+import { groupGamesByTournamentLabel } from '../utils/groupGamesByTournamentLabel';
 import { isQualificationLeague } from '../utils/isQualificationLeague';
-import type { Game } from '../types/game';
+import type { Game, Sport } from '../types/game';
 import { getDateGroupKey } from '../utils/getDateGroupKey';
 import { getDateGroupLabel } from '../utils/getDateGroupLabel';
 import { isSimulcastGame } from '../utils/isSimulcastGame';
+import { toDateKey } from '../utils/toDateKey';
 
 interface GamesGridProps {
   games: Game[];
+  sport: Sport;
+  onSportChange: (sport: Sport) => void;
 }
 
-export function GamesGrid({ games }: GamesGridProps) {
+export function GamesGrid({ games, sport, onSportChange }: GamesGridProps) {
   const { isDarkTheme, toggleTheme } = useTheme();
   const [filterLiveOnly, setFilterLiveOnly] = usePersistentState(LIVE_FILTER_STORAGE_KEY, false);
   const [filterWithStreams, setFilterWithStreams] = usePersistentState(STREAMS_FILTER_STORAGE_KEY, false);
@@ -93,7 +98,7 @@ export function GamesGrid({ games }: GamesGridProps) {
   }, [filteredGames]);
 
   const firstDateKey = groupedByDate[0]?.[0];
-  const currentDayLabel = firstDateKey ? getDateGroupLabel(firstDateKey) : new Intl.DateTimeFormat(undefined, { weekday: 'long', month: 'long', day: 'numeric' }).format(new Date());
+  const todayLabel = new Intl.DateTimeFormat(undefined, { weekday: 'long', month: 'long', day: 'numeric' }).format(new Date());
 
   return (
     <section className={isDarkTheme ? "dark mx-auto min-h-screen w-full max-w-7xl bg-[#111111] px-4 pb-8 text-white md:px-6" : "mx-auto min-h-screen w-full max-w-7xl bg-[#f2f1ed] px-4 pb-8 text-slate-950 md:px-6"}>
@@ -107,9 +112,10 @@ export function GamesGrid({ games }: GamesGridProps) {
               </svg>
             </span>
             <h1 className={isDarkTheme ? "text-xs font-bold tracking-[0.14em] text-slate-200" : "text-xs font-bold tracking-[0.14em] text-slate-800"}>sportix.live</h1>
+            <SportTabs isDarkTheme={isDarkTheme} sport={sport} onSportChange={onSportChange} />
           </div>
           <div className="flex items-center gap-3">
-            <span className={isDarkTheme ? "text-xs font-bold text-slate-300" : "text-xs font-bold text-slate-700"}>{currentDayLabel}</span>
+            <span className={isDarkTheme ? "text-xs font-bold text-slate-300" : "text-xs font-bold text-slate-700"}>{todayLabel}</span>
             <div className="group relative flex items-center">
               <button
                 type="button"
@@ -173,6 +179,7 @@ export function GamesGrid({ games }: GamesGridProps) {
         <div>
           {groupedByDate.map(([dateKey, gamesForDate]) => {
             const leaguesForDate: Record<string, Game[]> = {};
+            const isTodayDateKey = dateKey === toDateKey(new Date());
             const dateGroupLabel = getDateGroupLabel(dateKey);
             const dateGroupDate = dateKey === 'date-tba'
               ? ''
@@ -207,13 +214,15 @@ export function GamesGrid({ games }: GamesGridProps) {
                     </div>
                   )
                 )}
-                {Object.entries(leaguesForDate).sort(([leagueA], [leagueB]) => {
+                {Object.entries(leaguesForDate).sort(([leagueA, gamesA], [leagueB, gamesB]) => {
                   const isChampionsLeagueA = leagueA.trim().toLowerCase() === 'champions league';
                   const isChampionsLeagueB = leagueB.trim().toLowerCase() === 'champions league';
+                  const hasTournamentStagesA = isTodayDateKey && groupGamesByTournamentLabel(gamesA).some((segment) => segment.label);
+                  const hasTournamentStagesB = isTodayDateKey && groupGamesByTournamentLabel(gamesB).some((segment) => segment.label);
+                  const priorityA = isChampionsLeagueA ? 0 : hasTournamentStagesA ? 1 : 2;
+                  const priorityB = isChampionsLeagueB ? 0 : hasTournamentStagesB ? 1 : 2;
 
-                  if (isChampionsLeagueA !== isChampionsLeagueB) {
-                    return isChampionsLeagueA ? -1 : 1;
-                  }
+                  if (priorityA !== priorityB) return priorityA - priorityB;
 
                   return leagueA.localeCompare(leagueB);
                 }).map(([leagueLabel, gamesForLeague]) => {
@@ -233,6 +242,7 @@ export function GamesGrid({ games }: GamesGridProps) {
                       leagueLabel={leagueLabel}
                       games={gamesForLeague}
                       isDarkTheme={isDarkTheme}
+                      isToday={isTodayDateKey}
                       isExpanded={isCompetitionExpanded}
                       onToggle={() => setExpandedLargeCompetitions((current) => ({ ...current, [competitionKey]: !isCompetitionExpanded }))}
                     />
