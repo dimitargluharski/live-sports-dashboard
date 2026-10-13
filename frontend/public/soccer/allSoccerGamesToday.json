@@ -1,6 +1,6 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-10-13T22:01:21.057Z",
+  "scrapedAt": "2026-10-13T22:21:02.555Z",
   "count": 216,
   "matches": [
     {
@@ -15,8 +15,19 @@
       "sectionLabel": "14 October",
       "isTopMatch": false,
       "rawDescription": "14 October at 0:00\n(Mexico. Liga de Expansion)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/bfR88xVuaeI?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T22:21:03.209Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Tapatio",
@@ -168,19 +179,77 @@
       "sectionLabel": "14 October",
       "isTopMatch": false,
       "rawDescription": "14 October at 0:00\n(Women. Friendly Match. National Teams)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=270196&w=700&h=480",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T22:21:03.220Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://dlive.sx/stream/stream-845.php",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T22:21:03.221Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 2,
       "teams": {
         "home": {
           "name": "USA (W)",
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/flag205.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Phallon Tullis-Joyce",
+            "Rose Lavelle",
+            "Sophia Wilson",
+            "Tierna Davidson",
+            "Trinity Rodman",
+            "Ashley Sanchez",
+            "Claire Hutton",
+            "Emily Fox",
+            "Gisele Thompson",
+            "Kennedy Wesley",
+            "Lindsey Heaps"
+          ],
+          "substitutes": [
+            "Tara Rudd",
+            "Alyssa Thompson",
+            "Pietra Tordin",
+            "Michelle Cooper",
+            "Avery Patterson",
+            "Claudia Dickey",
+            "Emma Sears",
+            "Evelyn Shores",
+            "Jaelin Howell",
+            "Kate Del Fava",
+            "Lily Isabella",
+            "Mallory Swanson"
+          ]
         },
         "away": {
           "name": "Spain (W)",
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/flag60.gif",
-          "startingLineup": [],
+          "startingLineup": [
+            "Misa Rodriguez",
+            "Alexia Putellas",
+            "Andrea Medina",
+            "Clara Pinedo",
+            "Clara Serrajordi",
+            "Edna Imade",
+            "Irene Paredes",
+            "Maria Mendez",
+            "Oihane Hernandez",
+            "Patricia Guijarro",
+            "Salma Paralluelo"
+          ],
           "substitutes": []
         }
       },
@@ -21280,5 +21349,5 @@
       }
     }
   ],
-  "enrichedAt": "2026-10-13T22:01:21.057Z"
+  "enrichedAt": "2026-10-13T22:21:02.556Z"
 }
