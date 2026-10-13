@@ -1,186 +1,22 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-10-13T18:44:28.455Z",
-  "count": 94,
+  "scrapedAt": "2026-10-13T19:04:11.589Z",
+  "count": 93,
   "matches": [
     {
       "id": 1,
-      "title": "Bahcesehir Koleji – Manresa",
-      "dateLabel": "13 October",
-      "timeLabel": "17:00",
-      "isLive": false,
-      "leagueLabel": "Eurocup",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/eurocup.gif",
-      "iconAlt": "Eurocup",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 17:00\n(Eurocup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Bahcesehir Koleji",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/33444.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Manresa",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/715.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700000735/700000683/3_2ed2e/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "Eurocup",
-            "homeTeam": "Bahcesehir Koleji",
-            "awayTeam": "Manresa",
-            "score": "100:88",
-            "result": "W",
-            "winner": "home"
-          },
-          {
-            "date": "13/01",
-            "competition": "Eurocup",
-            "homeTeam": "Bahcesehir Koleji",
-            "awayTeam": "Manresa",
-            "score": "92:96",
-            "result": "L",
-            "winner": "away"
-          },
-          {
-            "date": "29/10",
-            "competition": "Eurocup",
-            "homeTeam": "Manresa",
-            "awayTeam": "Bahcesehir Koleji",
-            "score": "67:81",
-            "result": "W",
-            "winner": "away"
-          }
-        ],
-        "homeTeam": "Bahcesehir Koleji",
-        "awayTeam": "Manresa",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "13/10",
-                "competition": "Eurocup",
-                "opponent": "Manresa",
-                "score": "100:88",
-                "result": "W"
-              },
-              {
-                "date": "10/10",
-                "competition": "BSL",
-                "opponent": "Karsiyaka",
-                "score": "92:82",
-                "result": "W"
-              },
-              {
-                "date": "07/10",
-                "competition": "Eurocup",
-                "opponent": "Balkan",
-                "score": "101:60",
-                "result": "W"
-              },
-              {
-                "date": "04/10",
-                "competition": "BSL",
-                "opponent": "Cayirova",
-                "score": "84:76",
-                "result": "W"
-              },
-              {
-                "date": "02/10",
-                "competition": "BSL",
-                "opponent": "Cayirova",
-                "score": "0:0",
-                "result": "D"
-              }
-            ],
-            "summary": {
-              "W": 4,
-              "D": 1,
-              "L": 0
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "13/10",
-                "competition": "Eurocup",
-                "opponent": "Bahcesehir Koleji",
-                "score": "88:100",
-                "result": "L"
-              },
-              {
-                "date": "10/10",
-                "competition": "BSL",
-                "opponent": "Bahcesehir Koleji",
-                "score": "82:92",
-                "result": "L"
-              },
-              {
-                "date": "07/10",
-                "competition": "Eurocup",
-                "opponent": "Balkan",
-                "score": "101:60",
-                "result": "W"
-              },
-              {
-                "date": "04/10",
-                "competition": "BSL",
-                "opponent": "Cayirova",
-                "score": "84:76",
-                "result": "W"
-              },
-              {
-                "date": "02/10",
-                "competition": "BSL",
-                "opponent": "Cayirova",
-                "score": "0:0",
-                "result": "D"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 1,
-              "L": 2
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 2,
       "title": "Mitteldeutscher – Bristol Flyers",
       "dateLabel": "13 October",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "ENBL",
       "iconUrl": "https://cdn.livetv904.me/img/icons/basket.gif",
       "iconAlt": "ENBL",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 18:00\n(ENBL)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/zc7JV6yCrF0?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.242Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Mitteldeutscher",
@@ -198,6 +34,15 @@
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700000816/700010001/3_2d758/",
         "matches": [
+          {
+            "date": "13/10",
+            "competition": "ENBL",
+            "homeTeam": "Mitteldeutscher",
+            "awayTeam": "Bristol Flyers",
+            "score": "106:84",
+            "result": "W",
+            "winner": "home"
+          },
           {
             "date": "19/11",
             "competition": "ENBL",
@@ -303,7 +148,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Vienna – Wilki Morskie",
       "dateLabel": "13 October",
       "timeLabel": "18:00",
@@ -322,7 +167,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.253Z",
+          "healthCheckedAt": "2026-10-13T19:04:12.265Z",
           "healthHttpStatus": 200
         }
       ],
@@ -344,40 +189,19 @@
       "headToHead": null
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Prievidza – Landau Lions",
       "dateLabel": "13 October",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv904.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 18:00\n(FIBA Europe Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269012&w=700&h=480",
-          "language": "Azerbaijani",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.254Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://www.youtube.com/embed/Jz_2_DJv6mw?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.255Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 2,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Prievidza",
@@ -395,11 +219,11 @@
       "headToHead": null
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Al Ahli – Nuwaidrat",
       "dateLabel": "13 October",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Bahrain. Premier League",
       "iconUrl": "https://cdn.livetv904.me/img/icons/basket.gif",
       "iconAlt": "Bahrain. Premier League",
@@ -426,6 +250,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700032813/700037454/3_9515b/",
         "matches": [
           {
+            "date": "13/10",
+            "competition": "Bahrain. Premier League",
+            "homeTeam": "Al Ahli",
+            "awayTeam": "Nuwaidrat",
+            "score": "77:69",
+            "result": "W",
+            "winner": "home"
+          },
+          {
             "date": "25/08",
             "competition": "Bahrain. Cup",
             "homeTeam": "Al Ahli",
@@ -440,15 +273,6 @@
             "homeTeam": "Al Ahli",
             "awayTeam": "Nuwaidrat",
             "score": "13:6",
-            "result": "W",
-            "winner": "home"
-          },
-          {
-            "date": "05/02",
-            "competition": "Bahrain. Premier League",
-            "homeTeam": "Al Ahli",
-            "awayTeam": "Nuwaidrat",
-            "score": "79:74",
             "result": "W",
             "winner": "home"
           }
@@ -548,30 +372,19 @@
       }
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Kolpa – Gorica",
       "dateLabel": "13 October",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Slovenia. Cup",
       "iconUrl": "https://cdn.livetv904.me/img/icons/basket.gif",
       "iconAlt": "Slovenia. Cup",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 18:00\n(Slovenia. Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/canLB2QEHA8?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.255Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Kolpa",
@@ -589,7 +402,7 @@
       "headToHead": null
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Kekava – Jelgava",
       "dateLabel": "13 October",
       "timeLabel": "18:00",
@@ -742,7 +555,7 @@
       }
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Sibenik (W) – Rilski Sportist (W)",
       "dateLabel": "13 October",
       "timeLabel": "18:30",
@@ -761,7 +574,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.256Z",
+          "healthCheckedAt": "2026-10-13T19:04:12.275Z",
           "healthHttpStatus": 200
         }
       ],
@@ -783,7 +596,7 @@
       "headToHead": null
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Fenerbahce – Zalgiris",
       "dateLabel": "13 October",
       "timeLabel": "18:45",
@@ -802,7 +615,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.256Z",
+          "healthCheckedAt": "2026-10-13T19:04:12.276Z",
           "healthHttpStatus": 200
         },
         {
@@ -811,9 +624,9 @@
           "url": "https://livetvsx.live/go/magenta7_german.php",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.257Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T19:04:12.277Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 3,
@@ -822,7 +635,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.499Z",
+          "healthCheckedAt": "2026-10-13T19:04:12.277Z",
           "healthHttpStatus": 200
         },
         {
@@ -832,7 +645,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.501Z",
+          "healthCheckedAt": "2026-10-13T19:04:12.278Z",
           "healthHttpStatus": 200
         },
         {
@@ -842,7 +655,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.525Z",
+          "healthCheckedAt": "2026-10-13T19:04:12.278Z",
           "healthHttpStatus": 200
         },
         {
@@ -852,7 +665,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.542Z",
+          "healthCheckedAt": "2026-10-13T19:04:12.279Z",
           "healthHttpStatus": 200
         },
         {
@@ -862,41 +675,51 @@
           "language": "Hebrew",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.630Z",
+          "healthCheckedAt": "2026-10-13T19:04:12.675Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
           "label": "Stream 14",
-          "url": "https://livetvsx.live/go/novastart_greece.php",
-          "language": "Greek",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=203391&w=700&h=480",
+          "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.632Z",
+          "healthCheckedAt": "2026-10-13T19:04:12.677Z",
           "healthHttpStatus": 200
         },
         {
           "id": 9,
-          "label": "Stream 15",
-          "url": "https://livetvsx.live/go/ssport_turkey.php",
-          "language": "Turkish",
+          "label": "Stream 16",
+          "url": "https://livetvsx.live/go/novastart_greece.php",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.652Z",
+          "healthCheckedAt": "2026-10-13T19:04:12.681Z",
           "healthHttpStatus": 200
         },
         {
           "id": 10,
           "label": "Stream 17",
+          "url": "https://livetvsx.live/go/ssport_turkey.php",
+          "language": "Turkish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T19:04:12.704Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 11,
+          "label": "Stream 19",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=ac839cda9709255c21a98af455731f037e77a9e4&lang=en&eid=478508302&lid=3086951&ci=41&si=3",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.661Z",
+          "healthCheckedAt": "2026-10-13T19:04:12.846Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 10,
+      "streamCount": 11,
       "teams": {
         "home": {
           "name": "Fenerbahce",
@@ -1065,7 +888,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "ASVEL – Crvena Zvezda",
       "dateLabel": "13 October",
       "timeLabel": "19:00",
@@ -1084,7 +907,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.664Z",
+          "healthCheckedAt": "2026-10-13T19:04:12.878Z",
           "healthHttpStatus": 200
         },
         {
@@ -1094,7 +917,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.697Z",
+          "healthCheckedAt": "2026-10-13T19:04:13.096Z",
           "healthHttpStatus": 200
         },
         {
@@ -1104,7 +927,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.713Z",
+          "healthCheckedAt": "2026-10-13T19:04:13.127Z",
           "healthHttpStatus": 200
         },
         {
@@ -1114,7 +937,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.720Z",
+          "healthCheckedAt": "2026-10-13T19:04:13.153Z",
           "healthHttpStatus": 200
         },
         {
@@ -1123,9 +946,10 @@
           "url": "https://livetvsx.live/go/ch1_serbia.php",
           "language": "Serbian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.732Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T19:04:13.206Z",
+          "healthHttpStatus": 502,
+          "healthError": "HTTP 502"
         },
         {
           "id": 6,
@@ -1133,9 +957,10 @@
           "url": "https://livetvsx.live/go/arenapre1_serbia.php",
           "language": "Serbian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.756Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T19:04:13.297Z",
+          "healthHttpStatus": 502,
+          "healthError": "HTTP 502"
         },
         {
           "id": 7,
@@ -1143,9 +968,10 @@
           "url": "https://livetvsx.live/go/novasport3_greece.php",
           "language": "Greek",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.761Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T19:04:13.325Z",
+          "healthHttpStatus": 502,
+          "healthError": "HTTP 502"
         },
         {
           "id": 8,
@@ -1154,7 +980,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.785Z",
+          "healthCheckedAt": "2026-10-13T19:04:13.389Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1327,7 +1153,7 @@
       }
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Fribourg Olympic – Mykonoy",
       "dateLabel": "13 October",
       "timeLabel": "19:00",
@@ -1346,7 +1172,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.793Z",
+          "healthCheckedAt": "2026-10-13T19:04:13.447Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1368,7 +1194,7 @@
       "headToHead": null
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Manchester – Bashkimi",
       "dateLabel": "13 October",
       "timeLabel": "19:00",
@@ -1387,7 +1213,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.793Z",
+          "healthCheckedAt": "2026-10-13T19:04:13.461Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1514,7 +1340,7 @@
       }
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Varese – Peristeri",
       "dateLabel": "13 October",
       "timeLabel": "19:00",
@@ -1540,12 +1366,12 @@
           ],
           "substitutes": [
             "Isaiah Roby",
-            "Maximilian Ladurner",
+            "Iris Ikangi",
             "Nate Renfro",
             "Matteo Librizzi",
             "Amedeo Della Valle",
             "Mauro Villa",
-            "Iris Ikangi"
+            "Maximilian Ladurner"
           ]
         },
         "away": {
@@ -1559,11 +1385,11 @@
             "Ty Nichols"
           ],
           "substitutes": [
-            "Will Carius",
             "Konstantinos",
             "Manos Chatzidakis",
             "Noah Freidel",
             "John Ittounas",
+            "Will Carius",
             "Alexandros Nikolaidis",
             "Alexandros Thomakos"
           ]
@@ -1572,7 +1398,7 @@
       "headToHead": null
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "Nanterre – Rytas Vilnius",
       "dateLabel": "13 October",
       "timeLabel": "19:00",
@@ -1590,18 +1416,18 @@
           "name": "Nanterre",
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/1218.gif",
           "startingLineup": [
-            "Mitchell",
             "Xavier Castaneda",
-            "Donta Scott",
+            "Mitchell",
             "Hugo Yimga",
-            "Len Schoormann"
+            "Len Schoormann",
+            "Donta Scott"
           ],
           "substitutes": [
-            "J’wan Roberts",
             "Devin Mcglockton",
             "Lucas Dussoulier",
             "Benjamin Sene",
-            "Paul Lacombe"
+            "Paul Lacombe",
+            "J’wan Roberts"
           ]
         },
         "away": {
@@ -1609,25 +1435,25 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/8165.gif",
           "startingLineup": [
             "Arturas Gudaitis",
-            "Kay Bruhnke",
             "Gytis Radzevicius",
             "Cassius Winston",
+            "Kay Bruhnke",
             "Martynas Paliukenas"
           ],
           "substitutes": [
+            "Michael Devoe",
             "Matas Jogela",
             "Ignas Urbonas",
             "Oskaras Pleikys",
             "Ricardo Lindo Jr",
-            "Augustas Marciulionis",
-            "Michael Devoe"
+            "Augustas Marciulionis"
           ]
         }
       },
       "headToHead": null
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "Alba Berlin – Igokea",
       "dateLabel": "13 October",
       "timeLabel": "19:00",
@@ -1646,7 +1472,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.824Z",
+          "healthCheckedAt": "2026-10-13T19:04:13.481Z",
           "healthHttpStatus": 200
         },
         {
@@ -1656,7 +1482,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.832Z",
+          "healthCheckedAt": "2026-10-13T19:04:13.606Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1667,45 +1493,45 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/4412.gif",
           "startingLineup": [
             "Jack Kayil",
-            "Sam Griesel",
-            "Brandon Angel",
+            "Jonas Mattisseck",
             "Joe Wieskamp",
-            "Jonas Mattisseck"
+            "Sam Griesel",
+            "Brandon Angel"
           ],
           "substitutes": [
-            "Fin Borczanowski",
-            "Nevio Bennefeld",
-            "Justin Bean",
+            "Anton Kemmer",
             "Julius Boehmer",
+            "Justin Bean",
+            "Nevio Bennefeld",
+            "Fin Borczanowski",
             "Malte Delow",
-            "Jordan Ford",
-            "Anton Kemmer"
+            "Jordan Ford"
           ]
         },
         "away": {
           "name": "Igokea",
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/8617.gif",
           "startingLineup": [
+            "Haris Delalic",
+            "Joel Armotrading",
             "Nikola Manojlovic",
             "Roman Penn",
-            "Nate Pierre-Louis",
-            "Haris Delalic",
-            "Joel Armotrading"
+            "Nate Pierre-Louis"
           ],
           "substitutes": [
-            "Aleksandar Lazic",
-            "Uros Paunovic",
             "Armin Hrstic",
             "Dorde Topolovic",
             "Petar Kovacevic",
-            "Sandro Antunovic"
+            "Sandro Antunovic",
+            "Aleksandar Lazic",
+            "Uros Paunovic"
           ]
         }
       },
       "headToHead": null
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "Simulcast",
       "dateLabel": "13 October",
       "timeLabel": "19:00",
@@ -1724,7 +1550,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.872Z",
+          "healthCheckedAt": "2026-10-13T19:04:13.962Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1746,7 +1572,7 @@
       "headToHead": null
     },
     {
-      "id": 17,
+      "id": 16,
       "title": "Roma – Balkan",
       "dateLabel": "13 October",
       "timeLabel": "19:00",
@@ -1765,7 +1591,7 @@
           "language": "Bulgarian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.877Z",
+          "healthCheckedAt": "2026-10-13T19:04:13.971Z",
           "healthHttpStatus": 200
         },
         {
@@ -1775,7 +1601,7 @@
           "language": "Bulgarian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.880Z",
+          "healthCheckedAt": "2026-10-13T19:04:14.138Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1797,7 +1623,7 @@
       "headToHead": null
     },
     {
-      "id": 18,
+      "id": 17,
       "title": "Trento – Chemnitz",
       "dateLabel": "13 October",
       "timeLabel": "19:00",
@@ -1816,7 +1642,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.896Z",
+          "healthCheckedAt": "2026-10-13T19:04:14.218Z",
           "healthHttpStatus": 200
         },
         {
@@ -1826,7 +1652,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.944Z",
+          "healthCheckedAt": "2026-10-13T19:04:14.300Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1962,7 +1788,7 @@
       }
     },
     {
-      "id": 19,
+      "id": 18,
       "title": "Baskonia – Dubai",
       "dateLabel": "13 October",
       "timeLabel": "19:30",
@@ -1977,65 +1803,95 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://livetvsx.live/go/magenta9_german.php",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269823&w=700&h=480",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.976Z",
+          "healthCheckedAt": "2026-10-13T19:04:14.318Z",
           "healthHttpStatus": 200
         },
         {
           "id": 2,
-          "label": "Stream 3",
+          "label": "Stream 4",
           "url": "https://playfa.st/ch.php?id=15",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:29.984Z",
+          "healthCheckedAt": "2026-10-13T19:04:14.497Z",
           "healthHttpStatus": 200
         },
         {
           "id": 3,
-          "label": "Stream 4",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268626&w=700&h=480",
-          "language": "Serbian",
+          "label": "Stream 5",
+          "url": "https://livetvsx.live/go/magenta9_german.php",
+          "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.004Z",
+          "healthCheckedAt": "2026-10-13T19:04:14.500Z",
           "healthHttpStatus": 200
         },
         {
           "id": 4,
           "label": "Stream 6",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268676&w=700&h=480",
-          "language": "Croatian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268626&w=700&h=480",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.036Z",
+          "healthCheckedAt": "2026-10-13T19:04:14.889Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
           "label": "Stream 8",
-          "url": "https://livetvsx.live/go/novasport2_greece.php",
-          "language": "Greek",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268676&w=700&h=480",
+          "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.044Z",
+          "healthCheckedAt": "2026-10-13T19:04:15.057Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 10",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268372&w=700&h=480",
+          "language": "Greek",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T19:04:15.221Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 7,
+          "label": "Stream 12",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268715&w=700&h=480",
+          "language": "Greek",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T19:04:15.386Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 8,
+          "label": "Stream 14",
+          "url": "https://livetvsx.live/go/novasport2_greece.php",
+          "language": "Greek",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T19:04:15.575Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 9,
+          "label": "Stream 16",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=86495fe134ff065d5217497babe6be33f81d37d1&lang=en&eid=478508304&lid=3086955&ci=41&si=3",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.056Z",
+          "healthCheckedAt": "2026-10-13T19:04:24.279Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 6,
+      "streamCount": 9,
       "teams": {
         "home": {
           "name": "Baskonia",
@@ -2195,7 +2051,7 @@
       }
     },
     {
-      "id": 20,
+      "id": 19,
       "title": "Milan – Real Madrid",
       "dateLabel": "13 October",
       "timeLabel": "19:30",
@@ -2214,7 +2070,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.093Z",
+          "healthCheckedAt": "2026-10-13T19:04:24.391Z",
           "healthHttpStatus": 200
         },
         {
@@ -2224,27 +2080,27 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.104Z",
+          "healthCheckedAt": "2026-10-13T19:04:24.555Z",
           "healthHttpStatus": 200
         },
         {
           "id": 3,
           "label": "Stream 6",
-          "url": "https://playfa.st/ch.php?id=16",
+          "url": "https://livetvsx.live/go/magenta10_german.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.149Z",
+          "healthCheckedAt": "2026-10-13T19:04:24.654Z",
           "healthHttpStatus": 200
         },
         {
           "id": 4,
           "label": "Stream 7",
-          "url": "https://livetvsx.live/go/magenta10_german.php",
+          "url": "https://playfa.st/ch.php?id=16",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.175Z",
+          "healthCheckedAt": "2026-10-13T19:04:24.679Z",
           "healthHttpStatus": 200
         },
         {
@@ -2254,41 +2110,62 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.196Z",
+          "healthCheckedAt": "2026-10-13T19:04:24.722Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 10",
-          "url": "https://livetvsx.live/go/novasport5_greece.php",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=247906&w=700&h=480",
           "language": "Greek",
-          "bitrate": null,
+          "bitrate": "1336kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.252Z",
+          "healthCheckedAt": "2026-10-13T19:04:24.882Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
-          "label": "Stream 11",
-          "url": "https://livetvsx.live/go/plusdep1_spain.php",
+          "label": "Stream 12",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=270034&w=700&h=480",
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.261Z",
+          "healthCheckedAt": "2026-10-13T19:04:25.087Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
-          "label": "Stream 13",
+          "label": "Stream 14",
+          "url": "https://livetvsx.live/go/novasport5_greece.php",
+          "language": "Greek",
+          "bitrate": null,
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T19:04:25.151Z",
+          "healthHttpStatus": 502,
+          "healthError": "HTTP 502"
+        },
+        {
+          "id": 9,
+          "label": "Stream 15",
+          "url": "https://livetvsx.live/go/plusdep1_spain.php",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T19:04:25.262Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 10,
+          "label": "Stream 17",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=6058a4c0f2569bd81c687aa7dfb48b8a9569fb29&lang=en&eid=478508305&lid=3086956&ci=41&si=3",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.262Z",
+          "healthCheckedAt": "2026-10-13T19:04:25.345Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 8,
+      "streamCount": 10,
       "teams": {
         "home": {
           "name": "Milan",
@@ -2457,7 +2334,7 @@
       }
     },
     {
-      "id": 21,
+      "id": 20,
       "title": "Barcelona – Maccabi T-A",
       "dateLabel": "13 October",
       "timeLabel": "19:30",
@@ -2476,7 +2353,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.292Z",
+          "healthCheckedAt": "2026-10-13T19:04:25.382Z",
           "healthHttpStatus": 200
         },
         {
@@ -2485,82 +2362,93 @@
           "url": "https://livetvsx.live/go/magenta11_german.php",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.298Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T19:04:25.385Z",
+          "healthHttpStatus": 502,
+          "healthError": "HTTP 502"
         },
         {
           "id": 3,
           "label": "Stream 4",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268625&w=700&h=480",
-          "language": "Serbian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269635&w=700&h=480",
+          "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.301Z",
+          "healthCheckedAt": "2026-10-13T19:04:25.438Z",
           "healthHttpStatus": 200
         },
         {
           "id": 4,
           "label": "Stream 6",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268672&w=700&h=480",
-          "language": "Croatian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268625&w=700&h=480",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.312Z",
+          "healthCheckedAt": "2026-10-13T19:04:25.513Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
           "label": "Stream 8",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269875&w=700&h=480",
-          "language": "Ukrainian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268672&w=700&h=480",
+          "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.318Z",
+          "healthCheckedAt": "2026-10-13T19:04:25.610Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 10",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270105&w=700&h=480",
-          "language": "Hebrew",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269875&w=700&h=480",
+          "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.325Z",
+          "healthCheckedAt": "2026-10-13T19:04:25.822Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
           "label": "Stream 12",
-          "url": "https://livetvsx.live/go/teledep_spain.php",
-          "language": "Spanish",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=270105&w=700&h=480",
+          "language": "Hebrew",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.348Z",
+          "healthCheckedAt": "2026-10-13T19:04:25.970Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
-          "label": "Stream 13",
-          "url": "https://livetvsx.live/go/novasport6_greece.php",
-          "language": "Greek",
+          "label": "Stream 14",
+          "url": "https://livetvsx.live/go/teledep_spain.php",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.352Z",
+          "healthCheckedAt": "2026-10-13T19:04:25.986Z",
           "healthHttpStatus": 200
         },
         {
           "id": 9,
           "label": "Stream 15",
+          "url": "https://livetvsx.live/go/novasport6_greece.php",
+          "language": "Greek",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T19:04:25.986Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 10,
+          "label": "Stream 17",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=c21316ad4b7f44eaf6fcfb2c245c46de8b746cc6&lang=en&eid=478508306&lid=3086954&ci=41&si=3",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.364Z",
+          "healthCheckedAt": "2026-10-13T19:04:26.046Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 9,
+      "streamCount": 10,
       "teams": {
         "home": {
           "name": "Barcelona",
@@ -2729,7 +2617,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 21,
       "title": "Partizan – Panathinaikos",
       "dateLabel": "13 October",
       "timeLabel": "19:30",
@@ -2744,105 +2632,137 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://livetvsx.live/go/magenta12_german.php",
+          "url": "https://playfa.st/ch.php?id=19",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.400Z",
+          "healthCheckedAt": "2026-10-13T19:04:26.130Z",
           "healthHttpStatus": 200
         },
         {
           "id": 2,
           "label": "Stream 3",
-          "url": "https://playfa.st/ch.php?id=19",
+          "url": "https://livetvsx.live/go/magenta12_german.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.412Z",
+          "healthCheckedAt": "2026-10-13T19:04:26.138Z",
           "healthHttpStatus": 200
         },
         {
           "id": 3,
           "label": "Stream 4",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=267748&w=700&h=480",
-          "language": "Russian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268477&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.413Z",
+          "healthCheckedAt": "2026-10-13T19:04:26.142Z",
           "healthHttpStatus": 200
         },
         {
           "id": 4,
           "label": "Stream 6",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268608&w=700&h=480",
-          "language": "Serbian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269094&w=700&h=480",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.460Z",
+          "healthCheckedAt": "2026-10-13T19:04:26.298Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
           "label": "Stream 8",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268668&w=700&h=480",
-          "language": "Croatian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=267748&w=700&h=480",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.468Z",
+          "healthCheckedAt": "2026-10-13T19:04:26.458Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 10",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=253247&w=700&h=480",
-          "language": "Greek",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268608&w=700&h=480",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.468Z",
+          "healthCheckedAt": "2026-10-13T19:04:26.630Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
           "label": "Stream 12",
-          "url": "https://livetvsx.live/go/novasport4_greece.php",
-          "language": "Greek",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268668&w=700&h=480",
+          "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.469Z",
+          "healthCheckedAt": "2026-10-13T19:04:26.799Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
-          "label": "Stream 13",
-          "url": "https://livetvsx.live/go/arenapre2_serbia.php",
+          "label": "Stream 14",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=260259&w=700&h=480",
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.476Z",
+          "healthCheckedAt": "2026-10-13T19:04:26.912Z",
           "healthHttpStatus": 200
         },
         {
           "id": 9,
-          "label": "Stream 14",
-          "url": "https://playfa.st/ch.php?id=24",
+          "label": "Stream 16",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=253247&w=700&h=480",
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.480Z",
+          "healthCheckedAt": "2026-10-13T19:04:26.974Z",
           "healthHttpStatus": 200
         },
         {
           "id": 10,
-          "label": "Stream 15",
+          "label": "Stream 18",
+          "url": "https://playfa.st/ch.php?id=24",
+          "language": "Greek",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T19:04:26.978Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 11,
+          "label": "Stream 19",
           "url": "https://livetvsx.live/go/ch2_serbia.php",
           "language": "Serbian",
           "bitrate": null,
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T19:04:27.198Z",
+          "healthHttpStatus": 502,
+          "healthError": "HTTP 502"
+        },
+        {
+          "id": 12,
+          "label": "Stream 20",
+          "url": "https://livetvsx.live/go/novasport4_greece.php",
+          "language": "Greek",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.524Z",
+          "healthCheckedAt": "2026-10-13T19:04:27.314Z",
           "healthHttpStatus": 200
+        },
+        {
+          "id": 13,
+          "label": "Stream 21",
+          "url": "https://livetvsx.live/go/arenapre2_serbia.php",
+          "language": "Serbian",
+          "bitrate": null,
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T19:04:27.429Z",
+          "healthHttpStatus": 502,
+          "healthError": "HTTP 502"
         }
       ],
-      "streamCount": 10,
+      "streamCount": 13,
       "teams": {
         "home": {
           "name": "Partizan",
@@ -3011,7 +2931,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 22,
       "title": "Oostende – Girona",
       "dateLabel": "13 October",
       "timeLabel": "19:30",
@@ -3030,7 +2950,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.540Z",
+          "healthCheckedAt": "2026-10-13T19:04:27.625Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3052,11 +2972,11 @@
       "headToHead": null
     },
     {
-      "id": 24,
+      "id": 23,
       "title": "Valencia – Olympiacos",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Euroleague",
       "iconUrl": "https://cdn.livetv904.me/img/icons/euroleague.gif",
       "iconAlt": "Euroleague",
@@ -3070,9 +2990,10 @@
           "url": "https://livetvsx.live/go/magenta13_german.php",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.541Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T19:04:27.785Z",
+          "healthHttpStatus": 502,
+          "healthError": "HTTP 502"
         },
         {
           "id": 2,
@@ -3081,7 +3002,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.589Z",
+          "healthCheckedAt": "2026-10-13T19:04:27.786Z",
           "healthHttpStatus": 200
         },
         {
@@ -3091,7 +3012,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.604Z",
+          "healthCheckedAt": "2026-10-13T19:04:28.023Z",
           "healthHttpStatus": 200
         },
         {
@@ -3101,61 +3022,71 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.621Z",
+          "healthCheckedAt": "2026-10-13T19:04:28.058Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
           "label": "Stream 8",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268671&w=700&h=480",
-          "language": "Serbian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=264635&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.621Z",
+          "healthCheckedAt": "2026-10-13T19:04:28.166Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 10",
-          "url": "https://playfa.st/ch.php?id=25",
-          "language": "Greek",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268671&w=700&h=480",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.628Z",
+          "healthCheckedAt": "2026-10-13T19:04:28.202Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
-          "label": "Stream 11",
+          "label": "Stream 12",
           "url": "https://livetvsx.live/go/novaprime_greece.php",
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.648Z",
+          "healthCheckedAt": "2026-10-13T19:04:28.326Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
-          "label": "Stream 12",
+          "label": "Stream 13",
           "url": "https://livetvsx.live/go/arena1_serbia.php",
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.709Z",
+          "healthCheckedAt": "2026-10-13T19:04:28.362Z",
           "healthHttpStatus": 200
         },
         {
           "id": 9,
-          "label": "Stream 13",
+          "label": "Stream 14",
           "url": "https://livetvsx.live/go/ch1_greece.php",
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T18:44:30.720Z",
+          "healthCheckedAt": "2026-10-13T19:04:35.918Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 10,
+          "label": "Stream 15",
+          "url": "https://playfa.st/ch.php?id=25",
+          "language": "Greek",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T19:04:36.509Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 9,
+      "streamCount": 10,
       "teams": {
         "home": {
           "name": "Valencia",
@@ -3296,7 +3227,7 @@
       }
     },
     {
-      "id": 25,
+      "id": 24,
       "title": "Benfica (W) – Royals Saarlouis (W)",
       "dateLabel": "13 October",
       "timeLabel": "21:00",
@@ -3307,8 +3238,19 @@
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 21:00\n(Women. Eurocup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/H72oA_sphQw?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T19:04:36.874Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Benfica (W)",
@@ -3326,7 +3268,7 @@
       "headToHead": null
     },
     {
-      "id": 26,
+      "id": 25,
       "title": "Paulistano U-20 – Sorocaba U-20",
       "dateLabel": "13 October",
       "timeLabel": "21:00",
@@ -3479,7 +3421,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 26,
       "title": "Colonias Gold – Olimpia Kings",
       "dateLabel": "14 October",
       "timeLabel": "0:00",
@@ -3509,7 +3451,7 @@
       "headToHead": null
     },
     {
-      "id": 28,
+      "id": 27,
       "title": "Toronto – New York",
       "dateLabel": "14 October",
       "timeLabel": "0:00",
@@ -3662,7 +3604,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 28,
       "title": "Orlando – Cleveland",
       "dateLabel": "14 October",
       "timeLabel": "0:00",
@@ -3815,7 +3757,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 29,
       "title": "Oklahoma – Indiana",
       "dateLabel": "14 October",
       "timeLabel": "1:00",
@@ -3968,7 +3910,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 30,
       "title": "Piratas – Motilonas Del Norte",
       "dateLabel": "14 October",
       "timeLabel": "2:30",
@@ -4121,7 +4063,7 @@
       }
     },
     {
-      "id": 32,
+      "id": 31,
       "title": "Sacramento – Portland",
       "dateLabel": "14 October",
       "timeLabel": "3:00",
@@ -4274,7 +4216,7 @@
       }
     },
     {
-      "id": 33,
+      "id": 32,
       "title": "LA Lakers – Golden State",
       "dateLabel": "14 October",
       "timeLabel": "3:00",
@@ -4427,7 +4369,7 @@
       }
     },
     {
-      "id": 34,
+      "id": 33,
       "title": "Astana Tigers – Karaganda",
       "dateLabel": "14 October",
       "timeLabel": "8:00",
@@ -4457,7 +4399,7 @@
       "headToHead": null
     },
     {
-      "id": 35,
+      "id": 34,
       "title": "Sydney Kings – NZ Breakers",
       "dateLabel": "14 October",
       "timeLabel": "9:30",
@@ -4610,7 +4552,7 @@
       }
     },
     {
-      "id": 36,
+      "id": 35,
       "title": "Bars Petropavlovsk – BQO-ARLANS",
       "dateLabel": "14 October",
       "timeLabel": "10:00",
@@ -4640,7 +4582,7 @@
       "headToHead": null
     },
     {
-      "id": 37,
+      "id": 36,
       "title": "Terrafirma Dyip – San Miguel Beermen",
       "dateLabel": "14 October",
       "timeLabel": "10:15",
@@ -4793,7 +4735,7 @@
       }
     },
     {
-      "id": 38,
+      "id": 37,
       "title": "Nagasaki Velca – Egis",
       "dateLabel": "14 October",
       "timeLabel": "11:10",
@@ -4823,7 +4765,7 @@
       "headToHead": null
     },
     {
-      "id": 39,
+      "id": 38,
       "title": "Road Warriors – Titan Ultra",
       "dateLabel": "14 October",
       "timeLabel": "12:30",
@@ -4976,7 +4918,7 @@
       }
     },
     {
-      "id": 40,
+      "id": 39,
       "title": "Kibirkstis Vilnius (W) – Athinaikos (W)",
       "dateLabel": "14 October",
       "timeLabel": "14:00",
@@ -5006,7 +4948,7 @@
       "headToHead": null
     },
     {
-      "id": 41,
+      "id": 40,
       "title": "CIU Kavkasia – Pully Lausanne Foxes",
       "dateLabel": "14 October",
       "timeLabel": "15:00",
@@ -5036,7 +4978,7 @@
       "headToHead": null
     },
     {
-      "id": 42,
+      "id": 41,
       "title": "Rilski Sportist – Esenler Erokspor",
       "dateLabel": "14 October",
       "timeLabel": "16:00",
@@ -5066,7 +5008,7 @@
       "headToHead": null
     },
     {
-      "id": 43,
+      "id": 42,
       "title": "Aistes Kaunas (W) – RSU Merks (W)",
       "dateLabel": "14 October",
       "timeLabel": "16:00",
@@ -5096,7 +5038,7 @@
       "headToHead": null
     },
     {
-      "id": 44,
+      "id": 43,
       "title": "Samaheej – Al-Hala",
       "dateLabel": "14 October",
       "timeLabel": "16:00",
@@ -5249,7 +5191,7 @@
       }
     },
     {
-      "id": 45,
+      "id": 44,
       "title": "Siauliai – Cluj-Napoca",
       "dateLabel": "14 October",
       "timeLabel": "16:30",
@@ -5279,7 +5221,7 @@
       "headToHead": null
     },
     {
-      "id": 46,
+      "id": 45,
       "title": "Crvena Zvezda (W) – Kangoeroes Mechelen (W)",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -5309,7 +5251,7 @@
       "headToHead": null
     },
     {
-      "id": 47,
+      "id": 46,
       "title": "Hapoel T-A – Besiktas",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -5462,7 +5404,7 @@
       }
     },
     {
-      "id": 48,
+      "id": 47,
       "title": "Neftchi – VEF Riga",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -5492,7 +5434,7 @@
       "headToHead": null
     },
     {
-      "id": 49,
+      "id": 48,
       "title": "Lokomotiv Plovdiv – Oradea",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -5522,7 +5464,7 @@
       "headToHead": null
     },
     {
-      "id": 50,
+      "id": 49,
       "title": "Promitheas – Trier Gladiators",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -5552,7 +5494,7 @@
       "headToHead": null
     },
     {
-      "id": 51,
+      "id": 50,
       "title": "Valmiera Glass – Kalev",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -5705,7 +5647,7 @@
       }
     },
     {
-      "id": 52,
+      "id": 51,
       "title": "Batumi – Opava",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -5735,7 +5677,7 @@
       "headToHead": null
     },
     {
-      "id": 53,
+      "id": 52,
       "title": "Nitra Blue Wings – Keravnos",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -5765,7 +5707,7 @@
       "headToHead": null
     },
     {
-      "id": 54,
+      "id": 53,
       "title": "Craiova – Sporting",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -5795,7 +5737,7 @@
       "headToHead": null
     },
     {
-      "id": 55,
+      "id": 54,
       "title": "Spartak Pleven – Alkar",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -5825,7 +5767,7 @@
       "headToHead": null
     },
     {
-      "id": 56,
+      "id": 55,
       "title": "Trabzonspor – Sabah",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -5855,7 +5797,7 @@
       "headToHead": null
     },
     {
-      "id": 57,
+      "id": 56,
       "title": "Krka – Helios Domzale",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -6008,7 +5950,7 @@
       }
     },
     {
-      "id": 58,
+      "id": 57,
       "title": "Emlak Konut (W) – UMCS Lublin (W)",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -6038,7 +5980,7 @@
       "headToHead": null
     },
     {
-      "id": 59,
+      "id": 58,
       "title": "Rigas Zelli – Cedevita Olimpija",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -6068,7 +6010,7 @@
       "headToHead": null
     },
     {
-      "id": 60,
+      "id": 59,
       "title": "Korfez – Elan Chalon",
       "dateLabel": "14 October",
       "timeLabel": "17:30",
@@ -6098,7 +6040,7 @@
       "headToHead": null
     },
     {
-      "id": 61,
+      "id": 60,
       "title": "Iraklis – Wuerzburg",
       "dateLabel": "14 October",
       "timeLabel": "17:30",
@@ -6128,7 +6070,7 @@
       "headToHead": null
     },
     {
-      "id": 62,
+      "id": 61,
       "title": "Zielona Gora – Patrioti Levice",
       "dateLabel": "14 October",
       "timeLabel": "17:30",
@@ -6158,7 +6100,7 @@
       "headToHead": null
     },
     {
-      "id": 63,
+      "id": 62,
       "title": "Ulm – AS Monaco",
       "dateLabel": "14 October",
       "timeLabel": "17:30",
@@ -6188,7 +6130,7 @@
       "headToHead": null
     },
     {
-      "id": 64,
+      "id": 63,
       "title": "Flammes Carolo (W) – Rapid Bucuresti (W)",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6218,7 +6160,7 @@
       "headToHead": null
     },
     {
-      "id": 65,
+      "id": 64,
       "title": "Dziki Warszawa – AEK Larnaca",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6248,7 +6190,7 @@
       "headToHead": null
     },
     {
-      "id": 66,
+      "id": 65,
       "title": "MZT Skopje – Tartu Ulikool",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6278,7 +6220,7 @@
       "headToHead": null
     },
     {
-      "id": 67,
+      "id": 66,
       "title": "Split – Trepca Mitrovica",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6308,7 +6250,7 @@
       "headToHead": null
     },
     {
-      "id": 68,
+      "id": 67,
       "title": "Bamberg – Murcia",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6338,7 +6280,7 @@
       "headToHead": null
     },
     {
-      "id": 69,
+      "id": 68,
       "title": "Trutnov (W) – Levharti Chomutov (W)",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6368,7 +6310,7 @@
       "headToHead": null
     },
     {
-      "id": 70,
+      "id": 69,
       "title": "Al Muharraq – Sitra",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6521,7 +6463,7 @@
       }
     },
     {
-      "id": 71,
+      "id": 70,
       "title": "USK Praha (W) – Bourges (W)",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6551,7 +6493,7 @@
       "headToHead": null
     },
     {
-      "id": 72,
+      "id": 71,
       "title": "Zaragoza (W) – Landes (W)",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6581,7 +6523,7 @@
       "headToHead": null
     },
     {
-      "id": 73,
+      "id": 72,
       "title": "Grobina – Saldus",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6734,7 +6676,7 @@
       }
     },
     {
-      "id": 74,
+      "id": 73,
       "title": "Aris – Derthona",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6764,7 +6706,7 @@
       "headToHead": null
     },
     {
-      "id": 75,
+      "id": 74,
       "title": "Tofas – Buducnost",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6794,7 +6736,7 @@
       "headToHead": null
     },
     {
-      "id": 76,
+      "id": 75,
       "title": "Slask Wroclaw – Napoli",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -6824,7 +6766,7 @@
       "headToHead": null
     },
     {
-      "id": 77,
+      "id": 76,
       "title": "Anadolu Efes – Bayern Munich",
       "dateLabel": "14 October",
       "timeLabel": "18:30",
@@ -6977,7 +6919,7 @@
       }
     },
     {
-      "id": 78,
+      "id": 77,
       "title": "Skrljevo – Cibona",
       "dateLabel": "14 October",
       "timeLabel": "18:30",
@@ -7130,7 +7072,7 @@
       }
     },
     {
-      "id": 79,
+      "id": 78,
       "title": "Siauliai (W) – Rokiskis (W)",
       "dateLabel": "14 October",
       "timeLabel": "18:30",
@@ -7160,7 +7102,7 @@
       "headToHead": null
     },
     {
-      "id": 80,
+      "id": 79,
       "title": "Cholet – Rasta Vechta",
       "dateLabel": "14 October",
       "timeLabel": "19:00",
@@ -7190,7 +7132,7 @@
       "headToHead": null
     },
     {
-      "id": 81,
+      "id": 80,
       "title": "Bilbao – Slavia Prague",
       "dateLabel": "14 October",
       "timeLabel": "19:00",
@@ -7325,7 +7267,7 @@
       }
     },
     {
-      "id": 82,
+      "id": 81,
       "title": "Spartak Subotica – Hapoel Holon",
       "dateLabel": "14 October",
       "timeLabel": "19:00",
@@ -7355,7 +7297,7 @@
       "headToHead": null
     },
     {
-      "id": 83,
+      "id": 82,
       "title": "Valencia (W) – Fenerbahce (W)",
       "dateLabel": "14 October",
       "timeLabel": "19:00",
@@ -7385,7 +7327,7 @@
       "headToHead": null
     },
     {
-      "id": 84,
+      "id": 83,
       "title": "Le Mans – Rostock",
       "dateLabel": "14 October",
       "timeLabel": "19:00",
@@ -7415,7 +7357,7 @@
       "headToHead": null
     },
     {
-      "id": 85,
+      "id": 84,
       "title": "Triglav (W) – Jezica (W)",
       "dateLabel": "14 October",
       "timeLabel": "19:30",
@@ -7445,7 +7387,7 @@
       "headToHead": null
     },
     {
-      "id": 86,
+      "id": 85,
       "title": "Lions de Geneve – Bakken Bears",
       "dateLabel": "14 October",
       "timeLabel": "19:30",
@@ -7475,7 +7417,7 @@
       "headToHead": null
     },
     {
-      "id": 87,
+      "id": 86,
       "title": "Goldcoast Wallabies – Swiss Central Basket",
       "dateLabel": "14 October",
       "timeLabel": "19:30",
@@ -7619,7 +7561,7 @@
       }
     },
     {
-      "id": 88,
+      "id": 87,
       "title": "Zlatorog – Ilirija",
       "dateLabel": "14 October",
       "timeLabel": "19:30",
@@ -7772,7 +7714,7 @@
       }
     },
     {
-      "id": 89,
+      "id": 88,
       "title": "SP Burgos – Hapoel Jerusalem",
       "dateLabel": "14 October",
       "timeLabel": "19:30",
@@ -7802,7 +7744,7 @@
       "headToHead": null
     },
     {
-      "id": 90,
+      "id": 89,
       "title": "Paris – Virtus Bologna",
       "dateLabel": "14 October",
       "timeLabel": "19:45",
@@ -7955,7 +7897,7 @@
       }
     },
     {
-      "id": 91,
+      "id": 90,
       "title": "Domel Skofja Loka (W) – ilirija (W)",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -7985,7 +7927,7 @@
       "headToHead": null
     },
     {
-      "id": 92,
+      "id": 91,
       "title": "Benfica – Denizli",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -8015,7 +7957,7 @@
       "headToHead": null
     },
     {
-      "id": 93,
+      "id": 92,
       "title": "Venezia – Turk Telekom",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -8159,7 +8101,7 @@
       }
     },
     {
-      "id": 94,
+      "id": 93,
       "title": "Tenerife – Maxima Roma",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -8189,5 +8131,5 @@
       "headToHead": null
     }
   ],
-  "enrichedAt": "2026-10-13T18:44:28.455Z"
+  "enrichedAt": "2026-10-13T19:04:11.590Z"
 }
