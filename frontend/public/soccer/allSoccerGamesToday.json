@@ -1,186 +1,22 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-10-13T20:01:37.798Z",
-  "count": 145,
+  "scrapedAt": "2026-10-13T20:20:39.795Z",
+  "count": 138,
   "matches": [
     {
       "id": 1,
-      "title": "Krasnodar – Fakel",
-      "dateLabel": "13 October",
-      "timeLabel": "18:45",
-      "isLive": false,
-      "leagueLabel": "Russia. Cup",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/ru.gif",
-      "iconAlt": "Russia. Cup",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 18:45\n(Russia. Cup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Krasnodar",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/660.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Fakel",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/5777.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700000006/700000480/1_cf191/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "Russia. Cup",
-            "homeTeam": "Krasnodar",
-            "awayTeam": "Fakel",
-            "score": "0:2",
-            "result": "L",
-            "winner": "away"
-          },
-          {
-            "date": "01/09",
-            "competition": "Russia. Cup",
-            "homeTeam": "Fakel",
-            "awayTeam": "Krasnodar",
-            "score": "1:1",
-            "result": "D",
-            "winner": "draw"
-          },
-          {
-            "date": "02/08",
-            "competition": "Russia. Premier League",
-            "homeTeam": "Krasnodar",
-            "awayTeam": "Fakel",
-            "score": "3:2",
-            "result": "W",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Krasnodar",
-        "awayTeam": "Fakel",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "10/10",
-                "competition": "Premier League",
-                "opponent": "Zenit",
-                "score": "2:3",
-                "result": "L"
-              },
-              {
-                "date": "03/10",
-                "competition": "Friendly Match",
-                "opponent": "Rostov",
-                "score": "3:0",
-                "result": "W"
-              },
-              {
-                "date": "17/09",
-                "competition": "Premier League",
-                "opponent": "Orenburg",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "13/09",
-                "competition": "Premier League",
-                "opponent": "Akron",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "05/09",
-                "competition": "Premier League",
-                "opponent": "Krylia Sovetov",
-                "score": "2:2",
-                "result": "D"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 3,
-              "L": 1
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "10/10",
-                "competition": "Premier League",
-                "opponent": "Krasnodar",
-                "score": "3:2",
-                "result": "W"
-              },
-              {
-                "date": "03/10",
-                "competition": "Friendly Match",
-                "opponent": "Rostov",
-                "score": "3:0",
-                "result": "W"
-              },
-              {
-                "date": "17/09",
-                "competition": "Premier League",
-                "opponent": "Orenburg",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "13/09",
-                "competition": "Premier League",
-                "opponent": "Krasnodar",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "05/09",
-                "competition": "Premier League",
-                "opponent": "Krylia Sovetov",
-                "score": "2:2",
-                "result": "D"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 3,
-              "L": 0
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 2,
       "title": "Cheltenham Town – Tottenham U-21",
       "dateLabel": "13 October",
       "timeLabel": "19:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "England. EFL Trophy",
       "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
       "iconAlt": "England. EFL Trophy",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 19:00\n(England. EFL Trophy)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=265029&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.444Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Cheltenham Town",
@@ -198,6 +34,15 @@
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700015608/700019672/1_df459/",
         "matches": [
+          {
+            "date": "13/10",
+            "competition": "England. EFL Trophy",
+            "homeTeam": "Cheltenham Town",
+            "awayTeam": "Tottenham U-21",
+            "score": "2:2",
+            "result": "D",
+            "winner": "draw"
+          },
           {
             "date": "28/10",
             "competition": "England. EFL Trophy",
@@ -303,876 +148,19 @@
       }
     },
     {
-      "id": 3,
-      "title": "Oldham Athletic – Leeds Utd U-21",
-      "dateLabel": "13 October",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "England. EFL Trophy",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
-      "iconAlt": "England. EFL Trophy",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:00\n(England. EFL Trophy)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Oldham Athletic",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/33263.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Leeds Utd U-21",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/8995.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700015826/700023814/1_a0423/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "England. EFL Trophy",
-            "homeTeam": "Oldham Athletic",
-            "awayTeam": "Leeds Utd U-21",
-            "score": "4:2",
-            "result": "W",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Oldham Athletic",
-        "awayTeam": "Leeds Utd U-21",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "10/10",
-                "competition": "League Two",
-                "opponent": "Accrington Stanley",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "03/10",
-                "competition": "League Two",
-                "opponent": "Northampton Town",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "26/09",
-                "competition": "League Two",
-                "opponent": "Salford City",
-                "score": "1:4",
-                "result": "L"
-              },
-              {
-                "date": "22/09",
-                "competition": "EFL Trophy",
-                "opponent": "Fleetwood Town",
-                "score": "1:0",
-                "result": "W"
-              },
-              {
-                "date": "19/09",
-                "competition": "League Two",
-                "opponent": "Rochdale",
-                "score": "0:2",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 2,
-              "L": 2
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "10/10",
-                "competition": "League Two",
-                "opponent": "Oldham Athletic",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "03/10",
-                "competition": "League Two",
-                "opponent": "Northampton Town",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "26/09",
-                "competition": "League Two",
-                "opponent": "Oldham Athletic",
-                "score": "4:1",
-                "result": "W"
-              },
-              {
-                "date": "22/09",
-                "competition": "EFL Trophy",
-                "opponent": "Oldham Athletic",
-                "score": "0:1",
-                "result": "L"
-              },
-              {
-                "date": "19/09",
-                "competition": "League Two",
-                "opponent": "Rochdale",
-                "score": "0:2",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 2,
-              "L": 2
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 4,
-      "title": "Notts County – Nottingham Forest U-21",
-      "dateLabel": "13 October",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "England. EFL Trophy",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
-      "iconAlt": "England. EFL Trophy",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:00\n(England. EFL Trophy)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Notts County",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/5550.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Nottingham Forest U-21",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/28467.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700013899/700057510/1_01974/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "England. EFL Trophy",
-            "homeTeam": "Notts County",
-            "awayTeam": "Nottingham Forest U-21",
-            "score": "5:1",
-            "result": "W",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Notts County",
-        "awayTeam": "Nottingham Forest U-21",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "10/10",
-                "competition": "League One",
-                "opponent": "Oxford Utd",
-                "score": "1:2",
-                "result": "L"
-              },
-              {
-                "date": "03/10",
-                "competition": "League One",
-                "opponent": "Peterborough United",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "22/09",
-                "competition": "EFL Trophy",
-                "opponent": "Grimsby Town",
-                "score": "2:1",
-                "result": "W"
-              },
-              {
-                "date": "19/09",
-                "competition": "League One",
-                "opponent": "Reading",
-                "score": "0:2",
-                "result": "L"
-              },
-              {
-                "date": "12/09",
-                "competition": "League One",
-                "opponent": "Bradford City",
-                "score": "0:1",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 1,
-              "L": 3
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "10/10",
-                "competition": "League One",
-                "opponent": "Notts County",
-                "score": "2:1",
-                "result": "W"
-              },
-              {
-                "date": "03/10",
-                "competition": "League One",
-                "opponent": "Peterborough United",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "22/09",
-                "competition": "EFL Trophy",
-                "opponent": "Notts County",
-                "score": "1:2",
-                "result": "L"
-              },
-              {
-                "date": "19/09",
-                "competition": "League One",
-                "opponent": "Reading",
-                "score": "0:2",
-                "result": "L"
-              },
-              {
-                "date": "12/09",
-                "competition": "League One",
-                "opponent": "Notts County",
-                "score": "1:0",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 1,
-              "L": 2
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 5,
-      "title": "Gillingham – Brighton U-21",
-      "dateLabel": "13 October",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "England. EFL Trophy",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
-      "iconAlt": "England. EFL Trophy",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:00\n(England. EFL Trophy)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Gillingham",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/20052.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Brighton U-21",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/7922.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700014167/700019679/1_e4c95/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "England. EFL Trophy",
-            "homeTeam": "Gillingham",
-            "awayTeam": "Brighton U-21",
-            "score": "0:0",
-            "result": "D",
-            "winner": "draw"
-          },
-          {
-            "date": "04/10",
-            "competition": "England. EFL Trophy",
-            "homeTeam": "Gillingham",
-            "awayTeam": "Brighton U-21",
-            "score": "3:2",
-            "result": "W",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Gillingham",
-        "awayTeam": "Brighton U-21",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "13/10",
-                "competition": "EFL Trophy",
-                "opponent": "Brighton U-21",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "10/10",
-                "competition": "League Two",
-                "opponent": "Rotherham Utd",
-                "score": "4:1",
-                "result": "W"
-              },
-              {
-                "date": "03/10",
-                "competition": "League Two",
-                "opponent": "Newport County",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "26/09",
-                "competition": "League Two",
-                "opponent": "York City",
-                "score": "0:3",
-                "result": "L"
-              },
-              {
-                "date": "22/09",
-                "competition": "EFL Trophy",
-                "opponent": "Cambridge Utd",
-                "score": "1:4",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 2,
-              "L": 2
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "13/10",
-                "competition": "EFL Trophy",
-                "opponent": "Gillingham",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "10/10",
-                "competition": "League Two",
-                "opponent": "Rotherham Utd",
-                "score": "4:1",
-                "result": "W"
-              },
-              {
-                "date": "03/10",
-                "competition": "League Two",
-                "opponent": "Gillingham",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "26/09",
-                "competition": "League Two",
-                "opponent": "York City",
-                "score": "0:3",
-                "result": "L"
-              },
-              {
-                "date": "22/09",
-                "competition": "EFL Trophy",
-                "opponent": "Gillingham",
-                "score": "4:1",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 2,
-              "L": 1
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 6,
-      "title": "Reading – Chelsea U-21",
-      "dateLabel": "13 October",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "England. EFL Trophy",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
-      "iconAlt": "England. EFL Trophy",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:00\n(England. EFL Trophy)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Reading",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/3910.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Chelsea U-21",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/38250.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700000407/700019674/1_f88e5/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "England. EFL Trophy",
-            "homeTeam": "Reading",
-            "awayTeam": "Chelsea U-21",
-            "score": "0:2",
-            "result": "L",
-            "winner": "away"
-          }
-        ],
-        "homeTeam": "Reading",
-        "awayTeam": "Chelsea U-21",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "10/10",
-                "competition": "League One",
-                "opponent": "Milton Keynes",
-                "score": "5:1",
-                "result": "W"
-              },
-              {
-                "date": "03/10",
-                "competition": "League One",
-                "opponent": "Bradford City",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "26/09",
-                "competition": "League One",
-                "opponent": "Wycombe",
-                "score": "2:2",
-                "result": "D"
-              },
-              {
-                "date": "19/09",
-                "competition": "League One",
-                "opponent": "Notts County",
-                "score": "2:0",
-                "result": "W"
-              },
-              {
-                "date": "15/09",
-                "competition": "League Cup",
-                "opponent": "Brentford",
-                "score": "1:2",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 2,
-              "L": 1
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "10/10",
-                "competition": "League One",
-                "opponent": "Milton Keynes",
-                "score": "5:1",
-                "result": "W"
-              },
-              {
-                "date": "03/10",
-                "competition": "League One",
-                "opponent": "Reading",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "26/09",
-                "competition": "League One",
-                "opponent": "Wycombe",
-                "score": "2:2",
-                "result": "D"
-              },
-              {
-                "date": "19/09",
-                "competition": "League One",
-                "opponent": "Reading",
-                "score": "0:2",
-                "result": "L"
-              },
-              {
-                "date": "15/09",
-                "competition": "League Cup",
-                "opponent": "Reading",
-                "score": "2:1",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 2,
-              "L": 1
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 7,
-      "title": "Walsall – Fulham U-21",
-      "dateLabel": "13 October",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "England. EFL Trophy",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
-      "iconAlt": "England. EFL Trophy",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:00\n(England. EFL Trophy)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Walsall",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/4064.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Fulham U-21",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/7918.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700014153/700019677/1_c4f13/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "England. EFL Trophy",
-            "homeTeam": "Walsall",
-            "awayTeam": "Fulham U-21",
-            "score": "0:0",
-            "result": "D",
-            "winner": "draw"
-          },
-          {
-            "date": "17/09",
-            "competition": "England. EFL Trophy",
-            "homeTeam": "Walsall",
-            "awayTeam": "Fulham U-21",
-            "score": "1:0",
-            "result": "W",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Walsall",
-        "awayTeam": "Fulham U-21",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "13/10",
-                "competition": "EFL Trophy",
-                "opponent": "Fulham U-21",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "10/10",
-                "competition": "League Two",
-                "opponent": "Fleetwood Town",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "03/10",
-                "competition": "League Two",
-                "opponent": "Crawley Town",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "26/09",
-                "competition": "League Two",
-                "opponent": "Tranmere Rovers",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "22/09",
-                "competition": "EFL Trophy",
-                "opponent": "Stevenage",
-                "score": "1:6",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 0,
-              "D": 4,
-              "L": 1
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "13/10",
-                "competition": "EFL Trophy",
-                "opponent": "Walsall",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "10/10",
-                "competition": "League Two",
-                "opponent": "Fleetwood Town",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "03/10",
-                "competition": "League Two",
-                "opponent": "Walsall",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "26/09",
-                "competition": "League Two",
-                "opponent": "Tranmere Rovers",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "22/09",
-                "competition": "EFL Trophy",
-                "opponent": "Walsall",
-                "score": "6:1",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 4,
-              "L": 0
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 8,
-      "title": "RS Berkane – RS Zemamra",
-      "dateLabel": "13 October",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "Morocco. Botola Pro",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/ma.gif",
-      "iconAlt": "Morocco. Botola Pro",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:00\n(Morocco. Botola Pro)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "RS Berkane",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/1321.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "RS Zemamra",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/6549.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700013435/700013446/1_2e070/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "Morocco. Botola Pro",
-            "homeTeam": "RS Berkane",
-            "awayTeam": "RS Zemamra",
-            "score": "2:2",
-            "result": "D",
-            "winner": "draw"
-          },
-          {
-            "date": "24/05",
-            "competition": "Morocco. Botola Pro",
-            "homeTeam": "RS Berkane",
-            "awayTeam": "RS Zemamra",
-            "score": "1:0",
-            "result": "W",
-            "winner": "home"
-          },
-          {
-            "date": "18/02",
-            "competition": "Morocco. Botola Pro",
-            "homeTeam": "RS Zemamra",
-            "awayTeam": "RS Berkane",
-            "score": "0:0",
-            "result": "D",
-            "winner": "draw"
-          }
-        ],
-        "homeTeam": "RS Berkane",
-        "awayTeam": "RS Zemamra",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "08/10",
-                "competition": "Botola Pro",
-                "opponent": "Union Touarga",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "02/10",
-                "competition": "Botola Pro",
-                "opponent": "ASFAR",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "27/09",
-                "competition": "Botola Pro",
-                "opponent": "Maghreb Tetouan",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "05/07",
-                "competition": "Botola Pro",
-                "opponent": "DHJ",
-                "score": "3:1",
-                "result": "W"
-              },
-              {
-                "date": "02/07",
-                "competition": "Botola Pro",
-                "opponent": "WAC",
-                "score": "2:0",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 3,
-              "L": 0
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "08/10",
-                "competition": "Botola Pro",
-                "opponent": "Union Touarga",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "02/10",
-                "competition": "Botola Pro",
-                "opponent": "RS Berkane",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "27/09",
-                "competition": "Botola Pro",
-                "opponent": "Maghreb Tetouan",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "05/07",
-                "competition": "Botola Pro",
-                "opponent": "DHJ",
-                "score": "3:1",
-                "result": "W"
-              },
-              {
-                "date": "02/07",
-                "competition": "Botola Pro",
-                "opponent": "RS Berkane",
-                "score": "0:2",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 3,
-              "L": 1
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 9,
+      "id": 2,
       "title": "Scotland (W) – Czech Republic (W)",
       "dateLabel": "13 October",
       "timeLabel": "19:15",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. World Cup Qualification. Europe",
       "iconUrl": "https://cdn.livetv904.me/img/icons/friend.gif",
       "iconAlt": "Women. World Cup Qualification. Europe",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 19:15\n(Women. World Cup Qualification. Europe)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269728&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.455Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Scotland (W)",
@@ -1190,30 +178,19 @@
       "headToHead": null
     },
     {
-      "id": 10,
+      "id": 3,
       "title": "Al-Ittihad Jeddah – Shabab Al Ahli",
       "dateLabel": "13 October",
       "timeLabel": "19:15",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "AFC Champions League Elite",
       "iconUrl": "https://cdn.livetv904.me/img/icons/afccl.gif",
       "iconAlt": "AFC Champions League Elite",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 19:15\n(AFC Champions League Elite)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://iplayer.is/india/31408cac8ebebb782ef9da60962043dd",
-          "language": "Dutch",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.456Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Al-Ittihad Jeddah",
@@ -1280,6 +257,15 @@
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700013344/700014192/1_a5b94/",
         "matches": [
+          {
+            "date": "13/10",
+            "competition": "AFC Champions League Elite",
+            "homeTeam": "Al-Ittihad Jeddah",
+            "awayTeam": "Shabab Al Ahli",
+            "score": "1:2",
+            "result": "L",
+            "winner": "away"
+          },
           {
             "date": "30/09",
             "competition": "AFC Champions League Elite",
@@ -1394,40 +380,19 @@
       }
     },
     {
-      "id": 11,
+      "id": 4,
       "title": "Portugal (W) – Northern Ireland (W)",
       "dateLabel": "13 October",
       "timeLabel": "19:15",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. World Cup Qualification. Europe",
       "iconUrl": "https://cdn.livetv904.me/img/icons/friend.gif",
       "iconAlt": "Women. World Cup Qualification. Europe",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 19:15\n(Women. World Cup Qualification. Europe)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268991&w=700&h=480",
-          "language": "Portuguese",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.457Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269417&w=700&h=480",
-          "language": "Portuguese",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.458Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 2,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Portugal (W)",
@@ -1445,30 +410,19 @@
       "headToHead": null
     },
     {
-      "id": 12,
+      "id": 5,
       "title": "Wales (W) – Albania (W)",
       "dateLabel": "13 October",
       "timeLabel": "19:15",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. World Cup Qualification. Europe",
       "iconUrl": "https://cdn.livetv904.me/img/icons/friend.gif",
       "iconAlt": "Women. World Cup Qualification. Europe",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 19:15\n(Women. World Cup Qualification. Europe)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://dlive.sx/stream/stream-190.php",
-          "language": "Albanian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.458Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Wales (W)",
@@ -1486,7 +440,7 @@
       "headToHead": null
     },
     {
-      "id": 13,
+      "id": 6,
       "title": "Ireland (W) – Kazakhstan (W)",
       "dateLabel": "13 October",
       "timeLabel": "19:30",
@@ -1516,7 +470,7 @@
       "headToHead": null
     },
     {
-      "id": 14,
+      "id": 7,
       "title": "Ireland (W) – Kazakhstan (W)",
       "dateLabel": "13 October",
       "timeLabel": "19:30",
@@ -1535,7 +489,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.459Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.404Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1557,7 +511,7 @@
       "headToHead": null
     },
     {
-      "id": 15,
+      "id": 8,
       "title": "England (W) – Greece (W)",
       "dateLabel": "13 October",
       "timeLabel": "19:30",
@@ -1576,7 +530,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.459Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.415Z",
           "healthHttpStatus": 200
         },
         {
@@ -1586,7 +540,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.768Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.416Z",
           "healthHttpStatus": 200
         },
         {
@@ -1596,7 +550,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.769Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.417Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1618,7 +572,7 @@
       "headToHead": null
     },
     {
-      "id": 16,
+      "id": 9,
       "title": "Wrexham – West Bromwich Albion",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
@@ -1637,7 +591,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.782Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.417Z",
           "healthHttpStatus": 200
         },
         {
@@ -1647,7 +601,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.784Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.418Z",
           "healthHttpStatus": 200
         },
         {
@@ -1657,7 +611,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.816Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.418Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1668,27 +622,27 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/5851.gif",
           "startingLineup": [
             "Anthony Patterson",
-            "Zak Vyner",
-            "Ben Whiteman",
-            "Callum Doyle",
-            "Callum O’Hare",
-            "Dominic Hyam",
-            "George Dobson",
             "Issa Kabore",
+            "Dominic Hyam",
             "Jacques Ekomie",
+            "Callum Doyle",
             "Kieffer Moore",
-            "Oliver Rathbone"
+            "Callum O’Hare",
+            "Oliver Rathbone",
+            "George Dobson",
+            "Ben Whiteman",
+            "Zak Vyner"
           ],
           "substitutes": [
-            "Aaron James",
-            "Bailey Cadamarteri",
-            "Daniel Imray",
-            "Danny Ward",
             "Joe Worrall",
+            "Bailey Cadamarteri",
+            "Danny Ward",
             "Lewis O’Brien",
-            "Ryan Longman",
             "Sam Smith",
-            "Samuel Chesworth"
+            "Daniel Imray",
+            "Samuel Chesworth",
+            "Ryan Longman",
+            "Aaron James"
           ]
         },
         "away": {
@@ -1696,27 +650,27 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/3897.gif",
           "startingLineup": [
             "Max O’Leary",
-            "Harry Whitwell",
-            "George Campbell",
-            "Chris Mepham",
-            "Callum Styles",
-            "Brayann Pereira",
             "Isaac Price",
-            "Jayson Molumby",
             "Rabby Nzingoula",
+            "Toby Collyer",
             "Barney Stewart",
-            "Toby Collyer"
+            "Harry Whitwell",
+            "Jayson Molumby",
+            "Brayann Pereira",
+            "George Campbell",
+            "Callum Styles",
+            "Chris Mepham"
           ],
           "substitutes": [
             "Felix Horn Myhre",
-            "Conor Townsend",
             "Jimmy-Jay Morgan",
             "Matt Ingram",
-            "Matthew Crowther",
-            "Nathaniel Phillips",
             "Ousmane Diakite",
+            "Aune Selland Heggeboe",
+            "Conor Townsend",
             "Tammer Bany Odeh",
-            "Aune Selland Heggeboe"
+            "Matthew Crowther",
+            "Nathaniel Phillips"
           ]
         }
       },
@@ -1837,7 +791,7 @@
       }
     },
     {
-      "id": 17,
+      "id": 10,
       "title": "Wolverhampton – Bolton Wanderers",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
@@ -1856,7 +810,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.817Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.419Z",
           "healthHttpStatus": 200
         },
         {
@@ -1866,7 +820,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.822Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.748Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1877,27 +831,27 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/452.gif",
           "startingLineup": [
             "Jose Sa",
-            "Adam Armstrong",
-            "Andre",
+            "Mateus Mane",
             "Fer Lopez",
-            "Hugo Bueno",
             "Jean-Ricner",
             "Jordan James",
-            "Kieran Trippier",
+            "Andre",
             "Ladislav Krejci",
-            "Mateus Mane",
-            "Nasser Djiga"
+            "Nasser Djiga",
+            "Hugo Bueno",
+            "Kieran Trippier",
+            "Adam Armstrong"
           ],
           "substitutes": [
-            "Toti Gomes",
             "Ghislain Konan",
-            "Jackson Tchatchoua",
-            "Joao Virginia",
-            "Marshall Munetsi",
+            "Toti Gomes",
+            "Tawanda Chirewa",
+            "Tommy Doyle",
             "Rafiki Said",
             "Sean Neave",
-            "Tawanda Chirewa",
-            "Tommy Doyle"
+            "Joao Virginia",
+            "Marshall Munetsi",
+            "Jackson Tchatchoua"
           ]
         },
         "away": {
@@ -1906,33 +860,33 @@
           "startingLineup": [
             "Gavin Bazunu",
             "Eoin Toal",
-            "Ethan Erhahon",
-            "Gaizka Larrazabal",
-            "Josh Sheehan",
+            "Akin Famewo",
             "Lewis Brunt",
-            "Samuel Iling-Junior",
+            "Gaizka Larrazabal",
             "Thelonius Bair",
-            "Thierry Gale",
+            "Ethan Erhahon",
             "Atsuki Ito",
-            "Akin Famewo"
+            "Samuel Iling-Junior",
+            "Josh Sheehan",
+            "Thierry Gale"
           ],
           "substitutes": [
-            "Ben Davies",
-            "Jack Bonham",
-            "Jayden Nelson",
-            "Max Conway",
-            "Max Matthew Lott",
             "Ruben Rodrigues",
-            "Ryan Hardie",
             "Sam Dalby",
-            "Xavier Simons"
+            "Ben Davies",
+            "Xavier Simons",
+            "Jack Bonham",
+            "Ryan Hardie",
+            "Max Matthew Lott",
+            "Jayden Nelson",
+            "Max Conway"
           ]
         }
       },
       "headToHead": null
     },
     {
-      "id": 18,
+      "id": 11,
       "title": "Millwall – Swansea City",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
@@ -1951,7 +905,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.846Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.749Z",
           "healthHttpStatus": 200
         },
         {
@@ -1961,7 +915,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.922Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.749Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1974,25 +928,25 @@
             "Filip Marschall",
             "Jake Cooper",
             "Zak Sturge",
-            "Camiel Neghli",
-            "Mark Sykes",
-            "Kyrell Lisbie",
-            "Jenson Metcalfe",
             "Jordi Osei-Tutu",
-            "Caleb Taylor",
+            "Lyndon Dykes",
             "Derek Mazou-Sacko",
-            "Lyndon Dykes"
+            "Kyrell Lisbie",
+            "Mark Sykes",
+            "Jenson Metcalfe",
+            "Camiel Neghli",
+            "Caleb Taylor"
           ],
           "substitutes": [
             "Luke Cundle",
-            "Max Crocombe",
-            "Elkan Baggott",
-            "Tristan Crama",
             "Zak Lovelace",
-            "Daniel Kelly",
+            "Yanis Issoufou",
             "Alfie Doughty",
             "Ryan Leonard",
-            "Yanis Issoufou"
+            "Daniel Kelly",
+            "Max Crocombe",
+            "Elkan Baggott",
+            "Tristan Crama"
           ]
         },
         "away": {
@@ -2000,27 +954,27 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/3896.gif",
           "startingLineup": [
             "Lawrence Vigouroux",
-            "Filip Lissah",
+            "Joseph Opoku",
+            "Moussa Kounfolo Yeo",
             "Zan Vipotnik",
             "Elijah Just",
-            "Josh Tymon",
-            "Joseph Opoku",
             "Jenson Seelt",
-            "Jay Fulton",
-            "Moussa Kounfolo Yeo",
+            "Ben Cabango",
+            "Josh Tymon",
             "Marko Stamenic",
-            "Ben Cabango"
+            "Jay Fulton",
+            "Filip Lissah"
           ],
           "substitutes": [
-            "Goncalo Franco",
-            "Stephen Welsh",
-            "Andrew Fisher",
-            "Ross Stewart",
-            "Melker Widell",
-            "Ji-Sung Eom",
             "Ronald Pereira",
+            "Adam Idah",
+            "Ross Stewart",
+            "Stephen Welsh",
+            "Goncalo Franco",
             "Tom Iorpenda",
-            "Adam Idah"
+            "Ji-Sung Eom",
+            "Melker Widell",
+            "Andrew Fisher"
           ]
         }
       },
@@ -2150,7 +1104,7 @@
       }
     },
     {
-      "id": 19,
+      "id": 12,
       "title": "Cardiff City – Watford",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
@@ -2169,7 +1123,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.927Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.762Z",
           "healthHttpStatus": 200
         },
         {
@@ -2179,7 +1133,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.934Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.801Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2192,25 +1146,25 @@
             "Nathan Trott",
             "Gabriel Osho",
             "Jack Moylan",
-            "Joel Bagan",
             "Cian Ashford",
-            "Joel Colwill",
+            "Joel Bagan",
             "Alex Robertson",
             "Chris Willock",
             "Ollie Tanner",
             "Dylan Lawlor",
-            "Perry Ng"
+            "Perry Ng",
+            "Joel Colwill"
           ],
           "substitutes": [
-            "William Fish",
-            "David Turnbull",
-            "Calum Scanlon",
-            "Harry Tyrer",
-            "Isaak Davies",
             "Charlie Holt",
             "Callum Robinson",
             "Ronan Kpakio",
-            "Paul Moreno"
+            "Paul Moreno",
+            "Isaak Davies",
+            "Harry Tyrer",
+            "Calum Scanlon",
+            "David Turnbull",
+            "William Fish"
           ]
         },
         "away": {
@@ -2218,27 +1172,27 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/150.gif",
           "startingLineup": [
             "Federico Ravaglia",
+            "Kevin Keben",
+            "Matthew Pollock",
+            "Omar Traore",
+            "Jordan Zemura",
+            "Hector Kyprianou",
             "Othmane Maamma",
             "Martin Payero",
             "Edo Kayembe",
-            "Stephy Mavididi",
             "Myron Boadu",
-            "Hector Kyprianou",
-            "Jordan Zemura",
-            "Omar Traore",
-            "Matthew Pollock",
-            "Kevin Keben"
+            "Stephy Mavididi"
           ],
           "substitutes": [
-            "Marc Bola",
-            "Iker Bravo",
+            "Branimir Mlacic",
+            "Daniel Bachmann",
+            "Amin Nabizada",
             "Mamadou Doumbia",
+            "Iker Bravo",
+            "Marc Bola",
             "Krepin Diatta",
             "Luca Kjerrumgaard",
-            "Amin Nabizada",
-            "Daniel Bachmann",
-            "Soumaila Coulibaly",
-            "Branimir Mlacic"
+            "Soumaila Coulibaly"
           ]
         }
       },
@@ -2368,7 +1322,7 @@
       }
     },
     {
-      "id": 20,
+      "id": 13,
       "title": "Burnley – Charlton Athletic",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
@@ -2387,7 +1341,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.975Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.815Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2398,26 +1352,26 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/33045.gif",
           "startingLineup": [
             "Gregoire Coudert",
-            "Largie Ramazani",
-            "Josh Laurent",
-            "Jamie Vardy",
             "Anel Ahmedhodzic",
-            "Jacob Bruun Larsen",
-            "Reo Hatate",
-            "Lucas Pires",
             "Igor Julio",
+            "Jacob Bruun Larsen",
+            "Jamie Vardy",
+            "Josh Laurent",
+            "Kyle Walker",
+            "Largie Ramazani",
+            "Lucas Pires",
             "Max Alleyne",
-            "Kyle Walker"
+            "Reo Hatate"
           ],
           "substitutes": [
-            "Max Weiss",
-            "Ugo Raghouber",
-            "Marcus Edwards",
-            "Connor Roberts",
             "Andreas Hountondji",
+            "Ugo Raghouber",
+            "Armando Broja",
+            "Connor Roberts",
             "Hjalmar Ekdal",
             "Lluc Castell",
-            "Armando Broja",
+            "Marcus Edwards",
+            "Max Weiss",
             "Oliver Sonne"
           ]
         },
@@ -2426,34 +1380,34 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/3892.gif",
           "startingLineup": [
             "Arthur Okonkwo",
+            "Dan McNamara",
+            "Conor Coventry",
+            "Billy Koumetio",
+            "Karlan Grant",
+            "Kayne Ramsay",
+            "Lloyd Jones",
             "Miles Leaburn",
             "Oliver Skipp",
-            "Dan McNamara",
-            "Karlan Grant",
             "Tyreece Campbell",
-            "Conor Coventry",
-            "Amari’i Bell",
-            "Billy Koumetio",
-            "Lloyd Jones",
-            "Kayne Ramsay"
+            "Amari’i Bell"
           ],
           "substitutes": [
-            "Will Mannion",
-            "Alan Mwamba",
-            "Micah Mbick",
-            "Tyler Bindon",
-            "Millenic Alli",
             "Ivan Mesik",
-            "Sonny Carey",
             "Harvey Knibbs",
-            "Charlie Kelman"
+            "Charlie Kelman",
+            "Micah Mbick",
+            "Millenic Alli",
+            "Sonny Carey",
+            "Tyler Bindon",
+            "Alan Mwamba",
+            "Will Mannion"
           ]
         }
       },
       "headToHead": null
     },
     {
-      "id": 21,
+      "id": 14,
       "title": "Bristol City – Blackburn",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
@@ -2472,7 +1426,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:38.999Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.829Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2483,27 +1437,27 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/456.gif",
           "startingLineup": [
             "Sam Tickle",
-            "Dominic Ballard",
-            "Gibson Yah",
-            "Sam Greenwood",
-            "Jed Wallace",
-            "Jason Knight",
-            "Scott Twine",
-            "George Tanner",
-            "Robert Atkinson",
             "Cameron Pring",
-            "Lisav Naif Eissat"
+            "Dominic Ballard",
+            "George Tanner",
+            "Gibson Yah",
+            "Jason Knight",
+            "Jed Wallace",
+            "Lisav Naif Eissat",
+            "Robert Atkinson",
+            "Sam Greenwood",
+            "Scott Twine"
           ],
           "substitutes": [
+            "Adam Randell",
             "Yu Hirakawa",
-            "Sam Bell",
-            "Tomi Horvat",
+            "Bradley Collins",
+            "Brian De Keersmaecker",
+            "Elijah Adebayo",
             "Luke McNally",
             "Rio Cardines",
-            "Bradley Collins",
-            "Elijah Adebayo",
-            "Brian De Keersmaecker",
-            "Adam Randell"
+            "Sam Bell",
+            "Tomi Horvat"
           ]
         },
         "away": {
@@ -2511,27 +1465,27 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/3904.gif",
           "startingLineup": [
             "Balazs Toth",
-            "Tom Atcheson",
-            "Sean McLoughlin",
-            "Todd Cantwell",
-            "Kristi Montgomery",
-            "Ryoya Morishita",
-            "Oladapo Afolayan",
-            "Sam Morsy",
+            "Hayden Carter",
             "Harry Pickering",
+            "Kristi Montgomery",
+            "Todd Cantwell",
+            "Sean McLoughlin",
+            "Sam Morsy",
+            "Ryoya Morishita",
             "Ryan Alebiosu",
-            "Hayden Carter"
+            "Oladapo Afolayan",
+            "Tom Atcheson"
           ],
           "substitutes": [
-            "Mathias Joergensen",
+            "Jake Garrett",
             "Gady Beyuku",
-            "Moussa Baradji",
             "Dion De Neve",
-            "Jayden Fevrier",
-            "Andri Gudjohnsen",
-            "Augustus Kargbo",
             "Aynsley Pears",
-            "Jake Garrett"
+            "Jayden Fevrier",
+            "Moussa Baradji",
+            "Mathias Joergensen",
+            "Augustus Kargbo",
+            "Andri Gudjohnsen"
           ]
         }
       },
@@ -2661,7 +1615,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 15,
       "title": "Netherlands (W) – Hungary (W)",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
@@ -2691,7 +1645,7 @@
       "headToHead": null
     },
     {
-      "id": 23,
+      "id": 16,
       "title": "Netherlands (W) – Hungary (W)",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
@@ -2710,7 +1664,7 @@
           "language": "Hungarian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.049Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.895Z",
           "healthHttpStatus": 200
         },
         {
@@ -2720,7 +1674,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.087Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.898Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2742,7 +1696,7 @@
       "headToHead": null
     },
     {
-      "id": 24,
+      "id": 17,
       "title": "Simulcast",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -2761,7 +1715,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.103Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.908Z",
           "healthHttpStatus": 200
         },
         {
@@ -2771,7 +1725,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.111Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.914Z",
           "healthHttpStatus": 200
         },
         {
@@ -2781,7 +1735,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.155Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.947Z",
           "healthHttpStatus": 200
         },
         {
@@ -2791,7 +1745,7 @@
           "language": "Russian",
           "bitrate": "3500kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.158Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.953Z",
           "healthHttpStatus": 200
         },
         {
@@ -2801,7 +1755,7 @@
           "language": "Russian",
           "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.163Z",
+          "healthCheckedAt": "2026-10-13T20:20:40.960Z",
           "healthHttpStatus": 200
         },
         {
@@ -2811,7 +1765,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.194Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.047Z",
           "healthHttpStatus": 200
         },
         {
@@ -2821,7 +1775,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.219Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.054Z",
           "healthHttpStatus": 200
         },
         {
@@ -2831,7 +1785,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.246Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.055Z",
           "healthHttpStatus": 200
         },
         {
@@ -2841,7 +1795,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.254Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.094Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2863,7 +1817,7 @@
       "headToHead": null
     },
     {
-      "id": 25,
+      "id": 18,
       "title": "Stoke City – Middlesbrough",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -2882,7 +1836,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.255Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.107Z",
           "healthHttpStatus": 200
         },
         {
@@ -2892,7 +1846,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.303Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.143Z",
           "healthHttpStatus": 200
         },
         {
@@ -2902,7 +1856,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.415Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.168Z",
           "healthHttpStatus": 200
         },
         {
@@ -2912,7 +1866,7 @@
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.454Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.260Z",
           "healthHttpStatus": 200
         },
         {
@@ -2922,7 +1876,7 @@
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.474Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.293Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2934,26 +1888,26 @@
           "startingLineup": [
             "Viktor Johansson",
             "Ben Johnson",
-            "Luke Graham",
             "Ben Wilmot",
-            "Ethan Galbraith",
-            "Lamine Cisse",
-            "Jun-Ho Bae",
-            "Jack McGlynn",
             "Djibril Soumare",
+            "Eric Bocat",
+            "Ethan Galbraith",
+            "Jack McGlynn",
+            "Jun-Ho Bae",
             "Junior Tchamadeu",
-            "Eric Bocat"
+            "Lamine Cisse",
+            "Luke Graham"
           ],
           "substitutes": [
-            "Million Manhoef",
-            "Joshua Griffiths",
             "Ben Gibson",
-            "Luca Bombino",
+            "Robert Bozenik",
+            "Ben Pearson",
             "Bosun Lawal",
             "George Hirst",
+            "Joshua Griffiths",
             "Justin Devenny",
-            "Robert Bozenik",
-            "Ben Pearson"
+            "Luca Bombino",
+            "Million Manhoef"
           ]
         },
         "away": {
@@ -2961,27 +1915,27 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/38238.gif",
           "startingLineup": [
             "Radek Vitek",
-            "Adilson Malanda",
-            "Will Lankshear",
-            "Neto Borges",
             "Jeremy Sarmiento",
+            "Callum Brittain",
+            "Ashley Phillips",
             "Amario Cozier-Duberry",
             "Aidan Morris",
-            "Sebastian Berhalter",
             "Luke Ayling",
-            "Ashley Phillips",
-            "Callum Brittain"
+            "Neto Borges",
+            "Sebastian Berhalter",
+            "Adilson Malanda",
+            "Will Lankshear"
           ],
           "substitutes": [
-            "Max Arfsten",
+            "Kyle Joseph",
             "Connor Barron",
             "Leo Castledine",
-            "Kyle Joseph",
-            "Solomon Brynn",
+            "Max Arfsten",
             "Myles Peart-Harris",
-            "Tommy Conway",
             "Riley McGree",
-            "Sam Byram"
+            "Sam Byram",
+            "Solomon Brynn",
+            "Tommy Conway"
           ]
         }
       },
@@ -3111,7 +2065,7 @@
       }
     },
     {
-      "id": 26,
+      "id": 19,
       "title": "Birmingham City – Preston",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -3130,7 +2084,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.498Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.330Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3319,7 +2273,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 20,
       "title": "Haiti (W) – Australia (W)",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -3338,7 +2292,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.542Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.340Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3360,7 +2314,7 @@
       "headToHead": null
     },
     {
-      "id": 28,
+      "id": 21,
       "title": "Atletico Madrid – Manchester Utd",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -3379,7 +2333,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.566Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.381Z",
           "healthHttpStatus": 200
         },
         {
@@ -3389,7 +2343,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.619Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.434Z",
           "healthHttpStatus": 200
         },
         {
@@ -3399,7 +2353,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.620Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.522Z",
           "healthHttpStatus": 200
         },
         {
@@ -3409,7 +2363,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.676Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.534Z",
           "healthHttpStatus": 200
         },
         {
@@ -3419,7 +2373,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.710Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.548Z",
           "healthHttpStatus": 200
         },
         {
@@ -3429,7 +2383,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.725Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.581Z",
           "healthHttpStatus": 200
         },
         {
@@ -3439,7 +2393,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.752Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.594Z",
           "healthHttpStatus": 200
         },
         {
@@ -3449,7 +2403,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.759Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.668Z",
           "healthHttpStatus": 200
         },
         {
@@ -3459,7 +2413,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.762Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.694Z",
           "healthHttpStatus": 200
         },
         {
@@ -3469,7 +2423,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.770Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.721Z",
           "healthHttpStatus": 200
         },
         {
@@ -3479,7 +2433,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.827Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.754Z",
           "healthHttpStatus": 200
         },
         {
@@ -3489,7 +2443,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.846Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.787Z",
           "healthHttpStatus": 200
         },
         {
@@ -3499,7 +2453,7 @@
           "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.847Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.804Z",
           "healthHttpStatus": 200
         },
         {
@@ -3509,7 +2463,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.853Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.815Z",
           "healthHttpStatus": 200
         },
         {
@@ -3519,7 +2473,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.878Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.827Z",
           "healthHttpStatus": 200
         },
         {
@@ -3529,7 +2483,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.881Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.897Z",
           "healthHttpStatus": 200
         },
         {
@@ -3539,7 +2493,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.894Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.933Z",
           "healthHttpStatus": 200
         },
         {
@@ -3549,7 +2503,7 @@
           "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:39.895Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.961Z",
           "healthHttpStatus": 200
         },
         {
@@ -3559,7 +2513,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.006Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.974Z",
           "healthHttpStatus": 200
         },
         {
@@ -3569,7 +2523,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.007Z",
+          "healthCheckedAt": "2026-10-13T20:20:41.974Z",
           "healthHttpStatus": 200
         },
         {
@@ -3579,7 +2533,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.007Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.021Z",
           "healthHttpStatus": 200
         },
         {
@@ -3589,7 +2543,7 @@
           "language": "Ukrainian",
           "bitrate": "2700kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.030Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.047Z",
           "healthHttpStatus": 200
         },
         {
@@ -3599,7 +2553,7 @@
           "language": "Russian",
           "bitrate": "2500kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.030Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.094Z",
           "healthHttpStatus": 200
         },
         {
@@ -3609,7 +2563,7 @@
           "language": "Russian",
           "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.038Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.134Z",
           "healthHttpStatus": 200
         },
         {
@@ -3619,7 +2573,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.038Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.140Z",
           "healthHttpStatus": 200
         },
         {
@@ -3629,7 +2583,7 @@
           "language": "Russian",
           "bitrate": "4000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.158Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.141Z",
           "healthHttpStatus": 200
         },
         {
@@ -3639,7 +2593,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.159Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.182Z",
           "healthHttpStatus": 200
         },
         {
@@ -3649,7 +2603,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.166Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.308Z",
           "healthHttpStatus": 200
         },
         {
@@ -3659,7 +2613,7 @@
           "language": "Hungarian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.191Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.346Z",
           "healthHttpStatus": 200
         },
         {
@@ -3669,7 +2623,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.198Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.386Z",
           "healthHttpStatus": 200
         },
         {
@@ -3679,7 +2633,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.301Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.463Z",
           "healthHttpStatus": 200
         },
         {
@@ -3689,7 +2643,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.309Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.507Z",
           "healthHttpStatus": 200
         },
         {
@@ -3699,7 +2653,7 @@
           "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.318Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.574Z",
           "healthHttpStatus": 200
         },
         {
@@ -3709,7 +2663,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.334Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.580Z",
           "healthHttpStatus": 200
         },
         {
@@ -3719,7 +2673,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.350Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.594Z",
           "healthHttpStatus": 200
         },
         {
@@ -3729,7 +2683,7 @@
           "language": "Azerbaijani",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.463Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.614Z",
           "healthHttpStatus": 200
         },
         {
@@ -3738,9 +2692,9 @@
           "url": "https://iplayer.is/india/5c2423f8e22af79c98b4d92c107393a4",
           "language": "Polish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.463Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:20:42.655Z",
+          "healthError": "fetch failed"
         },
         {
           "id": 38,
@@ -3749,7 +2703,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.464Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.660Z",
           "healthHttpStatus": 200
         },
         {
@@ -3759,7 +2713,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.478Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.707Z",
           "healthHttpStatus": 200
         },
         {
@@ -3769,7 +2723,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.502Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.768Z",
           "healthHttpStatus": 200
         },
         {
@@ -3779,7 +2733,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.529Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.768Z",
           "healthHttpStatus": 200
         },
         {
@@ -3789,7 +2743,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.538Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.769Z",
           "healthHttpStatus": 200
         },
         {
@@ -3799,7 +2753,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.546Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.780Z",
           "healthHttpStatus": 200
         },
         {
@@ -3809,7 +2763,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.547Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.828Z",
           "healthHttpStatus": 200
         },
         {
@@ -3819,7 +2773,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.588Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.854Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3830,6 +2784,8 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/35887.gif",
           "startingLineup": [
             "Jan Oblak",
+            "David Hancko",
+            "Cristian Romero",
             "Alejandro Grimaldo",
             "Johnny Cardoso",
             "Pablo Barrios",
@@ -3837,15 +2793,9 @@
             "Giuliano Simeone",
             "Kang-In Lee",
             "Julian Alvarez",
-            "Marcos Llorente",
-            "David Hancko",
-            "Cristian Romero"
+            "Marcos Llorente"
           ],
           "substitutes": [
-            "Juan Musso",
-            "Rodrigo Mendoza",
-            "Alexander Soerloth",
-            "Ademola Lookman",
             "Jonathan David",
             "Arnau Ortiz",
             "Marc Pubill",
@@ -3853,7 +2803,11 @@
             "Robin Le Normand",
             "Jorge Dominguez",
             "Daniel Martinez",
-            "Jorge Castillo"
+            "Jorge Castillo",
+            "Ademola Lookman",
+            "Alexander Soerloth",
+            "Juan Musso",
+            "Rodrigo Mendoza"
           ]
         },
         "away": {
@@ -3862,29 +2816,29 @@
           "startingLineup": [
             "Senne Lammens",
             "Marcus Rashford",
+            "Lisandro Martinez",
+            "Leny Yoro",
+            "Ayden Heaven",
             "Bruno Fernandes",
             "Andrey Santos",
             "Youri Tielemans",
             "Carlos Baleba",
             "Bryan Mbeumo",
-            "Ayden Heaven",
-            "Leny Yoro",
-            "Diogo Dalot",
-            "Lisandro Martinez"
+            "Diogo Dalot"
           ],
           "substitutes": [
+            "Shea Lacey",
             "Tyler Fletcher",
             "Harry Amass",
             "Dermot Mee",
             "Daniel Armer",
-            "Shea Lacey",
             "Amad Diallo",
+            "Karl Darlow",
             "Matthijs de Ligt",
             "Harry Maguire",
             "Mason Mount",
             "Matheus Cunha",
-            "Joshua Zirkzee",
-            "Karl Darlow"
+            "Joshua Zirkzee"
           ]
         }
       },
@@ -4014,7 +2968,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 22,
       "title": "Villarreal – Napoli",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -4033,7 +2987,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.607Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.855Z",
           "healthHttpStatus": 200
         },
         {
@@ -4043,7 +2997,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.615Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.941Z",
           "healthHttpStatus": 200
         },
         {
@@ -4053,7 +3007,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.615Z",
+          "healthCheckedAt": "2026-10-13T20:20:42.954Z",
           "healthHttpStatus": 200
         },
         {
@@ -4063,7 +3017,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.616Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.014Z",
           "healthHttpStatus": 200
         },
         {
@@ -4073,7 +3027,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.691Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.036Z",
           "healthHttpStatus": 200
         },
         {
@@ -4083,7 +3037,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.733Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.062Z",
           "healthHttpStatus": 200
         },
         {
@@ -4093,7 +3047,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.748Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.101Z",
           "healthHttpStatus": 200
         },
         {
@@ -4103,7 +3057,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.766Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.101Z",
           "healthHttpStatus": 200
         },
         {
@@ -4113,7 +3067,7 @@
           "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.774Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.127Z",
           "healthHttpStatus": 200
         },
         {
@@ -4123,7 +3077,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.783Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.142Z",
           "healthHttpStatus": 200
         },
         {
@@ -4133,7 +3087,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.784Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.174Z",
           "healthHttpStatus": 200
         },
         {
@@ -4143,7 +3097,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.798Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.287Z",
           "healthHttpStatus": 200
         },
         {
@@ -4153,7 +3107,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.815Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.294Z",
           "healthHttpStatus": 200
         },
         {
@@ -4163,7 +3117,7 @@
           "language": "Russian",
           "bitrate": "3000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.815Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.308Z",
           "healthHttpStatus": 200
         },
         {
@@ -4173,7 +3127,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.910Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.321Z",
           "healthHttpStatus": 200
         },
         {
@@ -4183,7 +3137,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.925Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.341Z",
           "healthHttpStatus": 200
         },
         {
@@ -4193,7 +3147,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:40.936Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.461Z",
           "healthHttpStatus": 200
         },
         {
@@ -4203,7 +3157,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.063Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.486Z",
           "healthHttpStatus": 200
         },
         {
@@ -4213,7 +3167,7 @@
           "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.087Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.500Z",
           "healthHttpStatus": 200
         },
         {
@@ -4223,7 +3177,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.097Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.614Z",
           "healthHttpStatus": 200
         },
         {
@@ -4233,7 +3187,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.128Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.634Z",
           "healthHttpStatus": 200
         },
         {
@@ -4243,7 +3197,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.155Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.634Z",
           "healthHttpStatus": 200
         },
         {
@@ -4253,7 +3207,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.206Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.741Z",
           "healthHttpStatus": 200
         },
         {
@@ -4263,7 +3217,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.239Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.781Z",
           "healthHttpStatus": 200
         },
         {
@@ -4273,7 +3227,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.255Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.794Z",
           "healthHttpStatus": 200
         },
         {
@@ -4283,7 +3237,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.255Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.801Z",
           "healthHttpStatus": 200
         },
         {
@@ -4293,7 +3247,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.279Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.835Z",
           "healthHttpStatus": 200
         },
         {
@@ -4303,7 +3257,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.291Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.835Z",
           "healthHttpStatus": 200
         },
         {
@@ -4313,7 +3267,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.292Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.857Z",
           "healthHttpStatus": 200
         },
         {
@@ -4323,7 +3277,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.323Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.867Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4334,30 +3288,30 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/39.gif",
           "startingLineup": [
             "Luiz Junior",
+            "Renato Veiga",
+            "Santiago Mourino",
             "Carlos Romero",
             "Alberto Moleiro",
             "Santi Comesana",
             "Pape Gueye",
             "Nathan Saliba",
             "Gerard Moreno",
-            "Georges Mikautadze",
             "Pau Navarro",
-            "Santiago Mourino",
-            "Renato Veiga"
+            "Georges Mikautadze"
           ],
           "substitutes": [
+            "Joselillo Gaitan",
             "Logan Costa",
             "Alex Freeman",
+            "Nizar El Jmili",
             "Alassane Diatta",
-            "Joselillo Gaitan",
             "Juan Foyth",
             "Ilias Akhomach",
             "Ruben Gomez",
             "Carlos Macia",
             "Tani Oluwaseyi",
             "Ayoze Perez",
-            "Sergi Cardona",
-            "Nizar El Jmili"
+            "Sergi Cardona"
           ]
         },
         "away": {
@@ -4365,8 +3319,6 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/36752.gif",
           "startingLineup": [
             "Vanja",
-            "Rasmus Hoejlund",
-            "Giovane Nascimento",
             "Benoit Badiashile",
             "Amir Rrahmani",
             "Rafa Marin",
@@ -4374,17 +3326,19 @@
             "Scott McTominay",
             "Kevin De Bruyne",
             "Matteo Politano",
+            "Giovane Nascimento",
+            "Rasmus Hoejlund",
             "Giovanni Di Lorenzo"
           ],
           "substitutes": [
+            "Noa Lang",
+            "Stanislav Lobotka",
+            "Alex Meret",
             "David Neres",
             "Nikita Contini",
             "Lorenzo Lucca",
             "Sam Beukema",
-            "Leonardo Spinazzola",
-            "Stanislav Lobotka",
-            "Noa Lang",
-            "Alex Meret"
+            "Leonardo Spinazzola"
           ]
         }
       },
@@ -4496,7 +3450,7 @@
       }
     },
     {
-      "id": 30,
+      "id": 23,
       "title": "Viking – Bayern Munich",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -4515,7 +3469,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.323Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.914Z",
           "healthHttpStatus": 200
         },
         {
@@ -4525,7 +3479,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.346Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.920Z",
           "healthHttpStatus": 200
         },
         {
@@ -4535,7 +3489,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.354Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.954Z",
           "healthHttpStatus": 200
         },
         {
@@ -4545,7 +3499,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.355Z",
+          "healthCheckedAt": "2026-10-13T20:20:43.971Z",
           "healthHttpStatus": 200
         },
         {
@@ -4555,7 +3509,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.358Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.021Z",
           "healthHttpStatus": 200
         },
         {
@@ -4565,7 +3519,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.382Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.047Z",
           "healthHttpStatus": 200
         },
         {
@@ -4575,7 +3529,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.406Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.054Z",
           "healthHttpStatus": 200
         },
         {
@@ -4585,7 +3539,7 @@
           "language": "Hebrew",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.407Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.060Z",
           "healthHttpStatus": 200
         },
         {
@@ -4595,7 +3549,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.422Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.075Z",
           "healthHttpStatus": 200
         },
         {
@@ -4605,7 +3559,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.466Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.103Z",
           "healthHttpStatus": 200
         },
         {
@@ -4615,7 +3569,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.483Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.104Z",
           "healthHttpStatus": 200
         },
         {
@@ -4625,7 +3579,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.484Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.134Z",
           "healthHttpStatus": 200
         },
         {
@@ -4635,7 +3589,7 @@
           "language": "German",
           "bitrate": "2700kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.485Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.200Z",
           "healthHttpStatus": 200
         },
         {
@@ -4645,7 +3599,7 @@
           "language": "Russian",
           "bitrate": "2500kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.575Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.220Z",
           "healthHttpStatus": 200
         },
         {
@@ -4655,7 +3609,7 @@
           "language": "Russian",
           "bitrate": "3000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.582Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.233Z",
           "healthHttpStatus": 200
         },
         {
@@ -4665,7 +3619,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.604Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.601Z",
           "healthHttpStatus": 200
         },
         {
@@ -4675,7 +3629,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.618Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.627Z",
           "healthHttpStatus": 200
         },
         {
@@ -4685,7 +3639,7 @@
           "language": "Swedish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.746Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.667Z",
           "healthHttpStatus": 200
         },
         {
@@ -4695,7 +3649,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.762Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.727Z",
           "healthHttpStatus": 200
         },
         {
@@ -4705,7 +3659,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.890Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.754Z",
           "healthHttpStatus": 200
         },
         {
@@ -4715,7 +3669,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.905Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.760Z",
           "healthHttpStatus": 200
         },
         {
@@ -4725,7 +3679,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.954Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.780Z",
           "healthHttpStatus": 200
         },
         {
@@ -4735,7 +3689,7 @@
           "language": "Swedish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:41.978Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.794Z",
           "healthHttpStatus": 200
         },
         {
@@ -4745,7 +3699,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.030Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.807Z",
           "healthHttpStatus": 200
         },
         {
@@ -4755,7 +3709,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.050Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.887Z",
           "healthHttpStatus": 200
         },
         {
@@ -4765,7 +3719,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.058Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.914Z",
           "healthHttpStatus": 200
         },
         {
@@ -4775,7 +3729,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.059Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.914Z",
           "healthHttpStatus": 200
         },
         {
@@ -4785,7 +3739,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.059Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.954Z",
           "healthHttpStatus": 200
         },
         {
@@ -4795,7 +3749,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.098Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.954Z",
           "healthHttpStatus": 200
         },
         {
@@ -4805,7 +3759,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.106Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.960Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4818,28 +3772,28 @@
             "Arild Oestboe",
             "Zlatko Tripic",
             "Peter Christiansen",
+            "Erik Botheim",
             "Henrik Falchener",
             "Kristoffer Haugen",
             "Kristoffer Askildsen",
             "Joe Bell",
             "Henrik Roervik",
             "Henrik Heggheim",
-            "Erik Botheim",
             "Gianni Stensness"
           ],
           "substitutes": [
-            "Jesper Daland",
-            "Tobias Moi",
-            "Lubomir Belko",
-            "Jakob Segadal Hansen",
-            "Simen Kvia-Egeskog",
-            "Vetle Auklend",
-            "Niklas Fuglestad",
             "Herman Haugen",
+            "Jakob Segadal Hansen",
+            "Lubomir Belko",
             "Viljar Vevatne",
             "Romano Postema",
             "Essien Bassey",
-            "Amin Cosic"
+            "Amin Cosic",
+            "Niklas Fuglestad",
+            "Vetle Auklend",
+            "Simen Kvia-Egeskog",
+            "Jesper Daland",
+            "Tobias Moi"
           ]
         },
         "away": {
@@ -4847,37 +3801,37 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/9.gif",
           "startingLineup": [
             "Jonas Urbig",
+            "Harry Kane",
+            "Lennart Karl",
+            "Konrad Laimer",
+            "Joshua Kimmich",
+            "Tom Bischof",
             "Luis Diaz",
             "Michael Olise",
-            "Lennart Karl",
-            "Harry Kane",
-            "Tom Bischof",
-            "Joshua Kimmich",
             "Min-Jae Kim",
             "Jonathan Tah",
-            "Nathaniel Brown",
-            "Konrad Laimer"
+            "Nathaniel Brown"
           ],
           "substitutes": [
+            "Ismael Saibari",
             "Manuel Neuer",
             "Dayot Upamecano",
             "Serge Gnabry",
             "Alphonso Davies",
             "Hiroki Ito",
-            "Aleksandar Pavlovic",
             "Sacha Boey",
             "Sven Ulreich",
-            "Ismael Saibari",
             "David Podar-Stiube",
             "Bara Ndiaye",
-            "Josip Stanisic"
+            "Josip Stanisic",
+            "Aleksandar Pavlovic"
           ]
         }
       },
       "headToHead": null
     },
     {
-      "id": 31,
+      "id": 24,
       "title": "Arsenal – Lille",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -4896,7 +3850,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.113Z",
+          "healthCheckedAt": "2026-10-13T20:20:44.961Z",
           "healthHttpStatus": 200
         },
         {
@@ -4906,7 +3860,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.121Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.028Z",
           "healthHttpStatus": 200
         },
         {
@@ -4916,7 +3870,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.130Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.040Z",
           "healthHttpStatus": 200
         },
         {
@@ -4926,7 +3880,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.134Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.047Z",
           "healthHttpStatus": 200
         },
         {
@@ -4936,7 +3890,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.158Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.054Z",
           "healthHttpStatus": 200
         },
         {
@@ -4946,7 +3900,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.175Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.067Z",
           "healthHttpStatus": 200
         },
         {
@@ -4956,7 +3910,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.181Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.120Z",
           "healthHttpStatus": 200
         },
         {
@@ -4966,7 +3920,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.202Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.174Z",
           "healthHttpStatus": 200
         },
         {
@@ -4976,7 +3930,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.259Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.187Z",
           "healthHttpStatus": 200
         },
         {
@@ -4986,7 +3940,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.279Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.187Z",
           "healthHttpStatus": 200
         },
         {
@@ -4996,7 +3950,7 @@
           "language": "Hebrew",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.279Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.261Z",
           "healthHttpStatus": 200
         },
         {
@@ -5006,7 +3960,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.285Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.273Z",
           "healthHttpStatus": 200
         },
         {
@@ -5016,7 +3970,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.286Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.360Z",
           "healthHttpStatus": 200
         },
         {
@@ -5026,7 +3980,7 @@
           "language": "Russian",
           "bitrate": "2000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.287Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.366Z",
           "healthHttpStatus": 200
         },
         {
@@ -5036,7 +3990,7 @@
           "language": "Russian",
           "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.295Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.367Z",
           "healthHttpStatus": 200
         },
         {
@@ -5046,7 +4000,7 @@
           "language": "Russian",
           "bitrate": "4000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.415Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.407Z",
           "healthHttpStatus": 200
         },
         {
@@ -5056,7 +4010,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.430Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.440Z",
           "healthHttpStatus": 200
         },
         {
@@ -5066,7 +4020,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.430Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.567Z",
           "healthHttpStatus": 200
         },
         {
@@ -5076,7 +4030,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.447Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.587Z",
           "healthHttpStatus": 200
         },
         {
@@ -5086,7 +4040,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.448Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.628Z",
           "healthHttpStatus": 200
         },
         {
@@ -5096,7 +4050,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.570Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.714Z",
           "healthHttpStatus": 200
         },
         {
@@ -5106,7 +4060,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.583Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.753Z",
           "healthHttpStatus": 200
         },
         {
@@ -5116,7 +4070,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.584Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.780Z",
           "healthHttpStatus": 200
         },
         {
@@ -5126,7 +4080,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.606Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.874Z",
           "healthHttpStatus": 200
         },
         {
@@ -5136,7 +4090,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.606Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.881Z",
           "healthHttpStatus": 200
         },
         {
@@ -5146,7 +4100,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.734Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.914Z",
           "healthHttpStatus": 200
         },
         {
@@ -5156,7 +4110,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.742Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.927Z",
           "healthHttpStatus": 200
         },
         {
@@ -5166,7 +4120,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.743Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.960Z",
           "healthHttpStatus": 200
         },
         {
@@ -5176,7 +4130,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.744Z",
+          "healthCheckedAt": "2026-10-13T20:20:45.981Z",
           "healthHttpStatus": 200
         },
         {
@@ -5186,7 +4140,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.758Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.041Z",
           "healthHttpStatus": 200
         },
         {
@@ -5196,7 +4150,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.759Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.041Z",
           "healthHttpStatus": 200
         },
         {
@@ -5206,7 +4160,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.759Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.067Z",
           "healthHttpStatus": 200
         },
         {
@@ -5216,7 +4170,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.790Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.101Z",
           "healthHttpStatus": 200
         },
         {
@@ -5226,7 +4180,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.826Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.154Z",
           "healthHttpStatus": 200
         },
         {
@@ -5236,7 +4190,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.827Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.154Z",
           "healthHttpStatus": 200
         },
         {
@@ -5246,7 +4200,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.827Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.167Z",
           "healthHttpStatus": 200
         },
         {
@@ -5256,7 +4210,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.858Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.180Z",
           "healthHttpStatus": 200
         }
       ],
@@ -5267,30 +4221,30 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/142.gif",
           "startingLineup": [
             "David Raya",
-            "Viktor Gyoekeres",
-            "Gabriel",
-            "Ezri Konsa",
-            "Eberechi Eze",
-            "Declan Rice",
-            "Jurrien Timber",
             "Noni Madueke",
-            "Myles Lewis-Skelly",
             "Mikel Merino",
-            "Bruno Guimaraes"
+            "Bruno Guimaraes",
+            "Declan Rice",
+            "Viktor Gyoekeres",
+            "Ezri Konsa",
+            "Myles Lewis-Skelly",
+            "Eberechi Eze",
+            "Gabriel",
+            "Jurrien Timber"
           ],
           "substitutes": [
+            "Bukayo Saka",
+            "Martin Oedegaard",
+            "Kepa Arrizabalaga",
+            "Kai Havertz",
             "Illan Meslier",
+            "Riccardo Calafiori",
+            "Ceadach O’Neill",
+            "Max Dowman",
             "Ben White",
             "Cristhian Mosquera",
-            "Ceadach O’Neill",
-            "Bukayo Saka",
-            "Kai Havertz",
-            "Riccardo Calafiori",
-            "Max Dowman",
-            "Martin Oedegaard",
-            "Marli Salmon",
             "Maalik Hashi",
-            "Kepa Arrizabalaga"
+            "Marli Salmon"
           ]
         },
         "away": {
@@ -5298,37 +4252,37 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/123.gif",
           "startingLineup": [
             "Berke Ozer",
-            "Hakon Arnar",
-            "Dilane Bakwa",
-            "Benjamin Andre",
+            "Ayase Ueda",
+            "Nathan Ngoy",
+            "Alexsandro Ribeiro",
+            "Romain Perraud",
             "Maxima Goffi",
             "Nabil Bentaleb",
-            "Romain Perraud",
             "Ngal Ayel Mukau",
-            "Nathan Ngoy",
-            "Ayase Ueda",
-            "Alexsandro Ribeiro"
+            "Benjamin Andre",
+            "Dilane Bakwa",
+            "Hakon Arnar"
           ],
           "substitutes": [
-            "Loun Srdanovic",
+            "Osame Sahraoui",
+            "Olivier Giroud",
+            "Orlando Gill",
+            "Maurits Kjaergaard",
+            "Basar Onal",
+            "Tanguy Nianzou",
+            "Calvin Verdonk",
             "Isaac Cossier",
             "Gaetan Perrin",
-            "Calvin Verdonk",
-            "Basar Onal",
-            "Maurits Kjaergaard",
-            "Thomas Sajous",
-            "Tanguy Nianzou",
             "Soriba Diaoune",
-            "Osame Sahraoui",
-            "Orlando Gill",
-            "Olivier Giroud"
+            "Thomas Sajous",
+            "Loun Srdanovic"
           ]
         }
       },
       "headToHead": null
     },
     {
-      "id": 32,
+      "id": 25,
       "title": "RB Leipzig – PSV",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -5347,7 +4301,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.867Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.255Z",
           "healthHttpStatus": 200
         },
         {
@@ -5357,7 +4311,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.877Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.255Z",
           "healthHttpStatus": 200
         },
         {
@@ -5367,7 +4321,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.927Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.287Z",
           "healthHttpStatus": 200
         },
         {
@@ -5377,7 +4331,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.927Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.288Z",
           "healthHttpStatus": 200
         },
         {
@@ -5387,7 +4341,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.950Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.420Z",
           "healthHttpStatus": 200
         },
         {
@@ -5397,7 +4351,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:42.954Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.452Z",
           "healthHttpStatus": 200
         },
         {
@@ -5407,7 +4361,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.022Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.460Z",
           "healthHttpStatus": 200
         },
         {
@@ -5417,7 +4371,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.029Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.524Z",
           "healthHttpStatus": 200
         },
         {
@@ -5427,7 +4381,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.062Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.535Z",
           "healthHttpStatus": 200
         },
         {
@@ -5437,7 +4391,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.077Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.535Z",
           "healthHttpStatus": 200
         },
         {
@@ -5447,7 +4401,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.091Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.670Z",
           "healthHttpStatus": 200
         },
         {
@@ -5457,7 +4411,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.193Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.681Z",
           "healthHttpStatus": 200
         },
         {
@@ -5467,7 +4421,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.214Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.681Z",
           "healthHttpStatus": 200
         },
         {
@@ -5477,7 +4431,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.218Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.686Z",
           "healthHttpStatus": 200
         },
         {
@@ -5487,7 +4441,7 @@
           "language": "Dutch",
           "bitrate": "1469kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.221Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.774Z",
           "healthHttpStatus": 200
         },
         {
@@ -5497,7 +4451,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.245Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.828Z",
           "healthHttpStatus": 200
         },
         {
@@ -5507,7 +4461,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.358Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.829Z",
           "healthHttpStatus": 200
         },
         {
@@ -5517,7 +4471,7 @@
           "language": "Norvegian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.358Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.868Z",
           "healthHttpStatus": 200
         },
         {
@@ -5527,7 +4481,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.375Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.934Z",
           "healthHttpStatus": 200
         },
         {
@@ -5537,7 +4491,7 @@
           "language": "Norvegian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.390Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.994Z",
           "healthHttpStatus": 200
         },
         {
@@ -5547,7 +4501,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.452Z",
+          "healthCheckedAt": "2026-10-13T20:20:46.994Z",
           "healthHttpStatus": 200
         },
         {
@@ -5557,7 +4511,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.502Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.033Z",
           "healthHttpStatus": 200
         },
         {
@@ -5567,7 +4521,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.503Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.087Z",
           "healthHttpStatus": 200
         },
         {
@@ -5577,7 +4531,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.526Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.128Z",
           "healthHttpStatus": 200
         },
         {
@@ -5587,7 +4541,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.541Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.128Z",
           "healthHttpStatus": 200
         },
         {
@@ -5597,7 +4551,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.594Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.154Z",
           "healthHttpStatus": 200
         },
         {
@@ -5607,7 +4561,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.638Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.154Z",
           "healthHttpStatus": 200
         },
         {
@@ -5617,7 +4571,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.646Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.194Z",
           "healthHttpStatus": 200
         },
         {
@@ -5627,7 +4581,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.654Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.247Z",
           "healthHttpStatus": 200
         },
         {
@@ -5637,7 +4591,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.654Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.268Z",
           "healthHttpStatus": 200
         },
         {
@@ -5647,7 +4601,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.706Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.269Z",
           "healthHttpStatus": 200
         }
       ],
@@ -5717,7 +4671,7 @@
       "headToHead": null
     },
     {
-      "id": 33,
+      "id": 26,
       "title": "Inter – Brugge",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -5736,7 +4690,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.706Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.314Z",
           "healthHttpStatus": 200
         },
         {
@@ -5746,7 +4700,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.710Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.341Z",
           "healthHttpStatus": 200
         },
         {
@@ -5756,7 +4710,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.738Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.341Z",
           "healthHttpStatus": 200
         },
         {
@@ -5766,27 +4720,27 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.739Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.347Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
           "label": "Stream 9",
-          "url": "https://livetvsx.live/go/bt5_english.php",
+          "url": "https://livetvsx.live/go/ch5_english.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.746Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.474Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 10",
-          "url": "https://livetvsx.live/go/ch5_english.php",
+          "url": "https://livetvsx.live/go/bt5_english.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.782Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.475Z",
           "healthHttpStatus": 200
         },
         {
@@ -5796,7 +4750,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.822Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.488Z",
           "healthHttpStatus": 200
         },
         {
@@ -5806,7 +4760,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.854Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.488Z",
           "healthHttpStatus": 200
         },
         {
@@ -5816,7 +4770,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.870Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.637Z",
           "healthHttpStatus": 200
         },
         {
@@ -5826,7 +4780,7 @@
           "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.873Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.638Z",
           "healthHttpStatus": 200
         },
         {
@@ -5836,47 +4790,47 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.882Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.641Z",
           "healthHttpStatus": 200
         },
         {
           "id": 12,
           "label": "Stream 21",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268616&w=700&h=480",
-          "language": "Serbian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=210034&w=700&h=480",
+          "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.882Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.642Z",
           "healthHttpStatus": 200
         },
         {
           "id": 13,
           "label": "Stream 23",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=210034&w=700&h=480",
-          "language": "Italian",
-          "bitrate": null,
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=241801&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "3000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.966Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.754Z",
           "healthHttpStatus": 200
         },
         {
           "id": 14,
           "label": "Stream 25",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=241801&w=700&h=480",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=267021&w=700&h=480",
           "language": "Russian",
-          "bitrate": "3000kbps",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:43.998Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.787Z",
           "healthHttpStatus": 200
         },
         {
           "id": 15,
           "label": "Stream 27",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=267021&w=700&h=480",
-          "language": "Russian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268616&w=700&h=480",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.018Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.787Z",
           "healthHttpStatus": 200
         },
         {
@@ -5886,7 +4840,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.034Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.814Z",
           "healthHttpStatus": 200
         },
         {
@@ -5896,7 +4850,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.035Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.827Z",
           "healthHttpStatus": 200
         },
         {
@@ -5906,7 +4860,7 @@
           "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.036Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.961Z",
           "healthHttpStatus": 200
         },
         {
@@ -5916,7 +4870,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.043Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.962Z",
           "healthHttpStatus": 200
         },
         {
@@ -5926,7 +4880,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.126Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.962Z",
           "healthHttpStatus": 200
         },
         {
@@ -5936,7 +4890,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.166Z",
+          "healthCheckedAt": "2026-10-13T20:20:47.967Z",
           "healthHttpStatus": 200
         },
         {
@@ -5946,7 +4900,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.195Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.001Z",
           "healthHttpStatus": 200
         },
         {
@@ -5956,7 +4910,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.195Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.109Z",
           "healthHttpStatus": 200
         },
         {
@@ -5966,17 +4920,17 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.195Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.135Z",
           "healthHttpStatus": 200
         },
         {
           "id": 25,
           "label": "Stream 44",
-          "url": "https://livetvsx.live/go/ch8_german.php",
-          "language": "German",
+          "url": "https://livetvsx.live/go/skyuno_italy.php",
+          "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.196Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.135Z",
           "healthHttpStatus": 200
         },
         {
@@ -5986,17 +4940,17 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.211Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.147Z",
           "healthHttpStatus": 200
         },
         {
           "id": 27,
           "label": "Stream 46",
-          "url": "https://livetvsx.live/go/skyuno_italy.php",
-          "language": "Italian",
+          "url": "https://livetvsx.live/go/ch8_german.php",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.243Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.153Z",
           "healthHttpStatus": 200
         },
         {
@@ -6006,7 +4960,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.243Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.167Z",
           "healthHttpStatus": 200
         }
       ],
@@ -6078,7 +5032,7 @@
       "headToHead": null
     },
     {
-      "id": 34,
+      "id": 27,
       "title": "Galatasaray – Barcelona",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -6097,7 +5051,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.270Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.194Z",
           "healthHttpStatus": 200
         },
         {
@@ -6107,7 +5061,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.278Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.221Z",
           "healthHttpStatus": 200
         },
         {
@@ -6117,7 +5071,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.286Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.221Z",
           "healthHttpStatus": 200
         },
         {
@@ -6127,7 +5081,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.310Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.228Z",
           "healthHttpStatus": 200
         },
         {
@@ -6137,7 +5091,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.326Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.228Z",
           "healthHttpStatus": 200
         },
         {
@@ -6147,7 +5101,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.326Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.281Z",
           "healthHttpStatus": 200
         },
         {
@@ -6157,7 +5111,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.398Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.334Z",
           "healthHttpStatus": 200
         },
         {
@@ -6167,7 +5121,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.402Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.341Z",
           "healthHttpStatus": 200
         },
         {
@@ -6177,7 +5131,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.402Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.356Z",
           "healthHttpStatus": 200
         },
         {
@@ -6187,7 +5141,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.413Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.401Z",
           "healthHttpStatus": 200
         },
         {
@@ -6197,7 +5151,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.422Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.415Z",
           "healthHttpStatus": 200
         },
         {
@@ -6207,7 +5161,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.430Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.488Z",
           "healthHttpStatus": 200
         },
         {
@@ -6217,7 +5171,7 @@
           "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.462Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.488Z",
           "healthHttpStatus": 200
         },
         {
@@ -6227,7 +5181,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.537Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.513Z",
           "healthHttpStatus": 200
         },
         {
@@ -6237,7 +5191,7 @@
           "language": "Ukrainian",
           "bitrate": "3000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.546Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.561Z",
           "healthHttpStatus": 200
         },
         {
@@ -6247,7 +5201,7 @@
           "language": "Russian",
           "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.546Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.574Z",
           "healthHttpStatus": 200
         },
         {
@@ -6257,7 +5211,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.553Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.648Z",
           "healthHttpStatus": 200
         },
         {
@@ -6267,7 +5221,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.582Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.648Z",
           "healthHttpStatus": 200
         },
         {
@@ -6277,7 +5231,7 @@
           "language": "Russian",
           "bitrate": "4000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.582Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.682Z",
           "healthHttpStatus": 200
         },
         {
@@ -6287,7 +5241,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.614Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.722Z",
           "healthHttpStatus": 200
         },
         {
@@ -6297,7 +5251,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.750Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.748Z",
           "healthHttpStatus": 200
         },
         {
@@ -6307,7 +5261,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.750Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.794Z",
           "healthHttpStatus": 200
         },
         {
@@ -6317,7 +5271,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.761Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.840Z",
           "healthHttpStatus": 200
         },
         {
@@ -6327,7 +5281,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.779Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.867Z",
           "healthHttpStatus": 200
         },
         {
@@ -6337,7 +5291,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.904Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.894Z",
           "healthHttpStatus": 200
         },
         {
@@ -6347,7 +5301,7 @@
           "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.910Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.940Z",
           "healthHttpStatus": 200
         },
         {
@@ -6357,7 +5311,7 @@
           "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.910Z",
+          "healthCheckedAt": "2026-10-13T20:20:48.968Z",
           "healthHttpStatus": 200
         },
         {
@@ -6367,7 +5321,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:44.946Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.001Z",
           "healthHttpStatus": 200
         },
         {
@@ -6377,7 +5331,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.046Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.027Z",
           "healthHttpStatus": 200
         },
         {
@@ -6387,7 +5341,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.062Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.040Z",
           "healthHttpStatus": 200
         },
         {
@@ -6397,7 +5351,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.063Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.067Z",
           "healthHttpStatus": 200
         },
         {
@@ -6407,7 +5361,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.063Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.080Z",
           "healthHttpStatus": 200
         },
         {
@@ -6417,7 +5371,7 @@
           "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.098Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.134Z",
           "healthHttpStatus": 200
         },
         {
@@ -6427,7 +5381,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.106Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.160Z",
           "healthHttpStatus": 200
         },
         {
@@ -6437,7 +5391,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.106Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.174Z",
           "healthHttpStatus": 200
         },
         {
@@ -6447,7 +5401,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.115Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.180Z",
           "healthHttpStatus": 200
         },
         {
@@ -6457,7 +5411,7 @@
           "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.121Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.261Z",
           "healthHttpStatus": 200
         },
         {
@@ -6467,7 +5421,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.190Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.281Z",
           "healthHttpStatus": 200
         },
         {
@@ -6477,7 +5431,7 @@
           "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.191Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.335Z",
           "healthHttpStatus": 200
         },
         {
@@ -6487,7 +5441,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.206Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.335Z",
           "healthHttpStatus": 200
         },
         {
@@ -6497,7 +5451,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.222Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.354Z",
           "healthHttpStatus": 200
         },
         {
@@ -6507,7 +5461,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.266Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.387Z",
           "healthHttpStatus": 200
         },
         {
@@ -6517,7 +5471,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.274Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.415Z",
           "healthHttpStatus": 200
         },
         {
@@ -6527,7 +5481,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.275Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.427Z",
           "healthHttpStatus": 200
         }
       ],
@@ -6538,18 +5492,21 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/20957.gif",
           "startingLineup": [
             "Ugurcan Cakir",
-            "Aleksey Batrakov",
-            "Mario Lemina",
             "Victor Osimhen",
-            "Lucas Torreira",
-            "Rafael Leao",
-            "Yunus Akgun",
-            "Ismail Jakobs",
+            "Mario Lemina",
             "Davinson Sanchez",
             "Evren Eren Elmali",
-            "Baris Alper Yilmaz"
+            "Baris Alper Yilmaz",
+            "Yunus Akgun",
+            "Rafael Leao",
+            "Lucas Torreira",
+            "Aleksey Batrakov",
+            "Ismail Jakobs"
           ],
           "substitutes": [
+            "Enes Emre Buyuk",
+            "Berat Lus",
+            "Renato Nhaga",
             "El Chadaille",
             "Roland Sallai",
             "Gabriel Sara",
@@ -6558,10 +5515,7 @@
             "Ilkay Gundogan",
             "Deniz Gul",
             "Jankat Yilmaz",
-            "Abdulkerim Bardakci",
-            "Enes Emre Buyuk",
-            "Berat Lus",
-            "Renato Nhaga"
+            "Abdulkerim Bardakci"
           ]
         },
         "away": {
@@ -6569,29 +5523,29 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/5.gif",
           "startingLineup": [
             "Joan Garcia",
-            "Lamine Yamal",
-            "Rodri",
-            "Anthony Gordon",
-            "Dani Olmo",
-            "Pedri",
-            "Fermin Lopez",
             "Joao Cancelo",
             "Pau Cubarsi",
             "Gerard Martin",
-            "Eric Garcia"
+            "Eric Garcia",
+            "Fermin Lopez",
+            "Dani Olmo",
+            "Pedri",
+            "Lamine Yamal",
+            "Rodri",
+            "Anthony Gordon"
           ],
           "substitutes": [
-            "Hamza Abdelkarim",
-            "Karim Adeyemi",
-            "Marc Bernal",
-            "Jules Kounde",
             "Dominik Livakovic",
+            "Jules Kounde",
+            "Marc Bernal",
+            "Hamza Abdelkarim",
             "Alejandro Balde",
             "Brian Farinas",
             "Gavi",
             "Gabriel Jesus",
             "Xavi Espart",
-            "Wojciech Szczesny"
+            "Wojciech Szczesny",
+            "Karim Adeyemi"
           ]
         }
       },
@@ -6712,11 +5666,11 @@
       }
     },
     {
-      "id": 35,
+      "id": 28,
       "title": "Chile (W) – Bolivia (W)",
       "dateLabel": "13 October",
       "timeLabel": "21:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Women. Friendly Match. National Teams",
       "iconUrl": "https://cdn.livetv904.me/img/icons/friend.gif",
       "iconAlt": "Women. Friendly Match. National Teams",
@@ -6742,11 +5696,11 @@
       "headToHead": null
     },
     {
-      "id": 36,
+      "id": 29,
       "title": "FUS Rabat – Raja CA",
       "dateLabel": "13 October",
       "timeLabel": "21:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Morocco. Botola Pro",
       "iconUrl": "https://cdn.livetv904.me/img/icons/ma.gif",
       "iconAlt": "Morocco. Botola Pro",
@@ -6761,7 +5715,7 @@
           "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:01:45.282Z",
+          "healthCheckedAt": "2026-10-13T20:20:49.428Z",
           "healthHttpStatus": 200
         }
       ],
@@ -6906,7 +5860,7 @@
       }
     },
     {
-      "id": 37,
+      "id": 30,
       "title": "Venezuela (W) – Colombia (W)",
       "dateLabel": "13 October",
       "timeLabel": "22:00",
@@ -6936,7 +5890,7 @@
       "headToHead": null
     },
     {
-      "id": 38,
+      "id": 31,
       "title": "Athletic MG – Londrina",
       "dateLabel": "13 October",
       "timeLabel": "23:30",
@@ -7089,7 +6043,7 @@
       }
     },
     {
-      "id": 39,
+      "id": 32,
       "title": "Tapatio – Tepatitlan de Morelos",
       "dateLabel": "14 October",
       "timeLabel": "0:00",
@@ -7242,7 +6196,7 @@
       }
     },
     {
-      "id": 40,
+      "id": 33,
       "title": "USA (W) – Spain (W)",
       "dateLabel": "14 October",
       "timeLabel": "0:00",
@@ -7272,7 +6226,7 @@
       "headToHead": null
     },
     {
-      "id": 41,
+      "id": 34,
       "title": "Atl. Bucaramanga – Davao Aguilas",
       "dateLabel": "14 October",
       "timeLabel": "0:30",
@@ -7302,7 +6256,7 @@
       "headToHead": null
     },
     {
-      "id": 42,
+      "id": 35,
       "title": "Brazil (W) – Argentina (W)",
       "dateLabel": "14 October",
       "timeLabel": "0:30",
@@ -7332,7 +6286,7 @@
       "headToHead": null
     },
     {
-      "id": 43,
+      "id": 36,
       "title": "Cartagines – Puntarenas",
       "dateLabel": "14 October",
       "timeLabel": "1:00",
@@ -7485,7 +6439,7 @@
       }
     },
     {
-      "id": 44,
+      "id": 37,
       "title": "Boca Juniors – Vasco de Gama",
       "dateLabel": "14 October",
       "timeLabel": "1:30",
@@ -7515,7 +6469,7 @@
       "headToHead": null
     },
     {
-      "id": 45,
+      "id": 38,
       "title": "Panama (W) – New Zealand (W)",
       "dateLabel": "14 October",
       "timeLabel": "1:30",
@@ -7545,7 +6499,7 @@
       "headToHead": null
     },
     {
-      "id": 46,
+      "id": 39,
       "title": "Mexico (W) – Jamaica (W)",
       "dateLabel": "14 October",
       "timeLabel": "2:00",
@@ -7575,7 +6529,7 @@
       "headToHead": null
     },
     {
-      "id": 47,
+      "id": 40,
       "title": "Portmore United – Violette",
       "dateLabel": "14 October",
       "timeLabel": "2:00",
@@ -7605,7 +6559,7 @@
       "headToHead": null
     },
     {
-      "id": 48,
+      "id": 41,
       "title": "Millonarios – Once Caldas",
       "dateLabel": "14 October",
       "timeLabel": "2:30",
@@ -7758,7 +6712,7 @@
       }
     },
     {
-      "id": 49,
+      "id": 42,
       "title": "San Carlos – Inter San Carlos",
       "dateLabel": "14 October",
       "timeLabel": "3:00",
@@ -7911,7 +6865,7 @@
       }
     },
     {
-      "id": 50,
+      "id": 43,
       "title": "Melbourne Victory – Seoul",
       "dateLabel": "14 October",
       "timeLabel": "8:45",
@@ -7941,7 +6895,7 @@
       "headToHead": null
     },
     {
-      "id": 51,
+      "id": 44,
       "title": "Kharkiv U19 – Kolos Kovalivka U-19",
       "dateLabel": "14 October",
       "timeLabel": "9:00",
@@ -7971,7 +6925,7 @@
       "headToHead": null
     },
     {
-      "id": 52,
+      "id": 45,
       "title": "SKA-Khabarovsk – Dynamo Kirov",
       "dateLabel": "14 October",
       "timeLabel": "9:30",
@@ -8001,7 +6955,7 @@
       "headToHead": null
     },
     {
-      "id": 53,
+      "id": 46,
       "title": "Bodo/Glimt U-19 – Dortmund U-19",
       "dateLabel": "14 October",
       "timeLabel": "10:00",
@@ -8136,7 +7090,7 @@
       }
     },
     {
-      "id": 54,
+      "id": 47,
       "title": "Dynamo Kiev U19 – Karpaty U19",
       "dateLabel": "14 October",
       "timeLabel": "10:00",
@@ -8289,7 +7243,7 @@
       }
     },
     {
-      "id": 55,
+      "id": 48,
       "title": "Kairat U-19 – Mladost DG U-19",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -8424,7 +7378,7 @@
       }
     },
     {
-      "id": 56,
+      "id": 49,
       "title": "LASK U-19 – Liverpool U-19",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -8454,7 +7408,7 @@
       "headToHead": null
     },
     {
-      "id": 57,
+      "id": 50,
       "title": "Vissel Kobe – Jeonbuk",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -8589,7 +7543,7 @@
       }
     },
     {
-      "id": 58,
+      "id": 51,
       "title": "Kashiwa Reysol – Port",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -8619,7 +7573,7 @@
       "headToHead": null
     },
     {
-      "id": 59,
+      "id": 52,
       "title": "LNZ U19 – Obolon U19",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -8649,7 +7603,7 @@
       "headToHead": null
     },
     {
-      "id": 60,
+      "id": 53,
       "title": "SK Metalurh U19 – Oleksandria U19",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -8679,7 +7633,7 @@
       "headToHead": null
     },
     {
-      "id": 61,
+      "id": 54,
       "title": "Lviv U19 – Livyi Bereg U19",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -8709,7 +7663,7 @@
       "headToHead": null
     },
     {
-      "id": 62,
+      "id": 55,
       "title": "Irtysh – Astana",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -8844,7 +7798,7 @@
       }
     },
     {
-      "id": 63,
+      "id": 56,
       "title": "Polesia U19 – Veres U19",
       "dateLabel": "14 October",
       "timeLabel": "11:30",
@@ -8874,7 +7828,7 @@
       "headToHead": null
     },
     {
-      "id": 64,
+      "id": 57,
       "title": "Shakhtar Donetsk U-19 – AEK U-19",
       "dateLabel": "14 October",
       "timeLabel": "12:00",
@@ -8904,7 +7858,7 @@
       "headToHead": null
     },
     {
-      "id": 65,
+      "id": 58,
       "title": "Feyenoord U-19 – Como U-19",
       "dateLabel": "14 October",
       "timeLabel": "12:00",
@@ -8934,7 +7888,7 @@
       "headToHead": null
     },
     {
-      "id": 66,
+      "id": 59,
       "title": "Atyrau – Elimai",
       "dateLabel": "14 October",
       "timeLabel": "12:00",
@@ -9087,7 +8041,7 @@
       }
     },
     {
-      "id": 67,
+      "id": 60,
       "title": "Volna – Dynamo St Petersburg",
       "dateLabel": "14 October",
       "timeLabel": "12:00",
@@ -9231,7 +8185,7 @@
       }
     },
     {
-      "id": 68,
+      "id": 61,
       "title": "Batman Petrolspor – Istanbulspor",
       "dateLabel": "14 October",
       "timeLabel": "12:30",
@@ -9261,7 +8215,7 @@
       "headToHead": null
     },
     {
-      "id": 69,
+      "id": 62,
       "title": "Yenisey – Kaluga",
       "dateLabel": "14 October",
       "timeLabel": "12:30",
@@ -9291,7 +8245,7 @@
       "headToHead": null
     },
     {
-      "id": 70,
+      "id": 63,
       "title": "Dinamo Minsk U-19 – Dinamo Tbilisi U-19",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -9444,7 +8398,7 @@
       }
     },
     {
-      "id": 71,
+      "id": 64,
       "title": "Roma U-19 – Real Madrid U-19",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -9474,7 +8428,7 @@
       "headToHead": null
     },
     {
-      "id": 72,
+      "id": 65,
       "title": "Partizani Tirana U-19 – Valletta U-19",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -9537,7 +8491,7 @@
       }
     },
     {
-      "id": 73,
+      "id": 66,
       "title": "Ballkani U-19 – HJK U-19",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -9600,7 +8554,7 @@
       }
     },
     {
-      "id": 74,
+      "id": 67,
       "title": "Brera Strumica U-19 – Santa Coloma U-19",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -9693,7 +8647,7 @@
       }
     },
     {
-      "id": 75,
+      "id": 68,
       "title": "Slovan Bratislava U-19 – Stuttgart U-19",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -9723,7 +8677,7 @@
       "headToHead": null
     },
     {
-      "id": 76,
+      "id": 69,
       "title": "Leningradets – Luki-Energiya",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -9876,7 +8830,7 @@
       }
     },
     {
-      "id": 77,
+      "id": 70,
       "title": "Persib Bandung – The Cong-Viettel",
       "dateLabel": "14 October",
       "timeLabel": "13:15",
@@ -9906,7 +8860,7 @@
       "headToHead": null
     },
     {
-      "id": 78,
+      "id": 71,
       "title": "Aston Villa U-19 – Fenerbahce U-19",
       "dateLabel": "14 October",
       "timeLabel": "14:00",
@@ -9936,7 +8890,7 @@
       "headToHead": null
     },
     {
-      "id": 79,
+      "id": 72,
       "title": "Latina – Atalanta U-23",
       "dateLabel": "14 October",
       "timeLabel": "14:00",
@@ -10080,7 +9034,7 @@
       }
     },
     {
-      "id": 80,
+      "id": 73,
       "title": "Strommen – Aasane",
       "dateLabel": "14 October",
       "timeLabel": "14:00",
@@ -10215,7 +9169,7 @@
       }
     },
     {
-      "id": 81,
+      "id": 74,
       "title": "Narva Trans – Kuressaare",
       "dateLabel": "14 October",
       "timeLabel": "14:00",
@@ -10368,7 +9322,7 @@
       }
     },
     {
-      "id": 82,
+      "id": 75,
       "title": "Krylia Sovetov – Baltika",
       "dateLabel": "14 October",
       "timeLabel": "14:15",
@@ -10521,7 +9475,7 @@
       }
     },
     {
-      "id": 83,
+      "id": 76,
       "title": "Nasaf – Al-Wahda",
       "dateLabel": "14 October",
       "timeLabel": "14:45",
@@ -10551,7 +9505,7 @@
       "headToHead": null
     },
     {
-      "id": 84,
+      "id": 77,
       "title": "Manchester City U-19 – PSG U-19",
       "dateLabel": "14 October",
       "timeLabel": "15:00",
@@ -10686,7 +9640,7 @@
       }
     },
     {
-      "id": 85,
+      "id": 78,
       "title": "Real Betis U-19 – Porto U-19",
       "dateLabel": "14 October",
       "timeLabel": "15:00",
@@ -10830,7 +9784,7 @@
       }
     },
     {
-      "id": 86,
+      "id": 79,
       "title": "Punjab – Odisha",
       "dateLabel": "14 October",
       "timeLabel": "15:00",
@@ -10983,7 +9937,7 @@
       }
     },
     {
-      "id": 87,
+      "id": 80,
       "title": "Umraniyespor – Boluspor",
       "dateLabel": "14 October",
       "timeLabel": "15:00",
@@ -11136,7 +10090,7 @@
       }
     },
     {
-      "id": 88,
+      "id": 81,
       "title": "Volga Ulyanovsk – Murom",
       "dateLabel": "14 October",
       "timeLabel": "15:00",
@@ -11289,7 +10243,7 @@
       }
     },
     {
-      "id": 89,
+      "id": 82,
       "title": "Super Nova U-19 – Cliftonville U-19",
       "dateLabel": "14 October",
       "timeLabel": "16:00",
@@ -11352,7 +10306,7 @@
       }
     },
     {
-      "id": 90,
+      "id": 83,
       "title": "Akhmat – Dynamo M",
       "dateLabel": "14 October",
       "timeLabel": "16:30",
@@ -11505,7 +10459,7 @@
       }
     },
     {
-      "id": 91,
+      "id": 84,
       "title": "Dynamo Makhachkala – Zenit",
       "dateLabel": "14 October",
       "timeLabel": "16:30",
@@ -11658,7 +10612,7 @@
       }
     },
     {
-      "id": 92,
+      "id": 85,
       "title": "Levadia U-21 – Nomme Kalju U-21",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -11811,7 +10765,7 @@
       }
     },
     {
-      "id": 93,
+      "id": 86,
       "title": "Zalgiris U-19 – Thor U-19",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -11946,7 +10900,7 @@
       }
     },
     {
-      "id": 94,
+      "id": 87,
       "title": "Bohemians – Mlada-Boleslav",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -12099,7 +11053,7 @@
       }
     },
     {
-      "id": 95,
+      "id": 88,
       "title": "Al-Muharraq – Gol Gohar",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -12129,7 +11083,7 @@
       "headToHead": null
     },
     {
-      "id": 96,
+      "id": 89,
       "title": "Al-Jazeera Amman – Arkadag",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -12159,7 +11113,7 @@
       "headToHead": null
     },
     {
-      "id": 97,
+      "id": 90,
       "title": "Al-Taawoun – Al-Rayyan",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -12189,7 +11143,7 @@
       "headToHead": null
     },
     {
-      "id": 98,
+      "id": 91,
       "title": "Kuwait SC – Al-Khaldiya",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -12219,7 +11173,7 @@
       "headToHead": null
     },
     {
-      "id": 99,
+      "id": 92,
       "title": "Chertanovo – Tekstilshchik",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -12372,7 +11326,7 @@
       }
     },
     {
-      "id": 100,
+      "id": 93,
       "title": "BATE – Neman",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -12525,7 +11479,7 @@
       }
     },
     {
-      "id": 101,
+      "id": 94,
       "title": "Paide – Tammeka",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -12678,7 +11632,7 @@
       }
     },
     {
-      "id": 102,
+      "id": 95,
       "title": "Volna – Shinnik",
       "dateLabel": "14 October",
       "timeLabel": "17:15",
@@ -12813,7 +11767,7 @@
       }
     },
     {
-      "id": 103,
+      "id": 96,
       "title": "LASK – Liverpool",
       "dateLabel": "14 October",
       "timeLabel": "17:45",
@@ -12957,7 +11911,7 @@
       }
     },
     {
-      "id": 104,
+      "id": 97,
       "title": "Feyenoord – Como",
       "dateLabel": "14 October",
       "timeLabel": "17:45",
@@ -12987,7 +11941,7 @@
       "headToHead": null
     },
     {
-      "id": 105,
+      "id": 98,
       "title": "Simulcast",
       "dateLabel": "14 October",
       "timeLabel": "17:45",
@@ -13017,7 +11971,7 @@
       "headToHead": null
     },
     {
-      "id": 106,
+      "id": 99,
       "title": "Gzira United – Mosta",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -13170,7 +12124,7 @@
       }
     },
     {
-      "id": 107,
+      "id": 100,
       "title": "Wehen – Alemannia",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -13323,7 +12277,7 @@
       }
     },
     {
-      "id": 108,
+      "id": 101,
       "title": "Viktoria Cologne – Grossaspach",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -13353,7 +12307,7 @@
       "headToHead": null
     },
     {
-      "id": 109,
+      "id": 102,
       "title": "Verl – Regensburg",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -13506,7 +12460,7 @@
       }
     },
     {
-      "id": 110,
+      "id": 103,
       "title": "Preussen Muenster – Fortuna",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -13659,7 +12613,7 @@
       }
     },
     {
-      "id": 111,
+      "id": 104,
       "title": "Waldhof – Ingolstadt",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -13812,7 +12766,7 @@
       }
     },
     {
-      "id": 112,
+      "id": 105,
       "title": "Antalyaspor – Kayserispor",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -13965,7 +12919,7 @@
       }
     },
     {
-      "id": 113,
+      "id": 106,
       "title": "Keciorengucu – Igdir",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -14118,7 +13072,7 @@
       }
     },
     {
-      "id": 114,
+      "id": 107,
       "title": "Stroemsgodset – Kongsvinger",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -14271,7 +13225,7 @@
       }
     },
     {
-      "id": 115,
+      "id": 108,
       "title": "Stabaek – Sandnes Ulf",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -14424,7 +13378,7 @@
       }
     },
     {
-      "id": 116,
+      "id": 109,
       "title": "Sogndal – Odd",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -14577,7 +13531,7 @@
       }
     },
     {
-      "id": 117,
+      "id": 110,
       "title": "Moss – Egersund",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -14730,7 +13684,7 @@
       }
     },
     {
-      "id": 118,
+      "id": 111,
       "title": "Hoedd – Ranheim",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -14883,7 +13837,7 @@
       }
     },
     {
-      "id": 119,
+      "id": 112,
       "title": "Haugesund – Lyn",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -15018,7 +13972,7 @@
       }
     },
     {
-      "id": 120,
+      "id": 113,
       "title": "Bryne – Raufoss",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -15171,7 +14125,7 @@
       }
     },
     {
-      "id": 121,
+      "id": 114,
       "title": "Una Strassen U-19 – Cardiff Met U-19",
       "dateLabel": "14 October",
       "timeLabel": "18:30",
@@ -15234,7 +14188,7 @@
       }
     },
     {
-      "id": 122,
+      "id": 115,
       "title": "Sestao – Salamanca",
       "dateLabel": "14 October",
       "timeLabel": "18:30",
@@ -15264,7 +14218,7 @@
       "headToHead": null
     },
     {
-      "id": 123,
+      "id": 116,
       "title": "CSKA – Rostov",
       "dateLabel": "14 October",
       "timeLabel": "18:45",
@@ -15417,7 +14371,7 @@
       }
     },
     {
-      "id": 124,
+      "id": 117,
       "title": "HB Torshavn U-19 – Flora Tallinn U-19",
       "dateLabel": "14 October",
       "timeLabel": "19:00",
@@ -15510,7 +14464,7 @@
       }
     },
     {
-      "id": 125,
+      "id": 118,
       "title": "Al-Faisaly Amman – Al-Nahda",
       "dateLabel": "14 October",
       "timeLabel": "19:15",
@@ -15540,7 +14494,7 @@
       "headToHead": null
     },
     {
-      "id": 126,
+      "id": 119,
       "title": "Recreativo de Huelva – Navalcarnero",
       "dateLabel": "14 October",
       "timeLabel": "19:30",
@@ -15570,7 +14524,7 @@
       "headToHead": null
     },
     {
-      "id": 127,
+      "id": 120,
       "title": "Queens Park Rangers – Derby County",
       "dateLabel": "14 October",
       "timeLabel": "19:45",
@@ -15723,7 +14677,7 @@
       }
     },
     {
-      "id": 128,
+      "id": 121,
       "title": "Portsmouth – Sheffield Utd",
       "dateLabel": "14 October",
       "timeLabel": "19:45",
@@ -15876,7 +14830,7 @@
       }
     },
     {
-      "id": 129,
+      "id": 122,
       "title": "Norwich City – Southampton",
       "dateLabel": "14 October",
       "timeLabel": "19:45",
@@ -16029,7 +14983,7 @@
       }
     },
     {
-      "id": 130,
+      "id": 123,
       "title": "Simulcast",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -16059,7 +15013,7 @@
       "headToHead": null
     },
     {
-      "id": 131,
+      "id": 124,
       "title": "Lincoln City – West Ham United",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -16194,7 +15148,7 @@
       }
     },
     {
-      "id": 132,
+      "id": 125,
       "title": "Real Betis – Porto",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -16224,7 +15178,7 @@
       "headToHead": null
     },
     {
-      "id": 133,
+      "id": 126,
       "title": "Manchester City – PSG",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -16368,7 +15322,7 @@
       }
     },
     {
-      "id": 134,
+      "id": 127,
       "title": "Aston Villa – Fenerbahce",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -16503,7 +15457,7 @@
       }
     },
     {
-      "id": 135,
+      "id": 128,
       "title": "Bodoe/Glimt – Dortmund",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -16638,7 +15592,7 @@
       }
     },
     {
-      "id": 136,
+      "id": 129,
       "title": "Roma – Real Madrid RM",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -16668,7 +15622,7 @@
       "headToHead": null
     },
     {
-      "id": 137,
+      "id": 130,
       "title": "Slovan Bratislava – Stuttgart",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -16803,7 +15757,7 @@
       }
     },
     {
-      "id": 138,
+      "id": 131,
       "title": "Shakhtar Donetsk – AEK",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -16938,7 +15892,7 @@
       }
     },
     {
-      "id": 139,
+      "id": 132,
       "title": "Perez Zeledon – Municipal Liberia",
       "dateLabel": "14 October",
       "timeLabel": "21:00",
@@ -17091,7 +16045,7 @@
       }
     },
     {
-      "id": 140,
+      "id": 133,
       "title": "Ittihad Tanger – Maghreb de Fes",
       "dateLabel": "14 October",
       "timeLabel": "21:00",
@@ -17244,7 +16198,7 @@
       }
     },
     {
-      "id": 141,
+      "id": 134,
       "title": "Tembetary – Sol de America",
       "dateLabel": "14 October",
       "timeLabel": "21:00",
@@ -17379,7 +16333,7 @@
       }
     },
     {
-      "id": 142,
+      "id": 135,
       "title": "Atletico-MG – MC Torque",
       "dateLabel": "14 October",
       "timeLabel": "23:00",
@@ -17409,7 +16363,7 @@
       "headToHead": null
     },
     {
-      "id": 143,
+      "id": 136,
       "title": "Sarmiento – River Plate",
       "dateLabel": "14 October",
       "timeLabel": "23:00",
@@ -17562,7 +16516,7 @@
       }
     },
     {
-      "id": 144,
+      "id": 137,
       "title": "Real Cundinamarca – Bogota",
       "dateLabel": "14 October",
       "timeLabel": "23:00",
@@ -17715,7 +16669,7 @@
       }
     },
     {
-      "id": 145,
+      "id": 138,
       "title": "Cerro Porteno – San Lorenzo",
       "dateLabel": "14 October",
       "timeLabel": "23:30",
@@ -17868,5 +16822,5 @@
       }
     }
   ],
-  "enrichedAt": "2026-10-13T20:01:37.798Z"
+  "enrichedAt": "2026-10-13T20:20:39.796Z"
 }
