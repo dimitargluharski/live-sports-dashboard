@@ -1,6 +1,6 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-10-13T21:03:20.219Z",
+  "scrapedAt": "2026-10-13T22:02:37.506Z",
   "count": 91,
   "matches": [
     {
@@ -15,8 +15,19 @@
       "sectionLabel": "14 October",
       "isTopMatch": false,
       "rawDescription": "14 October at 0:00\n(Paraguay. LNB)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/0mXPHxtUf5Y?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T22:02:38.233Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Colonias Gold",
@@ -45,20 +56,86 @@
       "sectionLabel": "14 October",
       "isTopMatch": false,
       "rawDescription": "14 October at 0:00\n(NBA. Preseason)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://playfa.st/ch.php?id=2",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T22:02:38.244Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 3",
+          "url": "https://dlive.sx/stream/stream-4.php",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T22:02:38.245Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 2,
       "teams": {
         "home": {
           "name": "Toronto",
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/34406.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Jakob Poeltl",
+            "Immanuel Quickley",
+            "Kawhi Leonard",
+            "Scottie Barnes",
+            "RJ Barrett"
+          ],
+          "substitutes": [
+            "Ja’Kobe Walter",
+            "Jamison Battle",
+            "Jamal Shead",
+            "Jaden Bradley",
+            "Collin Murray-Boyles",
+            "Allen Graves",
+            "Kyle Anderson",
+            "Tyreke Key",
+            "Trey Jemison",
+            "Trayce Jackson-Davis",
+            "Nimari Burnett",
+            "Nate Bittle",
+            "Malachi Smith",
+            "Alijah Martin"
+          ]
         },
         "away": {
           "name": "New York",
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/14.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Jordan Clarkson",
+            "Landry Shamet",
+            "Mohamed Diawara",
+            "Miles McBride",
+            "Andre Drummond"
+          ],
+          "substitutes": [
+            "Tyler Nickel",
+            "Karl-Anthony Towns",
+            "Josh Hart",
+            "Jose Alvarado",
+            "James Wiseman",
+            "Jalen Brunson",
+            "Jaden Akins",
+            "Jack Kayil",
+            "Kevin McCullar Jr.",
+            "Tyler Kolek",
+            "Tony Bradley",
+            "Pacome Dadiet",
+            "OG Anunoby",
+            "Ochai Agbaji",
+            "Mikal Bridges",
+            "Drew Eubanks",
+            "Bruce Brown"
+          ]
         }
       },
       "headToHead": {
@@ -198,20 +275,126 @@
       "sectionLabel": "14 October",
       "isTopMatch": false,
       "rawDescription": "14 October at 0:00\n(NBA. Preseason)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268806&w=700&h=480",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T22:02:38.245Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269469&w=700&h=480",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T22:02:38.246Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 3,
+          "label": "Stream 6",
+          "url": "https://livetvsx.live/go/nba2_english.php",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T22:02:38.247Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 4,
+          "label": "Stream 7",
+          "url": "https://playfa.st/ch.php?id=1",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T22:02:38.247Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 5,
+          "label": "Stream 8",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=270194&w=700&h=480",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T22:02:38.248Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 6,
+          "label": "Stream 10",
+          "url": "https://dlive.sx/stream/stream-3.php",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-10-13T22:02:38.533Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 6,
       "teams": {
         "home": {
           "name": "Orlando",
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/34403.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Wendell Carter Jr.",
+            "Jalen Suggs",
+            "Franz Wagner",
+            "Desmond Bane",
+            "Paolo Banchero"
+          ],
+          "substitutes": [
+            "Jamal Cain",
+            "Izaiyah Nelson",
+            "Goga Bitadze",
+            "Colin Castleton",
+            "Anthony Black",
+            "Jase Richardson",
+            "JD Davison",
+            "Tristan da Silva",
+            "Noah Penda",
+            "Nikola Vucevic",
+            "Malaki Branham",
+            "Kevin Knox II",
+            "Jonathan Isaac",
+            "Jevon Carter",
+            "Alex Morales"
+          ]
         },
         "away": {
           "name": "Cleveland",
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/34400.gif",
-          "startingLineup": [],
-          "substitutes": []
+          "startingLineup": [
+            "Jarrett Allen",
+            "James Harden",
+            "Evan Mobley",
+            "Peyton Watson",
+            "Donovan Mitchell"
+          ],
+          "substitutes": [
+            "Zack Austin",
+            "Mario Hezonja",
+            "Khalifa Diop",
+            "Jaylon Tyson",
+            "Jaxson Robinson",
+            "Ernest Udeh Jr.",
+            "Meleek Thomas",
+            "Nae’Qwan Tomlin",
+            "Tyrese Proctor",
+            "Tristan Enaruna",
+            "Thomas Bryant",
+            "Sam Merrill",
+            "Riley Minix",
+            "Rashaun Agee",
+            "Noam Yaacov",
+            "Craig Porter"
+          ]
         }
       },
       "headToHead": {
@@ -7609,5 +7792,5 @@
       }
     }
   ],
-  "enrichedAt": "2026-10-13T21:03:20.220Z"
+  "enrichedAt": "2026-10-13T22:02:37.507Z"
 }
