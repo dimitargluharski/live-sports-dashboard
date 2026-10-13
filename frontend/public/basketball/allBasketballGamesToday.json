@@ -1,1612 +1,10 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-10-13T20:41:06.084Z",
-  "count": 78,
+  "scrapedAt": "2026-10-13T21:03:20.219Z",
+  "count": 91,
   "matches": [
     {
       "id": 1,
-      "title": "Simulcast",
-      "dateLabel": "13 October",
-      "timeLabel": "19:00",
-      "isLive": true,
-      "leagueLabel": "Euroleague",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/euroleague.gif",
-      "iconAlt": "Euroleague",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:00\n(Euroleague)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://dlive.sx/stream/stream-162.php",
-          "language": "German",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:06.805Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
-      "teams": {
-        "home": {
-          "name": null,
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": null,
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 2,
-      "title": "Roma – Balkan",
-      "dateLabel": "13 October",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "Eurocup",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/eurocup.gif",
-      "iconAlt": "Eurocup",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:00\n(Eurocup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Roma",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/38493.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Balkan",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/36919.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700067612/700010006/3_4675a/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "Eurocup",
-            "homeTeam": "Roma",
-            "awayTeam": "Balkan",
-            "score": "77:72",
-            "result": "W",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Roma",
-        "awayTeam": "Balkan",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "11/10",
-                "competition": "Lega Basket",
-                "opponent": "Maxima Roma",
-                "score": "95:96",
-                "result": "L"
-              },
-              {
-                "date": "07/10",
-                "competition": "Eurocup",
-                "opponent": "Lietkabelis",
-                "score": "92:87",
-                "result": "W"
-              },
-              {
-                "date": "04/10",
-                "competition": "Lega Basket",
-                "opponent": "Derthona",
-                "score": "108:70",
-                "result": "W"
-              },
-              {
-                "date": "27/09",
-                "competition": "Lega Basket",
-                "opponent": "Universo Treviso",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "26/09",
-                "competition": "Lega Basket",
-                "opponent": "Universo Treviso",
-                "score": "94:109",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 1,
-              "L": 2
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "11/10",
-                "competition": "Lega Basket",
-                "opponent": "Maxima Roma",
-                "score": "95:96",
-                "result": "L"
-              },
-              {
-                "date": "07/10",
-                "competition": "Eurocup",
-                "opponent": "Roma",
-                "score": "87:92",
-                "result": "L"
-              },
-              {
-                "date": "04/10",
-                "competition": "Lega Basket",
-                "opponent": "Roma",
-                "score": "70:108",
-                "result": "L"
-              },
-              {
-                "date": "27/09",
-                "competition": "Lega Basket",
-                "opponent": "Universo Treviso",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "26/09",
-                "competition": "Lega Basket",
-                "opponent": "Universo Treviso",
-                "score": "94:109",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 0,
-              "D": 1,
-              "L": 4
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 3,
-      "title": "Baskonia – Dubai",
-      "dateLabel": "13 October",
-      "timeLabel": "19:30",
-      "isLive": false,
-      "leagueLabel": "Euroleague",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/euroleague.gif",
-      "iconAlt": "Euroleague",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:30\n(Euroleague)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Baskonia",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/1539.gif",
-          "startingLineup": [
-            "A.J. Lawson",
-            "Tadas Sedekerskis",
-            "DJ Stewart",
-            "Kenneth Faried",
-            "Kobi Simmons"
-          ],
-          "substitutes": [
-            "Chris Duarte",
-            "Clement Frisch",
-            "Damion Baugh",
-            "Marcio Santos",
-            "Matteo Spagnolo",
-            "Rodions Kurucs",
-            "Stefan Joksimovic"
-          ]
-        },
-        "away": {
-          "name": "Dubai",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/31265.gif",
-          "startingLineup": [
-            "Dwayne Bacon",
-            "McKinley Wright IV",
-            "Mfiondu Kabengele",
-            "Davion Mintz",
-            "Tornike Shengelia"
-          ],
-          "substitutes": [
-            "Davis Bertans",
-            "Elie Okobo",
-            "Filip Petrusev",
-            "Jaron Blossomgame",
-            "Kosta Kondic",
-            "Mamadi Diakite",
-            "Thomas Walkup"
-          ]
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700000689/700062267/3_36180/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "Euroleague",
-            "homeTeam": "Baskonia",
-            "awayTeam": "Dubai",
-            "score": "79:93",
-            "result": "L",
-            "winner": "away"
-          },
-          {
-            "date": "12/03",
-            "competition": "Euroleague",
-            "homeTeam": "Dubai",
-            "awayTeam": "Baskonia",
-            "score": "100:94",
-            "result": "L",
-            "winner": "home"
-          },
-          {
-            "date": "28/10",
-            "competition": "Euroleague",
-            "homeTeam": "Baskonia",
-            "awayTeam": "Dubai",
-            "score": "92:85",
-            "result": "W",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Baskonia",
-        "awayTeam": "Dubai",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "11/10",
-                "competition": "ACB League",
-                "opponent": "Joventut",
-                "score": "93:73",
-                "result": "W"
-              },
-              {
-                "date": "09/10",
-                "competition": "Euroleague",
-                "opponent": "Besiktas",
-                "score": "84:92",
-                "result": "L"
-              },
-              {
-                "date": "04/10",
-                "competition": "ACB League",
-                "opponent": "Girona",
-                "score": "118:78",
-                "result": "W"
-              },
-              {
-                "date": "02/10",
-                "competition": "Euroleague",
-                "opponent": "Milan",
-                "score": "87:76",
-                "result": "W"
-              },
-              {
-                "date": "27/09",
-                "competition": "ACB League",
-                "opponent": "SP Burgos",
-                "score": "63:72",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 3,
-              "D": 0,
-              "L": 2
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "11/10",
-                "competition": "ACB League",
-                "opponent": "Baskonia",
-                "score": "73:93",
-                "result": "L"
-              },
-              {
-                "date": "09/10",
-                "competition": "Euroleague",
-                "opponent": "Baskonia",
-                "score": "92:84",
-                "result": "W"
-              },
-              {
-                "date": "04/10",
-                "competition": "ACB League",
-                "opponent": "Baskonia",
-                "score": "78:118",
-                "result": "L"
-              },
-              {
-                "date": "02/10",
-                "competition": "Euroleague",
-                "opponent": "Baskonia",
-                "score": "76:87",
-                "result": "L"
-              },
-              {
-                "date": "27/09",
-                "competition": "ACB League",
-                "opponent": "SP Burgos",
-                "score": "63:72",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 0,
-              "L": 4
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 4,
-      "title": "Milan – Real Madrid",
-      "dateLabel": "13 October",
-      "timeLabel": "19:30",
-      "isLive": false,
-      "leagueLabel": "Euroleague",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/euroleague.gif",
-      "iconAlt": "Euroleague",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:30\n(Euroleague)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Milan",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/57.gif",
-          "startingLineup": [
-            "Alec Peters",
-            "Darius Thompson",
-            "Devon Hall",
-            "Marko Guduric",
-            "Moses Wright"
-          ],
-          "substitutes": [
-            "Stefano Tonut",
-            "Devin Booker",
-            "Garrison Mathews",
-            "Giampaolo Ricci",
-            "Jason Burnell",
-            "Leandro Bolmaro",
-            "RJ Cole"
-          ]
-        },
-        "away": {
-          "name": "Real Madrid",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/34.gif",
-          "startingLineup": [
-            "Edy Tavares",
-            "Gabriele Procida",
-            "Mikael Jantunen",
-            "Nick Smith Jr.",
-            "Theo Maledon"
-          ],
-          "substitutes": [
-            "Andres Feliz",
-            "Chuma Okeke",
-            "Damian Jones",
-            "Facundo Campazzo",
-            "Jaime Pradilla",
-            "Alberto Abalde",
-            "Timothe"
-          ]
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700000739/700000694/3_137d2/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "Euroleague",
-            "homeTeam": "Milan",
-            "awayTeam": "Real Madrid",
-            "score": "89:98",
-            "result": "L",
-            "winner": "away"
-          },
-          {
-            "date": "20/01",
-            "competition": "Euroleague",
-            "homeTeam": "Real Madrid",
-            "awayTeam": "Milan",
-            "score": "106:77",
-            "result": "L",
-            "winner": "home"
-          },
-          {
-            "date": "16/12",
-            "competition": "Euroleague",
-            "homeTeam": "Milan",
-            "awayTeam": "Real Madrid",
-            "score": "89:82",
-            "result": "W",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Milan",
-        "awayTeam": "Real Madrid",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "11/10",
-                "competition": "Lega Basket",
-                "opponent": "Universo Treviso",
-                "score": "106:77",
-                "result": "W"
-              },
-              {
-                "date": "08/10",
-                "competition": "Euroleague",
-                "opponent": "Maccabi T-A",
-                "score": "79:97",
-                "result": "L"
-              },
-              {
-                "date": "05/10",
-                "competition": "Lega Basket",
-                "opponent": "Verona",
-                "score": "72:75",
-                "result": "L"
-              },
-              {
-                "date": "02/10",
-                "competition": "Euroleague",
-                "opponent": "Baskonia",
-                "score": "76:87",
-                "result": "L"
-              },
-              {
-                "date": "27/09",
-                "competition": "Lega Basket",
-                "opponent": "Trieste",
-                "score": "83:79",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 0,
-              "L": 3
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "11/10",
-                "competition": "Lega Basket",
-                "opponent": "Milan",
-                "score": "77:106",
-                "result": "L"
-              },
-              {
-                "date": "08/10",
-                "competition": "Euroleague",
-                "opponent": "Maccabi T-A",
-                "score": "79:97",
-                "result": "L"
-              },
-              {
-                "date": "05/10",
-                "competition": "Lega Basket",
-                "opponent": "Verona",
-                "score": "72:75",
-                "result": "L"
-              },
-              {
-                "date": "02/10",
-                "competition": "Euroleague",
-                "opponent": "Baskonia",
-                "score": "76:87",
-                "result": "L"
-              },
-              {
-                "date": "27/09",
-                "competition": "Lega Basket",
-                "opponent": "Milan",
-                "score": "79:83",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 0,
-              "D": 0,
-              "L": 5
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 5,
-      "title": "Barcelona – Maccabi T-A",
-      "dateLabel": "13 October",
-      "timeLabel": "19:30",
-      "isLive": true,
-      "leagueLabel": "Euroleague",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/euroleague.gif",
-      "iconAlt": "Euroleague",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:30\n(Euroleague)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://playfa.st/ch.php?id=14",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:06.815Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 3",
-          "url": "https://livetvsx.live/go/magenta11_german.php",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:06.816Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 3,
-          "label": "Stream 4",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268625&w=700&h=480",
-          "language": "Serbian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:06.817Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 4,
-          "label": "Stream 6",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268672&w=700&h=480",
-          "language": "Croatian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:06.817Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 5,
-          "label": "Stream 8",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269635&w=700&h=480",
-          "language": "Polish",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:06.818Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 6,
-          "label": "Stream 10",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269851&w=700&h=480",
-          "language": "Hebrew",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:06.819Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 7,
-          "label": "Stream 12",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269875&w=700&h=480",
-          "language": "Ukrainian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:06.819Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 8,
-          "label": "Stream 14",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270105&w=700&h=480",
-          "language": "Hebrew",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.166Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 9,
-          "label": "Stream 16",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=216035&w=700&h=480",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.167Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 10,
-          "label": "Stream 18",
-          "url": "https://livetvsx.live/go/teledep_spain.php",
-          "language": "Spanish",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.169Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 11,
-          "label": "Stream 19",
-          "url": "https://livetvsx.live/go/novasport6_greece.php",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.170Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 12,
-          "label": "Stream 21",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=c21316ad4b7f44eaf6fcfb2c245c46de8b746cc6&lang=en&eid=478508306&lid=3086954&ci=41&si=3",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.170Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 12,
-      "teams": {
-        "home": {
-          "name": "Barcelona",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/6.gif",
-          "startingLineup": [
-            "Aleksander",
-            "Joel Parra",
-            "Justin Robinson",
-            "Kevin Punter",
-            "Tyrese Martin"
-          ],
-          "substitutes": [
-            "Agustin Ubal",
-            "Umoja Gibson",
-            "Dario Brizuela",
-            "Josh Nebo",
-            "Olivier Nkamhoua",
-            "Stanley Umude",
-            "Tosan Evbuomwan"
-          ]
-        },
-        "away": {
-          "name": "Maccabi T-A",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/36913.gif",
-          "startingLineup": [
-            "Gabriel Iffe Lundberg",
-            "Jaylen Hoard",
-            "Oshae Brissett",
-            "Roman Sorkin",
-            "Yam Madar"
-          ],
-          "substitutes": [
-            "Bonzie Colson",
-            "Daniel Theis",
-            "Jimmy Clark",
-            "Keaton Wallace",
-            "TJ Leaf",
-            "Will Rayman",
-            "Armando Bacot"
-          ]
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700000682/700012064/3_fa35d/",
-        "matches": [
-          {
-            "date": "06/01",
-            "competition": "Euroleague",
-            "homeTeam": "Barcelona",
-            "awayTeam": "Maccabi T-A",
-            "score": "93:83",
-            "result": "W",
-            "winner": "home"
-          },
-          {
-            "date": "14/10",
-            "competition": "Euroleague",
-            "homeTeam": "Maccabi T-A",
-            "awayTeam": "Barcelona",
-            "score": "71:92",
-            "result": "W",
-            "winner": "away"
-          },
-          {
-            "date": "05/02",
-            "competition": "Euroleague",
-            "homeTeam": "Barcelona",
-            "awayTeam": "Maccabi T-A",
-            "score": "100:71",
-            "result": "W",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Barcelona",
-        "awayTeam": "Maccabi T-A",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "11/10",
-                "competition": "ACB League",
-                "opponent": "Valencia",
-                "score": "89:86",
-                "result": "W"
-              },
-              {
-                "date": "09/10",
-                "competition": "Euroleague",
-                "opponent": "Zalgiris",
-                "score": "81:88",
-                "result": "L"
-              },
-              {
-                "date": "04/10",
-                "competition": "ACB League",
-                "opponent": "Murcia",
-                "score": "94:100",
-                "result": "L"
-              },
-              {
-                "date": "02/10",
-                "competition": "Euroleague",
-                "opponent": "Besiktas",
-                "score": "95:82",
-                "result": "W"
-              },
-              {
-                "date": "26/09",
-                "competition": "ACB League",
-                "opponent": "Leyma Coruna",
-                "score": "119:101",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 3,
-              "D": 0,
-              "L": 2
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "11/10",
-                "competition": "ACB League",
-                "opponent": "Barcelona",
-                "score": "86:89",
-                "result": "L"
-              },
-              {
-                "date": "09/10",
-                "competition": "Euroleague",
-                "opponent": "Barcelona",
-                "score": "88:81",
-                "result": "W"
-              },
-              {
-                "date": "04/10",
-                "competition": "ACB League",
-                "opponent": "Murcia",
-                "score": "94:100",
-                "result": "L"
-              },
-              {
-                "date": "02/10",
-                "competition": "Euroleague",
-                "opponent": "Besiktas",
-                "score": "95:82",
-                "result": "W"
-              },
-              {
-                "date": "26/09",
-                "competition": "ACB League",
-                "opponent": "Barcelona",
-                "score": "101:119",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 0,
-              "L": 3
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 6,
-      "title": "Partizan – Panathinaikos",
-      "dateLabel": "13 October",
-      "timeLabel": "19:30",
-      "isLive": false,
-      "leagueLabel": "Euroleague",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/euroleague.gif",
-      "iconAlt": "Euroleague",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:30\n(Euroleague)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Partizan",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/8864.gif",
-          "startingLineup": [
-            "Alessandro Pajola",
-            "Carlik Jones",
-            "Ethan Thompson",
-            "Joffrey Lauvergne",
-            "Kevarrius Hayes"
-          ],
-          "substitutes": [
-            "Tonye Jekiri",
-            "Arijan Lakic",
-            "Bandja Sy",
-            "Kyle Allman",
-            "Lamar Stevens",
-            "Luca Vildoza",
-            "Nikola Tanaskovic"
-          ]
-        },
-        "away": {
-          "name": "Panathinaikos",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/334.gif",
-          "startingLineup": [
-            "Guerschon Yabusele",
-            "Jerian Grant",
-            "Konstantinos Mitoglou",
-            "Lefteris Mantzoukas",
-            "Panagiotis"
-          ],
-          "substitutes": [
-            "Juancho Hernangomez",
-            "Mathias Lessort",
-            "Moustapha Fall",
-            "Nigel Hayes-Davis",
-            "Nikolaos",
-            "Brancou Badio",
-            "Sylvain Francisco"
-          ]
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700012088/700000720/3_a5c01/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "Euroleague",
-            "homeTeam": "Partizan",
-            "awayTeam": "Panathinaikos",
-            "score": "55:72",
-            "result": "L",
-            "winner": "away"
-          },
-          {
-            "date": "05/02",
-            "competition": "Euroleague",
-            "homeTeam": "Partizan",
-            "awayTeam": "Panathinaikos",
-            "score": "78:62",
-            "result": "W",
-            "winner": "home"
-          },
-          {
-            "date": "25/11",
-            "competition": "Euroleague",
-            "homeTeam": "Panathinaikos",
-            "awayTeam": "Partizan",
-            "score": "91:69",
-            "result": "L",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Partizan",
-        "awayTeam": "Panathinaikos",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "11/10",
-                "competition": "Adriatic League",
-                "opponent": "Vienna",
-                "score": "99:78",
-                "result": "W"
-              },
-              {
-                "date": "08/10",
-                "competition": "Euroleague",
-                "opponent": "Real Madrid",
-                "score": "76:86",
-                "result": "L"
-              },
-              {
-                "date": "05/10",
-                "competition": "Adriatic League",
-                "opponent": "Mega Bemax",
-                "score": "83:59",
-                "result": "W"
-              },
-              {
-                "date": "02/10",
-                "competition": "Euroleague",
-                "opponent": "Bayern Munich",
-                "score": "86:84",
-                "result": "W"
-              },
-              {
-                "date": "25/09",
-                "competition": "Euroleague",
-                "opponent": "Milan",
-                "score": "92:76",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 4,
-              "D": 0,
-              "L": 1
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "11/10",
-                "competition": "Adriatic League",
-                "opponent": "Partizan",
-                "score": "78:99",
-                "result": "L"
-              },
-              {
-                "date": "08/10",
-                "competition": "Euroleague",
-                "opponent": "Real Madrid",
-                "score": "76:86",
-                "result": "L"
-              },
-              {
-                "date": "05/10",
-                "competition": "Adriatic League",
-                "opponent": "Partizan",
-                "score": "59:83",
-                "result": "L"
-              },
-              {
-                "date": "02/10",
-                "competition": "Euroleague",
-                "opponent": "Bayern Munich",
-                "score": "86:84",
-                "result": "W"
-              },
-              {
-                "date": "25/09",
-                "competition": "Euroleague",
-                "opponent": "Partizan",
-                "score": "76:92",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 0,
-              "L": 4
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 7,
-      "title": "Oostende – Girona",
-      "dateLabel": "13 October",
-      "timeLabel": "19:30",
-      "isLive": false,
-      "leagueLabel": "FIBA Europe Cup",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/FIBAEC.gif",
-      "iconAlt": "FIBA Europe Cup",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:30\n(FIBA Europe Cup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Oostende",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/868.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Girona",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/10606.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700000859/700025126/3_2766a/",
-        "matches": [
-          {
-            "date": "13/10",
-            "competition": "FIBA Europe Cup",
-            "homeTeam": "Oostende",
-            "awayTeam": "Girona",
-            "score": "76:91",
-            "result": "L",
-            "winner": "away"
-          }
-        ],
-        "homeTeam": "Oostende",
-        "awayTeam": "Girona",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "10/10",
-                "competition": "BNXT League",
-                "opponent": "Landstede Zwolle",
-                "score": "98:70",
-                "result": "W"
-              },
-              {
-                "date": "06/10",
-                "competition": "FIBA Europe Cup",
-                "opponent": "Patrioti Levice",
-                "score": "76:69",
-                "result": "W"
-              },
-              {
-                "date": "03/10",
-                "competition": "BNXT League",
-                "opponent": "Okapi Aalst",
-                "score": "87:95",
-                "result": "L"
-              },
-              {
-                "date": "25/09",
-                "competition": "Cup",
-                "opponent": "SKT Ieper",
-                "score": "110:76",
-                "result": "W"
-              },
-              {
-                "date": "18/09",
-                "competition": "Friendly Match",
-                "opponent": "Gravelines-Dunkerque",
-                "score": "0:0",
-                "result": "D"
-              }
-            ],
-            "summary": {
-              "W": 3,
-              "D": 1,
-              "L": 1
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "10/10",
-                "competition": "BNXT League",
-                "opponent": "Oostende",
-                "score": "70:98",
-                "result": "L"
-              },
-              {
-                "date": "06/10",
-                "competition": "FIBA Europe Cup",
-                "opponent": "Patrioti Levice",
-                "score": "76:69",
-                "result": "W"
-              },
-              {
-                "date": "03/10",
-                "competition": "BNXT League",
-                "opponent": "Okapi Aalst",
-                "score": "87:95",
-                "result": "L"
-              },
-              {
-                "date": "25/09",
-                "competition": "Cup",
-                "opponent": "SKT Ieper",
-                "score": "110:76",
-                "result": "W"
-              },
-              {
-                "date": "18/09",
-                "competition": "Friendly Match",
-                "opponent": "Oostende",
-                "score": "0:0",
-                "result": "D"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 1,
-              "L": 2
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 8,
-      "title": "Valencia – Olympiacos",
-      "dateLabel": "13 October",
-      "timeLabel": "20:00",
-      "isLive": true,
-      "leagueLabel": "Euroleague",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/euroleague.gif",
-      "iconAlt": "Euroleague",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 20:00\n(Euroleague)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268788&w=700&h=480",
-          "language": "French",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.171Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269163&w=700&h=480",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.257Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 3,
-          "label": "Stream 6",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269441&w=700&h=480",
-          "language": "Portuguese",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.257Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 4,
-          "label": "Stream 8",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269012&w=700&h=480",
-          "language": "Azerbaijani",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.327Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 5,
-          "label": "Stream 10",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=209856&w=700&h=480",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.347Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 6,
-          "label": "Stream 12",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=264635&w=700&h=480",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.363Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 7,
-          "label": "Stream 14",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268671&w=700&h=480",
-          "language": "Serbian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.388Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 7,
-      "teams": {
-        "home": {
-          "name": "Valencia",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/4.gif",
-          "startingLineup": [
-            "TJ Shorts II",
-            "Armoni Brooks",
-            "Dylan Osetkowski",
-            "Kameron Taylor",
-            "Neal Sako"
-          ],
-          "substitutes": [
-            "Alvaro Cardenas",
-            "Jasiel Rivero",
-            "Josep Puerto",
-            "Mario Saint-Supery",
-            "Nate Reuvers",
-            "Nikola Mirotic",
-            "Omari Moore"
-          ]
-        },
-        "away": {
-          "name": "Olympiacos",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/336.gif",
-          "startingLineup": [
-            "Codi Miller-McIntyre",
-            "Evan Fournier",
-            "Nikola Milutinov",
-            "Aleksandar Vezenkov",
-            "Tyson Ward"
-          ],
-          "substitutes": [
-            "Cory Joseph",
-            "Donta Hall",
-            "Jean Montero",
-            "Kostas Papanikolaou",
-            "Mbaye N’Diaye",
-            "Tyler Dorsey",
-            "Tyrique Jones"
-          ]
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700000699/700000723/3_ac861/",
-        "matches": [
-          {
-            "date": "24/03",
-            "competition": "Euroleague",
-            "homeTeam": "Valencia",
-            "awayTeam": "Olympiacos",
-            "score": "85:84",
-            "result": "W",
-            "winner": "home"
-          },
-          {
-            "date": "16/12",
-            "competition": "Euroleague",
-            "homeTeam": "Olympiacos",
-            "awayTeam": "Valencia",
-            "score": "92:99",
-            "result": "W",
-            "winner": "away"
-          },
-          {
-            "date": "08/02",
-            "competition": "Euroleague",
-            "homeTeam": "Valencia",
-            "awayTeam": "Olympiacos",
-            "score": "65:78",
-            "result": "L",
-            "winner": "away"
-          }
-        ],
-        "homeTeam": "Valencia",
-        "awayTeam": "Olympiacos",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "11/10",
-                "competition": "ACB League",
-                "opponent": "Barcelona",
-                "score": "86:89",
-                "result": "L"
-              },
-              {
-                "date": "08/10",
-                "competition": "Euroleague",
-                "opponent": "Hapoel T-A",
-                "score": "93:82",
-                "result": "W"
-              },
-              {
-                "date": "04/10",
-                "competition": "ACB League",
-                "opponent": "Zaragoza",
-                "score": "97:82",
-                "result": "W"
-              },
-              {
-                "date": "02/10",
-                "competition": "Euroleague",
-                "opponent": "ASVEL",
-                "score": "105:92",
-                "result": "W"
-              },
-              {
-                "date": "27/09",
-                "competition": "ACB League",
-                "opponent": "Lleida",
-                "score": "100:105",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 3,
-              "D": 0,
-              "L": 2
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "11/10",
-                "competition": "ACB League",
-                "opponent": "Barcelona",
-                "score": "86:89",
-                "result": "L"
-              },
-              {
-                "date": "08/10",
-                "competition": "Euroleague",
-                "opponent": "Valencia",
-                "score": "82:93",
-                "result": "L"
-              },
-              {
-                "date": "04/10",
-                "competition": "ACB League",
-                "opponent": "Zaragoza",
-                "score": "97:82",
-                "result": "W"
-              },
-              {
-                "date": "02/10",
-                "competition": "Euroleague",
-                "opponent": "ASVEL",
-                "score": "105:92",
-                "result": "W"
-              },
-              {
-                "date": "27/09",
-                "competition": "ACB League",
-                "opponent": "Valencia",
-                "score": "105:100",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 3,
-              "D": 0,
-              "L": 2
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 9,
-      "title": "Benfica (W) – Royals Saarlouis (W)",
-      "dateLabel": "13 October",
-      "timeLabel": "21:00",
-      "isLive": true,
-      "leagueLabel": "Women. Eurocup",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/weurocup.gif",
-      "iconAlt": "Women. Eurocup",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 21:00\n(Women. Eurocup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/H72oA_sphQw?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:41:07.408Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
-      "teams": {
-        "home": {
-          "name": "Benfica (W)",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/19301.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Royals Saarlouis (W)",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/19380.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 10,
-      "title": "Paulistano U-20 – Sorocaba U-20",
-      "dateLabel": "13 October",
-      "timeLabel": "21:00",
-      "isLive": true,
-      "leagueLabel": "Brazil. Campeonato Paulista U20",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/basket.gif",
-      "iconAlt": "Brazil. Campeonato Paulista U20",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 21:00\n(Brazil. Campeonato Paulista U20)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Paulistano U-20",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/31131.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Sorocaba U-20",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/30789.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700054568/700059559/3_09405/",
-        "matches": [
-          {
-            "date": "08/10",
-            "competition": "Brazil. Campeonato Paulista U20",
-            "homeTeam": "Sorocaba U-20",
-            "awayTeam": "Paulistano U-20",
-            "score": "0:0",
-            "result": "D",
-            "winner": "draw"
-          },
-          {
-            "date": "24/08",
-            "competition": "Brazil. Campeonato Paulista U20",
-            "homeTeam": "Paulistano U-20",
-            "awayTeam": "Sorocaba U-20",
-            "score": "82:54",
-            "result": "W",
-            "winner": "home"
-          },
-          {
-            "date": "22/04",
-            "competition": "Brazil. Campeonato Paulista U20",
-            "homeTeam": "Sorocaba U-20",
-            "awayTeam": "Paulistano U-20",
-            "score": "57:70",
-            "result": "W",
-            "winner": "away"
-          }
-        ],
-        "homeTeam": "Paulistano U-20",
-        "awayTeam": "Sorocaba U-20",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "08/10",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Sorocaba U-20",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "28/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Limeira U-20",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "26/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Franca U-20",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "24/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Limeira U-20",
-                "score": "58:54",
-                "result": "W"
-              },
-              {
-                "date": "21/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Araraquara U-20",
-                "score": "0:0",
-                "result": "D"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 4,
-              "L": 0
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "08/10",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Paulistano U-20",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "28/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Limeira U-20",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "26/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Franca U-20",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "24/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Limeira U-20",
-                "score": "58:54",
-                "result": "W"
-              },
-              {
-                "date": "21/09",
-                "competition": "Campeonato Paulista U20",
-                "opponent": "Paulistano U-20",
-                "score": "0:0",
-                "result": "D"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 4,
-              "L": 0
-            }
-          }
-        }
-      }
-    },
-    {
-      "id": 11,
       "title": "Colonias Gold – Olimpia Kings",
       "dateLabel": "14 October",
       "timeLabel": "0:00",
@@ -1636,7 +34,7 @@
       "headToHead": null
     },
     {
-      "id": 12,
+      "id": 2,
       "title": "Toronto – New York",
       "dateLabel": "14 October",
       "timeLabel": "0:00",
@@ -1789,7 +187,7 @@
       }
     },
     {
-      "id": 13,
+      "id": 3,
       "title": "Orlando – Cleveland",
       "dateLabel": "14 October",
       "timeLabel": "0:00",
@@ -1942,7 +340,7 @@
       }
     },
     {
-      "id": 14,
+      "id": 4,
       "title": "Oklahoma – Indiana",
       "dateLabel": "14 October",
       "timeLabel": "1:00",
@@ -2095,7 +493,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 5,
       "title": "Piratas – Motilonas Del Norte",
       "dateLabel": "14 October",
       "timeLabel": "2:30",
@@ -2248,7 +646,7 @@
       }
     },
     {
-      "id": 16,
+      "id": 6,
       "title": "Sacramento – Portland",
       "dateLabel": "14 October",
       "timeLabel": "3:00",
@@ -2401,7 +799,7 @@
       }
     },
     {
-      "id": 17,
+      "id": 7,
       "title": "LA Lakers – Golden State",
       "dateLabel": "14 October",
       "timeLabel": "3:00",
@@ -2554,7 +952,7 @@
       }
     },
     {
-      "id": 18,
+      "id": 8,
       "title": "Astana Tigers – Karaganda",
       "dateLabel": "14 October",
       "timeLabel": "8:00",
@@ -2584,7 +982,7 @@
       "headToHead": null
     },
     {
-      "id": 19,
+      "id": 9,
       "title": "Sydney Kings – NZ Breakers",
       "dateLabel": "14 October",
       "timeLabel": "9:30",
@@ -2737,7 +1135,7 @@
       }
     },
     {
-      "id": 20,
+      "id": 10,
       "title": "Bars Petropavlovsk – BQO-ARLANS",
       "dateLabel": "14 October",
       "timeLabel": "10:00",
@@ -2767,7 +1165,7 @@
       "headToHead": null
     },
     {
-      "id": 21,
+      "id": 11,
       "title": "Terrafirma Dyip – San Miguel Beermen",
       "dateLabel": "14 October",
       "timeLabel": "10:15",
@@ -2920,7 +1318,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 12,
       "title": "Nagasaki Velca – Egis",
       "dateLabel": "14 October",
       "timeLabel": "11:10",
@@ -2950,7 +1348,7 @@
       "headToHead": null
     },
     {
-      "id": 23,
+      "id": 13,
       "title": "Road Warriors – Titan Ultra",
       "dateLabel": "14 October",
       "timeLabel": "12:30",
@@ -3103,7 +1501,7 @@
       }
     },
     {
-      "id": 24,
+      "id": 14,
       "title": "Kibirkstis Vilnius (W) – Athinaikos (W)",
       "dateLabel": "14 October",
       "timeLabel": "14:00",
@@ -3133,7 +1531,7 @@
       "headToHead": null
     },
     {
-      "id": 25,
+      "id": 15,
       "title": "CIU Kavkasia – Pully Lausanne Foxes",
       "dateLabel": "14 October",
       "timeLabel": "15:00",
@@ -3163,7 +1561,7 @@
       "headToHead": null
     },
     {
-      "id": 26,
+      "id": 16,
       "title": "Rilski Sportist – Esenler Erokspor",
       "dateLabel": "14 October",
       "timeLabel": "16:00",
@@ -3193,7 +1591,7 @@
       "headToHead": null
     },
     {
-      "id": 27,
+      "id": 17,
       "title": "Aistes Kaunas (W) – RSU Merks (W)",
       "dateLabel": "14 October",
       "timeLabel": "16:00",
@@ -3223,7 +1621,7 @@
       "headToHead": null
     },
     {
-      "id": 28,
+      "id": 18,
       "title": "Samaheej – Al-Hala",
       "dateLabel": "14 October",
       "timeLabel": "16:00",
@@ -3376,7 +1774,7 @@
       }
     },
     {
-      "id": 29,
+      "id": 19,
       "title": "Siauliai – Cluj-Napoca",
       "dateLabel": "14 October",
       "timeLabel": "16:30",
@@ -3406,7 +1804,7 @@
       "headToHead": null
     },
     {
-      "id": 30,
+      "id": 20,
       "title": "Crvena Zvezda (W) – Kangoeroes Mechelen (W)",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -3436,7 +1834,7 @@
       "headToHead": null
     },
     {
-      "id": 31,
+      "id": 21,
       "title": "Hapoel T-A – Besiktas",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -3589,7 +1987,7 @@
       }
     },
     {
-      "id": 32,
+      "id": 22,
       "title": "Neftchi – VEF Riga",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -3619,7 +2017,7 @@
       "headToHead": null
     },
     {
-      "id": 33,
+      "id": 23,
       "title": "Lokomotiv Plovdiv – Oradea",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -3649,7 +2047,7 @@
       "headToHead": null
     },
     {
-      "id": 34,
+      "id": 24,
       "title": "Promitheas – Trier Gladiators",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -3679,7 +2077,7 @@
       "headToHead": null
     },
     {
-      "id": 35,
+      "id": 25,
       "title": "Valmiera Glass – Kalev",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -3832,7 +2230,7 @@
       }
     },
     {
-      "id": 36,
+      "id": 26,
       "title": "Batumi – Opava",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -3862,7 +2260,7 @@
       "headToHead": null
     },
     {
-      "id": 37,
+      "id": 27,
       "title": "Nitra Blue Wings – Keravnos",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -3892,7 +2290,7 @@
       "headToHead": null
     },
     {
-      "id": 38,
+      "id": 28,
       "title": "Craiova – Sporting",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -3922,7 +2320,7 @@
       "headToHead": null
     },
     {
-      "id": 39,
+      "id": 29,
       "title": "Spartak Pleven – Alkar",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -3952,7 +2350,7 @@
       "headToHead": null
     },
     {
-      "id": 40,
+      "id": 30,
       "title": "Trabzonspor – Sabah",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -3982,7 +2380,7 @@
       "headToHead": null
     },
     {
-      "id": 41,
+      "id": 31,
       "title": "Krka – Helios Domzale",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -4135,7 +2533,7 @@
       }
     },
     {
-      "id": 42,
+      "id": 32,
       "title": "Emlak Konut (W) – UMCS Lublin (W)",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -4165,7 +2563,7 @@
       "headToHead": null
     },
     {
-      "id": 43,
+      "id": 33,
       "title": "Rigas Zelli – Cedevita Olimpija",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -4195,7 +2593,7 @@
       "headToHead": null
     },
     {
-      "id": 44,
+      "id": 34,
       "title": "Korfez – Elan Chalon",
       "dateLabel": "14 October",
       "timeLabel": "17:30",
@@ -4225,7 +2623,7 @@
       "headToHead": null
     },
     {
-      "id": 45,
+      "id": 35,
       "title": "Iraklis – Wuerzburg",
       "dateLabel": "14 October",
       "timeLabel": "17:30",
@@ -4255,7 +2653,7 @@
       "headToHead": null
     },
     {
-      "id": 46,
+      "id": 36,
       "title": "Zielona Gora – Patrioti Levice",
       "dateLabel": "14 October",
       "timeLabel": "17:30",
@@ -4285,7 +2683,7 @@
       "headToHead": null
     },
     {
-      "id": 47,
+      "id": 37,
       "title": "Ulm – AS Monaco",
       "dateLabel": "14 October",
       "timeLabel": "17:30",
@@ -4315,7 +2713,7 @@
       "headToHead": null
     },
     {
-      "id": 48,
+      "id": 38,
       "title": "Flammes Carolo (W) – Rapid Bucuresti (W)",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4345,7 +2743,7 @@
       "headToHead": null
     },
     {
-      "id": 49,
+      "id": 39,
       "title": "Dziki Warszawa – AEK Larnaca",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4375,7 +2773,7 @@
       "headToHead": null
     },
     {
-      "id": 50,
+      "id": 40,
       "title": "MZT Skopje – Tartu Ulikool",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4405,7 +2803,7 @@
       "headToHead": null
     },
     {
-      "id": 51,
+      "id": 41,
       "title": "Split – Trepca Mitrovica",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4435,7 +2833,7 @@
       "headToHead": null
     },
     {
-      "id": 52,
+      "id": 42,
       "title": "Bamberg – Murcia",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4465,7 +2863,7 @@
       "headToHead": null
     },
     {
-      "id": 53,
+      "id": 43,
       "title": "Trutnov (W) – Levharti Chomutov (W)",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4495,7 +2893,7 @@
       "headToHead": null
     },
     {
-      "id": 54,
+      "id": 44,
       "title": "Al Muharraq – Sitra",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4648,7 +3046,7 @@
       }
     },
     {
-      "id": 55,
+      "id": 45,
       "title": "USK Praha (W) – Bourges (W)",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4678,7 +3076,7 @@
       "headToHead": null
     },
     {
-      "id": 56,
+      "id": 46,
       "title": "Zaragoza (W) – Landes (W)",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4708,7 +3106,7 @@
       "headToHead": null
     },
     {
-      "id": 57,
+      "id": 47,
       "title": "Grobina – Saldus",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4861,7 +3259,7 @@
       }
     },
     {
-      "id": 58,
+      "id": 48,
       "title": "Aris – Derthona",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4891,7 +3289,7 @@
       "headToHead": null
     },
     {
-      "id": 59,
+      "id": 49,
       "title": "Tofas – Buducnost",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4921,7 +3319,7 @@
       "headToHead": null
     },
     {
-      "id": 60,
+      "id": 50,
       "title": "Slask Wroclaw – Napoli",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -4951,7 +3349,7 @@
       "headToHead": null
     },
     {
-      "id": 61,
+      "id": 51,
       "title": "Anadolu Efes – Bayern Munich",
       "dateLabel": "14 October",
       "timeLabel": "18:30",
@@ -5104,7 +3502,7 @@
       }
     },
     {
-      "id": 62,
+      "id": 52,
       "title": "Skrljevo – Cibona",
       "dateLabel": "14 October",
       "timeLabel": "18:30",
@@ -5257,7 +3655,7 @@
       }
     },
     {
-      "id": 63,
+      "id": 53,
       "title": "Siauliai (W) – Rokiskis (W)",
       "dateLabel": "14 October",
       "timeLabel": "18:30",
@@ -5287,7 +3685,7 @@
       "headToHead": null
     },
     {
-      "id": 64,
+      "id": 54,
       "title": "Cholet – Rasta Vechta",
       "dateLabel": "14 October",
       "timeLabel": "19:00",
@@ -5317,7 +3715,7 @@
       "headToHead": null
     },
     {
-      "id": 65,
+      "id": 55,
       "title": "Bilbao – Slavia Prague",
       "dateLabel": "14 October",
       "timeLabel": "19:00",
@@ -5452,7 +3850,7 @@
       }
     },
     {
-      "id": 66,
+      "id": 56,
       "title": "Spartak Subotica – Hapoel Holon",
       "dateLabel": "14 October",
       "timeLabel": "19:00",
@@ -5482,7 +3880,7 @@
       "headToHead": null
     },
     {
-      "id": 67,
+      "id": 57,
       "title": "Valencia (W) – Fenerbahce (W)",
       "dateLabel": "14 October",
       "timeLabel": "19:00",
@@ -5512,7 +3910,7 @@
       "headToHead": null
     },
     {
-      "id": 68,
+      "id": 58,
       "title": "Le Mans – Rostock",
       "dateLabel": "14 October",
       "timeLabel": "19:00",
@@ -5542,7 +3940,7 @@
       "headToHead": null
     },
     {
-      "id": 69,
+      "id": 59,
       "title": "Triglav (W) – Jezica (W)",
       "dateLabel": "14 October",
       "timeLabel": "19:30",
@@ -5572,7 +3970,7 @@
       "headToHead": null
     },
     {
-      "id": 70,
+      "id": 60,
       "title": "Lions de Geneve – Bakken Bears",
       "dateLabel": "14 October",
       "timeLabel": "19:30",
@@ -5602,7 +4000,7 @@
       "headToHead": null
     },
     {
-      "id": 71,
+      "id": 61,
       "title": "Goldcoast Wallabies – Swiss Central Basket",
       "dateLabel": "14 October",
       "timeLabel": "19:30",
@@ -5746,7 +4144,7 @@
       }
     },
     {
-      "id": 72,
+      "id": 62,
       "title": "Zlatorog – Ilirija",
       "dateLabel": "14 October",
       "timeLabel": "19:30",
@@ -5899,7 +4297,7 @@
       }
     },
     {
-      "id": 73,
+      "id": 63,
       "title": "SP Burgos – Hapoel Jerusalem",
       "dateLabel": "14 October",
       "timeLabel": "19:30",
@@ -5929,7 +4327,7 @@
       "headToHead": null
     },
     {
-      "id": 74,
+      "id": 64,
       "title": "Paris – Virtus Bologna",
       "dateLabel": "14 October",
       "timeLabel": "19:45",
@@ -6082,7 +4480,7 @@
       }
     },
     {
-      "id": 75,
+      "id": 65,
       "title": "Domel Skofja Loka (W) – ilirija (W)",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -6112,7 +4510,7 @@
       "headToHead": null
     },
     {
-      "id": 76,
+      "id": 66,
       "title": "Benfica – Denizli",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -6142,7 +4540,7 @@
       "headToHead": null
     },
     {
-      "id": 77,
+      "id": 67,
       "title": "Venezia – Turk Telekom",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -6286,7 +4684,7 @@
       }
     },
     {
-      "id": 78,
+      "id": 68,
       "title": "Tenerife – Maxima Roma",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -6314,7 +4712,2902 @@
         }
       },
       "headToHead": null
+    },
+    {
+      "id": 69,
+      "title": "Miami – Brooklyn Nets",
+      "dateLabel": "15 October",
+      "timeLabel": "0:30",
+      "isLive": false,
+      "leagueLabel": "NBA. Preseason",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/nba.gif",
+      "iconAlt": "NBA. Preseason",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 0:30\n(NBA. Preseason)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Miami",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/211.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Brooklyn Nets",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/34407.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000660/700000654/3_cc25c/",
+        "matches": [
+          {
+            "date": "06/03",
+            "competition": "NBA",
+            "homeTeam": "Miami",
+            "awayTeam": "Brooklyn Nets",
+            "score": "126:110",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "04/03",
+            "competition": "NBA",
+            "homeTeam": "Miami",
+            "awayTeam": "Brooklyn Nets",
+            "score": "124:98",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "19/12",
+            "competition": "NBA",
+            "homeTeam": "Brooklyn Nets",
+            "awayTeam": "Miami",
+            "score": "95:106",
+            "result": "W",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Miami",
+        "awayTeam": "Brooklyn Nets",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "11/10",
+                "competition": "Preseason",
+                "opponent": "Minnesota",
+                "score": "124:125",
+                "result": "L"
+              },
+              {
+                "date": "09/10",
+                "competition": "Preseason",
+                "opponent": "New Orleans",
+                "score": "128:118",
+                "result": "W"
+              },
+              {
+                "date": "04/10",
+                "competition": "Preseason",
+                "opponent": "Toronto",
+                "score": "129:105",
+                "result": "W"
+              },
+              {
+                "date": "18/07",
+                "competition": "NBA Summer League",
+                "opponent": "Detroit",
+                "score": "101:87",
+                "result": "W"
+              },
+              {
+                "date": "17/07",
+                "competition": "NBA Summer League",
+                "opponent": "Toronto",
+                "score": "90:99",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "11/10",
+                "competition": "Preseason",
+                "opponent": "Miami",
+                "score": "125:124",
+                "result": "W"
+              },
+              {
+                "date": "09/10",
+                "competition": "Preseason",
+                "opponent": "Miami",
+                "score": "118:128",
+                "result": "L"
+              },
+              {
+                "date": "04/10",
+                "competition": "Preseason",
+                "opponent": "Toronto",
+                "score": "129:105",
+                "result": "W"
+              },
+              {
+                "date": "18/07",
+                "competition": "NBA Summer League",
+                "opponent": "Miami",
+                "score": "87:101",
+                "result": "L"
+              },
+              {
+                "date": "17/07",
+                "competition": "NBA Summer League",
+                "opponent": "Miami",
+                "score": "99:90",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 70,
+      "title": "Boston – Charlotte",
+      "dateLabel": "15 October",
+      "timeLabel": "0:30",
+      "isLive": false,
+      "leagueLabel": "NBA. Preseason",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/nba.gif",
+      "iconAlt": "NBA. Preseason",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 0:30\n(NBA. Preseason)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Boston",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/213.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Charlotte",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/198.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000653/700000655/3_63f0d/",
+        "matches": [
+          {
+            "date": "12/07",
+            "competition": "NBA Summer League",
+            "homeTeam": "Boston",
+            "awayTeam": "Charlotte",
+            "score": "87:75",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "08/04",
+            "competition": "NBA",
+            "homeTeam": "Boston",
+            "awayTeam": "Charlotte",
+            "score": "113:102",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "29/03",
+            "competition": "NBA",
+            "homeTeam": "Charlotte",
+            "awayTeam": "Boston",
+            "score": "99:114",
+            "result": "W",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Boston",
+        "awayTeam": "Charlotte",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "11/10",
+                "competition": "Preseason",
+                "opponent": "Philadelphia",
+                "score": "144:106",
+                "result": "W"
+              },
+              {
+                "date": "09/10",
+                "competition": "Preseason",
+                "opponent": "Cleveland",
+                "score": "124:113",
+                "result": "W"
+              },
+              {
+                "date": "18/07",
+                "competition": "NBA Summer League",
+                "opponent": "Orlando",
+                "score": "97:103",
+                "result": "L"
+              },
+              {
+                "date": "16/07",
+                "competition": "NBA Summer League",
+                "opponent": "Sacramento",
+                "score": "82:76",
+                "result": "W"
+              },
+              {
+                "date": "13/07",
+                "competition": "NBA Summer League",
+                "opponent": "Atlanta",
+                "score": "90:102",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "11/10",
+                "competition": "Preseason",
+                "opponent": "Boston",
+                "score": "106:144",
+                "result": "L"
+              },
+              {
+                "date": "09/10",
+                "competition": "Preseason",
+                "opponent": "Cleveland",
+                "score": "124:113",
+                "result": "W"
+              },
+              {
+                "date": "18/07",
+                "competition": "NBA Summer League",
+                "opponent": "Orlando",
+                "score": "97:103",
+                "result": "L"
+              },
+              {
+                "date": "16/07",
+                "competition": "NBA Summer League",
+                "opponent": "Sacramento",
+                "score": "82:76",
+                "result": "W"
+              },
+              {
+                "date": "13/07",
+                "competition": "NBA Summer League",
+                "opponent": "Boston",
+                "score": "102:90",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 71,
+      "title": "Minnesota – Detroit",
+      "dateLabel": "15 October",
+      "timeLabel": "1:00",
+      "isLive": false,
+      "leagueLabel": "NBA. Preseason",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/nba.gif",
+      "iconAlt": "NBA. Preseason",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 1:00\n(NBA. Preseason)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Minnesota",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/181.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Detroit",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/172.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000674/700000658/3_66869/",
+        "matches": [
+          {
+            "date": "03/04",
+            "competition": "NBA",
+            "homeTeam": "Detroit",
+            "awayTeam": "Minnesota",
+            "score": "113:108",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "28/03",
+            "competition": "NBA",
+            "homeTeam": "Minnesota",
+            "awayTeam": "Detroit",
+            "score": "87:109",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "15/07",
+            "competition": "NBA Summer League",
+            "homeTeam": "Detroit",
+            "awayTeam": "Minnesota",
+            "score": "73:89",
+            "result": "W",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Minnesota",
+        "awayTeam": "Detroit",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "13/10",
+                "competition": "Preseason",
+                "opponent": "New York",
+                "score": "122:104",
+                "result": "W"
+              },
+              {
+                "date": "11/10",
+                "competition": "Preseason",
+                "opponent": "Miami",
+                "score": "125:124",
+                "result": "W"
+              },
+              {
+                "date": "08/10",
+                "competition": "Preseason",
+                "opponent": "Indiana",
+                "score": "112:123",
+                "result": "L"
+              },
+              {
+                "date": "06/10",
+                "competition": "Preseason",
+                "opponent": "Milwaukee",
+                "score": "116:97",
+                "result": "W"
+              },
+              {
+                "date": "18/07",
+                "competition": "NBA Summer League",
+                "opponent": "LA Clippers",
+                "score": "120:128",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "13/10",
+                "competition": "Preseason",
+                "opponent": "New York",
+                "score": "122:104",
+                "result": "W"
+              },
+              {
+                "date": "11/10",
+                "competition": "Preseason",
+                "opponent": "Miami",
+                "score": "125:124",
+                "result": "W"
+              },
+              {
+                "date": "08/10",
+                "competition": "Preseason",
+                "opponent": "Indiana",
+                "score": "112:123",
+                "result": "L"
+              },
+              {
+                "date": "06/10",
+                "competition": "Preseason",
+                "opponent": "Milwaukee",
+                "score": "116:97",
+                "result": "W"
+              },
+              {
+                "date": "18/07",
+                "competition": "NBA Summer League",
+                "opponent": "LA Clippers",
+                "score": "120:128",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 72,
+      "title": "Milwaukee – Chicago",
+      "dateLabel": "15 October",
+      "timeLabel": "1:00",
+      "isLive": false,
+      "leagueLabel": "NBA. Preseason",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/nba.gif",
+      "iconAlt": "NBA. Preseason",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 1:00\n(NBA. Preseason)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Milwaukee",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/34405.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Chicago",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/512.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000661/700000656/3_d7cc7/",
+        "matches": [
+          {
+            "date": "01/03",
+            "competition": "NBA",
+            "homeTeam": "Chicago",
+            "awayTeam": "Milwaukee",
+            "score": "120:97",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "04/02",
+            "competition": "NBA",
+            "homeTeam": "Milwaukee",
+            "awayTeam": "Chicago",
+            "score": "131:115",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "28/12",
+            "competition": "NBA",
+            "homeTeam": "Chicago",
+            "awayTeam": "Milwaukee",
+            "score": "103:112",
+            "result": "W",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Milwaukee",
+        "awayTeam": "Chicago",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "12/10",
+                "competition": "Preseason",
+                "opponent": "Charlotte",
+                "score": "90:105",
+                "result": "L"
+              },
+              {
+                "date": "08/10",
+                "competition": "Preseason",
+                "opponent": "Oklahoma",
+                "score": "128:126",
+                "result": "W"
+              },
+              {
+                "date": "06/10",
+                "competition": "Preseason",
+                "opponent": "Minnesota",
+                "score": "97:116",
+                "result": "L"
+              },
+              {
+                "date": "18/07",
+                "competition": "NBA Summer League",
+                "opponent": "Philadelphia",
+                "score": "96:94",
+                "result": "W"
+              },
+              {
+                "date": "16/07",
+                "competition": "NBA Summer League",
+                "opponent": "Charlotte",
+                "score": "110:91",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "12/10",
+                "competition": "Preseason",
+                "opponent": "Charlotte",
+                "score": "90:105",
+                "result": "L"
+              },
+              {
+                "date": "08/10",
+                "competition": "Preseason",
+                "opponent": "Oklahoma",
+                "score": "128:126",
+                "result": "W"
+              },
+              {
+                "date": "06/10",
+                "competition": "Preseason",
+                "opponent": "Milwaukee",
+                "score": "116:97",
+                "result": "W"
+              },
+              {
+                "date": "18/07",
+                "competition": "NBA Summer League",
+                "opponent": "Milwaukee",
+                "score": "94:96",
+                "result": "L"
+              },
+              {
+                "date": "16/07",
+                "competition": "NBA Summer League",
+                "opponent": "Charlotte",
+                "score": "110:91",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 73,
+      "title": "Dallas – New Orleans",
+      "dateLabel": "15 October",
+      "timeLabel": "1:00",
+      "isLive": false,
+      "leagueLabel": "NBA. Preseason",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/nba.gif",
+      "iconAlt": "NBA. Preseason",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 1:00\n(NBA. Preseason)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Dallas",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/34411.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "New Orleans",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/34413.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000667/700000675/3_55aee/",
+        "matches": [
+          {
+            "date": "17/03",
+            "competition": "NBA",
+            "homeTeam": "New Orleans",
+            "awayTeam": "Dallas",
+            "score": "129:111",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "23/12",
+            "competition": "NBA",
+            "homeTeam": "New Orleans",
+            "awayTeam": "Dallas",
+            "score": "119:113",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "22/11",
+            "competition": "NBA",
+            "homeTeam": "Dallas",
+            "awayTeam": "New Orleans",
+            "score": "118:115",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Dallas",
+        "awayTeam": "New Orleans",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "11/10",
+                "competition": "Preseason",
+                "opponent": "Houston",
+                "score": "132:115",
+                "result": "W"
+              },
+              {
+                "date": "09/10",
+                "competition": "Preseason",
+                "opponent": "Houston",
+                "score": "117:135",
+                "result": "L"
+              },
+              {
+                "date": "18/07",
+                "competition": "NBA Summer League",
+                "opponent": "New York",
+                "score": "110:88",
+                "result": "W"
+              },
+              {
+                "date": "16/07",
+                "competition": "NBA Summer League",
+                "opponent": "Oklahoma",
+                "score": "97:87",
+                "result": "W"
+              },
+              {
+                "date": "14/07",
+                "competition": "NBA Summer League",
+                "opponent": "Memphis",
+                "score": "96:88",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 4,
+              "D": 0,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "11/10",
+                "competition": "Preseason",
+                "opponent": "Houston",
+                "score": "132:115",
+                "result": "W"
+              },
+              {
+                "date": "09/10",
+                "competition": "Preseason",
+                "opponent": "Dallas",
+                "score": "135:117",
+                "result": "W"
+              },
+              {
+                "date": "18/07",
+                "competition": "NBA Summer League",
+                "opponent": "New York",
+                "score": "110:88",
+                "result": "W"
+              },
+              {
+                "date": "16/07",
+                "competition": "NBA Summer League",
+                "opponent": "Oklahoma",
+                "score": "97:87",
+                "result": "W"
+              },
+              {
+                "date": "14/07",
+                "competition": "NBA Summer League",
+                "opponent": "Memphis",
+                "score": "96:88",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 5,
+              "D": 0,
+              "L": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 74,
+      "title": "San Antonio – Phoenix",
+      "dateLabel": "15 October",
+      "timeLabel": "1:00",
+      "isLive": false,
+      "leagueLabel": "NBA. Preseason",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/nba.gif",
+      "iconAlt": "NBA. Preseason",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 1:00\n(NBA. Preseason)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "San Antonio",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/194.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Phoenix",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/34412.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000680/700000677/3_03106/",
+        "matches": [
+          {
+            "date": "11/10",
+            "competition": "NBA. Preseason",
+            "homeTeam": "Phoenix",
+            "awayTeam": "San Antonio",
+            "score": "102:98",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "19/07",
+            "competition": "NBA Summer League",
+            "homeTeam": "Phoenix",
+            "awayTeam": "San Antonio",
+            "score": "81:86",
+            "result": "W",
+            "winner": "away"
+          },
+          {
+            "date": "20/03",
+            "competition": "NBA",
+            "homeTeam": "San Antonio",
+            "awayTeam": "Phoenix",
+            "score": "101:100",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "San Antonio",
+        "awayTeam": "Phoenix",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "13/10",
+                "competition": "Preseason",
+                "opponent": "Utah",
+                "score": "109:119",
+                "result": "L"
+              },
+              {
+                "date": "11/10",
+                "competition": "Preseason",
+                "opponent": "Phoenix",
+                "score": "98:102",
+                "result": "L"
+              },
+              {
+                "date": "09/10",
+                "competition": "Preseason",
+                "opponent": "Atlanta",
+                "score": "116:123",
+                "result": "L"
+              },
+              {
+                "date": "19/07",
+                "competition": "NBA Summer League",
+                "opponent": "Phoenix",
+                "score": "86:81",
+                "result": "W"
+              },
+              {
+                "date": "16/07",
+                "competition": "NBA Summer League",
+                "opponent": "Utah",
+                "score": "94:82",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "13/10",
+                "competition": "Preseason",
+                "opponent": "Utah",
+                "score": "109:119",
+                "result": "L"
+              },
+              {
+                "date": "11/10",
+                "competition": "Preseason",
+                "opponent": "San Antonio",
+                "score": "102:98",
+                "result": "W"
+              },
+              {
+                "date": "09/10",
+                "competition": "Preseason",
+                "opponent": "San Antonio",
+                "score": "123:116",
+                "result": "W"
+              },
+              {
+                "date": "19/07",
+                "competition": "NBA Summer League",
+                "opponent": "San Antonio",
+                "score": "81:86",
+                "result": "L"
+              },
+              {
+                "date": "16/07",
+                "competition": "NBA Summer League",
+                "opponent": "San Antonio",
+                "score": "82:94",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 75,
+      "title": "LA Clippers – Denver",
+      "dateLabel": "15 October",
+      "timeLabel": "3:30",
+      "isLive": false,
+      "leagueLabel": "NBA. Preseason",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/nba.gif",
+      "iconAlt": "NBA. Preseason",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 3:30\n(NBA. Preseason)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "LA Clippers",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/34402.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Denver",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/208.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000671/700000668/3_c806f/",
+        "matches": [
+          {
+            "date": "20/02",
+            "competition": "NBA",
+            "homeTeam": "LA Clippers",
+            "awayTeam": "Denver",
+            "score": "115:114",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "13/11",
+            "competition": "NBA",
+            "homeTeam": "LA Clippers",
+            "awayTeam": "Denver",
+            "score": "116:130",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "13/10",
+            "competition": "NBA. Preseason",
+            "homeTeam": "LA Clippers",
+            "awayTeam": "Denver",
+            "score": "94:102",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "LA Clippers",
+        "awayTeam": "Denver",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "Preseason",
+                "opponent": "Toronto",
+                "score": "106:114",
+                "result": "L"
+              },
+              {
+                "date": "05/10",
+                "competition": "Preseason",
+                "opponent": "Golden State",
+                "score": "104:101",
+                "result": "W"
+              },
+              {
+                "date": "18/07",
+                "competition": "NBA Summer League",
+                "opponent": "Minnesota",
+                "score": "128:120",
+                "result": "W"
+              },
+              {
+                "date": "16/07",
+                "competition": "NBA Summer League",
+                "opponent": "Washington",
+                "score": "108:94",
+                "result": "W"
+              },
+              {
+                "date": "15/07",
+                "competition": "NBA Summer League",
+                "opponent": "LA Lakers",
+                "score": "85:99",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "Preseason",
+                "opponent": "Toronto",
+                "score": "106:114",
+                "result": "L"
+              },
+              {
+                "date": "05/10",
+                "competition": "Preseason",
+                "opponent": "LA Clippers",
+                "score": "101:104",
+                "result": "L"
+              },
+              {
+                "date": "18/07",
+                "competition": "NBA Summer League",
+                "opponent": "LA Clippers",
+                "score": "120:128",
+                "result": "L"
+              },
+              {
+                "date": "16/07",
+                "competition": "NBA Summer League",
+                "opponent": "LA Clippers",
+                "score": "94:108",
+                "result": "L"
+              },
+              {
+                "date": "15/07",
+                "competition": "NBA Summer League",
+                "opponent": "LA Lakers",
+                "score": "85:99",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 0,
+              "L": 5
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 76,
+      "title": "Brisbane Bullets – SE Melbourne Phoenix",
+      "dateLabel": "15 October",
+      "timeLabel": "9:30",
+      "isLive": false,
+      "leagueLabel": "Australia. NBL",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/nbl.gif",
+      "iconAlt": "Australia. NBL",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 9:30\n(Australia. NBL)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Brisbane Bullets",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/1807.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "SE Melbourne Phoenix",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/2511.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700009874/700009880/3_c4391/",
+        "matches": [
+          {
+            "date": "05/09",
+            "competition": "Australia. NBL. Preseason",
+            "homeTeam": "SE Melbourne Phoenix",
+            "awayTeam": "Brisbane Bullets",
+            "score": "113:105",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "20/12",
+            "competition": "Australia. NBL",
+            "homeTeam": "SE Melbourne Phoenix",
+            "awayTeam": "Brisbane Bullets",
+            "score": "107:78",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "20/11",
+            "competition": "Australia. NBL",
+            "homeTeam": "Brisbane Bullets",
+            "awayTeam": "SE Melbourne Phoenix",
+            "score": "76:103",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Brisbane Bullets",
+        "awayTeam": "SE Melbourne Phoenix",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "08/10",
+                "competition": "NBL",
+                "opponent": "Cairns Taipans",
+                "score": "91:97",
+                "result": "L"
+              },
+              {
+                "date": "03/10",
+                "competition": "NBL",
+                "opponent": "Tasmania JackJumpers",
+                "score": "99:109",
+                "result": "L"
+              },
+              {
+                "date": "25/09",
+                "competition": "NBL",
+                "opponent": "The Hawks",
+                "score": "103:95",
+                "result": "W"
+              },
+              {
+                "date": "22/09",
+                "competition": "NBL",
+                "opponent": "NZ Breakers",
+                "score": "88:85",
+                "result": "W"
+              },
+              {
+                "date": "12/09",
+                "competition": "Friendly Match",
+                "opponent": "Cairns Taipans",
+                "score": "98:129",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "08/10",
+                "competition": "NBL",
+                "opponent": "Cairns Taipans",
+                "score": "91:97",
+                "result": "L"
+              },
+              {
+                "date": "03/10",
+                "competition": "NBL",
+                "opponent": "Brisbane Bullets",
+                "score": "109:99",
+                "result": "W"
+              },
+              {
+                "date": "25/09",
+                "competition": "NBL",
+                "opponent": "Brisbane Bullets",
+                "score": "95:103",
+                "result": "L"
+              },
+              {
+                "date": "22/09",
+                "competition": "NBL",
+                "opponent": "Brisbane Bullets",
+                "score": "85:88",
+                "result": "L"
+              },
+              {
+                "date": "12/09",
+                "competition": "Friendly Match",
+                "opponent": "Brisbane Bullets",
+                "score": "129:98",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 77,
+      "title": "Studio Zagreb (W) – Rilski Sportist (W)",
+      "dateLabel": "15 October",
+      "timeLabel": "15:15",
+      "isLive": false,
+      "leagueLabel": "Women. Adriatic League",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/basket.gif",
+      "iconAlt": "Women. Adriatic League",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 15:15\n(Women. Adriatic League)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Studio Zagreb (W)",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Rilski Sportist (W)",
+          "logoUrl": null,
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 78,
+      "title": "Vilkaviskio Perlas – Silute",
+      "dateLabel": "15 October",
+      "timeLabel": "16:00",
+      "isLive": false,
+      "leagueLabel": "Lithuania. NKL",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/basket.gif",
+      "iconAlt": "Lithuania. NKL",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 16:00\n(Lithuania. NKL)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Vilkaviskio Perlas",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/18345.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Silute",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/11250.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700026137/700025832/3_c3d02/",
+        "matches": [
+          {
+            "date": "04/04",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Vilkaviskio Perlas",
+            "awayTeam": "Silute",
+            "score": "99:86",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "31/03",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Silute",
+            "awayTeam": "Vilkaviskio Perlas",
+            "score": "95:100",
+            "result": "W",
+            "winner": "away"
+          },
+          {
+            "date": "27/03",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Vilkaviskio Perlas",
+            "awayTeam": "Silute",
+            "score": "88:82",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Vilkaviskio Perlas",
+        "awayTeam": "Silute",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "08/10",
+                "competition": "NKL",
+                "opponent": "Kauno Atletas",
+                "score": "84:76",
+                "result": "W"
+              },
+              {
+                "date": "03/10",
+                "competition": "NKL",
+                "opponent": "Kretinga",
+                "score": "84:65",
+                "result": "W"
+              },
+              {
+                "date": "01/10",
+                "competition": "NKL",
+                "opponent": "Zalgiris 2",
+                "score": "104:107",
+                "result": "L"
+              },
+              {
+                "date": "28/04",
+                "competition": "NKL",
+                "opponent": "Vytis",
+                "score": "75:86",
+                "result": "L"
+              },
+              {
+                "date": "25/04",
+                "competition": "NKL",
+                "opponent": "Vytis",
+                "score": "78:87",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "08/10",
+                "competition": "NKL",
+                "opponent": "Kauno Atletas",
+                "score": "84:76",
+                "result": "W"
+              },
+              {
+                "date": "03/10",
+                "competition": "NKL",
+                "opponent": "Vilkaviskio Perlas",
+                "score": "65:84",
+                "result": "L"
+              },
+              {
+                "date": "01/10",
+                "competition": "NKL",
+                "opponent": "Zalgiris 2",
+                "score": "104:107",
+                "result": "L"
+              },
+              {
+                "date": "28/04",
+                "competition": "NKL",
+                "opponent": "Vytis",
+                "score": "75:86",
+                "result": "L"
+              },
+              {
+                "date": "25/04",
+                "competition": "NKL",
+                "opponent": "Vilkaviskio Perlas",
+                "score": "87:78",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 79,
+      "title": "Neptunas-Akvaservis – Telsiai",
+      "dateLabel": "15 October",
+      "timeLabel": "16:00",
+      "isLive": false,
+      "leagueLabel": "Lithuania. NKL",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/basket.gif",
+      "iconAlt": "Lithuania. NKL",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 16:00\n(Lithuania. NKL)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Neptunas-Akvaservis",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/36939.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Telsiai",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/11252.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700028123/700025838/3_141b8/",
+        "matches": [
+          {
+            "date": "25/03",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Telsiai",
+            "awayTeam": "Neptunas-Akvaservis",
+            "score": "66:93",
+            "result": "W",
+            "winner": "away"
+          },
+          {
+            "date": "23/03",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Neptunas-Akvaservis",
+            "awayTeam": "Telsiai",
+            "score": "78:53",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "20/03",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Telsiai",
+            "awayTeam": "Neptunas-Akvaservis",
+            "score": "67:61",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Neptunas-Akvaservis",
+        "awayTeam": "Telsiai",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "NKL",
+                "opponent": "Silute",
+                "score": "73:70",
+                "result": "W"
+              },
+              {
+                "date": "06/10",
+                "competition": "NKL",
+                "opponent": "Vytis",
+                "score": "84:88",
+                "result": "L"
+              },
+              {
+                "date": "03/10",
+                "competition": "NKL",
+                "opponent": "Omega-Tauras",
+                "score": "72:76",
+                "result": "L"
+              },
+              {
+                "date": "01/10",
+                "competition": "NKL",
+                "opponent": "Kretinga",
+                "score": "91:76",
+                "result": "W"
+              },
+              {
+                "date": "09/05",
+                "competition": "NKL",
+                "opponent": "Suduva-Mantinga",
+                "score": "68:76",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "NKL",
+                "opponent": "Neptunas-Akvaservis",
+                "score": "70:73",
+                "result": "L"
+              },
+              {
+                "date": "06/10",
+                "competition": "NKL",
+                "opponent": "Vytis",
+                "score": "84:88",
+                "result": "L"
+              },
+              {
+                "date": "03/10",
+                "competition": "NKL",
+                "opponent": "Neptunas-Akvaservis",
+                "score": "76:72",
+                "result": "W"
+              },
+              {
+                "date": "01/10",
+                "competition": "NKL",
+                "opponent": "Kretinga",
+                "score": "91:76",
+                "result": "W"
+              },
+              {
+                "date": "09/05",
+                "competition": "NKL",
+                "opponent": "Suduva-Mantinga",
+                "score": "68:76",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 80,
+      "title": "Palangos Olimpas – Olimpas",
+      "dateLabel": "15 October",
+      "timeLabel": "17:00",
+      "isLive": false,
+      "leagueLabel": "Lithuania. NKL",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/basket.gif",
+      "iconAlt": "Lithuania. NKL",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 17:00\n(Lithuania. NKL)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Palangos Olimpas",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/31917.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Olimpas",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/36693.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700026165/700062899/3_559c6/",
+        "matches": [
+          {
+            "date": "12/03",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Palangos Olimpas",
+            "awayTeam": "Olimpas",
+            "score": "72:79",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "13/12",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Palangos Olimpas",
+            "awayTeam": "Olimpas",
+            "score": "80:75",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "11/10",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Olimpas",
+            "awayTeam": "Palangos Olimpas",
+            "score": "104:76",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Palangos Olimpas",
+        "awayTeam": "Olimpas",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "NKL",
+                "opponent": "Vilniaus Rytas 2",
+                "score": "103:81",
+                "result": "W"
+              },
+              {
+                "date": "08/10",
+                "competition": "NKL",
+                "opponent": "Jurbarkas-Karys",
+                "score": "78:88",
+                "result": "L"
+              },
+              {
+                "date": "03/10",
+                "competition": "NKL",
+                "opponent": "Kedainiu",
+                "score": "94:75",
+                "result": "W"
+              },
+              {
+                "date": "01/10",
+                "competition": "NKL",
+                "opponent": "Mazeikiai",
+                "score": "86:70",
+                "result": "W"
+              },
+              {
+                "date": "14/03",
+                "competition": "NKL",
+                "opponent": "Jurbarkas-Karys",
+                "score": "85:90",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "NKL",
+                "opponent": "Vilniaus Rytas 2",
+                "score": "103:81",
+                "result": "W"
+              },
+              {
+                "date": "08/10",
+                "competition": "NKL",
+                "opponent": "Jurbarkas-Karys",
+                "score": "78:88",
+                "result": "L"
+              },
+              {
+                "date": "03/10",
+                "competition": "NKL",
+                "opponent": "Kedainiu",
+                "score": "94:75",
+                "result": "W"
+              },
+              {
+                "date": "01/10",
+                "competition": "NKL",
+                "opponent": "Palangos Olimpas",
+                "score": "70:86",
+                "result": "L"
+              },
+              {
+                "date": "14/03",
+                "competition": "NKL",
+                "opponent": "Jurbarkas-Karys",
+                "score": "85:90",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 81,
+      "title": "Vilniaus Rytas 2 – Jurbarkas-Karys",
+      "dateLabel": "15 October",
+      "timeLabel": "17:00",
+      "isLive": false,
+      "leagueLabel": "Lithuania. NKL",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/basket.gif",
+      "iconAlt": "Lithuania. NKL",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 17:00\n(Lithuania. NKL)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Vilniaus Rytas 2",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/36940.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Jurbarkas-Karys",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/36694.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700025843/700056317/3_4bc11/",
+        "matches": [
+          {
+            "date": "08/01",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Jurbarkas-Karys",
+            "awayTeam": "Vilniaus Rytas 2",
+            "score": "80:58",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "23/10",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Vilniaus Rytas 2",
+            "awayTeam": "Jurbarkas-Karys",
+            "score": "98:53",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "28/11",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Vilniaus Rytas 2",
+            "awayTeam": "Jurbarkas-Karys",
+            "score": "85:81",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Vilniaus Rytas 2",
+        "awayTeam": "Jurbarkas-Karys",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "NKL",
+                "opponent": "Palangos Olimpas",
+                "score": "81:103",
+                "result": "L"
+              },
+              {
+                "date": "08/10",
+                "competition": "NKL",
+                "opponent": "Omega-Tauras",
+                "score": "91:99",
+                "result": "L"
+              },
+              {
+                "date": "03/10",
+                "competition": "NKL",
+                "opponent": "Mazeikiai",
+                "score": "72:75",
+                "result": "L"
+              },
+              {
+                "date": "01/10",
+                "competition": "NKL",
+                "opponent": "Telsiai",
+                "score": "77:91",
+                "result": "L"
+              },
+              {
+                "date": "22/03",
+                "competition": "NKL",
+                "opponent": "Kretinga",
+                "score": "80:94",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 0,
+              "L": 5
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "NKL",
+                "opponent": "Vilniaus Rytas 2",
+                "score": "103:81",
+                "result": "W"
+              },
+              {
+                "date": "08/10",
+                "competition": "NKL",
+                "opponent": "Vilniaus Rytas 2",
+                "score": "99:91",
+                "result": "W"
+              },
+              {
+                "date": "03/10",
+                "competition": "NKL",
+                "opponent": "Mazeikiai",
+                "score": "72:75",
+                "result": "L"
+              },
+              {
+                "date": "01/10",
+                "competition": "NKL",
+                "opponent": "Vilniaus Rytas 2",
+                "score": "91:77",
+                "result": "W"
+              },
+              {
+                "date": "22/03",
+                "competition": "NKL",
+                "opponent": "Kretinga",
+                "score": "80:94",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 82,
+      "title": "Omega-Tauras – Vilniaus Stekas",
+      "dateLabel": "15 October",
+      "timeLabel": "17:00",
+      "isLive": false,
+      "leagueLabel": "Lithuania. NKL",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/basket.gif",
+      "iconAlt": "Lithuania. NKL",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 17:00\n(Lithuania. NKL)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Omega-Tauras",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/32618.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Vilniaus Stekas",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/36942.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 83,
+      "title": "Kedainiu – Mazeikiai",
+      "dateLabel": "15 October",
+      "timeLabel": "17:00",
+      "isLive": false,
+      "leagueLabel": "Lithuania. NKL",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/basket.gif",
+      "iconAlt": "Lithuania. NKL",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 17:00\n(Lithuania. NKL)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Kedainiu",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/37292.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Mazeikiai",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/31550.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 84,
+      "title": "Kretinga – Suduva-Mantinga",
+      "dateLabel": "15 October",
+      "timeLabel": "17:00",
+      "isLive": false,
+      "leagueLabel": "Lithuania. NKL",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/basket.gif",
+      "iconAlt": "Lithuania. NKL",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 17:00\n(Lithuania. NKL)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Kretinga",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/18347.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Suduva-Mantinga",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/10396.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700037109/700025835/3_2f759/",
+        "matches": [
+          {
+            "date": "10/01",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Suduva-Mantinga",
+            "awayTeam": "Kretinga",
+            "score": "107:85",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "25/10",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Kretinga",
+            "awayTeam": "Suduva-Mantinga",
+            "score": "76:92",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "23/11",
+            "competition": "Lithuania. NKL",
+            "homeTeam": "Kretinga",
+            "awayTeam": "Suduva-Mantinga",
+            "score": "93:78",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Kretinga",
+        "awayTeam": "Suduva-Mantinga",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "NKL",
+                "opponent": "Vilniaus Stekas",
+                "score": "95:99",
+                "result": "L"
+              },
+              {
+                "date": "08/10",
+                "competition": "NKL",
+                "opponent": "Olimpas",
+                "score": "85:98",
+                "result": "L"
+              },
+              {
+                "date": "03/10",
+                "competition": "NKL",
+                "opponent": "Vilkaviskio Perlas",
+                "score": "65:84",
+                "result": "L"
+              },
+              {
+                "date": "01/10",
+                "competition": "NKL",
+                "opponent": "Neptunas-Akvaservis",
+                "score": "76:91",
+                "result": "L"
+              },
+              {
+                "date": "10/04",
+                "competition": "NKL",
+                "opponent": "Vytis",
+                "score": "85:90",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 0,
+              "L": 5
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "NKL",
+                "opponent": "Kretinga",
+                "score": "99:95",
+                "result": "W"
+              },
+              {
+                "date": "08/10",
+                "competition": "NKL",
+                "opponent": "Olimpas",
+                "score": "85:98",
+                "result": "L"
+              },
+              {
+                "date": "03/10",
+                "competition": "NKL",
+                "opponent": "Vilkaviskio Perlas",
+                "score": "65:84",
+                "result": "L"
+              },
+              {
+                "date": "01/10",
+                "competition": "NKL",
+                "opponent": "Kretinga",
+                "score": "91:76",
+                "result": "W"
+              },
+              {
+                "date": "10/04",
+                "competition": "NKL",
+                "opponent": "Vytis",
+                "score": "85:90",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 85,
+      "title": "Cibona – Borac",
+      "dateLabel": "15 October",
+      "timeLabel": "17:00",
+      "isLive": false,
+      "leagueLabel": "Adriatic League",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/nlb.gif",
+      "iconAlt": "Adriatic League",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 17:00\n(Adriatic League)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Cibona",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/31527.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Borac",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/9563.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700012086/700009938/3_8758b/",
+        "matches": [
+          {
+            "date": "25/04",
+            "competition": "Adriatic League",
+            "homeTeam": "Borac",
+            "awayTeam": "Cibona",
+            "score": "72:66",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "27/12",
+            "competition": "Adriatic League",
+            "homeTeam": "Cibona",
+            "awayTeam": "Borac",
+            "score": "62:89",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "28/12",
+            "competition": "Adriatic League",
+            "homeTeam": "Cibona",
+            "awayTeam": "Borac",
+            "score": "97:101",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Cibona",
+        "awayTeam": "Borac",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "12/10",
+                "competition": "Adriatic League",
+                "opponent": "Slovan Bratislava",
+                "score": "82:90",
+                "result": "L"
+              },
+              {
+                "date": "09/10",
+                "competition": "Premier League",
+                "opponent": "Samobor",
+                "score": "73:64",
+                "result": "W"
+              },
+              {
+                "date": "06/10",
+                "competition": "Champions League",
+                "opponent": "Galatasaray",
+                "score": "96:76",
+                "result": "W"
+              },
+              {
+                "date": "03/10",
+                "competition": "Adriatic League",
+                "opponent": "Cedevita Olimpija",
+                "score": "76:89",
+                "result": "L"
+              },
+              {
+                "date": "02/10",
+                "competition": "Premier League",
+                "opponent": "Zabok",
+                "score": "0:0",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "12/10",
+                "competition": "Adriatic League",
+                "opponent": "Cibona",
+                "score": "90:82",
+                "result": "W"
+              },
+              {
+                "date": "09/10",
+                "competition": "Premier League",
+                "opponent": "Samobor",
+                "score": "73:64",
+                "result": "W"
+              },
+              {
+                "date": "06/10",
+                "competition": "Champions League",
+                "opponent": "Cibona",
+                "score": "76:96",
+                "result": "L"
+              },
+              {
+                "date": "03/10",
+                "competition": "Adriatic League",
+                "opponent": "Cedevita Olimpija",
+                "score": "76:89",
+                "result": "L"
+              },
+              {
+                "date": "02/10",
+                "competition": "Premier League",
+                "opponent": "Zabok",
+                "score": "0:0",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 86,
+      "title": "Galatasaray (W) – PF Schio (W)",
+      "dateLabel": "15 October",
+      "timeLabel": "18:00",
+      "isLive": false,
+      "leagueLabel": "Women. Euroleague",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/bwel.gif",
+      "iconAlt": "Women. Euroleague",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 18:00\n(Women. Euroleague)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Galatasaray (W)",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/13977.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "PF Schio (W)",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/37311.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 87,
+      "title": "Fenerbahce – Partizan",
+      "dateLabel": "15 October",
+      "timeLabel": "18:45",
+      "isLive": false,
+      "leagueLabel": "Euroleague",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/euroleague.gif",
+      "iconAlt": "Euroleague",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 18:45\n(Euroleague)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Fenerbahce",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/554.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Partizan",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/8864.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700012065/700012088/3_46725/",
+        "matches": [
+          {
+            "date": "25/02",
+            "competition": "Euroleague",
+            "homeTeam": "Fenerbahce",
+            "awayTeam": "Partizan",
+            "score": "81:78",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "21/11",
+            "competition": "Euroleague",
+            "homeTeam": "Partizan",
+            "awayTeam": "Fenerbahce",
+            "score": "87:99",
+            "result": "W",
+            "winner": "away"
+          },
+          {
+            "date": "27/12",
+            "competition": "Euroleague",
+            "homeTeam": "Partizan",
+            "awayTeam": "Fenerbahce",
+            "score": "90:81",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Fenerbahce",
+        "awayTeam": "Partizan",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "13/10",
+                "competition": "Euroleague",
+                "opponent": "Zalgiris",
+                "score": "99:80",
+                "result": "W"
+              },
+              {
+                "date": "10/10",
+                "competition": "BSL",
+                "opponent": "Cayirova",
+                "score": "100:85",
+                "result": "W"
+              },
+              {
+                "date": "08/10",
+                "competition": "Euroleague",
+                "opponent": "Panathinaikos",
+                "score": "74:92",
+                "result": "L"
+              },
+              {
+                "date": "04/10",
+                "competition": "BSL",
+                "opponent": "Korfez",
+                "score": "85:84",
+                "result": "W"
+              },
+              {
+                "date": "02/10",
+                "competition": "Euroleague",
+                "opponent": "Dubai",
+                "score": "76:66",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 4,
+              "D": 0,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "13/10",
+                "competition": "Euroleague",
+                "opponent": "Fenerbahce",
+                "score": "80:99",
+                "result": "L"
+              },
+              {
+                "date": "10/10",
+                "competition": "BSL",
+                "opponent": "Cayirova",
+                "score": "100:85",
+                "result": "W"
+              },
+              {
+                "date": "08/10",
+                "competition": "Euroleague",
+                "opponent": "Panathinaikos",
+                "score": "74:92",
+                "result": "L"
+              },
+              {
+                "date": "04/10",
+                "competition": "BSL",
+                "opponent": "Fenerbahce",
+                "score": "84:85",
+                "result": "L"
+              },
+              {
+                "date": "02/10",
+                "competition": "Euroleague",
+                "opponent": "Fenerbahce",
+                "score": "66:76",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 88,
+      "title": "London Lions – Skyliners",
+      "dateLabel": "15 October",
+      "timeLabel": "19:30",
+      "isLive": false,
+      "leagueLabel": "Eurocup",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/eurocup.gif",
+      "iconAlt": "Eurocup",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 19:30\n(Eurocup)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "London Lions",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/36167.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Skyliners",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/4409.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null
+    },
+    {
+      "id": 89,
+      "title": "Milan – Dubai",
+      "dateLabel": "15 October",
+      "timeLabel": "19:30",
+      "isLive": false,
+      "leagueLabel": "Euroleague",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/euroleague.gif",
+      "iconAlt": "Euroleague",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 19:30\n(Euroleague)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Milan",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/57.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Dubai",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/31265.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000739/700062267/3_45dd7/",
+        "matches": [
+          {
+            "date": "13/02",
+            "competition": "Euroleague",
+            "homeTeam": "Milan",
+            "awayTeam": "Dubai",
+            "score": "78:96",
+            "result": "L",
+            "winner": "away"
+          },
+          {
+            "date": "23/12",
+            "competition": "Euroleague",
+            "homeTeam": "Dubai",
+            "awayTeam": "Milan",
+            "score": "99:92",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Milan",
+        "awayTeam": "Dubai",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "13/10",
+                "competition": "Euroleague",
+                "opponent": "Real Madrid",
+                "score": "89:98",
+                "result": "L"
+              },
+              {
+                "date": "11/10",
+                "competition": "Lega Basket",
+                "opponent": "Universo Treviso",
+                "score": "106:77",
+                "result": "W"
+              },
+              {
+                "date": "08/10",
+                "competition": "Euroleague",
+                "opponent": "Maccabi T-A",
+                "score": "79:97",
+                "result": "L"
+              },
+              {
+                "date": "05/10",
+                "competition": "Lega Basket",
+                "opponent": "Verona",
+                "score": "72:75",
+                "result": "L"
+              },
+              {
+                "date": "02/10",
+                "competition": "Euroleague",
+                "opponent": "Baskonia",
+                "score": "76:87",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "13/10",
+                "competition": "Euroleague",
+                "opponent": "Milan",
+                "score": "98:89",
+                "result": "W"
+              },
+              {
+                "date": "11/10",
+                "competition": "Lega Basket",
+                "opponent": "Milan",
+                "score": "77:106",
+                "result": "L"
+              },
+              {
+                "date": "08/10",
+                "competition": "Euroleague",
+                "opponent": "Maccabi T-A",
+                "score": "79:97",
+                "result": "L"
+              },
+              {
+                "date": "05/10",
+                "competition": "Lega Basket",
+                "opponent": "Verona",
+                "score": "72:75",
+                "result": "L"
+              },
+              {
+                "date": "02/10",
+                "competition": "Euroleague",
+                "opponent": "Baskonia",
+                "score": "76:87",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 90,
+      "title": "Valencia – Maccabi T-A",
+      "dateLabel": "15 October",
+      "timeLabel": "19:30",
+      "isLive": false,
+      "leagueLabel": "Euroleague",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/euroleague.gif",
+      "iconAlt": "Euroleague",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 19:30\n(Euroleague)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Valencia",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/4.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Maccabi T-A",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/36913.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000699/700012064/3_b600e/",
+        "matches": [
+          {
+            "date": "29/01",
+            "competition": "Euroleague",
+            "homeTeam": "Valencia",
+            "awayTeam": "Maccabi T-A",
+            "score": "94:83",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "18/12",
+            "competition": "Euroleague",
+            "homeTeam": "Maccabi T-A",
+            "awayTeam": "Valencia",
+            "score": "85:82",
+            "result": "L",
+            "winner": "home"
+          },
+          {
+            "date": "27/03",
+            "competition": "Euroleague",
+            "homeTeam": "Maccabi T-A",
+            "awayTeam": "Valencia",
+            "score": "95:80",
+            "result": "L",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Valencia",
+        "awayTeam": "Maccabi T-A",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "11/10",
+                "competition": "ACB League",
+                "opponent": "Barcelona",
+                "score": "86:89",
+                "result": "L"
+              },
+              {
+                "date": "08/10",
+                "competition": "Euroleague",
+                "opponent": "Hapoel T-A",
+                "score": "93:82",
+                "result": "W"
+              },
+              {
+                "date": "04/10",
+                "competition": "ACB League",
+                "opponent": "Zaragoza",
+                "score": "97:82",
+                "result": "W"
+              },
+              {
+                "date": "02/10",
+                "competition": "Euroleague",
+                "opponent": "ASVEL",
+                "score": "105:92",
+                "result": "W"
+              },
+              {
+                "date": "27/09",
+                "competition": "ACB League",
+                "opponent": "Lleida",
+                "score": "100:105",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "11/10",
+                "competition": "ACB League",
+                "opponent": "Barcelona",
+                "score": "86:89",
+                "result": "L"
+              },
+              {
+                "date": "08/10",
+                "competition": "Euroleague",
+                "opponent": "Valencia",
+                "score": "82:93",
+                "result": "L"
+              },
+              {
+                "date": "04/10",
+                "competition": "ACB League",
+                "opponent": "Zaragoza",
+                "score": "97:82",
+                "result": "W"
+              },
+              {
+                "date": "02/10",
+                "competition": "Euroleague",
+                "opponent": "ASVEL",
+                "score": "105:92",
+                "result": "W"
+              },
+              {
+                "date": "27/09",
+                "competition": "ACB League",
+                "opponent": "Valencia",
+                "score": "105:100",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 91,
+      "title": "Real Madrid – ASVEL",
+      "dateLabel": "15 October",
+      "timeLabel": "20:00",
+      "isLive": false,
+      "leagueLabel": "Euroleague",
+      "iconUrl": "https://cdn.livetv904.me/img/icons/euroleague.gif",
+      "iconAlt": "Euroleague",
+      "sectionLabel": "15 October",
+      "isTopMatch": false,
+      "rawDescription": "15 October at 20:00\n(Euroleague)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Real Madrid",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/34.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "ASVEL",
+          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/2236.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000694/700000700/3_916c7/",
+        "matches": [
+          {
+            "date": "06/01",
+            "competition": "Euroleague",
+            "homeTeam": "ASVEL",
+            "awayTeam": "Real Madrid",
+            "score": "69:80",
+            "result": "W",
+            "winner": "away"
+          },
+          {
+            "date": "09/10",
+            "competition": "Euroleague",
+            "homeTeam": "Real Madrid",
+            "awayTeam": "ASVEL",
+            "score": "85:72",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "20/03",
+            "competition": "Euroleague",
+            "homeTeam": "Real Madrid",
+            "awayTeam": "ASVEL",
+            "score": "81:70",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Real Madrid",
+        "awayTeam": "ASVEL",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "13/10",
+                "competition": "Euroleague",
+                "opponent": "Milan",
+                "score": "98:89",
+                "result": "W"
+              },
+              {
+                "date": "11/10",
+                "competition": "ACB League",
+                "opponent": "Manresa",
+                "score": "120:83",
+                "result": "W"
+              },
+              {
+                "date": "08/10",
+                "competition": "Euroleague",
+                "opponent": "Partizan",
+                "score": "86:76",
+                "result": "W"
+              },
+              {
+                "date": "04/10",
+                "competition": "ACB League",
+                "opponent": "Obradoiro",
+                "score": "114:107",
+                "result": "W"
+              },
+              {
+                "date": "01/10",
+                "competition": "Euroleague",
+                "opponent": "Hapoel T-A",
+                "score": "98:102",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 4,
+              "D": 0,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "13/10",
+                "competition": "Euroleague",
+                "opponent": "Milan",
+                "score": "98:89",
+                "result": "W"
+              },
+              {
+                "date": "11/10",
+                "competition": "ACB League",
+                "opponent": "Real Madrid",
+                "score": "83:120",
+                "result": "L"
+              },
+              {
+                "date": "08/10",
+                "competition": "Euroleague",
+                "opponent": "Real Madrid",
+                "score": "76:86",
+                "result": "L"
+              },
+              {
+                "date": "04/10",
+                "competition": "ACB League",
+                "opponent": "Obradoiro",
+                "score": "114:107",
+                "result": "W"
+              },
+              {
+                "date": "01/10",
+                "competition": "Euroleague",
+                "opponent": "Hapoel T-A",
+                "score": "98:102",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      }
     }
   ],
-  "enrichedAt": "2026-10-13T20:41:06.084Z"
+  "enrichedAt": "2026-10-13T21:03:20.220Z"
 }

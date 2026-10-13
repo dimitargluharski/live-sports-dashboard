@@ -1,143 +1,22 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-10-13T20:39:41.234Z",
-  "count": 133,
+  "scrapedAt": "2026-10-13T20:58:41.264Z",
+  "count": 130,
   "matches": [
     {
       "id": 1,
-      "title": "Ireland (W) – Kazakhstan (W)",
-      "dateLabel": "13 October",
-      "timeLabel": "19:30",
-      "isLive": false,
-      "leagueLabel": "Women. World Cup Qualification. Europe",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/friend.gif",
-      "iconAlt": "Women. World Cup Qualification. Europe",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:30\n(Women. World Cup Qualification. Europe)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Ireland (W)",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/flag94.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Kazakhstan (W)",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/flag103.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 2,
-      "title": "Ireland (W) – Kazakhstan (W)",
-      "dateLabel": "13 October",
-      "timeLabel": "19:30",
-      "isLive": false,
-      "leagueLabel": "Women. World Cup Qualification. Europe",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/friend.gif",
-      "iconAlt": "Women. World Cup Qualification. Europe",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:30\n(Women. World Cup Qualification. Europe)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Ireland (W)",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/43043.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Kazakhstan (W)",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/46818.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 3,
-      "title": "England (W) – Greece (W)",
-      "dateLabel": "13 October",
-      "timeLabel": "19:30",
-      "isLive": false,
-      "leagueLabel": "Women. World Cup Qualification. Europe",
-      "iconUrl": "https://cdn.livetv904.me/img/icons/friend.gif",
-      "iconAlt": "Women. World Cup Qualification. Europe",
-      "sectionLabel": "13 October",
-      "isTopMatch": false,
-      "rawDescription": "13 October at 19:30\n(Women. World Cup Qualification. Europe)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "England (W)",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/flag1001.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Greece (W)",
-          "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/flag79.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null
-    },
-    {
-      "id": 4,
       "title": "Wrexham – West Bromwich Albion",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "England. Championship",
       "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
       "iconAlt": "England. Championship",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 19:45\n(England. Championship)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270177&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:41.986Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://iplayer.is/india/c2489efcb91d91106590eb7a6d087f9e",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:41.996Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 3,
-          "label": "Stream 5",
-          "url": "https://playfa.st/ch?id=36",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:41.997Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 3,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Wrexham",
@@ -145,25 +24,25 @@
           "startingLineup": [
             "Anthony Patterson",
             "Zak Vyner",
-            "Ben Whiteman",
-            "Callum Doyle",
-            "Callum O’Hare",
-            "Dominic Hyam",
-            "George Dobson",
-            "Issa Kabore",
             "Jacques Ekomie",
-            "Kieffer Moore",
-            "Oliver Rathbone"
+            "Dominic Hyam",
+            "Callum Doyle",
+            "Issa Kabore",
+            "Ben Whiteman",
+            "Callum O’Hare",
+            "Oliver Rathbone",
+            "George Dobson",
+            "Kieffer Moore"
           ],
           "substitutes": [
-            "Aaron James",
-            "Bailey Cadamarteri",
+            "Ryan Longman",
+            "Joe Worrall",
             "Daniel Imray",
             "Danny Ward",
-            "Joe Worrall",
-            "Lewis O’Brien",
-            "Ryan Longman",
             "Sam Smith",
+            "Lewis O’Brien",
+            "Bailey Cadamarteri",
+            "Aaron James",
             "Samuel Chesworth"
           ]
         },
@@ -172,33 +51,42 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/3897.gif",
           "startingLineup": [
             "Max O’Leary",
+            "Barney Stewart",
             "Harry Whitwell",
+            "Rabby Nzingoula",
             "George Campbell",
             "Chris Mepham",
-            "Callum Styles",
-            "Brayann Pereira",
             "Isaac Price",
+            "Toby Collyer",
             "Jayson Molumby",
-            "Rabby Nzingoula",
-            "Barney Stewart",
-            "Toby Collyer"
+            "Callum Styles",
+            "Brayann Pereira"
           ],
           "substitutes": [
-            "Felix Horn Myhre",
-            "Conor Townsend",
-            "Jimmy-Jay Morgan",
+            "Aune Selland Heggeboe",
             "Matt Ingram",
-            "Matthew Crowther",
-            "Nathaniel Phillips",
             "Ousmane Diakite",
+            "Jimmy-Jay Morgan",
+            "Felix Horn Myhre",
+            "Nathaniel Phillips",
             "Tammer Bany Odeh",
-            "Aune Selland Heggeboe"
+            "Conor Townsend",
+            "Matthew Crowther"
           ]
         }
       },
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700015919/700000391/1_faff9/",
         "matches": [
+          {
+            "date": "13/10",
+            "competition": "England. Championship",
+            "homeTeam": "Wrexham",
+            "awayTeam": "West Bromwich Albion",
+            "score": "1:2",
+            "result": "L",
+            "winner": "away"
+          },
           {
             "date": "03/04",
             "competition": "England. Championship",
@@ -223,6 +111,13 @@
         "form": {
           "home": {
             "matches": [
+              {
+                "date": "13/10",
+                "competition": "Championship",
+                "opponent": "West Bromwich Albion",
+                "score": "1:2",
+                "result": "L"
+              },
               {
                 "date": "10/10",
                 "competition": "Championship",
@@ -250,23 +145,23 @@
                 "opponent": "Burnley",
                 "score": "1:1",
                 "result": "D"
-              },
-              {
-                "date": "05/09",
-                "competition": "Championship",
-                "opponent": "Swansea City",
-                "score": "0:0",
-                "result": "D"
               }
             ],
             "summary": {
               "W": 1,
-              "D": 3,
-              "L": 1
+              "D": 2,
+              "L": 2
             }
           },
           "away": {
             "matches": [
+              {
+                "date": "13/10",
+                "competition": "Championship",
+                "opponent": "Wrexham",
+                "score": "2:1",
+                "result": "W"
+              },
               {
                 "date": "10/10",
                 "competition": "Championship",
@@ -294,18 +189,11 @@
                 "opponent": "Wrexham",
                 "score": "1:1",
                 "result": "D"
-              },
-              {
-                "date": "05/09",
-                "competition": "Championship",
-                "opponent": "Swansea City",
-                "score": "0:0",
-                "result": "D"
               }
             ],
             "summary": {
-              "W": 0,
-              "D": 3,
+              "W": 1,
+              "D": 2,
               "L": 2
             }
           }
@@ -313,67 +201,46 @@
       }
     },
     {
-      "id": 5,
+      "id": 2,
       "title": "Wolverhampton – Bolton Wanderers",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "England. Championship",
       "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
       "iconAlt": "England. Championship",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 19:45\n(England. Championship)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://playfa.st/ch?id=35",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:41.998Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 3",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270182&w=700&h=480",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:41.998Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 2,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Wolverhampton",
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/452.gif",
           "startingLineup": [
             "Jose Sa",
-            "Mateus Mane",
-            "Fer Lopez",
-            "Jean-Ricner",
-            "Jordan James",
-            "Andre",
-            "Ladislav Krejci",
             "Nasser Djiga",
-            "Hugo Bueno",
+            "Fer Lopez",
+            "Andre",
+            "Mateus Mane",
             "Kieran Trippier",
+            "Jean-Ricner",
+            "Ladislav Krejci",
+            "Jordan James",
+            "Hugo Bueno",
             "Adam Armstrong"
           ],
           "substitutes": [
-            "Marshall Munetsi",
+            "Sean Neave",
             "Jackson Tchatchoua",
             "Ghislain Konan",
-            "Toti Gomes",
             "Tawanda Chirewa",
-            "Tommy Doyle",
             "Rafiki Said",
-            "Sean Neave",
-            "Joao Virginia"
+            "Toti Gomes",
+            "Joao Virginia",
+            "Tommy Doyle",
+            "Marshall Munetsi"
           ]
         },
         "away": {
@@ -381,94 +248,178 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/4049.gif",
           "startingLineup": [
             "Gavin Bazunu",
-            "Samuel Iling-Junior",
+            "Gaizka Larrazabal",
             "Atsuki Ito",
             "Ethan Erhahon",
-            "Thelonius Bair",
             "Thierry Gale",
-            "Josh Sheehan",
-            "Gaizka Larrazabal",
             "Eoin Toal",
             "Akin Famewo",
-            "Lewis Brunt"
+            "Josh Sheehan",
+            "Lewis Brunt",
+            "Thelonius Bair",
+            "Samuel Iling-Junior"
           ],
           "substitutes": [
-            "Jack Bonham",
             "Xavier Simons",
-            "Ben Davies",
-            "Max Conway",
-            "Max Matthew Lott",
-            "Jayden Nelson",
-            "Sam Dalby",
             "Ruben Rodrigues",
-            "Ryan Hardie"
+            "Sam Dalby",
+            "Ben Davies",
+            "Jack Bonham",
+            "Max Matthew Lott",
+            "Ryan Hardie",
+            "Max Conway",
+            "Jayden Nelson"
           ]
         }
       },
-      "headToHead": null
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000178/700015576/1_5a22e/",
+        "matches": [
+          {
+            "date": "13/10",
+            "competition": "England. Championship",
+            "homeTeam": "Wolverhampton",
+            "awayTeam": "Bolton Wanderers",
+            "score": "1:3",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Wolverhampton",
+        "awayTeam": "Bolton Wanderers",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "Championship",
+                "opponent": "Middlesbrough",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "20/09",
+                "competition": "Championship",
+                "opponent": "West Bromwich Albion",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "16/09",
+                "competition": "League Cup",
+                "opponent": "Everton",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "13/09",
+                "competition": "Championship",
+                "opponent": "Sheffield Utd",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "06/09",
+                "competition": "Championship",
+                "opponent": "Birmingham City",
+                "score": "2:2",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 1,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "Championship",
+                "opponent": "Middlesbrough",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "20/09",
+                "competition": "Championship",
+                "opponent": "Wolverhampton",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "16/09",
+                "competition": "League Cup",
+                "opponent": "Everton",
+                "score": "0:1",
+                "result": "L"
+              },
+              {
+                "date": "13/09",
+                "competition": "Championship",
+                "opponent": "Sheffield Utd",
+                "score": "1:0",
+                "result": "W"
+              },
+              {
+                "date": "06/09",
+                "competition": "Championship",
+                "opponent": "Birmingham City",
+                "score": "2:2",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          }
+        }
+      }
     },
     {
-      "id": 6,
+      "id": 3,
       "title": "Millwall – Swansea City",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "England. Championship",
       "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
       "iconAlt": "England. Championship",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 19:45\n(England. Championship)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270178&w=700&h=480",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:41.999Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://playfa.st/ch?id=34",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:41.999Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 2,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Millwall",
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/3900.gif",
           "startingLineup": [
             "Filip Marschall",
-            "Jordi Osei-Tutu",
-            "Zak Sturge",
-            "Derek Mazou-Sacko",
-            "Jake Cooper",
-            "Camiel Neghli",
-            "Lyndon Dykes",
             "Jenson Metcalfe",
+            "Camiel Neghli",
             "Caleb Taylor",
-            "Mark Sykes",
-            "Kyrell Lisbie"
+            "Jake Cooper",
+            "Zak Sturge",
+            "Jordi Osei-Tutu",
+            "Lyndon Dykes",
+            "Derek Mazou-Sacko",
+            "Kyrell Lisbie",
+            "Mark Sykes"
           ],
           "substitutes": [
-            "Zak Lovelace",
-            "Alfie Doughty",
-            "Tristan Crama",
-            "Elkan Baggott",
-            "Max Crocombe",
-            "Ryan Leonard",
             "Daniel Kelly",
+            "Ryan Leonard",
+            "Luke Cundle",
+            "Zak Lovelace",
             "Yanis Issoufou",
-            "Luke Cundle"
+            "Alfie Doughty",
+            "Max Crocombe",
+            "Elkan Baggott",
+            "Tristan Crama"
           ]
         },
         "away": {
@@ -476,33 +427,42 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/3896.gif",
           "startingLineup": [
             "Lawrence Vigouroux",
-            "Jay Fulton",
-            "Ben Cabango",
-            "Josh Tymon",
-            "Filip Lissah",
-            "Moussa Kounfolo Yeo",
             "Joseph Opoku",
+            "Moussa Kounfolo Yeo",
+            "Jenson Seelt",
+            "Ben Cabango",
             "Zan Vipotnik",
-            "Marko Stamenic",
             "Elijah Just",
-            "Jenson Seelt"
+            "Marko Stamenic",
+            "Jay Fulton",
+            "Filip Lissah",
+            "Josh Tymon"
           ],
           "substitutes": [
+            "Ronald Pereira",
             "Adam Idah",
-            "Goncalo Franco",
-            "Stephen Welsh",
-            "Ji-Sung Eom",
-            "Andrew Fisher",
             "Ross Stewart",
-            "Melker Widell",
+            "Stephen Welsh",
+            "Goncalo Franco",
             "Tom Iorpenda",
-            "Ronald Pereira"
+            "Ji-Sung Eom",
+            "Melker Widell",
+            "Andrew Fisher"
           ]
         }
       },
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700000394/700000390/1_c6d5b/",
         "matches": [
+          {
+            "date": "13/10",
+            "competition": "England. Championship",
+            "homeTeam": "Millwall",
+            "awayTeam": "Swansea City",
+            "score": "0:1",
+            "result": "L",
+            "winner": "away"
+          },
           {
             "date": "04/01",
             "competition": "England. Championship",
@@ -520,15 +480,6 @@
             "score": "1:1",
             "result": "D",
             "winner": "draw"
-          },
-          {
-            "date": "26/04",
-            "competition": "England. Championship",
-            "homeTeam": "Millwall",
-            "awayTeam": "Swansea City",
-            "score": "1:0",
-            "result": "W",
-            "winner": "home"
           }
         ],
         "homeTeam": "Millwall",
@@ -536,6 +487,13 @@
         "form": {
           "home": {
             "matches": [
+              {
+                "date": "13/10",
+                "competition": "Championship",
+                "opponent": "Swansea City",
+                "score": "0:1",
+                "result": "L"
+              },
               {
                 "date": "10/10",
                 "competition": "Championship",
@@ -563,13 +521,6 @@
                 "opponent": "Blackburn",
                 "score": "1:3",
                 "result": "L"
-              },
-              {
-                "date": "08/09",
-                "competition": "League Cup",
-                "opponent": "Newcastle United",
-                "score": "0:1",
-                "result": "L"
               }
             ],
             "summary": {
@@ -580,6 +531,13 @@
           },
           "away": {
             "matches": [
+              {
+                "date": "13/10",
+                "competition": "Championship",
+                "opponent": "Millwall",
+                "score": "1:0",
+                "result": "W"
+              },
               {
                 "date": "10/10",
                 "competition": "Championship",
@@ -607,13 +565,6 @@
                 "opponent": "Blackburn",
                 "score": "1:3",
                 "result": "L"
-              },
-              {
-                "date": "08/09",
-                "competition": "League Cup",
-                "opponent": "Millwall",
-                "score": "1:0",
-                "result": "W"
               }
             ],
             "summary": {
@@ -626,67 +577,46 @@
       }
     },
     {
-      "id": 7,
+      "id": 4,
       "title": "Cardiff City – Watford",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "England. Championship",
       "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
       "iconAlt": "England. Championship",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 19:45\n(England. Championship)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://playfa.st/ch?id=33",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.000Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 3",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270179&w=700&h=480",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.323Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 2,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Cardiff City",
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/34989.gif",
           "startingLineup": [
             "Nathan Trott",
-            "Joel Bagan",
-            "Jack Moylan",
             "Cian Ashford",
-            "Alex Robertson",
-            "Chris Willock",
-            "Ollie Tanner",
-            "Dylan Lawlor",
-            "Perry Ng",
+            "Jack Moylan",
+            "Joel Bagan",
             "Gabriel Osho",
+            "Perry Ng",
+            "Dylan Lawlor",
+            "Ollie Tanner",
+            "Chris Willock",
+            "Alex Robertson",
             "Joel Colwill"
           ],
           "substitutes": [
             "Charlie Holt",
             "Callum Robinson",
             "Ronan Kpakio",
-            "Paul Moreno",
-            "Isaak Davies",
-            "Harry Tyrer",
-            "Calum Scanlon",
+            "William Fish",
             "David Turnbull",
-            "William Fish"
+            "Calum Scanlon",
+            "Harry Tyrer",
+            "Isaak Davies",
+            "Paul Moreno"
           ]
         },
         "away": {
@@ -702,25 +632,34 @@
             "Othmane Maamma",
             "Martin Payero",
             "Edo Kayembe",
-            "Myron Boadu",
-            "Stephy Mavididi"
+            "Stephy Mavididi",
+            "Myron Boadu"
           ],
           "substitutes": [
             "Branimir Mlacic",
             "Daniel Bachmann",
             "Amin Nabizada",
-            "Mamadou Doumbia",
-            "Iker Bravo",
-            "Marc Bola",
-            "Krepin Diatta",
+            "Soumaila Coulibaly",
             "Luca Kjerrumgaard",
-            "Soumaila Coulibaly"
+            "Krepin Diatta",
+            "Marc Bola",
+            "Iker Bravo",
+            "Mamadou Doumbia"
           ]
         }
       },
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700000397/700000188/1_5efc7/",
         "matches": [
+          {
+            "date": "13/10",
+            "competition": "England. Championship",
+            "homeTeam": "Cardiff City",
+            "awayTeam": "Watford",
+            "score": "5:1",
+            "result": "W",
+            "winner": "home"
+          },
           {
             "date": "14/01",
             "competition": "England. Championship",
@@ -736,15 +675,6 @@
             "homeTeam": "Watford",
             "awayTeam": "Cardiff City",
             "score": "1:2",
-            "result": "W",
-            "winner": "away"
-          },
-          {
-            "date": "03/02",
-            "competition": "England. Championship",
-            "homeTeam": "Watford",
-            "awayTeam": "Cardiff City",
-            "score": "0:1",
             "result": "W",
             "winner": "away"
           }
@@ -844,50 +774,39 @@
       }
     },
     {
-      "id": 8,
+      "id": 5,
       "title": "Burnley – Charlton Athletic",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "England. Championship",
       "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
       "iconAlt": "England. Championship",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 19:45\n(England. Championship)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://playfa.st/ch?id=32",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.384Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Burnley",
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/33045.gif",
           "startingLineup": [
             "Gregoire Coudert",
-            "Reo Hatate",
+            "Jacob Bruun Larsen",
             "Jamie Vardy",
             "Josh Laurent",
-            "Largie Ramazani",
+            "Reo Hatate",
             "Max Alleyne",
             "Igor Julio",
             "Lucas Pires",
             "Anel Ahmedhodzic",
             "Kyle Walker",
-            "Jacob Bruun Larsen"
+            "Largie Ramazani"
           ],
           "substitutes": [
-            "Armando Broja",
             "Lluc Castell",
+            "Armando Broja",
             "Oliver Sonne",
             "Hjalmar Ekdal",
             "Andreas Hountondji",
@@ -909,11 +828,12 @@
             "Conor Coventry",
             "Tyreece Campbell",
             "Karlan Grant",
+            "Dan McNamara",
             "Miles Leaburn",
-            "Oliver Skipp",
-            "Dan McNamara"
+            "Oliver Skipp"
           ],
           "substitutes": [
+            "Tyler Bindon",
             "Micah Mbick",
             "Alan Mwamba",
             "Will Mannion",
@@ -921,38 +841,131 @@
             "Millenic Alli",
             "Ivan Mesik",
             "Sonny Carey",
-            "Harvey Knibbs",
-            "Tyler Bindon"
+            "Harvey Knibbs"
           ]
         }
       },
-      "headToHead": null
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000174/700000387/1_732f6/",
+        "matches": [
+          {
+            "date": "13/10",
+            "competition": "England. Championship",
+            "homeTeam": "Burnley",
+            "awayTeam": "Charlton Athletic",
+            "score": "2:2",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "Burnley",
+        "awayTeam": "Charlton Athletic",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "Championship",
+                "opponent": "Watford",
+                "score": "4:0",
+                "result": "W"
+              },
+              {
+                "date": "19/09",
+                "competition": "Championship",
+                "opponent": "Derby County",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "12/09",
+                "competition": "Championship",
+                "opponent": "Swansea City",
+                "score": "1:3",
+                "result": "L"
+              },
+              {
+                "date": "08/09",
+                "competition": "Championship",
+                "opponent": "Wrexham",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "05/09",
+                "competition": "Championship",
+                "opponent": "Bristol City",
+                "score": "1:2",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 2,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "Championship",
+                "opponent": "Watford",
+                "score": "4:0",
+                "result": "W"
+              },
+              {
+                "date": "19/09",
+                "competition": "Championship",
+                "opponent": "Burnley",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "12/09",
+                "competition": "Championship",
+                "opponent": "Swansea City",
+                "score": "1:3",
+                "result": "L"
+              },
+              {
+                "date": "08/09",
+                "competition": "Championship",
+                "opponent": "Wrexham",
+                "score": "1:1",
+                "result": "D"
+              },
+              {
+                "date": "05/09",
+                "competition": "Championship",
+                "opponent": "Burnley",
+                "score": "2:1",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 2,
+              "L": 1
+            }
+          }
+        }
+      }
     },
     {
-      "id": 9,
+      "id": 6,
       "title": "Bristol City – Blackburn",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "England. Championship",
       "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
       "iconAlt": "England. Championship",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 19:45\n(England. Championship)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://playfa.st/ch?id=31",
-          "language": "English",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.395Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Bristol City",
@@ -960,26 +973,26 @@
           "startingLineup": [
             "Sam Tickle",
             "Lisav Naif Eissat",
+            "Cameron Pring",
+            "Robert Atkinson",
+            "George Tanner",
             "Scott Twine",
             "Jason Knight",
             "Jed Wallace",
             "Sam Greenwood",
             "Gibson Yah",
-            "Dominic Ballard",
-            "George Tanner",
-            "Robert Atkinson",
-            "Cameron Pring"
+            "Dominic Ballard"
           ],
           "substitutes": [
-            "Adam Randell",
-            "Brian De Keersmaecker",
-            "Yu Hirakawa",
             "Elijah Adebayo",
             "Bradley Collins",
             "Rio Cardines",
             "Luke McNally",
             "Tomi Horvat",
-            "Sam Bell"
+            "Sam Bell",
+            "Yu Hirakawa",
+            "Brian De Keersmaecker",
+            "Adam Randell"
           ]
         },
         "away": {
@@ -999,14 +1012,14 @@
             "Tom Atcheson"
           ],
           "substitutes": [
-            "Augustus Kargbo",
             "Andri Gudjohnsen",
+            "Augustus Kargbo",
+            "Aynsley Pears",
             "Jayden Fevrier",
             "Dion De Neve",
-            "Moussa Baradji",
-            "Gady Beyuku",
             "Mathias Joergensen",
-            "Aynsley Pears",
+            "Gady Beyuku",
+            "Moussa Baradji",
             "Jake Garrett"
           ]
         }
@@ -1137,11 +1150,11 @@
       }
     },
     {
-      "id": 10,
+      "id": 7,
       "title": "Netherlands (W) – Hungary (W)",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. World Cup Qualification. Europe",
       "iconUrl": "https://cdn.livetv904.me/img/icons/friend.gif",
       "iconAlt": "Women. World Cup Qualification. Europe",
@@ -1167,40 +1180,19 @@
       "headToHead": null
     },
     {
-      "id": 11,
+      "id": 8,
       "title": "Netherlands (W) – Hungary (W)",
       "dateLabel": "13 October",
       "timeLabel": "19:45",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. World Cup Qualification. Europe",
       "iconUrl": "https://cdn.livetv904.me/img/icons/friend.gif",
       "iconAlt": "Women. World Cup Qualification. Europe",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 19:45\n(Women. World Cup Qualification. Europe)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270067&w=700&h=480",
-          "language": "Hungarian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.412Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270159&w=700&h=480",
-          "language": "Dutch",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.413Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 2,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Netherlands (W)",
@@ -1218,110 +1210,19 @@
       "headToHead": null
     },
     {
-      "id": 12,
+      "id": 9,
       "title": "Simulcast",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Champions League",
       "iconUrl": "https://cdn.livetv904.me/img/icons/cleag.gif",
       "iconAlt": "Champions League",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 20:00\n(Champions League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269093&w=700&h=480",
-          "language": "Russian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.413Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269282&w=700&h=480",
-          "language": "Russian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.420Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 3,
-          "label": "Stream 6",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=218742&w=700&h=480",
-          "language": "German",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.485Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 4,
-          "label": "Stream 8",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=237163&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "3500kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.501Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 5,
-          "label": "Stream 10",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=242757&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "5000kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.512Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 6,
-          "label": "Stream 12",
-          "url": "https://playfa.st/ch.php?id=18",
-          "language": "German",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.565Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 7,
-          "label": "Stream 13",
-          "url": "https://livetvsx.live/go/dazn1_german.php",
-          "language": "German",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.570Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 8,
-          "label": "Stream 14",
-          "url": "https://livetvsx.live/go/skyaustria1_german.php",
-          "language": "German",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.571Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 9,
-          "label": "Stream 16",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=6fbab1d8d6bf93c4bc7552714aa3bb54ebf7b661&lang=en&eid=520222255&lid=3086874&ci=7&si=1",
-          "language": "Spanish",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.590Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 9,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": null,
@@ -1339,11 +1240,11 @@
       "headToHead": null
     },
     {
-      "id": 13,
+      "id": 10,
       "title": "Stoke City – Middlesbrough",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "England. Championship",
       "iconUrl": "https://cdn.livetv904.me/img/icons/en.gif",
       "iconAlt": "England. Championship",
@@ -1357,9 +1258,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269469&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.645Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:41.971Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 2,
@@ -1367,9 +1268,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268790&w=700&h=480",
           "language": "French",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.687Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:41.981Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 3,
@@ -1377,9 +1278,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269440&w=700&h=480",
           "language": "Portuguese",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.826Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:41.982Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 4,
@@ -1388,7 +1289,7 @@
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.847Z",
+          "healthCheckedAt": "2026-10-13T20:58:41.983Z",
           "healthHttpStatus": 200
         },
         {
@@ -1398,7 +1299,7 @@
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.852Z",
+          "healthCheckedAt": "2026-10-13T20:58:41.983Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1465,6 +1366,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700000402/700000396/1_1a929/",
         "matches": [
           {
+            "date": "13/10",
+            "competition": "England. Championship",
+            "homeTeam": "Stoke City",
+            "awayTeam": "Middlesbrough",
+            "score": "2:3",
+            "result": "L",
+            "winner": "away"
+          },
+          {
             "date": "21/01",
             "competition": "England. Championship",
             "homeTeam": "Stoke City",
@@ -1481,15 +1391,6 @@
             "score": "0:0",
             "result": "D",
             "winner": "draw"
-          },
-          {
-            "date": "25/02",
-            "competition": "England. Championship",
-            "homeTeam": "Stoke City",
-            "awayTeam": "Middlesbrough",
-            "score": "1:3",
-            "result": "L",
-            "winner": "away"
           }
         ],
         "homeTeam": "Stoke City",
@@ -1587,7 +1488,7 @@
       }
     },
     {
-      "id": 14,
+      "id": 11,
       "title": "Birmingham City – Preston",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -1606,7 +1507,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.905Z",
+          "healthCheckedAt": "2026-10-13T20:58:41.984Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1673,6 +1574,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700000393/700000405/1_69ed3/",
         "matches": [
           {
+            "date": "13/10",
+            "competition": "England. Championship",
+            "homeTeam": "Birmingham City",
+            "awayTeam": "Preston",
+            "score": "4:0",
+            "result": "W",
+            "winner": "home"
+          },
+          {
             "date": "22/04",
             "competition": "England. Championship",
             "homeTeam": "Birmingham City",
@@ -1689,15 +1599,6 @@
             "score": "0:1",
             "result": "W",
             "winner": "away"
-          },
-          {
-            "date": "01/04",
-            "competition": "England. Championship",
-            "homeTeam": "Birmingham City",
-            "awayTeam": "Preston",
-            "score": "1:0",
-            "result": "W",
-            "winner": "home"
           }
         ],
         "homeTeam": "Birmingham City",
@@ -1795,30 +1696,19 @@
       }
     },
     {
-      "id": 15,
+      "id": 12,
       "title": "Haiti (W) – Australia (W)",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. Friendly Match. National Teams",
       "iconUrl": "https://cdn.livetv904.me/img/icons/friend.gif",
       "iconAlt": "Women. Friendly Match. National Teams",
       "sectionLabel": "13 October",
       "isTopMatch": false,
       "rawDescription": "13 October at 20:00\n(Women. Friendly Match. National Teams)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/9KJzaJV8vJo?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.928Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Haiti (W)",
@@ -1836,7 +1726,7 @@
       "headToHead": null
     },
     {
-      "id": 16,
+      "id": 13,
       "title": "Atletico Madrid – Manchester Utd",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -1854,9 +1744,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268822&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.937Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:41.984Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 2,
@@ -1864,9 +1754,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268846&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.961Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:41.985Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 3,
@@ -1874,9 +1764,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269932&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.961Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:42.331Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 4,
@@ -1884,9 +1774,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=206100&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:42.980Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:42.332Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 5,
@@ -1894,9 +1784,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268589&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.044Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:42.620Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 6,
@@ -1904,9 +1794,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268688&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.087Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:53.986Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 7,
@@ -1914,9 +1804,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269241&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.103Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:53.986Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 8,
@@ -1925,7 +1815,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.107Z",
+          "healthCheckedAt": "2026-10-13T20:58:53.987Z",
           "healthHttpStatus": 200
         },
         {
@@ -1935,7 +1825,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.156Z",
+          "healthCheckedAt": "2026-10-13T20:58:53.988Z",
           "healthHttpStatus": 200
         },
         {
@@ -1945,7 +1835,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.193Z",
+          "healthCheckedAt": "2026-10-13T20:58:53.989Z",
           "healthHttpStatus": 200
         },
         {
@@ -1955,7 +1845,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.236Z",
+          "healthCheckedAt": "2026-10-13T20:58:54.321Z",
           "healthHttpStatus": 200
         },
         {
@@ -1964,9 +1854,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268609&w=700&h=480",
           "language": "Serbian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.262Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:54.330Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 13,
@@ -1974,9 +1864,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269237&w=700&h=480",
           "language": "Romanian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.274Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:54.331Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 14,
@@ -1984,9 +1874,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269244&w=700&h=480",
           "language": "Dutch",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.275Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:54.346Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 15,
@@ -1994,9 +1884,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269349&w=700&h=480",
           "language": "French",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.280Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:54.388Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 16,
@@ -2004,9 +1894,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269505&w=700&h=480",
           "language": "Spanish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.284Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:54.626Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 17,
@@ -2014,9 +1904,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269581&w=700&h=480",
           "language": "Dutch",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.323Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:58:54.843Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 18,
@@ -2024,189 +1914,189 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269647&w=700&h=480",
           "language": "Polish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.412Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:05.992Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 19,
           "label": "Stream 34",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270130&w=700&h=480",
-          "language": "Portuguese",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=209634&w=700&h=480",
+          "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.418Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:05.992Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 20,
           "label": "Stream 36",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=209634&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=213687&w=700&h=480",
+          "language": "Russian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.418Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:06.337Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 21,
           "label": "Stream 38",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=213687&w=700&h=480",
-          "language": "Russian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=219853&w=700&h=480",
+          "language": "Spanish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.438Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:06.338Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 22,
           "label": "Stream 40",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=219853&w=700&h=480",
-          "language": "Spanish",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.456Z",
-          "healthHttpStatus": 200
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=232734&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": "2700kbps",
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:06.353Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 23,
           "label": "Stream 42",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=232734&w=700&h=480",
-          "language": "Ukrainian",
-          "bitrate": "2700kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.479Z",
-          "healthHttpStatus": 200
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=237141&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2500kbps",
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:06.401Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 24,
           "label": "Stream 44",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=237141&w=700&h=480",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=242325&w=700&h=480",
           "language": "Russian",
-          "bitrate": "2500kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.518Z",
-          "healthHttpStatus": 200
+          "bitrate": "5000kbps",
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:06.637Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 25,
           "label": "Stream 46",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=242325&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "5000kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.572Z",
-          "healthHttpStatus": 200
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=247919&w=700&h=480",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:06.856Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 26,
           "label": "Stream 48",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=247919&w=700&h=480",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.582Z",
-          "healthHttpStatus": 200
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=258017&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "4000kbps",
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:18.003Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 27,
           "label": "Stream 50",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=258017&w=700&h=480",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=261890&w=700&h=480",
           "language": "Russian",
-          "bitrate": "4000kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.583Z",
-          "healthHttpStatus": 200
+          "bitrate": null,
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:18.004Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 28,
           "label": "Stream 52",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=261890&w=700&h=480",
-          "language": "Russian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268704&w=700&h=480",
+          "language": "Czech",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.636Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:18.348Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 29,
           "label": "Stream 54",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268704&w=700&h=480",
-          "language": "Czech",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268866&w=700&h=480",
+          "language": "Hungarian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.748Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:18.348Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 30,
           "label": "Stream 56",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268866&w=700&h=480",
-          "language": "Hungarian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269002&w=700&h=480",
+          "language": "Dutch",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.834Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:18.364Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 31,
           "label": "Stream 58",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269002&w=700&h=480",
-          "language": "Dutch",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269105&w=700&h=480",
+          "language": "Spanish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.913Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:18.411Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 32,
           "label": "Stream 60",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269105&w=700&h=480",
-          "language": "Spanish",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269157&w=700&h=480",
+          "language": null,
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.936Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:18.648Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 33,
           "label": "Stream 62",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269157&w=700&h=480",
-          "language": null,
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269234&w=700&h=480",
+          "language": "Romanian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.967Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:18.867Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 34,
           "label": "Stream 64",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269234&w=700&h=480",
-          "language": "Romanian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269580&w=700&h=480",
+          "language": "Dutch",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:43.999Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:30.008Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 35,
           "label": "Stream 66",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269580&w=700&h=480",
-          "language": "Dutch",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=270118&w=700&h=480",
+          "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.036Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:30.008Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 36,
           "label": "Stream 68",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270118&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=270130&w=700&h=480",
+          "language": "Portuguese",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.052Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:30.352Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 37,
@@ -2214,9 +2104,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=270156&w=700&h=480",
           "language": "Azerbaijani",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.095Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:30.353Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 38,
@@ -2225,7 +2115,7 @@
           "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.095Z",
+          "healthCheckedAt": "2026-10-13T20:59:30.369Z",
           "healthHttpStatus": 200
         },
         {
@@ -2235,7 +2125,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.107Z",
+          "healthCheckedAt": "2026-10-13T20:59:30.416Z",
           "healthHttpStatus": 200
         },
         {
@@ -2245,7 +2135,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.126Z",
+          "healthCheckedAt": "2026-10-13T20:59:30.647Z",
           "healthHttpStatus": 200
         },
         {
@@ -2255,7 +2145,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.137Z",
+          "healthCheckedAt": "2026-10-13T20:59:30.648Z",
           "healthHttpStatus": 200
         },
         {
@@ -2265,7 +2155,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.159Z",
+          "healthCheckedAt": "2026-10-13T20:59:30.652Z",
           "healthHttpStatus": 200
         },
         {
@@ -2275,7 +2165,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.191Z",
+          "healthCheckedAt": "2026-10-13T20:59:30.761Z",
           "healthHttpStatus": 200
         },
         {
@@ -2285,7 +2175,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.212Z",
+          "healthCheckedAt": "2026-10-13T20:59:30.839Z",
           "healthHttpStatus": 200
         },
         {
@@ -2295,7 +2185,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.228Z",
+          "healthCheckedAt": "2026-10-13T20:59:30.852Z",
           "healthHttpStatus": 200
         },
         {
@@ -2305,7 +2195,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.234Z",
+          "healthCheckedAt": "2026-10-13T20:59:30.871Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2316,30 +2206,30 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/35887.gif",
           "startingLineup": [
             "Jan Oblak",
-            "Johnny Cardoso",
-            "Pablo Barrios",
-            "Alejandro Baena",
-            "Giuliano Simeone",
             "Marcos Llorente",
             "David Hancko",
             "Cristian Romero",
-            "Kang-In Lee",
+            "Alejandro Grimaldo",
+            "Johnny Cardoso",
+            "Pablo Barrios",
             "Julian Alvarez",
-            "Alejandro Grimaldo"
+            "Kang-In Lee",
+            "Giuliano Simeone",
+            "Alejandro Baena"
           ],
           "substitutes": [
-            "Jorge Dominguez",
-            "Daniel Martinez",
             "Jorge Castillo",
+            "Daniel Martinez",
+            "Ademola Lookman",
+            "Jonathan David",
+            "Arnau Ortiz",
+            "Marc Pubill",
             "Morten Hjulmand",
             "Robin Le Normand",
-            "Marc Pubill",
-            "Arnau Ortiz",
+            "Jorge Dominguez",
             "Juan Musso",
             "Rodrigo Mendoza",
-            "Alexander Soerloth",
-            "Ademola Lookman",
-            "Jonathan David"
+            "Alexander Soerloth"
           ]
         },
         "away": {
@@ -2347,30 +2237,30 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/139.gif",
           "startingLineup": [
             "Senne Lammens",
-            "Lisandro Martinez",
-            "Leny Yoro",
-            "Ayden Heaven",
-            "Bruno Fernandes",
-            "Marcus Rashford",
-            "Andrey Santos",
             "Youri Tielemans",
+            "Andrey Santos",
+            "Marcus Rashford",
             "Carlos Baleba",
-            "Bryan Mbeumo",
-            "Diogo Dalot"
+            "Ayden Heaven",
+            "Leny Yoro",
+            "Lisandro Martinez",
+            "Diogo Dalot",
+            "Bruno Fernandes",
+            "Bryan Mbeumo"
           ],
           "substitutes": [
-            "Karl Darlow",
-            "Amad Diallo",
-            "Shea Lacey",
-            "Tyler Fletcher",
-            "Harry Amass",
             "Dermot Mee",
             "Daniel Armer",
             "Matthijs de Ligt",
             "Harry Maguire",
             "Mason Mount",
             "Matheus Cunha",
-            "Joshua Zirkzee"
+            "Joshua Zirkzee",
+            "Karl Darlow",
+            "Amad Diallo",
+            "Shea Lacey",
+            "Tyler Fletcher",
+            "Harry Amass"
           ]
         }
       },
@@ -2500,11 +2390,11 @@
       }
     },
     {
-      "id": 17,
+      "id": 14,
       "title": "Villarreal – Napoli",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Champions League",
       "iconUrl": "https://cdn.livetv904.me/img/icons/cleag.gif",
       "iconAlt": "Champions League",
@@ -2518,9 +2408,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268960&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.234Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:30.909Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 2,
@@ -2528,9 +2418,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=270016&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.238Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:30.930Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 3,
@@ -2538,9 +2428,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=270115&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.271Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:30.940Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 4,
@@ -2549,7 +2439,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.288Z",
+          "healthCheckedAt": "2026-10-13T20:59:30.973Z",
           "healthHttpStatus": 200
         },
         {
@@ -2559,7 +2449,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.288Z",
+          "healthCheckedAt": "2026-10-13T20:59:31.454Z",
           "healthHttpStatus": 200
         },
         {
@@ -2569,7 +2459,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.335Z",
+          "healthCheckedAt": "2026-10-13T20:59:31.570Z",
           "healthHttpStatus": 200
         },
         {
@@ -2579,7 +2469,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.393Z",
+          "healthCheckedAt": "2026-10-13T20:59:31.660Z",
           "healthHttpStatus": 200
         },
         {
@@ -2588,9 +2478,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268619&w=700&h=480",
           "language": "Serbian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.398Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:31.740Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 9,
@@ -2598,9 +2488,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269035&w=700&h=480",
           "language": "Arabic",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.406Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:42.024Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 10,
@@ -2608,9 +2498,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269806&w=700&h=480",
           "language": "Greek",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.407Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:42.024Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 11,
@@ -2618,9 +2508,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=100885&w=700&h=480",
           "language": "Italian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.415Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:42.367Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 12,
@@ -2628,9 +2518,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=212070&w=700&h=480",
           "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.415Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:42.367Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 13,
@@ -2638,9 +2528,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=241987&w=700&h=480",
           "language": null,
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.452Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:42.918Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 14,
@@ -2648,9 +2538,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=242315&w=700&h=480",
           "language": "Russian",
           "bitrate": "3000kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.484Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:42.933Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 15,
@@ -2658,9 +2548,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=265413&w=700&h=480",
           "language": "Spanish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.559Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:42.949Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 16,
@@ -2668,9 +2558,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269869&w=700&h=480",
           "language": "French",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.559Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:43.748Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 17,
@@ -2678,9 +2568,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=270093&w=700&h=480",
           "language": "Spanish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.564Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:54.032Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 18,
@@ -2688,9 +2578,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=270124&w=700&h=480",
           "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.574Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:54.033Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 19,
@@ -2699,7 +2589,7 @@
           "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.710Z",
+          "healthCheckedAt": "2026-10-13T20:59:54.377Z",
           "healthHttpStatus": 200
         },
         {
@@ -2709,7 +2599,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.717Z",
+          "healthCheckedAt": "2026-10-13T20:59:54.378Z",
           "healthHttpStatus": 200
         },
         {
@@ -2719,7 +2609,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.719Z",
+          "healthCheckedAt": "2026-10-13T20:59:54.461Z",
           "healthHttpStatus": 200
         },
         {
@@ -2729,7 +2619,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.724Z",
+          "healthCheckedAt": "2026-10-13T20:59:54.591Z",
           "healthHttpStatus": 200
         },
         {
@@ -2739,7 +2629,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.725Z",
+          "healthCheckedAt": "2026-10-13T20:59:54.703Z",
           "healthHttpStatus": 200
         },
         {
@@ -2749,7 +2639,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.788Z",
+          "healthCheckedAt": "2026-10-13T20:59:54.851Z",
           "healthHttpStatus": 200
         },
         {
@@ -2759,7 +2649,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.814Z",
+          "healthCheckedAt": "2026-10-13T20:59:54.910Z",
           "healthHttpStatus": 200
         },
         {
@@ -2769,7 +2659,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.838Z",
+          "healthCheckedAt": "2026-10-13T20:59:54.925Z",
           "healthHttpStatus": 200
         },
         {
@@ -2779,7 +2669,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.847Z",
+          "healthCheckedAt": "2026-10-13T20:59:54.940Z",
           "healthHttpStatus": 200
         },
         {
@@ -2789,7 +2679,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.868Z",
+          "healthCheckedAt": "2026-10-13T20:59:54.956Z",
           "healthHttpStatus": 200
         },
         {
@@ -2799,7 +2689,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.905Z",
+          "healthCheckedAt": "2026-10-13T20:59:54.989Z",
           "healthHttpStatus": 200
         },
         {
@@ -2809,7 +2699,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.916Z",
+          "healthCheckedAt": "2026-10-13T20:59:55.003Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2820,30 +2710,30 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/39.gif",
           "startingLineup": [
             "Luiz Junior",
+            "Gerard Moreno",
+            "Georges Mikautadze",
             "Pau Navarro",
             "Renato Veiga",
-            "Santiago Mourino",
+            "Nathan Saliba",
+            "Pape Gueye",
             "Carlos Romero",
             "Alberto Moleiro",
             "Santi Comesana",
-            "Pape Gueye",
-            "Gerard Moreno",
-            "Georges Mikautadze",
-            "Nathan Saliba"
+            "Santiago Mourino"
           ],
           "substitutes": [
-            "Tani Oluwaseyi",
             "Ayoze Perez",
             "Sergi Cardona",
             "Nizar El Jmili",
+            "Logan Costa",
+            "Alex Freeman",
+            "Alassane Diatta",
+            "Juan Foyth",
             "Joselillo Gaitan",
             "Ilias Akhomach",
-            "Juan Foyth",
-            "Alassane Diatta",
             "Ruben Gomez",
             "Carlos Macia",
-            "Logan Costa",
-            "Alex Freeman"
+            "Tani Oluwaseyi"
           ]
         },
         "away": {
@@ -2851,32 +2741,41 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/36752.gif",
           "startingLineup": [
             "Vanja",
-            "Rasmus Hoejlund",
-            "Giovanni Di Lorenzo",
-            "Matteo Politano",
-            "Kevin De Bruyne",
             "Giovane Nascimento",
-            "Billy Gilmour",
-            "Rafa Marin",
-            "Scott McTominay",
+            "Giovanni Di Lorenzo",
+            "Rasmus Hoejlund",
             "Benoit Badiashile",
-            "Amir Rrahmani"
+            "Amir Rrahmani",
+            "Rafa Marin",
+            "Billy Gilmour",
+            "Scott McTominay",
+            "Kevin De Bruyne",
+            "Matteo Politano"
           ],
           "substitutes": [
+            "Stanislav Lobotka",
+            "Leonardo Spinazzola",
+            "Sam Beukema",
+            "Noa Lang",
+            "Nikita Contini",
             "David Neres",
             "Alex Meret",
-            "Nikita Contini",
-            "Lorenzo Lucca",
-            "Sam Beukema",
-            "Leonardo Spinazzola",
-            "Stanislav Lobotka",
-            "Noa Lang"
+            "Lorenzo Lucca"
           ]
         }
       },
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700000099/700000068/1_b2da0/",
         "matches": [
+          {
+            "date": "13/10",
+            "competition": "Champions League",
+            "homeTeam": "Villarreal",
+            "awayTeam": "Napoli",
+            "score": "3:1",
+            "result": "W",
+            "winner": "home"
+          },
           {
             "date": "17/12",
             "competition": "Friendly Match",
@@ -2892,6 +2791,13 @@
         "form": {
           "home": {
             "matches": [
+              {
+                "date": "13/10",
+                "competition": "Champions League",
+                "opponent": "Napoli",
+                "score": "3:1",
+                "result": "W"
+              },
               {
                 "date": "10/10",
                 "competition": "Primera Division",
@@ -2919,23 +2825,23 @@
                 "opponent": "Real Betis",
                 "score": "1:2",
                 "result": "L"
-              },
-              {
-                "date": "08/09",
-                "competition": "Champions League",
-                "opponent": "Dortmund",
-                "score": "2:3",
-                "result": "L"
               }
             ],
             "summary": {
-              "W": 2,
+              "W": 3,
               "D": 0,
-              "L": 3
+              "L": 2
             }
           },
           "away": {
             "matches": [
+              {
+                "date": "13/10",
+                "competition": "Champions League",
+                "opponent": "Villarreal",
+                "score": "1:3",
+                "result": "L"
+              },
               {
                 "date": "10/10",
                 "competition": "Primera Division",
@@ -2963,13 +2869,6 @@
                 "opponent": "Villarreal",
                 "score": "2:1",
                 "result": "W"
-              },
-              {
-                "date": "08/09",
-                "competition": "Champions League",
-                "opponent": "Dortmund",
-                "score": "2:3",
-                "result": "L"
               }
             ],
             "summary": {
@@ -2982,7 +2881,7 @@
       }
     },
     {
-      "id": 18,
+      "id": 15,
       "title": "Viking – Bayern Munich",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -3000,9 +2899,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268835&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.932Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:55.033Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 2,
@@ -3011,7 +2910,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.932Z",
+          "healthCheckedAt": "2026-10-13T20:59:55.033Z",
           "healthHttpStatus": 200
         },
         {
@@ -3021,7 +2920,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.943Z",
+          "healthCheckedAt": "2026-10-13T20:59:55.043Z",
           "healthHttpStatus": 200
         },
         {
@@ -3031,7 +2930,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.960Z",
+          "healthCheckedAt": "2026-10-13T20:59:55.081Z",
           "healthHttpStatus": 200
         },
         {
@@ -3041,7 +2940,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:44.961Z",
+          "healthCheckedAt": "2026-10-13T20:59:55.101Z",
           "healthHttpStatus": 200
         },
         {
@@ -3051,28 +2950,28 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.012Z",
+          "healthCheckedAt": "2026-10-13T20:59:55.123Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
           "label": "Stream 9",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269467&w=700&h=480",
-          "language": "Turkish",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268618&w=700&h=480",
+          "language": "Serbian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.028Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:55.128Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 8,
           "label": "Stream 11",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268618&w=700&h=480",
-          "language": "Serbian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269467&w=700&h=480",
+          "language": "Turkish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.033Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:55.161Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 9,
@@ -3080,9 +2979,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269831&w=700&h=480",
           "language": "Hebrew",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.038Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:55.171Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 10,
@@ -3090,9 +2989,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=203406&w=700&h=480",
           "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.050Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:55.192Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 11,
@@ -3100,9 +2999,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=205207&w=700&h=480",
           "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.055Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T20:59:55.754Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 12,
@@ -3110,9 +3009,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=210132&w=700&h=480",
           "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.088Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:06.044Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 13,
@@ -3120,9 +3019,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=219829&w=700&h=480",
           "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.090Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:06.045Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 14,
@@ -3130,9 +3029,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=227624&w=700&h=480",
           "language": "German",
           "bitrate": "2700kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.157Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:07.038Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 15,
@@ -3140,9 +3039,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=237230&w=700&h=480",
           "language": "Russian",
           "bitrate": "2500kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.177Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:07.132Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 16,
@@ -3150,9 +3049,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=242312&w=700&h=480",
           "language": "Russian",
           "bitrate": "3000kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.178Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:07.164Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 17,
@@ -3160,9 +3059,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=267003&w=700&h=480",
           "language": "Russian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.198Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:07.180Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 18,
@@ -3170,9 +3069,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269179&w=700&h=480",
           "language": "Greek",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.214Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:07.196Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 19,
@@ -3180,9 +3079,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269722&w=700&h=480",
           "language": "Swedish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.348Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:07.764Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 20,
@@ -3190,9 +3089,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269774&w=700&h=480",
           "language": null,
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.388Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:18.055Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 21,
@@ -3200,9 +3099,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269939&w=700&h=480",
           "language": "French",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.513Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:18.056Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 22,
@@ -3210,9 +3109,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=270095&w=700&h=480",
           "language": "Spanish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.556Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:19.046Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 23,
@@ -3220,9 +3119,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=270133&w=700&h=480",
           "language": null,
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.593Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:19.141Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 24,
@@ -3230,9 +3129,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=270145&w=700&h=480",
           "language": "Swedish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.604Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:19.172Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 25,
@@ -3240,9 +3139,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=270152&w=700&h=480",
           "language": "Czech",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.657Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:19.188Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 26,
@@ -3251,7 +3150,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.679Z",
+          "healthCheckedAt": "2026-10-13T21:00:19.204Z",
           "healthHttpStatus": 200
         },
         {
@@ -3261,7 +3160,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.695Z",
+          "healthCheckedAt": "2026-10-13T21:00:19.302Z",
           "healthHttpStatus": 200
         },
         {
@@ -3271,7 +3170,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.696Z",
+          "healthCheckedAt": "2026-10-13T21:00:19.420Z",
           "healthHttpStatus": 200
         },
         {
@@ -3281,7 +3180,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.737Z",
+          "healthCheckedAt": "2026-10-13T21:00:19.714Z",
           "healthHttpStatus": 200
         },
         {
@@ -3291,7 +3190,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.753Z",
+          "healthCheckedAt": "2026-10-13T21:00:19.765Z",
           "healthHttpStatus": 200
         },
         {
@@ -3301,7 +3200,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.764Z",
+          "healthCheckedAt": "2026-10-13T21:00:19.793Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3312,7 +3211,7 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/30230.gif",
           "startingLineup": [
             "Arild Oestboe",
-            "Henrik Falchener",
+            "Erik Botheim",
             "Kristoffer Haugen",
             "Kristoffer Askildsen",
             "Joe Bell",
@@ -3320,22 +3219,22 @@
             "Zlatko Tripic",
             "Peter Christiansen",
             "Henrik Heggheim",
-            "Erik Botheim",
-            "Gianni Stensness"
+            "Gianni Stensness",
+            "Henrik Falchener"
           ],
           "substitutes": [
+            "Herman Haugen",
+            "Viljar Vevatne",
+            "Romano Postema",
+            "Essien Bassey",
+            "Amin Cosic",
+            "Niklas Fuglestad",
             "Vetle Auklend",
             "Simen Kvia-Egeskog",
             "Jesper Daland",
             "Tobias Moi",
             "Lubomir Belko",
-            "Niklas Fuglestad",
-            "Amin Cosic",
-            "Essien Bassey",
-            "Jakob Segadal Hansen",
-            "Herman Haugen",
-            "Viljar Vevatne",
-            "Romano Postema"
+            "Jakob Segadal Hansen"
           ]
         },
         "away": {
@@ -3343,41 +3242,41 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/9.gif",
           "startingLineup": [
             "Jonas Urbig",
-            "Harry Kane",
             "Lennart Karl",
-            "Michael Olise",
+            "Konrad Laimer",
             "Joshua Kimmich",
             "Tom Bischof",
             "Luis Diaz",
-            "Min-Jae Kim",
-            "Jonathan Tah",
+            "Michael Olise",
+            "Harry Kane",
             "Nathaniel Brown",
-            "Konrad Laimer"
+            "Jonathan Tah",
+            "Min-Jae Kim"
           ],
           "substitutes": [
-            "Sacha Boey",
+            "Aleksandar Pavlovic",
+            "Josip Stanisic",
+            "Bara Ndiaye",
             "Manuel Neuer",
             "Dayot Upamecano",
             "Serge Gnabry",
             "Alphonso Davies",
             "Hiroki Ito",
+            "Sacha Boey",
             "Sven Ulreich",
             "Ismael Saibari",
-            "David Podar-Stiube",
-            "Bara Ndiaye",
-            "Josip Stanisic",
-            "Aleksandar Pavlovic"
+            "David Podar-Stiube"
           ]
         }
       },
       "headToHead": null
     },
     {
-      "id": 19,
+      "id": 16,
       "title": "Arsenal – Lille",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Champions League",
       "iconUrl": "https://cdn.livetv904.me/img/icons/cleag.gif",
       "iconAlt": "Champions League",
@@ -3391,9 +3290,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269484&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.765Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:19.846Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 2,
@@ -3401,9 +3300,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=270113&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.775Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:19.926Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 3,
@@ -3411,9 +3310,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269037&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.796Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:30.065Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 4,
@@ -3421,9 +3320,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269038&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.806Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:30.065Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 5,
@@ -3432,7 +3331,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.814Z",
+          "healthCheckedAt": "2026-10-13T21:00:31.052Z",
           "healthHttpStatus": 200
         },
         {
@@ -3442,7 +3341,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.823Z",
+          "healthCheckedAt": "2026-10-13T21:00:31.145Z",
           "healthHttpStatus": 200
         },
         {
@@ -3452,7 +3351,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.849Z",
+          "healthCheckedAt": "2026-10-13T21:00:31.176Z",
           "healthHttpStatus": 200
         },
         {
@@ -3462,7 +3361,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.871Z",
+          "healthCheckedAt": "2026-10-13T21:00:31.192Z",
           "healthHttpStatus": 200
         },
         {
@@ -3471,9 +3370,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268610&w=700&h=480",
           "language": "Serbian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.919Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:31.245Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 10,
@@ -3481,9 +3380,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268611&w=700&h=480",
           "language": "Serbian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.945Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:31.256Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 11,
@@ -3491,9 +3390,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269039&w=700&h=480",
           "language": "Hebrew",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.947Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:31.266Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 12,
@@ -3501,169 +3400,169 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269584&w=700&h=480",
           "language": "Dutch",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.947Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:31.537Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 13,
           "label": "Stream 22",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268971&w=700&h=480",
-          "language": null,
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=235596&w=700&h=480",
+          "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.947Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:31.848Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 14,
           "label": "Stream 24",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270132&w=700&h=480",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.947Z",
-          "healthHttpStatus": 200
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=237242&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2000kbps",
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:31.928Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 15,
           "label": "Stream 26",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=235596&w=700&h=480",
-          "language": "German",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:45.956Z",
-          "healthHttpStatus": 200
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=242328&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "5000kbps",
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:42.068Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 16,
           "label": "Stream 28",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=237242&w=700&h=480",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=258019&w=700&h=480",
           "language": "Russian",
-          "bitrate": "2000kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.073Z",
-          "healthHttpStatus": 200
+          "bitrate": "4000kbps",
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:42.069Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 17,
           "label": "Stream 30",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=242328&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "5000kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.116Z",
-          "healthHttpStatus": 200
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=260255&w=700&h=480",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:43.258Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 18,
           "label": "Stream 32",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=258019&w=700&h=480",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=261888&w=700&h=480",
           "language": "Russian",
-          "bitrate": "4000kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.126Z",
-          "healthHttpStatus": 200
+          "bitrate": null,
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:43.258Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 19,
           "label": "Stream 34",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=260255&w=700&h=480",
-          "language": "French",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268590&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.127Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:43.273Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 20,
           "label": "Stream 36",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=261888&w=700&h=480",
-          "language": "Russian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268702&w=700&h=480",
+          "language": "Czech",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.159Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:43.539Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 21,
           "label": "Stream 38",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268590&w=700&h=480",
-          "language": "Greek",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268708&w=700&h=480",
+          "language": "Czech",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.163Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:43.851Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 22,
           "label": "Stream 40",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268702&w=700&h=480",
-          "language": "Czech",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268786&w=700&h=480",
+          "language": "French",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.164Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:43.931Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 23,
           "label": "Stream 42",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268708&w=700&h=480",
-          "language": "Czech",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268971&w=700&h=480",
+          "language": null,
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.288Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:54.076Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 24,
           "label": "Stream 44",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268786&w=700&h=480",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269530&w=700&h=480",
           "language": "French",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.316Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:54.077Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 25,
           "label": "Stream 46",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269530&w=700&h=480",
-          "language": "French",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269801&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.318Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:55.270Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 26,
           "label": "Stream 48",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269801&w=700&h=480",
-          "language": "Greek",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=270092&w=700&h=480",
+          "language": "Spanish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.319Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:55.270Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 27,
           "label": "Stream 50",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270092&w=700&h=480",
-          "language": "Spanish",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=270123&w=700&h=480",
+          "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.324Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:55.285Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 28,
           "label": "Stream 52",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=270123&w=700&h=480",
-          "language": "German",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=270132&w=700&h=480",
+          "language": null,
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.452Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:55.551Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 29,
@@ -3672,7 +3571,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.457Z",
+          "healthCheckedAt": "2026-10-13T21:00:55.864Z",
           "healthHttpStatus": 200
         },
         {
@@ -3682,7 +3581,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.468Z",
+          "healthCheckedAt": "2026-10-13T21:00:55.942Z",
           "healthHttpStatus": 200
         },
         {
@@ -3692,7 +3591,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.468Z",
+          "healthCheckedAt": "2026-10-13T21:00:56.307Z",
           "healthHttpStatus": 200
         },
         {
@@ -3702,7 +3601,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.484Z",
+          "healthCheckedAt": "2026-10-13T21:00:56.434Z",
           "healthHttpStatus": 200
         },
         {
@@ -3712,7 +3611,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.543Z",
+          "healthCheckedAt": "2026-10-13T21:00:56.447Z",
           "healthHttpStatus": 200
         },
         {
@@ -3722,7 +3621,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.564Z",
+          "healthCheckedAt": "2026-10-13T21:00:56.507Z",
           "healthHttpStatus": 200
         },
         {
@@ -3732,7 +3631,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.586Z",
+          "healthCheckedAt": "2026-10-13T21:00:56.518Z",
           "healthHttpStatus": 200
         },
         {
@@ -3742,7 +3641,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.607Z",
+          "healthCheckedAt": "2026-10-13T21:00:56.582Z",
           "healthHttpStatus": 200
         },
         {
@@ -3752,7 +3651,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.624Z",
+          "healthCheckedAt": "2026-10-13T21:00:56.583Z",
           "healthHttpStatus": 200
         },
         {
@@ -3762,7 +3661,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.633Z",
+          "healthCheckedAt": "2026-10-13T21:00:56.694Z",
           "healthHttpStatus": 200
         },
         {
@@ -3772,7 +3671,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.656Z",
+          "healthCheckedAt": "2026-10-13T21:00:56.715Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3783,30 +3682,30 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/142.gif",
           "startingLineup": [
             "David Raya",
-            "Viktor Gyoekeres",
-            "Gabriel",
-            "Ezri Konsa",
-            "Eberechi Eze",
-            "Declan Rice",
-            "Jurrien Timber",
-            "Noni Madueke",
-            "Myles Lewis-Skelly",
             "Mikel Merino",
-            "Bruno Guimaraes"
+            "Bruno Guimaraes",
+            "Declan Rice",
+            "Viktor Gyoekeres",
+            "Noni Madueke",
+            "Ezri Konsa",
+            "Myles Lewis-Skelly",
+            "Eberechi Eze",
+            "Gabriel",
+            "Jurrien Timber"
           ],
           "substitutes": [
-            "Illan Meslier",
-            "Ben White",
             "Cristhian Mosquera",
-            "Ceadach O’Neill",
+            "Ben White",
             "Bukayo Saka",
-            "Kai Havertz",
-            "Riccardo Calafiori",
-            "Max Dowman",
             "Martin Oedegaard",
-            "Marli Salmon",
+            "Kepa Arrizabalaga",
+            "Kai Havertz",
+            "Illan Meslier",
+            "Riccardo Calafiori",
+            "Ceadach O’Neill",
+            "Max Dowman",
             "Maalik Hashi",
-            "Kepa Arrizabalaga"
+            "Marli Salmon"
           ]
         },
         "away": {
@@ -3814,37 +3713,142 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/123.gif",
           "startingLineup": [
             "Berke Ozer",
-            "Hakon Arnar",
-            "Dilane Bakwa",
-            "Benjamin Andre",
-            "Maxima Goffi",
-            "Nabil Bentaleb",
-            "Romain Perraud",
-            "Ngal Ayel Mukau",
-            "Nathan Ngoy",
             "Ayase Ueda",
+            "Hakon Arnar",
+            "Nabil Bentaleb",
+            "Ngal Ayel Mukau",
+            "Benjamin Andre",
+            "Dilane Bakwa",
+            "Maxima Goffi",
+            "Romain Perraud",
+            "Nathan Ngoy",
             "Alexsandro Ribeiro"
           ],
           "substitutes": [
-            "Loun Srdanovic",
-            "Isaac Cossier",
-            "Gaetan Perrin",
-            "Calvin Verdonk",
-            "Basar Onal",
-            "Maurits Kjaergaard",
             "Thomas Sajous",
-            "Tanguy Nianzou",
             "Soriba Diaoune",
+            "Gaetan Perrin",
+            "Loun Srdanovic",
+            "Olivier Giroud",
             "Osame Sahraoui",
             "Orlando Gill",
-            "Olivier Giroud"
+            "Maurits Kjaergaard",
+            "Basar Onal",
+            "Tanguy Nianzou",
+            "Calvin Verdonk",
+            "Isaac Cossier"
           ]
         }
       },
-      "headToHead": null
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000172/700000041/1_83882/",
+        "matches": [
+          {
+            "date": "13/10",
+            "competition": "Champions League",
+            "homeTeam": "Arsenal",
+            "awayTeam": "Lille",
+            "score": "3:0",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Arsenal",
+        "awayTeam": "Lille",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "Premier League",
+                "opponent": "Leeds Utd",
+                "score": "2:1",
+                "result": "W"
+              },
+              {
+                "date": "19/09",
+                "competition": "Premier League",
+                "opponent": "Brighton",
+                "score": "0:3",
+                "result": "L"
+              },
+              {
+                "date": "15/09",
+                "competition": "League Cup",
+                "opponent": "Ipswich Town",
+                "score": "4:2",
+                "result": "W"
+              },
+              {
+                "date": "12/09",
+                "competition": "Premier League",
+                "opponent": "Sunderland",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "09/09",
+                "competition": "Champions League",
+                "opponent": "Napoli",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 4,
+              "D": 0,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "Premier League",
+                "opponent": "Arsenal",
+                "score": "1:2",
+                "result": "L"
+              },
+              {
+                "date": "19/09",
+                "competition": "Premier League",
+                "opponent": "Brighton",
+                "score": "0:3",
+                "result": "L"
+              },
+              {
+                "date": "15/09",
+                "competition": "League Cup",
+                "opponent": "Ipswich Town",
+                "score": "4:2",
+                "result": "W"
+              },
+              {
+                "date": "12/09",
+                "competition": "Premier League",
+                "opponent": "Sunderland",
+                "score": "2:0",
+                "result": "W"
+              },
+              {
+                "date": "09/09",
+                "competition": "Champions League",
+                "opponent": "Napoli",
+                "score": "1:0",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      }
     },
     {
-      "id": 20,
+      "id": 17,
       "title": "RB Leipzig – PSV",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -3862,9 +3866,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269056&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.656Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:56.806Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 2,
@@ -3872,9 +3876,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=202895&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.657Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:00:56.822Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 3,
@@ -3883,7 +3887,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.714Z",
+          "healthCheckedAt": "2026-10-13T21:01:06.082Z",
           "healthHttpStatus": 200
         },
         {
@@ -3893,7 +3897,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.736Z",
+          "healthCheckedAt": "2026-10-13T21:01:06.083Z",
           "healthHttpStatus": 200
         },
         {
@@ -3903,7 +3907,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.745Z",
+          "healthCheckedAt": "2026-10-13T21:01:06.575Z",
           "healthHttpStatus": 200
         },
         {
@@ -3913,7 +3917,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.759Z",
+          "healthCheckedAt": "2026-10-13T21:01:06.689Z",
           "healthHttpStatus": 200
         },
         {
@@ -3923,7 +3927,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.814Z",
+          "healthCheckedAt": "2026-10-13T21:01:06.758Z",
           "healthHttpStatus": 200
         },
         {
@@ -3933,7 +3937,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.837Z",
+          "healthCheckedAt": "2026-10-13T21:01:06.822Z",
           "healthHttpStatus": 200
         },
         {
@@ -3943,7 +3947,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.863Z",
+          "healthCheckedAt": "2026-10-13T21:01:07.277Z",
           "healthHttpStatus": 200
         },
         {
@@ -3953,7 +3957,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.863Z",
+          "healthCheckedAt": "2026-10-13T21:01:07.278Z",
           "healthHttpStatus": 200
         },
         {
@@ -3963,7 +3967,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.873Z",
+          "healthCheckedAt": "2026-10-13T21:01:07.293Z",
           "healthHttpStatus": 200
         },
         {
@@ -3972,9 +3976,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=205207&w=700&h=480",
           "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.890Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:07.558Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 13,
@@ -3982,9 +3986,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=211393&w=700&h=480",
           "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.997Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:08.818Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 14,
@@ -3993,7 +3997,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:46.999Z",
+          "healthCheckedAt": "2026-10-13T21:01:08.832Z",
           "healthHttpStatus": 200
         },
         {
@@ -4002,9 +4006,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=247869&w=700&h=480",
           "language": "Dutch",
           "bitrate": "1469kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.007Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:09.018Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 16,
@@ -4012,9 +4016,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268757&w=700&h=480",
           "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.010Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:09.039Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 17,
@@ -4022,9 +4026,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269003&w=700&h=480",
           "language": "Dutch",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.023Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:09.332Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 18,
@@ -4033,7 +4037,7 @@
           "language": "Norvegian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.033Z",
+          "healthCheckedAt": "2026-10-13T21:01:10.511Z",
           "healthHttpStatus": 200
         },
         {
@@ -4043,7 +4047,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.160Z",
+          "healthCheckedAt": "2026-10-13T21:01:10.521Z",
           "healthHttpStatus": 200
         },
         {
@@ -4052,9 +4056,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269605&w=700&h=480",
           "language": "Norvegian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.168Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:10.522Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 21,
@@ -4062,9 +4066,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=270097&w=700&h=480",
           "language": null,
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.168Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:10.681Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 22,
@@ -4072,9 +4076,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=270101&w=700&h=480",
           "language": "Spanish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.168Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:10.691Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 23,
@@ -4083,7 +4087,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.177Z",
+          "healthCheckedAt": "2026-10-13T21:01:19.562Z",
           "healthHttpStatus": 200
         },
         {
@@ -4093,7 +4097,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.215Z",
+          "healthCheckedAt": "2026-10-13T21:01:19.732Z",
           "healthHttpStatus": 200
         },
         {
@@ -4103,7 +4107,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.263Z",
+          "healthCheckedAt": "2026-10-13T21:01:20.186Z",
           "healthHttpStatus": 200
         },
         {
@@ -4113,7 +4117,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.333Z",
+          "healthCheckedAt": "2026-10-13T21:01:20.585Z",
           "healthHttpStatus": 200
         },
         {
@@ -4123,7 +4127,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.333Z",
+          "healthCheckedAt": "2026-10-13T21:01:20.698Z",
           "healthHttpStatus": 200
         },
         {
@@ -4133,7 +4137,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.333Z",
+          "healthCheckedAt": "2026-10-13T21:01:20.772Z",
           "healthHttpStatus": 200
         },
         {
@@ -4143,7 +4147,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.337Z",
+          "healthCheckedAt": "2026-10-13T21:01:20.832Z",
           "healthHttpStatus": 200
         },
         {
@@ -4153,7 +4157,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.337Z",
+          "healthCheckedAt": "2026-10-13T21:01:20.841Z",
           "healthHttpStatus": 200
         },
         {
@@ -4163,7 +4167,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.447Z",
+          "healthCheckedAt": "2026-10-13T21:01:20.899Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4177,20 +4181,20 @@
             "Romulo Cruz",
             "Christopher Nkunku",
             "Neil El Aynaoui",
+            "Brajan Gruda",
+            "Antonio Nusa",
+            "Willi Orban",
             "Ridle Baku",
             "David Raum",
             "Castello Lukeba",
-            "Ezechiel Banzuzi",
-            "Antonio Nusa",
-            "Brajan Gruda",
-            "Willi Orban"
+            "Ezechiel Banzuzi"
           ],
           "substitutes": [
-            "Oerjan Haaskjold",
-            "Abdoul Kone",
-            "Maxime Esteve",
             "Johan Bakayoko",
+            "Maxime Esteve",
+            "Abdoul Kone",
             "Nicolas Seiwald",
+            "Oerjan Haaskjold",
             "Lukas Klostermann",
             "Rocco Reitz",
             "Tidiam Gomis",
@@ -4204,16 +4208,16 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/472.gif",
           "startingLineup": [
             "Matej Kovar",
-            "Sven Mijnans",
-            "Kodai Sano",
             "Guus Til",
+            "Kodai Sano",
+            "Sven Mijnans",
+            "Mauro Junior",
+            "Ruben van Bommel",
+            "Ivan Perisic",
             "Lutsharel Geertruida",
             "Armando Obispo",
             "Sergino Dest",
-            "Filip Kostic",
-            "Ivan Perisic",
-            "Ruben van Bommel",
-            "Mauro Junior"
+            "Filip Kostic"
           ],
           "substitutes": [
             "Noah Fernandez",
@@ -4221,19 +4225,124 @@
             "Amir Bouhamdi",
             "Shuryjano Cornecion",
             "Tijn Smolenaars",
+            "Yarek Gasiorowski",
             "Ryan Flamingo",
             "Esmir Bajraktarevic",
             "Mikkel Bro",
             "Dennis Man",
-            "Nick Olij",
-            "Yarek Gasiorowski"
+            "Nick Olij"
           ]
         }
       },
-      "headToHead": null
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000028/700000233/1_17c43/",
+        "matches": [
+          {
+            "date": "13/10",
+            "competition": "Champions League",
+            "homeTeam": "RB Leipzig",
+            "awayTeam": "PSV",
+            "score": "1:0",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "RB Leipzig",
+        "awayTeam": "PSV",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "Bundesliga",
+                "opponent": "Eintracht",
+                "score": "6:0",
+                "result": "W"
+              },
+              {
+                "date": "20/09",
+                "competition": "Bundesliga",
+                "opponent": "Leverkusen",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "13/09",
+                "competition": "Bundesliga",
+                "opponent": "Hamburg",
+                "score": "5:0",
+                "result": "W"
+              },
+              {
+                "date": "10/09",
+                "competition": "Champions League",
+                "opponent": "Como",
+                "score": "1:4",
+                "result": "L"
+              },
+              {
+                "date": "05/09",
+                "competition": "Bundesliga",
+                "opponent": "Werder Bremen",
+                "score": "1:3",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "10/10",
+                "competition": "Bundesliga",
+                "opponent": "RB Leipzig",
+                "score": "0:6",
+                "result": "L"
+              },
+              {
+                "date": "20/09",
+                "competition": "Bundesliga",
+                "opponent": "Leverkusen",
+                "score": "0:2",
+                "result": "L"
+              },
+              {
+                "date": "13/09",
+                "competition": "Bundesliga",
+                "opponent": "RB Leipzig",
+                "score": "0:5",
+                "result": "L"
+              },
+              {
+                "date": "10/09",
+                "competition": "Champions League",
+                "opponent": "Como",
+                "score": "1:4",
+                "result": "L"
+              },
+              {
+                "date": "05/09",
+                "competition": "Bundesliga",
+                "opponent": "Werder Bremen",
+                "score": "1:3",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 0,
+              "L": 5
+            }
+          }
+        }
+      }
     },
     {
-      "id": 21,
+      "id": 18,
       "title": "Inter – Brugge",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
@@ -4251,9 +4360,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268836&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.488Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:20.910Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 2,
@@ -4262,7 +4371,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.488Z",
+          "healthCheckedAt": "2026-10-13T21:01:20.969Z",
           "healthHttpStatus": 200
         },
         {
@@ -4271,9 +4380,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=195589&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.488Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:21.021Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 4,
@@ -4282,7 +4391,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.489Z",
+          "healthCheckedAt": "2026-10-13T21:01:21.052Z",
           "healthHttpStatus": 200
         },
         {
@@ -4292,7 +4401,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.535Z",
+          "healthCheckedAt": "2026-10-13T21:01:21.162Z",
           "healthHttpStatus": 200
         },
         {
@@ -4302,7 +4411,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.584Z",
+          "healthCheckedAt": "2026-10-13T21:01:21.172Z",
           "healthHttpStatus": 200
         },
         {
@@ -4312,7 +4421,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.604Z",
+          "healthCheckedAt": "2026-10-13T21:01:21.230Z",
           "healthHttpStatus": 200
         },
         {
@@ -4321,9 +4430,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268645&w=700&h=480",
           "language": "Croatian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.615Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:21.251Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 9,
@@ -4331,9 +4440,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268782&w=700&h=480",
           "language": "Italian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.647Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:21.333Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 10,
@@ -4342,7 +4451,7 @@
           "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.650Z",
+          "healthCheckedAt": "2026-10-13T21:01:21.401Z",
           "healthHttpStatus": 200
         },
         {
@@ -4352,7 +4461,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.684Z",
+          "healthCheckedAt": "2026-10-13T21:01:21.577Z",
           "healthHttpStatus": 200
         },
         {
@@ -4361,9 +4470,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=210034&w=700&h=480",
           "language": "Italian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.684Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:21.758Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 13,
@@ -4372,7 +4481,7 @@
           "language": "Russian",
           "bitrate": "3000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.700Z",
+          "healthCheckedAt": "2026-10-13T21:01:22.525Z",
           "healthHttpStatus": 200
         },
         {
@@ -4382,7 +4491,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.720Z",
+          "healthCheckedAt": "2026-10-13T21:01:22.682Z",
           "healthHttpStatus": 200
         },
         {
@@ -4392,7 +4501,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.742Z",
+          "healthCheckedAt": "2026-10-13T21:01:22.693Z",
           "healthHttpStatus": 200
         },
         {
@@ -4402,7 +4511,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.758Z",
+          "healthCheckedAt": "2026-10-13T21:01:22.697Z",
           "healthHttpStatus": 200
         },
         {
@@ -4412,7 +4521,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.812Z",
+          "healthCheckedAt": "2026-10-13T21:01:22.866Z",
           "healthHttpStatus": 200
         },
         {
@@ -4422,7 +4531,7 @@
           "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.822Z",
+          "healthCheckedAt": "2026-10-13T21:01:22.902Z",
           "healthHttpStatus": 200
         },
         {
@@ -4432,7 +4541,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.827Z",
+          "healthCheckedAt": "2026-10-13T21:01:22.902Z",
           "healthHttpStatus": 200
         },
         {
@@ -4442,7 +4551,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.833Z",
+          "healthCheckedAt": "2026-10-13T21:01:23.053Z",
           "healthHttpStatus": 200
         },
         {
@@ -4452,7 +4561,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.865Z",
+          "healthCheckedAt": "2026-10-13T21:01:23.094Z",
           "healthHttpStatus": 200
         },
         {
@@ -4462,7 +4571,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.887Z",
+          "healthCheckedAt": "2026-10-13T21:01:23.094Z",
           "healthHttpStatus": 200
         },
         {
@@ -4472,7 +4581,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.951Z",
+          "healthCheckedAt": "2026-10-13T21:01:23.207Z",
           "healthHttpStatus": 200
         },
         {
@@ -4482,7 +4591,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.972Z",
+          "healthCheckedAt": "2026-10-13T21:01:23.229Z",
           "healthHttpStatus": 200
         },
         {
@@ -4492,7 +4601,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.977Z",
+          "healthCheckedAt": "2026-10-13T21:01:23.269Z",
           "healthHttpStatus": 200
         },
         {
@@ -4502,7 +4611,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.978Z",
+          "healthCheckedAt": "2026-10-13T21:01:23.342Z",
           "healthHttpStatus": 200
         },
         {
@@ -4512,7 +4621,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:47.987Z",
+          "healthCheckedAt": "2026-10-13T21:01:23.386Z",
           "healthHttpStatus": 200
         },
         {
@@ -4522,7 +4631,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.010Z",
+          "healthCheckedAt": "2026-10-13T21:01:23.389Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4594,11 +4703,11 @@
       "headToHead": null
     },
     {
-      "id": 22,
+      "id": 19,
       "title": "Galatasaray – Barcelona",
       "dateLabel": "13 October",
       "timeLabel": "20:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Champions League",
       "iconUrl": "https://cdn.livetv904.me/img/icons/cleag.gif",
       "iconAlt": "Champions League",
@@ -4612,9 +4721,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=268758&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.014Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:23.414Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 2,
@@ -4622,9 +4731,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=210723&w=700&h=480",
           "language": "English",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.015Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:23.454Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 3,
@@ -4633,7 +4742,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.037Z",
+          "healthCheckedAt": "2026-10-13T21:01:23.474Z",
           "healthHttpStatus": 200
         },
         {
@@ -4643,7 +4752,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.037Z",
+          "healthCheckedAt": "2026-10-13T21:01:23.914Z",
           "healthHttpStatus": 200
         },
         {
@@ -4653,7 +4762,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.037Z",
+          "healthCheckedAt": "2026-10-13T21:01:24.027Z",
           "healthHttpStatus": 200
         },
         {
@@ -4663,7 +4772,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.047Z",
+          "healthCheckedAt": "2026-10-13T21:01:24.098Z",
           "healthHttpStatus": 200
         },
         {
@@ -4673,7 +4782,7 @@
           "language": "Ukrainian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.106Z",
+          "healthCheckedAt": "2026-10-13T21:01:24.166Z",
           "healthHttpStatus": 200
         },
         {
@@ -4683,7 +4792,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.106Z",
+          "healthCheckedAt": "2026-10-13T21:01:24.329Z",
           "healthHttpStatus": 200
         },
         {
@@ -4692,9 +4801,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269084&w=700&h=480",
           "language": "Spanish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.122Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:24.497Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 10,
@@ -4702,9 +4811,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269087&w=700&h=480",
           "language": "Spanish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.154Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:32.917Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 11,
@@ -4712,9 +4821,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269582&w=700&h=480",
           "language": "Dutch",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.218Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:33.027Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 12,
@@ -4722,148 +4831,148 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269907&w=700&h=480",
           "language": "French",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.218Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:33.262Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 13,
           "label": "Stream 22",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269208&w=700&h=480",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=179999&w=700&h=480",
           "language": "Turkish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.265Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:33.340Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 14,
           "label": "Stream 24",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=179999&w=700&h=480",
-          "language": "Turkish",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=211069&w=700&h=480",
+          "language": "German",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.265Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:33.764Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 15,
           "label": "Stream 26",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=211069&w=700&h=480",
-          "language": "German",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.276Z",
-          "healthHttpStatus": 200
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=232729&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": "3000kbps",
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:35.417Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 16,
           "label": "Stream 28",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=232729&w=700&h=480",
-          "language": "Ukrainian",
-          "bitrate": "3000kbps",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=242313&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "5000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.306Z",
+          "healthCheckedAt": "2026-10-13T21:01:35.463Z",
           "healthHttpStatus": 200
         },
         {
           "id": 17,
           "label": "Stream 30",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=242313&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "5000kbps",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=247872&w=700&h=480",
+          "language": "Spanish",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.367Z",
+          "healthCheckedAt": "2026-10-13T21:01:36.058Z",
           "healthHttpStatus": 200
         },
         {
           "id": 18,
           "label": "Stream 32",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=247872&w=700&h=480",
-          "language": "Spanish",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=253248&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.368Z",
+          "healthCheckedAt": "2026-10-13T21:01:36.234Z",
           "healthHttpStatus": 200
         },
         {
           "id": 19,
           "label": "Stream 34",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=253248&w=700&h=480",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.426Z",
-          "healthHttpStatus": 200
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=258018&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "4000kbps",
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:36.398Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 20,
           "label": "Stream 36",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=258018&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "4000kbps",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=261185&w=700&h=480",
+          "language": "Spanish",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.426Z",
+          "healthCheckedAt": "2026-10-13T21:01:36.512Z",
           "healthHttpStatus": 200
         },
         {
           "id": 21,
           "label": "Stream 38",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=261185&w=700&h=480",
-          "language": "Spanish",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=261876&w=700&h=480",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.437Z",
+          "healthCheckedAt": "2026-10-13T21:01:36.685Z",
           "healthHttpStatus": 200
         },
         {
           "id": 22,
           "label": "Stream 40",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=261876&w=700&h=480",
-          "language": "Russian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=267870&w=700&h=480",
+          "language": "Spanish",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.468Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:36.849Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 23,
           "label": "Stream 42",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=267870&w=700&h=480",
-          "language": "Spanish",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=268777&w=700&h=480",
+          "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.473Z",
+          "healthCheckedAt": "2026-10-13T21:01:44.923Z",
           "healthHttpStatus": 200
         },
         {
           "id": 24,
           "label": "Stream 44",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=268777&w=700&h=480",
-          "language": "Italian",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269139&w=700&h=480",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.522Z",
+          "healthCheckedAt": "2026-10-13T21:01:45.031Z",
           "healthHttpStatus": 200
         },
         {
           "id": 25,
           "label": "Stream 46",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269139&w=700&h=480",
-          "language": "French",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269177&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.527Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:45.096Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 26,
           "label": "Stream 48",
-          "url": "https://emb.apl621.online/\nplayer/live.php?id=269177&w=700&h=480",
-          "language": "Greek",
+          "url": "https://emb.apl621.online/\nplayer/live.php?id=269208&w=700&h=480",
+          "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.597Z",
+          "healthCheckedAt": "2026-10-13T21:01:45.239Z",
           "healthHttpStatus": 200
         },
         {
@@ -4873,7 +4982,7 @@
           "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.601Z",
+          "healthCheckedAt": "2026-10-13T21:01:45.267Z",
           "healthHttpStatus": 200
         },
         {
@@ -4882,9 +4991,9 @@
           "url": "https://emb.apl621.online/\nplayer/live.php?id=269570&w=700&h=480",
           "language": "Romanian",
           "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.602Z",
-          "healthHttpStatus": 200
+          "healthStatus": "failed",
+          "healthCheckedAt": "2026-10-13T21:01:45.344Z",
+          "healthError": "This operation was aborted"
         },
         {
           "id": 29,
@@ -4893,7 +5002,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.618Z",
+          "healthCheckedAt": "2026-10-13T21:01:45.418Z",
           "healthHttpStatus": 200
         },
         {
@@ -4903,7 +5012,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.618Z",
+          "healthCheckedAt": "2026-10-13T21:01:45.467Z",
           "healthHttpStatus": 200
         },
         {
@@ -4913,7 +5022,7 @@
           "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.673Z",
+          "healthCheckedAt": "2026-10-13T21:01:45.579Z",
           "healthHttpStatus": 200
         },
         {
@@ -4923,7 +5032,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.693Z",
+          "healthCheckedAt": "2026-10-13T21:01:45.633Z",
           "healthHttpStatus": 200
         },
         {
@@ -4933,7 +5042,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.745Z",
+          "healthCheckedAt": "2026-10-13T21:01:45.647Z",
           "healthHttpStatus": 200
         },
         {
@@ -4943,7 +5052,7 @@
           "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.761Z",
+          "healthCheckedAt": "2026-10-13T21:01:45.768Z",
           "healthHttpStatus": 200
         },
         {
@@ -4953,7 +5062,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.767Z",
+          "healthCheckedAt": "2026-10-13T21:01:46.202Z",
           "healthHttpStatus": 200
         },
         {
@@ -4963,7 +5072,7 @@
           "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.767Z",
+          "healthCheckedAt": "2026-10-13T21:01:46.246Z",
           "healthHttpStatus": 200
         },
         {
@@ -4973,7 +5082,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.768Z",
+          "healthCheckedAt": "2026-10-13T21:01:46.310Z",
           "healthHttpStatus": 200
         },
         {
@@ -4983,7 +5092,7 @@
           "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.826Z",
+          "healthCheckedAt": "2026-10-13T21:01:46.364Z",
           "healthHttpStatus": 200
         },
         {
@@ -4993,7 +5102,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.857Z",
+          "healthCheckedAt": "2026-10-13T21:01:46.366Z",
           "healthHttpStatus": 200
         },
         {
@@ -5003,7 +5112,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.885Z",
+          "healthCheckedAt": "2026-10-13T21:01:46.383Z",
           "healthHttpStatus": 200
         },
         {
@@ -5013,7 +5122,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.932Z",
+          "healthCheckedAt": "2026-10-13T21:01:46.434Z",
           "healthHttpStatus": 200
         },
         {
@@ -5023,7 +5132,7 @@
           "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.953Z",
+          "healthCheckedAt": "2026-10-13T21:01:46.443Z",
           "healthHttpStatus": 200
         },
         {
@@ -5033,7 +5142,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.994Z",
+          "healthCheckedAt": "2026-10-13T21:01:46.451Z",
           "healthHttpStatus": 200
         },
         {
@@ -5043,7 +5152,7 @@
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:48.994Z",
+          "healthCheckedAt": "2026-10-13T21:01:46.500Z",
           "healthHttpStatus": 200
         },
         {
@@ -5053,7 +5162,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:49.007Z",
+          "healthCheckedAt": "2026-10-13T21:01:46.508Z",
           "healthHttpStatus": 200
         }
       ],
@@ -5064,20 +5173,19 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/20957.gif",
           "startingLineup": [
             "Ugurcan Cakir",
-            "Mario Lemina",
-            "Victor Osimhen",
-            "Aleksey Batrakov",
-            "Lucas Torreira",
-            "Rafael Leao",
             "Davinson Sanchez",
             "Evren Eren Elmali",
             "Baris Alper Yilmaz",
             "Yunus Akgun",
+            "Rafael Leao",
+            "Lucas Torreira",
+            "Aleksey Batrakov",
+            "Mario Lemina",
+            "Victor Osimhen",
             "Ismail Jakobs"
           ],
           "substitutes": [
-            "El Chadaille",
-            "Roland Sallai",
+            "Renato Nhaga",
             "Gabriel Sara",
             "Leroy Sane",
             "Lesley Ugochukwu",
@@ -5087,7 +5195,8 @@
             "Abdulkerim Bardakci",
             "Enes Emre Buyuk",
             "Berat Lus",
-            "Renato Nhaga"
+            "Roland Sallai",
+            "El Chadaille"
           ]
         },
         "away": {
@@ -5095,35 +5204,44 @@
           "logoUrl": "https://cdn.livetv904.me/img/teams/fullsize/ods/5.gif",
           "startingLineup": [
             "Joan Garcia",
-            "Anthony Gordon",
-            "Dani Olmo",
-            "Rodri",
+            "Gerard Martin",
+            "Pau Cubarsi",
+            "Joao Cancelo",
+            "Eric Garcia",
             "Lamine Yamal",
             "Pedri",
-            "Joao Cancelo",
-            "Pau Cubarsi",
-            "Gerard Martin",
-            "Eric Garcia",
+            "Rodri",
+            "Anthony Gordon",
+            "Dani Olmo",
             "Fermin Lopez"
           ],
           "substitutes": [
+            "Wojciech Szczesny",
+            "Xavi Espart",
+            "Gabriel Jesus",
+            "Gavi",
+            "Brian Farinas",
             "Hamza Abdelkarim",
             "Karim Adeyemi",
             "Marc Bernal",
             "Jules Kounde",
             "Dominik Livakovic",
-            "Alejandro Balde",
-            "Brian Farinas",
-            "Gavi",
-            "Gabriel Jesus",
-            "Xavi Espart",
-            "Wojciech Szczesny"
+            "Alejandro Balde"
           ]
         }
       },
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700000298/700000095/1_931bc/",
         "matches": [
+          {
+            "date": "13/10",
+            "competition": "Champions League",
+            "homeTeam": "Galatasaray",
+            "awayTeam": "Barcelona",
+            "score": "1:4",
+            "result": "L",
+            "winner": "away"
+          },
           {
             "date": "17/03",
             "competition": "Europa League",
@@ -5238,7 +5356,7 @@
       }
     },
     {
-      "id": 23,
+      "id": 20,
       "title": "Chile (W) – Bolivia (W)",
       "dateLabel": "13 October",
       "timeLabel": "21:00",
@@ -5268,7 +5386,7 @@
       "headToHead": null
     },
     {
-      "id": 24,
+      "id": 21,
       "title": "FUS Rabat – Raja CA",
       "dateLabel": "13 October",
       "timeLabel": "21:00",
@@ -5287,7 +5405,7 @@
           "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-10-13T20:39:49.023Z",
+          "healthCheckedAt": "2026-10-13T21:01:46.538Z",
           "healthHttpStatus": 200
         }
       ],
@@ -5432,7 +5550,7 @@
       }
     },
     {
-      "id": 25,
+      "id": 22,
       "title": "Venezuela (W) – Colombia (W)",
       "dateLabel": "13 October",
       "timeLabel": "22:00",
@@ -5462,7 +5580,7 @@
       "headToHead": null
     },
     {
-      "id": 26,
+      "id": 23,
       "title": "Athletic MG – Londrina",
       "dateLabel": "13 October",
       "timeLabel": "23:30",
@@ -5615,7 +5733,7 @@
       }
     },
     {
-      "id": 27,
+      "id": 24,
       "title": "Tapatio – Tepatitlan de Morelos",
       "dateLabel": "14 October",
       "timeLabel": "0:00",
@@ -5768,7 +5886,7 @@
       }
     },
     {
-      "id": 28,
+      "id": 25,
       "title": "USA (W) – Spain (W)",
       "dateLabel": "14 October",
       "timeLabel": "0:00",
@@ -5798,7 +5916,7 @@
       "headToHead": null
     },
     {
-      "id": 29,
+      "id": 26,
       "title": "Atl. Bucaramanga – Davao Aguilas",
       "dateLabel": "14 October",
       "timeLabel": "0:30",
@@ -5828,7 +5946,7 @@
       "headToHead": null
     },
     {
-      "id": 30,
+      "id": 27,
       "title": "Brazil (W) – Argentina (W)",
       "dateLabel": "14 October",
       "timeLabel": "0:30",
@@ -5858,7 +5976,7 @@
       "headToHead": null
     },
     {
-      "id": 31,
+      "id": 28,
       "title": "Cartagines – Puntarenas",
       "dateLabel": "14 October",
       "timeLabel": "1:00",
@@ -6011,7 +6129,7 @@
       }
     },
     {
-      "id": 32,
+      "id": 29,
       "title": "Boca Juniors – Vasco de Gama",
       "dateLabel": "14 October",
       "timeLabel": "1:30",
@@ -6041,7 +6159,7 @@
       "headToHead": null
     },
     {
-      "id": 33,
+      "id": 30,
       "title": "Panama (W) – New Zealand (W)",
       "dateLabel": "14 October",
       "timeLabel": "1:30",
@@ -6071,7 +6189,7 @@
       "headToHead": null
     },
     {
-      "id": 34,
+      "id": 31,
       "title": "Mexico (W) – Jamaica (W)",
       "dateLabel": "14 October",
       "timeLabel": "2:00",
@@ -6101,7 +6219,7 @@
       "headToHead": null
     },
     {
-      "id": 35,
+      "id": 32,
       "title": "Portmore United – Violette",
       "dateLabel": "14 October",
       "timeLabel": "2:00",
@@ -6131,7 +6249,7 @@
       "headToHead": null
     },
     {
-      "id": 36,
+      "id": 33,
       "title": "Millonarios – Once Caldas",
       "dateLabel": "14 October",
       "timeLabel": "2:30",
@@ -6284,7 +6402,7 @@
       }
     },
     {
-      "id": 37,
+      "id": 34,
       "title": "San Carlos – Inter San Carlos",
       "dateLabel": "14 October",
       "timeLabel": "3:00",
@@ -6437,7 +6555,7 @@
       }
     },
     {
-      "id": 38,
+      "id": 35,
       "title": "Melbourne Victory – Seoul",
       "dateLabel": "14 October",
       "timeLabel": "8:45",
@@ -6467,7 +6585,7 @@
       "headToHead": null
     },
     {
-      "id": 39,
+      "id": 36,
       "title": "Kharkiv U19 – Kolos Kovalivka U-19",
       "dateLabel": "14 October",
       "timeLabel": "9:00",
@@ -6497,7 +6615,7 @@
       "headToHead": null
     },
     {
-      "id": 40,
+      "id": 37,
       "title": "SKA-Khabarovsk – Dynamo Kirov",
       "dateLabel": "14 October",
       "timeLabel": "9:30",
@@ -6527,7 +6645,7 @@
       "headToHead": null
     },
     {
-      "id": 41,
+      "id": 38,
       "title": "Bodo/Glimt U-19 – Dortmund U-19",
       "dateLabel": "14 October",
       "timeLabel": "10:00",
@@ -6662,7 +6780,7 @@
       }
     },
     {
-      "id": 42,
+      "id": 39,
       "title": "Dynamo Kiev U19 – Karpaty U19",
       "dateLabel": "14 October",
       "timeLabel": "10:00",
@@ -6815,7 +6933,7 @@
       }
     },
     {
-      "id": 43,
+      "id": 40,
       "title": "Kairat U-19 – Mladost DG U-19",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -6950,7 +7068,7 @@
       }
     },
     {
-      "id": 44,
+      "id": 41,
       "title": "LASK U-19 – Liverpool U-19",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -6980,7 +7098,7 @@
       "headToHead": null
     },
     {
-      "id": 45,
+      "id": 42,
       "title": "Vissel Kobe – Jeonbuk",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -7115,7 +7233,7 @@
       }
     },
     {
-      "id": 46,
+      "id": 43,
       "title": "Kashiwa Reysol – Port",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -7145,7 +7263,7 @@
       "headToHead": null
     },
     {
-      "id": 47,
+      "id": 44,
       "title": "LNZ U19 – Obolon U19",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -7175,7 +7293,7 @@
       "headToHead": null
     },
     {
-      "id": 48,
+      "id": 45,
       "title": "SK Metalurh U19 – Oleksandria U19",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -7205,7 +7323,7 @@
       "headToHead": null
     },
     {
-      "id": 49,
+      "id": 46,
       "title": "Lviv U19 – Livyi Bereg U19",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -7235,7 +7353,7 @@
       "headToHead": null
     },
     {
-      "id": 50,
+      "id": 47,
       "title": "Irtysh – Astana",
       "dateLabel": "14 October",
       "timeLabel": "11:00",
@@ -7370,7 +7488,7 @@
       }
     },
     {
-      "id": 51,
+      "id": 48,
       "title": "Polesia U19 – Veres U19",
       "dateLabel": "14 October",
       "timeLabel": "11:30",
@@ -7400,7 +7518,7 @@
       "headToHead": null
     },
     {
-      "id": 52,
+      "id": 49,
       "title": "Shakhtar Donetsk U-19 – AEK U-19",
       "dateLabel": "14 October",
       "timeLabel": "12:00",
@@ -7430,7 +7548,7 @@
       "headToHead": null
     },
     {
-      "id": 53,
+      "id": 50,
       "title": "Feyenoord U-19 – Como U-19",
       "dateLabel": "14 October",
       "timeLabel": "12:00",
@@ -7460,7 +7578,7 @@
       "headToHead": null
     },
     {
-      "id": 54,
+      "id": 51,
       "title": "Atyrau – Elimai",
       "dateLabel": "14 October",
       "timeLabel": "12:00",
@@ -7613,7 +7731,7 @@
       }
     },
     {
-      "id": 55,
+      "id": 52,
       "title": "Volna – Dynamo St Petersburg",
       "dateLabel": "14 October",
       "timeLabel": "12:00",
@@ -7757,7 +7875,7 @@
       }
     },
     {
-      "id": 56,
+      "id": 53,
       "title": "Batman Petrolspor – Istanbulspor",
       "dateLabel": "14 October",
       "timeLabel": "12:30",
@@ -7787,7 +7905,7 @@
       "headToHead": null
     },
     {
-      "id": 57,
+      "id": 54,
       "title": "Yenisey – Kaluga",
       "dateLabel": "14 October",
       "timeLabel": "12:30",
@@ -7817,7 +7935,7 @@
       "headToHead": null
     },
     {
-      "id": 58,
+      "id": 55,
       "title": "Dinamo Minsk U-19 – Dinamo Tbilisi U-19",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -7970,7 +8088,7 @@
       }
     },
     {
-      "id": 59,
+      "id": 56,
       "title": "Roma U-19 – Real Madrid U-19",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -8000,7 +8118,7 @@
       "headToHead": null
     },
     {
-      "id": 60,
+      "id": 57,
       "title": "Partizani Tirana U-19 – Valletta U-19",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -8063,7 +8181,7 @@
       }
     },
     {
-      "id": 61,
+      "id": 58,
       "title": "Ballkani U-19 – HJK U-19",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -8126,7 +8244,7 @@
       }
     },
     {
-      "id": 62,
+      "id": 59,
       "title": "Brera Strumica U-19 – Santa Coloma U-19",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -8219,7 +8337,7 @@
       }
     },
     {
-      "id": 63,
+      "id": 60,
       "title": "Slovan Bratislava U-19 – Stuttgart U-19",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -8249,7 +8367,7 @@
       "headToHead": null
     },
     {
-      "id": 64,
+      "id": 61,
       "title": "Leningradets – Luki-Energiya",
       "dateLabel": "14 October",
       "timeLabel": "13:00",
@@ -8402,7 +8520,7 @@
       }
     },
     {
-      "id": 65,
+      "id": 62,
       "title": "Persib Bandung – The Cong-Viettel",
       "dateLabel": "14 October",
       "timeLabel": "13:15",
@@ -8432,7 +8550,7 @@
       "headToHead": null
     },
     {
-      "id": 66,
+      "id": 63,
       "title": "Aston Villa U-19 – Fenerbahce U-19",
       "dateLabel": "14 October",
       "timeLabel": "14:00",
@@ -8462,7 +8580,7 @@
       "headToHead": null
     },
     {
-      "id": 67,
+      "id": 64,
       "title": "Latina – Atalanta U-23",
       "dateLabel": "14 October",
       "timeLabel": "14:00",
@@ -8606,7 +8724,7 @@
       }
     },
     {
-      "id": 68,
+      "id": 65,
       "title": "Strommen – Aasane",
       "dateLabel": "14 October",
       "timeLabel": "14:00",
@@ -8741,7 +8859,7 @@
       }
     },
     {
-      "id": 69,
+      "id": 66,
       "title": "Narva Trans – Kuressaare",
       "dateLabel": "14 October",
       "timeLabel": "14:00",
@@ -8894,7 +9012,7 @@
       }
     },
     {
-      "id": 70,
+      "id": 67,
       "title": "Krylia Sovetov – Baltika",
       "dateLabel": "14 October",
       "timeLabel": "14:15",
@@ -9047,7 +9165,7 @@
       }
     },
     {
-      "id": 71,
+      "id": 68,
       "title": "Nasaf – Al-Wahda",
       "dateLabel": "14 October",
       "timeLabel": "14:45",
@@ -9077,7 +9195,7 @@
       "headToHead": null
     },
     {
-      "id": 72,
+      "id": 69,
       "title": "Manchester City U-19 – PSG U-19",
       "dateLabel": "14 October",
       "timeLabel": "15:00",
@@ -9212,7 +9330,7 @@
       }
     },
     {
-      "id": 73,
+      "id": 70,
       "title": "Real Betis U-19 – Porto U-19",
       "dateLabel": "14 October",
       "timeLabel": "15:00",
@@ -9356,7 +9474,7 @@
       }
     },
     {
-      "id": 74,
+      "id": 71,
       "title": "Punjab – Odisha",
       "dateLabel": "14 October",
       "timeLabel": "15:00",
@@ -9509,7 +9627,7 @@
       }
     },
     {
-      "id": 75,
+      "id": 72,
       "title": "Umraniyespor – Boluspor",
       "dateLabel": "14 October",
       "timeLabel": "15:00",
@@ -9662,7 +9780,7 @@
       }
     },
     {
-      "id": 76,
+      "id": 73,
       "title": "Volga Ulyanovsk – Murom",
       "dateLabel": "14 October",
       "timeLabel": "15:00",
@@ -9815,7 +9933,7 @@
       }
     },
     {
-      "id": 77,
+      "id": 74,
       "title": "Super Nova U-19 – Cliftonville U-19",
       "dateLabel": "14 October",
       "timeLabel": "16:00",
@@ -9878,7 +9996,7 @@
       }
     },
     {
-      "id": 78,
+      "id": 75,
       "title": "Akhmat – Dynamo M",
       "dateLabel": "14 October",
       "timeLabel": "16:30",
@@ -10031,7 +10149,7 @@
       }
     },
     {
-      "id": 79,
+      "id": 76,
       "title": "Dynamo Makhachkala – Zenit",
       "dateLabel": "14 October",
       "timeLabel": "16:30",
@@ -10184,7 +10302,7 @@
       }
     },
     {
-      "id": 80,
+      "id": 77,
       "title": "Levadia U-21 – Nomme Kalju U-21",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -10337,7 +10455,7 @@
       }
     },
     {
-      "id": 81,
+      "id": 78,
       "title": "Zalgiris U-19 – Thor U-19",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -10472,7 +10590,7 @@
       }
     },
     {
-      "id": 82,
+      "id": 79,
       "title": "Bohemians – Mlada-Boleslav",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -10625,7 +10743,7 @@
       }
     },
     {
-      "id": 83,
+      "id": 80,
       "title": "Al-Muharraq – Gol Gohar",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -10655,7 +10773,7 @@
       "headToHead": null
     },
     {
-      "id": 84,
+      "id": 81,
       "title": "Al-Jazeera Amman – Arkadag",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -10685,7 +10803,7 @@
       "headToHead": null
     },
     {
-      "id": 85,
+      "id": 82,
       "title": "Al-Taawoun – Al-Rayyan",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -10715,7 +10833,7 @@
       "headToHead": null
     },
     {
-      "id": 86,
+      "id": 83,
       "title": "Kuwait SC – Al-Khaldiya",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -10745,7 +10863,7 @@
       "headToHead": null
     },
     {
-      "id": 87,
+      "id": 84,
       "title": "Chertanovo – Tekstilshchik",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -10898,7 +11016,7 @@
       }
     },
     {
-      "id": 88,
+      "id": 85,
       "title": "BATE – Neman",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -11051,7 +11169,7 @@
       }
     },
     {
-      "id": 89,
+      "id": 86,
       "title": "Paide – Tammeka",
       "dateLabel": "14 October",
       "timeLabel": "17:00",
@@ -11204,7 +11322,7 @@
       }
     },
     {
-      "id": 90,
+      "id": 87,
       "title": "Volna – Shinnik",
       "dateLabel": "14 October",
       "timeLabel": "17:15",
@@ -11339,7 +11457,7 @@
       }
     },
     {
-      "id": 91,
+      "id": 88,
       "title": "LASK – Liverpool",
       "dateLabel": "14 October",
       "timeLabel": "17:45",
@@ -11483,7 +11601,7 @@
       }
     },
     {
-      "id": 92,
+      "id": 89,
       "title": "Feyenoord – Como",
       "dateLabel": "14 October",
       "timeLabel": "17:45",
@@ -11513,7 +11631,7 @@
       "headToHead": null
     },
     {
-      "id": 93,
+      "id": 90,
       "title": "Simulcast",
       "dateLabel": "14 October",
       "timeLabel": "17:45",
@@ -11543,7 +11661,7 @@
       "headToHead": null
     },
     {
-      "id": 94,
+      "id": 91,
       "title": "Gzira United – Mosta",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -11696,7 +11814,7 @@
       }
     },
     {
-      "id": 95,
+      "id": 92,
       "title": "Wehen – Alemannia",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -11849,7 +11967,7 @@
       }
     },
     {
-      "id": 96,
+      "id": 93,
       "title": "Viktoria Cologne – Grossaspach",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -11879,7 +11997,7 @@
       "headToHead": null
     },
     {
-      "id": 97,
+      "id": 94,
       "title": "Verl – Regensburg",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -12032,7 +12150,7 @@
       }
     },
     {
-      "id": 98,
+      "id": 95,
       "title": "Preussen Muenster – Fortuna",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -12185,7 +12303,7 @@
       }
     },
     {
-      "id": 99,
+      "id": 96,
       "title": "Waldhof – Ingolstadt",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -12338,7 +12456,7 @@
       }
     },
     {
-      "id": 100,
+      "id": 97,
       "title": "Antalyaspor – Kayserispor",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -12491,7 +12609,7 @@
       }
     },
     {
-      "id": 101,
+      "id": 98,
       "title": "Keciorengucu – Igdir",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -12644,7 +12762,7 @@
       }
     },
     {
-      "id": 102,
+      "id": 99,
       "title": "Stroemsgodset – Kongsvinger",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -12797,7 +12915,7 @@
       }
     },
     {
-      "id": 103,
+      "id": 100,
       "title": "Stabaek – Sandnes Ulf",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -12950,7 +13068,7 @@
       }
     },
     {
-      "id": 104,
+      "id": 101,
       "title": "Sogndal – Odd",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -13103,7 +13221,7 @@
       }
     },
     {
-      "id": 105,
+      "id": 102,
       "title": "Moss – Egersund",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -13256,7 +13374,7 @@
       }
     },
     {
-      "id": 106,
+      "id": 103,
       "title": "Hoedd – Ranheim",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -13409,7 +13527,7 @@
       }
     },
     {
-      "id": 107,
+      "id": 104,
       "title": "Haugesund – Lyn",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -13544,7 +13662,7 @@
       }
     },
     {
-      "id": 108,
+      "id": 105,
       "title": "Bryne – Raufoss",
       "dateLabel": "14 October",
       "timeLabel": "18:00",
@@ -13697,7 +13815,7 @@
       }
     },
     {
-      "id": 109,
+      "id": 106,
       "title": "Una Strassen U-19 – Cardiff Met U-19",
       "dateLabel": "14 October",
       "timeLabel": "18:30",
@@ -13760,7 +13878,7 @@
       }
     },
     {
-      "id": 110,
+      "id": 107,
       "title": "Sestao – Salamanca",
       "dateLabel": "14 October",
       "timeLabel": "18:30",
@@ -13790,7 +13908,7 @@
       "headToHead": null
     },
     {
-      "id": 111,
+      "id": 108,
       "title": "CSKA – Rostov",
       "dateLabel": "14 October",
       "timeLabel": "18:45",
@@ -13943,7 +14061,7 @@
       }
     },
     {
-      "id": 112,
+      "id": 109,
       "title": "HB Torshavn U-19 – Flora Tallinn U-19",
       "dateLabel": "14 October",
       "timeLabel": "19:00",
@@ -14036,7 +14154,7 @@
       }
     },
     {
-      "id": 113,
+      "id": 110,
       "title": "Al-Faisaly Amman – Al-Nahda",
       "dateLabel": "14 October",
       "timeLabel": "19:15",
@@ -14066,7 +14184,7 @@
       "headToHead": null
     },
     {
-      "id": 114,
+      "id": 111,
       "title": "Recreativo de Huelva – Navalcarnero",
       "dateLabel": "14 October",
       "timeLabel": "19:30",
@@ -14096,7 +14214,7 @@
       "headToHead": null
     },
     {
-      "id": 115,
+      "id": 112,
       "title": "Queens Park Rangers – Derby County",
       "dateLabel": "14 October",
       "timeLabel": "19:45",
@@ -14249,7 +14367,7 @@
       }
     },
     {
-      "id": 116,
+      "id": 113,
       "title": "Portsmouth – Sheffield Utd",
       "dateLabel": "14 October",
       "timeLabel": "19:45",
@@ -14402,7 +14520,7 @@
       }
     },
     {
-      "id": 117,
+      "id": 114,
       "title": "Norwich City – Southampton",
       "dateLabel": "14 October",
       "timeLabel": "19:45",
@@ -14555,7 +14673,7 @@
       }
     },
     {
-      "id": 118,
+      "id": 115,
       "title": "Simulcast",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -14585,7 +14703,7 @@
       "headToHead": null
     },
     {
-      "id": 119,
+      "id": 116,
       "title": "Lincoln City – West Ham United",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -14720,7 +14838,7 @@
       }
     },
     {
-      "id": 120,
+      "id": 117,
       "title": "Real Betis – Porto",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -14750,7 +14868,7 @@
       "headToHead": null
     },
     {
-      "id": 121,
+      "id": 118,
       "title": "Manchester City – PSG",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -14894,7 +15012,7 @@
       }
     },
     {
-      "id": 122,
+      "id": 119,
       "title": "Aston Villa – Fenerbahce",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -15029,7 +15147,7 @@
       }
     },
     {
-      "id": 123,
+      "id": 120,
       "title": "Bodoe/Glimt – Dortmund",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -15164,7 +15282,7 @@
       }
     },
     {
-      "id": 124,
+      "id": 121,
       "title": "Roma – Real Madrid RM",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -15194,7 +15312,7 @@
       "headToHead": null
     },
     {
-      "id": 125,
+      "id": 122,
       "title": "Slovan Bratislava – Stuttgart",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -15329,7 +15447,7 @@
       }
     },
     {
-      "id": 126,
+      "id": 123,
       "title": "Shakhtar Donetsk – AEK",
       "dateLabel": "14 October",
       "timeLabel": "20:00",
@@ -15464,7 +15582,7 @@
       }
     },
     {
-      "id": 127,
+      "id": 124,
       "title": "Perez Zeledon – Municipal Liberia",
       "dateLabel": "14 October",
       "timeLabel": "21:00",
@@ -15617,7 +15735,7 @@
       }
     },
     {
-      "id": 128,
+      "id": 125,
       "title": "Ittihad Tanger – Maghreb de Fes",
       "dateLabel": "14 October",
       "timeLabel": "21:00",
@@ -15770,7 +15888,7 @@
       }
     },
     {
-      "id": 129,
+      "id": 126,
       "title": "Tembetary – Sol de America",
       "dateLabel": "14 October",
       "timeLabel": "21:00",
@@ -15905,7 +16023,7 @@
       }
     },
     {
-      "id": 130,
+      "id": 127,
       "title": "Atletico-MG – MC Torque",
       "dateLabel": "14 October",
       "timeLabel": "23:00",
@@ -15935,7 +16053,7 @@
       "headToHead": null
     },
     {
-      "id": 131,
+      "id": 128,
       "title": "Sarmiento – River Plate",
       "dateLabel": "14 October",
       "timeLabel": "23:00",
@@ -16088,7 +16206,7 @@
       }
     },
     {
-      "id": 132,
+      "id": 129,
       "title": "Real Cundinamarca – Bogota",
       "dateLabel": "14 October",
       "timeLabel": "23:00",
@@ -16241,7 +16359,7 @@
       }
     },
     {
-      "id": 133,
+      "id": 130,
       "title": "Cerro Porteno – San Lorenzo",
       "dateLabel": "14 October",
       "timeLabel": "23:30",
@@ -16394,5 +16512,5 @@
       }
     }
   ],
-  "enrichedAt": "2026-10-13T20:39:41.235Z"
+  "enrichedAt": "2026-10-13T20:58:41.264Z"
 }
