@@ -9,7 +9,8 @@ import { extractCountryFromLeague } from '../utils/extractCountryFromLeague';
 import { getCountryFlagUrl } from '../utils/getCountryFlagUrl';
 import { groupGamesByTournamentLabel } from '../utils/groupGamesByTournamentLabel';
 import { isQualificationLeague } from '../utils/isQualificationLeague';
-import type { Game, Sport } from '../types/game';
+import type { AppTab, Game } from '../types/game';
+import type { ReactNode } from 'react';
 import { getDateGroupKey } from '../utils/getDateGroupKey';
 import { getDateGroupLabel } from '../utils/getDateGroupLabel';
 import { isSimulcastGame } from '../utils/isSimulcastGame';
@@ -17,11 +18,12 @@ import { toDateKey } from '../utils/toDateKey';
 
 interface GamesGridProps {
   games: Game[];
-  sport: Sport;
-  onSportChange: (sport: Sport) => void;
+  sport: AppTab;
+  onSportChange: (sport: AppTab) => void;
+  liveScores?: ReactNode;
 }
 
-export function GamesGrid({ games, sport, onSportChange }: GamesGridProps) {
+export function GamesGrid({ games, sport, onSportChange, liveScores }: GamesGridProps) {
   const { isDarkTheme, toggleTheme } = useTheme();
   const [filterLiveOnly, setFilterLiveOnly] = usePersistentState(LIVE_FILTER_STORAGE_KEY, false);
   const [filterWithStreams, setFilterWithStreams] = usePersistentState(STREAMS_FILTER_STORAGE_KEY, false);
@@ -152,7 +154,7 @@ export function GamesGrid({ games, sport, onSportChange }: GamesGridProps) {
             </button>
           </div>
         </div>
-        <div>
+        <div className={liveScores ? 'hidden' : undefined}>
           <div className="w-full">
             <input
               type="text"
@@ -165,6 +167,7 @@ export function GamesGrid({ games, sport, onSportChange }: GamesGridProps) {
         </div>
       </header>
 
+      {liveScores ? liveScores : (<>
       <GameFilters
         isDarkTheme={isDarkTheme}
         filterLiveOnly={filterLiveOnly}
@@ -259,6 +262,7 @@ export function GamesGrid({ games, sport, onSportChange }: GamesGridProps) {
           </p>
         </div>
       )}
+      </>)}
     </section>
   );
 }
