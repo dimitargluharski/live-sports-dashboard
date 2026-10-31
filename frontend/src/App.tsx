@@ -4,17 +4,24 @@ import { ThemeProvider } from './contexts/ThemeProvider';
 import { SPORT_STORAGE_KEY } from './constants/app';
 import { useGamesFeed } from "./hooks/useGamesFeed";
 import { usePersistentState } from './hooks/usePersistentState';
-import type { Sport } from './types/game';
+import { LiveScores } from './components/LiveScores';
+import type { AppTab } from './types/game';
 
 function App() {
-  const [sport, setSport] = usePersistentState<Sport>(SPORT_STORAGE_KEY, 'soccer');
-  const { games, isLoading, error } = useGamesFeed(sport);
+  const [tab, setTab] = usePersistentState<AppTab>(SPORT_STORAGE_KEY, 'soccer');
+  const isLiveScores = tab === 'livescores';
+  const { games, isLoading, error } = useGamesFeed(isLiveScores ? 'soccer' : tab);
 
   return (
     <ThemeProvider>
       <div className="min-h-screen py-8 text-slate-950">
-        <FeedStatus isLoading={isLoading} error={error} />
-        <GamesGrid games={games} sport={sport} onSportChange={setSport} />
+        {!isLiveScores && <FeedStatus isLoading={isLoading} error={error} />}
+        <GamesGrid
+          games={isLiveScores ? [] : games}
+          sport={tab}
+          onSportChange={setTab}
+          liveScores={isLiveScores ? <LiveScores /> : undefined}
+        />
       </div>
     </ThemeProvider>
   );

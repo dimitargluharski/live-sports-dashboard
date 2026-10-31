@@ -1,15 +1,16 @@
 import React from 'react';
-import type { Sport } from '../types/game';
+import type { AppTab } from '../types/game';
 
 interface SportTabsProps {
   isDarkTheme: boolean;
-  sport: Sport;
-  onSportChange: (sport: Sport) => void;
+  sport: AppTab;
+  onSportChange: (sport: AppTab) => void;
 }
 
-const SPORT_TABS: Array<{ id: Sport; label: string }> = [
+const SPORT_TABS: Array<{ id: AppTab; label: string }> = [
   { id: 'soccer', label: 'Soccer' },
   { id: 'basketball', label: 'Basketball' },
+  { id: 'livescores', label: 'Live Scores' },
 ];
 
 export const SportTabs: React.FC<SportTabsProps> = ({ isDarkTheme, sport, onSportChange }) => (

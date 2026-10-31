@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "scrape:soccer-today": "node scripts/scrape-soccer-games-today.js",
+    "scrape:livescore": "node scripts/scrape-livescore.js",
     "scrape:basketball-today": "node scripts/scrape-basketball-games-today.js",
     "health:streams": "node scripts/stream-health-check.js",
     "health": "node scripts/health-check.js",
