@@ -1,7 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import { LIVE_SCORES_URL, TEAM_LOGO_BASE_URL } from '../constants/app';
 import { useTheme } from '../contexts/useTheme';
-import type { LiveScoreMatch } from '../types/game';
+import { GameCardStreams } from './GameCardStreams';
+import { StreamModal } from './StreamModal';
+import type { Game, GamesPayload, LiveScoreMatch, Stream } from '../types/game';
 
 const REFRESH_MS = 30_000;
 
@@ -10,22 +12,51 @@ function TeamLogo({ path }: { path?: string }) {
   return <img src={`${TEAM_LOGO_BASE_URL}${path}`} alt="" className="h-5 w-5 object-contain" loading="lazy" referrerPolicy="no-referrer" />;
 }
 
+function normalizeTeamName(name: string | null | undefined) {
+  return (name || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, '');
+}
+
+function getTeamPairKey(homeTeam: string, awayTeam: string) {
+  return [normalizeTeamName(homeTeam), normalizeTeamName(awayTeam)].sort().join('|');
+}
+
+function getTeamLogoUrl(path?: string) {
+  if (!path) return null;
+  return path.startsWith('http') ? path : `${TEAM_LOGO_BASE_URL}${path}`;
+}
+
 export function LiveScores() {
   const { isDarkTheme } = useTheme();
   const [matches, setMatches] = useState<LiveScoreMatch[]>([]);
+  const [soccerGames, setSoccerGames] = useState<Partial<Game>[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [expandedMatchKey, setExpandedMatchKey] = useState<string | null>(null);
+  const [selectedMatch, setSelectedMatch] = useState<LiveScoreMatch | null>(null);
+  const [initialStream, setInitialStream] = useState<Stream | null>(null);
 
   useEffect(() => {
     let isMounted = true;
 
     const load = async () => {
       try {
-        const response = await fetch(LIVE_SCORES_URL, { cache: 'no-store' });
-        if (!response.ok) throw new Error(`Failed to load live scores (${response.status})`);
-        const data = await response.json() as LiveScoreMatch[];
+        const [scoresResponse, gamesResponse] = await Promise.all([
+          fetch(LIVE_SCORES_URL, { cache: 'no-store' }),
+          fetch('/soccer/allSoccerGamesToday.json', { cache: 'no-store' }),
+        ]);
+        if (!scoresResponse.ok) throw new Error(`Failed to load live scores (${scoresResponse.status})`);
+        if (!gamesResponse.ok) throw new Error(`Failed to load soccer games (${gamesResponse.status})`);
+        const [data, gamesData] = await Promise.all([
+          scoresResponse.json() as Promise<LiveScoreMatch[]>,
+          gamesResponse.json() as Promise<GamesPayload>,
+        ]);
         if (!isMounted) return;
         setMatches(Array.isArray(data) ? data : []);
+        setSoccerGames(Array.isArray(gamesData.matches) ? gamesData.matches : []);
         setError(null);
       } catch (loadError) {
         if (isMounted) setError(loadError instanceof Error ? loadError.message : 'Unknown error');
@@ -41,6 +72,26 @@ export function LiveScores() {
       window.clearInterval(timer);
     };
   }, []);
+
+  const streamsByTeamPair = useMemo(() => {
+    const candidates = new Map<string, Partial<Game>[]>();
+    soccerGames.forEach((game) => {
+      const homeTeam = game.teams?.home?.name;
+      const awayTeam = game.teams?.away?.name;
+      if (!homeTeam || !awayTeam) return;
+
+      const key = getTeamPairKey(homeTeam, awayTeam);
+      candidates.set(key, [...(candidates.get(key) || []), game]);
+    });
+
+    const uniqueMatches = new Map<string, Stream[]>();
+    candidates.forEach((games, key) => {
+      if (games.length !== 1) return;
+      const streams = games[0].streams;
+      if (streams?.length) uniqueMatches.set(key, streams);
+    });
+    return uniqueMatches;
+  }, [soccerGames]);
 
   const leagues = useMemo(() => {
     const groups = new Map<string, { country: string; league: string; flag: string; matches: LiveScoreMatch[] }>();
@@ -72,22 +123,71 @@ export function LiveScores() {
             {group.matches.map((match, index) => (
               <li
                 key={`${match.homeTeam}-${match.awayTeam}-${index}`}
-                className={`grid grid-cols-[3.5rem_3rem_1fr_1.25rem_3.5rem_1.25rem_1fr] items-center gap-2 px-3 py-2 text-sm ${index > 0 ? (isDarkTheme ? 'border-t border-white/5' : 'border-t border-black/5') : ''}`}
+                className={`relative px-3 py-2 text-sm before:absolute before:inset-y-0 before:left-0 before:w-1 before:content-[""] ${index > 0 ? (isDarkTheme ? 'border-t border-white/5' : 'border-t border-black/5') : ''} ${match.status === 'live' ? 'before:bg-rose-500' : isDarkTheme ? 'before:bg-slate-700' : 'before:bg-stone-700'}`}
               >
-                <span className={`text-xs ${muted}`}>{match.time}</span>
-                <span className={`text-[10px] font-bold uppercase ${match.status === 'live' ? 'text-rose-500' : muted}`}>
-                  {match.status === 'live' ? '● Live' : 'FT'}
-                </span>
-                <span className="truncate text-right font-medium">{match.homeTeam}</span>
-                <TeamLogo path={match.homeLogo} />
-                <span className="text-center font-black">{match.score}</span>
-                <TeamLogo path={match.awayLogo} />
-                <span className="truncate font-medium">{match.awayTeam}</span>
+                <div className="grid grid-cols-[3.5rem_3rem_minmax(0,1fr)_1.25rem_3.5rem_1.25rem_minmax(0,1fr)_8.5rem] items-center gap-2">
+                  <span className={`text-xs ${muted}`}>{match.time}</span>
+                  <span className={`text-[10px] font-bold uppercase ${match.status === 'live' ? 'text-rose-500' : muted}`}>
+                    {match.status === 'live' ? 'Live' : 'FT'}
+                  </span>
+                  <span className="truncate text-right font-medium">{match.homeTeam}</span>
+                  <TeamLogo path={match.homeLogo} />
+                  <span className="text-center font-black">{match.score}</span>
+                  <TeamLogo path={match.awayLogo} />
+                  <span className="truncate font-medium">{match.awayTeam}</span>
+                  {(() => {
+                    const matchKey = `${group.country}|${group.league}|${match.homeTeam}|${match.awayTeam}|${index}`;
+                    const streams = streamsByTeamPair.get(getTeamPairKey(match.homeTeam, match.awayTeam));
+                    if (!streams) return <span aria-hidden="true" />;
+                    const isExpanded = expandedMatchKey === matchKey;
+                    return (
+                      <>
+                        <button
+                          type="button"
+                          aria-expanded={isExpanded}
+                          onClick={() => setExpandedMatchKey(isExpanded ? null : matchKey)}
+                          className={`cursor-pointer justify-self-end whitespace-nowrap rounded border px-2.5 py-1 text-xs font-bold transition-colors ${isDarkTheme ? 'border-white/15 text-slate-300 hover:bg-white/5' : 'border-black/10 text-slate-600 hover:bg-black/[0.03]'}`}
+                        >
+                          {isExpanded ? 'Hide streams' : `Watch streams (${streams.length})`}
+                        </button>
+                        {isExpanded && (
+                          <div className="col-span-full mt-1">
+                            <GameCardStreams
+                              streams={streams}
+                              isDarkTheme={isDarkTheme}
+                              onSelect={(stream) => {
+                                setSelectedMatch(match);
+                                setInitialStream(stream);
+                              }}
+                            />
+                          </div>
+                        )}
+                      </>
+                    );
+                  })()}
+                </div>
               </li>
             ))}
           </ul>
         </section>
       ))}
+      {selectedMatch && initialStream && (
+        <StreamModal
+          isOpen
+          gameTitle={`${selectedMatch.homeTeam} vs ${selectedMatch.awayTeam}`}
+          homeTeamName={selectedMatch.homeTeam}
+          awayTeamName={selectedMatch.awayTeam}
+          homeTeamVisual={getTeamLogoUrl(selectedMatch.homeLogo) || selectedMatch.flag}
+          awayTeamVisual={getTeamLogoUrl(selectedMatch.awayLogo) || selectedMatch.flag}
+          streams={streamsByTeamPair.get(getTeamPairKey(selectedMatch.homeTeam, selectedMatch.awayTeam)) || []}
+          initialStream={initialStream}
+          isDarkTheme={isDarkTheme}
+          onClose={() => {
+            setSelectedMatch(null);
+            setInitialStream(null);
+          }}
+        />
+      )}
     </div>
   );
 }
