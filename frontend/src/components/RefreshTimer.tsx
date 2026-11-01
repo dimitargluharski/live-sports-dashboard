@@ -13,17 +13,30 @@ export function RefreshTimer() {
     return () => window.clearInterval(timer);
   }, []);
 
+  const textClass = `flex shrink-0 items-center justify-end gap-2 text-xs font-medium tabular-nums ${isDarkTheme ? 'text-slate-400' : 'text-slate-500'}`;
+  const todayLabel = new Date(now).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+
   if (lastRefreshAt === null) return null;
 
   const elapsed = Math.max(0, now - lastRefreshAt);
   const secondsLeft = Math.max(0, Math.ceil((FEED_REFRESH_INTERVAL_MS - elapsed) / 1000));
   const progress = Math.min(1, elapsed / FEED_REFRESH_INTERVAL_MS);
 
-  if (secondsLeft > 10) return null;
+  if (secondsLeft > 10) {
+    return (
+      <div className={textClass}>
+        <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <rect x="3.5" y="5" width="17" height="15.5" rx="2.5" />
+          <path d="M3.5 10h17M8 3v4M16 3v4" />
+        </svg>
+        <span>{todayLabel}</span>
+      </div>
+    );
+  }
 
   return (
     <div
-      className={`flex shrink-0 items-center justify-end gap-2 text-xs font-medium tabular-nums ${isDarkTheme ? 'text-slate-400' : 'text-slate-500'}`}
+      className={textClass}
       title="The page checks for new match data every 30 seconds"
     >
       <span className="relative inline-flex h-4 w-4">
