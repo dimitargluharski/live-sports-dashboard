@@ -22,6 +22,7 @@ interface GameCardProps {
   timeLabel?: string;
   leagueLabel?: string;
   streamCount: number;
+  score?: string;
   isLive: boolean;
   isEnded?: boolean;
   isPreview?: boolean;
@@ -43,6 +44,7 @@ export const GameCard = React.memo<GameCardProps>(({
   awayLogoUrl,
   timeLabel,
   streamCount,
+  score,
   isLive,
   isEnded = false,
   isPreview = false,
@@ -117,8 +119,13 @@ export const GameCard = React.memo<GameCardProps>(({
     }
     : undefined;
 
+  const isCompact = !isChampionsLeague && !isPreview;
+  const compactClass = `group border-t border-l-4 px-3 py-2 transition-colors duration-150 first:border-t-0 ${
+    isDarkTheme ? 'border-t-white/5 hover:bg-white/[0.06]' : 'border-t-black/5 hover:bg-black/[0.04]'
+  } ${isEnded ? (isDarkTheme ? 'border-l-slate-700' : 'border-l-stone-700') : isLive ? 'border-l-rose-500' : isDarkTheme ? 'border-l-slate-700' : 'border-l-stone-700'}`;
+
   return (
-    <article className={`group ${isChampionsLeague ? 'mx-auto w-full max-w-3xl' : ''} rounded-lg border px-2.5 py-2 shadow-sm transition-shadow duration-200 hover:shadow-md sm:px-3 ${
+    <article className={isCompact ? compactClass : `group ${isChampionsLeague ? 'mx-auto w-full max-w-3xl' : ''} rounded-lg border px-2.5 py-2 shadow-sm transition-shadow duration-200 hover:shadow-md sm:px-3 ${
       isChampionsLeague && !isPreview
         ? isDarkTheme
           ? isEnded ? 'rounded-xl border-white/10 border-t border-l-2 border-t-neutral-400 border-l-neutral-400 bg-[#202020] px-4 py-3 shadow-[0_8px_18px_rgba(0,0,0,0.14)] sm:px-5' : 'rounded-xl border-white/10 border-t border-l-2 border-t-neutral-400 border-l-neutral-400 bg-[#1b1b1b] px-4 py-3 shadow-[0_10px_22px_rgba(0,0,0,0.16)] sm:px-5'
@@ -146,6 +153,9 @@ export const GameCard = React.memo<GameCardProps>(({
         canWatchStreams={canWatchStreams}
         hasStreams={hasStreams}
         streamCount={streamCount}
+        h2hCount={h2hMatches.length}
+        hasForm={hasForm}
+        score={score}
         homeTeam={resolvedHome}
         awayTeam={resolvedAway}
         homeLogoUrl={homeLogoUrl}

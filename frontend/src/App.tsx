@@ -1,27 +1,26 @@
 import { FeedStatus } from './components/FeedStatus';
 import { GamesGrid } from "./components/GamesGrid";
+import { GlobalSearch } from './components/GlobalSearch';
+import { Sidebar } from './components/Sidebar';
 import { ThemeProvider } from './contexts/ThemeProvider';
 import { SPORT_STORAGE_KEY } from './constants/app';
 import { useGamesFeed } from "./hooks/useGamesFeed";
 import { usePersistentState } from './hooks/usePersistentState';
-import { LiveScores } from './components/LiveScores';
-import type { AppTab } from './types/game';
+import type { Sport } from './types/game';
 
 function App() {
-  const [tab, setTab] = usePersistentState<AppTab>(SPORT_STORAGE_KEY, 'soccer');
-  const isLiveScores = tab === 'livescores';
-  const { games, isLoading, error } = useGamesFeed(isLiveScores ? 'soccer' : tab);
+  const [storedTab, setTab] = usePersistentState<Sport>(SPORT_STORAGE_KEY, 'soccer');
+  // A previously saved removed page (e.g. "livescores") falls back to soccer.
+  const tab: Sport = storedTab === 'basketball' ? 'basketball' : 'soccer';
+  const { games, isLoading, error } = useGamesFeed(tab);
 
   return (
     <ThemeProvider>
-      <div className="min-h-screen py-8 text-slate-950">
-        {!isLiveScores && <FeedStatus isLoading={isLoading} error={error} />}
-        <GamesGrid
-          games={isLiveScores ? [] : games}
-          sport={tab}
-          onSportChange={setTab}
-          liveScores={isLiveScores ? <LiveScores /> : undefined}
-        />
+      <Sidebar activePage={tab} onPageChange={setTab} />
+      <div className="min-h-screen pl-16 text-slate-950">
+        <GlobalSearch />
+        <FeedStatus isLoading={isLoading} error={error} />
+        {!isLoading && <GamesGrid games={games} />}
       </div>
     </ThemeProvider>
   );

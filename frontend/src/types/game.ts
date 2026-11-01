@@ -1,18 +1,4 @@
 export type Sport = 'soccer' | 'basketball';
-export type AppTab = Sport | 'livescores';
-
-export interface LiveScoreMatch {
-  country: string;
-  flag: string;
-  league: string;
-  time: string;
-  status: 'live' | 'finished';
-  homeTeam: string;
-  awayTeam: string;
-  homeLogo?: string;
-  awayLogo?: string;
-  score: string;
-}
 
 export interface TeamForm {
   matches?: Array<{
@@ -57,6 +43,9 @@ export interface HeadToHead {
 
 export interface Game {
   id: number;
+  matchId?: string;
+  score?: string;
+  liveStatus?: 'live' | 'finished';
   title: string;
   dateLabel?: string;
   timeLabel?: string;

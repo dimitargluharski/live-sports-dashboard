@@ -12,10 +12,9 @@ export const LIVE_FILTER_STORAGE_KEY = 'sportix-filter-live';
 export const STREAMS_FILTER_STORAGE_KEY = 'sportix-filter-streams';
 export const SPORT_STORAGE_KEY = 'sportix-sport';
 
-export const LIVE_SCORES_URL = '/soccer/liveScores.json';
 export const TEAM_LOGO_BASE_URL = (import.meta.env.VITE_TEAM_LOGO_BASE_URL as string | undefined) ?? '';
 
 export const SPORT_FEED_URLS: Record<Sport, string> = {
-  soccer: '/soccer/allSoccerGamesToday.json',
+  soccer: '/soccer/matches.json',
   basketball: '/basketball/allBasketballGamesToday.json',
 };
