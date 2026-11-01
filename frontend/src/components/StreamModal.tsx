@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { TeamBadge } from './TeamBadge';
 import { StreamHealthDot } from './StreamHealthDot';
+import { StreamPlayer } from './StreamPlayer';
+import { StreamSelector } from './StreamSelector';
 import type { Stream } from '../types/game';
 import { getDominantLogoColor } from '../utils/getDominantLogoColor';
-import { isVideoUrl } from '../utils/isVideoUrl';
 import { isWrapperStreamUrl } from '../utils/isWrapperStreamUrl';
-import { ExternalStreamPlayer } from './ExternalStreamPlayer';
 
 interface StreamModalProps {
   isOpen: boolean;
@@ -82,8 +82,6 @@ export const StreamModal: React.FC<StreamModalProps> = ({
   const selectedStreamUnavailable = Boolean(
     selectedStream && (selectedStream.healthStatus === 'failed' || hasPlaybackError),
   );
-  const selectedStreamIsWrapper = Boolean(selectedStream && isWrapperStreamUrl(selectedStream.url));
-
   const resolvedHomeTeam = homeTeamName || gameTitle;
   const resolvedAwayTeam = awayTeamName || null;
   const modalSurfaceClass = isDarkTheme ? 'border-white/10 bg-[#1b1b1b] text-white' : 'border-black/10 bg-white text-slate-950';
@@ -190,134 +188,32 @@ export const StreamModal: React.FC<StreamModalProps> = ({
                 </div>
 
                 <div className="mb-4 rounded-2xl p-2">
-                <div className="relative aspect-video shrink-0 overflow-hidden rounded-2xl bg-black">
-                  {selectedStreamUnavailable ? (
-                    <div className="flex aspect-video flex-col items-center justify-center gap-2 px-6 text-center text-white">
-                      <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-rose-500/20 text-rose-300" aria-hidden="true">!</span>
-                      <p className="text-base font-bold">Stream unavailable</p>
-                      <p className="max-w-sm text-sm text-slate-300">This source did not respond successfully. Try another stream.</p>
-                    </div>
-                  ) : isPlayerLoading && !selectedStreamIsWrapper ? (
-                    <div className="absolute inset-0 z-10 flex items-center justify-center bg-slate-900/50 backdrop-blur-sm">
-                      <div className="inline-flex items-center gap-2 rounded-full bg-white/95 px-4 py-2 text-sm font-semibold text-slate-700">
-                        <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-sky-500" />
-                        Loading stream...
-                      </div>
-                    </div>
-                  ) : null}
-
-                  {!selectedStreamUnavailable && selectedStreamIsWrapper ? (
-                    <ExternalStreamPlayer streamUrl={selectedStream.url} isDarkTheme={isDarkTheme} />
-                  ) : !selectedStreamUnavailable && isVideoUrl(selectedStream.url) ? (
-                    <video
-                      className="block h-full w-full object-contain"
-                      controls
-                      autoPlay
-                      controlsList="nodownload"
-                      onLoadedData={() => setIsPlayerLoading(false)}
-                      onError={() => {
-                        setIsPlayerLoading(false);
-                        setHasPlaybackError(true);
-                      }}
-                    >
-                      <source src={selectedStream.url} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
-                  ) : !selectedStreamUnavailable ? (
-                    <iframe
-                      className="absolute inset-0 block h-full w-full overflow-hidden border-0"
-                      src={selectedStream.url}
-                      title={selectedStream.label}
-                      scrolling="no"
-                      allowFullScreen
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      onLoad={() => setIsPlayerLoading(false)}
-                      onError={() => {
-                        setIsPlayerLoading(false);
-                        setHasPlaybackError(true);
-                      }}
-                    />
-                  ) : null}
-                </div>
+                  <StreamPlayer
+                    stream={selectedStream}
+                    isDarkTheme={isDarkTheme}
+                    isLoading={isPlayerLoading}
+                    isUnavailable={selectedStreamUnavailable}
+                    onLoad={() => setIsPlayerLoading(false)}
+                    onError={() => {
+                      setIsPlayerLoading(false);
+                      setHasPlaybackError(true);
+                    }}
+                  />
                 </div>
 
-                {streams.length > 1 && (
-                  <div className="border-t border-black/10 p-3 dark:border-white/10">
-                    <div className="mb-2 flex items-center justify-between gap-3">
-                      <p className="text-xs font-semibold uppercase tracking-[0.1em] text-slate-500">Alternative broadcasts</p>
-                      <span className="shrink-0 text-[10px] font-bold text-slate-400">{streams.length} available</span>
-                    </div>
-                    <div className={`grid max-h-36 grid-cols-1 gap-1.5 overflow-y-auto pr-1 sm:grid-cols-2 ${isDarkTheme ? 'scrollbar-thumb-white/20' : 'scrollbar-thumb-black/20'}`}>
-                      {streams.map((stream) => {
-                        const isActive = selectedStream.id === stream.id;
-                        return (
-                          <button
-                            key={stream.id}
-                            type="button"
-                            onClick={() => handleSelectStream(stream)}
-                            aria-pressed={isActive}
-                            className={`flex min-w-0 cursor-pointer items-center rounded-md border px-2 py-1.5 text-left text-xs font-semibold transition-colors ${
-                              isActive
-                                ? 'border-sky-600 bg-sky-600 text-white'
-                                : isDarkTheme
-                                  ? 'border-white/10 bg-[#252525] text-slate-200 hover:border-sky-400/60 hover:bg-[#303030] hover:text-white'
-                                  : 'border-slate-200 bg-white text-slate-700 hover:border-sky-300 hover:bg-sky-50 hover:text-sky-700'
-                            }`}
-                          >
-                            <span className="inline-flex min-w-0 items-center gap-2 leading-none">
-                              <StreamHealthDot stream={stream} />
-                              <span className="truncate">{stream.label}</span>
-                            </span>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
+                <StreamSelector
+                  streams={streams}
+                  selectedStream={selectedStream}
+                  isDarkTheme={isDarkTheme}
+                  onSelect={handleSelectStream}
+                />
               </>
             ) : (
-              <>
-                <p className={`mb-2 text-xs font-semibold ${isDarkTheme ? 'text-slate-400' : 'text-slate-500'}`}>
-                  Choose a stream ({streams.length} available):
-                </p>
-                <div className="space-y-1.5">
-                  {streams.length > 0 ? (
-                    streams.map((stream) => (
-                      <button
-                        key={stream.id}
-                        onClick={() => handleSelectStream(stream)}
-                        className={`group w-full cursor-pointer overflow-hidden rounded-md border text-left transition-colors ${isDarkTheme ? 'border-white/10 bg-[#252525] hover:border-white/30 hover:bg-[#303030]' : 'border-black/10 bg-[#f2f1ed] hover:border-black/30 hover:bg-white'}`}
-                      >
-                        <div className="flex items-center justify-between gap-3 px-4 py-3">
-                          <div className="flex min-w-0 flex-1 items-center gap-2">
-                            <div className="min-w-0">
-                              <h3 className={`flex items-center gap-2 truncate text-base font-bold leading-none ${isDarkTheme ? 'text-white' : 'text-slate-950'}`}>
-                                <StreamHealthDot stream={stream} />
-                                <span className="truncate">{stream.label}</span>
-                                {(stream.language || stream.bitrate) && <span className={`ml-1 shrink-0 text-xs font-medium ${isDarkTheme ? 'text-slate-400' : 'text-slate-500'}`}>
-                                  {[stream.language, stream.bitrate].filter(Boolean).join(' · ')}
-                                </span>}
-                              </h3>
-                            </div>
-                          </div>
-                          <span className={`inline-flex shrink-0 items-center gap-1 text-xs font-bold ${isDarkTheme ? 'text-slate-300' : 'text-slate-600'}`}>
-                            Watch
-                            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                          </span>
-                        </div>
-                      </button>
-                    ))
-                  ) : (
-                    <div className="py-8 text-center">
-                      <p className="text-lg text-gray-500">
-                        😔 No streams available for this game
-                      </p>
-                    </div>
-                  )}
-                </div>
-              </>
+              <StreamSelector
+                streams={streams}
+                isDarkTheme={isDarkTheme}
+                onSelect={handleSelectStream}
+              />
             )}
           </div>
 
