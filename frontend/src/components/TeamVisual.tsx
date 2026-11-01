@@ -6,7 +6,7 @@ interface TeamVisualProps {
   flagUrl?: string | null;
   isEnded: boolean;
   isDarkTheme: boolean;
-  size?: 'default' | 'large';
+  size?: 'small' | 'default' | 'large';
 }
 
 export const TeamVisual: React.FC<TeamVisualProps> = ({
@@ -18,7 +18,7 @@ export const TeamVisual: React.FC<TeamVisualProps> = ({
   size = 'default',
 }) => {
   const visualUrl = logoUrl || flagUrl || null;
-  const visualSizeClass = size === 'large' ? 'h-10 w-10' : 'h-8 w-8';
+  const visualSizeClass = size === 'large' ? 'h-10 w-10' : size === 'small' ? 'h-7 w-7' : 'h-8 w-8';
   const visualClass = isEnded
     ? isDarkTheme
       ? 'border-white/10 bg-[#1b1b1b] opacity-60 grayscale'

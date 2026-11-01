@@ -7,6 +7,7 @@ FRONTEND_PUBLIC_DIR="$ROOT_DIR/frontend/public"
 BACKEND_ENV_FILE="$BACKEND_DIR/.env"
 FRONTEND_JSON_REL="frontend/public/soccer/allSoccerGamesToday.json"
 FRONTEND_JSON_BASKETBALL_REL="frontend/public/basketball/allBasketballGamesToday.json"
+FRONTEND_JSON_MATCHES_REL="frontend/public/soccer/matches.json"
 LOCK_DIR="$BACKEND_DIR/.cache/hydrate.lock"
 LOCK_PID_FILE="$LOCK_DIR/pid"
 
@@ -164,9 +165,9 @@ git_sync_json() {
 
   resolve_git_branch
 
-  git -C "$ROOT_DIR" add "$FRONTEND_JSON_REL" "$FRONTEND_JSON_BASKETBALL_REL"
+  git -C "$ROOT_DIR" add "$FRONTEND_JSON_REL" "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL"
 
-  if git -C "$ROOT_DIR" diff --cached --quiet -- "$FRONTEND_JSON_REL" "$FRONTEND_JSON_BASKETBALL_REL"; then
+  if git -C "$ROOT_DIR" diff --cached --quiet -- "$FRONTEND_JSON_REL" "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL"; then
     echo "Git sync: no staged diff for $FRONTEND_JSON_REL or $FRONTEND_JSON_BASKETBALL_REL"
     return 0
   fi
@@ -291,6 +292,22 @@ run_once() {
     fi
   else
     echo "WARNING: Expected basketball JSON not found: $ENRICHED_JSON_BASKETBALL. Skipping basketball stream check."
+  fi
+
+  printf "\n[4b/7] Scraping live scores and merging into matches.json...\n"
+  if ! (
+    cd "$BACKEND_DIR"
+    node scripts/scrape-livescore.js
+  ); then
+    echo "WARNING: Live scores scraper failed this cycle. Merging with the previous live scores."
+  fi
+  if ! (
+    cd "$BACKEND_DIR"
+    node scripts/merge-soccer-feed.js
+  ); then
+    echo "WARNING: Soccer merge failed this cycle. matches.json unchanged."
+  else
+    did_update=1
   fi
 
   printf "\n[5/7] Checking for meaningful JSON changes...\n"

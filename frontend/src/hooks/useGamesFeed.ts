@@ -1,12 +1,7 @@
-import { useEffect, useState } from 'react';
-import { FEED_REFRESH_INTERVAL_MS, SPORT_FEED_URLS, STATUS_REFRESH_INTERVAL_MS } from '../constants/app';
-import { isFreshSourceLive } from '../utils/isFreshSourceLive';
-import { isGameEnded } from '../utils/isGameEnded';
-import { isStartedBySchedule } from '../utils/isStartedBySchedule';
-import { getPreviewGames } from '../utils/getPreviewGames';
-import { getSourceStatusAt } from '../utils/getSourceStatusAt';
-import { normalizeGame } from '../utils/normalizeGame';
-import type { Game, GamesPayload, Sport } from '../types/game';
+import { useEffect } from 'react';
+import { FEED_REFRESH_INTERVAL_MS, STATUS_REFRESH_INTERVAL_MS } from '../constants/app';
+import { useFeedStore } from '../stores/useFeedStore';
+import type { Game, Sport } from '../types/game';
 
 interface UseGamesFeedResult {
   games: Game[];
@@ -15,72 +10,20 @@ interface UseGamesFeedResult {
 }
 
 export function useGamesFeed(sport: Sport): UseGamesFeedResult {
-  const [games, setGames] = useState<Game[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<Error | null>(null);
+  const { games, isLoading, error } = useFeedStore((state) => state.feeds[sport]);
+  const loadSport = useFeedStore((state) => state.loadSport);
+  const refreshStatuses = useFeedStore((state) => state.refreshStatuses);
 
   useEffect(() => {
-    let isMounted = true;
-    const feedUrl = SPORT_FEED_URLS[sport];
-
-    const loadGames = async () => {
-      try {
-        const response = await fetch(feedUrl, { cache: 'no-store' });
-        if (!response.ok) throw new Error(`Failed to load games JSON (${response.status})`);
-
-        const data = await response.json() as GamesPayload;
-        const sourceStatusAt = getSourceStatusAt(data);
-        const normalizedGames = Array.isArray(data.matches)
-          ? data.matches.map((game, index) => normalizeGame(
-            game,
-            index,
-            sourceStatusAt,
-          ))
-          : [];
-
-        if (!isMounted) return;
-        const previewGames = getPreviewGames();
-        const previewDateLabel = normalizedGames.find((game) => game.dateLabel)?.dateLabel;
-        const alignedPreviewGames = previewDateLabel
-          ? previewGames.map((game) => ({ ...game, dateLabel: previewDateLabel }))
-          : previewGames;
-        setGames([...normalizedGames, ...alignedPreviewGames]);
-        setError(null);
-      } catch (loadError) {
-        if (!isMounted) return;
-        const nextError = loadError instanceof Error ? loadError : new Error('Unknown feed error');
-        setError(nextError);
-        console.error(`Failed to load ${feedUrl}:`, nextError);
-      } finally {
-        if (isMounted) setIsLoading(false);
-      }
-    };
-
-    setIsLoading(true);
-    loadGames();
-    const feedTimer = window.setInterval(loadGames, FEED_REFRESH_INTERVAL_MS);
-
-    return () => {
-      isMounted = false;
-      window.clearInterval(feedTimer);
-    };
-  }, [sport]);
+    void loadSport(sport);
+    const feedTimer = window.setInterval(() => void loadSport(sport), FEED_REFRESH_INTERVAL_MS);
+    return () => window.clearInterval(feedTimer);
+  }, [sport, loadSport]);
 
   useEffect(() => {
-    const statusTimer = window.setInterval(() => {
-      setGames((currentGames) => currentGames.map((game) => {
-        const isEnded = isGameEnded(game.scheduledStartAt, game.sourceIsLive, game.sourceStatusAt);
-        return {
-          ...game,
-          isEnded,
-          isLive: !isEnded && (isFreshSourceLive(game.sourceIsLive, game.sourceStatusAt)
-            || isStartedBySchedule(game.scheduledStartAt)),
-        };
-      }));
-    }, STATUS_REFRESH_INTERVAL_MS);
-
+    const statusTimer = window.setInterval(refreshStatuses, STATUS_REFRESH_INTERVAL_MS);
     return () => window.clearInterval(statusTimer);
-  }, []);
+  }, [refreshStatuses]);
 
   return { games, isLoading, error };
 }
