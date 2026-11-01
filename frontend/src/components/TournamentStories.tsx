@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { CompetitionGroup } from './CompetitionGroup';
 import type { Game } from '../types/game';
 import { extractCountryFromLeague } from '../utils/extractCountryFromLeague';
@@ -8,6 +8,7 @@ import { isSpecialTournament } from '../utils/isSpecialTournament';
 interface TournamentStoriesProps {
   games: Game[];
   isDarkTheme: boolean;
+  leading?: ReactNode;
 }
 
 interface Story {
@@ -48,7 +49,7 @@ function buildStories(games: Game[]): Story[] {
     .sort((a, b) => b.liveCount - a.liveCount || a.shortName.localeCompare(b.shortName));
 }
 
-export function TournamentStories({ games, isDarkTheme }: TournamentStoriesProps) {
+export function TournamentStories({ games, isDarkTheme, leading }: TournamentStoriesProps) {
   const stories = useMemo(() => buildStories(games), [games]);
   const [openLabel, setOpenLabel] = useState<string | null>(null);
   const [entered, setEntered] = useState(false);
@@ -70,13 +71,17 @@ export function TournamentStories({ games, isDarkTheme }: TournamentStoriesProps
     };
   }, [isOpen]);
 
-  if (stories.length === 0) return null;
+  if (stories.length === 0 && !leading) return null;
 
   const muted = isDarkTheme ? 'text-slate-400' : 'text-slate-500';
 
   return (
     <>
-      <div className="mb-4 flex gap-3 overflow-x-auto px-1 pb-2 pt-2" role="list" aria-label="Tournaments in progress">
+      <div className="px-1 pb-2 pt-1">
+        {stories.length > 0 && (
+          <section className="min-w-0" aria-label="Featured tournaments">
+            <h2 className={`mb-2 text-[10px] font-bold uppercase tracking-[0.14em] ${muted}`}>Featured tournaments</h2>
+            <div className="flex gap-3 overflow-x-auto pt-1" role="list" aria-label="Tournaments in progress">
         {stories.map((story) => (
           <button
             key={story.leagueLabel}
@@ -87,19 +92,28 @@ export function TournamentStories({ games, isDarkTheme }: TournamentStoriesProps
             title={`${story.leagueLabel} · ${story.liveCount > 0 ? `${story.liveCount} live` : `${story.games.length} matches`}`}
           >
             <span className="relative">
-              <span className={`flex h-14 w-14 items-center justify-center overflow-hidden rounded-full border transition-colors duration-200 ${story.liveCount > 0 ? 'border-2 border-rose-500 group-hover:border-rose-400' : isDarkTheme ? 'border-white/15 group-hover:border-white/50' : 'border-black/15 group-hover:border-black/50'} ${isDarkTheme ? 'bg-[#252525] group-hover:bg-[#383838]' : 'bg-white group-hover:bg-slate-200'}`}>
+              <span className={`flex h-12 w-12 items-center justify-center overflow-hidden rounded-full border transition-colors duration-200 ${story.liveCount > 0 ? 'border-2 border-rose-500 group-hover:border-rose-400' : isDarkTheme ? 'border-white/15 group-hover:border-white/50' : 'border-black/15 group-hover:border-black/50'} ${isDarkTheme ? 'bg-[#252525] group-hover:bg-[#383838]' : 'bg-white group-hover:bg-slate-200'}`}>
                 {story.flagUrl
                   ? <img src={story.flagUrl} alt="" className="h-full w-full object-cover" />
-                  : <span className={`text-sm font-black ${muted}`}>{story.initials}</span>}
+                  : <span className={`text-xs font-black ${muted}`}>{story.initials}</span>}
               </span>
               {story.liveCount > 0 && (
-                <span className={`absolute -right-1 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-rose-500 px-1 text-[10px] font-black leading-none tabular-nums text-white ring-2 ${isDarkTheme ? 'ring-[#111111]' : 'ring-[#f2f1ed]'}`} aria-label={`${story.liveCount} live`}>{story.liveCount}</span>
+                <span className={`absolute -bottom-1 -right-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-rose-500 px-1 text-[10px] font-black leading-none tabular-nums text-white ring-2 ${isDarkTheme ? 'ring-[#111111]' : 'ring-[#f2f1ed]'}`} aria-label={`${story.liveCount} live`}>{story.liveCount}</span>
               )}
             </span>
             <span className={`line-clamp-2 w-full break-words text-center text-[11px] font-medium leading-tight transition-colors ${isDarkTheme ? 'text-slate-300 group-hover:text-white' : 'text-slate-600 group-hover:text-slate-950'}`}>{story.shortName}</span>
           </button>
         ))}
+            </div>
+          </section>
+        )}
       </div>
+
+      {leading && (
+        <div className="mb-3 flex items-center justify-end gap-4 px-1 pr-3" role="group" aria-label="Filters">
+          {leading}
+        </div>
+      )}
 
       {openStory && (
         <div className="fixed inset-y-0 left-16 right-0 z-50" role="dialog" aria-modal="true" aria-label={openStory.shortName}>

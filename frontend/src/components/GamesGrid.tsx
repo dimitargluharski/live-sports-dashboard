@@ -91,16 +91,20 @@ export function GamesGrid({ games }: GamesGridProps) {
 
   return (
     <section className={isDarkTheme ? "dark mx-auto min-h-screen w-full max-w-7xl bg-[#111111] px-4 pb-8 pt-4 text-white md:px-6" : "mx-auto min-h-screen w-full max-w-7xl bg-[#f2f1ed] px-4 pb-8 pt-4 text-slate-950 md:px-6"}>
-      <TournamentStories games={gamesWithResolvedFlags} isDarkTheme={isDarkTheme} />
-
-      <GameFilters
+      <TournamentStories
+        games={gamesWithResolvedFlags}
         isDarkTheme={isDarkTheme}
-        filterLiveOnly={filterLiveOnly}
-        filterWithStreams={filterWithStreams}
-        liveGamesCount={liveGamesCount}
-        streamGamesCount={streamGamesCount}
-        onToggleLive={() => setFilterLiveOnly((current) => !current)}
-        onToggleStreams={() => setFilterWithStreams((current) => !current)}
+        leading={(
+          <GameFilters
+            isDarkTheme={isDarkTheme}
+            filterLiveOnly={filterLiveOnly}
+            filterWithStreams={filterWithStreams}
+            liveGamesCount={liveGamesCount}
+            streamGamesCount={streamGamesCount}
+            onToggleLive={() => setFilterLiveOnly((current) => !current)}
+            onToggleStreams={() => setFilterWithStreams((current) => !current)}
+          />
+        )}
       />
 
       {filteredGames.length > 0 ? (
