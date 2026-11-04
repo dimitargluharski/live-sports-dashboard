@@ -1,7 +1,7 @@
 {
   "section": "Basketball",
-  "scrapedAt": "2026-11-04T18:00:13.932Z",
-  "count": 44,
+  "scrapedAt": "2026-11-04T18:19:18.505Z",
+  "count": 52,
   "matches": [
     {
       "id": 1,
@@ -34,7 +34,7 @@
       "dateLabel": "4 November",
       "timeLabel": "17:00",
       "leagueLabel": "FIBA Europe Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -47,8 +47,8 @@
           "logoUrl": "teams/18/ods/341.gif"
         }
       },
-      "score": "89:53",
-      "liveStatus": "live",
+      "score": "106:70",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
@@ -71,7 +71,7 @@
           "logoUrl": "teams/18/ods/36698.gif"
         }
       },
-      "score": "53:45",
+      "score": "65:58",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:30:00.000Z"
     },
@@ -95,7 +95,7 @@
           "logoUrl": "teams/18/ods/4953.gif"
         }
       },
-      "score": "40:42",
+      "score": "52:52",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
@@ -119,7 +119,7 @@
           "logoUrl": "teams/18/ods/7338.gif"
         }
       },
-      "score": "37:32",
+      "score": "51:60",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
@@ -143,7 +143,7 @@
           "logoUrl": "teams/18/ods/35763.gif"
         }
       },
-      "score": "54:48",
+      "score": "72:78",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
@@ -167,7 +167,7 @@
           "logoUrl": "teams/18/ods/31455.gif"
         }
       },
-      "score": "45:33",
+      "score": "58:54",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
@@ -191,12 +191,60 @@
           "logoUrl": "teams/18/ods/16824.gif"
         }
       },
-      "score": "21:23",
+      "score": "39:31",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
       "id": 9,
+      "matchId": "aefe27f8bb78",
+      "title": "Dziki Warszawa – MZT Skopje",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "FIBA Europe Cup",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Dziki Warszawa",
+          "logoUrl": "teams/18/ods/13861.gif"
+        },
+        "away": {
+          "name": "MZT Skopje",
+          "logoUrl": "teams/18/ods/37435.gif"
+        }
+      },
+      "score": "20:17",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "matchId": "c1d43c9b4b91",
+      "title": "Zielona Gora – Dinamo Bucuresti",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "FIBA Europe Cup",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Zielona Gora",
+          "logoUrl": "teams/18/ods/7340.gif"
+        },
+        "away": {
+          "name": "Dinamo Bucuresti",
+          "logoUrl": "teams/18/ods/10342.gif"
+        }
+      },
+      "score": "13:26",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 11,
       "matchId": "55748f896b8c",
       "title": "Panserraikos (W) – Gorzow Wielkopolski (W)",
       "dateLabel": "4 November",
@@ -220,7 +268,7 @@
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 10,
+      "id": 12,
       "matchId": "6e1caafc05f0",
       "title": "SBS Ostrava (W) – Spar Girona (W)",
       "dateLabel": "4 November",
@@ -244,13 +292,13 @@
       "startsAt": "2026-11-04T16:15:00.000Z"
     },
     {
-      "id": 11,
+      "id": 13,
       "matchId": "8826c8251c4f",
       "title": "HBA (W) – Charnay Bourgogne Sud (W)",
       "dateLabel": "4 November",
       "timeLabel": "17:30",
       "leagueLabel": "Women. Eurocup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -263,12 +311,12 @@
           "logoUrl": "teams/18/ods/12515.gif"
         }
       },
-      "score": "47:77",
-      "liveStatus": "live",
+      "score": "55:92",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T16:30:00.000Z"
     },
     {
-      "id": 12,
+      "id": 14,
       "matchId": "12fd3ba32444",
       "title": "DSK Brandys (W) – Villeneuve-d`Ascq (W)",
       "dateLabel": "4 November",
@@ -287,12 +335,12 @@
           "logoUrl": "teams/18/ods/12517.gif"
         }
       },
-      "score": "13:49",
+      "score": "29:63",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 13,
+      "id": 15,
       "matchId": "6f1540e7e4e9",
       "title": "Cluj-Napoca (W) – Reyer Venice (W)",
       "dateLabel": "4 November",
@@ -311,12 +359,12 @@
           "logoUrl": "teams/18/ods/31416.gif"
         }
       },
-      "score": "29:60",
+      "score": "38:79",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 14,
+      "id": 16,
       "matchId": "0f9dca59d277",
       "title": "Elitzur Ramla (W) – TTT Riga (W)",
       "dateLabel": "4 November",
@@ -335,12 +383,12 @@
           "logoUrl": "teams/18/ods/36950.gif"
         }
       },
-      "score": "34:49",
+      "score": "57:68",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 15,
+      "id": 17,
       "matchId": "f1fc30cdb2d1",
       "title": "Ruzomberok (W) – Avenida (W)",
       "dateLabel": "4 November",
@@ -359,12 +407,12 @@
           "logoUrl": "teams/18/ods/12540.gif"
         }
       },
-      "score": "34:36",
+      "score": "38:53",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 16,
+      "id": 18,
       "matchId": "d823bcbea67f",
       "title": "Celje (W) – Magnolia (W)",
       "dateLabel": "4 November",
@@ -383,12 +431,12 @@
           "logoUrl": "teams/18/ods/12524.gif"
         }
       },
-      "score": "32:30",
+      "score": "42:45",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 17,
+      "id": 19,
       "matchId": "2ecabc3ef904",
       "title": "AEL (W) – Zabiny Brno (W)",
       "dateLabel": "4 November",
@@ -407,12 +455,12 @@
           "logoUrl": "teams/18/ods/12420.gif"
         }
       },
-      "score": "16:31",
+      "score": "23:42",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 18,
+      "id": 20,
       "matchId": "5639369982a7",
       "title": "Montana (W) – Keltern (W)",
       "dateLabel": "4 November",
@@ -431,12 +479,84 @@
           "logoUrl": "teams/18/ods/17574.gif"
         }
       },
-      "score": "20:30",
+      "score": "35:37",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 19,
+      "id": 21,
+      "matchId": "9ba0093879dd",
+      "title": "Chartres (W) – Namur Capitale (W)",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Women. Eurocup",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Chartres (W)",
+          "logoUrl": "teams/18/ods/23977.gif"
+        },
+        "away": {
+          "name": "Namur Capitale (W)",
+          "logoUrl": "teams/18/ods/17421.gif"
+        }
+      },
+      "score": "19:16",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 22,
+      "matchId": "fcdd20c7f2ab",
+      "title": "Castelnuovo Scrivia (W) – Elfic Fribourg (W)",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Women. Eurocup",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Castelnuovo Scrivia (W)",
+          "logoUrl": "teams/18/ods/20131.gif"
+        },
+        "away": {
+          "name": "Elfic Fribourg (W)",
+          "logoUrl": "teams/18/ods/17397.gif"
+        }
+      },
+      "score": "24:5",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 23,
+      "matchId": "00d223968b4b",
+      "title": "Royals Saarlouis (W) – Benfica (W)",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Women. Eurocup",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Royals Saarlouis (W)",
+          "logoUrl": "teams/18/ods/19380.gif"
+        },
+        "away": {
+          "name": "Benfica (W)",
+          "logoUrl": "teams/18/ods/19301.gif"
+        }
+      },
+      "score": "16:21",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 24,
       "matchId": "64a84a471e5a",
       "title": "Turk Telekom – Skyliners",
       "dateLabel": "4 November",
@@ -455,12 +575,12 @@
           "logoUrl": "teams/18/ods/4409.gif"
         }
       },
-      "score": "66:61",
+      "score": "80:70",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:30:00.000Z"
     },
     {
-      "id": 20,
+      "id": 25,
       "matchId": "7d179af76004",
       "title": "Lietkabelis – Manresa",
       "dateLabel": "4 November",
@@ -479,12 +599,12 @@
           "logoUrl": "teams/18/ods/715.gif"
         }
       },
-      "score": "28:45",
+      "score": "41:51",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 21,
+      "id": 26,
       "matchId": "752f59a7c8a9",
       "title": "Rigas Zelli – Le Mans",
       "dateLabel": "4 November",
@@ -503,12 +623,12 @@
           "logoUrl": "teams/18/ods/35777.gif"
         }
       },
-      "score": "40:28",
+      "score": "47:41",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 22,
+      "id": 27,
       "matchId": "b5586995c80e",
       "title": "Cedevita Olimpija – Derthona",
       "dateLabel": "4 November",
@@ -527,12 +647,36 @@
           "logoUrl": "teams/18/ods/32027.gif"
         }
       },
-      "score": "20:20",
+      "score": "27:34",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 23,
+      "id": 28,
+      "matchId": "fd9d5e4d4636",
+      "title": "Slask Wroclaw – JL Bourg",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Eurocup",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Slask Wroclaw",
+          "logoUrl": "teams/18/ods/10351.gif"
+        },
+        "away": {
+          "name": "JL Bourg",
+          "logoUrl": "teams/18/ods/8688.gif"
+        }
+      },
+      "score": "17:25",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 29,
       "matchId": "44f729ffb8ed",
       "title": "Falco Szombathely – AEK",
       "dateLabel": "4 November",
@@ -551,12 +695,12 @@
           "logoUrl": "teams/18/ods/35781.gif"
         }
       },
-      "score": "27:38",
+      "score": "51:54",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 24,
+      "id": 30,
       "matchId": "68ec78a32d15",
       "title": "Legia – Galatasaray",
       "dateLabel": "4 November",
@@ -575,12 +719,12 @@
           "logoUrl": "teams/18/ods/7856.gif"
         }
       },
-      "score": "34:32",
+      "score": "49:48",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 25,
+      "id": 31,
       "matchId": "ef72eb037d54",
       "title": "Shumen – Yambol",
       "dateLabel": "4 November",
@@ -599,12 +743,12 @@
           "logoUrl": "teams/18/ods/11510.gif"
         }
       },
-      "score": "77:50",
+      "score": "91:63",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:30:00.000Z"
     },
     {
-      "id": 26,
+      "id": 32,
       "matchId": "19fed3148c68",
       "title": "Brno – Olomoucko",
       "dateLabel": "4 November",
@@ -623,12 +767,12 @@
           "logoUrl": "teams/18/ods/35762.gif"
         }
       },
-      "score": "43:33",
+      "score": "51:46",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 27,
+      "id": 33,
       "matchId": "fae54e7cc065",
       "title": "Slavia Prague – Decin",
       "dateLabel": "4 November",
@@ -647,16 +791,16 @@
           "logoUrl": "teams/18/ods/7496.gif"
         }
       },
-      "score": "45:41",
+      "score": "62:53",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 28,
-      "matchId": "ebf489c4c0f8",
+      "id": 34,
+      "matchId": "5f433d1d2ecc",
       "title": "Zrinjski Mostar – Anwil Wloclawek",
       "dateLabel": "4 November",
-      "timeLabel": "16:15",
+      "timeLabel": "17:15",
       "leagueLabel": "ENBL",
       "isLive": false,
       "streams": [],
@@ -671,36 +815,12 @@
           "logoUrl": "teams/18/ods/7341.gif"
         }
       },
-      "score": "0:0",
+      "score": "78:84",
       "liveStatus": "finished",
-      "startsAt": "2026-11-04T15:15:00.000Z"
-    },
-    {
-      "id": 29,
-      "matchId": "5f433d1d2ecc",
-      "title": "Zrinjski Mostar – Anwil Wloclawek",
-      "dateLabel": "4 November",
-      "timeLabel": "17:15",
-      "leagueLabel": "ENBL",
-      "isLive": true,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Zrinjski Mostar",
-          "logoUrl": "teams/18/ods/20767.gif"
-        },
-        "away": {
-          "name": "Anwil Wloclawek",
-          "logoUrl": "teams/18/ods/7341.gif"
-        }
-      },
-      "score": "71:74",
-      "liveStatus": "live",
       "startsAt": "2026-11-04T16:15:00.000Z"
     },
     {
-      "id": 30,
+      "id": 35,
       "matchId": "14616c146108",
       "title": "Voluntari – Fyllingen",
       "dateLabel": "4 November",
@@ -719,12 +839,36 @@
           "logoUrl": "teams/18/ods/35589.gif"
         }
       },
-      "score": "50:55",
+      "score": "65:77",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 31,
+      "id": 36,
+      "matchId": "12599af8ce8b",
+      "title": "Kapfenberg Bulls – Mitteldeutscher",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "ENBL",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Kapfenberg Bulls",
+          "logoUrl": "teams/18/ods/612.gif"
+        },
+        "away": {
+          "name": "Mitteldeutscher",
+          "logoUrl": "teams/18/ods/4932.gif"
+        }
+      },
+      "score": "22:22",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 37,
       "matchId": "a4bb3bfd9a4d",
       "title": "Rogaska – Ilirija",
       "dateLabel": "4 November",
@@ -748,7 +892,7 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 32,
+      "id": 38,
       "matchId": "d41243cbbd0b",
       "title": "Kipina – KTP",
       "dateLabel": "4 November",
@@ -767,18 +911,18 @@
           "logoUrl": "teams/18/ods/12672.gif"
         }
       },
-      "score": "75:78",
+      "score": "100:97",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:30:00.000Z"
     },
     {
-      "id": 33,
+      "id": 39,
       "matchId": "928dd6d936cf",
       "title": "Korihait – Kauhajoki",
       "dateLabel": "4 November",
       "timeLabel": "17:30",
       "leagueLabel": "Finland. Korisliiga",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -791,12 +935,12 @@
           "logoUrl": "teams/18/ods/12673.gif"
         }
       },
-      "score": "66:66",
-      "liveStatus": "live",
+      "score": "87:79",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T16:30:00.000Z"
     },
     {
-      "id": 34,
+      "id": 40,
       "matchId": "c7024f72da0e",
       "title": "Bisons Loimaa – Lahti",
       "dateLabel": "4 November",
@@ -815,12 +959,12 @@
           "logoUrl": "teams/18/ods/9633.gif"
         }
       },
-      "score": "61:73",
+      "score": "79:83",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:30:00.000Z"
     },
     {
-      "id": 35,
+      "id": 41,
       "matchId": "527e6f696662",
       "title": "Liepaja – Keila Basket",
       "dateLabel": "4 November",
@@ -839,12 +983,12 @@
           "logoUrl": "teams/18/ods/31370.gif"
         }
       },
-      "score": "49:26",
+      "score": "64:44",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 36,
+      "id": 42,
       "matchId": "af73ba45fecf",
       "title": "Hercegovac – TFT Skopje",
       "dateLabel": "4 November",
@@ -868,7 +1012,7 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 37,
+      "id": 43,
       "matchId": "faf44602d56c",
       "title": "Bears Academy – Horsens",
       "dateLabel": "4 November",
@@ -887,12 +1031,60 @@
           "logoUrl": "teams/18/ods/9154.gif"
         }
       },
-      "score": "25:35",
+      "score": "33:47",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 38,
+      "id": 44,
+      "matchId": "245ef4e183fe",
+      "title": "BMS Herlev – Stevnsgade",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Denmark. Basketligaen",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "BMS Herlev",
+          "logoUrl": "teams/18/ods/17505.gif"
+        },
+        "away": {
+          "name": "Stevnsgade",
+          "logoUrl": "teams/18/ods/29181.gif"
+        }
+      },
+      "score": "17:12",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 45,
+      "matchId": "0ccf025a6a57",
+      "title": "Vaerlose – FOG Naestved",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Denmark. Basketligaen",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Vaerlose",
+          "logoUrl": "teams/18/ods/2295.gif"
+        },
+        "away": {
+          "name": "FOG Naestved",
+          "logoUrl": "teams/18/ods/9155.gif"
+        }
+      },
+      "score": "17:14",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 46,
       "matchId": "d3e12b0893c5",
       "title": "Spartak (W) – MBA-MAI (W)",
       "dateLabel": "4 November",
@@ -911,36 +1103,12 @@
           "logoUrl": "teams/18/ods/14020.gif"
         }
       },
-      "score": "15:23",
+      "score": "27:36",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 39,
-      "matchId": "8677e7b25784",
-      "title": "Samaheej – Sitra",
-      "dateLabel": "4 November",
-      "timeLabel": "16:00",
-      "leagueLabel": "Bahrain. Premier League",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Samaheej",
-          "logoUrl": "teams/18/ods/23219.gif"
-        },
-        "away": {
-          "name": "Sitra",
-          "logoUrl": "teams/18/ods/22560.gif"
-        }
-      },
-      "score": "60:102",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T15:00:00.000Z"
-    },
-    {
-      "id": 40,
+      "id": 47,
       "matchId": "5309d5e8016e",
       "title": "Al Ahli – Al-Hala",
       "dateLabel": "4 November",
@@ -964,7 +1132,7 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 41,
+      "id": 48,
       "matchId": "5a9d988cf942",
       "title": "Beroe (W) – Partizan (W)",
       "dateLabel": "4 November",
@@ -988,7 +1156,31 @@
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 42,
+      "id": 49,
+      "matchId": "265fd778f2be",
+      "title": "Alvik (W) – Uppsala (W)",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Sweden. Women. Basketligan",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Alvik (W)",
+          "logoUrl": "teams/18/ods/13317.gif"
+        },
+        "away": {
+          "name": "Uppsala (W)",
+          "logoUrl": "teams/18/ods/13328.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 50,
       "matchId": "812f5a44b8a5",
       "title": "Horsholm (W) – Amager (W)",
       "dateLabel": "4 November",
@@ -1007,12 +1199,12 @@
           "logoUrl": "teams/18/ods/13722.gif"
         }
       },
-      "score": "15:22",
+      "score": "19:40",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 43,
+      "id": 51,
       "matchId": "16184fb344ab",
       "title": "ES Rades – Goulette",
       "dateLabel": "4 November",
@@ -1036,7 +1228,7 @@
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 44,
+      "id": 52,
       "matchId": "6c1dbfaa688e",
       "title": "JS Menzah – Stade Nabeulien",
       "dateLabel": "4 November",

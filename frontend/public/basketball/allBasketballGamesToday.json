@@ -1,6 +1,6 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-11-04T18:00:06.724Z",
+  "scrapedAt": "2026-11-04T18:19:14.926Z",
   "count": 115,
   "matches": [
     {
@@ -8,26 +8,15 @@
       "title": "Esenler Erokspor – Sporting",
       "dateLabel": "4 November",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:00\n(FIBA Europe Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/jJTNXo3gWk4?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.520Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Esenler Erokspor",
@@ -42,7 +31,112 @@
           "substitutes": []
         }
       },
-      "headToHead": null,
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700056204/700010026/3_c4090/",
+        "matches": [
+          {
+            "date": "04/11",
+            "competition": "FIBA Europe Cup",
+            "homeTeam": "Esenler Erokspor",
+            "awayTeam": "Sporting",
+            "score": "106:70",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Esenler Erokspor",
+        "awayTeam": "Sporting",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "01/11",
+                "competition": "BSL",
+                "opponent": "Turk Telekom",
+                "score": "71:89",
+                "result": "L"
+              },
+              {
+                "date": "30/10",
+                "competition": "BSL",
+                "opponent": "Turk Telekom",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "28/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Kolossos",
+                "score": "71:69",
+                "result": "W"
+              },
+              {
+                "date": "24/10",
+                "competition": "BSL",
+                "opponent": "Trabzonspor",
+                "score": "93:90",
+                "result": "W"
+              },
+              {
+                "date": "21/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Craiova",
+                "score": "118:96",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "01/11",
+                "competition": "BSL",
+                "opponent": "Esenler Erokspor",
+                "score": "89:71",
+                "result": "W"
+              },
+              {
+                "date": "30/10",
+                "competition": "BSL",
+                "opponent": "Esenler Erokspor",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "28/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Kolossos",
+                "score": "71:69",
+                "result": "W"
+              },
+              {
+                "date": "24/10",
+                "competition": "BSL",
+                "opponent": "Trabzonspor",
+                "score": "93:90",
+                "result": "W"
+              },
+              {
+                "date": "21/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Esenler Erokspor",
+                "score": "96:118",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 1,
+              "L": 1
+            }
+          }
+        }
+      },
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
@@ -50,26 +144,15 @@
       "title": "Alytaus Dzukija (W) – Rokiskis (W)",
       "dateLabel": "4 November",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Lithuania. Women. LMKL",
       "iconUrl": "https://cdn.livetv911.me/img/icons/basket.gif",
       "iconAlt": "Lithuania. Women. LMKL",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:00\n(Lithuania. Women. LMKL)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/hCTMFTOGfCA?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.530Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Alytaus Dzukija (W)",
@@ -92,26 +175,15 @@
       "title": "Beroe (W) – Partizan (W)",
       "dateLabel": "4 November",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. Adriatic League",
       "iconUrl": "https://cdn.livetv911.me/img/icons/basket.gif",
       "iconAlt": "Women. Adriatic League",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:00\n(Women. Adriatic League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/DVEqKPQtj_I?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.531Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Beroe (W)",
@@ -134,26 +206,15 @@
       "title": "Batumi – Split",
       "dateLabel": "4 November",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:00\n(FIBA Europe Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/zW5NKGTqNc0?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.531Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Batumi",
@@ -281,26 +342,15 @@
       "title": "Panserraikos (W) – Gorzow Wielkopolski (W)",
       "dateLabel": "4 November",
       "timeLabel": "17:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:00\n(Women. Eurocup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/C2JfGHfUrf4?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.532Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Panserraikos (W)",
@@ -323,26 +373,15 @@
       "title": "SBS Ostrava (W) – Spar Girona (W)",
       "dateLabel": "4 November",
       "timeLabel": "17:15",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:15\n(Women. Eurocup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/-2tnG_Sy77s?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.533Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "SBS Ostrava (W)",
@@ -380,7 +419,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.533Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.639Z",
           "healthHttpStatus": 200
         },
         {
@@ -390,7 +429,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.534Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.649Z",
           "healthHttpStatus": 200
         },
         {
@@ -400,7 +439,7 @@
           "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.773Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.650Z",
           "healthHttpStatus": 200
         }
       ],
@@ -442,7 +481,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.785Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.651Z",
           "healthHttpStatus": 200
         }
       ],
@@ -484,7 +523,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.797Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.651Z",
           "healthHttpStatus": 200
         }
       ],
@@ -526,7 +565,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.798Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.652Z",
           "healthHttpStatus": 200
         }
       ],
@@ -845,7 +884,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.830Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.652Z",
           "healthHttpStatus": 200
         }
       ],
@@ -992,7 +1031,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.835Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.653Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1157,7 +1196,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.863Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.953Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1322,7 +1361,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.865Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.976Z",
           "healthHttpStatus": 200
         },
         {
@@ -1332,7 +1371,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.949Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.977Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1479,7 +1518,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.956Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.978Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1626,7 +1665,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.972Z",
+          "healthCheckedAt": "2026-11-04T18:19:15.987Z",
           "healthHttpStatus": 200
         },
         {
@@ -1636,7 +1675,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:07.973Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.021Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1819,7 +1858,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.047Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.022Z",
           "healthHttpStatus": 200
         },
         {
@@ -1829,7 +1868,7 @@
           "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.076Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.042Z",
           "healthHttpStatus": 200
         },
         {
@@ -1839,7 +1878,7 @@
           "language": "Hebrew",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.085Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.070Z",
           "healthHttpStatus": 200
         },
         {
@@ -1849,7 +1888,7 @@
           "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.087Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.180Z",
           "healthHttpStatus": 200
         },
         {
@@ -1859,7 +1898,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.147Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.180Z",
           "healthHttpStatus": 200
         },
         {
@@ -1869,7 +1908,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.159Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.205Z",
           "healthHttpStatus": 200
         },
         {
@@ -1879,7 +1918,7 @@
           "language": "Polish",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.163Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.211Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2063,7 +2102,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.223Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.232Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2105,7 +2144,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.259Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.270Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2147,7 +2186,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.268Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.303Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2303,7 +2342,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.269Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.357Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2345,7 +2384,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.335Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.385Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2387,7 +2426,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.352Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.396Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2429,7 +2468,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.385Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.406Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2471,7 +2510,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.386Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.423Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2513,7 +2552,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.413Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.435Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2555,7 +2594,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.428Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.445Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2597,7 +2636,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.447Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.550Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2639,7 +2678,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.496Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.576Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2681,7 +2720,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.538Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.586Z",
           "healthHttpStatus": 200
         },
         {
@@ -2691,7 +2730,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.550Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.609Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2733,7 +2772,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.556Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.626Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2911,7 +2950,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.564Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.626Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2953,7 +2992,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.587Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.636Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2991,35 +3030,45 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://emb.tvp9.online/p2p/?id=268668",
-          "language": "Croatian",
+          "url": "https://emb.tvp9.online/p2p/?id=270940",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.606Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.639Z",
           "healthHttpStatus": 200
         },
         {
           "id": 2,
           "label": "Stream 4",
-          "url": "https://emb.tvp9.online/p2p/?id=271213",
-          "language": "Serbian",
+          "url": "https://emb.tvp9.online/p2p/?id=268668",
+          "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.671Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.694Z",
           "healthHttpStatus": 200
         },
         {
           "id": 3,
           "label": "Stream 6",
+          "url": "https://emb.tvp9.online/p2p/?id=271213",
+          "language": "Serbian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:16.760Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 4,
+          "label": "Stream 8",
           "url": "https://emb.apl644.online/\nplayer/live.php?id=242257&w=700&h=480",
           "language": "Russian",
           "bitrate": "2000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.714Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.776Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 3,
+      "streamCount": 4,
       "teams": {
         "home": {
           "name": "Cedevita Olimpija",
@@ -3057,7 +3106,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.720Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.787Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3084,7 +3133,7 @@
       "title": "Rigas Kadeti – Salaspils",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Latvia. NBL",
       "iconUrl": "https://cdn.livetv911.me/img/icons/basket.gif",
       "iconAlt": "Latvia. NBL",
@@ -3099,7 +3148,7 @@
           "language": "Latvian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.740Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.797Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3126,7 +3175,7 @@
       "title": "Castelnuovo Scrivia (W) – Elfic Fribourg (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
@@ -3141,7 +3190,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.740Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.798Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3168,7 +3217,7 @@
       "title": "Zielona Gora – Dinamo Bucuresti",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
@@ -3183,7 +3232,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.783Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.829Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3210,7 +3259,7 @@
       "title": "Batumi – Split",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
@@ -3225,7 +3274,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.863Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.873Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3357,7 +3406,7 @@
       "title": "Student Nis (W) – Sopron (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
@@ -3372,7 +3421,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.888Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.950Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3399,7 +3448,7 @@
       "title": "Royals Saarlouis (W) – Benfica (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
@@ -3414,7 +3463,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.895Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.971Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3441,7 +3490,7 @@
       "title": "Chartres (W) – Namur Capitale (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
@@ -3456,7 +3505,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:08.954Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.972Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3483,7 +3532,7 @@
       "title": "Chartres (W) – Namur Capitale (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
@@ -3498,7 +3547,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.016Z",
+          "healthCheckedAt": "2026-11-04T18:19:16.976Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3525,7 +3574,7 @@
       "title": "Dziki Warszawa – MZT Skopje",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
@@ -3540,7 +3589,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.032Z",
+          "healthCheckedAt": "2026-11-04T18:19:17.031Z",
           "healthHttpStatus": 200
         },
         {
@@ -3550,7 +3599,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.111Z",
+          "healthCheckedAt": "2026-11-04T18:19:17.104Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3577,7 +3626,7 @@
       "title": "Slask Wroclaw – JL Bourg",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/eurocup.gif",
       "iconAlt": "Eurocup",
@@ -3592,7 +3641,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.112Z",
+          "healthCheckedAt": "2026-11-04T18:19:17.143Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3748,7 +3797,7 @@
           "language": "Latvian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.113Z",
+          "healthCheckedAt": "2026-11-04T18:19:17.159Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3790,7 +3839,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.163Z",
+          "healthCheckedAt": "2026-11-04T18:19:17.163Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3832,7 +3881,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.203Z",
+          "healthCheckedAt": "2026-11-04T18:19:17.201Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3874,7 +3923,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.248Z",
+          "healthCheckedAt": "2026-11-04T18:19:17.202Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3916,7 +3965,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.284Z",
+          "healthCheckedAt": "2026-11-04T18:19:17.318Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3958,7 +4007,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.309Z",
+          "healthCheckedAt": "2026-11-04T18:19:17.324Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4000,7 +4049,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.341Z",
+          "healthCheckedAt": "2026-11-04T18:19:17.343Z",
           "healthHttpStatus": 200
         },
         {
@@ -4010,7 +4059,7 @@
           "language": "Bulgarian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.351Z",
+          "healthCheckedAt": "2026-11-04T18:19:17.343Z",
           "healthHttpStatus": 200
         },
         {
@@ -4020,7 +4069,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:00:09.351Z",
+          "healthCheckedAt": "2026-11-04T18:19:17.344Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4054,8 +4103,49 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 20:00\n(Eurocup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://emb.tvp9.online/p2p/?id=268645",
+          "language": "Croatian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.352Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://emb.tvp9.online/p2p/?id=268672",
+          "language": "Croatian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.458Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 3,
+          "label": "Stream 6",
+          "url": "https://emb.tvp9.online/p2p/?id=269441",
+          "language": "Portuguese",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.472Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 4,
+          "label": "Stream 8",
+          "url": "https://emb.tvp9.online/p2p/?id=271219",
+          "language": "Serbian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.495Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 4,
       "teams": {
         "home": {
           "name": "Hapoel Jerusalem",
@@ -4208,8 +4298,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 20:00\n(Eurocup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://emb.tvp9.online/p2p/?id=269149",
+          "language": "Croatian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.537Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Venezia",
@@ -4239,8 +4340,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 20:00\n(FIBA Europe Cup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/kBovSXZMfuI?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.538Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Fribourg Olympic",
@@ -4270,8 +4382,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 20:00\n(FIBA Europe Cup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/Vud2mOsDKxc?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.538Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Elan Chalon",
@@ -4301,8 +4424,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 20:00\n(FIBA Europe Cup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/a7DbcaVclpk?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.538Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Benfica",
@@ -4332,8 +4466,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 20:00\n(FIBA Europe Cup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/3Dh7trKz9jA?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.647Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Trier Gladiators",
@@ -4363,8 +4508,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 20:00\n(Women. Eurocup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/1ZIEV4S4GVM?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.652Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Ensino (W)",
@@ -4394,8 +4550,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 20:00\n(Women. Eurocup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/2S1CQbVj_7I?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.682Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Brod Na Savi (W)",
@@ -4425,8 +4592,29 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 20:00\n(Champions League)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://emb.tvp9.online/p2p/?id=268676",
+          "language": "Croatian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.685Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://emb.tvp9.online/p2p/?id=271163",
+          "language": "Czech",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.706Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 2,
       "teams": {
         "home": {
           "name": "Bonn",
@@ -4456,8 +4644,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 20:00\n(Women. Euroleague)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/uYsRz3mybOI?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T18:19:17.706Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "PF Schio (W)",
@@ -10695,5 +10894,5 @@
       "startsAt": "2026-11-05T22:30:00.000Z"
     }
   ],
-  "enrichedAt": "2026-11-04T18:00:06.725Z"
+  "enrichedAt": "2026-11-04T18:19:14.927Z"
 }

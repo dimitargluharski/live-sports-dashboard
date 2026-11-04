@@ -1,7 +1,7 @@
 {
   "section": "Ice Hockey",
-  "scrapedAt": "2026-11-04T18:00:13.932Z",
-  "count": 14,
+  "scrapedAt": "2026-11-04T18:19:18.505Z",
+  "count": 17,
   "matches": [
     {
       "id": 1,
@@ -23,7 +23,7 @@
           "logoUrl": "teams/18/ods/871.gif"
         }
       },
-      "score": "4:1",
+      "score": "5:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
@@ -47,7 +47,7 @@
           "logoUrl": "teams/18/ods/35499.gif"
         }
       },
-      "score": "2:1",
+      "score": "2:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
@@ -71,7 +71,7 @@
           "logoUrl": "teams/18/ods/7336.gif"
         }
       },
-      "score": "4:1",
+      "score": "4:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
@@ -95,12 +95,36 @@
           "logoUrl": "teams/18/ods/6741.gif"
         }
       },
-      "score": "0:1",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:10:00.000Z"
     },
     {
       "id": 5,
+      "matchId": "6eb8aad2e79b",
+      "title": "Surahammar – Sollentuna",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Sweden. Hockeyettan. North",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Surahammar",
+          "logoUrl": "teams/18/ods/10306.gif"
+        },
+        "away": {
+          "name": "Sollentuna",
+          "logoUrl": "teams/18/ods/8973.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 6,
       "matchId": "6ca14fe0597b",
       "title": "Ottawa 67 – Kingston Frontenacs",
       "dateLabel": "4 November",
@@ -124,7 +148,31 @@
       "startsAt": "2026-11-04T15:30:00.000Z"
     },
     {
-      "id": 6,
+      "id": 7,
+      "matchId": "894e241ed4e9",
+      "title": "Dalen – Troja/Ljungby",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Sweden. Hockeyettan. South",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Dalen",
+          "logoUrl": "teams/18/ods/10311.gif"
+        },
+        "away": {
+          "name": "Troja/Ljungby",
+          "logoUrl": "teams/18/ods/10468.gif"
+        }
+      },
+      "score": "2:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 8,
       "matchId": "ef2a5b0f2261",
       "title": "Bobri Valasske Mezirici – Jestrabi Prostejov",
       "dateLabel": "4 November",
@@ -148,7 +196,7 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 7,
+      "id": 9,
       "matchId": "0ba4985594d2",
       "title": "Jestrabi Prostejov – Velke Mezirici",
       "dateLabel": "4 November",
@@ -167,12 +215,12 @@
           "logoUrl": "teams/18/ods/19770.gif"
         }
       },
-      "score": "5:2",
+      "score": "6:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 8,
+      "id": 10,
       "matchId": "4aa764adf51b",
       "title": "Slezan Opava – Novy Jicin",
       "dateLabel": "4 November",
@@ -196,7 +244,7 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 9,
+      "id": 11,
       "matchId": "8be0a14a2541",
       "title": "Sumperk – Hodonin",
       "dateLabel": "4 November",
@@ -220,7 +268,7 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 10,
+      "id": 12,
       "matchId": "c7f2a718a705",
       "title": "Poruba – Koprivnice",
       "dateLabel": "4 November",
@@ -244,7 +292,7 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 11,
+      "id": 13,
       "matchId": "599a3597f9cc",
       "title": "Benatky nad Jizerou – Kralupy nad Vltavou",
       "dateLabel": "4 November",
@@ -268,7 +316,7 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 12,
+      "id": 14,
       "matchId": "04a26039f0dc",
       "title": "Havlickuv Brod – Vrchlabi",
       "dateLabel": "4 November",
@@ -292,7 +340,7 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 13,
+      "id": 15,
       "matchId": "9391d1e09c60",
       "title": "Kobra Prague – Usti nad Labem",
       "dateLabel": "4 November",
@@ -311,12 +359,12 @@
           "logoUrl": "teams/18/ods/8121.gif"
         }
       },
-      "score": "0:2",
+      "score": "1:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 14,
+      "id": 16,
       "matchId": "cd9919a189bd",
       "title": "Mostecti Lvi – Písek",
       "dateLabel": "4 November",
@@ -335,9 +383,33 @@
           "logoUrl": "teams/18/ods/35200.gif"
         }
       },
-      "score": "3:1",
+      "score": "3:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "id": 17,
+      "matchId": "6301c613bb59",
+      "title": "Sweden U-20 – Slovakia U-20",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Friendly Match U-20",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Sweden U-20",
+          "logoUrl": "teams/18/ods/flag183.gif"
+        },
+        "away": {
+          "name": "Slovakia U-20",
+          "logoUrl": "teams/18/ods/flag181.gif"
+        }
+      },
+      "score": "1:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:00:00.000Z"
     }
   ]
 }
