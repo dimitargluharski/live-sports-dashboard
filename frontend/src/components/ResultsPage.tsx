@@ -31,7 +31,7 @@ export function ResultsPage({ games }: ResultsPageProps) {
   const searchTerm = useDebouncedSearchTerm();
   const [selectedSport, setSelectedSport] = useState<Sport | 'all'>('all');
 
-  const { days, total, sportCounts, availableSports } = useMemo(() => {
+  const { days, sportCounts, availableSports } = useMemo(() => {
     const finished = prepareGamesForGrid(games).filter(
       (game) => game.isEnded && !game.isPreview && !isTournamentLabelGame(game) && matchesGameSearch(game, searchTerm),
     );
