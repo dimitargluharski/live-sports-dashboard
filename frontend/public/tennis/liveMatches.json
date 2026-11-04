@@ -1,34 +1,10 @@
 {
   "section": "Tennis",
-  "scrapedAt": "2026-11-04T20:48:43.384Z",
-  "count": 16,
+  "scrapedAt": "2026-11-04T21:06:59.094Z",
+  "count": 12,
   "matches": [
     {
       "id": 1,
-      "matchId": "fdada6abf445",
-      "title": "Julia Grabher (W) – Julia Riera (W)",
-      "dateLabel": "4 November",
-      "timeLabel": "19:05",
-      "leagueLabel": "WTA. Cali",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Julia Grabher (W)",
-          "logoUrl": "teams/18/ods/15037.gif"
-        },
-        "away": {
-          "name": "Julia Riera (W)",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "0:2",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T18:05:00.000Z"
-    },
-    {
-      "id": 2,
       "matchId": "08716f91b781",
       "title": "Alice Tubello (W) – Marina Bassols-Ribera (W)",
       "dateLabel": "4 November",
@@ -52,7 +28,7 @@
       "startsAt": "2026-11-04T18:10:00.000Z"
     },
     {
-      "id": 3,
+      "id": 2,
       "matchId": "681fc3fa40e9",
       "title": "Despina Papamichail (W) – Renata Zarazua (W)",
       "dateLabel": "4 November",
@@ -76,13 +52,13 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 4,
-      "matchId": "e11d5f842983",
+      "id": 3,
+      "matchId": "1d4e241fd6c2",
       "title": "Leyre Romero Gormaz (W) – Sierra Solana (W)",
       "dateLabel": "4 November",
-      "timeLabel": "20:49",
+      "timeLabel": "20:50",
       "leagueLabel": "WTA. Cali",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -95,12 +71,12 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "1:0",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T19:49:00.000Z"
+      "score": "2:0",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T19:50:00.000Z"
     },
     {
-      "id": 5,
+      "id": 4,
       "matchId": "43b3d569fdeb",
       "title": "Alex Michelsen – Carlos Alcaraz",
       "dateLabel": "4 November",
@@ -124,7 +100,7 @@
       "startsAt": "2026-11-04T18:15:00.000Z"
     },
     {
-      "id": 6,
+      "id": 5,
       "matchId": "d640cf258cf6",
       "title": "Thiago Tirante – Jan-lennard Struff",
       "dateLabel": "4 November",
@@ -148,55 +124,7 @@
       "startsAt": "2026-11-04T18:15:00.000Z"
     },
     {
-      "id": 7,
-      "matchId": "ab709152e747",
-      "title": "Braden Shick – Dali Blanch",
-      "dateLabel": "4 November",
-      "timeLabel": "19:05",
-      "leagueLabel": "ATP Challenger. Charlottesville",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Braden Shick",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Dali Blanch",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T18:05:00.000Z"
-    },
-    {
-      "id": 8,
-      "matchId": "66e63651f7c6",
-      "title": "Braden Shick – Darwin Blanch",
-      "dateLabel": "4 November",
-      "timeLabel": "19:05",
-      "leagueLabel": "ATP Challenger. Charlottesville",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Braden Shick",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Darwin Blanch",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T18:05:00.000Z"
-    },
-    {
-      "id": 9,
+      "id": 6,
       "matchId": "017d2dec5265",
       "title": "Marcos Giron – Justin Boulais",
       "dateLabel": "4 November",
@@ -220,31 +148,7 @@
       "startsAt": "2026-11-04T19:39:00.000Z"
     },
     {
-      "id": 10,
-      "matchId": "9682f9ae8f67",
-      "title": "Nishesh Basavareddy – Mika Brunold",
-      "dateLabel": "4 November",
-      "timeLabel": "20:00",
-      "leagueLabel": "ATP Challenger. Bratislava 2",
-      "isLive": true,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Nishesh Basavareddy",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Mika Brunold",
-          "logoUrl": "teams/18/ods/25881.gif"
-        }
-      },
-      "score": "1:0",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T19:00:00.000Z"
-    },
-    {
-      "id": 11,
+      "id": 7,
       "matchId": "341517644e8b",
       "title": "Jerome Kym – Luka Pavlovic",
       "dateLabel": "4 November",
@@ -268,31 +172,31 @@
       "startsAt": "2026-11-04T19:05:00.000Z"
     },
     {
-      "id": 12,
-      "matchId": "ed68ff8e5435",
-      "title": "Wendelken / Barry – Blancaneaux / Zheng",
+      "id": 8,
+      "matchId": "74bcda85b54a",
+      "title": "Nishesh Basavareddy – Mika Brunold",
       "dateLabel": "4 November",
-      "timeLabel": "19:00",
-      "leagueLabel": "ATP Challenger. Charlottesville. Doubles",
+      "timeLabel": "20:10",
+      "leagueLabel": "ATP Challenger. Bratislava 2",
       "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "Wendelken / Barry",
-          "logoUrl": "teams/18/ods/.gif"
+          "name": "Nishesh Basavareddy",
+          "logoUrl": "teams/18/ods/0.gif"
         },
         "away": {
-          "name": "Blancaneaux / Zheng",
-          "logoUrl": "teams/18/ods/.gif"
+          "name": "Mika Brunold",
+          "logoUrl": "teams/18/ods/25881.gif"
         }
       },
-      "score": "1:2",
+      "score": "2:0",
       "liveStatus": "finished",
-      "startsAt": "2026-11-04T18:00:00.000Z"
+      "startsAt": "2026-11-04T19:10:00.000Z"
     },
     {
-      "id": 13,
+      "id": 9,
       "matchId": "43bcf39f5da3",
       "title": "Oriol Roca Batalla – Ryo Tabata",
       "dateLabel": "4 November",
@@ -316,7 +220,7 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 14,
+      "id": 10,
       "matchId": "198d911dfc3f",
       "title": "Federico Juan Aguilar – Nicolas Kicker",
       "dateLabel": "4 November",
@@ -340,31 +244,7 @@
       "startsAt": "2026-11-04T19:05:00.000Z"
     },
     {
-      "id": 15,
-      "matchId": "ad49daa3ecaa",
-      "title": "Gonzalo Bueno – Eduardo Ribeiro",
-      "dateLabel": "4 November",
-      "timeLabel": "19:05",
-      "leagueLabel": "ATP Challenger. Costa do Sauípe",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Gonzalo Bueno",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Eduardo Ribeiro",
-          "logoUrl": "teams/18/ods/23109.gif"
-        }
-      },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T18:05:00.000Z"
-    },
-    {
-      "id": 16,
+      "id": 11,
       "matchId": "b027669a7a60",
       "title": "Lautaro Midon – Tomas Barrios",
       "dateLabel": "4 November",
@@ -386,6 +266,30 @@
       "score": "0:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T20:15:00.000Z"
+    },
+    {
+      "id": 12,
+      "matchId": "dd9e8fcda1fa",
+      "title": "Hidalgo / Molteni – Carou / Arias",
+      "dateLabel": "4 November",
+      "timeLabel": "20:40",
+      "leagueLabel": "ATP Challenger. Costa do Sauípe. Doubles",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Hidalgo / Molteni",
+          "logoUrl": "teams/18/ods/.gif"
+        },
+        "away": {
+          "name": "Carou / Arias",
+          "logoUrl": "teams/18/ods/.gif"
+        }
+      },
+      "score": "2:0",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T19:40:00.000Z"
     }
   ]
 }
