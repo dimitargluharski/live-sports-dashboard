@@ -1,7 +1,7 @@
 {
   "section": "Handball",
-  "scrapedAt": "2026-11-04T18:38:10.302Z",
-  "count": 69,
+  "scrapedAt": "2026-11-04T18:57:17.735Z",
+  "count": 70,
   "matches": [
     {
       "id": 1,
@@ -47,7 +47,7 @@
           "logoUrl": "teams/18/ods/flag198.gif"
         }
       },
-      "score": "0:0",
+      "score": "37:30",
       "liveStatus": "finished",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
@@ -58,7 +58,7 @@
       "dateLabel": "4 November",
       "timeLabel": "18:00",
       "leagueLabel": "European Championship. Qualification",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -72,7 +72,7 @@
         }
       },
       "score": "27:26",
-      "liveStatus": "live",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
@@ -143,7 +143,7 @@
           "logoUrl": "teams/18/ods/flag119.gif"
         }
       },
-      "score": "18:9",
+      "score": "21:10",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -167,7 +167,7 @@
           "logoUrl": "teams/18/ods/37253.gif"
         }
       },
-      "score": "15:14",
+      "score": "16:15",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -215,7 +215,7 @@
           "logoUrl": "teams/18/ods/8331.gif"
         }
       },
-      "score": "4:4",
+      "score": "13:13",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:30:00.000Z"
     },
@@ -287,7 +287,7 @@
           "logoUrl": "teams/18/ods/14083.gif"
         }
       },
-      "score": "2:5",
+      "score": "8:7",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:30:00.000Z"
     },
@@ -335,7 +335,7 @@
           "logoUrl": "teams/18/ods/12704.gif"
         }
       },
-      "score": "18:9",
+      "score": "18:12",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -359,7 +359,7 @@
           "logoUrl": "teams/18/ods/12696.gif"
         }
       },
-      "score": "17:6",
+      "score": "21:8",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -383,7 +383,7 @@
           "logoUrl": "teams/18/ods/12699.gif"
         }
       },
-      "score": "21:7",
+      "score": "23:7",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -407,7 +407,7 @@
           "logoUrl": "teams/18/ods/10985.gif"
         }
       },
-      "score": "17:10",
+      "score": "20:13",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -431,7 +431,7 @@
           "logoUrl": "teams/18/ods/22304.gif"
         }
       },
-      "score": "7:12",
+      "score": "10:13",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -562,7 +562,7 @@
       "dateLabel": "4 November",
       "timeLabel": "18:15",
       "leagueLabel": "Norway. Women. Eliteserien",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -575,8 +575,8 @@
           "logoUrl": "teams/18/ods/7960.gif"
         }
       },
-      "score": "37:28",
-      "liveStatus": "live",
+      "score": "38:29",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T17:15:00.000Z"
     },
     {
@@ -599,7 +599,7 @@
           "logoUrl": "teams/18/ods/23350.gif"
         }
       },
-      "score": "4:3",
+      "score": "14:8",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:30:00.000Z"
     },
@@ -623,7 +623,7 @@
           "logoUrl": "teams/18/ods/14043.gif"
         }
       },
-      "score": "32:28",
+      "score": "36:35",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
@@ -791,7 +791,7 @@
           "logoUrl": "teams/18/ods/18909.gif"
         }
       },
-      "score": "7:15",
+      "score": "11:19",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -1085,27 +1085,27 @@
     },
     {
       "id": 46,
-      "matchId": "ed8d1bc9e7f6",
-      "title": "Valery Merzlikin – Artem Zozulya",
+      "matchId": "d364dd0e29bd",
+      "title": "Vladislav Chakhur – Nikita Sukharnikov",
       "dateLabel": "4 November",
-      "timeLabel": "16:40",
-      "leagueLabel": "Setka Cup",
-      "isLive": false,
+      "timeLabel": "19:45",
+      "leagueLabel": "Russia. League Pro",
+      "isLive": true,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "Valery Merzlikin",
+          "name": "Vladislav Chakhur",
           "logoUrl": "teams/18/ods/0.gif"
         },
         "away": {
-          "name": "Artem Zozulya",
+          "name": "Nikita Sukharnikov",
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:3",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T15:40:00.000Z"
+      "score": "2:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:45:00.000Z"
     },
     {
       "id": 47,
@@ -1450,7 +1450,7 @@
       "dateLabel": "4 November",
       "timeLabel": "19:10",
       "leagueLabel": "Setka Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -1463,8 +1463,8 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "2:2",
-      "liveStatus": "live",
+      "score": "3:2",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T18:10:00.000Z"
     },
     {
@@ -1474,7 +1474,7 @@
       "dateLabel": "4 November",
       "timeLabel": "19:15",
       "leagueLabel": "Setka Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -1487,8 +1487,8 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "1:2",
-      "liveStatus": "live",
+      "score": "1:3",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T18:15:00.000Z"
     },
     {
@@ -1498,7 +1498,7 @@
       "dateLabel": "4 November",
       "timeLabel": "19:25",
       "leagueLabel": "Setka Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -1511,8 +1511,8 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "2:0",
-      "liveStatus": "live",
+      "score": "3:0",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T18:25:00.000Z"
     },
     {
@@ -1522,7 +1522,7 @@
       "dateLabel": "4 November",
       "timeLabel": "19:30",
       "leagueLabel": "Setka Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -1535,33 +1535,33 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "1:0",
-      "liveStatus": "live",
+      "score": "3:1",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T18:30:00.000Z"
     },
     {
       "id": 65,
-      "matchId": "7cd33e2043fc",
-      "title": "Jan Hendrych – Zdenek Zahradka",
+      "matchId": "98723214407b",
+      "title": "Alexander Blashkun – Daniil Gabrelyan",
       "dateLabel": "4 November",
-      "timeLabel": "16:50",
-      "leagueLabel": "TT Cup",
+      "timeLabel": "19:40",
+      "leagueLabel": "Setka Cup",
       "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "Jan Hendrych",
+          "name": "Alexander Blashkun",
           "logoUrl": "teams/18/ods/0.gif"
         },
         "away": {
-          "name": "Zdenek Zahradka",
+          "name": "Daniil Gabrelyan",
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
       "score": "3:0",
       "liveStatus": "finished",
-      "startsAt": "2026-11-04T15:50:00.000Z"
+      "startsAt": "2026-11-04T18:40:00.000Z"
     },
     {
       "id": 66,
@@ -1658,6 +1658,30 @@
       "score": "0:3",
       "liveStatus": "finished",
       "startsAt": "2026-11-04T17:50:00.000Z"
+    },
+    {
+      "id": 70,
+      "matchId": "9e1e5947f3cc",
+      "title": "Jan Hendrych – Milan Dvorak",
+      "dateLabel": "4 November",
+      "timeLabel": "19:50",
+      "leagueLabel": "TT Cup",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Jan Hendrych",
+          "logoUrl": "teams/18/ods/0.gif"
+        },
+        "away": {
+          "name": "Milan Dvorak",
+          "logoUrl": "teams/18/ods/0.gif"
+        }
+      },
+      "score": "0:1",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:50:00.000Z"
     }
   ]
 }

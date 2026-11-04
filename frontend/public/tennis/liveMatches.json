@@ -1,7 +1,7 @@
 {
   "section": "Tennis",
-  "scrapedAt": "2026-11-04T18:38:10.302Z",
-  "count": 16,
+  "scrapedAt": "2026-11-04T18:57:17.735Z",
+  "count": 17,
   "matches": [
     {
       "id": 1,
@@ -106,7 +106,7 @@
       "dateLabel": "4 November",
       "timeLabel": "17:10",
       "leagueLabel": "WTA. Cali",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -119,8 +119,8 @@
           "logoUrl": "teams/18/ods/8608.gif"
         }
       },
-      "score": "1:1",
-      "liveStatus": "live",
+      "score": "1:2",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T16:10:00.000Z"
     },
     {
@@ -143,7 +143,7 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -167,7 +167,7 @@
           "logoUrl": "teams/18/ods/10059.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:05:00.000Z"
     },
@@ -239,7 +239,7 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:05:00.000Z"
     },
@@ -274,7 +274,7 @@
       "dateLabel": "4 November",
       "timeLabel": "17:40",
       "leagueLabel": "ATP Challenger. Bratislava 2",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -287,18 +287,18 @@
           "logoUrl": "teams/18/ods/20473.gif"
         }
       },
-      "score": "1:1",
-      "liveStatus": "live",
+      "score": "1:2",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T16:40:00.000Z"
     },
     {
       "id": 13,
-      "matchId": "0db82d6405b1",
+      "matchId": "d3986c64e835",
       "title": "Lukas Pokorny – Toby Samuel",
       "dateLabel": "4 November",
-      "timeLabel": "17:43",
+      "timeLabel": "17:50",
       "leagueLabel": "ATP Challenger. Bratislava 2",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -311,18 +311,18 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:1",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T16:43:00.000Z"
+      "score": "0:2",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T16:50:00.000Z"
     },
     {
       "id": 14,
-      "matchId": "18f745b02aaa",
+      "matchId": "f3ddba8d12c5",
       "title": "Juan Manuel La Serna – Hernan Casanova",
       "dateLabel": "4 November",
-      "timeLabel": "17:02",
+      "timeLabel": "17:05",
       "leagueLabel": "ATP Challenger. Villa Maria",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -335,9 +335,9 @@
           "logoUrl": "teams/18/ods/12248.gif"
         }
       },
-      "score": "1:1",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T16:02:00.000Z"
+      "score": "2:1",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T16:05:00.000Z"
     },
     {
       "id": 15,
@@ -365,6 +365,30 @@
     },
     {
       "id": 16,
+      "matchId": "4dc838534455",
+      "title": "Garay / Pagani – Del Pino / Zeitune",
+      "dateLabel": "4 November",
+      "timeLabel": "18:25",
+      "leagueLabel": "ATP Challenger. Villa Maria. Doubles",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Garay / Pagani",
+          "logoUrl": "teams/18/ods/.gif"
+        },
+        "away": {
+          "name": "Del Pino / Zeitune",
+          "logoUrl": "teams/18/ods/.gif"
+        }
+      },
+      "score": "1:2",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T17:25:00.000Z"
+    },
+    {
+      "id": 17,
       "matchId": "0ebb7d5bb419",
       "title": "Gonzalo Bueno – Eduardo Ribeiro",
       "dateLabel": "4 November",
