@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { ChampionsLeagueCarousel } from './ChampionsLeagueCarousel';
 import type { Game } from '../types/game';
 
@@ -11,7 +10,6 @@ interface TournamentStageSectionProps {
 
 // Renders a tournament-stage label (e.g. "Europe Cup") as its own Champions-League-style section.
 export function TournamentStageSection({ title, badgeLabel, games, isDarkTheme }: TournamentStageSectionProps) {
-  const [background, setBackground] = useState<string | undefined>();
   const liveCount = games.filter((game) => game.isLive).length;
 
   if (!games.length) return null;
@@ -19,7 +17,6 @@ export function TournamentStageSection({ title, badgeLabel, games, isDarkTheme }
   return (
     <div
       className={`champions-section mb-5 overflow-hidden rounded-lg border pb-0 ${isDarkTheme ? 'border-white/10 bg-white/[0.02]' : 'border-black/10 bg-black/[0.02]'}`}
-      style={background ? { background } : undefined}
     >
       <div className={`flex w-full items-center gap-3 px-2 py-2 ${isDarkTheme ? 'bg-white/[0.03]' : 'bg-black/[0.03]'}`}>
         <div className="min-w-0 flex-1">
@@ -42,7 +39,7 @@ export function TournamentStageSection({ title, badgeLabel, games, isDarkTheme }
         )}
       </div>
       <div className="champions-stage px-3 pb-3 pt-3 sm:px-5">
-        <ChampionsLeagueCarousel games={games} isDarkTheme={isDarkTheme} onBackgroundChange={setBackground} />
+        <ChampionsLeagueCarousel games={games} isDarkTheme={isDarkTheme} />
       </div>
     </div>
   );

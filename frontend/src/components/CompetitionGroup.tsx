@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { GameCard } from './GameCard';
 import { ChampionsLeagueCarousel } from './ChampionsLeagueCarousel';
 import { TournamentStageSection } from './TournamentStageSection';
@@ -15,6 +14,7 @@ interface CompetitionGroupProps {
   isToday: boolean;
   isExpanded: boolean;
   onToggle: () => void;
+  forceList?: boolean;
 }
 
 export function CompetitionGroup({
@@ -24,17 +24,17 @@ export function CompetitionGroup({
   isToday,
   isExpanded,
   onToggle,
+  forceList = false,
 }: CompetitionGroupProps) {
   const country = extractCountryFromLeague(leagueLabel);
   const showCountry = Boolean(country) && country?.trim().toLowerCase() !== leagueLabel.trim().toLowerCase();
   const isChampionsLeagueSection = leagueLabel.trim().toLowerCase() === 'champions league';
   const isQualificationSection = isQualificationLeague(leagueLabel);
   const liveChampionsMatches = isChampionsLeagueSection ? games.filter((game) => game.isLive).length : 0;
-  const [championsBackground, setChampionsBackground] = useState<string | undefined>();
   const tournamentStageSegments = isChampionsLeagueSection ? [] : groupGamesByTournamentLabel(games);
   const hasTournamentStages = tournamentStageSegments.some((segment) => segment.label);
 
-  if (hasTournamentStages && isToday) {
+  if (hasTournamentStages && isToday && !forceList) {
     return (
       <div className="mb-5">
         {tournamentStageSegments.map((segment, index) => {
@@ -61,7 +61,7 @@ export function CompetitionGroup({
     );
   }
 
-  const isPlainSection = !isChampionsLeagueSection && !hasTournamentStages;
+  const isPlainSection = forceList || (!isChampionsLeagueSection && !hasTournamentStages);
   if (isPlainSection) {
     const flagUrl = getCountryFlagUrl(country);
     const leagueName = country && leagueLabel.toLowerCase().startsWith(`${country.toLowerCase()}.`)
@@ -76,14 +76,14 @@ export function CompetitionGroup({
           {isQualificationSection && <span className={`rounded-full px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide ${isDarkTheme ? 'bg-white/10 text-slate-300' : 'bg-black/5 text-slate-600'}`}>Qualification</span>}
         </h3>
         <div>
-          {games.map((game) => <GameCard key={game.id} isDarkTheme={isDarkTheme} {...game} />)}
+          {games.map((game) => <GameCard key={game.id} isDarkTheme={isDarkTheme} showWinChances={forceList} {...game} />)}
         </div>
       </section>
     );
   }
 
   return (
-    <div className={`mb-5 ${isChampionsLeagueSection ? isDarkTheme ? 'champions-section overflow-hidden rounded-lg border border-white/10 bg-white/[0.02] pb-0' : 'champions-section overflow-hidden rounded-lg border border-black/10 bg-black/[0.02] pb-0' : isQualificationSection ? isDarkTheme ? 'overflow-hidden rounded-xl border border-amber-300/20 bg-amber-200/[0.025]' : 'overflow-hidden rounded-xl border border-amber-600/25 bg-amber-50/35' : ''}`} style={isChampionsLeagueSection && championsBackground ? { background: championsBackground } : undefined}>
+    <div className={`mb-5 ${isChampionsLeagueSection ? isDarkTheme ? 'champions-section overflow-hidden rounded-lg border border-white/10 bg-white/[0.02] pb-0' : 'champions-section overflow-hidden rounded-lg border border-black/10 bg-black/[0.02] pb-0' : isQualificationSection ? isDarkTheme ? 'overflow-hidden rounded-xl border border-amber-300/20 bg-amber-200/[0.025]' : 'overflow-hidden rounded-xl border border-amber-600/25 bg-amber-50/35' : ''}`}>
       <button
         type="button"
         onClick={isQualificationSection ? onToggle : undefined}
@@ -113,7 +113,7 @@ export function CompetitionGroup({
       </button>
       {isExpanded && (isChampionsLeagueSection ? (
         <div className="champions-stage px-3 pb-3 pt-3 sm:px-5">
-          <ChampionsLeagueCarousel games={games} isDarkTheme={isDarkTheme} onBackgroundChange={setChampionsBackground} />
+          <ChampionsLeagueCarousel games={games} isDarkTheme={isDarkTheme} />
         </div>
       ) : (
         <div className={`grid grid-cols-1 gap-2 ${isQualificationSection ? 'p-3' : ''}`}>

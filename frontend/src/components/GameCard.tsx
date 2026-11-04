@@ -8,7 +8,6 @@ import { StreamModal } from './StreamModal';
 import type { HeadToHead, Stream } from '../types/game';
 import { getFormInsight } from '../utils/getFormInsight';
 import { getFormSummary } from '../utils/getFormSummary';
-import { getDominantLogoColor } from '../utils/getDominantLogoColor';
 import { splitGameTitle } from '../utils/splitGameTitle';
 
 interface GameCardProps {
@@ -35,6 +34,7 @@ interface GameCardProps {
   isDarkTheme?: boolean;
   isChampionsLeague?: boolean;
   isCarouselActive?: boolean;
+  showWinChances?: boolean;
 }
 
 export const GameCard = React.memo<GameCardProps>(({
@@ -54,13 +54,12 @@ export const GameCard = React.memo<GameCardProps>(({
   isDarkTheme = false,
   isChampionsLeague = false,
   isCarouselActive = true,
+  showWinChances = false,
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [activeTab, setActiveTab] = useState<'streams' | 'h2h' | 'form'>('streams');
   const [showStreamModal, setShowStreamModal] = useState(false);
   const [initialStream, setInitialStream] = useState<Stream | null>(null);
-  const [homeAccentColor, setHomeAccentColor] = useState<string | null>(null);
-  const [awayAccentColor, setAwayAccentColor] = useState<string | null>(null);
 
   const hasStreams = streamCount > 0;
   const canWatchStreams = hasStreams && !isEnded;
@@ -81,22 +80,6 @@ export const GameCard = React.memo<GameCardProps>(({
     if (!isCarouselActive) setIsExpanded(false);
   }, [isCarouselActive]);
 
-  useEffect(() => {
-    if (!isChampionsLeague) return;
-
-    let isCurrent = true;
-    Promise.all([getDominantLogoColor(homeLogoUrl), getDominantLogoColor(awayLogoUrl)])
-      .then(([homeColor, awayColor]) => {
-        if (!isCurrent) return;
-        setHomeAccentColor(homeColor);
-        setAwayAccentColor(awayColor);
-      });
-
-    return () => {
-      isCurrent = false;
-    };
-  }, [awayLogoUrl, homeLogoUrl, isChampionsLeague]);
-
   const startWatchSession = (stream: Stream) => {
     setInitialStream(stream);
     setShowStreamModal(true);
@@ -112,13 +95,6 @@ export const GameCard = React.memo<GameCardProps>(({
       getFormInsight(resolvedAway || 'Away team', headToHead.form.away),
     ].filter((insight): insight is string => Boolean(insight))
     : [];
-  const dynamicBorderStyle = isChampionsLeague && !isPreview && isLive && (homeAccentColor || awayAccentColor)
-    ? {
-      border: '2px solid transparent',
-      background: `linear-gradient(${isDarkTheme ? '#1b1b1b' : isEnded ? '#f3f1ed' : '#ffffff'}, ${isDarkTheme ? '#1b1b1b' : isEnded ? '#f3f1ed' : '#ffffff'}) padding-box, linear-gradient(135deg, ${homeAccentColor || awayAccentColor}, ${awayAccentColor || homeAccentColor}) border-box`,
-    }
-    : undefined;
-
   const isCompact = !isChampionsLeague && !isPreview;
   const compactClass = `group border-t border-l-4 px-3 py-2 transition-colors duration-150 first:border-t-0 ${
     isDarkTheme ? 'border-t-white/5 hover:bg-white/[0.06]' : 'border-t-black/5 hover:bg-black/[0.04]'
@@ -140,7 +116,6 @@ export const GameCard = React.memo<GameCardProps>(({
         ? isDarkTheme ? 'border-l-slate-700' : 'border-l-stone-700'
         : isLive ? 'border-l-rose-500' : isDarkTheme ? 'border-l-slate-500' : 'border-l-black'
     }`}
-      style={dynamicBorderStyle}
       data-streams-available={canWatchStreams ? 'true' : 'false'}
     >
       <GameCardHeader
@@ -163,6 +138,7 @@ export const GameCard = React.memo<GameCardProps>(({
         flagUrl={flagUrl}
         hideScheduledTime={false}
         horizontalTeams={isChampionsLeague}
+        showWinChances={showWinChances}
         homeForm={headToHead?.form?.home}
         awayForm={headToHead?.form?.away}
         onToggle={toggleExpanded}
