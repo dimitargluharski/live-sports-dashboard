@@ -1,7 +1,7 @@
 {
   "section": "Volleyball",
-  "scrapedAt": "2026-11-04T21:24:53.280Z",
-  "count": 20,
+  "scrapedAt": "2026-11-04T21:42:47.483Z",
+  "count": 19,
   "matches": [
     {
       "id": 1,
@@ -10,7 +10,7 @@
       "dateLabel": "4 November",
       "timeLabel": "19:55",
       "leagueLabel": "Women. Challenge Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -24,7 +24,7 @@
         }
       },
       "score": "3:2",
-      "liveStatus": "live",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T18:55:00.000Z"
     },
     {
@@ -125,30 +125,6 @@
     },
     {
       "id": 6,
-      "matchId": "c2ff082c3c13",
-      "title": "Trentino – Piacenza",
-      "dateLabel": "4 November",
-      "timeLabel": "20:26",
-      "leagueLabel": "Italy. Serie A",
-      "isLive": true,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Trentino",
-          "logoUrl": "teams/18/ods/31556.gif"
-        },
-        "away": {
-          "name": "Piacenza",
-          "logoUrl": "teams/18/ods/31451.gif"
-        }
-      },
-      "score": "2:2",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T19:26:00.000Z"
-    },
-    {
-      "id": 7,
       "matchId": "5ca8a4130726",
       "title": "Verona – Power Volley",
       "dateLabel": "4 November",
@@ -167,9 +143,33 @@
           "logoUrl": "teams/18/ods/11180.gif"
         }
       },
-      "score": "0:2",
+      "score": "1:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:26:00.000Z"
+    },
+    {
+      "id": 7,
+      "matchId": "eb1f97dbed55",
+      "title": "Trentino – Piacenza",
+      "dateLabel": "4 November",
+      "timeLabel": "20:30",
+      "leagueLabel": "Italy. Serie A",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Trentino",
+          "logoUrl": "teams/18/ods/31556.gif"
+        },
+        "away": {
+          "name": "Piacenza",
+          "logoUrl": "teams/18/ods/31451.gif"
+        }
+      },
+      "score": "3:2",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
       "id": 8,
@@ -191,7 +191,7 @@
           "logoUrl": "teams/18/ods/9062.gif"
         }
       },
-      "score": "1:2",
+      "score": "2:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
@@ -215,7 +215,7 @@
           "logoUrl": "teams/18/ods/68.gif"
         }
       },
-      "score": "1:1",
+      "score": "2:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
@@ -346,7 +346,7 @@
       "dateLabel": "4 November",
       "timeLabel": "20:30",
       "leagueLabel": "Belgium. Euromillions League",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -359,8 +359,8 @@
           "logoUrl": "teams/18/ods/2034.gif"
         }
       },
-      "score": "2:1",
-      "liveStatus": "live",
+      "score": "3:1",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
@@ -458,30 +458,6 @@
       "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T20:15:00.000Z"
-    },
-    {
-      "id": 20,
-      "matchId": "5a1d10b4e1f3",
-      "title": "Drammen – Ready",
-      "dateLabel": "4 November",
-      "timeLabel": "19:30",
-      "leagueLabel": "Norway. Elitserien",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Drammen",
-          "logoUrl": "teams/18/ods/24528.gif"
-        },
-        "away": {
-          "name": "Ready",
-          "logoUrl": "teams/18/ods/24529.gif"
-        }
-      },
-      "score": "1:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T18:30:00.000Z"
     }
   ]
 }
