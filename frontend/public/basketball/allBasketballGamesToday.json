@@ -1,150 +1,14 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-11-04T18:57:11.907Z",
-  "count": 106,
+  "scrapedAt": "2026-11-04T19:16:28.447Z",
+  "count": 105,
   "matches": [
     {
       "id": 1,
-      "title": "Turk Telekom – Skyliners",
-      "dateLabel": "4 November",
-      "timeLabel": "17:30",
-      "isLive": false,
-      "leagueLabel": "Eurocup",
-      "iconUrl": "https://cdn.livetv911.me/img/icons/eurocup.gif",
-      "iconAlt": "Eurocup",
-      "sectionLabel": "4 November",
-      "isTopMatch": false,
-      "rawDescription": "4 November at 17:30\n(Eurocup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Turk Telekom",
-          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/31414.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Skyliners",
-          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/4409.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700013681/700000811/3_6c6d3/",
-        "matches": [
-          {
-            "date": "04/11",
-            "competition": "Eurocup",
-            "homeTeam": "Turk Telekom",
-            "awayTeam": "Skyliners",
-            "score": "98:78",
-            "result": "W",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Turk Telekom",
-        "awayTeam": "Skyliners",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "01/11",
-                "competition": "BSL",
-                "opponent": "Esenler Erokspor",
-                "score": "89:71",
-                "result": "W"
-              },
-              {
-                "date": "30/10",
-                "competition": "BSL",
-                "opponent": "Esenler Erokspor",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "28/10",
-                "competition": "Eurocup",
-                "opponent": "London Lions",
-                "score": "61:79",
-                "result": "L"
-              },
-              {
-                "date": "24/10",
-                "competition": "BSL",
-                "opponent": "Denizli",
-                "score": "97:76",
-                "result": "W"
-              },
-              {
-                "date": "20/10",
-                "competition": "Eurocup",
-                "opponent": "Siauliai",
-                "score": "84:94",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 1,
-              "L": 2
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "01/11",
-                "competition": "BSL",
-                "opponent": "Esenler Erokspor",
-                "score": "89:71",
-                "result": "W"
-              },
-              {
-                "date": "30/10",
-                "competition": "BSL",
-                "opponent": "Esenler Erokspor",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "28/10",
-                "competition": "Eurocup",
-                "opponent": "London Lions",
-                "score": "61:79",
-                "result": "L"
-              },
-              {
-                "date": "24/10",
-                "competition": "BSL",
-                "opponent": "Turk Telekom",
-                "score": "76:97",
-                "result": "L"
-              },
-              {
-                "date": "20/10",
-                "competition": "Eurocup",
-                "opponent": "Turk Telekom",
-                "score": "94:84",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 1,
-              "L": 2
-            }
-          }
-        }
-      },
-      "startsAt": "2026-11-04T16:30:00.000Z"
-    },
-    {
-      "id": 2,
       "title": "Rogaska – Ilirija",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Slovenia. Liga Nova KBM",
       "iconUrl": "https://cdn.livetv911.me/img/icons/bsl.gif",
       "iconAlt": "Slovenia. Liga Nova KBM",
@@ -294,30 +158,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Voluntari – Fyllingen",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "ENBL",
       "iconUrl": "https://cdn.livetv911.me/img/icons/basket.gif",
       "iconAlt": "ENBL",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(ENBL)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/TkTe7_97F1U?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.542Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Voluntari",
@@ -450,30 +303,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 4,
+      "id": 3,
       "title": "Brno – Olomoucko",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Czech Republic. NBL",
       "iconUrl": "https://cdn.livetv911.me/img/icons/nblcz.gif",
       "iconAlt": "Czech Republic. NBL",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(Czech Republic. NBL)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://embed.tvcom.cz/1d6588ff-9e95-4b60-a3dd-7cdc0d6ca4d3/",
-          "language": "Czech",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.552Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Brno",
@@ -492,6 +334,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700000875/700000872/3_a1061/",
         "matches": [
           {
+            "date": "04/11",
+            "competition": "Czech Republic. NBL",
+            "homeTeam": "Brno",
+            "awayTeam": "Olomoucko",
+            "score": "81:76",
+            "result": "W",
+            "winner": "home"
+          },
+          {
             "date": "10/01",
             "competition": "Czech Republic. NBL",
             "homeTeam": "Olomoucko",
@@ -506,15 +357,6 @@
             "homeTeam": "Brno",
             "awayTeam": "Olomoucko",
             "score": "101:75",
-            "result": "W",
-            "winner": "home"
-          },
-          {
-            "date": "22/03",
-            "competition": "Czech Republic. NBL",
-            "homeTeam": "Brno",
-            "awayTeam": "Olomoucko",
-            "score": "79:61",
             "result": "W",
             "winner": "home"
           }
@@ -615,30 +457,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Slavia Prague – Decin",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Czech Republic. NBL",
       "iconUrl": "https://cdn.livetv911.me/img/icons/nblcz.gif",
       "iconAlt": "Czech Republic. NBL",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(Czech Republic. NBL)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://embed.tvcom.cz/b314f18e-090c-468a-b506-974a8270a050/",
-          "language": "Czech",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.553Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Slavia Prague",
@@ -657,6 +488,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700042221/700000870/3_6490d/",
         "matches": [
           {
+            "date": "04/11",
+            "competition": "Czech Republic. NBL",
+            "homeTeam": "Slavia Prague",
+            "awayTeam": "Decin",
+            "score": "89:78",
+            "result": "W",
+            "winner": "home"
+          },
+          {
             "date": "28/10",
             "competition": "Czech Republic. NBL",
             "homeTeam": "Slavia Prague",
@@ -672,15 +512,6 @@
             "awayTeam": "Slavia Prague",
             "score": "96:87",
             "result": "L",
-            "winner": "home"
-          },
-          {
-            "date": "01/10",
-            "competition": "Czech Republic. NBL",
-            "homeTeam": "Slavia Prague",
-            "awayTeam": "Decin",
-            "score": "94:88",
-            "result": "W",
             "winner": "home"
           }
         ],
@@ -780,40 +611,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Hercegovac – TFT Skopje",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Adriatic League. Division 2",
       "iconUrl": "https://cdn.livetv911.me/img/icons/nlb.gif",
       "iconAlt": "Adriatic League. Division 2",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(Adriatic League. Division 2)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.tvp9.online/p2p/?id=268644",
-          "language": "Croatian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.554Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://thedaddy.pk/stream/stream-944.php",
-          "language": "Serbian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.555Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 2,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Hercegovac",
@@ -937,30 +747,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 7,
+      "id": 6,
       "title": "Kapfenberg Bulls – Mitteldeutscher",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "ENBL",
       "iconUrl": "https://cdn.livetv911.me/img/icons/basket.gif",
       "iconAlt": "ENBL",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(ENBL)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/LtWJfE6dmRY?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.555Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Kapfenberg Bulls",
@@ -1084,40 +883,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Falco Szombathely – AEK",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Champions League",
       "iconUrl": "https://cdn.livetv911.me/img/icons/bcl.gif",
       "iconAlt": "Champions League",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(Champions League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.tvp9.online/p2p/?id=268676",
-          "language": "Croatian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.556Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://emb.tvp9.online/p2p/?id=271162",
-          "language": "Czech",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.556Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 2,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Falco Szombathely",
@@ -1286,90 +1064,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Legia – Galatasaray",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Champions League",
       "iconUrl": "https://cdn.livetv911.me/img/icons/bcl.gif",
       "iconAlt": "Champions League",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(Champions League)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.tvp9.online/p2p/?id=269149",
-          "language": "Croatian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.844Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://emb.tvp9.online/p2p/?id=269421",
-          "language": "Polish",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.850Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 3,
-          "label": "Stream 6",
-          "url": "https://emb.tvp9.online/p2p/?id=270231",
-          "language": "Hebrew",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.890Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 4,
-          "label": "Stream 8",
-          "url": "https://emb.tvp9.online/p2p/?id=270846",
-          "language": "Polish",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.914Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 5,
-          "label": "Stream 10",
-          "url": "https://emb.tvp9.online/p2p/?id=271163",
-          "language": "Czech",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.918Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 6,
-          "label": "Stream 12",
-          "url": "https://emb.tvp9.online/p2p/?id=271216",
-          "language": "Serbian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.994Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 7,
-          "label": "Stream 15",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d6f0a6377c31f68b1c1c071e0a8f9f105a455867&lang=en&eid=575470529&lid=2840890&ci=1692&si=3",
-          "language": "Polish",
-          "bitrate": "8000kbps",
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:12.997Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 7,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Legia",
@@ -1415,6 +1122,15 @@
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700000796/700013692/3_baa81/",
         "matches": [
+          {
+            "date": "04/11",
+            "competition": "Champions League",
+            "homeTeam": "Legia",
+            "awayTeam": "Galatasaray",
+            "score": "79:72",
+            "result": "W",
+            "winner": "home"
+          },
           {
             "date": "20/12",
             "competition": "Champions League",
@@ -1530,30 +1246,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Valmiera Glass – Manchester",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(FIBA Europe Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/HWhmu9UKlJI?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.041Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Valmiera Glass",
@@ -1568,34 +1273,128 @@
           "substitutes": []
         }
       },
-      "headToHead": null,
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700009962/700062717/3_ca1c1/",
+        "matches": [
+          {
+            "date": "04/11",
+            "competition": "FIBA Europe Cup",
+            "homeTeam": "Valmiera Glass",
+            "awayTeam": "Manchester",
+            "score": "80:74",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Valmiera Glass",
+        "awayTeam": "Manchester",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "01/11",
+                "competition": "Latvian-Estonian League",
+                "opponent": "Parnu",
+                "score": "74:76",
+                "result": "L"
+              },
+              {
+                "date": "28/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Korfez",
+                "score": "85:87",
+                "result": "L"
+              },
+              {
+                "date": "24/10",
+                "competition": "Latvian-Estonian League",
+                "opponent": "VEF Riga",
+                "score": "89:97",
+                "result": "L"
+              },
+              {
+                "date": "20/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Elan Chalon",
+                "score": "77:109",
+                "result": "L"
+              },
+              {
+                "date": "17/10",
+                "competition": "Latvian-Estonian League",
+                "opponent": "Latvijas Universitate",
+                "score": "81:59",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "01/11",
+                "competition": "Latvian-Estonian League",
+                "opponent": "Parnu",
+                "score": "74:76",
+                "result": "L"
+              },
+              {
+                "date": "28/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Valmiera Glass",
+                "score": "87:85",
+                "result": "W"
+              },
+              {
+                "date": "24/10",
+                "competition": "Latvian-Estonian League",
+                "opponent": "Valmiera Glass",
+                "score": "97:89",
+                "result": "W"
+              },
+              {
+                "date": "20/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Elan Chalon",
+                "score": "77:109",
+                "result": "L"
+              },
+              {
+                "date": "17/10",
+                "competition": "Latvian-Estonian League",
+                "opponent": "Valmiera Glass",
+                "score": "59:81",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      },
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Nitra Blue Wings – Vienna",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(FIBA Europe Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/_vnvTa9ylo8?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.102Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Nitra Blue Wings",
@@ -1610,34 +1409,128 @@
           "substitutes": []
         }
       },
-      "headToHead": null,
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700062531/700009890/3_a4c52/",
+        "matches": [
+          {
+            "date": "04/11",
+            "competition": "FIBA Europe Cup",
+            "homeTeam": "Nitra Blue Wings",
+            "awayTeam": "Vienna",
+            "score": "80:84",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Nitra Blue Wings",
+        "awayTeam": "Vienna",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "31/10",
+                "competition": "Extraliga",
+                "opponent": "Slavia Kosice",
+                "score": "84:92",
+                "result": "L"
+              },
+              {
+                "date": "28/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Parnu",
+                "score": "82:80",
+                "result": "W"
+              },
+              {
+                "date": "24/10",
+                "competition": "Extraliga",
+                "opponent": "Patrioti Levice",
+                "score": "73:85",
+                "result": "L"
+              },
+              {
+                "date": "20/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Nancy",
+                "score": "60:99",
+                "result": "L"
+              },
+              {
+                "date": "17/10",
+                "competition": "Extraliga",
+                "opponent": "Prievidza",
+                "score": "79:122",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "31/10",
+                "competition": "Extraliga",
+                "opponent": "Nitra Blue Wings",
+                "score": "92:84",
+                "result": "W"
+              },
+              {
+                "date": "28/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Nitra Blue Wings",
+                "score": "80:82",
+                "result": "L"
+              },
+              {
+                "date": "24/10",
+                "competition": "Extraliga",
+                "opponent": "Nitra Blue Wings",
+                "score": "85:73",
+                "result": "W"
+              },
+              {
+                "date": "20/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Nancy",
+                "score": "60:99",
+                "result": "L"
+              },
+              {
+                "date": "17/10",
+                "competition": "Extraliga",
+                "opponent": "Prievidza",
+                "score": "79:122",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      },
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Promitheas – Opava",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(FIBA Europe Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/xpxE433h5hE?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.131Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Promitheas",
@@ -1779,30 +1672,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Parnu – Wilki Morskie",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(FIBA Europe Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/6XtD08QYuSs?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.146Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Parnu",
@@ -1926,30 +1808,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "Craiova – Gence",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(FIBA Europe Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/GW4h-bmMJrU?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.154Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Craiova",
@@ -2073,30 +1944,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "Lokomotiv Plovdiv – Neftchi",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(FIBA Europe Cup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/uKUopdHBjO8?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.178Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Lokomotiv Plovdiv",
@@ -2220,30 +2080,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 16,
+      "id": 15,
       "title": "DSK Brandys (W) – Villeneuve-d`Ascq (W)",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(Women. Eurocup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/isEm4Gs00SY?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.179Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "DSK Brandys (W)",
@@ -2262,30 +2111,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 17,
+      "id": 16,
       "title": "Ruzomberok (W) – Avenida (W)",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(Women. Eurocup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/9iGXMu_gwXE?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.185Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Ruzomberok (W)",
@@ -2304,30 +2142,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 18,
+      "id": 17,
       "title": "Elitzur Ramla (W) – TTT Riga (W)",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(Women. Eurocup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/Vk0O61lhWOI?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.218Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Elitzur Ramla (W)",
@@ -2346,30 +2173,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 19,
+      "id": 18,
       "title": "Cluj-Napoca (W) – Reyer Venice (W)",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(Women. Eurocup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/6Cn5uk6eOco?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.233Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Cluj-Napoca (W)",
@@ -2388,30 +2204,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 20,
+      "id": 19,
       "title": "Celje (W) – Magnolia (W)",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(Women. Eurocup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/vASKueAS61o?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.278Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Celje (W)",
@@ -2430,30 +2235,19 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 21,
+      "id": 20,
       "title": "Rigas Zelli – Le Mans",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/eurocup.gif",
       "iconAlt": "Eurocup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(Eurocup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.tvp9.online/p2p/?id=268675",
-          "language": "Croatian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.297Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Rigas Zelli",
@@ -2468,44 +2262,128 @@
           "substitutes": []
         }
       },
-      "headToHead": null,
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700055996/700000707/3_dd601/",
+        "matches": [
+          {
+            "date": "04/11",
+            "competition": "Eurocup",
+            "homeTeam": "Rigas Zelli",
+            "awayTeam": "Le Mans",
+            "score": "65:71",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Rigas Zelli",
+        "awayTeam": "Le Mans",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "31/10",
+                "competition": "Latvian-Estonian League",
+                "opponent": "Kalev",
+                "score": "93:87",
+                "result": "W"
+              },
+              {
+                "date": "28/10",
+                "competition": "Eurocup",
+                "opponent": "SP Burgos",
+                "score": "79:71",
+                "result": "W"
+              },
+              {
+                "date": "24/10",
+                "competition": "Latvian-Estonian League",
+                "opponent": "Keila KK",
+                "score": "103:70",
+                "result": "W"
+              },
+              {
+                "date": "21/10",
+                "competition": "Eurocup",
+                "opponent": "Hapoel Jerusalem",
+                "score": "64:100",
+                "result": "L"
+              },
+              {
+                "date": "17/10",
+                "competition": "Latvian-Estonian League",
+                "opponent": "Liepaja",
+                "score": "85:69",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 4,
+              "D": 0,
+              "L": 1
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "31/10",
+                "competition": "Latvian-Estonian League",
+                "opponent": "Kalev",
+                "score": "93:87",
+                "result": "W"
+              },
+              {
+                "date": "28/10",
+                "competition": "Eurocup",
+                "opponent": "SP Burgos",
+                "score": "79:71",
+                "result": "W"
+              },
+              {
+                "date": "24/10",
+                "competition": "Latvian-Estonian League",
+                "opponent": "Rigas Zelli",
+                "score": "70:103",
+                "result": "L"
+              },
+              {
+                "date": "21/10",
+                "competition": "Eurocup",
+                "opponent": "Hapoel Jerusalem",
+                "score": "64:100",
+                "result": "L"
+              },
+              {
+                "date": "17/10",
+                "competition": "Latvian-Estonian League",
+                "opponent": "Rigas Zelli",
+                "score": "69:85",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      },
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 22,
+      "id": 21,
       "title": "Lietkabelis – Manresa",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/eurocup.gif",
       "iconAlt": "Eurocup",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 18:00\n(Eurocup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.tvp9.online/p2p/?id=271231",
-          "language": "Croatian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.341Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 2,
-          "label": "Stream 4",
-          "url": "https://livesports247.click/sx/novasport3gr.php",
-          "language": "Greek",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.342Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 2,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Lietkabelis",
@@ -2520,11 +2398,116 @@
           "substitutes": []
         }
       },
-      "headToHead": null,
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700000783/700000683/3_64d5c/",
+        "matches": [
+          {
+            "date": "04/11",
+            "competition": "Eurocup",
+            "homeTeam": "Lietkabelis",
+            "awayTeam": "Manresa",
+            "score": "66:80",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Lietkabelis",
+        "awayTeam": "Manresa",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "31/10",
+                "competition": "LKL",
+                "opponent": "Neptunas",
+                "score": "99:79",
+                "result": "W"
+              },
+              {
+                "date": "27/10",
+                "competition": "Eurocup",
+                "opponent": "Ulm",
+                "score": "68:86",
+                "result": "L"
+              },
+              {
+                "date": "24/10",
+                "competition": "LKL",
+                "opponent": "Gargzdu",
+                "score": "80:83",
+                "result": "L"
+              },
+              {
+                "date": "20/10",
+                "competition": "Eurocup",
+                "opponent": "Balkan",
+                "score": "64:57",
+                "result": "W"
+              },
+              {
+                "date": "17/10",
+                "competition": "LKL",
+                "opponent": "Nevezis",
+                "score": "73:72",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "31/10",
+                "competition": "LKL",
+                "opponent": "Lietkabelis",
+                "score": "79:99",
+                "result": "L"
+              },
+              {
+                "date": "27/10",
+                "competition": "Eurocup",
+                "opponent": "Lietkabelis",
+                "score": "86:68",
+                "result": "W"
+              },
+              {
+                "date": "24/10",
+                "competition": "LKL",
+                "opponent": "Gargzdu",
+                "score": "80:83",
+                "result": "L"
+              },
+              {
+                "date": "20/10",
+                "competition": "Eurocup",
+                "opponent": "Balkan",
+                "score": "64:57",
+                "result": "W"
+              },
+              {
+                "date": "17/10",
+                "competition": "LKL",
+                "opponent": "Nevezis",
+                "score": "73:72",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 3,
+              "D": 0,
+              "L": 2
+            }
+          }
+        }
+      },
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 23,
+      "id": 22,
       "title": "Iraklis – AEK Larnaca",
       "dateLabel": "4 November",
       "timeLabel": "18:30",
@@ -2543,7 +2526,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.346Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.075Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2671,7 +2654,7 @@
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 24,
+      "id": 23,
       "title": "AS Monaco – Balkan",
       "dateLabel": "4 November",
       "timeLabel": "18:30",
@@ -2702,7 +2685,7 @@
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 25,
+      "id": 24,
       "title": "Ipros Vrhnika – Grosuple",
       "dateLabel": "4 November",
       "timeLabel": "18:30",
@@ -2721,7 +2704,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.349Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.085Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2744,7 +2727,7 @@
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 26,
+      "id": 25,
       "title": "Montana (W) – Keltern (W)",
       "dateLabel": "4 November",
       "timeLabel": "18:30",
@@ -2763,7 +2746,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.370Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.086Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2786,7 +2769,7 @@
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 27,
+      "id": 26,
       "title": "Cedevita Olimpija – Derthona",
       "dateLabel": "4 November",
       "timeLabel": "18:30",
@@ -2805,7 +2788,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.373Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.087Z",
           "healthHttpStatus": 200
         },
         {
@@ -2815,7 +2798,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.397Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.087Z",
           "healthHttpStatus": 200
         },
         {
@@ -2825,7 +2808,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.482Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.088Z",
           "healthHttpStatus": 200
         },
         {
@@ -2835,7 +2818,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.500Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.088Z",
           "healthHttpStatus": 200
         },
         {
@@ -2845,7 +2828,7 @@
           "language": "Russian",
           "bitrate": "2000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.502Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.089Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2868,7 +2851,7 @@
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 28,
+      "id": 27,
       "title": "AEL (W) – Zabiny Brno (W)",
       "dateLabel": "4 November",
       "timeLabel": "18:30",
@@ -2887,7 +2870,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.505Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.359Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2910,7 +2893,7 @@
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 29,
+      "id": 28,
       "title": "Rigas Kadeti – Salaspils",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
@@ -2929,7 +2912,7 @@
           "language": "Latvian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.537Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.372Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2952,7 +2935,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 30,
+      "id": 29,
       "title": "Castelnuovo Scrivia (W) – Elfic Fribourg (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
@@ -2971,7 +2954,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.565Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.414Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2994,7 +2977,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 31,
+      "id": 30,
       "title": "Zielona Gora – Dinamo Bucuresti",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
@@ -3013,7 +2996,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.654Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.417Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3036,7 +3019,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 32,
+      "id": 31,
       "title": "Batumi – Split",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
@@ -3055,7 +3038,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.662Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.418Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3183,7 +3166,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 33,
+      "id": 32,
       "title": "Student Nis (W) – Sopron (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
@@ -3202,7 +3185,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.663Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.448Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3225,7 +3208,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 34,
+      "id": 33,
       "title": "Royals Saarlouis (W) – Benfica (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
@@ -3244,7 +3227,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.666Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.490Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3259,6 +3242,48 @@
         "away": {
           "name": "Benfica (W)",
           "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/19301.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": null,
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 34,
+      "title": "Chartres (W) – Namur Capitale (W)",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "isLive": true,
+      "leagueLabel": "Women. Eurocup",
+      "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
+      "iconAlt": "Women. Eurocup",
+      "sectionLabel": "4 November",
+      "isTopMatch": false,
+      "rawDescription": "4 November at 19:00\n(Women. Eurocup)",
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/TjZMuuBxqX0?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T19:16:29.505Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
+      "teams": {
+        "home": {
+          "name": "Chartres (W)",
+          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/33428.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Namur Capitale (W)",
+          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/17421.gif",
           "startingLineup": [],
           "substitutes": []
         }
@@ -3286,49 +3311,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.695Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
-      "teams": {
-        "home": {
-          "name": "Chartres (W)",
-          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/33428.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Namur Capitale (W)",
-          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/17421.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null,
-      "startsAt": "2026-11-04T18:00:00.000Z"
-    },
-    {
-      "id": 36,
-      "title": "Chartres (W) – Namur Capitale (W)",
-      "dateLabel": "4 November",
-      "timeLabel": "19:00",
-      "isLive": true,
-      "leagueLabel": "Women. Eurocup",
-      "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
-      "iconAlt": "Women. Eurocup",
-      "sectionLabel": "4 November",
-      "isTopMatch": false,
-      "rawDescription": "4 November at 19:00\n(Women. Eurocup)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://www.youtube.com/embed/TjZMuuBxqX0?autoplay=1",
-          "language": null,
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.701Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.598Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3351,7 +3334,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 37,
+      "id": 36,
       "title": "Dziki Warszawa – MZT Skopje",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
@@ -3370,7 +3353,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.784Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.634Z",
           "healthHttpStatus": 200
         },
         {
@@ -3380,7 +3363,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.786Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.637Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3403,7 +3386,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 38,
+      "id": 37,
       "title": "Slask Wroclaw – JL Bourg",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
@@ -3422,7 +3405,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.787Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.652Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3559,7 +3542,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 39,
+      "id": 38,
       "title": "Riga Basketball School – Gulbenes Buki/BJSS",
       "dateLabel": "4 November",
       "timeLabel": "19:30",
@@ -3578,7 +3561,7 @@
           "language": "Latvian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.794Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.653Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3601,7 +3584,7 @@
       "startsAt": "2026-11-04T18:30:00.000Z"
     },
     {
-      "id": 40,
+      "id": 39,
       "title": "Alba Berlin (W) – Panathinaikos (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:30",
@@ -3620,7 +3603,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.826Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.659Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3643,7 +3626,7 @@
       "startsAt": "2026-11-04T18:30:00.000Z"
     },
     {
-      "id": 41,
+      "id": 40,
       "title": "Panathlitikos (W) – DVTK Miskolc (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:30",
@@ -3662,7 +3645,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.910Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.664Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3685,7 +3668,7 @@
       "startsAt": "2026-11-04T18:30:00.000Z"
     },
     {
-      "id": 42,
+      "id": 41,
       "title": "Nyon (W) – KP Brno (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:30",
@@ -3704,7 +3687,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.911Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.688Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3727,7 +3710,7 @@
       "startsAt": "2026-11-04T18:30:00.000Z"
     },
     {
-      "id": 43,
+      "id": 42,
       "title": "San Giovanni (W) – Castors Braine (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:30",
@@ -3746,7 +3729,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.946Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.760Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3769,7 +3752,7 @@
       "startsAt": "2026-11-04T18:30:00.000Z"
     },
     {
-      "id": 44,
+      "id": 43,
       "title": "Landerneau Bretagne (W) – AZS Poznan (W)",
       "dateLabel": "4 November",
       "timeLabel": "19:30",
@@ -3788,7 +3771,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:13.947Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.808Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3811,7 +3794,7 @@
       "startsAt": "2026-11-04T18:30:00.000Z"
     },
     {
-      "id": 45,
+      "id": 44,
       "title": "Bosna Royal – Balkan",
       "dateLabel": "4 November",
       "timeLabel": "19:30",
@@ -3830,7 +3813,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.047Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.809Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3853,11 +3836,11 @@
       "startsAt": "2026-11-04T18:30:00.000Z"
     },
     {
-      "id": 46,
+      "id": 45,
       "title": "Hapoel Jerusalem – Aris",
       "dateLabel": "4 November",
       "timeLabel": "20:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/eurocup.gif",
       "iconAlt": "Eurocup",
@@ -3868,45 +3851,35 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://emb.tvp9.online/p2p/?id=268645",
+          "url": "https://emb.tvp9.online/p2p/?id=268672",
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.054Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.814Z",
           "healthHttpStatus": 200
         },
         {
           "id": 2,
           "label": "Stream 4",
-          "url": "https://emb.tvp9.online/p2p/?id=268672",
-          "language": "Croatian",
+          "url": "https://emb.tvp9.online/p2p/?id=269441",
+          "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.074Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.820Z",
           "healthHttpStatus": 200
         },
         {
           "id": 3,
           "label": "Stream 6",
-          "url": "https://emb.tvp9.online/p2p/?id=269441",
-          "language": "Portuguese",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.077Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 4,
-          "label": "Stream 8",
           "url": "https://emb.tvp9.online/p2p/?id=271219",
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.138Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.821Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 4,
+      "streamCount": 3,
       "teams": {
         "home": {
           "name": "Hapoel Jerusalem",
@@ -4048,11 +4021,11 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 47,
+      "id": 46,
       "title": "Venezia – Siauliai",
       "dateLabel": "4 November",
       "timeLabel": "20:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/eurocup.gif",
       "iconAlt": "Eurocup",
@@ -4067,7 +4040,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.230Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.836Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4090,11 +4063,11 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 48,
+      "id": 47,
       "title": "Fribourg Olympic – VEF Riga",
       "dateLabel": "4 November",
       "timeLabel": "20:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
@@ -4109,7 +4082,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.249Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.837Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4132,11 +4105,11 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 49,
+      "id": 48,
       "title": "Elan Chalon – Kalev",
       "dateLabel": "4 November",
       "timeLabel": "20:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
@@ -4151,7 +4124,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.249Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.936Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4174,11 +4147,11 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 50,
+      "id": 49,
       "title": "Benfica – Landau Lions",
       "dateLabel": "4 November",
       "timeLabel": "20:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
@@ -4193,7 +4166,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.265Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.954Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4216,11 +4189,11 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 51,
+      "id": 50,
       "title": "Trier Gladiators – Trepca Mitrovica",
       "dateLabel": "4 November",
       "timeLabel": "20:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "FIBA Europe Cup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/FIBAEC.gif",
       "iconAlt": "FIBA Europe Cup",
@@ -4235,7 +4208,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.266Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.977Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4258,11 +4231,11 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 52,
+      "id": 51,
       "title": "Ensino (W) – BLMA Montpellier (W)",
       "dateLabel": "4 November",
       "timeLabel": "20:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
@@ -4277,7 +4250,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.333Z",
+          "healthCheckedAt": "2026-11-04T19:16:29.992Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4300,11 +4273,11 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 53,
+      "id": 52,
       "title": "Brod Na Savi (W) – Jairis (W)",
       "dateLabel": "4 November",
       "timeLabel": "20:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Women. Eurocup",
       "iconUrl": "https://cdn.livetv911.me/img/icons/weurocup.gif",
       "iconAlt": "Women. Eurocup",
@@ -4319,7 +4292,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.379Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.012Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4342,11 +4315,11 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 54,
+      "id": 53,
       "title": "Bonn – Bnei Herzliya",
       "dateLabel": "4 November",
       "timeLabel": "20:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Champions League",
       "iconUrl": "https://cdn.livetv911.me/img/icons/bcl.gif",
       "iconAlt": "Champions League",
@@ -4361,7 +4334,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.384Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.020Z",
           "healthHttpStatus": 200
         },
         {
@@ -4371,7 +4344,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.385Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.046Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4422,11 +4395,11 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 55,
+      "id": 54,
       "title": "PF Schio (W) – Galatasaray (W)",
       "dateLabel": "4 November",
       "timeLabel": "20:00",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "Women. Euroleague",
       "iconUrl": "https://cdn.livetv911.me/img/icons/bwel.gif",
       "iconAlt": "Women. Euroleague",
@@ -4441,7 +4414,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.394Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.052Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4464,7 +4437,7 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 56,
+      "id": 55,
       "title": "Lions de Geneve – Prievidza",
       "dateLabel": "4 November",
       "timeLabel": "20:30",
@@ -4483,7 +4456,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.417Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.076Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4506,7 +4479,7 @@
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 57,
+      "id": 56,
       "title": "Oostende – Szolnoki Olaj",
       "dateLabel": "4 November",
       "timeLabel": "20:30",
@@ -4525,7 +4498,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.478Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.107Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4548,7 +4521,7 @@
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 58,
+      "id": 57,
       "title": "SP Burgos – Rostock",
       "dateLabel": "4 November",
       "timeLabel": "20:30",
@@ -4567,7 +4540,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.534Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.120Z",
           "healthHttpStatus": 200
         },
         {
@@ -4577,7 +4550,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.535Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.131Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4600,7 +4573,7 @@
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 59,
+      "id": 58,
       "title": "Geneve (W) – Pully (W)",
       "dateLabel": "4 November",
       "timeLabel": "20:30",
@@ -4619,7 +4592,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.537Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.165Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4642,7 +4615,7 @@
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 60,
+      "id": 59,
       "title": "Swiss Central Basket – Lugano Tigers U-23",
       "dateLabel": "4 November",
       "timeLabel": "20:30",
@@ -4661,7 +4634,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.570Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.193Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4798,7 +4771,7 @@
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 61,
+      "id": 60,
       "title": "Kangoeroes Mechelen (W) – Crvena Zvezda (W)",
       "dateLabel": "4 November",
       "timeLabel": "20:30",
@@ -4817,7 +4790,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.586Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.199Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4840,7 +4813,7 @@
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 62,
+      "id": 61,
       "title": "Geneve Elite (W) – Pully (W)",
       "dateLabel": "4 November",
       "timeLabel": "20:30",
@@ -4859,7 +4832,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.594Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.228Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4882,7 +4855,7 @@
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 63,
+      "id": 62,
       "title": "Maxima Roma – London Lions",
       "dateLabel": "4 November",
       "timeLabel": "20:30",
@@ -4901,7 +4874,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.681Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.244Z",
           "healthHttpStatus": 200
         }
       ],
@@ -4924,7 +4897,7 @@
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 64,
+      "id": 63,
       "title": "Real Madrid – Panathinaikos",
       "dateLabel": "4 November",
       "timeLabel": "20:45",
@@ -4943,7 +4916,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.706Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.272Z",
           "healthHttpStatus": 200
         },
         {
@@ -4953,7 +4926,7 @@
           "language": "Hebrew",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.713Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.308Z",
           "healthHttpStatus": 200
         },
         {
@@ -4963,7 +4936,7 @@
           "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.722Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.316Z",
           "healthHttpStatus": 200
         },
         {
@@ -4973,7 +4946,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.722Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.328Z",
           "healthHttpStatus": 200
         },
         {
@@ -4983,7 +4956,7 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.754Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.358Z",
           "healthHttpStatus": 200
         },
         {
@@ -4993,7 +4966,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.869Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.360Z",
           "healthHttpStatus": 200
         },
         {
@@ -5003,7 +4976,7 @@
           "language": "Russian",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.873Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.396Z",
           "healthHttpStatus": 200
         },
         {
@@ -5013,7 +4986,7 @@
           "language": "French",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.906Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.420Z",
           "healthHttpStatus": 200
         }
       ],
@@ -5159,7 +5132,7 @@
       "startsAt": "2026-11-04T19:45:00.000Z"
     },
     {
-      "id": 65,
+      "id": 64,
       "title": "Maccabi Bnot Ashdod (W) – Besiktas (W)",
       "dateLabel": "4 November",
       "timeLabel": "20:45",
@@ -5178,7 +5151,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T18:57:14.906Z",
+          "healthCheckedAt": "2026-11-04T19:16:30.444Z",
           "healthHttpStatus": 200
         }
       ],
@@ -5201,7 +5174,7 @@
       "startsAt": "2026-11-04T19:45:00.000Z"
     },
     {
-      "id": 66,
+      "id": 65,
       "title": "Unifacisa – Paulistano",
       "dateLabel": "4 November",
       "timeLabel": "23:30",
@@ -5355,7 +5328,7 @@
       "startsAt": "2026-11-04T22:30:00.000Z"
     },
     {
-      "id": 67,
+      "id": 66,
       "title": "Mogi das Cruzes – Fortaleza Cearense",
       "dateLabel": "5 November",
       "timeLabel": "0:00",
@@ -5509,7 +5482,7 @@
       "startsAt": "2026-11-04T23:00:00.000Z"
     },
     {
-      "id": 68,
+      "id": 67,
       "title": "Brasilia – Flamengo",
       "dateLabel": "5 November",
       "timeLabel": "0:15",
@@ -5663,7 +5636,7 @@
       "startsAt": "2026-11-04T23:15:00.000Z"
     },
     {
-      "id": 69,
+      "id": 68,
       "title": "Toros del Valle – Piratas",
       "dateLabel": "5 November",
       "timeLabel": "0:30",
@@ -5817,7 +5790,7 @@
       "startsAt": "2026-11-04T23:30:00.000Z"
     },
     {
-      "id": 70,
+      "id": 69,
       "title": "Washington – Atlanta",
       "dateLabel": "5 November",
       "timeLabel": "1:00",
@@ -5971,7 +5944,7 @@
       "startsAt": "2026-11-05T00:00:00.000Z"
     },
     {
-      "id": 71,
+      "id": 70,
       "title": "Detroit – Philadelphia",
       "dateLabel": "5 November",
       "timeLabel": "1:00",
@@ -6125,7 +6098,7 @@
       "startsAt": "2026-11-05T00:00:00.000Z"
     },
     {
-      "id": 72,
+      "id": 71,
       "title": "Brooklyn Nets – Charlotte",
       "dateLabel": "5 November",
       "timeLabel": "1:30",
@@ -6279,7 +6252,7 @@
       "startsAt": "2026-11-05T00:30:00.000Z"
     },
     {
-      "id": 73,
+      "id": 72,
       "title": "New York – Chicago",
       "dateLabel": "5 November",
       "timeLabel": "1:30",
@@ -6433,7 +6406,7 @@
       "startsAt": "2026-11-05T00:30:00.000Z"
     },
     {
-      "id": 74,
+      "id": 73,
       "title": "Boston – Milwaukee",
       "dateLabel": "5 November",
       "timeLabel": "1:30",
@@ -6587,7 +6560,7 @@
       "startsAt": "2026-11-05T00:30:00.000Z"
     },
     {
-      "id": 75,
+      "id": 74,
       "title": "Oklahoma – Cleveland",
       "dateLabel": "5 November",
       "timeLabel": "2:00",
@@ -6741,7 +6714,7 @@
       "startsAt": "2026-11-05T01:00:00.000Z"
     },
     {
-      "id": 76,
+      "id": 75,
       "title": "Memphis – Indiana",
       "dateLabel": "5 November",
       "timeLabel": "2:00",
@@ -6895,7 +6868,7 @@
       "startsAt": "2026-11-05T01:00:00.000Z"
     },
     {
-      "id": 77,
+      "id": 76,
       "title": "New Orleans – Utah",
       "dateLabel": "5 November",
       "timeLabel": "2:00",
@@ -7049,7 +7022,7 @@
       "startsAt": "2026-11-05T01:00:00.000Z"
     },
     {
-      "id": 78,
+      "id": 77,
       "title": "Houston – Minnesota",
       "dateLabel": "5 November",
       "timeLabel": "2:30",
@@ -7203,7 +7176,7 @@
       "startsAt": "2026-11-05T01:30:00.000Z"
     },
     {
-      "id": 79,
+      "id": 78,
       "title": "Motilonas Del Norte – Paisas",
       "dateLabel": "5 November",
       "timeLabel": "2:30",
@@ -7357,7 +7330,7 @@
       "startsAt": "2026-11-05T01:30:00.000Z"
     },
     {
-      "id": 80,
+      "id": 79,
       "title": "Denver – Toronto",
       "dateLabel": "5 November",
       "timeLabel": "3:00",
@@ -7502,7 +7475,7 @@
       "startsAt": "2026-11-05T02:00:00.000Z"
     },
     {
-      "id": 81,
+      "id": 80,
       "title": "Phoenix – Portland",
       "dateLabel": "5 November",
       "timeLabel": "3:00",
@@ -7656,7 +7629,7 @@
       "startsAt": "2026-11-05T02:00:00.000Z"
     },
     {
-      "id": 82,
+      "id": 81,
       "title": "San Antonio – Dallas",
       "dateLabel": "5 November",
       "timeLabel": "3:30",
@@ -7810,7 +7783,7 @@
       "startsAt": "2026-11-05T02:30:00.000Z"
     },
     {
-      "id": 83,
+      "id": 82,
       "title": "Sacramento – LA Lakers",
       "dateLabel": "5 November",
       "timeLabel": "4:00",
@@ -7964,7 +7937,7 @@
       "startsAt": "2026-11-05T03:00:00.000Z"
     },
     {
-      "id": 84,
+      "id": 83,
       "title": "LA Clippers – Miami",
       "dateLabel": "5 November",
       "timeLabel": "4:30",
@@ -8118,7 +8091,7 @@
       "startsAt": "2026-11-05T03:30:00.000Z"
     },
     {
-      "id": 85,
+      "id": 84,
       "title": "Cairns Taipans – The Hawks",
       "dateLabel": "5 November",
       "timeLabel": "9:30",
@@ -8272,7 +8245,7 @@
       "startsAt": "2026-11-05T08:30:00.000Z"
     },
     {
-      "id": 86,
+      "id": 85,
       "title": "Jeonju Egis – Hou Chon",
       "dateLabel": "5 November",
       "timeLabel": "11:10",
@@ -8303,7 +8276,7 @@
       "startsAt": "2026-11-05T10:10:00.000Z"
     },
     {
-      "id": 87,
+      "id": 86,
       "title": "Vilkaviskio Perlas – Vilniaus Stekas",
       "dateLabel": "5 November",
       "timeLabel": "17:00",
@@ -8457,7 +8430,7 @@
       "startsAt": "2026-11-05T16:00:00.000Z"
     },
     {
-      "id": 88,
+      "id": 87,
       "title": "Neptunas-Akvaservis – Suduva-Mantinga",
       "dateLabel": "5 November",
       "timeLabel": "17:00",
@@ -8611,7 +8584,7 @@
       "startsAt": "2026-11-05T16:00:00.000Z"
     },
     {
-      "id": 89,
+      "id": 88,
       "title": "Mazeikiai – Vytis",
       "dateLabel": "5 November",
       "timeLabel": "17:00",
@@ -8765,7 +8738,7 @@
       "startsAt": "2026-11-05T16:00:00.000Z"
     },
     {
-      "id": 90,
+      "id": 89,
       "title": "Zalgiris 2 – Vilniaus Rytas 2",
       "dateLabel": "5 November",
       "timeLabel": "17:00",
@@ -8919,7 +8892,7 @@
       "startsAt": "2026-11-05T16:00:00.000Z"
     },
     {
-      "id": 91,
+      "id": 90,
       "title": "Kyiv-Basket – Kharkivski Sokoly",
       "dateLabel": "5 November",
       "timeLabel": "17:00",
@@ -9073,7 +9046,7 @@
       "startsAt": "2026-11-05T16:00:00.000Z"
     },
     {
-      "id": 92,
+      "id": 91,
       "title": "Telsiai – Silute",
       "dateLabel": "5 November",
       "timeLabel": "17:05",
@@ -9227,7 +9200,7 @@
       "startsAt": "2026-11-05T16:05:00.000Z"
     },
     {
-      "id": 93,
+      "id": 92,
       "title": "Kedainiu – Kauno Atletas",
       "dateLabel": "5 November",
       "timeLabel": "18:00",
@@ -9258,7 +9231,7 @@
       "startsAt": "2026-11-05T17:00:00.000Z"
     },
     {
-      "id": 94,
+      "id": 93,
       "title": "Kretinga – Palangos Olimpas",
       "dateLabel": "5 November",
       "timeLabel": "18:00",
@@ -9412,7 +9385,7 @@
       "startsAt": "2026-11-05T17:00:00.000Z"
     },
     {
-      "id": 95,
+      "id": 94,
       "title": "Spartak Subotica – Zadar",
       "dateLabel": "5 November",
       "timeLabel": "18:00",
@@ -9566,7 +9539,7 @@
       "startsAt": "2026-11-05T17:00:00.000Z"
     },
     {
-      "id": 96,
+      "id": 95,
       "title": "Anadolu Efes – Paris",
       "dateLabel": "5 November",
       "timeLabel": "18:15",
@@ -9720,7 +9693,7 @@
       "startsAt": "2026-11-05T17:15:00.000Z"
     },
     {
-      "id": 97,
+      "id": 96,
       "title": "Borisfen – Grodno 93",
       "dateLabel": "5 November",
       "timeLabel": "18:15",
@@ -9874,7 +9847,7 @@
       "startsAt": "2026-11-05T17:15:00.000Z"
     },
     {
-      "id": 98,
+      "id": 97,
       "title": "Fenerbahce – Baskonia",
       "dateLabel": "5 November",
       "timeLabel": "19:00",
@@ -10028,7 +10001,7 @@
       "startsAt": "2026-11-05T18:00:00.000Z"
     },
     {
-      "id": 99,
+      "id": 98,
       "title": "Omega-Tauras – Jurbarkas-Karys",
       "dateLabel": "5 November",
       "timeLabel": "19:00",
@@ -10059,7 +10032,7 @@
       "startsAt": "2026-11-05T18:00:00.000Z"
     },
     {
-      "id": 100,
+      "id": 99,
       "title": "Hapoel T-A – Barcelona",
       "dateLabel": "5 November",
       "timeLabel": "19:45",
@@ -10204,7 +10177,7 @@
       "startsAt": "2026-11-05T18:45:00.000Z"
     },
     {
-      "id": 101,
+      "id": 100,
       "title": "Dzukija – Olimpas",
       "dateLabel": "5 November",
       "timeLabel": "20:00",
@@ -10349,7 +10322,7 @@
       "startsAt": "2026-11-05T19:00:00.000Z"
     },
     {
-      "id": 102,
+      "id": 101,
       "title": "ASVEL – Bayern Munich",
       "dateLabel": "5 November",
       "timeLabel": "20:00",
@@ -10503,7 +10476,7 @@
       "startsAt": "2026-11-05T19:00:00.000Z"
     },
     {
-      "id": 103,
+      "id": 102,
       "title": "Milan – Valencia",
       "dateLabel": "5 November",
       "timeLabel": "20:30",
@@ -10657,7 +10630,7 @@
       "startsAt": "2026-11-05T19:30:00.000Z"
     },
     {
-      "id": 104,
+      "id": 103,
       "title": "Triglav (W) – Domel Skofja Loka (W)",
       "dateLabel": "5 November",
       "timeLabel": "20:30",
@@ -10688,7 +10661,7 @@
       "startsAt": "2026-11-05T19:30:00.000Z"
     },
     {
-      "id": 105,
+      "id": 104,
       "title": "Tenerife – Cluj-Napoca",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -10719,7 +10692,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 106,
+      "id": 105,
       "title": "Bauru – Minas",
       "dateLabel": "5 November",
       "timeLabel": "23:30",
@@ -10873,5 +10846,5 @@
       "startsAt": "2026-11-05T22:30:00.000Z"
     }
   ],
-  "enrichedAt": "2026-11-04T18:57:11.908Z"
+  "enrichedAt": "2026-11-04T19:16:28.447Z"
 }

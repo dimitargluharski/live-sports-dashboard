@@ -1,130 +1,10 @@
 {
   "section": "Tennis",
-  "scrapedAt": "2026-11-04T18:57:17.735Z",
-  "count": 17,
+  "scrapedAt": "2026-11-04T19:16:31.258Z",
+  "count": 14,
   "matches": [
     {
       "id": 1,
-      "matchId": "42d7dd78f09b",
-      "title": "Nuno Borges – Karen Khachanov",
-      "dateLabel": "4 November",
-      "timeLabel": "17:05",
-      "leagueLabel": "ATP. Paris",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Nuno Borges",
-          "logoUrl": "teams/18/ods/9124.gif"
-        },
-        "away": {
-          "name": "Karen Khachanov",
-          "logoUrl": "teams/18/ods/4728.gif"
-        }
-      },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T16:05:00.000Z"
-    },
-    {
-      "id": 2,
-      "matchId": "11adc037a621",
-      "title": "Alex Michelsen – Carlos Alcaraz",
-      "dateLabel": "4 November",
-      "timeLabel": "19:05",
-      "leagueLabel": "ATP. Paris",
-      "isLive": true,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Alex Michelsen",
-          "logoUrl": "teams/18/ods/23102.gif"
-        },
-        "away": {
-          "name": "Carlos Alcaraz",
-          "logoUrl": "teams/18/ods/9350.gif"
-        }
-      },
-      "score": "0:0",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T18:05:00.000Z"
-    },
-    {
-      "id": 3,
-      "matchId": "bd6a1e23115c",
-      "title": "Leoli Jeanjean (W) – Carolina Alves (W)",
-      "dateLabel": "4 November",
-      "timeLabel": "17:05",
-      "leagueLabel": "WTA. Cali",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Leoli Jeanjean (W)",
-          "logoUrl": "teams/18/ods/21167.gif"
-        },
-        "away": {
-          "name": "Carolina Alves (W)",
-          "logoUrl": "teams/18/ods/21093.gif"
-        }
-      },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T16:05:00.000Z"
-    },
-    {
-      "id": 4,
-      "matchId": "5f9b92e0e3da",
-      "title": "Irene-Burillo Escorihuela (W) – Luisina Giovannini (W)",
-      "dateLabel": "4 November",
-      "timeLabel": "17:10",
-      "leagueLabel": "WTA. Cali",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Irene-Burillo Escorihuela (W)",
-          "logoUrl": "teams/18/ods/17185.gif"
-        },
-        "away": {
-          "name": "Luisina Giovannini (W)",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "0:2",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T16:10:00.000Z"
-    },
-    {
-      "id": 5,
-      "matchId": "08d85995df0c",
-      "title": "Laura Samson (W) – Carole Monnet (W)",
-      "dateLabel": "4 November",
-      "timeLabel": "17:10",
-      "leagueLabel": "WTA. Cali",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Laura Samson (W)",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Carole Monnet (W)",
-          "logoUrl": "teams/18/ods/8608.gif"
-        }
-      },
-      "score": "1:2",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T16:10:00.000Z"
-    },
-    {
-      "id": 6,
       "matchId": "aa3014684637",
       "title": "Julia Grabher (W) – Julia Riera (W)",
       "dateLabel": "4 November",
@@ -148,7 +28,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 7,
+      "id": 2,
       "matchId": "f6e4d0e5fc33",
       "title": "Alice Tubello (W) – Marina Bassols-Ribera (W)",
       "dateLabel": "4 November",
@@ -172,7 +52,55 @@
       "startsAt": "2026-11-04T18:05:00.000Z"
     },
     {
-      "id": 8,
+      "id": 3,
+      "matchId": "681fc3fa40e9",
+      "title": "Despina Papamichail (W) – Renata Zarazua (W)",
+      "dateLabel": "4 November",
+      "timeLabel": "20:00",
+      "leagueLabel": "WTA. Cali",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Despina Papamichail (W)",
+          "logoUrl": "teams/18/ods/21089.gif"
+        },
+        "away": {
+          "name": "Renata Zarazua (W)",
+          "logoUrl": "teams/18/ods/25507.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T19:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "matchId": "11adc037a621",
+      "title": "Alex Michelsen – Carlos Alcaraz",
+      "dateLabel": "4 November",
+      "timeLabel": "19:05",
+      "leagueLabel": "ATP. Paris",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Alex Michelsen",
+          "logoUrl": "teams/18/ods/23102.gif"
+        },
+        "away": {
+          "name": "Carlos Alcaraz",
+          "logoUrl": "teams/18/ods/9350.gif"
+        }
+      },
+      "score": "0:1",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T18:05:00.000Z"
+    },
+    {
+      "id": 5,
       "matchId": "5722f08832cc",
       "title": "Liam Draxl – Maks Kasnikowski",
       "dateLabel": "4 November",
@@ -196,7 +124,7 @@
       "startsAt": "2026-11-04T16:25:00.000Z"
     },
     {
-      "id": 9,
+      "id": 6,
       "matchId": "d70d8a109794",
       "title": "Murphy Cassone – Stefan Kozlov",
       "dateLabel": "4 November",
@@ -220,7 +148,7 @@
       "startsAt": "2026-11-04T16:35:00.000Z"
     },
     {
-      "id": 10,
+      "id": 7,
       "matchId": "ab709152e747",
       "title": "Braden Shick – Dali Blanch",
       "dateLabel": "4 November",
@@ -244,31 +172,7 @@
       "startsAt": "2026-11-04T18:05:00.000Z"
     },
     {
-      "id": 11,
-      "matchId": "f757fae3fd23",
-      "title": "Bolelli / Vavassori – Nakashima / Cash",
-      "dateLabel": "4 November",
-      "timeLabel": "17:15",
-      "leagueLabel": "ATP. Paris. Doubles",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Bolelli / Vavassori",
-          "logoUrl": "teams/18/ods/.gif"
-        },
-        "away": {
-          "name": "Nakashima / Cash",
-          "logoUrl": "teams/18/ods/.gif"
-        }
-      },
-      "score": "0:2",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T16:15:00.000Z"
-    },
-    {
-      "id": 12,
+      "id": 8,
       "matchId": "743c395b29a9",
       "title": "Sascha Gueymard Wayenburg – Zsombor Piros",
       "dateLabel": "4 November",
@@ -292,7 +196,7 @@
       "startsAt": "2026-11-04T16:40:00.000Z"
     },
     {
-      "id": 13,
+      "id": 9,
       "matchId": "d3986c64e835",
       "title": "Lukas Pokorny – Toby Samuel",
       "dateLabel": "4 November",
@@ -316,31 +220,55 @@
       "startsAt": "2026-11-04T16:50:00.000Z"
     },
     {
-      "id": 14,
-      "matchId": "f3ddba8d12c5",
-      "title": "Juan Manuel La Serna – Hernan Casanova",
+      "id": 10,
+      "matchId": "3e891c92d255",
+      "title": "Jerome Kym – Luka Pavlovic",
       "dateLabel": "4 November",
-      "timeLabel": "17:05",
-      "leagueLabel": "ATP Challenger. Villa Maria",
-      "isLive": false,
+      "timeLabel": "19:57",
+      "leagueLabel": "ATP Challenger. Bratislava 2",
+      "isLive": true,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "Juan Manuel La Serna",
+          "name": "Jerome Kym",
           "logoUrl": "teams/18/ods/0.gif"
         },
         "away": {
-          "name": "Hernan Casanova",
-          "logoUrl": "teams/18/ods/12248.gif"
+          "name": "Luka Pavlovic",
+          "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "2:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T16:05:00.000Z"
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:57:00.000Z"
     },
     {
-      "id": 15,
+      "id": 11,
+      "matchId": "9682f9ae8f67",
+      "title": "Nishesh Basavareddy – Mika Brunold",
+      "dateLabel": "4 November",
+      "timeLabel": "20:00",
+      "leagueLabel": "ATP Challenger. Bratislava 2",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Nishesh Basavareddy",
+          "logoUrl": "teams/18/ods/0.gif"
+        },
+        "away": {
+          "name": "Mika Brunold",
+          "logoUrl": "teams/18/ods/25881.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T19:00:00.000Z"
+    },
+    {
+      "id": 12,
       "matchId": "f9fd2e1d9dd5",
       "title": "Aboian / Fernandez – Gagliardo / Bruna",
       "dateLabel": "4 November",
@@ -364,7 +292,7 @@
       "startsAt": "2026-11-04T17:10:00.000Z"
     },
     {
-      "id": 16,
+      "id": 13,
       "matchId": "4dc838534455",
       "title": "Garay / Pagani – Del Pino / Zeitune",
       "dateLabel": "4 November",
@@ -388,7 +316,7 @@
       "startsAt": "2026-11-04T17:25:00.000Z"
     },
     {
-      "id": 17,
+      "id": 14,
       "matchId": "0ebb7d5bb419",
       "title": "Gonzalo Bueno – Eduardo Ribeiro",
       "dateLabel": "4 November",
@@ -407,7 +335,7 @@
           "logoUrl": "teams/18/ods/23109.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:59:00.000Z"
     }
