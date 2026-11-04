@@ -1,6 +1,6 @@
 {
   "section": "Basketball",
-  "scrapedAt": "2026-11-04T21:06:59.094Z",
+  "scrapedAt": "2026-11-04T21:24:53.280Z",
   "count": 29,
   "matches": [
     {
@@ -191,7 +191,7 @@
           "logoUrl": "teams/18/ods/13984.gif"
         }
       },
-      "score": "47:54",
+      "score": "60:66",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:45:00.000Z"
     },
@@ -311,7 +311,7 @@
           "logoUrl": "teams/18/ods/35742.gif"
         }
       },
-      "score": "74:78",
+      "score": "92:89",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
@@ -322,7 +322,7 @@
       "dateLabel": "4 November",
       "timeLabel": "20:30",
       "leagueLabel": "FIBA Europe Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -335,8 +335,8 @@
           "logoUrl": "teams/18/ods/13716.gif"
         }
       },
-      "score": "70:66",
-      "liveStatus": "live",
+      "score": "86:77",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
@@ -370,7 +370,7 @@
       "dateLabel": "4 November",
       "timeLabel": "20:00",
       "leagueLabel": "Eurocup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -383,8 +383,8 @@
           "logoUrl": "teams/18/ods/35782.gif"
         }
       },
-      "score": "77:71",
-      "liveStatus": "live",
+      "score": "84:73",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
@@ -418,7 +418,7 @@
       "dateLabel": "4 November",
       "timeLabel": "20:30",
       "leagueLabel": "Eurocup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -431,8 +431,8 @@
           "logoUrl": "teams/18/ods/11179.gif"
         }
       },
-      "score": "57:78",
-      "liveStatus": "live",
+      "score": "59:86",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
@@ -455,7 +455,7 @@
           "logoUrl": "teams/18/ods/36167.gif"
         }
       },
-      "score": "63:55",
+      "score": "70:65",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
@@ -479,12 +479,84 @@
           "logoUrl": "teams/18/ods/334.gif"
         }
       },
-      "score": "66:70",
+      "score": "87:84",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:45:00.000Z"
     },
     {
       "id": 21,
+      "matchId": "af387229b6be",
+      "title": "Torino – Montecatiniterme",
+      "dateLabel": "4 November",
+      "timeLabel": "20:30",
+      "leagueLabel": "Italy. Serie A2",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Torino",
+          "logoUrl": "teams/18/ods/11605.gif"
+        },
+        "away": {
+          "name": "Montecatiniterme",
+          "logoUrl": "teams/18/ods/36840.gif"
+        }
+      },
+      "score": "70:48",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T19:30:00.000Z"
+    },
+    {
+      "id": 22,
+      "matchId": "2ec576ea41fc",
+      "title": "Libertas Livorno – Cento",
+      "dateLabel": "4 November",
+      "timeLabel": "20:45",
+      "leagueLabel": "Italy. Serie A2",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Libertas Livorno",
+          "logoUrl": "teams/18/ods/35845.gif"
+        },
+        "away": {
+          "name": "Cento",
+          "logoUrl": "teams/18/ods/18338.gif"
+        }
+      },
+      "score": "67:52",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T19:45:00.000Z"
+    },
+    {
+      "id": 23,
+      "matchId": "4f7cf86951d0",
+      "title": "Bonn – Bnei Herzliya",
+      "dateLabel": "4 November",
+      "timeLabel": "20:00",
+      "leagueLabel": "Champions League",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Bonn",
+          "logoUrl": "teams/18/ods/31408.gif"
+        },
+        "away": {
+          "name": "Bnei Herzliya",
+          "logoUrl": "teams/18/ods/13660.gif"
+        }
+      },
+      "score": "101:89",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T19:00:00.000Z"
+    },
+    {
+      "id": 24,
       "matchId": "ce81d75cf28e",
       "title": "PF Schio (W) – Galatasaray (W)",
       "dateLabel": "4 November",
@@ -508,13 +580,13 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 22,
+      "id": 25,
       "matchId": "aabb1545e7ea",
       "title": "Kangoeroes Mechelen (W) – Crvena Zvezda (W)",
       "dateLabel": "4 November",
       "timeLabel": "20:30",
       "leagueLabel": "Women. Euroleague",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -527,81 +599,9 @@
           "logoUrl": "teams/18/ods/17598.gif"
         }
       },
-      "score": "60:78",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T19:30:00.000Z"
-    },
-    {
-      "id": 23,
-      "matchId": "af387229b6be",
-      "title": "Torino – Montecatiniterme",
-      "dateLabel": "4 November",
-      "timeLabel": "20:30",
-      "leagueLabel": "Italy. Serie A2",
-      "isLive": true,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Torino",
-          "logoUrl": "teams/18/ods/11605.gif"
-        },
-        "away": {
-          "name": "Montecatiniterme",
-          "logoUrl": "teams/18/ods/36840.gif"
-        }
-      },
-      "score": "68:46",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T19:30:00.000Z"
-    },
-    {
-      "id": 24,
-      "matchId": "2ec576ea41fc",
-      "title": "Libertas Livorno – Cento",
-      "dateLabel": "4 November",
-      "timeLabel": "20:45",
-      "leagueLabel": "Italy. Serie A2",
-      "isLive": true,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Libertas Livorno",
-          "logoUrl": "teams/18/ods/35845.gif"
-        },
-        "away": {
-          "name": "Cento",
-          "logoUrl": "teams/18/ods/18338.gif"
-        }
-      },
-      "score": "61:46",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T19:45:00.000Z"
-    },
-    {
-      "id": 25,
-      "matchId": "4f7cf86951d0",
-      "title": "Bonn – Bnei Herzliya",
-      "dateLabel": "4 November",
-      "timeLabel": "20:00",
-      "leagueLabel": "Champions League",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Bonn",
-          "logoUrl": "teams/18/ods/31408.gif"
-        },
-        "away": {
-          "name": "Bnei Herzliya",
-          "logoUrl": "teams/18/ods/13660.gif"
-        }
-      },
-      "score": "101:89",
+      "score": "69:87",
       "liveStatus": "finished",
-      "startsAt": "2026-11-04T19:00:00.000Z"
+      "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
       "id": 26,
@@ -695,7 +695,7 @@
           "logoUrl": "teams/18/ods/20605.gif"
         }
       },
-      "score": "62:54",
+      "score": "70:70",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:45:00.000Z"
     }
