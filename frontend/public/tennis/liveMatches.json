@@ -1,16 +1,16 @@
 {
   "section": "Tennis",
-  "scrapedAt": "2026-11-04T17:22:06.186Z",
+  "scrapedAt": "2026-11-04T17:41:11.603Z",
   "count": 18,
   "matches": [
     {
       "id": 1,
-      "matchId": "64afa87392e1",
+      "matchId": "bd6a1e23115c",
       "title": "Leoli Jeanjean (W) – Carolina Alves (W)",
       "dateLabel": "4 November",
-      "timeLabel": "17:00",
+      "timeLabel": "17:05",
       "leagueLabel": "WTA. Cali",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -23,18 +23,18 @@
           "logoUrl": "teams/18/ods/21093.gif"
         }
       },
-      "score": "1:0",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T16:00:00.000Z"
+      "score": "2:0",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T16:05:00.000Z"
     },
     {
       "id": 2,
-      "matchId": "6ac1027191d1",
+      "matchId": "5f9b92e0e3da",
       "title": "Irene-Burillo Escorihuela (W) – Luisina Giovannini (W)",
       "dateLabel": "4 November",
-      "timeLabel": "17:05",
+      "timeLabel": "17:10",
       "leagueLabel": "WTA. Cali",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -47,9 +47,9 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:1",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T16:05:00.000Z"
+      "score": "0:2",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T16:10:00.000Z"
     },
     {
       "id": 3,
@@ -167,7 +167,7 @@
           "logoUrl": "teams/18/ods/9854.gif"
         }
       },
-      "score": "0:1",
+      "score": "0:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:26:00.000Z"
     },
@@ -197,6 +197,30 @@
     },
     {
       "id": 9,
+      "matchId": "f757fae3fd23",
+      "title": "Bolelli / Vavassori – Nakashima / Cash",
+      "dateLabel": "4 November",
+      "timeLabel": "17:15",
+      "leagueLabel": "ATP. Paris. Doubles",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Bolelli / Vavassori",
+          "logoUrl": "teams/18/ods/.gif"
+        },
+        "away": {
+          "name": "Nakashima / Cash",
+          "logoUrl": "teams/18/ods/.gif"
+        }
+      },
+      "score": "0:2",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T16:15:00.000Z"
+    },
+    {
+      "id": 10,
       "matchId": "0d9951589714",
       "title": "Weronika Falkowska (W) – Maaya Rajeshwaran Revathi (W)",
       "dateLabel": "4 November",
@@ -220,7 +244,7 @@
       "startsAt": "2026-11-04T15:15:00.000Z"
     },
     {
-      "id": 10,
+      "id": 11,
       "matchId": "72dd8e00f844",
       "title": "Matej Dodig – Michal Krajci",
       "dateLabel": "4 November",
@@ -244,7 +268,7 @@
       "startsAt": "2026-11-04T14:50:00.000Z"
     },
     {
-      "id": 11,
+      "id": 12,
       "matchId": "743c395b29a9",
       "title": "Sascha Gueymard Wayenburg – Zsombor Piros",
       "dateLabel": "4 November",
@@ -268,7 +292,7 @@
       "startsAt": "2026-11-04T16:40:00.000Z"
     },
     {
-      "id": 12,
+      "id": 13,
       "matchId": "0db82d6405b1",
       "title": "Lukas Pokorny – Toby Samuel",
       "dateLabel": "4 November",
@@ -287,12 +311,12 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:43:00.000Z"
     },
     {
-      "id": 13,
+      "id": 14,
       "matchId": "66941726f537",
       "title": "Heinonen / Grevelius – King / Balaji",
       "dateLabel": "4 November",
@@ -316,7 +340,7 @@
       "startsAt": "2026-11-04T14:45:00.000Z"
     },
     {
-      "id": 14,
+      "id": 15,
       "matchId": "46a746b6af88",
       "title": "Hudd / Charlton – Ingildsen / Shelbayh",
       "dateLabel": "4 November",
@@ -340,7 +364,7 @@
       "startsAt": "2026-11-04T15:05:00.000Z"
     },
     {
-      "id": 15,
+      "id": 16,
       "matchId": "cdf04bb47f81",
       "title": "Stalder / Reyes Varela – Maginley / Poling",
       "dateLabel": "4 November",
@@ -364,7 +388,7 @@
       "startsAt": "2026-11-04T15:05:00.000Z"
     },
     {
-      "id": 16,
+      "id": 17,
       "matchId": "e8ae6ad73c21",
       "title": "Juan Bautista Torres – Nicolas Bruna",
       "dateLabel": "4 November",
@@ -388,7 +412,7 @@
       "startsAt": "2026-11-04T15:30:00.000Z"
     },
     {
-      "id": 17,
+      "id": 18,
       "matchId": "18f745b02aaa",
       "title": "Juan Manuel La Serna – Hernan Casanova",
       "dateLabel": "4 November",
@@ -410,30 +434,6 @@
       "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:02:00.000Z"
-    },
-    {
-      "id": 18,
-      "matchId": "2c33e2a0dfef",
-      "title": "Burrage (W) / Montgomery (W) – Iatcenko (W) / Falei (W)",
-      "dateLabel": "4 November",
-      "timeLabel": "15:30",
-      "leagueLabel": "WTA. Chennai. Doubles",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Burrage (W) / Montgomery (W)",
-          "logoUrl": "teams/18/ods/.gif"
-        },
-        "away": {
-          "name": "Iatcenko (W) / Falei (W)",
-          "logoUrl": "teams/18/ods/.gif"
-        }
-      },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:30:00.000Z"
     }
   ]
 }

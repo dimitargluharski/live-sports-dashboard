@@ -1,7 +1,7 @@
 {
   "section": "Handball",
-  "scrapedAt": "2026-11-04T17:22:06.186Z",
-  "count": 58,
+  "scrapedAt": "2026-11-04T17:41:11.603Z",
+  "count": 54,
   "matches": [
     {
       "id": 1,
@@ -10,7 +10,7 @@
       "dateLabel": "4 November",
       "timeLabel": "17:00",
       "leagueLabel": "European Championship. Qualification",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -23,8 +23,8 @@
           "logoUrl": "teams/18/ods/flag118.gif"
         }
       },
-      "score": "39:21",
-      "liveStatus": "live",
+      "score": "46:28",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
@@ -47,7 +47,7 @@
           "logoUrl": "teams/18/ods/flag198.gif"
         }
       },
-      "score": "10:8",
+      "score": "19:15",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
@@ -71,7 +71,7 @@
           "logoUrl": "teams/18/ods/flag98.gif"
         }
       },
-      "score": "10:8",
+      "score": "15:10",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
@@ -95,7 +95,7 @@
           "logoUrl": "teams/18/ods/flag120.gif"
         }
       },
-      "score": "11:5",
+      "score": "21:11",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
@@ -119,7 +119,7 @@
           "logoUrl": "teams/18/ods/flag23.gif"
         }
       },
-      "score": "10:7",
+      "score": "22:11",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
@@ -197,6 +197,30 @@
     },
     {
       "id": 9,
+      "matchId": "22b875758783",
+      "title": "Gyor (W) – Eszterhazy (W)",
+      "dateLabel": "4 November",
+      "timeLabel": "17:00",
+      "leagueLabel": "Hungary. Women. NB I",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Gyor (W)",
+          "logoUrl": "teams/18/ods/31111.gif"
+        },
+        "away": {
+          "name": "Eszterhazy (W)",
+          "logoUrl": "teams/18/ods/38379.gif"
+        }
+      },
+      "score": "49:23",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T16:00:00.000Z"
+    },
+    {
+      "id": 10,
       "matchId": "7569f93a22e9",
       "title": "Galychanka (W) – Zaglebie (W)",
       "dateLabel": "4 November",
@@ -215,12 +239,12 @@
           "logoUrl": "teams/18/ods/14131.gif"
         }
       },
-      "score": "7:10",
+      "score": "10:19",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 10,
+      "id": 11,
       "matchId": "cee6d5da89da",
       "title": "Flint (W) – Storhamar (W)",
       "dateLabel": "4 November",
@@ -239,12 +263,12 @@
           "logoUrl": "teams/18/ods/7953.gif"
         }
       },
-      "score": "7:15",
+      "score": "11:20",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 11,
+      "id": 12,
       "matchId": "c8f559764583",
       "title": "Molde (W) – Tertnes (W)",
       "dateLabel": "4 November",
@@ -263,12 +287,12 @@
           "logoUrl": "teams/18/ods/7958.gif"
         }
       },
-      "score": "7:6",
+      "score": "12:10",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 12,
+      "id": 13,
       "matchId": "6a7f7064a435",
       "title": "Sola (W) – Larvik (W)",
       "dateLabel": "4 November",
@@ -287,18 +311,42 @@
           "logoUrl": "teams/18/ods/7960.gif"
         }
       },
-      "score": "5:5",
+      "score": "13:14",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:15:00.000Z"
     },
     {
-      "id": 13,
+      "id": 14,
+      "matchId": "fbbf50513bac",
+      "title": "Odense (W) – SoenderjyskE (W)",
+      "dateLabel": "4 November",
+      "timeLabel": "18:30",
+      "leagueLabel": "Denmark. Women. Kvindeligaen",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Odense (W)",
+          "logoUrl": "teams/18/ods/35511.gif"
+        },
+        "away": {
+          "name": "SoenderjyskE (W)",
+          "logoUrl": "teams/18/ods/14043.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T17:30:00.000Z"
+    },
+    {
+      "id": 15,
       "matchId": "fda83d93c926",
       "title": "Stavanger (W) – Aker (W)",
       "dateLabel": "4 November",
       "timeLabel": "17:00",
       "leagueLabel": "Norway. Women. 1. Division",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -311,12 +359,12 @@
           "logoUrl": "teams/18/ods/7954.gif"
         }
       },
-      "score": "32:40",
-      "liveStatus": "live",
+      "score": "33:42",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 14,
+      "id": 16,
       "matchId": "f3430a8e9a11",
       "title": "Gloria Bistrita (W) – Stiinta Bucharest (W)",
       "dateLabel": "4 November",
@@ -340,7 +388,7 @@
       "startsAt": "2026-11-04T15:00:00.000Z"
     },
     {
-      "id": 15,
+      "id": 17,
       "matchId": "8bbb374efabc",
       "title": "Dunarea Braila (W) – Ramnicu Valcea (W)",
       "dateLabel": "4 November",
@@ -364,103 +412,7 @@
       "startsAt": "2026-11-04T15:30:00.000Z"
     },
     {
-      "id": 16,
-      "matchId": "abf1c6ceabe4",
-      "title": "Rob Cross – Gary Anderson",
-      "dateLabel": "4 November",
-      "timeLabel": "15:35",
-      "leagueLabel": "PDC",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Rob Cross",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Gary Anderson",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "3:6",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:35:00.000Z"
-    },
-    {
-      "id": 17,
-      "matchId": "88e215a0df2e",
-      "title": "Ricky Evans – Raymond van Barneveld",
-      "dateLabel": "4 November",
-      "timeLabel": "15:40",
-      "leagueLabel": "PDC",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Ricky Evans",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Raymond van Barneveld",
-          "logoUrl": "teams/18/ods/3532.gif"
-        }
-      },
-      "score": "3:6",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:40:00.000Z"
-    },
-    {
       "id": 18,
-      "matchId": "ff0bfee655c5",
-      "title": "Wessel Nijman – Michael Smith",
-      "dateLabel": "4 November",
-      "timeLabel": "15:40",
-      "leagueLabel": "PDC",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Wessel Nijman",
-          "logoUrl": "teams/18/ods/3642.gif"
-        },
-        "away": {
-          "name": "Michael Smith",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "6:2",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:40:00.000Z"
-    },
-    {
-      "id": 19,
-      "matchId": "45074351979e",
-      "title": "Danny Noppert – Max Hopp",
-      "dateLabel": "4 November",
-      "timeLabel": "15:40",
-      "leagueLabel": "PDC",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Danny Noppert",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Max Hopp",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "6:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:40:00.000Z"
-    },
-    {
-      "id": 20,
       "matchId": "f8a1bf8128fb",
       "title": "Ryan Searle – Callan Rydz",
       "dateLabel": "4 November",
@@ -484,7 +436,7 @@
       "startsAt": "2026-11-04T14:58:00.000Z"
     },
     {
-      "id": 21,
+      "id": 19,
       "matchId": "dc2220d81759",
       "title": "Stephen Bunting – Daryl Gurney",
       "dateLabel": "4 November",
@@ -508,7 +460,7 @@
       "startsAt": "2026-11-04T15:02:00.000Z"
     },
     {
-      "id": 22,
+      "id": 20,
       "matchId": "11292cff1344",
       "title": "Gary Anderson – Callan Rydz",
       "dateLabel": "4 November",
@@ -532,7 +484,7 @@
       "startsAt": "2026-11-04T15:33:00.000Z"
     },
     {
-      "id": 23,
+      "id": 21,
       "matchId": "5f2e3c66ead5",
       "title": "Luke Woodhouse – Niko Springer",
       "dateLabel": "4 November",
@@ -556,7 +508,7 @@
       "startsAt": "2026-11-04T15:35:00.000Z"
     },
     {
-      "id": 24,
+      "id": 22,
       "matchId": "84997a8b07cd",
       "title": "Steve Lennon – Luke Humphries",
       "dateLabel": "4 November",
@@ -580,7 +532,7 @@
       "startsAt": "2026-11-04T16:20:00.000Z"
     },
     {
-      "id": 25,
+      "id": 23,
       "matchId": "29bbf00352b4",
       "title": "Luke Woodhouse – Gerwyn Price",
       "dateLabel": "4 November",
@@ -604,7 +556,7 @@
       "startsAt": "2026-11-04T16:22:00.000Z"
     },
     {
-      "id": 26,
+      "id": 24,
       "matchId": "3aab73389768",
       "title": "Wessel Nijman – Gary Anderson",
       "dateLabel": "4 November",
@@ -628,7 +580,7 @@
       "startsAt": "2026-11-04T16:23:00.000Z"
     },
     {
-      "id": 27,
+      "id": 25,
       "matchId": "44564f3c3de5",
       "title": "Tommy Morris – Michael van Gerwen",
       "dateLabel": "4 November",
@@ -652,13 +604,13 @@
       "startsAt": "2026-11-04T16:25:00.000Z"
     },
     {
-      "id": 28,
+      "id": 26,
       "matchId": "4c2dc0e8bd04",
       "title": "Gary Anderson – Raymond van Barneveld",
       "dateLabel": "4 November",
       "timeLabel": "18:05",
       "leagueLabel": "PDC",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -671,18 +623,18 @@
           "logoUrl": "teams/18/ods/3532.gif"
         }
       },
-      "score": "3:2",
-      "liveStatus": "live",
+      "score": "6:3",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T17:05:00.000Z"
     },
     {
-      "id": 29,
+      "id": 27,
       "matchId": "2c3c1bcf6a41",
       "title": "Gerwyn Price – Luke Humphries",
       "dateLabel": "4 November",
       "timeLabel": "18:05",
       "leagueLabel": "PDC",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -695,18 +647,18 @@
           "logoUrl": "teams/18/ods/3652.gif"
         }
       },
-      "score": "1:3",
-      "liveStatus": "live",
+      "score": "2:6",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T17:05:00.000Z"
     },
     {
-      "id": 30,
+      "id": 28,
       "matchId": "017ccd31a782",
       "title": "Michael van Gerwen – Danny Noppert",
       "dateLabel": "4 November",
       "timeLabel": "18:10",
       "leagueLabel": "PDC",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -719,12 +671,12 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "5:0",
-      "liveStatus": "live",
+      "score": "6:0",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T17:10:00.000Z"
     },
     {
-      "id": 31,
+      "id": 29,
       "matchId": "ac663094e471",
       "title": "Michal Jezek – Tomas Postelt",
       "dateLabel": "4 November",
@@ -748,7 +700,7 @@
       "startsAt": "2026-11-04T15:00:00.000Z"
     },
     {
-      "id": 32,
+      "id": 30,
       "matchId": "dad40f0c30ba",
       "title": "Denis Hofman – Jiri Zuzanek",
       "dateLabel": "4 November",
@@ -772,7 +724,7 @@
       "startsAt": "2026-11-04T15:00:00.000Z"
     },
     {
-      "id": 33,
+      "id": 31,
       "matchId": "5993c3af4b98",
       "title": "Tomas Postelt – Jiri Nesnera",
       "dateLabel": "4 November",
@@ -796,13 +748,13 @@
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 34,
+      "id": 32,
       "matchId": "42e815e3e71b",
       "title": "Michal Jezek – Jiri Nesnera",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
       "leagueLabel": "Czech Republic. Liga Pro",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -816,83 +768,11 @@
         }
       },
       "score": "2:3",
-      "liveStatus": "live",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 35,
-      "matchId": "62265a4c0eed",
-      "title": "Eduard Populovsky – Anatoly Kovalenko",
-      "dateLabel": "4 November",
-      "timeLabel": "15:30",
-      "leagueLabel": "Setka Cup",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Eduard Populovsky",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Anatoly Kovalenko",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "3:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:30:00.000Z"
-    },
-    {
-      "id": 36,
-      "matchId": "42c0a4ba398a",
-      "title": "Vitaliy Zharskiy – Bogdan Chaikovskyi",
-      "dateLabel": "4 November",
-      "timeLabel": "15:35",
-      "leagueLabel": "Setka Cup",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Vitaliy Zharskiy",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Bogdan Chaikovskyi",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "3:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:35:00.000Z"
-    },
-    {
-      "id": 37,
-      "matchId": "0d1a6860853d",
-      "title": "Oleg Kuzishyn – Alexander Blashkun",
-      "dateLabel": "4 November",
-      "timeLabel": "15:40",
-      "leagueLabel": "Setka Cup",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Oleg Kuzishyn",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Alexander Blashkun",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "3:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:40:00.000Z"
-    },
-    {
-      "id": 38,
+      "id": 33,
       "matchId": "4517e1201f11",
       "title": "Alexander Melashenko – Dmitry Derevinsky",
       "dateLabel": "4 November",
@@ -916,7 +796,7 @@
       "startsAt": "2026-11-04T14:55:00.000Z"
     },
     {
-      "id": 39,
+      "id": 34,
       "matchId": "1e969c161d29",
       "title": "Oleksandr Tymofieiev – Sergey Solomko",
       "dateLabel": "4 November",
@@ -940,7 +820,7 @@
       "startsAt": "2026-11-04T15:00:00.000Z"
     },
     {
-      "id": 40,
+      "id": 35,
       "matchId": "11422d12c5a6",
       "title": "Yevhenii Holoborodko – Daniil Gabrelyan",
       "dateLabel": "4 November",
@@ -964,7 +844,7 @@
       "startsAt": "2026-11-04T15:10:00.000Z"
     },
     {
-      "id": 41,
+      "id": 36,
       "matchId": "fbdda51d7c72",
       "title": "Oleksandr Osadchiy – Bogdan Zaika",
       "dateLabel": "4 November",
@@ -988,7 +868,7 @@
       "startsAt": "2026-11-04T15:28:00.000Z"
     },
     {
-      "id": 42,
+      "id": 37,
       "matchId": "45a42ed45a14",
       "title": "Andrey Romanenko – Roman Konkulovskiy",
       "dateLabel": "4 November",
@@ -1012,7 +892,7 @@
       "startsAt": "2026-11-04T15:35:00.000Z"
     },
     {
-      "id": 43,
+      "id": 38,
       "matchId": "ed8d1bc9e7f6",
       "title": "Valery Merzlikin – Artem Zozulya",
       "dateLabel": "4 November",
@@ -1036,7 +916,7 @@
       "startsAt": "2026-11-04T15:40:00.000Z"
     },
     {
-      "id": 44,
+      "id": 39,
       "matchId": "c19273c6b762",
       "title": "Viktor Zyakun – Roman Boklah",
       "dateLabel": "4 November",
@@ -1060,7 +940,7 @@
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 45,
+      "id": 40,
       "matchId": "a29244dd271d",
       "title": "Eduard Populovsky – Oleksandr Tymofieiev",
       "dateLabel": "4 November",
@@ -1084,7 +964,7 @@
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 46,
+      "id": 41,
       "matchId": "ff91dd2a2c8d",
       "title": "Vitaliy Zharskiy – Igor Sukovatiy",
       "dateLabel": "4 November",
@@ -1108,7 +988,7 @@
       "startsAt": "2026-11-04T16:05:00.000Z"
     },
     {
-      "id": 47,
+      "id": 42,
       "matchId": "a04c99a0372e",
       "title": "Victor Leonov – Evgeny Belokon",
       "dateLabel": "4 November",
@@ -1132,7 +1012,7 @@
       "startsAt": "2026-11-04T16:05:00.000Z"
     },
     {
-      "id": 48,
+      "id": 43,
       "matchId": "2cccdb73769f",
       "title": "Oleg Kuzishyn – Yevhenii Holoborodko",
       "dateLabel": "4 November",
@@ -1156,7 +1036,7 @@
       "startsAt": "2026-11-04T16:10:00.000Z"
     },
     {
-      "id": 49,
+      "id": 44,
       "matchId": "833de9e3ebe3",
       "title": "Bogdan Zaika – Anatoly Kovalenko",
       "dateLabel": "4 November",
@@ -1180,7 +1060,7 @@
       "startsAt": "2026-11-04T16:30:00.000Z"
     },
     {
-      "id": 50,
+      "id": 45,
       "matchId": "c0095169387d",
       "title": "Valery Merzlikin – Alexander Blashkun",
       "dateLabel": "4 November",
@@ -1204,7 +1084,7 @@
       "startsAt": "2026-11-04T16:40:00.000Z"
     },
     {
-      "id": 51,
+      "id": 46,
       "matchId": "32fe47752d29",
       "title": "Roman Boklah – Serhii Priadko",
       "dateLabel": "4 November",
@@ -1228,7 +1108,7 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 52,
+      "id": 47,
       "matchId": "e8b55e50a212",
       "title": "Oleksandr Osadchiy – Sergey Solomko",
       "dateLabel": "4 November",
@@ -1252,13 +1132,13 @@
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 53,
+      "id": 48,
       "matchId": "7bea879b72f9",
       "title": "Daniil Gabrelyan – Artem Zozulya",
       "dateLabel": "4 November",
       "timeLabel": "18:10",
       "leagueLabel": "Setka Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -1271,12 +1151,36 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "1:0",
-      "liveStatus": "live",
+      "score": "3:2",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T17:10:00.000Z"
     },
     {
-      "id": 54,
+      "id": 49,
+      "matchId": "b7c7a1586ac2",
+      "title": "Eduard Populovsky – Bogdan Zaika",
+      "dateLabel": "4 November",
+      "timeLabel": "18:30",
+      "leagueLabel": "Setka Cup",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Eduard Populovsky",
+          "logoUrl": "teams/18/ods/0.gif"
+        },
+        "away": {
+          "name": "Bogdan Zaika",
+          "logoUrl": "teams/18/ods/0.gif"
+        }
+      },
+      "score": "0:1",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T17:30:00.000Z"
+    },
+    {
+      "id": 50,
       "matchId": "663253da5d70",
       "title": "Robert Jamrich – Milan Dvorak",
       "dateLabel": "4 November",
@@ -1300,7 +1204,7 @@
       "startsAt": "2026-11-04T15:20:00.000Z"
     },
     {
-      "id": 55,
+      "id": 51,
       "matchId": "7cd33e2043fc",
       "title": "Jan Hendrych – Zdenek Zahradka",
       "dateLabel": "4 November",
@@ -1324,7 +1228,7 @@
       "startsAt": "2026-11-04T15:50:00.000Z"
     },
     {
-      "id": 56,
+      "id": 52,
       "matchId": "c2b68e541ed1",
       "title": "Robert Jamrich – Zdenek Zahradka",
       "dateLabel": "4 November",
@@ -1348,7 +1252,7 @@
       "startsAt": "2026-11-04T16:20:00.000Z"
     },
     {
-      "id": 57,
+      "id": 53,
       "matchId": "465dc8f9a6a7",
       "title": "Milan Dvorak – Jan Hendrych",
       "dateLabel": "4 November",
@@ -1372,7 +1276,7 @@
       "startsAt": "2026-11-04T16:50:00.000Z"
     },
     {
-      "id": 58,
+      "id": 54,
       "matchId": "626c37e242ab",
       "title": "Robert Jamrich – Jan Hendrych",
       "dateLabel": "4 November",
@@ -1391,7 +1295,7 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:0",
+      "score": "2:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:20:00.000Z"
     }
