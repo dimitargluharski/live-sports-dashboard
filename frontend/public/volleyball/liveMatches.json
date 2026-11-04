@@ -1,7 +1,7 @@
 {
   "section": "Volleyball",
-  "scrapedAt": "2026-11-04T19:53:45.255Z",
-  "count": 35,
+  "scrapedAt": "2026-11-04T20:12:07.664Z",
+  "count": 26,
   "matches": [
     {
       "id": 1,
@@ -10,7 +10,7 @@
       "dateLabel": "4 November",
       "timeLabel": "18:55",
       "leagueLabel": "Women. Challenge Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -23,8 +23,8 @@
           "logoUrl": "teams/18/ods/17210.gif"
         }
       },
-      "score": "2:1",
-      "liveStatus": "live",
+      "score": "3:1",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T17:55:00.000Z"
     },
     {
@@ -95,7 +95,7 @@
           "logoUrl": "teams/18/ods/17482.gif"
         }
       },
-      "score": "0:1",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:55:00.000Z"
     },
@@ -119,7 +119,7 @@
           "logoUrl": "teams/18/ods/18333.gif"
         }
       },
-      "score": "1:0",
+      "score": "2:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
@@ -143,7 +143,7 @@
           "logoUrl": "teams/18/ods/20829.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:25:00.000Z"
     },
@@ -215,7 +215,7 @@
           "logoUrl": "teams/18/ods/33947.gif"
         }
       },
-      "score": "0:1",
+      "score": "0:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
@@ -239,36 +239,12 @@
           "logoUrl": "teams/18/ods/7837.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
       "id": 11,
-      "matchId": "ce852769c71f",
-      "title": "Vojvodina – Karadjordje",
-      "dateLabel": "4 November",
-      "timeLabel": "17:56",
-      "leagueLabel": "Serbia. Cup",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Vojvodina",
-          "logoUrl": "teams/18/ods/37081.gif"
-        },
-        "away": {
-          "name": "Karadjordje",
-          "logoUrl": "teams/18/ods/36360.gif"
-        }
-      },
-      "score": "3:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T16:56:00.000Z"
-    },
-    {
-      "id": 12,
       "matchId": "c78616a64c2d",
       "title": "Partizan – Radnicki",
       "dateLabel": "4 November",
@@ -287,12 +263,12 @@
           "logoUrl": "teams/18/ods/36364.gif"
         }
       },
-      "score": "0:1",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 13,
+      "id": 12,
       "matchId": "c7327629d80b",
       "title": "Mladost – Levski Sofia",
       "dateLabel": "4 November",
@@ -316,7 +292,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 14,
+      "id": 13,
       "matchId": "432bd59764f9",
       "title": "Orion – ACH Volley",
       "dateLabel": "4 November",
@@ -340,7 +316,7 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 15,
+      "id": 14,
       "matchId": "c2ff082c3c13",
       "title": "Trentino – Piacenza",
       "dateLabel": "4 November",
@@ -359,12 +335,12 @@
           "logoUrl": "teams/18/ods/31451.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:26:00.000Z"
     },
     {
-      "id": 16,
+      "id": 15,
       "matchId": "5ca8a4130726",
       "title": "Verona – Power Volley",
       "dateLabel": "4 November",
@@ -383,12 +359,12 @@
           "logoUrl": "teams/18/ods/11180.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:26:00.000Z"
     },
     {
-      "id": 17,
+      "id": 16,
       "matchId": "9402df552db8",
       "title": "Cuneo – Monza",
       "dateLabel": "4 November",
@@ -407,12 +383,12 @@
           "logoUrl": "teams/18/ods/9062.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 18,
+      "id": 17,
       "matchId": "8dfcabe08f98",
       "title": "Lube – Modena",
       "dateLabel": "4 November",
@@ -431,12 +407,12 @@
           "logoUrl": "teams/18/ods/68.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 19,
+      "id": 18,
       "matchId": "b35ab4b638c9",
       "title": "Perugia – Cisterna",
       "dateLabel": "4 November",
@@ -455,84 +431,12 @@
           "logoUrl": "teams/18/ods/31557.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 20,
-      "matchId": "23fe54496217",
-      "title": "Slavia Sofia – Neftohimik",
-      "dateLabel": "4 November",
-      "timeLabel": "18:00",
-      "leagueLabel": "Bulgaria. Super League",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Slavia Sofia",
-          "logoUrl": "teams/18/ods/12754.gif"
-        },
-        "away": {
-          "name": "Neftohimik",
-          "logoUrl": "teams/18/ods/32168.gif"
-        }
-      },
-      "score": "0:3",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T17:00:00.000Z"
-    },
-    {
-      "id": 21,
-      "matchId": "d6544e27d75c",
-      "title": "Sedziszow Malopolski – Czarni Radom",
-      "dateLabel": "4 November",
-      "timeLabel": "17:56",
-      "leagueLabel": "Poland. I Liga",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Sedziszow Malopolski",
-          "logoUrl": "teams/18/ods/38843.gif"
-        },
-        "away": {
-          "name": "Czarni Radom",
-          "logoUrl": "teams/18/ods/7894.gif"
-        }
-      },
-      "score": "3:2",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T16:56:00.000Z"
-    },
-    {
-      "id": 22,
-      "matchId": "56ff12b0597e",
-      "title": "Bielsko-Biala – Mickiewicz Kluczbork",
-      "dateLabel": "4 November",
-      "timeLabel": "18:00",
-      "leagueLabel": "Poland. I Liga",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Bielsko-Biala",
-          "logoUrl": "teams/18/ods/35756.gif"
-        },
-        "away": {
-          "name": "Mickiewicz Kluczbork",
-          "logoUrl": "teams/18/ods/13868.gif"
-        }
-      },
-      "score": "3:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T17:00:00.000Z"
-    },
-    {
-      "id": 23,
+      "id": 19,
       "matchId": "35860842a03c",
       "title": "Roeselare – Waremme",
       "dateLabel": "4 November",
@@ -556,7 +460,7 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 24,
+      "id": 20,
       "matchId": "6b8264c65000",
       "title": "Tectum Achel – Guibertin",
       "dateLabel": "4 November",
@@ -575,12 +479,12 @@
           "logoUrl": "teams/18/ods/2034.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 25,
+      "id": 21,
       "matchId": "a62bf84f2749",
       "title": "Gent – Maaseik",
       "dateLabel": "4 November",
@@ -599,12 +503,12 @@
           "logoUrl": "teams/18/ods/19069.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 26,
+      "id": 22,
       "matchId": "84cbf0ff7437",
       "title": "Haasrode Leuven – Menen",
       "dateLabel": "4 November",
@@ -623,108 +527,12 @@
           "logoUrl": "teams/18/ods/19070.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 27,
-      "matchId": "62e56efb2482",
-      "title": "Beskydy – Brno",
-      "dateLabel": "4 November",
-      "timeLabel": "18:00",
-      "leagueLabel": "Czech Republic. Cup",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Beskydy",
-          "logoUrl": "teams/18/ods/1785.gif"
-        },
-        "away": {
-          "name": "Brno",
-          "logoUrl": "teams/18/ods/296.gif"
-        }
-      },
-      "score": "3:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T17:00:00.000Z"
-    },
-    {
-      "id": 28,
-      "matchId": "3d448202dcc3",
-      "title": "Nowy Dwor (W) – BAS Bialystok (W)",
-      "dateLabel": "4 November",
-      "timeLabel": "17:56",
-      "leagueLabel": "Poland. Women. Cup",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Nowy Dwor (W)",
-          "logoUrl": "teams/18/ods/28459.gif"
-        },
-        "away": {
-          "name": "BAS Bialystok (W)",
-          "logoUrl": "teams/18/ods/28895.gif"
-        }
-      },
-      "score": "3:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T16:56:00.000Z"
-    },
-    {
-      "id": 29,
-      "matchId": "96b7288b0611",
-      "title": "Brasov – Arcada Galati",
-      "dateLabel": "4 November",
-      "timeLabel": "18:00",
-      "leagueLabel": "Romania. Divizia A1",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Brasov",
-          "logoUrl": "teams/18/ods/27715.gif"
-        },
-        "away": {
-          "name": "Arcada Galati",
-          "logoUrl": "teams/18/ods/16922.gif"
-        }
-      },
-      "score": "3:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T17:00:00.000Z"
-    },
-    {
-      "id": 30,
-      "matchId": "31099251ee29",
-      "title": "Steaua Bucharest – Unirea Dej",
-      "dateLabel": "4 November",
-      "timeLabel": "18:00",
-      "leagueLabel": "Romania. Divizia A1",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Steaua Bucharest",
-          "logoUrl": "teams/18/ods/11859.gif"
-        },
-        "away": {
-          "name": "Unirea Dej",
-          "logoUrl": "teams/18/ods/18040.gif"
-        }
-      },
-      "score": "3:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T17:00:00.000Z"
-    },
-    {
-      "id": 31,
+      "id": 23,
       "matchId": "96c7cdf3c67e",
       "title": "Hasthagen – Uppsala",
       "dateLabel": "4 November",
@@ -748,37 +556,13 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 32,
-      "matchId": "850c7e1e40f8",
-      "title": "Presov – Spartak Komarno",
-      "dateLabel": "4 November",
-      "timeLabel": "18:00",
-      "leagueLabel": "ATP Challenger. Nottingham 3. Qualification",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Presov",
-          "logoUrl": "teams/18/ods/13099.gif"
-        },
-        "away": {
-          "name": "Spartak Komarno",
-          "logoUrl": "teams/18/ods/10013.gif"
-        }
-      },
-      "score": "3:2",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T17:00:00.000Z"
-    },
-    {
-      "id": 33,
+      "id": 24,
       "matchId": "f21f2e022106",
       "title": "Daugavpils/Ezerzeme – Jekabpils",
       "dateLabel": "4 November",
       "timeLabel": "19:00",
       "leagueLabel": "Baltic League",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -791,12 +575,12 @@
           "logoUrl": "teams/18/ods/887.gif"
         }
       },
-      "score": "2:2",
-      "liveStatus": "live",
+      "score": "3:2",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 34,
+      "id": 25,
       "matchId": "e919691ce7f8",
       "title": "Engelholm (W) – Gislaved (W)",
       "dateLabel": "4 November",
@@ -820,7 +604,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 35,
+      "id": 26,
       "matchId": "5a1d10b4e1f3",
       "title": "Drammen – Ready",
       "dateLabel": "4 November",
