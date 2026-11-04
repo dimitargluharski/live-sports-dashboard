@@ -25,6 +25,7 @@ interface GameCardHeaderProps {
   awayLogoUrl?: string | null;
   flagUrl?: string | null;
   showWinChances?: boolean;
+  muteEnded?: boolean;
   winChances?: WinChances | null;
   onToggle: () => void;
 }
@@ -35,11 +36,12 @@ export function GameCardHeader({
   h2hCount = 0,
   hasForm = false,
   showWinChances = false,
+  muteEnded = true,
   winChances,
   ...shared
 }: GameCardHeaderProps) {
   if (variant === 'carousel') {
     return <CarouselCardHeader {...shared} leagueLabel={leagueLabel} winChances={winChances ?? { home: 50, away: 50 }} />;
   }
-  return <CompactGameRow {...shared} h2hCount={h2hCount} hasForm={hasForm} showWinChances={showWinChances} winChances={winChances} />;
+  return <CompactGameRow {...shared} h2hCount={h2hCount} hasForm={hasForm} showWinChances={showWinChances} muteEnded={muteEnded} winChances={winChances} />;
 }

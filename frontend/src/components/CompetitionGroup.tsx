@@ -25,9 +25,11 @@ export function CompetitionGroup({
   onToggle,
   forceList = false,
 }: CompetitionGroupProps) {
-  const isQualificationSection = isQualificationLeague(leagueLabel);
+  // Qualification groups and tournament stages are football concepts; other sports use plain league lists.
+  const isFootball = !games[0]?.sport || games[0].sport === 'soccer';
+  const isQualificationSection = isFootball && isQualificationLeague(leagueLabel);
   const tournamentStageSegments = groupGamesByTournamentLabel(games);
-  const hasTournamentStages = tournamentStageSegments.some((segment) => segment.label);
+  const hasTournamentStages = isFootball && tournamentStageSegments.some((segment) => segment.label);
 
   if (forceList || (!isQualificationSection && !hasTournamentStages)) {
     return <PlainLeagueSection leagueLabel={leagueLabel} games={games} isDarkTheme={isDarkTheme} showWinChances={forceList} />;

@@ -8,6 +8,8 @@ BACKEND_ENV_FILE="$BACKEND_DIR/.env"
 FRONTEND_JSON_REL="frontend/public/soccer/allSoccerGamesToday.json"
 FRONTEND_JSON_BASKETBALL_REL="frontend/public/basketball/allBasketballGamesToday.json"
 FRONTEND_JSON_MATCHES_REL="frontend/public/soccer/matches.json"
+# Git pathspec glob: the per-sport live-score feeds (hockey, tennis, ...) are published as well.
+FRONTEND_JSON_LIVE_REL="frontend/public/*/liveMatches.json"
 LOCK_DIR="$BACKEND_DIR/.cache/hydrate.lock"
 LOCK_PID_FILE="$LOCK_DIR/pid"
 
@@ -165,20 +167,20 @@ git_sync_json() {
 
   resolve_git_branch
 
-  git -C "$ROOT_DIR" add "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL"
+  git -C "$ROOT_DIR" add "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL" "$FRONTEND_JSON_LIVE_REL"
 
-  if git -C "$ROOT_DIR" diff --cached --quiet -- "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL"; then
-    echo "Git sync: no staged diff for $FRONTEND_JSON_MATCHES_REL or $FRONTEND_JSON_BASKETBALL_REL"
+  if git -C "$ROOT_DIR" diff --cached --quiet -- "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL" "$FRONTEND_JSON_LIVE_REL"; then
+    echo "Git sync: no staged diff for the published feed files"
     return 0
   fi
 
-  local commit_msg="chore(feed): refresh soccer & basketball feeds ($(date -u '+%Y-%m-%d %H:%M UTC'))"
-  git -C "$ROOT_DIR" commit -m "$commit_msg" -- "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL"
+  local commit_msg="chore(feed): refresh sports feeds ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+  git -C "$ROOT_DIR" commit -m "$commit_msg" -- "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL" "$FRONTEND_JSON_LIVE_REL"
   if ! git -C "$ROOT_DIR" push "$GIT_REMOTE" "$GIT_BRANCH"; then
     echo "ERROR: Git sync failed while pushing $GIT_BRANCH to $GIT_REMOTE."
     return 1
   fi
-  echo "Git sync complete: pushed $FRONTEND_JSON_MATCHES_REL and $FRONTEND_JSON_BASKETBALL_REL to $GIT_REMOTE/$GIT_BRANCH"
+  echo "Git sync complete: pushed the published feed files to $GIT_REMOTE/$GIT_BRANCH"
 }
 
 json_changed_meaningfully() {

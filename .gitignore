@@ -2,6 +2,8 @@
 # Only the two files the deployed frontend reads stay tracked, because `pnpm hydrate:git` publishes them:
 #   frontend/public/soccer/matches.json
 #   frontend/public/basketball/allBasketballGamesToday.json
+#   frontend/public/*/liveMatches.json
+backend/public/*/liveMatches.json
 backend/public/soccer/allSoccerGamesToday.json
 backend/public/soccer/liveScores.json
 backend/public/soccer/matches.json

@@ -36,6 +36,7 @@ export function GamesGrid({ games }: GamesGridProps) {
   });
   const firstDateKey = filteredGamesByDate[0]?.[0];
   const hasActiveFilters = filterLiveOnly || filterWithStreams || filterTodayOnly;
+  const isFootball = !games[0]?.sport || games[0].sport === 'soccer';
   const clearFilters = () => {
     setFilterLiveOnly(false);
     setFilterWithStreams(false);
@@ -55,7 +56,7 @@ export function GamesGrid({ games }: GamesGridProps) {
       : 'mx-auto min-h-screen w-full max-w-7xl bg-[#f2f1ed] px-4 pb-8 pt-4 text-slate-950 md:px-6'}
     >
       <TournamentStories
-        games={gamesForDisplay}
+        games={isFootball ? gamesForDisplay : []}
         isDarkTheme={isDarkTheme}
         leading={(
           <GameFilters
@@ -73,7 +74,7 @@ export function GamesGrid({ games }: GamesGridProps) {
         )}
       />
 
-      <FeaturedMatches games={filteredGamesByDate.flatMap(([, gamesForDate]) => gamesForDate)} isDarkTheme={isDarkTheme} />
+      {isFootball && <FeaturedMatches games={filteredGamesByDate.flatMap(([, gamesForDate]) => gamesForDate)} isDarkTheme={isDarkTheme} />}
 
       {filteredGamesByDate.length > 0 ? (
         <div>

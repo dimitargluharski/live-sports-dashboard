@@ -1,4 +1,5 @@
-export type Sport = 'soccer' | 'basketball';
+export type Sport = 'soccer' | 'basketball' | 'hockey' | 'tennis' | 'volleyball' | 'handball';
+export type Page = Sport | 'results';
 
 export interface TeamForm {
   matches?: Array<{
@@ -47,6 +48,7 @@ export interface WinChances {
 }
 
 export interface Game {
+  sport?: Sport;
   winChances?: WinChances | null;
   id: number;
   matchId?: string;
