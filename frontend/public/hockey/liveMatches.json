@@ -1,7 +1,7 @@
 {
   "section": "Ice Hockey",
-  "scrapedAt": "2026-11-04T16:44:27.396Z",
-  "count": 11,
+  "scrapedAt": "2026-11-04T17:03:00.653Z",
+  "count": 13,
   "matches": [
     {
       "id": 1,
@@ -77,126 +77,6 @@
     },
     {
       "id": 4,
-      "matchId": "b9891036cdd8",
-      "title": "Salavat Yulaev – Lada Tl",
-      "dateLabel": "4 November",
-      "timeLabel": "15:00",
-      "leagueLabel": "KHL",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Salavat Yulaev",
-          "logoUrl": "teams/18/ods/31394.gif"
-        },
-        "away": {
-          "name": "Lada Tl",
-          "logoUrl": "teams/18/ods/31397.gif"
-        }
-      },
-      "score": "5:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:00:00.000Z"
-    },
-    {
-      "id": 5,
-      "matchId": "585f186e28dc",
-      "title": "Spartak M – Lokomotiv",
-      "dateLabel": "4 November",
-      "timeLabel": "15:00",
-      "leagueLabel": "KHL",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Spartak M",
-          "logoUrl": "teams/18/ods/2.gif"
-        },
-        "away": {
-          "name": "Lokomotiv",
-          "logoUrl": "teams/18/ods/154.gif"
-        }
-      },
-      "score": "1:4",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:00:00.000Z"
-    },
-    {
-      "id": 6,
-      "matchId": "39940a08ecc9",
-      "title": "Buran Voronezh – Toros",
-      "dateLabel": "4 November",
-      "timeLabel": "15:00",
-      "leagueLabel": "Russia. VHL",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Buran Voronezh",
-          "logoUrl": "teams/18/ods/8123.gif"
-        },
-        "away": {
-          "name": "Toros",
-          "logoUrl": "teams/18/ods/30715.gif"
-        }
-      },
-      "score": "0:2",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:00:00.000Z"
-    },
-    {
-      "id": 7,
-      "matchId": "a05d5b86598b",
-      "title": "Kaluga – Bars",
-      "dateLabel": "4 November",
-      "timeLabel": "15:00",
-      "leagueLabel": "Russia. VHL",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Kaluga",
-          "logoUrl": "teams/18/ods/32469.gif"
-        },
-        "away": {
-          "name": "Bars",
-          "logoUrl": "teams/18/ods/30717.gif"
-        }
-      },
-      "score": "2:3",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:00:00.000Z"
-    },
-    {
-      "id": 8,
-      "matchId": "a05d5b86598b",
-      "title": "Kaluga – Bars",
-      "dateLabel": "4 November",
-      "timeLabel": "15:00",
-      "leagueLabel": "Russia. VHL",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Kaluga",
-          "logoUrl": "teams/18/ods/38344.gif"
-        },
-        "away": {
-          "name": "Bars",
-          "logoUrl": "teams/18/ods/30717.gif"
-        }
-      },
-      "score": "2:3",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:00:00.000Z"
-    },
-    {
-      "id": 9,
       "matchId": "6ca14fe0597b",
       "title": "Ottawa 67 – Kingston Frontenacs",
       "dateLabel": "4 November",
@@ -220,52 +100,220 @@
       "startsAt": "2026-11-04T15:30:00.000Z"
     },
     {
-      "id": 10,
-      "matchId": "bcee26c06dee",
-      "title": "EkoNiva Bobrov – Dizelist",
+      "id": 5,
+      "matchId": "ef2a5b0f2261",
+      "title": "Bobri Valasske Mezirici – Jestrabi Prostejov",
       "dateLabel": "4 November",
-      "timeLabel": "15:00",
-      "leagueLabel": "Russia. NMHL",
-      "isLive": false,
+      "timeLabel": "18:00",
+      "leagueLabel": "Czech Republic. 2. Liga",
+      "isLive": true,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "EkoNiva Bobrov",
-          "logoUrl": "teams/18/ods/19839.gif"
+          "name": "Bobri Valasske Mezirici",
+          "logoUrl": "teams/18/ods/19758.gif"
         },
         "away": {
-          "name": "Dizelist",
-          "logoUrl": "teams/18/ods/22735.gif"
+          "name": "Jestrabi Prostejov",
+          "logoUrl": "teams/18/ods/10233.gif"
         }
       },
-      "score": "2:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:00:00.000Z"
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "matchId": "0ba4985594d2",
+      "title": "Jestrabi Prostejov – Velke Mezirici",
+      "dateLabel": "4 November",
+      "timeLabel": "18:00",
+      "leagueLabel": "Czech Republic. 2. Liga",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Jestrabi Prostejov",
+          "logoUrl": "teams/18/ods/10233.gif"
+        },
+        "away": {
+          "name": "Velke Mezirici",
+          "logoUrl": "teams/18/ods/19770.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "matchId": "4aa764adf51b",
+      "title": "Slezan Opava – Novy Jicin",
+      "dateLabel": "4 November",
+      "timeLabel": "18:00",
+      "leagueLabel": "Czech Republic. 2. Liga",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Slezan Opava",
+          "logoUrl": "teams/18/ods/19761.gif"
+        },
+        "away": {
+          "name": "Novy Jicin",
+          "logoUrl": "teams/18/ods/19759.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "matchId": "8be0a14a2541",
+      "title": "Sumperk – Hodonin",
+      "dateLabel": "4 November",
+      "timeLabel": "18:00",
+      "leagueLabel": "Czech Republic. 2. Liga",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Sumperk",
+          "logoUrl": "teams/18/ods/10234.gif"
+        },
+        "away": {
+          "name": "Hodonin",
+          "logoUrl": "teams/18/ods/19771.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "matchId": "c7f2a718a705",
+      "title": "Poruba – Koprivnice",
+      "dateLabel": "4 November",
+      "timeLabel": "18:00",
+      "leagueLabel": "Czech Republic. 2. Liga",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Poruba",
+          "logoUrl": "teams/18/ods/35045.gif"
+        },
+        "away": {
+          "name": "Koprivnice",
+          "logoUrl": "teams/18/ods/37032.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "matchId": "599a3597f9cc",
+      "title": "Benatky nad Jizerou – Kralupy nad Vltavou",
+      "dateLabel": "4 November",
+      "timeLabel": "18:00",
+      "leagueLabel": "Czech Republic. 2. Liga",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Benatky nad Jizerou",
+          "logoUrl": "teams/18/ods/10243.gif"
+        },
+        "away": {
+          "name": "Kralupy nad Vltavou",
+          "logoUrl": "teams/18/ods/31091.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
       "id": 11,
-      "matchId": "6fb6fb4f6206",
-      "title": "Switzerland U-20 – Czech Republic U-20",
+      "matchId": "04a26039f0dc",
+      "title": "Havlickuv Brod – Vrchlabi",
       "dateLabel": "4 November",
-      "timeLabel": "15:00",
-      "leagueLabel": "Friendly Match U-20",
-      "isLive": false,
+      "timeLabel": "18:00",
+      "leagueLabel": "Czech Republic. 2. Liga",
+      "isLive": true,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "Switzerland U-20",
-          "logoUrl": "teams/18/ods/flag35.gif"
+          "name": "Havlickuv Brod",
+          "logoUrl": "teams/18/ods/19767.gif"
         },
         "away": {
-          "name": "Czech Republic U-20",
-          "logoUrl": "teams/18/ods/flag49.gif"
+          "name": "Vrchlabi",
+          "logoUrl": "teams/18/ods/10237.gif"
         }
       },
-      "score": "4:2",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T14:00:00.000Z"
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "matchId": "9391d1e09c60",
+      "title": "Kobra Prague – Usti nad Labem",
+      "dateLabel": "4 November",
+      "timeLabel": "18:00",
+      "leagueLabel": "Czech Republic. 2. Liga",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Kobra Prague",
+          "logoUrl": "teams/18/ods/19715.gif"
+        },
+        "away": {
+          "name": "Usti nad Labem",
+          "logoUrl": "teams/18/ods/8121.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "matchId": "cd9919a189bd",
+      "title": "Mostecti Lvi – Písek",
+      "dateLabel": "4 November",
+      "timeLabel": "18:00",
+      "leagueLabel": "Czech Republic. 2. Liga",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Mostecti Lvi",
+          "logoUrl": "teams/18/ods/19764.gif"
+        },
+        "away": {
+          "name": "Písek",
+          "logoUrl": "teams/18/ods/35200.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T17:00:00.000Z"
     }
   ]
 }
