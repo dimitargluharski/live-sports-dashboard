@@ -1,11 +1,9 @@
 import { useEffect, useState } from 'react';
 import { FEED_REFRESH_INTERVAL_MS } from '../constants/app';
 import { useTheme } from '../contexts/useTheme';
-import { useFeedStore } from '../stores/useFeedStore';
 
-export function RefreshTimer() {
+export function RefreshTimer({ lastUpdatedAt: lastRefreshAt }: { lastUpdatedAt: number | null }) {
   const { isDarkTheme } = useTheme();
-  const lastRefreshAt = useFeedStore((state) => state.lastRefreshAt);
   const [now, setNow] = useState(() => Date.now());
 
   useEffect(() => {

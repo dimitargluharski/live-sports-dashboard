@@ -143,7 +143,7 @@ export function TournamentStories({ games, isDarkTheme, leading }: TournamentSto
                   <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
                 </button>
               </div>
-              <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain pr-1">
+              <div className={`min-h-0 flex-1 overflow-y-auto overscroll-contain pr-1 [scrollbar-width:thin] ${isDarkTheme ? '[scrollbar-color:rgba(255,255,255,0.22)_transparent]' : '[scrollbar-color:rgba(0,0,0,0.25)_transparent]'}`}>
                 <CompetitionGroup
                   leagueLabel={openStory.leagueLabel}
                   games={openStory.games}

@@ -1,11 +1,7 @@
-import { parseScheduledStart } from './parseScheduledStart';
+export function formatLocalMatchTime(startAt?: number, fallbackTimeLabel?: string): string | undefined {
+  if (startAt === undefined) return fallbackTimeLabel || undefined;
 
-export function formatLocalMatchTime(dateLabel?: string, timeLabel?: string): string | undefined {
-  if (!dateLabel || !timeLabel) return timeLabel || undefined;
-
-  const sourceDate = parseScheduledStart(dateLabel, timeLabel);
-  if (!sourceDate) return timeLabel;
-
+  const sourceDate = new Date(startAt);
   const time = new Intl.DateTimeFormat(undefined, {
     hour: '2-digit',
     minute: '2-digit',
@@ -14,6 +10,11 @@ export function formatLocalMatchTime(dateLabel?: string, timeLabel?: string): st
 
   if (sourceDate.toDateString() === new Date().toDateString()) return time;
 
-  const date = new Intl.DateTimeFormat(undefined, { day: 'numeric', month: 'short' }).format(sourceDate);
-  return `${date}, ${time}`;
+  const now = new Date();
+  const tomorrow = new Date(now);
+  tomorrow.setDate(now.getDate() + 1);
+  const dayLabel = sourceDate.toDateString() === tomorrow.toDateString()
+    ? 'Tomorrow'
+    : new Intl.DateTimeFormat(undefined, { day: 'numeric', month: 'short' }).format(sourceDate);
+  return `${dayLabel}, ${time}`;
 }

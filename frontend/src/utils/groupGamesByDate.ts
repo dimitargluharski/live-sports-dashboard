@@ -1,5 +1,5 @@
 import type { Game } from '../types/game';
-import { getDateGroupKey } from './getDateGroupKey';
+import { getGameDateKey } from './getGameDateKey';
 
 export type DateGroup = [dateKey: string, games: Game[]];
 
@@ -7,7 +7,7 @@ export function groupGamesByDate(games: Game[]): DateGroup[] {
   const gamesByDate = new Map<string, Game[]>();
 
   for (const game of games) {
-    const dateKey = getDateGroupKey(game.dateLabel);
+    const dateKey = getGameDateKey(game);
     const dateGames = gamesByDate.get(dateKey);
 
     if (dateGames) {

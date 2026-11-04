@@ -132,12 +132,9 @@ export function GameDateGroup({
 
       {competitions.map((competition) => {
         const competitionKey = `${dateKey}:${competition.label}`;
-        const isChampionsLeague =
-          competition.label.trim().toLowerCase() === 'champions league';
         const isQualification = isQualificationLeague(competition.label);
         const isExpanded =
           isSearchActive
-          || isChampionsLeague
           || !isQualification
           || Boolean(expandedCompetitions[competitionKey]);
 

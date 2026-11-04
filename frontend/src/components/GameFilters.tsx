@@ -4,10 +4,13 @@ interface GameFiltersProps {
   isDarkTheme: boolean;
   filterLiveOnly: boolean;
   filterWithStreams: boolean;
+  filterTodayOnly: boolean;
   liveGamesCount: number;
   streamGamesCount: number;
+  todayGamesCount: number;
   onToggleLive: () => void;
   onToggleStreams: () => void;
+  onToggleToday: () => void;
 }
 
 interface FilterItemProps {
@@ -58,12 +61,26 @@ export const GameFilters: React.FC<GameFiltersProps> = ({
   isDarkTheme,
   filterLiveOnly,
   filterWithStreams,
+  filterTodayOnly,
   liveGamesCount,
   streamGamesCount,
+  todayGamesCount,
   onToggleLive,
   onToggleStreams,
+  onToggleToday,
 }) => (
   <>
+    <FilterItem
+      isActive={filterTodayOnly}
+      isDarkTheme={isDarkTheme}
+      activeClass={isDarkTheme ? 'border-sky-500 bg-sky-500/25 text-sky-400' : 'border-sky-500 bg-sky-500/15 text-sky-600'}
+      accentClass="text-sky-500"
+      badgeClass="bg-sky-500"
+      label="Today only"
+      count={todayGamesCount}
+      onClick={onToggleToday}
+      icon={<svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 10h18M8 3v4M16 3v4" /></svg>}
+    />
     <FilterItem
       isActive={filterLiveOnly}
       isDarkTheme={isDarkTheme}

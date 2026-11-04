@@ -165,20 +165,20 @@ git_sync_json() {
 
   resolve_git_branch
 
-  git -C "$ROOT_DIR" add "$FRONTEND_JSON_REL" "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL"
+  git -C "$ROOT_DIR" add "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL"
 
-  if git -C "$ROOT_DIR" diff --cached --quiet -- "$FRONTEND_JSON_REL" "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL"; then
-    echo "Git sync: no staged diff for $FRONTEND_JSON_REL or $FRONTEND_JSON_BASKETBALL_REL"
+  if git -C "$ROOT_DIR" diff --cached --quiet -- "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL"; then
+    echo "Git sync: no staged diff for $FRONTEND_JSON_MATCHES_REL or $FRONTEND_JSON_BASKETBALL_REL"
     return 0
   fi
 
   local commit_msg="chore(feed): refresh soccer & basketball feeds ($(date -u '+%Y-%m-%d %H:%M UTC'))"
-  git -C "$ROOT_DIR" commit -m "$commit_msg"
+  git -C "$ROOT_DIR" commit -m "$commit_msg" -- "$FRONTEND_JSON_BASKETBALL_REL" "$FRONTEND_JSON_MATCHES_REL"
   if ! git -C "$ROOT_DIR" push "$GIT_REMOTE" "$GIT_BRANCH"; then
     echo "ERROR: Git sync failed while pushing $GIT_BRANCH to $GIT_REMOTE."
     return 1
   fi
-  echo "Git sync complete: pushed $FRONTEND_JSON_REL and $FRONTEND_JSON_BASKETBALL_REL to $GIT_REMOTE/$GIT_BRANCH"
+  echo "Git sync complete: pushed $FRONTEND_JSON_MATCHES_REL and $FRONTEND_JSON_BASKETBALL_REL to $GIT_REMOTE/$GIT_BRANCH"
 }
 
 json_changed_meaningfully() {
@@ -292,6 +292,15 @@ run_once() {
     fi
   else
     echo "WARNING: Expected basketball JSON not found: $ENRICHED_JSON_BASKETBALL. Skipping basketball stream check."
+  fi
+
+  if [[ -f "$ENRICHED_JSON_BASKETBALL" ]]; then
+    if ! (
+      cd "$BACKEND_DIR"
+      node scripts/stamp-start-times.js public/basketball/allBasketballGamesToday.json
+    ); then
+      echo "WARNING: Could not stamp basketball start times this cycle."
+    fi
   fi
 
   printf "\n[4b/7] Scraping live scores and merging into matches.json...\n"
