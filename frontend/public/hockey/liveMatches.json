@@ -1,34 +1,10 @@
 {
   "section": "Ice Hockey",
-  "scrapedAt": "2026-11-04T19:16:31.258Z",
+  "scrapedAt": "2026-11-04T19:35:18.987Z",
   "count": 13,
   "matches": [
     {
       "id": 1,
-      "matchId": "2ce4361c8dd9",
-      "title": "Brest – Mogilev",
-      "dateLabel": "4 November",
-      "timeLabel": "18:10",
-      "leagueLabel": "Belarus. Extraleague",
-      "isLive": true,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Brest",
-          "logoUrl": "teams/18/ods/6564.gif"
-        },
-        "away": {
-          "name": "Mogilev",
-          "logoUrl": "teams/18/ods/6741.gif"
-        }
-      },
-      "score": "1:2",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T17:10:00.000Z"
-    },
-    {
-      "id": 2,
       "matchId": "6eb8aad2e79b",
       "title": "Surahammar – Sollentuna",
       "dateLabel": "4 November",
@@ -47,12 +23,12 @@
           "logoUrl": "teams/18/ods/8973.gif"
         }
       },
-      "score": "0:3",
+      "score": "0:5",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 3,
+      "id": 2,
       "matchId": "894e241ed4e9",
       "title": "Dalen – Troja/Ljungby",
       "dateLabel": "4 November",
@@ -74,6 +50,30 @@
       "score": "2:1",
       "liveStatus": "finished",
       "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "matchId": "2ce4361c8dd9",
+      "title": "Brest – Mogilev",
+      "dateLabel": "4 November",
+      "timeLabel": "18:10",
+      "leagueLabel": "Belarus. Extraleague",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Brest",
+          "logoUrl": "teams/18/ods/6564.gif"
+        },
+        "away": {
+          "name": "Mogilev",
+          "logoUrl": "teams/18/ods/6741.gif"
+        }
+      },
+      "score": "1:2",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T17:10:00.000Z"
     },
     {
       "id": 4,
