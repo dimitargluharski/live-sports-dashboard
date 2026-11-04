@@ -14,6 +14,11 @@ export function formatLocalMatchTime(dateLabel?: string, timeLabel?: string): st
 
   if (sourceDate.toDateString() === new Date().toDateString()) return time;
 
-  const date = new Intl.DateTimeFormat(undefined, { day: 'numeric', month: 'short' }).format(sourceDate);
-  return `${date}, ${time}`;
+  const now = new Date();
+  const tomorrow = new Date(now);
+  tomorrow.setDate(now.getDate() + 1);
+  const dayLabel = sourceDate.toDateString() === tomorrow.toDateString()
+    ? 'Tomorrow'
+    : new Intl.DateTimeFormat(undefined, { day: 'numeric', month: 'short' }).format(sourceDate);
+  return `${dayLabel}, ${time}`;
 }

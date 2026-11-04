@@ -98,7 +98,7 @@ export const GameCard = React.memo<GameCardProps>(({
   const isCompact = !isChampionsLeague && !isPreview;
   const compactClass = `group border-t border-l-4 px-3 py-2 transition-colors duration-150 first:border-t-0 ${
     isDarkTheme ? 'border-t-white/5 hover:bg-white/[0.06]' : 'border-t-black/5 hover:bg-black/[0.04]'
-  } ${isEnded ? (isDarkTheme ? 'border-l-slate-700' : 'border-l-stone-700') : isLive ? 'border-l-rose-500' : isDarkTheme ? 'border-l-slate-700' : 'border-l-stone-700'}`;
+  } ${isEnded ? (isDarkTheme ? 'border-l-slate-700 opacity-60 hover:opacity-100' : 'border-l-stone-700 opacity-60 hover:opacity-100') : isLive ? (isDarkTheme ? 'border-l-rose-500 bg-rose-500/[0.06]' : 'border-l-rose-500 bg-rose-500/[0.05]') : isDarkTheme ? 'border-l-slate-700' : 'border-l-stone-700'}`;
 
   return (
     <article className={isCompact ? compactClass : `group ${isChampionsLeague ? 'mx-auto w-full max-w-3xl' : ''} rounded-lg border px-2.5 py-2 shadow-sm transition-shadow duration-200 hover:shadow-md sm:px-3 ${
