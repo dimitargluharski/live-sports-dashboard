@@ -1,28 +1,9 @@
 {
-  "scrapedAt": "2026-11-04T16:06:29.924Z",
+  "scrapedAt": "2026-11-04T16:44:24.049Z",
   "count": 116,
   "items": [
     {
       "matchId": 1,
-      "matchTitle": "Barsy Atyrau – Almaty Legion",
-      "homeTeam": "Barsy Atyrau",
-      "awayTeam": "Almaty Legion",
-      "homeLogoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/29489.gif",
-      "awayLogoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/37433.gif",
-      "logosFound": true,
-      "lineups": {
-        "starting": {
-          "home": [],
-          "away": []
-        },
-        "substitutes": {
-          "home": [],
-          "away": []
-        }
-      }
-    },
-    {
-      "matchId": 2,
       "matchTitle": "Zrinjski Mostar – Anwil Wloclawek",
       "homeTeam": "Zrinjski Mostar",
       "awayTeam": "Anwil Wloclawek",
@@ -41,7 +22,7 @@
       }
     },
     {
-      "matchId": 3,
+      "matchId": 2,
       "matchTitle": "Esenler Erokspor – Sporting",
       "homeTeam": "Esenler Erokspor",
       "awayTeam": "Sporting",
@@ -60,7 +41,7 @@
       }
     },
     {
-      "matchId": 4,
+      "matchId": 3,
       "matchTitle": "Alytaus Dzukija (W) – Rokiskis (W)",
       "homeTeam": "Alytaus Dzukija (W)",
       "awayTeam": "Rokiskis (W)",
@@ -79,12 +60,31 @@
       }
     },
     {
-      "matchId": 5,
+      "matchId": 4,
       "matchTitle": "Beroe (W) – Partizan (W)",
       "homeTeam": "Beroe (W)",
       "awayTeam": "Partizan (W)",
       "homeLogoUrl": "https://cdn.livetv911.me/img/teams/fullsize/36245.gif",
       "awayLogoUrl": "https://cdn.livetv911.me/img/teams/fullsize/44475.gif",
+      "logosFound": true,
+      "lineups": {
+        "starting": {
+          "home": [],
+          "away": []
+        },
+        "substitutes": {
+          "home": [],
+          "away": []
+        }
+      }
+    },
+    {
+      "matchId": 5,
+      "matchTitle": "Batumi – Split",
+      "homeTeam": "Batumi",
+      "awayTeam": "Split",
+      "homeLogoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/20309.gif",
+      "awayLogoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/9164.gif",
       "logosFound": true,
       "lineups": {
         "starting": {
@@ -335,8 +335,32 @@
       "logosFound": true,
       "lineups": {
         "starting": {
-          "home": [],
-          "away": []
+          "home": [
+            "Akos Keller",
+            "Zoltan Perl",
+            "Andras Tanoh Dez",
+            "Benedek Varadi",
+            "Darrion Trammell",
+            "Juwan Gray",
+            "Kristof Bognar",
+            "Patrick Whelan",
+            "Peter Veraszto",
+            "Salamon Herger",
+            "Uros Rosic"
+          ],
+          "away": [
+            "Dimitrios Katsivelis",
+            "Dimitris Flionis",
+            "Frank Bartley IV",
+            "Georgios Tsalmpouris",
+            "Giannoulis",
+            "Greg Brown III",
+            "Landers Nolley II",
+            "Lukas Lekavicius",
+            "Nelly Joseph",
+            "Derrick Williams",
+            "Vasileios Chartonas"
+          ]
         },
         "substitutes": {
           "home": [],
@@ -354,8 +378,34 @@
       "logosFound": true,
       "lineups": {
         "starting": {
-          "home": [],
-          "away": []
+          "home": [
+            "Blazej Czapla",
+            "Zach Freemantle",
+            "Dawid Niedzialkowski",
+            "Devon Daniels",
+            "Gyorgy Goloman",
+            "Jakub Andrzejewski",
+            "Kristers Zoriks",
+            "Kuba Pisla",
+            "Markus Ilver",
+            "Mathieu Wojciechowski",
+            "Michal Kolenda",
+            "Wojciech Tomaszewski"
+          ],
+          "away": [
+            "Alen Smailagic",
+            "Berkan Durmaz",
+            "Bugrahan Tuncer",
+            "Can Korkmaz",
+            "Chimezie Metu",
+            "Dyshawn Pierre",
+            "Efe Mert Sekeroglu",
+            "Jerome Robinson",
+            "KJ Simpson",
+            "Oumar Ballo",
+            "Aleksej Nikolic",
+            "Sehmus Hazer"
+          ]
         },
         "substitutes": {
           "home": [],

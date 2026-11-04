@@ -9,9 +9,10 @@ interface PlainLeagueSectionProps {
   games: Game[];
   isDarkTheme: boolean;
   showWinChances: boolean;
+  muteEnded?: boolean;
 }
 
-export function PlainLeagueSection({ leagueLabel, games, isDarkTheme, showWinChances }: PlainLeagueSectionProps) {
+export function PlainLeagueSection({ leagueLabel, games, isDarkTheme, showWinChances, muteEnded = true }: PlainLeagueSectionProps) {
   const country = extractCountryFromLeague(leagueLabel);
   const showCountry = Boolean(country) && country?.trim().toLowerCase() !== leagueLabel.trim().toLowerCase();
   const flagUrl = getCountryFlagUrl(country);
@@ -28,7 +29,7 @@ export function PlainLeagueSection({ leagueLabel, games, isDarkTheme, showWinCha
         {isQualificationLeague(leagueLabel) && <span className={`rounded-full px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide ${isDarkTheme ? 'bg-white/10 text-slate-300' : 'bg-black/5 text-slate-600'}`}>Qualification</span>}
       </h3>
       <div>
-        {games.map((game) => <GameCard key={game.id} isDarkTheme={isDarkTheme} showWinChances={showWinChances} {...game} />)}
+        {games.map((game) => <GameCard key={game.id} isDarkTheme={isDarkTheme} showWinChances={showWinChances} muteEnded={muteEnded} {...game} />)}
       </div>
     </section>
   );

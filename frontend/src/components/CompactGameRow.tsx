@@ -21,6 +21,7 @@ interface CompactGameRowProps {
   awayLogoUrl?: string | null;
   flagUrl?: string | null;
   showWinChances: boolean;
+  muteEnded: boolean;
   winChances?: WinChances | null;
   onToggle: () => void;
 }
@@ -46,18 +47,22 @@ export function CompactGameRow({
   awayLogoUrl,
   flagUrl,
   showWinChances,
+  muteEnded,
   winChances,
   onToggle,
 }: CompactGameRowProps) {
   const muted = isDarkTheme ? 'text-slate-400' : 'text-slate-500';
-  const nameClass = isEnded ? muted : isDarkTheme ? 'text-white' : 'text-slate-950';
+  const isDimmed = isEnded && muteEnded;
+  // Results page (ended rows shown at full contrast) keeps only the expand chevron.
+  const showIndicators = !(isEnded && !muteEnded);
+  const nameClass = isDimmed ? muted : isDarkTheme ? 'text-white' : 'text-slate-950';
   const streamLabel = isEnded ? 'Stream over' : hasStreams ? `Watch streams (${streamCount})` : 'No stream';
   const emptyIconClass = isDarkTheme ? 'text-slate-600' : 'text-slate-300';
   const isUpcoming = !score && !isLive && !isEnded;
   const shownChances = showWinChances && isUpcoming ? winChances : null;
 
   const middle = score
-    ? <span className={`text-center font-black ${nameClass}`}>{score}</span>
+    ? <span className={`text-center text-base font-black tabular-nums ${nameClass}`}>{score}</span>
     : isLive || isEnded
       ? <span title="Score not available" className={`text-center text-[10px] font-bold uppercase tracking-wide ${muted}`}>N/A</span>
       : shownChances
@@ -90,17 +95,17 @@ export function CompactGameRow({
         ? 'grid grid-cols-[3rem_2.5rem_minmax(0,1fr)_1.75rem_5.5rem_1.75rem_minmax(0,1fr)] items-center gap-2 sm:grid-cols-[3.5rem_3rem_minmax(0,1fr)_1.75rem_6rem_1.75rem_minmax(0,1fr)_8rem]'
         : 'grid grid-cols-[3rem_2.5rem_minmax(0,1fr)_1.75rem_1.5rem_1.75rem_minmax(0,1fr)] items-center gap-2 sm:grid-cols-[3.5rem_3rem_minmax(0,1fr)_1.75rem_3.5rem_1.75rem_minmax(0,1fr)_8rem]'}
       >
-        <span className={`whitespace-nowrap text-[10px] tabular-nums sm:text-xs ${isLive || isEnded ? 'font-bold uppercase' : 'col-span-2'} ${isLive ? 'text-rose-500' : muted}`}>
+        <span className={`whitespace-nowrap text-[10px] tabular-nums sm:text-xs ${isLive || isEnded ? 'font-bold uppercase' : 'col-span-2'} ${isLive ? 'text-rose-500' : isEnded && !muteEnded ? (isDarkTheme ? 'text-emerald-400' : 'text-emerald-700') : muted}`}>
           {isLive ? 'Live' : isEnded ? 'FT' : timeLabel ? <MatchTime label={timeLabel} /> : '--:--'}
         </span>
         {(isLive || isEnded) && <span aria-hidden="true" />}
         <span className={`truncate text-right font-medium ${nameClass}`}>{homeTeam}</span>
-        <TeamVisual teamName={homeTeam} logoUrl={homeLogoUrl} flagUrl={flagUrl} isEnded={isEnded} isDarkTheme={isDarkTheme} size="small" />
+        <TeamVisual teamName={homeTeam} logoUrl={homeLogoUrl} flagUrl={flagUrl} isEnded={isDimmed} isDarkTheme={isDarkTheme} size="small" />
         {middle}
-        {awayTeam ? <TeamVisual teamName={awayTeam} logoUrl={awayLogoUrl} flagUrl={flagUrl} isEnded={isEnded} isDarkTheme={isDarkTheme} size="small" /> : <span />}
+        {awayTeam ? <TeamVisual teamName={awayTeam} logoUrl={awayLogoUrl} flagUrl={flagUrl} isEnded={isDimmed} isDarkTheme={isDarkTheme} size="small" /> : <span />}
         <span className={`truncate font-medium ${nameClass}`}>{awayTeam}</span>
         <span className={`col-span-full flex items-center justify-end gap-1.5 sm:col-span-1 ${muted}`}>
-          <span title={streamLabel} aria-label={streamLabel} className={`relative inline-flex h-5 w-5 items-center justify-center ${canWatchStreams ? 'text-emerald-500' : emptyIconClass}`}>
+          {showIndicators && <><span title={streamLabel} aria-label={streamLabel} className={`relative inline-flex h-5 w-5 items-center justify-center ${canWatchStreams ? 'text-emerald-500' : emptyIconClass}`}>
             <svg {...iconProps} className="h-5 w-5 shrink-0">
               {canWatchStreams ? (
                 <>
@@ -124,7 +129,7 @@ export function CompactGameRow({
           </span>
           <span title={hasForm ? 'Recent form' : 'No form data'} className={`inline-flex h-5 w-5 items-center justify-center ${hasForm ? 'text-amber-500' : emptyIconClass}`}>
             <svg {...iconProps}><path d="M3 17l6-6 4 4 8-8M15 7h6v6" /></svg>
-          </span>
+          </span></>}
           <span className="inline-flex h-4 w-4 shrink-0 items-center justify-center">
             {canExpand && (
               <svg className={`h-4 w-4 text-slate-400 transition-transform ${isExpanded ? 'rotate-180' : ''}`} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 011.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01-.02-1.06z" clipRule="evenodd" /></svg>
