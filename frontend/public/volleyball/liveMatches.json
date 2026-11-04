@@ -1,7 +1,7 @@
 {
   "section": "Volleyball",
-  "scrapedAt": "2026-11-04T20:12:07.664Z",
-  "count": 26,
+  "scrapedAt": "2026-11-04T20:30:25.823Z",
+  "count": 27,
   "matches": [
     {
       "id": 1,
@@ -95,7 +95,7 @@
           "logoUrl": "teams/18/ods/17482.gif"
         }
       },
-      "score": "1:1",
+      "score": "1:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:55:00.000Z"
     },
@@ -106,7 +106,7 @@
       "dateLabel": "4 November",
       "timeLabel": "20:00",
       "leagueLabel": "Women. Challenge Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -119,8 +119,8 @@
           "logoUrl": "teams/18/ods/18333.gif"
         }
       },
-      "score": "2:0",
-      "liveStatus": "live",
+      "score": "3:0",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
@@ -178,7 +178,7 @@
       "dateLabel": "4 November",
       "timeLabel": "19:00",
       "leagueLabel": "Germany. Bundesliga",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -191,8 +191,8 @@
           "logoUrl": "teams/18/ods/36120.gif"
         }
       },
-      "score": "1:2",
-      "liveStatus": "live",
+      "score": "1:3",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
@@ -311,7 +311,7 @@
           "logoUrl": "teams/18/ods/8946.gif"
         }
       },
-      "score": "0:1",
+      "score": "0:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
@@ -335,7 +335,7 @@
           "logoUrl": "teams/18/ods/31451.gif"
         }
       },
-      "score": "1:0",
+      "score": "2:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:26:00.000Z"
     },
@@ -442,7 +442,7 @@
       "dateLabel": "4 November",
       "timeLabel": "20:00",
       "leagueLabel": "Belgium. Euromillions League",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -455,8 +455,8 @@
           "logoUrl": "teams/18/ods/2025.gif"
         }
       },
-      "score": "2:0",
-      "liveStatus": "live",
+      "score": "3:0",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
@@ -479,7 +479,7 @@
           "logoUrl": "teams/18/ods/2034.gif"
         }
       },
-      "score": "0:1",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
@@ -581,6 +581,30 @@
     },
     {
       "id": 25,
+      "matchId": "f5dd66a82a27",
+      "title": "HK Kopavogur (W) – Throttur R (W)",
+      "dateLabel": "4 November",
+      "timeLabel": "21:15",
+      "leagueLabel": "Iceland. Women. Urvalsdeild",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "HK Kopavogur (W)",
+          "logoUrl": "teams/18/ods/32500.gif"
+        },
+        "away": {
+          "name": "Throttur R (W)",
+          "logoUrl": "teams/18/ods/31851.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T20:15:00.000Z"
+    },
+    {
+      "id": 26,
       "matchId": "e919691ce7f8",
       "title": "Engelholm (W) – Gislaved (W)",
       "dateLabel": "4 November",
@@ -604,7 +628,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 26,
+      "id": 27,
       "matchId": "5a1d10b4e1f3",
       "title": "Drammen – Ready",
       "dateLabel": "4 November",
@@ -623,7 +647,7 @@
           "logoUrl": "teams/18/ods/24529.gif"
         }
       },
-      "score": "0:1",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:30:00.000Z"
     }

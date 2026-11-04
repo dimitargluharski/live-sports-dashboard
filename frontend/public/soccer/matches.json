@@ -1,673 +1,22 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-11-04T20:10:38.441Z",
-  "count": 138,
+  "scrapedAt": "2026-11-04T20:29:04.294Z",
+  "count": 135,
   "matches": [
     {
       "id": 1,
-      "title": "Brazil U17 (W) – Nigeria U17 (W)",
-      "dateLabel": "4 November",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "Women. U-17 World Cup",
-      "iconUrl": "https://cdn.livetv911.me/img/icons/friend.gif",
-      "iconAlt": "Women. U-17 World Cup",
-      "sectionLabel": "4 November",
-      "isTopMatch": false,
-      "rawDescription": "4 November at 19:00\n(Women. U-17 World Cup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Brazil U17 (W)",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Nigeria U17 (W)",
-          "logoUrl": null,
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": null,
-      "matchId": "422709a4169d",
-      "startsAt": "2026-11-04T18:00:00.000Z"
-    },
-    {
-      "id": 2,
-      "title": "Flora – Tartu JK Welco Elekter",
-      "dateLabel": "4 November",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "Estonia. Cup",
-      "iconUrl": "https://cdn.livetv911.me/img/icons/ee.gif",
-      "iconAlt": "Estonia. Cup",
-      "sectionLabel": "4 November",
-      "isTopMatch": false,
-      "rawDescription": "4 November at 19:00\n(Estonia. Cup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Flora",
-          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/33166.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Tartu JK Welco Elekter",
-          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/22492.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/284/113605/1_8975d/",
-        "matches": [
-          {
-            "date": "17/07",
-            "competition": "Estonia. Cup. Second Round",
-            "homeTeam": "Tartu JK Welco Elekter",
-            "awayTeam": "Flora",
-            "score": "0:8",
-            "result": "W",
-            "winner": "away"
-          },
-          {
-            "date": "29/09",
-            "competition": "Estonia. Cup. 1/16 final",
-            "homeTeam": "Tartu JK Welco Elekter",
-            "awayTeam": "Flora",
-            "score": "0:2",
-            "result": "W",
-            "winner": "away"
-          }
-        ],
-        "homeTeam": "Flora",
-        "awayTeam": "Tartu JK Welco Elekter",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "26/09",
-                "competition": "Meistriliiga",
-                "opponent": "Tulevik",
-                "score": "2:2",
-                "result": "D"
-              },
-              {
-                "date": "22/09",
-                "competition": "Meistriliiga",
-                "opponent": "Narva Trans",
-                "score": "5:2",
-                "result": "W"
-              },
-              {
-                "date": "19/09",
-                "competition": "Meistriliiga",
-                "opponent": "Kalju",
-                "score": "2:0",
-                "result": "W"
-              },
-              {
-                "date": "16/09",
-                "competition": "Europa Conference League",
-                "opponent": "Gent",
-                "score": "0:1",
-                "result": "L"
-              },
-              {
-                "date": "12/09",
-                "competition": "Meistriliiga",
-                "opponent": "Vaprus",
-                "score": "6:0",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 3,
-              "D": 1,
-              "L": 1
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "26/09",
-                "competition": "Meistriliiga",
-                "opponent": "Tulevik",
-                "score": "2:2",
-                "result": "D"
-              },
-              {
-                "date": "22/09",
-                "competition": "Meistriliiga",
-                "opponent": "Flora",
-                "score": "2:5",
-                "result": "L"
-              },
-              {
-                "date": "19/09",
-                "competition": "Meistriliiga",
-                "opponent": "Flora",
-                "score": "0:2",
-                "result": "L"
-              },
-              {
-                "date": "16/09",
-                "competition": "Europa Conference League",
-                "opponent": "Flora",
-                "score": "1:0",
-                "result": "W"
-              },
-              {
-                "date": "12/09",
-                "competition": "Meistriliiga",
-                "opponent": "Vaprus",
-                "score": "6:0",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 1,
-              "L": 2
-            }
-          }
-        }
-      },
-      "matchId": "826f58a95902",
-      "startsAt": "2026-11-04T18:00:00.000Z"
-    },
-    {
-      "id": 3,
-      "title": "Aldosivi II – Barracas Central II",
-      "dateLabel": "4 November",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "Argentina. Reserve League",
-      "iconUrl": "https://cdn.livetv911.me/img/icons/ar.gif",
-      "iconAlt": "Argentina. Reserve League",
-      "sectionLabel": "4 November",
-      "isTopMatch": false,
-      "rawDescription": "4 November at 19:00\n(Argentina. Reserve League)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Aldosivi II",
-          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/19181.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Barracas Central II",
-          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/18231.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700039678/700036656/1_1f688/",
-        "matches": [
-          {
-            "date": "04/11",
-            "competition": "Argentina. Reserve League",
-            "homeTeam": "Aldosivi II",
-            "awayTeam": "Barracas Central II",
-            "score": "0:1",
-            "result": "L",
-            "winner": "away"
-          },
-          {
-            "date": "04/06",
-            "competition": "Argentina. Reserve League",
-            "homeTeam": "Barracas Central II",
-            "awayTeam": "Aldosivi II",
-            "score": "0:2",
-            "result": "W",
-            "winner": "away"
-          },
-          {
-            "date": "07/08",
-            "competition": "Argentina. Reserve League",
-            "homeTeam": "Barracas Central II",
-            "awayTeam": "Aldosivi II",
-            "score": "1:0",
-            "result": "L",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Aldosivi II",
-        "awayTeam": "Barracas Central II",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "27/10",
-                "competition": "Reserve League",
-                "opponent": "Talleres de Cordoba II",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "20/10",
-                "competition": "Reserve League",
-                "opponent": "Banfield II",
-                "score": "2:1",
-                "result": "W"
-              },
-              {
-                "date": "14/10",
-                "competition": "Reserve League",
-                "opponent": "Rosario Central II",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "07/10",
-                "competition": "Reserve League",
-                "opponent": "Tigre II",
-                "score": "1:0",
-                "result": "W"
-              },
-              {
-                "date": "23/09",
-                "competition": "Reserve League",
-                "opponent": "Quilmes II",
-                "score": "0:1",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 2,
-              "L": 1
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "27/10",
-                "competition": "Reserve League",
-                "opponent": "Talleres de Cordoba II",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "20/10",
-                "competition": "Reserve League",
-                "opponent": "Aldosivi II",
-                "score": "1:2",
-                "result": "L"
-              },
-              {
-                "date": "14/10",
-                "competition": "Reserve League",
-                "opponent": "Rosario Central II",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "07/10",
-                "competition": "Reserve League",
-                "opponent": "Aldosivi II",
-                "score": "0:1",
-                "result": "L"
-              },
-              {
-                "date": "23/09",
-                "competition": "Reserve League",
-                "opponent": "Aldosivi II",
-                "score": "1:0",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 2,
-              "L": 2
-            }
-          }
-        }
-      },
-      "matchId": "fecf602e2ff7",
-      "score": "0:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T18:00:00.000Z"
-    },
-    {
-      "id": 4,
-      "title": "Al Masry – Petrojet",
-      "dateLabel": "4 November",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "Egypt. League Cup",
-      "iconUrl": "https://cdn.livetv911.me/img/icons/eg.gif",
-      "iconAlt": "Egypt. League Cup",
-      "sectionLabel": "4 November",
-      "isTopMatch": false,
-      "rawDescription": "4 November at 19:00\n(Egypt. League Cup)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Al Masry",
-          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/1602.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Petrojet",
-          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/1554.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700013316/700015045/1_c0f4c/",
-        "matches": [
-          {
-            "date": "04/11",
-            "competition": "Egypt. League Cup",
-            "homeTeam": "Al Masry",
-            "awayTeam": "Petrojet",
-            "score": "0:0",
-            "result": "D",
-            "winner": "draw"
-          },
-          {
-            "date": "04/11",
-            "competition": "Egypt. League Cup",
-            "homeTeam": "Al Masry",
-            "awayTeam": "Petrojet",
-            "score": "0:0",
-            "result": "D",
-            "winner": "draw"
-          },
-          {
-            "date": "07/09",
-            "competition": "Egypt. Premier League",
-            "homeTeam": "Petrojet",
-            "awayTeam": "Al Masry",
-            "score": "2:1",
-            "result": "L",
-            "winner": "home"
-          }
-        ],
-        "homeTeam": "Al Masry",
-        "awayTeam": "Petrojet",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "04/11",
-                "competition": "League Cup",
-                "opponent": "Petrojet",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "28/10",
-                "competition": "Premier League",
-                "opponent": "National Bank",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "19/10",
-                "competition": "Premier League",
-                "opponent": "Abu Qir Fertilizers",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "11/10",
-                "competition": "Premier League",
-                "opponent": "El Qanah",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "07/10",
-                "competition": "League Cup",
-                "opponent": "Cleopatra",
-                "score": "1:0",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 4,
-              "L": 0
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "04/11",
-                "competition": "League Cup",
-                "opponent": "Al Masry",
-                "score": "0:0",
-                "result": "D"
-              },
-              {
-                "date": "28/10",
-                "competition": "Premier League",
-                "opponent": "National Bank",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "19/10",
-                "competition": "Premier League",
-                "opponent": "Al Masry",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "11/10",
-                "competition": "Premier League",
-                "opponent": "El Qanah",
-                "score": "1:1",
-                "result": "D"
-              },
-              {
-                "date": "07/10",
-                "competition": "League Cup",
-                "opponent": "Cleopatra",
-                "score": "1:0",
-                "result": "W"
-              }
-            ],
-            "summary": {
-              "W": 1,
-              "D": 4,
-              "L": 0
-            }
-          }
-        }
-      },
-      "matchId": "27c19012720b",
-      "score": "0:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T18:00:00.000Z"
-    },
-    {
-      "id": 5,
-      "title": "Atletico-MG U-20 – Santa Cruz U-20",
-      "dateLabel": "4 November",
-      "timeLabel": "19:00",
-      "isLive": false,
-      "leagueLabel": "Brazil. Cup U20",
-      "iconUrl": "https://cdn.livetv911.me/img/icons/br.gif",
-      "iconAlt": "Brazil. Cup U20",
-      "sectionLabel": "4 November",
-      "isTopMatch": false,
-      "rawDescription": "4 November at 19:00\n(Brazil. Cup U20)",
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Atletico-MG U-20",
-          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/9079.gif",
-          "startingLineup": [],
-          "substitutes": []
-        },
-        "away": {
-          "name": "Santa Cruz U-20",
-          "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/17562.gif",
-          "startingLineup": [],
-          "substitutes": []
-        }
-      },
-      "headToHead": {
-        "compareUrl": "https://livetv.sx/enx/h2h/700014957/700014857/1_6a202/",
-        "matches": [
-          {
-            "date": "04/11",
-            "competition": "Brazil. Cup U20",
-            "homeTeam": "Atletico-MG U-20",
-            "awayTeam": "Santa Cruz U-20",
-            "score": "3:1",
-            "result": "W",
-            "winner": "home"
-          },
-          {
-            "date": "30/10",
-            "competition": "Brazil. Cup U20",
-            "homeTeam": "Santa Cruz U-20",
-            "awayTeam": "Atletico-MG U-20",
-            "score": "0:0",
-            "result": "D",
-            "winner": "draw"
-          }
-        ],
-        "homeTeam": "Atletico-MG U-20",
-        "awayTeam": "Santa Cruz U-20",
-        "form": {
-          "home": {
-            "matches": [
-              {
-                "date": "22/10",
-                "competition": "Cup U20",
-                "opponent": "Amazonas U-20",
-                "score": "2:0",
-                "result": "W"
-              },
-              {
-                "date": "15/10",
-                "competition": "Cup U20",
-                "opponent": "Amazonas U-20",
-                "score": "4:1",
-                "result": "W"
-              },
-              {
-                "date": "02/10",
-                "competition": "Campeonato Mineiro U20",
-                "opponent": "Coimbra U-20",
-                "score": "3:1",
-                "result": "W"
-              },
-              {
-                "date": "26/09",
-                "competition": "Campeonato Mineiro U20",
-                "opponent": "Coimbra U-20",
-                "score": "5:1",
-                "result": "W"
-              },
-              {
-                "date": "13/09",
-                "competition": "Campeonato Mineiro U20",
-                "opponent": "America Mineiro U-20",
-                "score": "1:4",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 4,
-              "D": 0,
-              "L": 1
-            }
-          },
-          "away": {
-            "matches": [
-              {
-                "date": "22/10",
-                "competition": "Cup U20",
-                "opponent": "Atletico-MG U-20",
-                "score": "0:2",
-                "result": "L"
-              },
-              {
-                "date": "15/10",
-                "competition": "Cup U20",
-                "opponent": "Amazonas U-20",
-                "score": "4:1",
-                "result": "W"
-              },
-              {
-                "date": "02/10",
-                "competition": "Campeonato Mineiro U20",
-                "opponent": "Coimbra U-20",
-                "score": "3:1",
-                "result": "W"
-              },
-              {
-                "date": "26/09",
-                "competition": "Campeonato Mineiro U20",
-                "opponent": "Atletico-MG U-20",
-                "score": "1:5",
-                "result": "L"
-              },
-              {
-                "date": "13/09",
-                "competition": "Campeonato Mineiro U20",
-                "opponent": "America Mineiro U-20",
-                "score": "1:4",
-                "result": "L"
-              }
-            ],
-            "summary": {
-              "W": 2,
-              "D": 0,
-              "L": 3
-            }
-          }
-        }
-      },
-      "matchId": "7c5d9aaec5ed",
-      "score": "3:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T18:00:00.000Z"
-    },
-    {
-      "id": 6,
       "title": "Al-Muharraq – Al-Jazeera Amman",
       "dateLabel": "4 November",
       "timeLabel": "19:15",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "AFC Champions League 2",
       "iconUrl": "https://cdn.livetv911.me/img/icons/afc.gif",
       "iconAlt": "AFC Champions League 2",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 19:15\n(AFC Champions League 2)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.tvp9.online/p2p/?id=271280",
-          "language": "Croatian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.050Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Al-Muharraq",
@@ -685,6 +34,15 @@
       "headToHead": {
         "compareUrl": "https://livetv.sx/enx/h2h/700014360/700021598/1_70234/",
         "matches": [
+          {
+            "date": "04/11",
+            "competition": "AFC Champions League 2",
+            "homeTeam": "Al-Muharraq",
+            "awayTeam": "Al-Jazeera Amman",
+            "score": "0:3",
+            "result": "L",
+            "winner": "away"
+          },
           {
             "date": "28/10",
             "competition": "AFC Champions League 2",
@@ -790,34 +148,23 @@
       },
       "matchId": "890f15863ef9",
       "score": "0:3",
-      "liveStatus": "live",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T18:15:00.000Z"
     },
     {
-      "id": 7,
+      "id": 2,
       "title": "Al-Taawoun – Al-Faisaly Amman",
       "dateLabel": "4 November",
       "timeLabel": "19:15",
-      "isLive": true,
+      "isLive": false,
       "leagueLabel": "AFC Champions League 2",
       "iconUrl": "https://cdn.livetv911.me/img/icons/afc.gif",
       "iconAlt": "AFC Champions League 2",
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 19:15\n(AFC Champions League 2)",
-      "streams": [
-        {
-          "id": 1,
-          "label": "Stream 2",
-          "url": "https://emb.tvp9.online/p2p/?id=271211",
-          "language": "Bulgarian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.062Z",
-          "healthHttpStatus": 200
-        }
-      ],
-      "streamCount": 1,
+      "streams": [],
+      "streamCount": 0,
       "teams": {
         "home": {
           "name": "Al-Taawoun",
@@ -953,7 +300,7 @@
       "startsAt": "2026-11-04T18:15:00.000Z"
     },
     {
-      "id": 8,
+      "id": 3,
       "title": "Ireland – Malta",
       "dateLabel": "4 November",
       "timeLabel": "20:15",
@@ -972,7 +319,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.063Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.053Z",
           "healthHttpStatus": 200
         }
       ],
@@ -996,7 +343,7 @@
       "startsAt": "2026-11-04T19:15:00.000Z"
     },
     {
-      "id": 9,
+      "id": 4,
       "title": "Wrexham – Middlesbrough",
       "dateLabel": "4 November",
       "timeLabel": "20:45",
@@ -1015,7 +362,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.064Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.063Z",
           "healthHttpStatus": 200
         },
         {
@@ -1025,7 +372,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.064Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.064Z",
           "healthHttpStatus": 200
         },
         {
@@ -1035,7 +382,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.065Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.064Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1228,7 +575,7 @@
       "startsAt": "2026-11-04T19:45:00.000Z"
     },
     {
-      "id": 10,
+      "id": 5,
       "title": "Cardiff City – West Ham United",
       "dateLabel": "4 November",
       "timeLabel": "20:45",
@@ -1247,7 +594,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.065Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.065Z",
           "healthHttpStatus": 200
         },
         {
@@ -1257,7 +604,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.066Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.066Z",
           "healthHttpStatus": 200
         },
         {
@@ -1267,7 +614,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.354Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.066Z",
           "healthHttpStatus": 200
         },
         {
@@ -1277,7 +624,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.363Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.066Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1342,12 +689,12 @@
       },
       "headToHead": null,
       "matchId": "9bc61c309113",
-      "score": "1:0",
+      "score": "3:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:45:00.000Z"
     },
     {
-      "id": 11,
+      "id": 6,
       "title": "Oxford Utd – Reading",
       "dateLabel": "4 November",
       "timeLabel": "20:45",
@@ -1366,7 +713,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.365Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.280Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1544,7 +891,7 @@
       "startsAt": "2026-11-04T19:45:00.000Z"
     },
     {
-      "id": 12,
+      "id": 7,
       "title": "Dortmund – Real Betis",
       "dateLabel": "4 November",
       "timeLabel": "21:00",
@@ -1563,7 +910,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.434Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.318Z",
           "healthHttpStatus": 200
         },
         {
@@ -1573,7 +920,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.457Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.372Z",
           "healthHttpStatus": 200
         },
         {
@@ -1583,7 +930,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.487Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.373Z",
           "healthHttpStatus": 200
         },
         {
@@ -1593,221 +940,321 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.539Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.399Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
           "label": "Stream 7",
-          "url": "https://emb.tvp9.online/p2p/?id=271284",
-          "language": "Greek",
+          "url": "https://emb.tvp9.online/p2p/?id=268761",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.569Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.405Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 9",
-          "url": "https://emb.tvp9.online/p2p/?id=265374",
-          "language": "German",
+          "url": "https://emb.tvp9.online/p2p/?id=268895",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.586Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.406Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
           "label": "Stream 11",
-          "url": "https://emb.tvp9.online/p2p/?id=268642",
-          "language": "Croatian",
+          "url": "https://emb.tvp9.online/p2p/?id=270129",
+          "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.596Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.472Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
           "label": "Stream 13",
-          "url": "https://emb.tvp9.online/p2p/?id=269351",
-          "language": "French",
+          "url": "https://emb.tvp9.online/p2p/?id=270144",
+          "language": "Swedish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.632Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.516Z",
           "healthHttpStatus": 200
         },
         {
           "id": 9,
           "label": "Stream 15",
-          "url": "https://emb.tvp9.online/p2p/?id=270724",
-          "language": "Spanish",
+          "url": "https://emb.tvp9.online/p2p/?id=270664",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.698Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.555Z",
           "healthHttpStatus": 200
         },
         {
           "id": 10,
           "label": "Stream 17",
-          "url": "https://emb.tvp9.online/p2p/?id=271143",
-          "language": "Arabic",
+          "url": "https://emb.tvp9.online/p2p/?id=270967",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.717Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.589Z",
           "healthHttpStatus": 200
         },
         {
           "id": 11,
           "label": "Stream 19",
-          "url": "https://emb.tvp9.online/p2p/?id=271164",
-          "language": "Czech",
+          "url": "https://emb.tvp9.online/p2p/?id=271117",
+          "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.738Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.589Z",
           "healthHttpStatus": 200
         },
         {
           "id": 12,
           "label": "Stream 21",
-          "url": "https://emb.tvp9.online/p2p/?id=271232",
-          "language": "German",
+          "url": "https://emb.tvp9.online/p2p/?id=271135",
+          "language": "Azerbaijani",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.824Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.663Z",
           "healthHttpStatus": 200
         },
         {
           "id": 13,
           "label": "Stream 23",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=228985&w=700&h=480",
+          "url": "https://emb.tvp9.online/p2p/?id=265374",
           "language": "German",
-          "bitrate": "2000kbps",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.851Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.682Z",
           "healthHttpStatus": 200
         },
         {
           "id": 14,
           "label": "Stream 25",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=237230&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "2500kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=268642",
+          "language": "Croatian",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.859Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.697Z",
           "healthHttpStatus": 200
         },
         {
           "id": 15,
           "label": "Stream 27",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=242328&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "2000kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=269351",
+          "language": "French",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.870Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.744Z",
           "healthHttpStatus": 200
         },
         {
           "id": 16,
           "label": "Stream 29",
-          "url": "https://livesports247.click/sx/ligadecom2es.php",
+          "url": "https://emb.tvp9.online/p2p/?id=270724",
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.901Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.765Z",
           "healthHttpStatus": 200
         },
         {
           "id": 17,
-          "label": "Stream 30",
-          "url": "https://livesports247.click/sx/skyaustria2de.php",
-          "language": "German",
+          "label": "Stream 31",
+          "url": "https://emb.tvp9.online/p2p/?id=271143",
+          "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.916Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.775Z",
           "healthHttpStatus": 200
         },
         {
           "id": 18,
-          "label": "Stream 31",
-          "url": "https://playfa.st/ch.php?id=29",
-          "language": "Spanish",
+          "label": "Stream 33",
+          "url": "https://emb.tvp9.online/p2p/?id=271164",
+          "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:39.983Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.808Z",
           "healthHttpStatus": 200
         },
         {
           "id": 19,
-          "label": "Stream 32",
-          "url": "https://playfa.st/ch.php?id=40",
-          "language": "Spanish",
+          "label": "Stream 35",
+          "url": "https://emb.tvp9.online/p2p/?id=271232",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.015Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.850Z",
           "healthHttpStatus": 200
         },
         {
           "id": 20,
-          "label": "Stream 33",
-          "url": "https://streamec.st/embed/ch10.php",
-          "language": "Spanish",
+          "label": "Stream 37",
+          "url": "https://emb.tvp9.online/p2p/?id=271284",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.042Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.865Z",
           "healthHttpStatus": 200
         },
         {
           "id": 21,
-          "label": "Stream 34",
-          "url": "https://streamhd247.click/frame26.html",
-          "language": "Portuguese",
+          "label": "Stream 39",
+          "url": "https://emb.tvp9.online/p2p/?id=271301",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.094Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.880Z",
           "healthHttpStatus": 200
         },
         {
           "id": 22,
-          "label": "Stream 35",
-          "url": "https://playfa.st/ch.php?id=17",
-          "language": "German",
+          "label": "Stream 41",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=267003&w=700&h=480",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.096Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.923Z",
           "healthHttpStatus": 200
         },
         {
           "id": 23,
-          "label": "Stream 37",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=fc5089d8e1519872fdf951779ccbca913acc9bce&lang=en&eid=399041285&lid=2855589&ci=7&si=1",
-          "language": "English",
-          "bitrate": "8000kbps",
+          "label": "Stream 43",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=228985&w=700&h=480",
+          "language": "German",
+          "bitrate": "2000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.163Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.939Z",
           "healthHttpStatus": 200
         },
         {
           "id": 24,
-          "label": "Stream 39",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=897e73c9d578848f596585314ecb9ae067c0e229&lang=en&eid=399041285&lid=3006241&ci=7&si=1",
-          "language": "English",
-          "bitrate": null,
+          "label": "Stream 45",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=237230&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2500kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.265Z",
+          "healthCheckedAt": "2026-11-04T20:29:05.964Z",
           "healthHttpStatus": 200
         },
         {
           "id": 25,
-          "label": "Stream 41",
+          "label": "Stream 47",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=242328&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:05.986Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 26,
+          "label": "Stream 49",
+          "url": "https://livesports247.click/sx/ligadecom2es.php",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:06.037Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 27,
+          "label": "Stream 50",
+          "url": "https://livesports247.click/sx/skyaustria2de.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:06.059Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 28,
+          "label": "Stream 51",
+          "url": "https://playfa.st/ch.php?id=29",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:06.059Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 29,
+          "label": "Stream 52",
+          "url": "https://playfa.st/ch.php?id=40",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:06.135Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 30,
+          "label": "Stream 53",
+          "url": "https://streamec.st/embed/ch10.php",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:06.186Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 31,
+          "label": "Stream 54",
+          "url": "https://streamhd247.click/frame26.html",
+          "language": "Portuguese",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:06.258Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 32,
+          "label": "Stream 55",
+          "url": "https://playfa.st/ch.php?id=17",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:06.267Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 33,
+          "label": "Stream 57",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=fc5089d8e1519872fdf951779ccbca913acc9bce&lang=en&eid=399041285&lid=2855589&ci=7&si=1",
+          "language": "English",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:06.279Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 34,
+          "label": "Stream 59",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=897e73c9d578848f596585314ecb9ae067c0e229&lang=en&eid=399041285&lid=3006241&ci=7&si=1",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:06.324Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 35,
+          "label": "Stream 61",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=dae7d1251f069516cc0a9c8f15f6639d2a17df1e&lang=en&eid=399041285&lid=2856516&ci=7&si=1",
           "language": "Portuguese",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.290Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.396Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 25,
+      "streamCount": 35,
       "teams": {
         "home": {
           "name": "Dortmund",
@@ -1878,7 +1325,7 @@
       "startsAt": "2026-11-04T20:00:00.000Z"
     },
     {
-      "id": 13,
+      "id": 8,
       "title": "PSV – Brugge",
       "dateLabel": "4 November",
       "timeLabel": "21:00",
@@ -1897,27 +1344,27 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.363Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.417Z",
           "healthHttpStatus": 200
         },
         {
           "id": 2,
           "label": "Stream 4",
-          "url": "https://playfa.st/ch.php?id=7",
+          "url": "https://livesports247.click/sx/bt7en.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.385Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.451Z",
           "healthHttpStatus": 200
         },
         {
           "id": 3,
           "label": "Stream 5",
-          "url": "https://streamhd247.click/frame24.html",
+          "url": "https://playfa.st/ch.php?id=7",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.417Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.488Z",
           "healthHttpStatus": 200
         },
         {
@@ -1927,7 +1374,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.434Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.493Z",
           "healthHttpStatus": 200
         },
         {
@@ -1937,7 +1384,7 @@
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.466Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.526Z",
           "healthHttpStatus": 200
         },
         {
@@ -1947,101 +1394,131 @@
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.516Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.577Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
           "label": "Stream 12",
-          "url": "https://emb.tvp9.online/p2p/?id=271216",
-          "language": "Serbian",
+          "url": "https://emb.tvp9.online/p2p/?id=271137",
+          "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.596Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.598Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
           "label": "Stream 14",
-          "url": "https://emb.tvp9.online/p2p/?id=271239",
-          "language": "German",
+          "url": "https://emb.tvp9.online/p2p/?id=271216",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.628Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.659Z",
           "healthHttpStatus": 200
         },
         {
           "id": 9,
           "label": "Stream 16",
-          "url": "https://liveon1.li/sonic/index.php?a=4",
-          "language": "Spanish",
+          "url": "https://emb.tvp9.online/p2p/?id=271239",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.699Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.729Z",
           "healthHttpStatus": 200
         },
         {
           "id": 10,
-          "label": "Stream 17",
-          "url": "https://livesports247.click/sx/bt7en.php",
-          "language": "Spanish",
+          "label": "Stream 18",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=269179&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.752Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.759Z",
           "healthHttpStatus": 200
         },
         {
           "id": 11,
-          "label": "Stream 18",
-          "url": "https://livesports247.click/sx/skyaustria6de.php",
-          "language": "German",
+          "label": "Stream 20",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=187702&w=700&h=480",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.777Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.794Z",
           "healthHttpStatus": 200
         },
         {
           "id": 12,
-          "label": "Stream 19",
-          "url": "https://livesports247.click/sx/ziggosport1nl.php",
-          "language": "Dutch",
+          "label": "Stream 22",
+          "url": "https://liveon1.li/sonic/index.php?a=4",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:40.977Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.795Z",
           "healthHttpStatus": 200
         },
         {
           "id": 13,
-          "label": "Stream 20",
-          "url": "https://playfa.st/ch.php?id=88",
-          "language": "Dutch",
+          "label": "Stream 23",
+          "url": "https://livesports247.click/sx/skyaustria6de.php",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.051Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.834Z",
           "healthHttpStatus": 200
         },
         {
           "id": 14,
-          "label": "Stream 22",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=0f32c0131a2d9444996410801f4e18b04384db98&lang=en&eid=399041286&lid=3095952&ci=7&si=1",
+          "label": "Stream 24",
+          "url": "https://livesports247.click/sx/ziggosport1nl.php",
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.092Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.887Z",
           "healthHttpStatus": 200
         },
         {
           "id": 15,
-          "label": "Stream 24",
+          "label": "Stream 25",
+          "url": "https://playfa.st/ch.php?id=88",
+          "language": "Dutch",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:06.907Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 16,
+          "label": "Stream 26",
+          "url": "https://streamhd247.click/frame24.html",
+          "language": "Portuguese",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:06.907Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 17,
+          "label": "Stream 28",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=0f32c0131a2d9444996410801f4e18b04384db98&lang=en&eid=399041286&lid=3095952&ci=7&si=1",
+          "language": "Dutch",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:06.943Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 18,
+          "label": "Stream 30",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=fcd7621df513f600652b4813d5d8fd1daed60058&lang=en&eid=399041286&lid=2960425&ci=7&si=1",
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.151Z",
+          "healthCheckedAt": "2026-11-04T20:29:06.946Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 15,
+      "streamCount": 18,
       "teams": {
         "home": {
           "name": "PSV",
@@ -2212,12 +1689,12 @@
         }
       },
       "matchId": "53710516c782",
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T20:00:00.000Z"
     },
     {
-      "id": 14,
+      "id": 9,
       "title": "Municipal Liberia – Alajuelense",
       "dateLabel": "4 November",
       "timeLabel": "21:00",
@@ -2372,7 +1849,7 @@
       "startsAt": "2026-11-04T20:00:00.000Z"
     },
     {
-      "id": 15,
+      "id": 10,
       "title": "Simulcast",
       "dateLabel": "4 November",
       "timeLabel": "21:00",
@@ -2391,7 +1868,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.194Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.039Z",
           "healthHttpStatus": 200
         },
         {
@@ -2401,7 +1878,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.214Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.040Z",
           "healthHttpStatus": 200
         },
         {
@@ -2411,7 +1888,7 @@
           "language": "Russian",
           "bitrate": "3500kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.257Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.078Z",
           "healthHttpStatus": 200
         },
         {
@@ -2421,7 +1898,7 @@
           "language": "Russian",
           "bitrate": "2000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.280Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.127Z",
           "healthHttpStatus": 200
         },
         {
@@ -2431,7 +1908,7 @@
           "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.343Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.222Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2455,7 +1932,7 @@
       "startsAt": "2026-11-04T20:00:00.000Z"
     },
     {
-      "id": 16,
+      "id": 11,
       "title": "Bristol City – Wolverhampton",
       "dateLabel": "4 November",
       "timeLabel": "21:00",
@@ -2474,7 +1951,7 @@
           "language": "English",
           "bitrate": "3500kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.364Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.231Z",
           "healthHttpStatus": 200
         },
         {
@@ -2484,111 +1961,121 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.417Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.316Z",
           "healthHttpStatus": 200
         },
         {
           "id": 3,
           "label": "Stream 6",
-          "url": "https://playfa.st/ch.php?id=33",
+          "url": "https://emb.tvp9.online/p2p/?id=271198",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.446Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.371Z",
           "healthHttpStatus": 200
         },
         {
           "id": 4,
-          "label": "Stream 7",
-          "url": "https://streamhd247.click/frame30.html",
+          "label": "Stream 8",
+          "url": "https://liveon1.li/sonic/index.php?a=962",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.481Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.415Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
-          "label": "Stream 8",
-          "url": "https://emb.tvp9.online/p2p/?id=270507",
-          "language": "Portuguese",
+          "label": "Stream 9",
+          "url": "https://playfa.st/ch.php?id=33",
+          "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.483Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.475Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 10",
-          "url": "https://emb.tvp9.online/p2p/?id=271207",
-          "language": "Bulgarian",
+          "url": "https://streamec.st/embed/ch17.php",
+          "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.515Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.496Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
-          "label": "Stream 12",
-          "url": "https://emb.tvp9.online/p2p/?id=271223",
-          "language": "Serbian",
+          "label": "Stream 11",
+          "url": "https://streamhd247.click/frame30.html",
+          "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.526Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.503Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
-          "label": "Stream 14",
-          "url": "https://liveon1.li/sonic/index.php?a=71",
-          "language": null,
+          "label": "Stream 12",
+          "url": "https://emb.tvp9.online/p2p/?id=270507",
+          "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.564Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.526Z",
           "healthHttpStatus": 200
         },
         {
           "id": 9,
-          "label": "Stream 15",
-          "url": "https://liveon1.li/sonic/index.php?a=962",
-          "language": null,
+          "label": "Stream 14",
+          "url": "https://emb.tvp9.online/p2p/?id=271207",
+          "language": "Bulgarian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.635Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.541Z",
           "healthHttpStatus": 200
         },
         {
           "id": 10,
           "label": "Stream 16",
-          "url": "https://streamec.st/embed/ch17.php",
-          "language": null,
+          "url": "https://emb.tvp9.online/p2p/?id=271223",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.636Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.570Z",
           "healthHttpStatus": 200
         },
         {
           "id": 11,
           "label": "Stream 18",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=8dbe2d515e9131fa311353537736f8c94be9b26d&lang=en&eid=576067917&lid=2848030&ci=57&si=1",
-          "language": "English",
-          "bitrate": "8000kbps",
+          "url": "https://liveon1.li/sonic/index.php?a=71",
+          "language": "Portuguese",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.648Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.570Z",
           "healthHttpStatus": 200
         },
         {
           "id": 12,
           "label": "Stream 20",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=8dbe2d515e9131fa311353537736f8c94be9b26d&lang=en&eid=576067917&lid=2848030&ci=57&si=1",
+          "language": "English",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:07.604Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 13,
+          "label": "Stream 22",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=eab7aeef0218ce8b0752e596e4792b69eda4df5e&lang=en&eid=576067917&lid=2819143&ci=57&si=1",
           "language": "English",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.677Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.651Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 12,
+      "streamCount": 13,
       "teams": {
         "home": {
           "name": "Bristol City",
@@ -2759,7 +2246,7 @@
       "startsAt": "2026-11-04T20:00:00.000Z"
     },
     {
-      "id": 17,
+      "id": 12,
       "title": "ASFAR – Raja CA",
       "dateLabel": "4 November",
       "timeLabel": "21:00",
@@ -2775,10 +2262,10 @@
           "id": 1,
           "label": "Stream 2",
           "url": "https://www.youtube.com/embed/slbw4aJT01k?autoplay=1",
-          "language": null,
+          "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.697Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.699Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2927,7 +2414,7 @@
       "startsAt": "2026-11-04T20:00:00.000Z"
     },
     {
-      "id": 18,
+      "id": 13,
       "title": "Slavia Prague – Arsenal",
       "dateLabel": "4 November",
       "timeLabel": "21:00",
@@ -2946,7 +2433,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.718Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.713Z",
           "healthHttpStatus": 200
         },
         {
@@ -2956,7 +2443,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.749Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.723Z",
           "healthHttpStatus": 200
         },
         {
@@ -2966,7 +2453,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.777Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.745Z",
           "healthHttpStatus": 200
         },
         {
@@ -2976,201 +2463,291 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.788Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.756Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
           "label": "Stream 6",
-          "url": "https://emb.tvp9.online/p2p/?id=269777",
-          "language": "Danish",
+          "url": "https://emb.tvp9.online/p2p/?id=268688",
+          "language": "Swedish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.828Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.757Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 8",
-          "url": "https://emb.tvp9.online/p2p/?id=270121",
-          "language": "German",
+          "url": "https://emb.tvp9.online/p2p/?id=269620",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.830Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.810Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
           "label": "Stream 10",
-          "url": "https://emb.tvp9.online/p2p/?id=270317",
-          "language": "Greek",
+          "url": "https://emb.tvp9.online/p2p/?id=270253",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.842Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.810Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
           "label": "Stream 12",
-          "url": "https://emb.tvp9.online/p2p/?id=270331",
-          "language": "French",
+          "url": "https://emb.tvp9.online/p2p/?id=270621",
+          "language": "Georgian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.928Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.862Z",
           "healthHttpStatus": 200
         },
         {
           "id": 9,
           "label": "Stream 14",
-          "url": "https://emb.tvp9.online/p2p/?id=270757",
-          "language": "Hebrew",
+          "url": "https://emb.tvp9.online/p2p/?id=270634",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.946Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.909Z",
           "healthHttpStatus": 200
         },
         {
           "id": 10,
           "label": "Stream 16",
-          "url": "https://emb.tvp9.online/p2p/?id=271165",
-          "language": "Czech",
+          "url": "https://emb.tvp9.online/p2p/?id=271204",
+          "language": "Norvegian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:41.975Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.944Z",
           "healthHttpStatus": 200
         },
         {
           "id": 11,
           "label": "Stream 18",
-          "url": "https://emb.tvp9.online/p2p/?id=271170",
-          "language": "Romanian",
+          "url": "https://emb.tvp9.online/p2p/?id=271303",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.045Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.987Z",
           "healthHttpStatus": 200
         },
         {
           "id": 12,
           "label": "Stream 20",
-          "url": "https://emb.tvp9.online/p2p/?id=271214",
-          "language": "Serbian",
+          "url": "https://emb.tvp9.online/p2p/?id=271317",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.046Z",
+          "healthCheckedAt": "2026-11-04T20:29:07.991Z",
           "healthHttpStatus": 200
         },
         {
           "id": 13,
           "label": "Stream 22",
-          "url": "https://emb.tvp9.online/p2p/?id=271227",
-          "language": "Danish",
+          "url": "https://emb.tvp9.online/p2p/?id=269505",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.046Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.039Z",
           "healthHttpStatus": 200
         },
         {
           "id": 14,
           "label": "Stream 24",
-          "url": "https://emb.tvp9.online/p2p/?id=271229",
-          "language": "French",
+          "url": "https://emb.tvp9.online/p2p/?id=269777",
+          "language": "Danish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.086Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.091Z",
           "healthHttpStatus": 200
         },
         {
           "id": 15,
           "label": "Stream 26",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=232749&w=700&h=480",
-          "language": "Ukrainian",
-          "bitrate": "2000kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=270121",
+          "language": "German",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.103Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.111Z",
           "healthHttpStatus": 200
         },
         {
           "id": 16,
           "label": "Stream 28",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=237242&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "2000kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=270317",
+          "language": "Greek",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.167Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.174Z",
           "healthHttpStatus": 200
         },
         {
           "id": 17,
           "label": "Stream 30",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=242325&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "2000kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=270331",
+          "language": "French",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.205Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.186Z",
           "healthHttpStatus": 200
         },
         {
           "id": 18,
           "label": "Stream 32",
-          "url": "https://livesports247.click/sx/skyaustria4de.php",
-          "language": "German",
+          "url": "https://emb.tvp9.online/p2p/?id=270757",
+          "language": "Hebrew",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.205Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.248Z",
           "healthHttpStatus": 200
         },
         {
           "id": 19,
-          "label": "Stream 33",
-          "url": "https://playfa.st/ch.php?id=43",
+          "label": "Stream 34",
+          "url": "https://emb.tvp9.online/p2p/?id=271165",
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.205Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.269Z",
           "healthHttpStatus": 200
         },
         {
           "id": 20,
-          "label": "Stream 34",
-          "url": "https://playfa.st/ch.php?id=52",
-          "language": "French",
+          "label": "Stream 36",
+          "url": "https://emb.tvp9.online/p2p/?id=271170",
+          "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.242Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.285Z",
           "healthHttpStatus": 200
         },
         {
           "id": 21,
-          "label": "Stream 36",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&lang=en&eid=399041167&lid=2987940&ci=7&si=1",
-          "language": "English",
+          "label": "Stream 38",
+          "url": "https://emb.tvp9.online/p2p/?id=271214",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.248Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.353Z",
           "healthHttpStatus": 200
         },
         {
           "id": 22,
-          "label": "Stream 38",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d08013df6e437a1fdf1e0c34f573fdf6a40c7fce&lang=en&eid=399041167&lid=2856171&ci=7&si=1",
-          "language": "Portuguese",
-          "bitrate": "8000kbps",
+          "label": "Stream 40",
+          "url": "https://emb.tvp9.online/p2p/?id=271227",
+          "language": "Danish",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.275Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.373Z",
           "healthHttpStatus": 200
         },
         {
           "id": 23,
-          "label": "Stream 40",
+          "label": "Stream 42",
+          "url": "https://emb.tvp9.online/p2p/?id=271229",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:08.427Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 24,
+          "label": "Stream 44",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=232749&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": "2000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:08.447Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 25,
+          "label": "Stream 46",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=237242&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:08.478Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 26,
+          "label": "Stream 48",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=242325&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:08.530Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 27,
+          "label": "Stream 50",
+          "url": "https://livesports247.click/sx/skyaustria4de.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:08.542Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 28,
+          "label": "Stream 51",
+          "url": "https://playfa.st/ch.php?id=43",
+          "language": "Czech",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:08.604Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 29,
+          "label": "Stream 52",
+          "url": "https://playfa.st/ch.php?id=52",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:08.605Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 30,
+          "label": "Stream 54",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b&lang=en&eid=399041167&lid=2987940&ci=7&si=1",
+          "language": "English",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:08.652Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 31,
+          "label": "Stream 56",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d08013df6e437a1fdf1e0c34f573fdf6a40c7fce&lang=en&eid=399041167&lid=2856171&ci=7&si=1",
+          "language": "Portuguese",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:08.672Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 32,
+          "label": "Stream 58",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=9231f38e71a85ad24b4c11a5e360992e30c916ed&lang=en&eid=399041167&lid=2993473&ci=7&si=1",
           "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.354Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.722Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 23,
+      "streamCount": 32,
       "teams": {
         "home": {
           "name": "Slavia Prague",
@@ -3347,7 +2924,7 @@
       "startsAt": "2026-11-04T20:00:00.000Z"
     },
     {
-      "id": 19,
+      "id": 14,
       "title": "Viking – Sabah",
       "dateLabel": "4 November",
       "timeLabel": "21:00",
@@ -3366,7 +2943,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.365Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.751Z",
           "healthHttpStatus": 200
         },
         {
@@ -3376,7 +2953,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.398Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.772Z",
           "healthHttpStatus": 200
         },
         {
@@ -3386,7 +2963,7 @@
           "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.446Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.787Z",
           "healthHttpStatus": 200
         },
         {
@@ -3396,91 +2973,111 @@
           "language": "Ukrainian",
           "bitrate": "3500kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.455Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.840Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
           "label": "Stream 8",
-          "url": "https://emb.tvp9.online/p2p/?id=270156",
-          "language": "Azerbaijani",
+          "url": "https://emb.tvp9.online/p2p/?id=270965",
+          "language": "Georgian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.595Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.848Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 10",
-          "url": "https://emb.tvp9.online/p2p/?id=271218",
-          "language": "Serbian",
+          "url": "https://emb.tvp9.online/p2p/?id=270156",
+          "language": "Azerbaijani",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.605Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.947Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
           "label": "Stream 12",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=258018&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "4000kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=271218",
+          "language": "Serbian",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.754Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.970Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
           "label": "Stream 14",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=258019&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "4000kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=271320",
+          "language": "French",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.786Z",
+          "healthCheckedAt": "2026-11-04T20:29:08.971Z",
           "healthHttpStatus": 200
         },
         {
           "id": 9,
           "label": "Stream 16",
-          "url": "https://livesports247.click/sx/bt8en.php",
-          "language": "Spanish",
-          "bitrate": null,
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=258018&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "4000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:42.792Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.004Z",
           "healthHttpStatus": 200
         },
         {
           "id": 10,
-          "label": "Stream 17",
-          "url": "https://livesports247.click/sx/skyaustria7de.php",
-          "language": "German",
-          "bitrate": null,
+          "label": "Stream 18",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=258019&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "4000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:43.207Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.033Z",
           "healthHttpStatus": 200
         },
         {
           "id": 11,
-          "label": "Stream 18",
-          "url": "https://playfa.st/ch.php?id=27",
+          "label": "Stream 20",
+          "url": "https://livesports247.click/sx/bt8en.php",
           "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:43.258Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.034Z",
           "healthHttpStatus": 200
         },
         {
           "id": 12,
-          "label": "Stream 19",
+          "label": "Stream 21",
+          "url": "https://livesports247.click/sx/skyaustria7de.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:09.044Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 13,
+          "label": "Stream 22",
+          "url": "https://playfa.st/ch.php?id=27",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:09.128Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 14,
+          "label": "Stream 23",
           "url": "https://streamhd247.click/frame28.html",
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:43.326Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.149Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 12,
+      "streamCount": 14,
       "teams": {
         "home": {
           "name": "Viking",
@@ -3547,12 +3144,12 @@
       },
       "headToHead": null,
       "matchId": "3eab8f870164",
-      "score": "0:0",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T20:00:00.000Z"
     },
     {
-      "id": 20,
+      "id": 15,
       "title": "Lens – Como",
       "dateLabel": "4 November",
       "timeLabel": "21:00",
@@ -3567,225 +3164,295 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://emb.tvp9.online/p2p/?id=270115",
+          "url": "https://emb.tvp9.online/p2p/?id=268960",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:43.372Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.160Z",
           "healthHttpStatus": 200
         },
         {
           "id": 2,
           "label": "Stream 4",
-          "url": "https://livesports247.click/sx/bt6en.php",
+          "url": "https://emb.tvp9.online/p2p/?id=270115",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:43.527Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.164Z",
           "healthHttpStatus": 200
         },
         {
           "id": 3,
-          "label": "Stream 5",
-          "url": "https://streamec.st/embed/ch8.php",
+          "label": "Stream 6",
+          "url": "https://livesports247.click/sx/bt6en.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:43.609Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.166Z",
           "healthHttpStatus": 200
         },
         {
           "id": 4,
-          "label": "Stream 6",
-          "url": "https://emb.tvp9.online/p2p/?id=271316",
-          "language": null,
+          "label": "Stream 7",
+          "url": "https://streamec.st/embed/ch8.php",
+          "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:43.666Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.194Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
           "label": "Stream 8",
-          "url": "https://emb.tvp9.online/p2p/?id=268643",
-          "language": "Croatian",
+          "url": "https://emb.tvp9.online/p2p/?id=270560",
+          "language": "Spanish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:43.825Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.195Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 10",
-          "url": "https://emb.tvp9.online/p2p/?id=269530",
-          "language": "French",
+          "url": "https://emb.tvp9.online/p2p/?id=268643",
+          "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:43.974Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.275Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
           "label": "Stream 12",
-          "url": "https://emb.tvp9.online/p2p/?id=269806",
-          "language": "Greek",
+          "url": "https://emb.tvp9.online/p2p/?id=269530",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.124Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.327Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
           "label": "Stream 14",
-          "url": "https://emb.tvp9.online/p2p/?id=271203",
-          "language": "Italian",
+          "url": "https://emb.tvp9.online/p2p/?id=269534",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.195Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.338Z",
           "healthHttpStatus": 200
         },
         {
           "id": 9,
           "label": "Stream 16",
-          "url": "https://emb.tvp9.online/p2p/?id=271217",
-          "language": "Serbian",
+          "url": "https://emb.tvp9.online/p2p/?id=269806",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.196Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.348Z",
           "healthHttpStatus": 200
         },
         {
           "id": 10,
           "label": "Stream 18",
-          "url": "https://emb.tvp9.online/p2p/?id=271230",
-          "language": "French",
+          "url": "https://emb.tvp9.online/p2p/?id=271203",
+          "language": "Italian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.248Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.385Z",
           "healthHttpStatus": 200
         },
         {
           "id": 11,
           "label": "Stream 20",
-          "url": "https://emb.tvp9.online/p2p/?id=271233",
-          "language": "German",
+          "url": "https://emb.tvp9.online/p2p/?id=271217",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.285Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.458Z",
           "healthHttpStatus": 200
         },
         {
           "id": 12,
           "label": "Stream 22",
-          "url": "https://emb.tvp9.online/p2p/?id=271252",
-          "language": "Polish",
+          "url": "https://emb.tvp9.online/p2p/?id=271230",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.309Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.505Z",
           "healthHttpStatus": 200
         },
         {
           "id": 13,
           "label": "Stream 24",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=241801&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "2000kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=271233",
+          "language": "German",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.344Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.515Z",
           "healthHttpStatus": 200
         },
         {
           "id": 14,
           "label": "Stream 26",
-          "url": "https://liveon1.li/sonic/index.php?a=2",
-          "language": "Spanish",
+          "url": "https://emb.tvp9.online/p2p/?id=271252",
+          "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.354Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.532Z",
           "healthHttpStatus": 200
         },
         {
           "id": 15,
-          "label": "Stream 27",
-          "url": "https://livesports247.click/sx/canalplusfr.php",
-          "language": "Spanish",
+          "label": "Stream 28",
+          "url": "https://emb.tvp9.online/p2p/?id=271299",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.397Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.567Z",
           "healthHttpStatus": 200
         },
         {
           "id": 16,
-          "label": "Stream 28",
-          "url": "https://livesports247.click/sx/skyaustria5de.php",
-          "language": "German",
+          "label": "Stream 30",
+          "url": "https://emb.tvp9.online/p2p/?id=271306",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.434Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.630Z",
           "healthHttpStatus": 200
         },
         {
           "id": 17,
-          "label": "Stream 29",
-          "url": "https://playfa.st/ch.php?id=46",
-          "language": "Italian",
+          "label": "Stream 32",
+          "url": "https://emb.tvp9.online/p2p/?id=271316",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.436Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.694Z",
           "healthHttpStatus": 200
         },
         {
           "id": 18,
-          "label": "Stream 30",
-          "url": "https://playfa.st/ch.php?id=51",
+          "label": "Stream 34",
+          "url": "https://emb.tvp9.online/p2p/?id=271340",
           "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.440Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.695Z",
           "healthHttpStatus": 200
         },
         {
           "id": 19,
-          "label": "Stream 31",
+          "label": "Stream 36",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=261890&w=700&h=480",
+          "language": "Russian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:09.714Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 20,
+          "label": "Stream 38",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=241801&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:09.746Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 21,
+          "label": "Stream 40",
+          "url": "https://liveon1.li/sonic/index.php?a=2",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:09.804Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 22,
+          "label": "Stream 41",
+          "url": "https://livesports247.click/sx/canalplusfr.php",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:09.872Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 23,
+          "label": "Stream 42",
+          "url": "https://livesports247.click/sx/skyaustria5de.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:09.894Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 24,
+          "label": "Stream 43",
+          "url": "https://playfa.st/ch.php?id=46",
+          "language": "Italian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:09.895Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 25,
+          "label": "Stream 44",
+          "url": "https://playfa.st/ch.php?id=51",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:09.896Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 26,
+          "label": "Stream 45",
           "url": "https://streamhd247.click/frame27.html",
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.466Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.936Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 19,
+      "streamCount": 26,
       "teams": {
         "home": {
           "name": "Lens",
           "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/27961.gif",
           "startingLineup": [
             "Robin Risser",
-            "Thorgan Hazard",
-            "Kyllian Antonio",
-            "Franjo Ivanovic",
-            "Florian Thauvin",
-            "Matthieu Udol",
-            "Samson Baidoo",
+            "Amadou Haidara",
             "Ruben Aguilar",
+            "Samson Baidoo",
+            "Thorgan Hazard",
             "Michal Skoras",
-            "Michael Cuisance",
-            "Amadou Haidara"
+            "Florian Thauvin",
+            "Franjo Ivanovic",
+            "Kyllian Antonio",
+            "Matthieu Udol",
+            "Michael Cuisance"
           ],
           "substitutes": [
-            "Yacine Titraoui",
-            "Junior Kadile",
-            "Jonathan Gradit",
-            "Jean-Clair Todibo",
-            "Florian Sotoca",
-            "Andrija Bulatovic",
-            "Mathieu Gorgelin",
-            "Mezian Mesloub Soares",
-            "Souleymane Sagnan",
-            "Saud Abdulhamid",
             "Regis Gurtner",
-            "Nidal Celik"
+            "Saud Abdulhamid",
+            "Souleymane Sagnan",
+            "Yacine Titraoui",
+            "Nidal Celik",
+            "Andrija Bulatovic",
+            "Florian Sotoca",
+            "Jean-Clair Todibo",
+            "Jonathan Gradit",
+            "Junior Kadile",
+            "Mathieu Gorgelin",
+            "Mezian Mesloub Soares"
           ]
         },
         "away": {
@@ -3793,29 +3460,12 @@
           "logoUrl": "https://cdn.livetv911.me/img/teams/fullsize/ods/8698.gif",
           "startingLineup": [
             "Jean Butez",
-            "Jacobo Ramon",
-            "Yan Couto",
-            "Anastasios Douvikas",
             "Alex Valle",
-            "Lucas Da Cunha",
-            "Luis Milla",
-            "Nico Paz",
-            "Maximo Perrone",
-            "Maxence Caqueret",
-            "Marc-Oliver Kempf"
+            "Jacobo Ramon",
+            "Marc-Oliver Kempf",
+            "Yan Couto"
           ],
-          "substitutes": [
-            "Lorenzo Luigi Ginelli",
-            "Kaiki",
-            "Ivan Smolcic",
-            "Federico Grilli",
-            "Samuele Ricci",
-            "Robert Sanchez",
-            "Mattia Liberali",
-            "Matteo Papaccioli",
-            "Martin Baturina",
-            "Alberto Dossena"
-          ]
+          "substitutes": []
         }
       },
       "headToHead": null,
@@ -3825,7 +3475,7 @@
       "startsAt": "2026-11-04T20:00:00.000Z"
     },
     {
-      "id": 21,
+      "id": 16,
       "title": "RB Leipzig – Manchester City",
       "dateLabel": "4 November",
       "timeLabel": "21:00",
@@ -3840,235 +3490,355 @@
         {
           "id": 1,
           "label": "Stream 2",
-          "url": "https://emb.tvp9.online/p2p/?id=268831",
+          "url": "https://emb.tvp9.online/p2p/?id=269931",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.488Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.955Z",
           "healthHttpStatus": 200
         },
         {
           "id": 2,
           "label": "Stream 4",
-          "url": "https://emb.tvp9.online/p2p/?id=270951",
+          "url": "https://emb.tvp9.online/p2p/?id=268831",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.504Z",
+          "healthCheckedAt": "2026-11-04T20:29:09.972Z",
           "healthHttpStatus": 200
         },
         {
           "id": 3,
           "label": "Stream 6",
-          "url": "https://emb.tvp9.online/p2p/?id=271140",
+          "url": "https://emb.tvp9.online/p2p/?id=270951",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.514Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.144Z",
           "healthHttpStatus": 200
         },
         {
           "id": 4,
           "label": "Stream 8",
-          "url": "https://liveon1.li/sonic/index.php?a=967",
+          "url": "https://emb.tvp9.online/p2p/?id=271140",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.646Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.165Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
-          "label": "Stream 9",
-          "url": "https://livesports247.click/sx/bt2en.php",
+          "label": "Stream 10",
+          "url": "https://liveon1.li/sonic/index.php?a=967",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.652Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.323Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
-          "label": "Stream 10",
-          "url": "https://playfa.st/ch.php?id=2",
+          "label": "Stream 11",
+          "url": "https://livesports247.click/sx/bt2en.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.674Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.339Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
-          "label": "Stream 11",
-          "url": "https://emb.tvp9.online/p2p/?id=271231",
-          "language": "Croatian",
+          "label": "Stream 12",
+          "url": "https://playfa.st/ch.php?id=2",
+          "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.726Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.340Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
           "label": "Stream 13",
-          "url": "https://emb.tvp9.online/p2p/?id=270938",
-          "language": "Russian",
-          "bitrate": "3500kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=271231",
+          "language": "Croatian",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.728Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.386Z",
           "healthHttpStatus": 200
         },
         {
           "id": 9,
           "label": "Stream 15",
-          "url": "https://emb.tvp9.online/p2p/?id=271338",
-          "language": "Russian",
+          "url": "https://emb.tvp9.online/p2p/?id=269039",
+          "language": "Hebrew",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.728Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.407Z",
           "healthHttpStatus": 200
         },
         {
           "id": 10,
           "label": "Stream 17",
-          "url": "https://emb.tvp9.online/p2p/?id=268641",
-          "language": "Croatian",
+          "url": "https://emb.tvp9.online/p2p/?id=269214",
+          "language": "Arabic",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.887Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.428Z",
           "healthHttpStatus": 200
         },
         {
           "id": 11,
           "label": "Stream 19",
-          "url": "https://emb.tvp9.online/p2p/?id=269580",
-          "language": "Dutch",
+          "url": "https://emb.tvp9.online/p2p/?id=270127",
+          "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.887Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.574Z",
           "healthHttpStatus": 200
         },
         {
           "id": 12,
           "label": "Stream 21",
-          "url": "https://emb.tvp9.online/p2p/?id=270471",
-          "language": "French",
+          "url": "https://emb.tvp9.online/p2p/?id=270968",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:44.892Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.583Z",
           "healthHttpStatus": 200
         },
         {
           "id": 13,
           "label": "Stream 23",
-          "url": "https://emb.tvp9.online/p2p/?id=271166",
-          "language": "Czech",
+          "url": "https://emb.tvp9.online/p2p/?id=270969",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.047Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.605Z",
           "healthHttpStatus": 200
         },
         {
           "id": 14,
           "label": "Stream 25",
-          "url": "https://emb.tvp9.online/p2p/?id=271199",
-          "language": "Italian",
+          "url": "https://emb.tvp9.online/p2p/?id=271169",
+          "language": "Romanian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.047Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.721Z",
           "healthHttpStatus": 200
         },
         {
           "id": 15,
           "label": "Stream 27",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=232734&w=700&h=480",
-          "language": "Ukrainian",
-          "bitrate": "1500kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=271179",
+          "language": "Hungarian",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.057Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.763Z",
           "healthHttpStatus": 200
         },
         {
           "id": 16,
           "label": "Stream 29",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=237141&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "2500kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=271341",
+          "language": null,
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.102Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.764Z",
           "healthHttpStatus": 200
         },
         {
           "id": 17,
           "label": "Stream 31",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=242313&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "2000kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=268641",
+          "language": "Croatian",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.120Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.778Z",
           "healthHttpStatus": 200
         },
         {
           "id": 18,
           "label": "Stream 33",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=258017&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "4000kbps",
+          "url": "https://emb.tvp9.online/p2p/?id=269580",
+          "language": "Dutch",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.254Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.898Z",
           "healthHttpStatus": 200
         },
         {
           "id": 19,
           "label": "Stream 35",
-          "url": "https://liveon1.li/sonic/index.php?a=1",
-          "language": "Spanish",
+          "url": "https://emb.tvp9.online/p2p/?id=270471",
+          "language": "French",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.484Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.951Z",
           "healthHttpStatus": 200
         },
         {
           "id": 20,
-          "label": "Stream 36",
-          "url": "https://playfa.st/ch.php?id=50",
-          "language": "French",
-          "bitrate": null,
+          "label": "Stream 37",
+          "url": "https://emb.tvp9.online/p2p/?id=270938",
+          "language": "Russian",
+          "bitrate": "3500kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.586Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.961Z",
           "healthHttpStatus": 200
         },
         {
           "id": 21,
-          "label": "Stream 38",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=75a56863b6fe0407ad4305b4d7ee5643c3923565&lang=en&eid=399041205&lid=2853564&ci=7&si=1",
-          "language": "English",
-          "bitrate": "8000kbps",
+          "label": "Stream 39",
+          "url": "https://emb.tvp9.online/p2p/?id=271166",
+          "language": "Czech",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.645Z",
+          "healthCheckedAt": "2026-11-04T20:29:10.962Z",
           "healthHttpStatus": 200
         },
         {
           "id": 22,
-          "label": "Stream 40",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d63d8a57cf471394bfa9f619bbd68b01ae27a801&lang=en&eid=399041205&lid=2850353&ci=7&si=1",
-          "language": "English",
-          "bitrate": "8000kbps",
+          "label": "Stream 41",
+          "url": "https://emb.tvp9.online/p2p/?id=271199",
+          "language": "Italian",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.748Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.024Z",
           "healthHttpStatus": 200
         },
         {
           "id": 23,
-          "label": "Stream 42",
+          "label": "Stream 43",
+          "url": "https://emb.tvp9.online/p2p/?id=271338",
+          "language": "Russian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:11.081Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 24,
+          "label": "Stream 45",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=213687&w=700&h=480",
+          "language": "Russian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:11.129Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 25,
+          "label": "Stream 47",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=261876&w=700&h=480",
+          "language": "Russian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:11.145Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 26,
+          "label": "Stream 49",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=269178&w=700&h=480",
+          "language": "Greek",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:11.159Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 27,
+          "label": "Stream 51",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=232734&w=700&h=480",
+          "language": "Ukrainian",
+          "bitrate": "1500kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:11.202Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 28,
+          "label": "Stream 53",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=237141&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2500kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:11.264Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 29,
+          "label": "Stream 55",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=242313&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:11.292Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 30,
+          "label": "Stream 57",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=258017&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "4000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:11.307Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 31,
+          "label": "Stream 59",
+          "url": "https://liveon1.li/sonic/index.php?a=1",
+          "language": "Spanish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:11.317Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 32,
+          "label": "Stream 60",
+          "url": "https://playfa.st/ch.php?id=50",
+          "language": "French",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:11.404Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 33,
+          "label": "Stream 62",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=75a56863b6fe0407ad4305b4d7ee5643c3923565&lang=en&eid=399041205&lid=2853564&ci=7&si=1",
+          "language": "English",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:11.457Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 34,
+          "label": "Stream 64",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=d63d8a57cf471394bfa9f619bbd68b01ae27a801&lang=en&eid=399041205&lid=2850353&ci=7&si=1",
+          "language": "English",
+          "bitrate": "8000kbps",
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:11.485Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 35,
+          "label": "Stream 66",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=36cad67fed5a739757a9db844a551aa845a8d51b&lang=en&eid=399041205&lid=2854601&ci=7&si=1",
           "language": "Portuguese",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.864Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.564Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 23,
+      "streamCount": 35,
       "teams": {
         "home": {
           "name": "RB Leipzig",
@@ -4262,7 +4032,7 @@
       "startsAt": "2026-11-04T20:00:00.000Z"
     },
     {
-      "id": 22,
+      "id": 17,
       "title": "Porto – Napoli",
       "dateLabel": "4 November",
       "timeLabel": "21:00",
@@ -4281,7 +4051,7 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.917Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.585Z",
           "healthHttpStatus": 200
         },
         {
@@ -4291,191 +4061,231 @@
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.918Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.586Z",
           "healthHttpStatus": 200
         },
         {
           "id": 3,
           "label": "Stream 6",
-          "url": "https://playfa.st/ch.php?id=9",
+          "url": "https://livesports247.click/sx/bt5en.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:45.964Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.662Z",
           "healthHttpStatus": 200
         },
         {
           "id": 4,
           "label": "Stream 7",
-          "url": "https://streamec.st/embed/ch5.php",
+          "url": "https://playfa.st/ch.php?id=9",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.003Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.757Z",
           "healthHttpStatus": 200
         },
         {
           "id": 5,
           "label": "Stream 8",
-          "url": "https://streamhd247.click/frame23.html",
+          "url": "https://streamec.st/embed/ch5.php",
           "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.066Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.779Z",
           "healthHttpStatus": 200
         },
         {
           "id": 6,
           "label": "Stream 9",
-          "url": "https://emb.tvp9.online/p2p/?id=269443",
-          "language": "Portuguese",
+          "url": "https://streamhd247.click/frame23.html",
+          "language": "English",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.066Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.779Z",
           "healthHttpStatus": 200
         },
         {
           "id": 7,
-          "label": "Stream 11",
-          "url": "https://emb.tvp9.online/p2p/?id=269579",
-          "language": "Dutch",
+          "label": "Stream 10",
+          "url": "https://emb.tvp9.online/p2p/?id=268645",
+          "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.078Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.791Z",
           "healthHttpStatus": 200
         },
         {
           "id": 8,
-          "label": "Stream 13",
-          "url": "https://emb.tvp9.online/p2p/?id=269838",
-          "language": "Polish",
+          "label": "Stream 12",
+          "url": "https://emb.tvp9.online/p2p/?id=269443",
+          "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.079Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.797Z",
           "healthHttpStatus": 200
         },
         {
           "id": 9,
-          "label": "Stream 15",
-          "url": "https://emb.tvp9.online/p2p/?id=271212",
-          "language": "Serbian",
+          "label": "Stream 14",
+          "url": "https://emb.tvp9.online/p2p/?id=269579",
+          "language": "Dutch",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.104Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.833Z",
           "healthHttpStatus": 200
         },
         {
           "id": 10,
-          "label": "Stream 17",
-          "url": "https://emb.tvp9.online/p2p/?id=271246",
-          "language": "German",
+          "label": "Stream 16",
+          "url": "https://emb.tvp9.online/p2p/?id=269838",
+          "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.126Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.886Z",
           "healthHttpStatus": 200
         },
         {
           "id": 11,
-          "label": "Stream 19",
-          "url": "https://emb.tvp9.online/p2p/?id=271255",
-          "language": "Spanish",
+          "label": "Stream 18",
+          "url": "https://emb.tvp9.online/p2p/?id=271212",
+          "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.220Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.920Z",
           "healthHttpStatus": 200
         },
         {
           "id": 12,
-          "label": "Stream 21",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=269177&w=700&h=480",
-          "language": "Greek",
+          "label": "Stream 20",
+          "url": "https://emb.tvp9.online/p2p/?id=271246",
+          "language": "German",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.231Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.943Z",
           "healthHttpStatus": 200
         },
         {
           "id": 13,
-          "label": "Stream 23",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=237285&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "3000kbps",
+          "label": "Stream 22",
+          "url": "https://emb.tvp9.online/p2p/?id=271255",
+          "language": "Spanish",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.242Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.979Z",
           "healthHttpStatus": 200
         },
         {
           "id": 14,
-          "label": "Stream 25",
-          "url": "https://emb.apl644.online/\nplayer/live.php?id=242312&w=700&h=480",
-          "language": "Russian",
-          "bitrate": "2000kbps",
+          "label": "Stream 24",
+          "url": "https://emb.tvp9.online/p2p/?id=271302",
+          "language": "Greek",
+          "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.243Z",
+          "healthCheckedAt": "2026-11-04T20:29:11.980Z",
           "healthHttpStatus": 200
         },
         {
           "id": 15,
-          "label": "Stream 27",
-          "url": "https://livesports247.click/sx/bt5en.php",
-          "language": "Spanish",
+          "label": "Stream 26",
+          "url": "https://emb.tvp9.online/p2p/?id=271347",
+          "language": "Portuguese",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.254Z",
+          "healthCheckedAt": "2026-11-04T20:29:12.063Z",
           "healthHttpStatus": 200
         },
         {
           "id": 16,
           "label": "Stream 28",
-          "url": "https://livesports247.click/sx/skyaustria3de.php",
-          "language": "German",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=267021&w=700&h=480",
+          "language": "Russian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.284Z",
+          "healthCheckedAt": "2026-11-04T20:29:12.075Z",
           "healthHttpStatus": 200
         },
         {
           "id": 17,
-          "label": "Stream 29",
-          "url": "https://livesports247.click/sx/sporttv5pt.php",
-          "language": "Portuguese",
-          "bitrate": null,
+          "label": "Stream 30",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=237285&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "3000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.286Z",
+          "healthCheckedAt": "2026-11-04T20:29:12.119Z",
           "healthHttpStatus": 200
         },
         {
           "id": 18,
-          "label": "Stream 30",
-          "url": "https://playfa.st/ch.php?id=47",
-          "language": "Italian",
-          "bitrate": null,
+          "label": "Stream 32",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=242312&w=700&h=480",
+          "language": "Russian",
+          "bitrate": "2000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.387Z",
+          "healthCheckedAt": "2026-11-04T20:29:12.129Z",
           "healthHttpStatus": 200
         },
         {
           "id": 19,
-          "label": "Stream 32",
-          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=868a6187d6aeec65ded84bd777814c9f7b7a9027&lang=en&eid=399041212&lid=2992937&ci=7&si=1",
-          "language": "Dutch",
+          "label": "Stream 34",
+          "url": "https://emb.apl644.online/\nplayer/live.php?id=269177&w=700&h=480",
+          "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.446Z",
+          "healthCheckedAt": "2026-11-04T20:29:12.159Z",
           "healthHttpStatus": 200
         },
         {
           "id": 20,
-          "label": "Stream 34",
+          "label": "Stream 36",
+          "url": "https://livesports247.click/sx/skyaustria3de.php",
+          "language": "German",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:12.159Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 21,
+          "label": "Stream 37",
+          "url": "https://livesports247.click/sx/sporttv5pt.php",
+          "language": "Portuguese",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:12.223Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 22,
+          "label": "Stream 38",
+          "url": "https://playfa.st/ch.php?id=47",
+          "language": "Italian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:12.232Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 23,
+          "label": "Stream 40",
+          "url": "https://livetv.sx/webplayer2.php?t=acestream&c=868a6187d6aeec65ded84bd777814c9f7b7a9027&lang=en&eid=399041212&lid=2992937&ci=7&si=1",
+          "language": "Dutch",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T20:29:12.251Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 24,
+          "label": "Stream 42",
           "url": "https://livetv.sx/webplayer2.php?t=acestream&c=fd572fdeeaaff430ab2775e3bae1620295660ebd&lang=en&eid=399041212&lid=3002359&ci=7&si=1",
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T20:10:46.557Z",
+          "healthCheckedAt": "2026-11-04T20:29:12.273Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 20,
+      "streamCount": 24,
       "teams": {
         "home": {
           "name": "Porto",
@@ -4537,12 +4347,12 @@
       },
       "headToHead": null,
       "matchId": "78f09920d8d2",
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T20:00:00.000Z"
     },
     {
-      "id": 23,
+      "id": 18,
       "title": "Export Sebaco – Matagalpa",
       "dateLabel": "4 November",
       "timeLabel": "22:00",
@@ -4697,7 +4507,7 @@
       "startsAt": "2026-11-04T21:00:00.000Z"
     },
     {
-      "id": 24,
+      "id": 19,
       "title": "Portuguesa – Deportivo La Guaira",
       "dateLabel": "4 November",
       "timeLabel": "22:30",
@@ -4852,7 +4662,7 @@
       "startsAt": "2026-11-04T21:30:00.000Z"
     },
     {
-      "id": 25,
+      "id": 20,
       "title": "Coquimbo Unido – Union La Calera",
       "dateLabel": "4 November",
       "timeLabel": "23:00",
@@ -5007,7 +4817,7 @@
       "startsAt": "2026-11-04T22:00:00.000Z"
     },
     {
-      "id": 26,
+      "id": 21,
       "title": "Athletico-PR – Vasco de Gama",
       "dateLabel": "4 November",
       "timeLabel": "23:30",
@@ -5162,7 +4972,7 @@
       "startsAt": "2026-11-04T22:30:00.000Z"
     },
     {
-      "id": 27,
+      "id": 22,
       "title": "Flamengo-RJ – Gremio-RS",
       "dateLabel": "4 November",
       "timeLabel": "23:30",
@@ -5317,7 +5127,7 @@
       "startsAt": "2026-11-04T22:30:00.000Z"
     },
     {
-      "id": 28,
+      "id": 23,
       "title": "Inter-RS (W) – RB Bragantino (W)",
       "dateLabel": "4 November",
       "timeLabel": "23:30",
@@ -5349,7 +5159,7 @@
       "startsAt": "2026-11-04T22:30:00.000Z"
     },
     {
-      "id": 29,
+      "id": 24,
       "title": "Cucuta Deportivo – Santa Fe",
       "dateLabel": "5 November",
       "timeLabel": "0:30",
@@ -5486,7 +5296,7 @@
       "startsAt": "2026-11-04T23:30:00.000Z"
     },
     {
-      "id": 30,
+      "id": 25,
       "title": "Metropolitanos – Carabobo",
       "dateLabel": "5 November",
       "timeLabel": "0:30",
@@ -5641,7 +5451,7 @@
       "startsAt": "2026-11-04T23:30:00.000Z"
     },
     {
-      "id": 31,
+      "id": 26,
       "title": "Puntarenas – San Carlos",
       "dateLabel": "5 November",
       "timeLabel": "1:00",
@@ -5796,7 +5606,7 @@
       "startsAt": "2026-11-05T00:00:00.000Z"
     },
     {
-      "id": 32,
+      "id": 27,
       "title": "LDU Quito – Univ Catolica Quito",
       "dateLabel": "5 November",
       "timeLabel": "1:00",
@@ -5951,7 +5761,7 @@
       "startsAt": "2026-11-05T00:00:00.000Z"
     },
     {
-      "id": 33,
+      "id": 28,
       "title": "Sao Paolo – Corinthians",
       "dateLabel": "5 November",
       "timeLabel": "1:30",
@@ -6106,7 +5916,7 @@
       "startsAt": "2026-11-05T00:30:00.000Z"
     },
     {
-      "id": 34,
+      "id": 29,
       "title": "Botafogo-RJ – Atletico-MG",
       "dateLabel": "5 November",
       "timeLabel": "1:30",
@@ -6261,7 +6071,7 @@
       "startsAt": "2026-11-05T00:30:00.000Z"
     },
     {
-      "id": 35,
+      "id": 30,
       "title": "WWE NXT",
       "dateLabel": "5 November",
       "timeLabel": "2:00",
@@ -6293,7 +6103,7 @@
       "startsAt": "2026-11-05T01:00:00.000Z"
     },
     {
-      "id": 36,
+      "id": 31,
       "title": "Millonarios – America de Cali",
       "dateLabel": "5 November",
       "timeLabel": "2:30",
@@ -6448,7 +6258,7 @@
       "startsAt": "2026-11-05T01:30:00.000Z"
     },
     {
-      "id": 37,
+      "id": 32,
       "title": "Universitario – Sport Boys",
       "dateLabel": "5 November",
       "timeLabel": "2:30",
@@ -6603,7 +6413,7 @@
       "startsAt": "2026-11-05T01:30:00.000Z"
     },
     {
-      "id": 38,
+      "id": 33,
       "title": "Escorpiones – Alajuelense",
       "dateLabel": "5 November",
       "timeLabel": "3:00",
@@ -6749,7 +6559,7 @@
       "startsAt": "2026-11-05T02:00:00.000Z"
     },
     {
-      "id": 39,
+      "id": 34,
       "title": "Sydney Olympic – Oakleigh Cannons",
       "dateLabel": "5 November",
       "timeLabel": "9:30",
@@ -6886,7 +6696,7 @@
       "startsAt": "2026-11-05T08:30:00.000Z"
     },
     {
-      "id": 40,
+      "id": 35,
       "title": "Pakistan PAK – India IND",
       "dateLabel": "5 November",
       "timeLabel": "10:30",
@@ -7023,7 +6833,7 @@
       "startsAt": "2026-11-05T09:30:00.000Z"
     },
     {
-      "id": 41,
+      "id": 36,
       "title": "Kitchee – Phnom Penh Crown",
       "dateLabel": "5 November",
       "timeLabel": "11:00",
@@ -7160,7 +6970,7 @@
       "startsAt": "2026-11-05T10:00:00.000Z"
     },
     {
-      "id": 42,
+      "id": 37,
       "title": "Machida Zelvia – Shanghai Shenhua",
       "dateLabel": "5 November",
       "timeLabel": "11:00",
@@ -7306,7 +7116,7 @@
       "startsAt": "2026-11-05T10:00:00.000Z"
     },
     {
-      "id": 43,
+      "id": 38,
       "title": "Lion City Sailors – Adelaide United",
       "dateLabel": "5 November",
       "timeLabel": "11:00",
@@ -7443,7 +7253,7 @@
       "startsAt": "2026-11-05T10:00:00.000Z"
     },
     {
-      "id": 44,
+      "id": 39,
       "title": "SK Metalurh U19 – Shakhtar Donetsk U19",
       "dateLabel": "5 November",
       "timeLabel": "12:00",
@@ -7475,7 +7285,7 @@
       "startsAt": "2026-11-05T11:00:00.000Z"
     },
     {
-      "id": 45,
+      "id": 40,
       "title": "Churchill Brothers – NorthEast United",
       "dateLabel": "5 November",
       "timeLabel": "12:30",
@@ -7612,7 +7422,7 @@
       "startsAt": "2026-11-05T11:30:00.000Z"
     },
     {
-      "id": 46,
+      "id": 41,
       "title": "Kuching City – Gangwon",
       "dateLabel": "5 November",
       "timeLabel": "13:15",
@@ -7749,7 +7559,7 @@
       "startsAt": "2026-11-05T12:15:00.000Z"
     },
     {
-      "id": 47,
+      "id": 42,
       "title": "Svay Rieng – Tampines Rovers",
       "dateLabel": "5 November",
       "timeLabel": "13:15",
@@ -7886,7 +7696,7 @@
       "startsAt": "2026-11-05T12:15:00.000Z"
     },
     {
-      "id": 48,
+      "id": 43,
       "title": "Pathum Utd – Tai Po",
       "dateLabel": "5 November",
       "timeLabel": "13:15",
@@ -8023,7 +7833,7 @@
       "startsAt": "2026-11-05T12:15:00.000Z"
     },
     {
-      "id": 49,
+      "id": 44,
       "title": "Polesie (W) – Shakhtar Dn (W)",
       "dateLabel": "5 November",
       "timeLabel": "13:30",
@@ -8055,7 +7865,7 @@
       "startsAt": "2026-11-05T12:30:00.000Z"
     },
     {
-      "id": 50,
+      "id": 45,
       "title": "Al-Kahrabaa – Zakho",
       "dateLabel": "5 November",
       "timeLabel": "14:00",
@@ -8210,7 +8020,7 @@
       "startsAt": "2026-11-05T13:00:00.000Z"
     },
     {
-      "id": 51,
+      "id": 46,
       "title": "Poland (W) U-17 – Slovakia (W) U-17",
       "dateLabel": "5 November",
       "timeLabel": "14:00",
@@ -8242,7 +8052,7 @@
       "startsAt": "2026-11-05T13:00:00.000Z"
     },
     {
-      "id": 52,
+      "id": 47,
       "title": "Croatia (W) U-17 – Bulgaria (W) U-17",
       "dateLabel": "5 November",
       "timeLabel": "14:00",
@@ -8274,7 +8084,7 @@
       "startsAt": "2026-11-05T13:00:00.000Z"
     },
     {
-      "id": 53,
+      "id": 48,
       "title": "Al-Kholood – Al-Khaleej",
       "dateLabel": "5 November",
       "timeLabel": "14:25",
@@ -8429,7 +8239,7 @@
       "startsAt": "2026-11-05T13:25:00.000Z"
     },
     {
-      "id": 54,
+      "id": 49,
       "title": "Bunyodkor – Khorezm Urganch",
       "dateLabel": "5 November",
       "timeLabel": "14:30",
@@ -8584,7 +8394,7 @@
       "startsAt": "2026-11-05T13:30:00.000Z"
     },
     {
-      "id": 55,
+      "id": 50,
       "title": "Diyala – Al-Minaa",
       "dateLabel": "5 November",
       "timeLabel": "14:45",
@@ -8739,7 +8549,7 @@
       "startsAt": "2026-11-05T13:45:00.000Z"
     },
     {
-      "id": 56,
+      "id": 51,
       "title": "Bhutan BTN – Bangladesh BGD",
       "dateLabel": "5 November",
       "timeLabel": "15:00",
@@ -8894,7 +8704,7 @@
       "startsAt": "2026-11-05T14:00:00.000Z"
     },
     {
-      "id": 57,
+      "id": 52,
       "title": "Mohun Bagan – Odisha",
       "dateLabel": "5 November",
       "timeLabel": "15:00",
@@ -9049,7 +8859,7 @@
       "startsAt": "2026-11-05T14:00:00.000Z"
     },
     {
-      "id": 58,
+      "id": 53,
       "title": "Ittihad Al-Ramtha – Maan",
       "dateLabel": "5 November",
       "timeLabel": "16:00",
@@ -9195,7 +9005,7 @@
       "startsAt": "2026-11-05T15:00:00.000Z"
     },
     {
-      "id": 59,
+      "id": 54,
       "title": "Abha – Al-Shabab Riyadh",
       "dateLabel": "5 November",
       "timeLabel": "16:10",
@@ -9350,7 +9160,7 @@
       "startsAt": "2026-11-05T15:10:00.000Z"
     },
     {
-      "id": 60,
+      "id": 55,
       "title": "Al-Mosul – Duhok",
       "dateLabel": "5 November",
       "timeLabel": "16:30",
@@ -9487,7 +9297,7 @@
       "startsAt": "2026-11-05T15:30:00.000Z"
     },
     {
-      "id": 61,
+      "id": 56,
       "title": "Volga – Chertanovo",
       "dateLabel": "5 November",
       "timeLabel": "17:30",
@@ -9519,7 +9329,7 @@
       "startsAt": "2026-11-05T16:30:00.000Z"
     },
     {
-      "id": 62,
+      "id": 57,
       "title": "Volga Ulyanovsk – Chertanovo",
       "dateLabel": "5 November",
       "timeLabel": "17:30",
@@ -9551,7 +9361,7 @@
       "startsAt": "2026-11-05T16:30:00.000Z"
     },
     {
-      "id": 63,
+      "id": 58,
       "title": "Al Quadisiya – Al-Fayha",
       "dateLabel": "5 November",
       "timeLabel": "18:30",
@@ -9706,7 +9516,7 @@
       "startsAt": "2026-11-05T17:30:00.000Z"
     },
     {
-      "id": 64,
+      "id": 59,
       "title": "Crystal Palace – Hoffenheim",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -9738,7 +9548,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 65,
+      "id": 60,
       "title": "Anderlecht – RB Salzburg",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -9770,7 +9580,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 66,
+      "id": 61,
       "title": "Sparta Prague – Bournemouth",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -9802,7 +9612,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 67,
+      "id": 62,
       "title": "Real Sociedad – Lyon",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -9834,7 +9644,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 68,
+      "id": 63,
       "title": "Milan – Ferencvaros",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -9866,7 +9676,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 69,
+      "id": 64,
       "title": "Levski – Jagiellonia",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -9898,7 +9708,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 70,
+      "id": 65,
       "title": "Lillestroem – Viktoria Plzen",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -9930,7 +9740,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 71,
+      "id": 66,
       "title": "NEC – Omonia",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -9962,7 +9772,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 72,
+      "id": 67,
       "title": "Thun – Hearts",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -9994,7 +9804,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 73,
+      "id": 68,
       "title": "AGF – Braga",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -10026,7 +9836,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 74,
+      "id": 69,
       "title": "Trabzonspor – Freiburg",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -10058,7 +9868,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 75,
+      "id": 70,
       "title": "Lincoln Red Imps – Hajduk",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -10090,7 +9900,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 76,
+      "id": 71,
       "title": "KuPS – Gent",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -10122,7 +9932,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 77,
+      "id": 72,
       "title": "Crvena Zvezda – Inter Club Escaldes",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -10154,7 +9964,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 78,
+      "id": 73,
       "title": "Midtjylland – Ajax",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -10186,7 +9996,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 79,
+      "id": 74,
       "title": "Atalanta – Kairat",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -10218,7 +10028,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 80,
+      "id": 75,
       "title": "Mjaellby – Borac Banja Luka",
       "dateLabel": "5 November",
       "timeLabel": "18:45",
@@ -10250,7 +10060,7 @@
       "startsAt": "2026-11-05T17:45:00.000Z"
     },
     {
-      "id": 81,
+      "id": 76,
       "title": "Aldosivi – River Plate",
       "dateLabel": "5 November",
       "timeLabel": "19:00",
@@ -10405,7 +10215,7 @@
       "startsAt": "2026-11-05T18:00:00.000Z"
     },
     {
-      "id": 82,
+      "id": 77,
       "title": "Valenciennes – Orleans",
       "dateLabel": "5 November",
       "timeLabel": "20:45",
@@ -10560,7 +10370,7 @@
       "startsAt": "2026-11-05T19:45:00.000Z"
     },
     {
-      "id": 83,
+      "id": 78,
       "title": "Hapoel Beer Sheva – OFI",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -10592,7 +10402,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 84,
+      "id": 79,
       "title": "Torreense – Ararat-Armenia",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -10624,7 +10434,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 85,
+      "id": 80,
       "title": "Celta – Union Saint-Gilloise",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -10656,7 +10466,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 86,
+      "id": 81,
       "title": "Sunderland – Dinamo Zagreb",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -10688,7 +10498,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 87,
+      "id": 82,
       "title": "Sturm – Celje",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -10720,7 +10530,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 88,
+      "id": 83,
       "title": "Celtic – Besiktas",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -10752,7 +10562,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 89,
+      "id": 84,
       "title": "AZ – Juventus",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -10784,7 +10594,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 90,
+      "id": 85,
       "title": "Benfica – Lech Poznan",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -10816,7 +10626,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 91,
+      "id": 86,
       "title": "Leverkusen – Marseille",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -10953,7 +10763,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 92,
+      "id": 87,
       "title": "U Craiova – Egnatia",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -10985,7 +10795,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 93,
+      "id": 88,
       "title": "Sint-Truidense – Brann",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -11017,7 +10827,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 94,
+      "id": 89,
       "title": "Twente – Pafos",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -11049,7 +10859,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 95,
+      "id": 90,
       "title": "Getafe – Brighton",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -11081,7 +10891,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 96,
+      "id": 91,
       "title": "Lugano – Kauno Zalgiris",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -11113,7 +10923,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 97,
+      "id": 92,
       "title": "Panathinaikos – CSKA Sofia",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -11145,7 +10955,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 98,
+      "id": 93,
       "title": "Riga – Jablonec",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -11177,7 +10987,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 99,
+      "id": 94,
       "title": "Copenhagen – Iberia",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -11209,7 +11019,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 100,
+      "id": 95,
       "title": "AS Monaco – Nordsjaelland",
       "dateLabel": "5 November",
       "timeLabel": "21:00",
@@ -11241,7 +11051,7 @@
       "startsAt": "2026-11-05T20:00:00.000Z"
     },
     {
-      "id": 101,
+      "id": 96,
       "title": "Atlante (W) – UANL (W)",
       "dateLabel": "5 November",
       "timeLabel": "22:45",
@@ -11273,7 +11083,7 @@
       "startsAt": "2026-11-05T21:45:00.000Z"
     },
     {
-      "id": 102,
+      "id": 97,
       "title": "Gimnasia y Esgrima LP – Belgrano",
       "dateLabel": "5 November",
       "timeLabel": "23:15",
@@ -11428,7 +11238,7 @@
       "startsAt": "2026-11-05T22:15:00.000Z"
     },
     {
-      "id": 103,
+      "id": 98,
       "title": "Palmeiras – Remo",
       "dateLabel": "5 November",
       "timeLabel": "23:30",
@@ -11565,7 +11375,7 @@
       "startsAt": "2026-11-05T22:30:00.000Z"
     },
     {
-      "id": 104,
+      "id": 99,
       "matchId": "f51c702fb7bc",
       "title": "AEK – Real Madrid RM",
       "dateLabel": "4 November",
@@ -11589,7 +11399,7 @@
       "startsAt": "2026-11-04T17:45:00.000Z"
     },
     {
-      "id": 105,
+      "id": 100,
       "matchId": "8992f49198e1",
       "title": "Fenerbahce – Liverpool",
       "dateLabel": "4 November",
@@ -11613,7 +11423,7 @@
       "startsAt": "2026-11-04T17:45:00.000Z"
     },
     {
-      "id": 106,
+      "id": 101,
       "matchId": "1fd178e2801a",
       "title": "Kortrijk – Mechelen",
       "dateLabel": "4 November",
@@ -11637,31 +11447,7 @@
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 107,
-      "matchId": "32e0d3548ea1",
-      "title": "Zalgiris U-19 – St Patrick`s Athletic U-19",
-      "dateLabel": "4 November",
-      "timeLabel": "18:15",
-      "leagueLabel": "UEFA Youth League",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Zalgiris U-19",
-          "logoUrl": "teams/18/ods/17520.gif"
-        },
-        "away": {
-          "name": "St Patrick`s Athletic U-19",
-          "logoUrl": "teams/18/ods/17529.gif"
-        }
-      },
-      "score": "0:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T17:15:00.000Z"
-    },
-    {
-      "id": 108,
+      "id": 102,
       "matchId": "32bdb173b34d",
       "title": "Clermont U-19 – Legia U-19",
       "dateLabel": "4 November",
@@ -11685,7 +11471,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 109,
+      "id": 103,
       "matchId": "2173691632ee",
       "title": "Rangers U-19 – Dynamo Kyiv U-19",
       "dateLabel": "4 November",
@@ -11704,12 +11490,36 @@
           "logoUrl": "teams/18/ods/34700.gif"
         }
       },
-      "score": "1:0",
+      "score": "2:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 110,
+      "id": 104,
+      "matchId": "fecf602e2ff7",
+      "title": "Aldosivi II – Barracas Central II",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Argentina. Reserve League",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Aldosivi II",
+          "logoUrl": "teams/18/ods/19181.gif"
+        },
+        "away": {
+          "name": "Barracas Central II",
+          "logoUrl": "teams/18/ods/18231.gif"
+        }
+      },
+      "score": "0:1",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 105,
       "matchId": "c38e480e7ebc",
       "title": "Almirante Brown II – Defensores de Belgrano II",
       "dateLabel": "4 November",
@@ -11733,7 +11543,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 111,
+      "id": 106,
       "matchId": "697b45fff6ab",
       "title": "Deportivo Riestra II – Quilmes II",
       "dateLabel": "4 November",
@@ -11757,7 +11567,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 112,
+      "id": 107,
       "matchId": "13e4af13a573",
       "title": "Gimnasia y Esgrima LP II – Gimnasia Mendoza II",
       "dateLabel": "4 November",
@@ -11781,7 +11591,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 113,
+      "id": 108,
       "matchId": "5ac6abd195a5",
       "title": "San Martin II – Central Cordoba II",
       "dateLabel": "4 November",
@@ -11805,7 +11615,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 114,
+      "id": 109,
       "matchId": "21283f45fb84",
       "title": "Temperley II – Deportivo Moron II",
       "dateLabel": "4 November",
@@ -11829,7 +11639,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 115,
+      "id": 110,
       "matchId": "910fac4227e6",
       "title": "Union de Santa Fe II – Godoy Cruz II",
       "dateLabel": "4 November",
@@ -11853,7 +11663,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 116,
+      "id": 111,
       "matchId": "4a0f28338db6",
       "title": "Velez Sarsfield II – San Lorenzo II",
       "dateLabel": "4 November",
@@ -11877,7 +11687,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 117,
+      "id": 112,
       "matchId": "12957961f77c",
       "title": "Colegiales II – Estudiantes de Caseros II",
       "dateLabel": "4 November",
@@ -11901,7 +11711,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 118,
+      "id": 113,
       "matchId": "cb476df4fb6c",
       "title": "RSCA Futures – Lierse",
       "dateLabel": "4 November",
@@ -11925,7 +11735,7 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 119,
+      "id": 114,
       "matchId": "2febce101eaa",
       "title": "Francs Borains – Dender EH",
       "dateLabel": "4 November",
@@ -11949,7 +11759,7 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 120,
+      "id": 115,
       "matchId": "5fc10b4cb1e0",
       "title": "MC Alger – MC Oran",
       "dateLabel": "4 November",
@@ -11973,7 +11783,31 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 121,
+      "id": 116,
+      "matchId": "27c19012720b",
+      "title": "Al Masry – Petrojet",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Egypt. League Cup",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Al Masry",
+          "logoUrl": "teams/18/ods/1602.gif"
+        },
+        "away": {
+          "name": "Petrojet",
+          "logoUrl": "teams/18/ods/1554.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 117,
       "matchId": "2151c89b80cc",
       "title": "Hibernian (W) – Celtic (W)",
       "dateLabel": "4 November",
@@ -11997,7 +11831,7 @@
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 122,
+      "id": 118,
       "matchId": "2701a8aedaff",
       "title": "Aberdeen (W) – Spartans (W)",
       "dateLabel": "4 November",
@@ -12021,7 +11855,7 @@
       "startsAt": "2026-11-04T19:45:00.000Z"
     },
     {
-      "id": 123,
+      "id": 119,
       "matchId": "b0f56e9fdf7a",
       "title": "Rapid Vienna (W) – St Poelten (W)",
       "dateLabel": "4 November",
@@ -12045,7 +11879,31 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 124,
+      "id": 120,
+      "matchId": "7c5d9aaec5ed",
+      "title": "Atletico-MG U-20 – Santa Cruz U-20",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Brazil. Cup U20",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Atletico-MG U-20",
+          "logoUrl": "teams/18/ods/9079.gif"
+        },
+        "away": {
+          "name": "Santa Cruz U-20",
+          "logoUrl": "teams/18/ods/17562.gif"
+        }
+      },
+      "score": "3:1",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 121,
       "matchId": "318d8ff495f7",
       "title": "HB Koege (W) – Nordsjaelland (W)",
       "dateLabel": "4 November",
@@ -12069,7 +11927,7 @@
       "startsAt": "2026-11-04T17:30:00.000Z"
     },
     {
-      "id": 125,
+      "id": 122,
       "matchId": "d4de05289dc5",
       "title": "Argual (W) – Madrid (W)",
       "dateLabel": "4 November",
@@ -12093,7 +11951,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 126,
+      "id": 123,
       "matchId": "9bfe89867b35",
       "title": "Cacereno (W) – Alaves (W)",
       "dateLabel": "4 November",
@@ -12117,7 +11975,7 @@
       "startsAt": "2026-11-04T20:00:00.000Z"
     },
     {
-      "id": 127,
+      "id": 124,
       "matchId": "3c6d619f040c",
       "title": "Schaffhausen – Biel/Bienne",
       "dateLabel": "4 November",
@@ -12136,12 +11994,12 @@
           "logoUrl": "teams/18/ods/8242.gif"
         }
       },
-      "score": "1:1",
+      "score": "1:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 128,
+      "id": 125,
       "matchId": "082f03d4a63d",
       "title": "Dock Sud II – Deportivo Camioneros II",
       "dateLabel": "4 November",
@@ -12165,7 +12023,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 129,
+      "id": 126,
       "matchId": "4cefa7302c14",
       "title": "Anderlecht II (W) – Herk Sport (W)",
       "dateLabel": "4 November",
@@ -12184,12 +12042,12 @@
           "logoUrl": "teams/18/ods/38788.gif"
         }
       },
-      "score": "0:0",
+      "score": "2:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 130,
+      "id": 127,
       "matchId": "a3f9db6779d5",
       "title": "Americano U-20 – Sao Goncalo U-20",
       "dateLabel": "4 November",
@@ -12213,7 +12071,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 131,
+      "id": 128,
       "matchId": "abf1e7ef00b0",
       "title": "America Rio de Janeiro U-20 – Audax Rio U-20",
       "dateLabel": "4 November",
@@ -12237,7 +12095,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 132,
+      "id": 129,
       "matchId": "c97b5f787c6e",
       "title": "Resende U-20 – Cabofriense U-20",
       "dateLabel": "4 November",
@@ -12261,13 +12119,13 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 133,
+      "id": 130,
       "matchId": "d57f527caf4e",
       "title": "Boca Junior U-20 – Tuna Luso U-20",
       "dateLabel": "4 November",
       "timeLabel": "19:30",
       "leagueLabel": "Brazil. Pará U20 League",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -12280,12 +12138,12 @@
           "logoUrl": "teams/18/ods/21427.gif"
         }
       },
-      "score": "1:4",
-      "liveStatus": "live",
+      "score": "1:8",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T18:30:00.000Z"
     },
     {
-      "id": 134,
+      "id": 131,
       "matchId": "58b4c85bb921",
       "title": "Estanciano – AD Freipaulistano",
       "dateLabel": "4 November",
@@ -12309,7 +12167,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 135,
+      "id": 132,
       "matchId": "37912e9bab99",
       "title": "Aylesbury Utd – Winslow United",
       "dateLabel": "4 November",
@@ -12328,12 +12186,12 @@
           "logoUrl": "teams/18/ods/38432.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:45:00.000Z"
     },
     {
-      "id": 136,
+      "id": 133,
       "matchId": "4c479537dcc7",
       "title": "Mamer (W) – Swift Hesperange (W)",
       "dateLabel": "4 November",
@@ -12352,12 +12210,12 @@
           "logoUrl": "teams/18/ods/36615.gif"
         }
       },
-      "score": "0:1",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 137,
+      "id": 134,
       "matchId": "4552b0dca737",
       "title": "Racing Union (W) – Bettembourg (W)",
       "dateLabel": "4 November",
@@ -12376,12 +12234,12 @@
           "logoUrl": "teams/18/ods/38579.gif"
         }
       },
-      "score": "3:2",
+      "score": "4:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 138,
+      "id": 135,
       "matchId": "cbb871872480",
       "title": "Can Vidalet – Cornella",
       "dateLabel": "4 November",
@@ -12400,11 +12258,11 @@
           "logoUrl": "teams/18/ods/21062.gif"
         }
       },
-      "score": "4:1",
+      "score": "4:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:45:00.000Z"
     }
   ],
-  "enrichedAt": "2026-11-04T20:10:38.441Z",
-  "mergedAt": "2026-11-04T20:12:07.763Z"
+  "enrichedAt": "2026-11-04T20:29:04.294Z",
+  "mergedAt": "2026-11-04T20:30:25.920Z"
 }

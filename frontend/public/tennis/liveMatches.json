@@ -1,7 +1,7 @@
 {
   "section": "Tennis",
-  "scrapedAt": "2026-11-04T20:12:07.664Z",
-  "count": 15,
+  "scrapedAt": "2026-11-04T20:30:25.823Z",
+  "count": 16,
   "matches": [
     {
       "id": 1,
@@ -221,30 +221,6 @@
     },
     {
       "id": 10,
-      "matchId": "3e891c92d255",
-      "title": "Jerome Kym – Luka Pavlovic",
-      "dateLabel": "4 November",
-      "timeLabel": "19:57",
-      "leagueLabel": "ATP Challenger. Bratislava 2",
-      "isLive": true,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Jerome Kym",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Luka Pavlovic",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "1:0",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T18:57:00.000Z"
-    },
-    {
-      "id": 11,
       "matchId": "9682f9ae8f67",
       "title": "Nishesh Basavareddy – Mika Brunold",
       "dateLabel": "4 November",
@@ -266,6 +242,30 @@
       "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "matchId": "341517644e8b",
+      "title": "Jerome Kym – Luka Pavlovic",
+      "dateLabel": "4 November",
+      "timeLabel": "20:05",
+      "leagueLabel": "ATP Challenger. Bratislava 2",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Jerome Kym",
+          "logoUrl": "teams/18/ods/0.gif"
+        },
+        "away": {
+          "name": "Luka Pavlovic",
+          "logoUrl": "teams/18/ods/0.gif"
+        }
+      },
+      "score": "2:0",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T19:05:00.000Z"
     },
     {
       "id": 12,
@@ -317,27 +317,27 @@
     },
     {
       "id": 14,
-      "matchId": "4dc838534455",
-      "title": "Garay / Pagani – Del Pino / Zeitune",
+      "matchId": "198d911dfc3f",
+      "title": "Federico Juan Aguilar – Nicolas Kicker",
       "dateLabel": "4 November",
-      "timeLabel": "18:25",
-      "leagueLabel": "ATP Challenger. Villa Maria. Doubles",
+      "timeLabel": "20:05",
+      "leagueLabel": "ATP Challenger. Villa Maria",
       "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "Garay / Pagani",
-          "logoUrl": "teams/18/ods/.gif"
+          "name": "Federico Juan Aguilar",
+          "logoUrl": "teams/18/ods/0.gif"
         },
         "away": {
-          "name": "Del Pino / Zeitune",
-          "logoUrl": "teams/18/ods/.gif"
+          "name": "Nicolas Kicker",
+          "logoUrl": "teams/18/ods/17168.gif"
         }
       },
-      "score": "1:2",
+      "score": "0:2",
       "liveStatus": "finished",
-      "startsAt": "2026-11-04T17:25:00.000Z"
+      "startsAt": "2026-11-04T19:05:00.000Z"
     },
     {
       "id": 15,
@@ -362,6 +362,30 @@
       "score": "2:0",
       "liveStatus": "finished",
       "startsAt": "2026-11-04T18:05:00.000Z"
+    },
+    {
+      "id": 16,
+      "matchId": "b027669a7a60",
+      "title": "Lautaro Midon – Tomas Barrios",
+      "dateLabel": "4 November",
+      "timeLabel": "21:15",
+      "leagueLabel": "ATP Challenger. Costa do Sauípe",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Lautaro Midon",
+          "logoUrl": "teams/18/ods/22778.gif"
+        },
+        "away": {
+          "name": "Tomas Barrios",
+          "logoUrl": "teams/18/ods/14895.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T20:15:00.000Z"
     }
   ]
 }
