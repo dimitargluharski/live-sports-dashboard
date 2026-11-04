@@ -1,7 +1,7 @@
 {
   "section": "Volleyball",
-  "scrapedAt": "2026-11-04T20:30:25.823Z",
-  "count": 27,
+  "scrapedAt": "2026-11-04T20:48:43.384Z",
+  "count": 28,
   "matches": [
     {
       "id": 1,
@@ -143,12 +143,36 @@
           "logoUrl": "teams/18/ods/20829.gif"
         }
       },
-      "score": "1:0",
+      "score": "2:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:25:00.000Z"
     },
     {
       "id": 7,
+      "matchId": "d156b62eecca",
+      "title": "Benfica (W) – Olympiacos (W)",
+      "dateLabel": "4 November",
+      "timeLabel": "21:45",
+      "leagueLabel": "Women. Challenge Cup",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Benfica (W)",
+          "logoUrl": "teams/18/ods/20354.gif"
+        },
+        "away": {
+          "name": "Olympiacos (W)",
+          "logoUrl": "teams/18/ods/12020.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T20:45:00.000Z"
+    },
+    {
+      "id": 8,
       "matchId": "57b202c6bd40",
       "title": "Berlin RV – Friedrichshafen",
       "dateLabel": "4 November",
@@ -172,7 +196,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 8,
+      "id": 9,
       "matchId": "302cde32f490",
       "title": "Giesen – Mitteldeutschland",
       "dateLabel": "4 November",
@@ -196,7 +220,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 9,
+      "id": 10,
       "matchId": "20c947377afd",
       "title": "Freiburg – Lueneburg",
       "dateLabel": "4 November",
@@ -220,7 +244,7 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 10,
+      "id": 11,
       "matchId": "8094f3d37233",
       "title": "LKPS Lublin – Skra Belchatow",
       "dateLabel": "4 November",
@@ -239,12 +263,12 @@
           "logoUrl": "teams/18/ods/7837.gif"
         }
       },
-      "score": "0:1",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 11,
+      "id": 12,
       "matchId": "c78616a64c2d",
       "title": "Partizan – Radnicki",
       "dateLabel": "4 November",
@@ -263,60 +287,12 @@
           "logoUrl": "teams/18/ods/36364.gif"
         }
       },
-      "score": "1:1",
+      "score": "2:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:00:00.000Z"
-    },
-    {
-      "id": 12,
-      "matchId": "c7327629d80b",
-      "title": "Mladost – Levski Sofia",
-      "dateLabel": "4 November",
-      "timeLabel": "19:00",
-      "leagueLabel": "Champions League Qualifying",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Mladost",
-          "logoUrl": "teams/18/ods/13927.gif"
-        },
-        "away": {
-          "name": "Levski Sofia",
-          "logoUrl": "teams/18/ods/9680.gif"
-        }
-      },
-      "score": "3:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
       "id": 13,
-      "matchId": "432bd59764f9",
-      "title": "Orion – ACH Volley",
-      "dateLabel": "4 November",
-      "timeLabel": "20:00",
-      "leagueLabel": "Champions League Qualifying",
-      "isLive": true,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Orion",
-          "logoUrl": "teams/18/ods/33604.gif"
-        },
-        "away": {
-          "name": "ACH Volley",
-          "logoUrl": "teams/18/ods/8946.gif"
-        }
-      },
-      "score": "0:2",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T19:00:00.000Z"
-    },
-    {
-      "id": 14,
       "matchId": "c2ff082c3c13",
       "title": "Trentino – Piacenza",
       "dateLabel": "4 November",
@@ -340,7 +316,7 @@
       "startsAt": "2026-11-04T19:26:00.000Z"
     },
     {
-      "id": 15,
+      "id": 14,
       "matchId": "5ca8a4130726",
       "title": "Verona – Power Volley",
       "dateLabel": "4 November",
@@ -359,12 +335,12 @@
           "logoUrl": "teams/18/ods/11180.gif"
         }
       },
-      "score": "0:1",
+      "score": "0:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:26:00.000Z"
     },
     {
-      "id": 16,
+      "id": 15,
       "matchId": "9402df552db8",
       "title": "Cuneo – Monza",
       "dateLabel": "4 November",
@@ -383,12 +359,12 @@
           "logoUrl": "teams/18/ods/9062.gif"
         }
       },
-      "score": "0:1",
+      "score": "0:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 17,
+      "id": 16,
       "matchId": "8dfcabe08f98",
       "title": "Lube – Modena",
       "dateLabel": "4 November",
@@ -407,12 +383,12 @@
           "logoUrl": "teams/18/ods/68.gif"
         }
       },
-      "score": "1:0",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 18,
+      "id": 17,
       "matchId": "b35ab4b638c9",
       "title": "Perugia – Cisterna",
       "dateLabel": "4 November",
@@ -431,12 +407,60 @@
           "logoUrl": "teams/18/ods/31557.gif"
         }
       },
-      "score": "1:0",
+      "score": "2:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
+      "id": 18,
+      "matchId": "c7327629d80b",
+      "title": "Mladost – Levski Sofia",
+      "dateLabel": "4 November",
+      "timeLabel": "19:00",
+      "leagueLabel": "Champions League Qualifying",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Mladost",
+          "logoUrl": "teams/18/ods/13927.gif"
+        },
+        "away": {
+          "name": "Levski Sofia",
+          "logoUrl": "teams/18/ods/9680.gif"
+        }
+      },
+      "score": "3:1",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
       "id": 19,
+      "matchId": "432bd59764f9",
+      "title": "Orion – ACH Volley",
+      "dateLabel": "4 November",
+      "timeLabel": "20:00",
+      "leagueLabel": "Champions League Qualifying",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Orion",
+          "logoUrl": "teams/18/ods/33604.gif"
+        },
+        "away": {
+          "name": "ACH Volley",
+          "logoUrl": "teams/18/ods/8946.gif"
+        }
+      },
+      "score": "0:3",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T19:00:00.000Z"
+    },
+    {
+      "id": 20,
       "matchId": "35860842a03c",
       "title": "Roeselare – Waremme",
       "dateLabel": "4 November",
@@ -460,7 +484,7 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 20,
+      "id": 21,
       "matchId": "6b8264c65000",
       "title": "Tectum Achel – Guibertin",
       "dateLabel": "4 November",
@@ -484,7 +508,7 @@
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 21,
+      "id": 22,
       "matchId": "a62bf84f2749",
       "title": "Gent – Maaseik",
       "dateLabel": "4 November",
@@ -503,12 +527,12 @@
           "logoUrl": "teams/18/ods/19069.gif"
         }
       },
-      "score": "0:1",
+      "score": "0:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 22,
+      "id": 23,
       "matchId": "84cbf0ff7437",
       "title": "Haasrode Leuven – Menen",
       "dateLabel": "4 November",
@@ -527,12 +551,12 @@
           "logoUrl": "teams/18/ods/19070.gif"
         }
       },
-      "score": "0:1",
+      "score": "0:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:30:00.000Z"
     },
     {
-      "id": 23,
+      "id": 24,
       "matchId": "96c7cdf3c67e",
       "title": "Hasthagen – Uppsala",
       "dateLabel": "4 November",
@@ -556,7 +580,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 24,
+      "id": 25,
       "matchId": "f21f2e022106",
       "title": "Daugavpils/Ezerzeme – Jekabpils",
       "dateLabel": "4 November",
@@ -580,7 +604,7 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 25,
+      "id": 26,
       "matchId": "f5dd66a82a27",
       "title": "HK Kopavogur (W) – Throttur R (W)",
       "dateLabel": "4 November",
@@ -599,12 +623,12 @@
           "logoUrl": "teams/18/ods/31851.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T20:15:00.000Z"
     },
     {
-      "id": 26,
+      "id": 27,
       "matchId": "e919691ce7f8",
       "title": "Engelholm (W) – Gislaved (W)",
       "dateLabel": "4 November",
@@ -628,13 +652,13 @@
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 27,
+      "id": 28,
       "matchId": "5a1d10b4e1f3",
       "title": "Drammen – Ready",
       "dateLabel": "4 November",
       "timeLabel": "19:30",
       "leagueLabel": "Norway. Elitserien",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -648,7 +672,7 @@
         }
       },
       "score": "1:1",
-      "liveStatus": "live",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T18:30:00.000Z"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "section": "Tennis",
-  "scrapedAt": "2026-11-04T20:30:25.823Z",
+  "scrapedAt": "2026-11-04T20:48:43.384Z",
   "count": 16,
   "matches": [
     {
@@ -71,7 +71,7 @@
           "logoUrl": "teams/18/ods/25507.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
@@ -95,36 +95,12 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:49:00.000Z"
     },
     {
       "id": 5,
-      "matchId": "4d97d6452401",
-      "title": "Matteo Berrettini – Ugo Humbert",
-      "dateLabel": "4 November",
-      "timeLabel": "18:35",
-      "leagueLabel": "ATP. Paris",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Matteo Berrettini",
-          "logoUrl": "teams/18/ods/4736.gif"
-        },
-        "away": {
-          "name": "Ugo Humbert",
-          "logoUrl": "teams/18/ods/7528.gif"
-        }
-      },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T17:35:00.000Z"
-    },
-    {
-      "id": 6,
       "matchId": "43b3d569fdeb",
       "title": "Alex Michelsen – Carlos Alcaraz",
       "dateLabel": "4 November",
@@ -144,6 +120,30 @@
         }
       },
       "score": "0:2",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T18:15:00.000Z"
+    },
+    {
+      "id": 6,
+      "matchId": "d640cf258cf6",
+      "title": "Thiago Tirante – Jan-lennard Struff",
+      "dateLabel": "4 November",
+      "timeLabel": "19:15",
+      "leagueLabel": "ATP. Paris",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Thiago Tirante",
+          "logoUrl": "teams/18/ods/15967.gif"
+        },
+        "away": {
+          "name": "Jan-lennard Struff",
+          "logoUrl": "teams/18/ods/7748.gif"
+        }
+      },
+      "score": "1:2",
       "liveStatus": "finished",
       "startsAt": "2026-11-04T18:15:00.000Z"
     },
@@ -215,7 +215,7 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T19:39:00.000Z"
     },
