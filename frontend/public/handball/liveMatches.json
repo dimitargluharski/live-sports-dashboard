@@ -1,7 +1,7 @@
 {
   "section": "Handball",
-  "scrapedAt": "2026-11-04T21:42:47.483Z",
-  "count": 27,
+  "scrapedAt": "2026-11-04T22:00:15.167Z",
+  "count": 26,
   "matches": [
     {
       "id": 1,
@@ -317,30 +317,6 @@
     },
     {
       "id": 14,
-      "matchId": "d364dd0e29bd",
-      "title": "Vladislav Chakhur – Nikita Sukharnikov",
-      "dateLabel": "4 November",
-      "timeLabel": "19:45",
-      "leagueLabel": "Russia. League Pro",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Vladislav Chakhur",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Nikita Sukharnikov",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "2:3",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T18:45:00.000Z"
-    },
-    {
-      "id": 15,
       "matchId": "0b3b8c0cc708",
       "title": "Denis Lebedev – Ivan Soldatov",
       "dateLabel": "4 November",
@@ -364,7 +340,7 @@
       "startsAt": "2026-11-04T20:45:00.000Z"
     },
     {
-      "id": 16,
+      "id": 15,
       "matchId": "a624f3ed6365",
       "title": "Konstantin Bystrushkin – Evgeny Kryuchkov",
       "dateLabel": "4 November",
@@ -386,6 +362,30 @@
       "score": "0:3",
       "liveStatus": "finished",
       "startsAt": "2026-11-04T21:15:00.000Z"
+    },
+    {
+      "id": 16,
+      "matchId": "f4ff5aeee5a5",
+      "title": "Ivan Soldatov – Vladimir Eremin",
+      "dateLabel": "4 November",
+      "timeLabel": "22:45",
+      "leagueLabel": "Russia. League Pro",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Ivan Soldatov",
+          "logoUrl": "teams/18/ods/0.gif"
+        },
+        "away": {
+          "name": "Vladimir Eremin",
+          "logoUrl": "teams/18/ods/0.gif"
+        }
+      },
+      "score": "1:1",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T21:45:00.000Z"
     },
     {
       "id": 17,
@@ -586,7 +586,7 @@
       "dateLabel": "4 November",
       "timeLabel": "22:30",
       "leagueLabel": "Setka Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -599,36 +599,12 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "1:1",
-      "liveStatus": "live",
+      "score": "1:3",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T21:30:00.000Z"
     },
     {
       "id": 26,
-      "matchId": "9e1e5947f3cc",
-      "title": "Jan Hendrych – Milan Dvorak",
-      "dateLabel": "4 November",
-      "timeLabel": "19:50",
-      "leagueLabel": "TT Cup",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Jan Hendrych",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Milan Dvorak",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "0:3",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T18:50:00.000Z"
-    },
-    {
-      "id": 27,
       "matchId": "8e4f3d0686a9",
       "title": "Michal Nemec – Pavel Cibik",
       "dateLabel": "4 November",

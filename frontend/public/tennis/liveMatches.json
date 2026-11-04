@@ -1,7 +1,7 @@
 {
   "section": "Tennis",
-  "scrapedAt": "2026-11-04T21:42:47.483Z",
-  "count": 13,
+  "scrapedAt": "2026-11-04T22:00:15.167Z",
+  "count": 14,
   "matches": [
     {
       "id": 1,
@@ -53,6 +53,30 @@
     },
     {
       "id": 3,
+      "matchId": "6e90d07be5ed",
+      "title": "Arthur Fils – Tomas Machac",
+      "dateLabel": "4 November",
+      "timeLabel": "21:20",
+      "leagueLabel": "ATP. Paris",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Arthur Fils",
+          "logoUrl": "teams/18/ods/14949.gif"
+        },
+        "away": {
+          "name": "Tomas Machac",
+          "logoUrl": "teams/18/ods/9125.gif"
+        }
+      },
+      "score": "2:0",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-04T20:20:00.000Z"
+    },
+    {
+      "id": 4,
       "matchId": "017d2dec5265",
       "title": "Marcos Giron – Justin Boulais",
       "dateLabel": "4 November",
@@ -76,7 +100,7 @@
       "startsAt": "2026-11-04T19:39:00.000Z"
     },
     {
-      "id": 4,
+      "id": 5,
       "matchId": "a9b2a88661c1",
       "title": "Jakupovic (W) / Radisic (W) – Escorihuela (W) / Riera (W)",
       "dateLabel": "4 November",
@@ -95,12 +119,12 @@
           "logoUrl": "teams/18/ods/.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T21:30:00.000Z"
     },
     {
-      "id": 5,
+      "id": 6,
       "matchId": "341517644e8b",
       "title": "Jerome Kym – Luka Pavlovic",
       "dateLabel": "4 November",
@@ -124,7 +148,7 @@
       "startsAt": "2026-11-04T19:05:00.000Z"
     },
     {
-      "id": 6,
+      "id": 7,
       "matchId": "74bcda85b54a",
       "title": "Nishesh Basavareddy – Mika Brunold",
       "dateLabel": "4 November",
@@ -148,7 +172,7 @@
       "startsAt": "2026-11-04T19:10:00.000Z"
     },
     {
-      "id": 7,
+      "id": 8,
       "matchId": "19a6c40fea80",
       "title": "Andrade / Kiger – Galarneau / Verdugo",
       "dateLabel": "4 November",
@@ -172,7 +196,7 @@
       "startsAt": "2026-11-04T20:10:00.000Z"
     },
     {
-      "id": 8,
+      "id": 9,
       "matchId": "43bcf39f5da3",
       "title": "Oriol Roca Batalla – Ryo Tabata",
       "dateLabel": "4 November",
@@ -196,7 +220,7 @@
       "startsAt": "2026-11-04T19:00:00.000Z"
     },
     {
-      "id": 9,
+      "id": 10,
       "matchId": "198d911dfc3f",
       "title": "Federico Juan Aguilar – Nicolas Kicker",
       "dateLabel": "4 November",
@@ -220,7 +244,7 @@
       "startsAt": "2026-11-04T19:05:00.000Z"
     },
     {
-      "id": 10,
+      "id": 11,
       "matchId": "b027669a7a60",
       "title": "Lautaro Midon – Tomas Barrios",
       "dateLabel": "4 November",
@@ -239,12 +263,12 @@
           "logoUrl": "teams/18/ods/14895.gif"
         }
       },
-      "score": "1:0",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T20:15:00.000Z"
     },
     {
-      "id": 11,
+      "id": 12,
       "matchId": "2c9ee4808dbf",
       "title": "Igor Marcondes – Camilo Ugo Carabelli",
       "dateLabel": "4 November",
@@ -268,7 +292,7 @@
       "startsAt": "2026-11-04T21:31:00.000Z"
     },
     {
-      "id": 12,
+      "id": 13,
       "matchId": "dd9e8fcda1fa",
       "title": "Hidalgo / Molteni – Carou / Arias",
       "dateLabel": "4 November",
@@ -292,7 +316,7 @@
       "startsAt": "2026-11-04T19:40:00.000Z"
     },
     {
-      "id": 13,
+      "id": 14,
       "matchId": "67a4971bf802",
       "title": "Kolar / Rodriguez Taverna – Kestelboim / Barrientos",
       "dateLabel": "4 November",
