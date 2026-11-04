@@ -1,29 +1,36 @@
-import { useEffect } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
 import { FEED_REFRESH_INTERVAL_MS, STATUS_REFRESH_INTERVAL_MS } from '../constants/app';
-import { useFeedStore } from '../stores/useFeedStore';
+import { fetchGames, gamesQueryKey } from '../services/fetchGames';
 import type { Game, Sport } from '../types/game';
+import { resolveGameStatus } from '../utils/resolveGameStatus';
 
 interface UseGamesFeedResult {
   games: Game[];
   isLoading: boolean;
   error: Error | null;
+  lastUpdatedAt: number | null;
 }
 
 export function useGamesFeed(sport: Sport): UseGamesFeedResult {
-  const { games, isLoading, error } = useFeedStore((state) => state.feeds[sport]);
-  const loadSport = useFeedStore((state) => state.loadSport);
-  const refreshStatuses = useFeedStore((state) => state.refreshStatuses);
+  const { data, isPending, error, dataUpdatedAt } = useQuery({
+    queryKey: gamesQueryKey(sport),
+    queryFn: ({ signal }) => fetchGames(sport, signal),
+    refetchInterval: FEED_REFRESH_INTERVAL_MS,
+  });
 
+  // Live/ended flags depend on the clock, so they are re-derived between feed refreshes.
+  const [statusTick, setStatusTick] = useState(0);
   useEffect(() => {
-    void loadSport(sport);
-    const feedTimer = window.setInterval(() => void loadSport(sport), FEED_REFRESH_INTERVAL_MS);
-    return () => window.clearInterval(feedTimer);
-  }, [sport, loadSport]);
+    const timer = window.setInterval(() => setStatusTick((tick) => tick + 1), STATUS_REFRESH_INTERVAL_MS);
+    return () => window.clearInterval(timer);
+  }, []);
 
-  useEffect(() => {
-    const statusTimer = window.setInterval(refreshStatuses, STATUS_REFRESH_INTERVAL_MS);
-    return () => window.clearInterval(statusTimer);
-  }, [refreshStatuses]);
+  const games = useMemo(
+    () => (data ?? []).map((game) => ({ ...game, ...resolveGameStatus(game) })),
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- statusTick forces the clock-based status to be recomputed
+    [data, statusTick],
+  );
 
-  return { games, isLoading, error };
+  return { games, isLoading: isPending, error, lastUpdatedAt: dataUpdatedAt || null };
 }

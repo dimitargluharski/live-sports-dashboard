@@ -41,7 +41,13 @@ export interface HeadToHead {
   } | null;
 }
 
+export interface WinChances {
+  home: number;
+  away: number;
+}
+
 export interface Game {
+  winChances?: WinChances | null;
   id: number;
   matchId?: string;
   score?: string;
@@ -49,6 +55,7 @@ export interface Game {
   title: string;
   dateLabel?: string;
   timeLabel?: string;
+  startsAt?: string;
   scheduledStartAt?: number;
   sourceIsLive?: boolean;
   sourceStatusAt?: number;

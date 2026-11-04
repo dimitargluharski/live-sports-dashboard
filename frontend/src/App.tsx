@@ -12,13 +12,13 @@ function App() {
   const [storedTab, setTab] = usePersistentState<Sport>(SPORT_STORAGE_KEY, 'soccer');
   // A previously saved removed page (e.g. "livescores") falls back to soccer.
   const tab: Sport = storedTab === 'basketball' ? 'basketball' : 'soccer';
-  const { games, isLoading, error } = useGamesFeed(tab);
+  const { games, isLoading, error, lastUpdatedAt } = useGamesFeed(tab);
 
   return (
     <ThemeProvider>
       <Sidebar activePage={tab} onPageChange={setTab} />
       <div className="min-h-screen pl-16 text-slate-950">
-        <GlobalSearch />
+        <GlobalSearch lastUpdatedAt={lastUpdatedAt} />
         <FeedStatus isLoading={isLoading} error={error} />
         {!isLoading && <GamesGrid games={games} />}
       </div>

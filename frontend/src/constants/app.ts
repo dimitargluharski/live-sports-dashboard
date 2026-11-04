@@ -10,6 +10,7 @@ export const LARGE_COMPETITION_FILTER_SIZE = 10;
 export const THEME_STORAGE_KEY = 'sportix-theme';
 export const LIVE_FILTER_STORAGE_KEY = 'sportix-filter-live';
 export const STREAMS_FILTER_STORAGE_KEY = 'sportix-filter-streams';
+export const TODAY_FILTER_STORAGE_KEY = 'sportix-filter-today';
 export const SPORT_STORAGE_KEY = 'sportix-sport';
 
 export const TEAM_LOGO_BASE_URL = (import.meta.env.VITE_TEAM_LOGO_BASE_URL as string | undefined) ?? '';

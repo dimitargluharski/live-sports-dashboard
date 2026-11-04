@@ -8,6 +8,7 @@
 const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
+const { stampStartsAt } = require("./lib/start-times");
 
 const BACKEND_PUBLIC = path.join(__dirname, "..", "public", "soccer");
 const FRONTEND_PUBLIC = path.join(__dirname, "..", "..", "frontend", "public", "soccer");
@@ -152,7 +153,7 @@ function main() {
     ...payload,
     mergedAt: new Date().toISOString(),
     count: matches.length,
-    matches,
+    matches: stampStartsAt(matches, payload.scrapedAt),
   };
 
   const json = JSON.stringify(output, null, 2);

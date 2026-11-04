@@ -1,11 +1,7 @@
-import { parseScheduledStart } from './parseScheduledStart';
+export function formatLocalMatchTime(startAt?: number, fallbackTimeLabel?: string): string | undefined {
+  if (startAt === undefined) return fallbackTimeLabel || undefined;
 
-export function formatLocalMatchTime(dateLabel?: string, timeLabel?: string): string | undefined {
-  if (!dateLabel || !timeLabel) return timeLabel || undefined;
-
-  const sourceDate = parseScheduledStart(dateLabel, timeLabel);
-  if (!sourceDate) return timeLabel;
-
+  const sourceDate = new Date(startAt);
   const time = new Intl.DateTimeFormat(undefined, {
     hour: '2-digit',
     minute: '2-digit',

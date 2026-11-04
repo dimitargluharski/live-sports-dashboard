@@ -2,7 +2,7 @@ import { useTheme } from '../contexts/useTheme';
 import { RefreshTimer } from './RefreshTimer';
 import { useSearchStore } from '../stores/useSearchStore';
 
-export function GlobalSearch() {
+export function GlobalSearch({ lastUpdatedAt }: { lastUpdatedAt: number | null }) {
   const { isDarkTheme } = useTheme();
   const searchTerm = useSearchStore((state) => state.searchTerm);
   const setSearchTerm = useSearchStore((state) => state.setSearchTerm);
@@ -32,7 +32,7 @@ export function GlobalSearch() {
           />
         </div>
         <div className="flex justify-end pr-4 md:pr-6">
-          <RefreshTimer />
+          <RefreshTimer lastUpdatedAt={lastUpdatedAt} />
         </div>
       </div>
     </div>

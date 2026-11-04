@@ -1,6 +1,6 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-11-04T14:31:28.450Z",
+  "scrapedAt": "2026-11-04T15:47:30.972Z",
   "count": 116,
   "matches": [
     {
@@ -23,7 +23,7 @@
           "language": "Kazakh",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T14:31:29.907Z",
+          "healthCheckedAt": "2026-11-04T15:47:31.574Z",
           "healthHttpStatus": 200
         }
       ],
@@ -46,6 +46,15 @@
         "compareUrl": "https://livetv.sx/enx/h2h/700024195/700026001/3_1b4d3/",
         "matches": [
           {
+            "date": "04/11",
+            "competition": "Kazakhstan. National League",
+            "homeTeam": "Barsy Atyrau",
+            "awayTeam": "Almaty Legion",
+            "score": "55:64",
+            "result": "L",
+            "winner": "away"
+          },
+          {
             "date": "03/11",
             "competition": "Kazakhstan. National League",
             "homeTeam": "Barsy Atyrau",
@@ -62,15 +71,6 @@
             "score": "65:72",
             "result": "L",
             "winner": "away"
-          },
-          {
-            "date": "27/05",
-            "competition": "Kazakhstan. National League",
-            "homeTeam": "Barsy Atyrau",
-            "awayTeam": "Almaty Legion",
-            "score": "74:76",
-            "result": "L",
-            "winner": "away"
           }
         ],
         "homeTeam": "Barsy Atyrau",
@@ -78,6 +78,13 @@
         "form": {
           "home": {
             "matches": [
+              {
+                "date": "04/11",
+                "competition": "National League",
+                "opponent": "Almaty Legion",
+                "score": "0:0",
+                "result": "D"
+              },
               {
                 "date": "03/11",
                 "competition": "National League",
@@ -105,23 +112,23 @@
                 "opponent": "Almaty Legion",
                 "score": "65:72",
                 "result": "L"
-              },
-              {
-                "date": "27/05",
-                "competition": "National League",
-                "opponent": "Almaty Legion",
-                "score": "74:76",
-                "result": "L"
               }
             ],
             "summary": {
               "W": 3,
-              "D": 0,
-              "L": 2
+              "D": 1,
+              "L": 1
             }
           },
           "away": {
             "matches": [
+              {
+                "date": "04/11",
+                "competition": "National League",
+                "opponent": "Barsy Atyrau",
+                "score": "0:0",
+                "result": "D"
+              },
               {
                 "date": "03/11",
                 "competition": "National League",
@@ -149,18 +156,11 @@
                 "opponent": "Barsy Atyrau",
                 "score": "72:65",
                 "result": "W"
-              },
-              {
-                "date": "27/05",
-                "competition": "National League",
-                "opponent": "Barsy Atyrau",
-                "score": "76:74",
-                "result": "W"
               }
             ],
             "summary": {
-              "W": 4,
-              "D": 0,
+              "W": 3,
+              "D": 1,
               "L": 1
             }
           }
@@ -172,7 +172,7 @@
       "title": "Zrinjski Mostar – Anwil Wloclawek",
       "dateLabel": "4 November",
       "timeLabel": "16:15",
-      "isLive": false,
+      "isLive": true,
       "leagueLabel": "ENBL",
       "iconUrl": "https://cdn.livetv911.me/img/icons/basket.gif",
       "iconAlt": "ENBL",
@@ -187,7 +187,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T14:31:29.917Z",
+          "healthCheckedAt": "2026-11-04T15:47:31.584Z",
           "healthHttpStatus": 200
         }
       ],
@@ -206,7 +206,112 @@
           "substitutes": []
         }
       },
-      "headToHead": null
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700041121/700000792/3_5c78f/",
+        "matches": [
+          {
+            "date": "04/11",
+            "competition": "ENBL",
+            "homeTeam": "Zrinjski Mostar",
+            "awayTeam": "Anwil Wloclawek",
+            "score": "0:0",
+            "result": "D",
+            "winner": "draw"
+          }
+        ],
+        "homeTeam": "Zrinjski Mostar",
+        "awayTeam": "Anwil Wloclawek",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "21/10",
+                "competition": "ENBL",
+                "opponent": "Spartak Pleven",
+                "score": "74:77",
+                "result": "L"
+              },
+              {
+                "date": "17/10",
+                "competition": "Premier League",
+                "opponent": "Orlovik",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "12/10",
+                "competition": "Premier League",
+                "opponent": "Borac",
+                "score": "66:76",
+                "result": "L"
+              },
+              {
+                "date": "08/10",
+                "competition": "ENBL",
+                "opponent": "Fyllingen",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "05/10",
+                "competition": "Premier League",
+                "opponent": "Promo",
+                "score": "0:0",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 3,
+              "L": 2
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "21/10",
+                "competition": "ENBL",
+                "opponent": "Spartak Pleven",
+                "score": "74:77",
+                "result": "L"
+              },
+              {
+                "date": "17/10",
+                "competition": "Premier League",
+                "opponent": "Zrinjski Mostar",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "12/10",
+                "competition": "Premier League",
+                "opponent": "Borac",
+                "score": "66:76",
+                "result": "L"
+              },
+              {
+                "date": "08/10",
+                "competition": "ENBL",
+                "opponent": "Fyllingen",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "05/10",
+                "competition": "Premier League",
+                "opponent": "Zrinjski Mostar",
+                "score": "0:0",
+                "result": "D"
+              }
+            ],
+            "summary": {
+              "W": 0,
+              "D": 3,
+              "L": 2
+            }
+          }
+        }
+      }
     },
     {
       "id": 3,
@@ -220,8 +325,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:00\n(FIBA Europe Cup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/jJTNXo3gWk4?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T15:47:31.584Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Esenler Erokspor",
@@ -250,8 +366,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:00\n(Lithuania. Women. LMKL)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/hCTMFTOGfCA?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T15:47:31.585Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Alytaus Dzukija (W)",
@@ -280,8 +407,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:00\n(Women. Adriatic League)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/DVEqKPQtj_I?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T15:47:31.586Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Beroe (W)",
@@ -310,8 +448,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:00\n(Women. Eurocup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/C2JfGHfUrf4?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T15:47:31.586Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Panserraikos (W)",
@@ -340,8 +489,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:15\n(Women. Eurocup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/-2tnG_Sy77s?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T15:47:31.587Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "SBS Ostrava (W)",
@@ -370,8 +530,39 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:30\n(Eurocup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://emb.tvp9.online/p2p/?id=268645",
+          "language": "Croatian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T15:47:31.587Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 2,
+          "label": "Stream 4",
+          "url": "https://emb.tvp9.online/p2p/?id=268672",
+          "language": "Croatian",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T15:47:31.916Z",
+          "healthHttpStatus": 200
+        },
+        {
+          "id": 3,
+          "label": "Stream 6",
+          "url": "https://emb.tvp9.online/p2p/?id=270463",
+          "language": "Turkish",
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T15:47:31.920Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 3,
       "teams": {
         "home": {
           "name": "Turk Telekom",
@@ -400,8 +591,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:30\n(FIBA Europe Cup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/HJhhHjKa2MI?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T15:47:31.932Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Korfez",
@@ -430,8 +632,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:30\n(Women. Eurocup)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/YSAMitWTQZY?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T15:47:31.955Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "HBA (W)",
@@ -460,8 +673,19 @@
       "sectionLabel": "4 November",
       "isTopMatch": false,
       "rawDescription": "4 November at 17:30\n(Bulgaria. NBL)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/9RlVO_XiWS0?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-04T15:47:31.960Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Shumen",
@@ -9653,5 +9877,5 @@
       }
     }
   ],
-  "enrichedAt": "2026-11-04T14:31:28.450Z"
+  "enrichedAt": "2026-11-04T15:47:30.973Z"
 }

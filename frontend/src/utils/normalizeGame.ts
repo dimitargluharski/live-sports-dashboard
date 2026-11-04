@@ -1,7 +1,8 @@
 import type { Game } from '../types/game';
 import { formatLocalMatchTime } from './formatLocalMatchTime';
-import { parseScheduledStart } from './parseScheduledStart';
+import { resolveScheduledStart } from './resolveScheduledStart';
 import { resolveGameStatus } from './resolveGameStatus';
+import { getGameWinChances } from './getGameWinChances';
 import { TEAM_LOGO_BASE_URL } from '../constants/app';
 
 // Live-only matches carry logo paths relative to the image host.
@@ -19,7 +20,7 @@ function resolveTeams(teams: Game['teams']): Game['teams'] {
 }
 
 export function normalizeGame(game: Partial<Game>, index: number, sourceStatusAt?: number): Game {
-  const scheduledStartAt = parseScheduledStart(game.dateLabel, game.timeLabel)?.getTime();
+  const scheduledStartAt = resolveScheduledStart(game);
   const sourceIsLive = Boolean(game.sourceIsLive ?? game.isLive);
   const { isEnded, isLive } = resolveGameStatus({ scheduledStartAt, sourceIsLive, sourceStatusAt, liveStatus: game.liveStatus });
 
@@ -30,7 +31,8 @@ export function normalizeGame(game: Partial<Game>, index: number, sourceStatusAt
     liveStatus: game.liveStatus,
     title: game.title || 'Unknown match',
     dateLabel: game.dateLabel || undefined,
-    timeLabel: formatLocalMatchTime(game.dateLabel, game.timeLabel),
+    timeLabel: formatLocalMatchTime(scheduledStartAt, game.timeLabel),
+    startsAt: game.startsAt,
     scheduledStartAt,
     leagueLabel: game.leagueLabel || undefined,
     streamCount: Number.isFinite(game.streamCount)
@@ -42,6 +44,7 @@ export function normalizeGame(game: Partial<Game>, index: number, sourceStatusAt
     isLive,
     streams: Array.isArray(game.streams) ? game.streams : [],
     headToHead: game.headToHead || null,
+    winChances: getGameWinChances(game.headToHead),
     teams: resolveTeams(game.teams),
   };
 }

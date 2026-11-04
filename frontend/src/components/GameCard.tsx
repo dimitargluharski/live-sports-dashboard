@@ -5,7 +5,7 @@ import { GameCardHeader } from './GameCardHeader';
 import { GameCardStreams } from './GameCardStreams';
 import { GameCardTabs } from './GameCardTabs';
 import { StreamModal } from './StreamModal';
-import type { HeadToHead, Stream } from '../types/game';
+import type { HeadToHead, Stream, WinChances } from '../types/game';
 import { getFormInsight } from '../utils/getFormInsight';
 import { getFormSummary } from '../utils/getFormSummary';
 import { splitGameTitle } from '../utils/splitGameTitle';
@@ -35,6 +35,7 @@ interface GameCardProps {
   isChampionsLeague?: boolean;
   isCarouselActive?: boolean;
   showWinChances?: boolean;
+  winChances?: WinChances | null;
 }
 
 export const GameCard = React.memo<GameCardProps>(({
@@ -43,6 +44,7 @@ export const GameCard = React.memo<GameCardProps>(({
   homeLogoUrl,
   awayLogoUrl,
   timeLabel,
+  leagueLabel,
   streamCount,
   score,
   isLive,
@@ -55,6 +57,7 @@ export const GameCard = React.memo<GameCardProps>(({
   isChampionsLeague = false,
   isCarouselActive = true,
   showWinChances = false,
+  winChances = null,
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [activeTab, setActiveTab] = useState<'streams' | 'h2h' | 'form'>('streams');
@@ -119,6 +122,8 @@ export const GameCard = React.memo<GameCardProps>(({
       data-streams-available={canWatchStreams ? 'true' : 'false'}
     >
       <GameCardHeader
+        variant={isChampionsLeague ? 'carousel' : 'compact'}
+        leagueLabel={leagueLabel}
         timeLabel={timeLabel}
         isLive={isLive}
         isEnded={isEnded}
@@ -136,11 +141,8 @@ export const GameCard = React.memo<GameCardProps>(({
         homeLogoUrl={homeLogoUrl}
         awayLogoUrl={awayLogoUrl}
         flagUrl={flagUrl}
-        hideScheduledTime={false}
-        horizontalTeams={isChampionsLeague}
         showWinChances={showWinChances}
-        homeForm={headToHead?.form?.home}
-        awayForm={headToHead?.form?.away}
+        winChances={winChances}
         onToggle={toggleExpanded}
       />
 

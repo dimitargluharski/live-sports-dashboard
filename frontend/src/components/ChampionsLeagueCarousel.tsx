@@ -32,7 +32,7 @@ export const ChampionsLeagueCarousel: React.FC<ChampionsLeagueCarouselProps> = (
         grabCursor
         watchOverflow
         onSlideChange={(swiper) => setActiveSlide(swiper.realIndex)}
-        aria-label="Champions League matches"
+        aria-label="Featured matches"
       >
         {sortedGames.map((game, index) => (
           <SwiperSlide key={game.id} className="!h-auto pb-8 pt-1">
