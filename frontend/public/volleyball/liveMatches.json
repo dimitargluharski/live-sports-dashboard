@@ -1,6 +1,6 @@
 {
   "section": "Volleyball",
-  "scrapedAt": "2026-11-04T18:19:18.505Z",
+  "scrapedAt": "2026-11-04T18:38:10.302Z",
   "count": 32,
   "matches": [
     {
@@ -95,7 +95,7 @@
           "logoUrl": "teams/18/ods/17210.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:55:00.000Z"
     },
@@ -119,7 +119,7 @@
           "logoUrl": "teams/18/ods/16754.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -143,7 +143,7 @@
           "logoUrl": "teams/18/ods/17479.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -167,7 +167,7 @@
           "logoUrl": "teams/18/ods/36241.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -191,7 +191,7 @@
           "logoUrl": "teams/18/ods/36120.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
@@ -221,30 +221,6 @@
     },
     {
       "id": 10,
-      "matchId": "c06ba4d34133",
-      "title": "Gorky – NOVA",
-      "dateLabel": "4 November",
-      "timeLabel": "16:30",
-      "leagueLabel": "Russia. Super League",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Gorky",
-          "logoUrl": "teams/18/ods/35971.gif"
-        },
-        "away": {
-          "name": "NOVA",
-          "logoUrl": "teams/18/ods/895.gif"
-        }
-      },
-      "score": "3:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T15:30:00.000Z"
-    },
-    {
-      "id": 11,
       "matchId": "2ba7aa777756",
       "title": "Belogorie – Dynamo Ural",
       "dateLabel": "4 November",
@@ -268,7 +244,7 @@
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 12,
+      "id": 11,
       "matchId": "7d8418cd50eb",
       "title": "Dynamo M – MGTU",
       "dateLabel": "4 November",
@@ -292,7 +268,7 @@
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 13,
+      "id": 12,
       "matchId": "6f10fe144074",
       "title": "Besiktas (W) – Eczacibasi (W)",
       "dateLabel": "4 November",
@@ -316,7 +292,7 @@
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 14,
+      "id": 13,
       "matchId": "f1181924b115",
       "title": "Vakifbank (W) – Turk Hava Yollari (W)",
       "dateLabel": "4 November",
@@ -340,7 +316,7 @@
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 15,
+      "id": 14,
       "matchId": "ce852769c71f",
       "title": "Vojvodina – Karadjordje",
       "dateLabel": "4 November",
@@ -359,12 +335,12 @@
           "logoUrl": "teams/18/ods/36360.gif"
         }
       },
-      "score": "1:1",
+      "score": "2:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:56:00.000Z"
     },
     {
-      "id": 16,
+      "id": 15,
       "matchId": "9a58524ac006",
       "title": "Deya Sport – Pirin Razlog",
       "dateLabel": "4 November",
@@ -388,13 +364,13 @@
       "startsAt": "2026-11-04T16:30:00.000Z"
     },
     {
-      "id": 17,
+      "id": 16,
       "matchId": "23fe54496217",
       "title": "Slavia Sofia – Neftohimik",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
       "leagueLabel": "Bulgaria. Super League",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -407,12 +383,12 @@
           "logoUrl": "teams/18/ods/32168.gif"
         }
       },
-      "score": "0:2",
-      "liveStatus": "live",
+      "score": "0:3",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 18,
+      "id": 17,
       "matchId": "c7327629d80b",
       "title": "Mladost – Levski Sofia",
       "dateLabel": "4 November",
@@ -431,12 +407,12 @@
           "logoUrl": "teams/18/ods/9680.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 19,
+      "id": 18,
       "matchId": "2b3955997e33",
       "title": "Loimu – KyKy",
       "dateLabel": "4 November",
@@ -460,7 +436,7 @@
       "startsAt": "2026-11-04T16:30:00.000Z"
     },
     {
-      "id": 20,
+      "id": 19,
       "matchId": "d6544e27d75c",
       "title": "Sedziszow Malopolski – Czarni Radom",
       "dateLabel": "4 November",
@@ -479,18 +455,18 @@
           "logoUrl": "teams/18/ods/7894.gif"
         }
       },
-      "score": "0:2",
+      "score": "1:2",
       "liveStatus": "live",
       "startsAt": "2026-11-04T16:56:00.000Z"
     },
     {
-      "id": 21,
+      "id": 20,
       "matchId": "56ff12b0597e",
       "title": "Bielsko-Biala – Mickiewicz Kluczbork",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
       "leagueLabel": "Poland. I Liga",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -503,12 +479,12 @@
           "logoUrl": "teams/18/ods/13868.gif"
         }
       },
-      "score": "2:0",
-      "liveStatus": "live",
+      "score": "3:0",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 22,
+      "id": 21,
       "matchId": "90657fb53fb2",
       "title": "Maritsa (W) – Slavia Sofia (W)",
       "dateLabel": "4 November",
@@ -532,13 +508,13 @@
       "startsAt": "2026-11-04T16:30:00.000Z"
     },
     {
-      "id": 23,
+      "id": 22,
       "matchId": "62e56efb2482",
       "title": "Beskydy – Brno",
       "dateLabel": "4 November",
       "timeLabel": "18:00",
       "leagueLabel": "Czech Republic. Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -551,12 +527,12 @@
           "logoUrl": "teams/18/ods/296.gif"
         }
       },
-      "score": "2:0",
-      "liveStatus": "live",
+      "score": "3:0",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 24,
+      "id": 23,
       "matchId": "10cc366c846c",
       "title": "PAOK – Panathinaikos",
       "dateLabel": "4 November",
@@ -580,13 +556,13 @@
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 25,
+      "id": 24,
       "matchId": "3d448202dcc3",
       "title": "Nowy Dwor (W) – BAS Bialystok (W)",
       "dateLabel": "4 November",
       "timeLabel": "17:56",
       "leagueLabel": "Poland. Women. Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -599,12 +575,12 @@
           "logoUrl": "teams/18/ods/28895.gif"
         }
       },
-      "score": "2:0",
-      "liveStatus": "live",
+      "score": "3:0",
+      "liveStatus": "finished",
       "startsAt": "2026-11-04T16:56:00.000Z"
     },
     {
-      "id": 26,
+      "id": 25,
       "matchId": "84d2deef5bd5",
       "title": "Zalau – Bucharest",
       "dateLabel": "4 November",
@@ -628,7 +604,7 @@
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
-      "id": 27,
+      "id": 26,
       "matchId": "96b7288b0611",
       "title": "Brasov – Arcada Galati",
       "dateLabel": "4 November",
@@ -647,12 +623,12 @@
           "logoUrl": "teams/18/ods/16922.gif"
         }
       },
-      "score": "1:1",
+      "score": "2:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 28,
+      "id": 27,
       "matchId": "31099251ee29",
       "title": "Steaua Bucharest – Unirea Dej",
       "dateLabel": "4 November",
@@ -671,12 +647,12 @@
           "logoUrl": "teams/18/ods/18040.gif"
         }
       },
-      "score": "2:0",
+      "score": "2:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 29,
+      "id": 28,
       "matchId": "96c7cdf3c67e",
       "title": "Hasthagen – Uppsala",
       "dateLabel": "4 November",
@@ -695,12 +671,12 @@
           "logoUrl": "teams/18/ods/13369.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 30,
+      "id": 29,
       "matchId": "850c7e1e40f8",
       "title": "Presov – Spartak Komarno",
       "dateLabel": "4 November",
@@ -719,12 +695,12 @@
           "logoUrl": "teams/18/ods/10013.gif"
         }
       },
-      "score": "1:1",
+      "score": "2:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T17:00:00.000Z"
     },
     {
-      "id": 31,
+      "id": 30,
       "matchId": "f21f2e022106",
       "title": "Daugavpils/Ezerzeme – Jekabpils",
       "dateLabel": "4 November",
@@ -743,12 +719,12 @@
           "logoUrl": "teams/18/ods/887.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
-      "id": 32,
+      "id": 31,
       "matchId": "e919691ce7f8",
       "title": "Engelholm (W) – Gislaved (W)",
       "dateLabel": "4 November",
@@ -767,9 +743,33 @@
           "logoUrl": "teams/18/ods/13907.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-04T18:00:00.000Z"
+    },
+    {
+      "id": 32,
+      "matchId": "5a1d10b4e1f3",
+      "title": "Drammen – Ready",
+      "dateLabel": "4 November",
+      "timeLabel": "19:30",
+      "leagueLabel": "Norway. Elitserien",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Drammen",
+          "logoUrl": "teams/18/ods/24528.gif"
+        },
+        "away": {
+          "name": "Ready",
+          "logoUrl": "teams/18/ods/24529.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-04T18:30:00.000Z"
     }
   ]
 }
