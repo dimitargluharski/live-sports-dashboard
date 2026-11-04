@@ -31,11 +31,15 @@ function normalizeTeamName(name) {
   return tokens.join("");
 }
 
+// Youth/women/reserve squads are different teams, so "Fenerbahce U-19" must not pair with "Fenerbahce".
+const SQUAD_QUALIFIER = /^(u\d{1,2}|w|women|ii|iii|b|youth|reserves|res|academy)$/;
+
 function namesMatch(a, b) {
   if (!a || !b) return false;
   if (a === b) return true;
   const [short, long] = a.length <= b.length ? [a, b] : [b, a];
-  return short.length >= 5 && long.includes(short);
+  if (short.length < 5 || !long.includes(short)) return false;
+  return !SQUAD_QUALIFIER.test(long.replace(short, ""));
 }
 
 function pairKey(home, away) {

@@ -124,10 +124,10 @@ export function TournamentStories({ games, isDarkTheme, leading }: TournamentSto
             className={`absolute inset-0 cursor-default backdrop-blur-md transition-opacity duration-300 ${isDarkTheme ? 'bg-black/70' : 'bg-transparent'} ${entered ? 'opacity-100' : 'opacity-0'}`}
           />
           <div
-            className={`absolute inset-x-0 top-0 max-h-[85vh] overflow-y-auto shadow-2xl transition-transform duration-300 ease-out ${entered ? 'translate-y-0' : '-translate-y-full'} ${isDarkTheme ? 'bg-[#111111] text-white' : 'bg-[#f2f1ed] text-slate-950'}`}
+            className={`absolute inset-x-0 top-0 flex max-h-[85vh] flex-col overflow-hidden shadow-2xl transition-transform duration-300 ease-out ${entered ? 'translate-y-0' : '-translate-y-full'} ${isDarkTheme ? 'bg-[#111111] text-white' : 'bg-[#f2f1ed] text-slate-950'}`}
           >
-            <div className="mx-auto w-full max-w-7xl px-4 pb-2 pt-4 md:px-6">
-              <div className="mb-3 flex items-center justify-between gap-3">
+            <div className="mx-auto flex min-h-0 w-full max-w-7xl flex-1 flex-col px-4 pb-4 pt-4 md:px-6">
+              <div className="mb-3 flex shrink-0 items-center justify-between gap-3">
                 <p className="flex items-center gap-2 text-xs font-bold">
                   <span className={`rounded-full px-2 py-0.5 text-[10px] font-black uppercase text-white ${openStory.liveCount > 0 ? 'bg-rose-500' : 'bg-slate-500'}`}>
                     {openStory.liveCount > 0 ? `${openStory.liveCount} live` : `${openStory.games.length} matches`}
@@ -143,14 +143,17 @@ export function TournamentStories({ games, isDarkTheme, leading }: TournamentSto
                   <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
                 </button>
               </div>
-              <CompetitionGroup
-                leagueLabel={openStory.leagueLabel}
-                games={openStory.games}
-                isDarkTheme={isDarkTheme}
-                isToday={false}
-                isExpanded
-                onToggle={() => undefined}
-              />
+              <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain pr-1">
+                <CompetitionGroup
+                  leagueLabel={openStory.leagueLabel}
+                  games={openStory.games}
+                  isDarkTheme={isDarkTheme}
+                  isToday={false}
+                  isExpanded
+                  onToggle={() => undefined}
+                  forceList
+                />
+              </div>
             </div>
           </div>
         </div>

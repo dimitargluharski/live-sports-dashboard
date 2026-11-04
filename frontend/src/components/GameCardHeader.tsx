@@ -4,6 +4,27 @@ import { TeamVisual } from './TeamVisual';
 import type { TeamForm } from '../types/game';
 import { getFormWinProbabilities } from '../utils/getFormWinProbabilities';
 
+const iconProps = { className: 'h-3 w-3 shrink-0', viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.8, 'aria-hidden': true } as const;
+
+// Renders "5 Nov, 21:00" as a calendar + date and clock + time; a time-only label gets just the clock.
+function MatchTime({ label, stacked = false }: { label: string; stacked?: boolean }) {
+  const [datePart, timePart] = label.includes(', ') ? label.split(', ') : [undefined, label];
+  return (
+    <span className={`inline-flex ${stacked ? 'flex-col items-start gap-0.5' : 'items-center gap-1.5'} leading-none`}>
+      {datePart && (
+        <span className="inline-flex items-center gap-1">
+          <svg {...iconProps}><rect x="3" y="5" width="18" height="16" rx="2" /><path strokeLinecap="round" d="M3 10h18M8 3v4M16 3v4" /></svg>
+          {datePart}
+        </span>
+      )}
+      <span className="inline-flex items-center gap-1">
+        <svg {...iconProps}><circle cx="12" cy="12" r="9" /><path strokeLinecap="round" d="M12 7v5l3 2" /></svg>
+        {timePart}
+      </span>
+    </span>
+  );
+}
+
 interface GameCardHeaderProps {
   timeLabel?: string;
   isLive: boolean;
@@ -24,6 +45,7 @@ interface GameCardHeaderProps {
   flagUrl?: string | null;
   hideScheduledTime?: boolean;
   horizontalTeams?: boolean;
+  showWinChances?: boolean;
   homeForm?: TeamForm;
   awayForm?: TeamForm;
   onToggle: () => void;
@@ -49,6 +71,7 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
   flagUrl,
   hideScheduledTime = false,
   horizontalTeams = false,
+  showWinChances = false,
   homeForm,
   awayForm,
   onToggle,
@@ -58,6 +81,8 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
     const nameClass = isEnded ? muted : isDarkTheme ? 'text-white' : 'text-slate-950';
     const streamLabel = isEnded ? 'Stream over' : hasStreams ? `Watch streams (${streamCount})` : 'No stream';
     const emptyIconClass = isDarkTheme ? 'text-slate-600' : 'text-slate-300';
+    const showsVs = !score && !isLive && !isEnded;
+    const winChances = showWinChances && showsVs && hasForm ? getFormWinProbabilities(homeForm, awayForm) : null;
     return (
       <button
         type="button"
@@ -66,18 +91,39 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
         disabled={!canExpand}
         className={`block w-full text-left text-sm ${canExpand ? 'cursor-pointer' : 'cursor-default'}`}
       >
-        <div className="grid grid-cols-[3rem_2.5rem_minmax(0,1fr)_1.75rem_1.5rem_1.75rem_minmax(0,1fr)] items-center gap-2 sm:grid-cols-[3.5rem_3rem_minmax(0,1fr)_1.75rem_3.5rem_1.75rem_minmax(0,1fr)_8rem]">
-          <span className={`text-xs tabular-nums ${muted}`}>{timeLabel || '--:--'}</span>
-          <span className={`text-[10px] font-bold uppercase ${isLive ? 'text-rose-500' : muted}`}>
-            {isLive ? 'Live' : isEnded ? 'FT' : ''}
+        <div className={showWinChances
+          ? 'grid grid-cols-[3rem_2.5rem_minmax(0,1fr)_1.75rem_5.5rem_1.75rem_minmax(0,1fr)] items-center gap-2 sm:grid-cols-[3.5rem_3rem_minmax(0,1fr)_1.75rem_6rem_1.75rem_minmax(0,1fr)_8rem]'
+          : 'grid grid-cols-[3rem_2.5rem_minmax(0,1fr)_1.75rem_1.5rem_1.75rem_minmax(0,1fr)] items-center gap-2 sm:grid-cols-[3.5rem_3rem_minmax(0,1fr)_1.75rem_3.5rem_1.75rem_minmax(0,1fr)_8rem]'}
+        >
+          <span className={`whitespace-nowrap text-[10px] tabular-nums sm:text-xs ${isLive || isEnded ? 'font-bold uppercase' : 'col-span-2'} ${isLive ? 'text-rose-500' : muted}`}>
+            {isLive ? 'Live' : isEnded ? 'FT' : timeLabel ? <MatchTime label={timeLabel} /> : '--:--'}
           </span>
+          {(isLive || isEnded) && <span aria-hidden="true" />}
           <span className={`truncate text-right font-medium ${nameClass}`}>{homeTeam}</span>
           <TeamVisual teamName={homeTeam} logoUrl={homeLogoUrl} flagUrl={flagUrl} isEnded={isEnded} isDarkTheme={isDarkTheme} size="small" />
           {score
             ? <span className={`text-center font-black ${nameClass}`}>{score}</span>
             : isLive || isEnded
               ? <span title="Score not available" className={`text-center text-[10px] font-bold uppercase tracking-wide ${muted}`}>N/A</span>
-              : <span className={`text-center text-xs font-black ${muted}`}>vs</span>}
+              : winChances
+                ? (
+                  <span
+                    title="Estimated win chances from recent form"
+                    aria-label={`Estimated win chances: home ${winChances.home} percent, away ${winChances.away} percent`}
+                    className="flex w-full flex-col items-center"
+                  >
+                    <span className="grid w-full grid-cols-[1.75rem_minmax(0,1fr)_1.75rem] items-center gap-1 text-[10px] font-bold leading-none tabular-nums">
+                      <span className={`text-right ${winChances.home >= winChances.away ? 'text-emerald-500' : muted}`}>{winChances.home}%</span>
+                      <span className={`flex h-1 overflow-hidden rounded-full ${isDarkTheme ? 'bg-white/10' : 'bg-slate-200'}`} aria-hidden="true">
+                        <span className="h-full bg-emerald-500" style={{ width: `${winChances.home}%` }} />
+                      </span>
+                      <span className={`text-left ${winChances.away > winChances.home ? 'text-emerald-500' : muted}`}>{winChances.away}%</span>
+                    </span>
+                  </span>
+                )
+                : showWinChances && showsVs
+                  ? <span title="No form data for win chances" className={`text-center text-[10px] font-bold uppercase tracking-wide ${muted}`}>N/A</span>
+                  : <span className={`text-center text-xs font-black ${muted}`}>vs</span>}
           {awayTeam ? <TeamVisual teamName={awayTeam} logoUrl={awayLogoUrl} flagUrl={flagUrl} isEnded={isEnded} isDarkTheme={isDarkTheme} size="small" /> : <span />}
           <span className={`truncate font-medium ${nameClass}`}>{awayTeam}</span>
           <span className={`col-span-full flex items-center justify-end gap-1.5 sm:col-span-1 ${muted}`}>
@@ -124,21 +170,13 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
       : isEnded
         ? isDarkTheme ? 'border border-white/25 bg-[#303030] text-neutral-100' : 'border border-stone-500 bg-stone-300 text-stone-900'
         : isDarkTheme ? 'bg-[#252525] text-neutral-200' : 'bg-[#f2f1ed] text-slate-800';
-    const formProbabilities = getFormWinProbabilities(homeForm, awayForm);
-    const clockIcon = (
-      <svg className="h-3.5 w-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
-        <circle cx="12" cy="12" r="9" />
-        <path strokeLinecap="round" d="M12 7v5l3 2" />
-      </svg>
-    );
+    const carouselChances = getFormWinProbabilities(homeForm, awayForm);
     const timeStatus = (
       <div className={`inline-flex items-center justify-center gap-1.5 rounded-md px-2.5 py-1.5 text-[11px] font-black tabular-nums leading-none ${statusClass}`}>
         {isLive ? (
           <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-current" aria-hidden="true" />
-        ) : !isEnded ? (
-          <span className="inline-flex items-center justify-center">{clockIcon}</span>
         ) : null}
-        <span>{statusLabel}</span>
+        {isLive || isEnded || !timeLabel ? <span>{statusLabel}</span> : <MatchTime label={timeLabel} />}
       </div>
     );
     const customDesktopHeader = (
@@ -160,20 +198,22 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
           </div>
           <div className="col-start-2 flex min-w-0 w-full max-w-[9rem] self-center justify-self-center flex-col items-center gap-2 text-center sm:max-w-[10rem]">
             {timeStatus}
-            <div
-              className="flex w-full items-center gap-1.5 text-[9px] font-black tabular-nums sm:gap-2 sm:text-[10px]"
-              title="Estimated win chances from recent form"
-              aria-label={`Estimated win chances: home ${formProbabilities.home} percent, away ${formProbabilities.away} percent`}
-            >
-              <span className={isDarkTheme ? 'text-neutral-300' : 'text-slate-600'}>{formProbabilities.home}%</span>
-              <div className={`relative h-2.5 flex-1 overflow-hidden rounded-full ${isDarkTheme ? 'bg-white/10' : 'bg-slate-200'}`}>
-                <div
-                  className={`absolute inset-y-0 left-0 rounded-full ${isDarkTheme ? 'bg-neutral-400' : 'bg-slate-400'}`}
-                  style={{ width: `${Math.max(12, Math.min(88, formProbabilities.home))}%` }}
-                />
+            {!isLive && !isEnded && (
+              <div
+                className="flex w-full items-center gap-1.5 text-[9px] font-black tabular-nums sm:gap-2 sm:text-[10px]"
+                title="Expected win chances from recent form"
+                aria-label={`Expected win chances: home ${carouselChances.home} percent, away ${carouselChances.away} percent`}
+              >
+                <span className={carouselChances.home >= carouselChances.away ? 'text-emerald-500' : isDarkTheme ? 'text-neutral-400' : 'text-slate-500'}>{carouselChances.home}%</span>
+                <div className={`relative h-2 flex-1 overflow-hidden rounded-full ${isDarkTheme ? 'bg-white/10' : 'bg-slate-200'}`}>
+                  <div
+                    className={`absolute inset-y-0 left-0 rounded-full ${isDarkTheme ? 'bg-neutral-400' : 'bg-slate-400'}`}
+                    style={{ width: `${Math.max(12, Math.min(88, carouselChances.home))}%` }}
+                  />
+                </div>
+                <span className={carouselChances.away > carouselChances.home ? 'text-emerald-500' : isDarkTheme ? 'text-neutral-400' : 'text-slate-500'}>{carouselChances.away}%</span>
               </div>
-              <span className={isDarkTheme ? 'text-neutral-300' : 'text-slate-600'}>{formProbabilities.away}%</span>
-            </div>
+            )}
           </div>
           {awayTeam ? (
             <div className="flex min-w-0 justify-self-center flex-col items-center gap-1.5 text-center">
@@ -203,7 +243,7 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
       >
         <div className="flex min-w-0 flex-1 items-center gap-2.5">
           {(isLive || isEnded || (timeLabel && !hideScheduledTime)) && (
-            <span className={`inline-flex h-10 w-20 shrink-0 items-center justify-center gap-1.5 rounded-md border px-2 text-sm font-black tabular-nums ${isLive ? 'border-rose-500/30 bg-rose-500 text-white' : isEnded ? isDarkTheme ? 'border-white/20 bg-[#252525] text-slate-200' : 'border-stone-500 bg-stone-400 text-stone-900' : isDarkTheme ? 'border-white/10 bg-[#252525] text-white' : 'border-black/10 bg-[#f2f1ed] text-slate-950'}`}>
+            <span className={`inline-flex h-10 min-w-20 shrink-0 items-center justify-center gap-1.5 rounded-md border px-2 text-sm font-black tabular-nums ${isLive ? 'border-rose-500/30 bg-rose-500 text-white' : isEnded ? isDarkTheme ? 'border-white/20 bg-[#252525] text-slate-200' : 'border-stone-500 bg-stone-400 text-stone-900' : isDarkTheme ? 'border-white/10 bg-[#252525] text-white' : 'border-black/10 bg-[#f2f1ed] text-slate-950'}`}>
               {isEnded ? (
                 <span className="text-xs font-black tracking-wide">ENDED</span>
               ) : isLive ? (
@@ -215,8 +255,7 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
                 </span>
               ) : (
                 <>
-                  <svg className="h-3.5 w-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path strokeLinecap="round" d="M12 7v5l3 2" /></svg>
-                  {timeLabel}
+                  <MatchTime label={timeLabel ?? ''} stacked={Boolean(timeLabel?.includes(', '))} />
                 </>
               )}
             </span>
@@ -256,7 +295,7 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
   >
     <div className="flex min-w-0 flex-1 items-center gap-2.5">
       {(isLive || isEnded || (timeLabel && !hideScheduledTime)) && (
-        <span className={`inline-flex h-10 w-20 shrink-0 items-center justify-center gap-1.5 rounded-md border px-2 text-sm font-black tabular-nums ${isLive ? 'border-rose-500/30 bg-rose-500 text-white' : isEnded ? isDarkTheme ? 'border-white/20 bg-[#252525] text-slate-200' : 'border-stone-500 bg-stone-400 text-stone-900' : isDarkTheme ? 'border-white/10 bg-[#252525] text-white' : 'border-black/10 bg-[#f2f1ed] text-slate-950'}`}>
+        <span className={`inline-flex h-10 min-w-20 shrink-0 items-center justify-center gap-1.5 rounded-md border px-2 text-sm font-black tabular-nums ${isLive ? 'border-rose-500/30 bg-rose-500 text-white' : isEnded ? isDarkTheme ? 'border-white/20 bg-[#252525] text-slate-200' : 'border-stone-500 bg-stone-400 text-stone-900' : isDarkTheme ? 'border-white/10 bg-[#252525] text-white' : 'border-black/10 bg-[#f2f1ed] text-slate-950'}`}>
           {isEnded ? (
             <span className="text-xs font-black tracking-wide">ENDED</span>
           ) : isLive ? (
@@ -268,8 +307,7 @@ export const GameCardHeader: React.FC<GameCardHeaderProps> = ({
             </span>
           ) : (
             <>
-              <svg className="h-3.5 w-3.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path strokeLinecap="round" d="M12 7v5l3 2" /></svg>
-              {timeLabel}
+              <MatchTime label={timeLabel ?? ''} stacked={Boolean(timeLabel?.includes(', '))} />
             </>
           )}
         </span>
