@@ -1,6 +1,6 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-11-04T17:41:06.900Z",
+  "scrapedAt": "2026-11-04T18:00:06.724Z",
   "count": 115,
   "matches": [
     {
@@ -23,7 +23,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.514Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.520Z",
           "healthHttpStatus": 200
         }
       ],
@@ -65,7 +65,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.524Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.530Z",
           "healthHttpStatus": 200
         }
       ],
@@ -107,7 +107,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.525Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.531Z",
           "healthHttpStatus": 200
         }
       ],
@@ -149,7 +149,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.526Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.531Z",
           "healthHttpStatus": 200
         }
       ],
@@ -168,7 +168,112 @@
           "substitutes": []
         }
       },
-      "headToHead": null,
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700042431/700019150/3_59f1a/",
+        "matches": [
+          {
+            "date": "04/11",
+            "competition": "FIBA Europe Cup",
+            "homeTeam": "Batumi",
+            "awayTeam": "Split",
+            "score": "77:97",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Batumi",
+        "awayTeam": "Split",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "28/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Trepca Mitrovica",
+                "score": "70:91",
+                "result": "L"
+              },
+              {
+                "date": "21/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Promitheas",
+                "score": "76:91",
+                "result": "L"
+              },
+              {
+                "date": "14/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Opava",
+                "score": "62:102",
+                "result": "L"
+              },
+              {
+                "date": "07/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Trier Gladiators",
+                "score": "59:92",
+                "result": "L"
+              },
+              {
+                "date": "02/10",
+                "competition": "Super League",
+                "opponent": "Kutaisi",
+                "score": "80:77",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "28/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Batumi",
+                "score": "91:70",
+                "result": "W"
+              },
+              {
+                "date": "21/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Promitheas",
+                "score": "76:91",
+                "result": "L"
+              },
+              {
+                "date": "14/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Batumi",
+                "score": "102:62",
+                "result": "W"
+              },
+              {
+                "date": "07/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Trier Gladiators",
+                "score": "59:92",
+                "result": "L"
+              },
+              {
+                "date": "02/10",
+                "competition": "Super League",
+                "opponent": "Batumi",
+                "score": "77:80",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      },
       "startsAt": "2026-11-04T16:00:00.000Z"
     },
     {
@@ -191,7 +296,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.526Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.532Z",
           "healthHttpStatus": 200
         }
       ],
@@ -233,7 +338,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.527Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.533Z",
           "healthHttpStatus": 200
         }
       ],
@@ -275,7 +380,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.527Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.533Z",
           "healthHttpStatus": 200
         },
         {
@@ -285,7 +390,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.528Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.534Z",
           "healthHttpStatus": 200
         },
         {
@@ -295,7 +400,7 @@
           "language": "Turkish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.857Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.773Z",
           "healthHttpStatus": 200
         }
       ],
@@ -337,7 +442,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.863Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.785Z",
           "healthHttpStatus": 200
         }
       ],
@@ -379,7 +484,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.867Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.797Z",
           "healthHttpStatus": 200
         }
       ],
@@ -421,7 +526,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.871Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.798Z",
           "healthHttpStatus": 200
         }
       ],
@@ -740,7 +845,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.884Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.830Z",
           "healthHttpStatus": 200
         }
       ],
@@ -887,7 +992,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.898Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.835Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1052,7 +1157,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.901Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.863Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1217,7 +1322,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:07.909Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.865Z",
           "healthHttpStatus": 200
         },
         {
@@ -1227,7 +1332,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.052Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.949Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1374,7 +1479,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.058Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.956Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1521,7 +1626,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.059Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.972Z",
           "healthHttpStatus": 200
         },
         {
@@ -1531,7 +1636,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.067Z",
+          "healthCheckedAt": "2026-11-04T18:00:07.973Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1714,7 +1819,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.089Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.047Z",
           "healthHttpStatus": 200
         },
         {
@@ -1724,7 +1829,7 @@
           "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.097Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.076Z",
           "healthHttpStatus": 200
         },
         {
@@ -1734,7 +1839,7 @@
           "language": "Hebrew",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.172Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.085Z",
           "healthHttpStatus": 200
         },
         {
@@ -1744,7 +1849,7 @@
           "language": "Polish",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.178Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.087Z",
           "healthHttpStatus": 200
         },
         {
@@ -1754,7 +1859,7 @@
           "language": "Czech",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.219Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.147Z",
           "healthHttpStatus": 200
         },
         {
@@ -1764,7 +1869,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.261Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.159Z",
           "healthHttpStatus": 200
         },
         {
@@ -1774,7 +1879,7 @@
           "language": "Polish",
           "bitrate": "8000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.261Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.163Z",
           "healthHttpStatus": 200
         }
       ],
@@ -1958,7 +2063,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.321Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.223Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2000,7 +2105,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.329Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.259Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2042,7 +2147,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.405Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.268Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2198,7 +2303,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.413Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.269Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2240,7 +2345,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.421Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.335Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2282,7 +2387,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.465Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.352Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2324,7 +2429,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.482Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.385Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2366,7 +2471,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.505Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.386Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2408,7 +2513,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.526Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.413Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2450,7 +2555,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.565Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.428Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2492,7 +2597,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.573Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.447Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2534,7 +2639,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.582Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.496Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2576,7 +2681,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.658Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.538Z",
           "healthHttpStatus": 200
         },
         {
@@ -2586,7 +2691,7 @@
           "language": "Greek",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.659Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.550Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2628,7 +2733,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.686Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.556Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2806,7 +2911,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.705Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.564Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2848,7 +2953,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.713Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.587Z",
           "healthHttpStatus": 200
         }
       ],
@@ -2890,7 +2995,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.725Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.606Z",
           "healthHttpStatus": 200
         },
         {
@@ -2900,7 +3005,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.750Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.671Z",
           "healthHttpStatus": 200
         },
         {
@@ -2910,21 +3015,11 @@
           "language": "Russian",
           "bitrate": "2000kbps",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.837Z",
-          "healthHttpStatus": 200
-        },
-        {
-          "id": 4,
-          "label": "Stream 8",
-          "url": "https://streamhd247.click/frame11.html",
-          "language": "Serbian",
-          "bitrate": null,
-          "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.849Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.714Z",
           "healthHttpStatus": 200
         }
       ],
-      "streamCount": 4,
+      "streamCount": 3,
       "teams": {
         "home": {
           "name": "Cedevita Olimpija",
@@ -2962,7 +3057,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.861Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.720Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3004,7 +3099,7 @@
           "language": "Latvian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.865Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.740Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3046,7 +3141,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.885Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.740Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3088,7 +3183,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.937Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.783Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3130,7 +3225,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.945Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.863Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3149,7 +3244,112 @@
           "substitutes": []
         }
       },
-      "headToHead": null,
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700042431/700019150/3_59f1a/",
+        "matches": [
+          {
+            "date": "04/11",
+            "competition": "FIBA Europe Cup",
+            "homeTeam": "Batumi",
+            "awayTeam": "Split",
+            "score": "77:97",
+            "result": "L",
+            "winner": "away"
+          }
+        ],
+        "homeTeam": "Batumi",
+        "awayTeam": "Split",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "28/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Trepca Mitrovica",
+                "score": "70:91",
+                "result": "L"
+              },
+              {
+                "date": "21/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Promitheas",
+                "score": "76:91",
+                "result": "L"
+              },
+              {
+                "date": "14/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Opava",
+                "score": "62:102",
+                "result": "L"
+              },
+              {
+                "date": "07/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Trier Gladiators",
+                "score": "59:92",
+                "result": "L"
+              },
+              {
+                "date": "02/10",
+                "competition": "Super League",
+                "opponent": "Kutaisi",
+                "score": "80:77",
+                "result": "W"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 0,
+              "L": 4
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "28/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Batumi",
+                "score": "91:70",
+                "result": "W"
+              },
+              {
+                "date": "21/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Promitheas",
+                "score": "76:91",
+                "result": "L"
+              },
+              {
+                "date": "14/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Batumi",
+                "score": "102:62",
+                "result": "W"
+              },
+              {
+                "date": "07/10",
+                "competition": "FIBA Europe Cup",
+                "opponent": "Trier Gladiators",
+                "score": "59:92",
+                "result": "L"
+              },
+              {
+                "date": "02/10",
+                "competition": "Super League",
+                "opponent": "Batumi",
+                "score": "77:80",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 2,
+              "D": 0,
+              "L": 3
+            }
+          }
+        }
+      },
       "startsAt": "2026-11-04T18:00:00.000Z"
     },
     {
@@ -3172,7 +3372,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:08.994Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.888Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3214,7 +3414,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.041Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.895Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3256,7 +3456,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.042Z",
+          "healthCheckedAt": "2026-11-04T18:00:08.954Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3298,7 +3498,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.049Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.016Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3340,7 +3540,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.097Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.032Z",
           "healthHttpStatus": 200
         },
         {
@@ -3350,7 +3550,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.121Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.111Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3392,7 +3592,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.139Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.112Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3548,7 +3748,7 @@
           "language": "Latvian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.172Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.113Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3590,7 +3790,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.205Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.163Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3632,7 +3832,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.209Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.203Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3674,7 +3874,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.210Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.248Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3716,7 +3916,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.265Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.284Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3758,7 +3958,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.274Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.309Z",
           "healthHttpStatus": 200
         }
       ],
@@ -3800,7 +4000,7 @@
           "language": "Croatian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.333Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.341Z",
           "healthHttpStatus": 200
         },
         {
@@ -3810,7 +4010,7 @@
           "language": "Bulgarian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.336Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.351Z",
           "healthHttpStatus": 200
         },
         {
@@ -3820,7 +4020,7 @@
           "language": "Serbian",
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-04T17:41:09.359Z",
+          "healthCheckedAt": "2026-11-04T18:00:09.351Z",
           "healthHttpStatus": 200
         }
       ],
@@ -10495,5 +10695,5 @@
       "startsAt": "2026-11-05T22:30:00.000Z"
     }
   ],
-  "enrichedAt": "2026-11-04T17:41:06.901Z"
+  "enrichedAt": "2026-11-04T18:00:06.725Z"
 }
