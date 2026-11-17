@@ -1,64 +1,16 @@
 {
   "section": "Tennis",
-  "scrapedAt": "2026-11-04T22:00:15.167Z",
-  "count": 14,
+  "scrapedAt": "2026-11-17T14:04:24.383Z",
+  "count": 7,
   "matches": [
     {
       "id": 1,
-      "matchId": "681fc3fa40e9",
-      "title": "Despina Papamichail (W) – Renata Zarazua (W)",
-      "dateLabel": "4 November",
-      "timeLabel": "20:00",
-      "leagueLabel": "WTA. Cali",
+      "matchId": "5b2427f121a6",
+      "title": "Arthur Fils – Rafael Jodar",
+      "dateLabel": "17 November",
+      "timeLabel": "14:10",
+      "leagueLabel": "ATP Finals. Turin",
       "isLive": true,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Despina Papamichail (W)",
-          "logoUrl": "teams/18/ods/21089.gif"
-        },
-        "away": {
-          "name": "Renata Zarazua (W)",
-          "logoUrl": "teams/18/ods/25507.gif"
-        }
-      },
-      "score": "0:1",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T19:00:00.000Z"
-    },
-    {
-      "id": 2,
-      "matchId": "1d4e241fd6c2",
-      "title": "Leyre Romero Gormaz (W) – Sierra Solana (W)",
-      "dateLabel": "4 November",
-      "timeLabel": "20:50",
-      "leagueLabel": "WTA. Cali",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Leyre Romero Gormaz (W)",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Sierra Solana (W)",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T19:50:00.000Z"
-    },
-    {
-      "id": 3,
-      "matchId": "6e90d07be5ed",
-      "title": "Arthur Fils – Tomas Machac",
-      "dateLabel": "4 November",
-      "timeLabel": "21:20",
-      "leagueLabel": "ATP. Paris",
-      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -67,277 +19,157 @@
           "logoUrl": "teams/18/ods/14949.gif"
         },
         "away": {
-          "name": "Tomas Machac",
-          "logoUrl": "teams/18/ods/9125.gif"
+          "name": "Rafael Jodar",
+          "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "2:0",
+      "score": "0:1",
+      "liveStatus": "live",
+      "startsAt": "2026-11-17T13:10:00.000Z"
+    },
+    {
+      "id": 2,
+      "matchId": "700df0ac0dce",
+      "title": "Calvin Hemery – Francesco Passaro",
+      "dateLabel": "17 November",
+      "timeLabel": "12:37",
+      "leagueLabel": "",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Calvin Hemery",
+          "logoUrl": "teams/18/ods/25875.gif"
+        },
+        "away": {
+          "name": "Francesco Passaro",
+          "logoUrl": "teams/18/ods/15628.gif"
+        }
+      },
+      "score": "1:2",
       "liveStatus": "finished",
-      "startsAt": "2026-11-04T20:20:00.000Z"
+      "startsAt": "2026-11-17T11:37:00.000Z"
+    },
+    {
+      "id": 3,
+      "matchId": "401b32084d2d",
+      "title": "Hugo Grenier – Harold Mayot",
+      "dateLabel": "17 November",
+      "timeLabel": "13:10",
+      "leagueLabel": "",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Hugo Grenier",
+          "logoUrl": "teams/18/ods/9122.gif"
+        },
+        "away": {
+          "name": "Harold Mayot",
+          "logoUrl": "teams/18/ods/18722.gif"
+        }
+      },
+      "score": "1:2",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-17T12:10:00.000Z"
     },
     {
       "id": 4,
-      "matchId": "017d2dec5265",
-      "title": "Marcos Giron – Justin Boulais",
-      "dateLabel": "4 November",
-      "timeLabel": "20:39",
-      "leagueLabel": "ATP Challenger. Charlottesville",
+      "matchId": "c038ed32cd7f",
+      "title": "Cezar Cretu – Laslo Djere",
+      "dateLabel": "17 November",
+      "timeLabel": "12:32",
+      "leagueLabel": "ATP Challenger. Helsinki",
       "isLive": true,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "Marcos Giron",
-          "logoUrl": "teams/18/ods/9195.gif"
+          "name": "Cezar Cretu",
+          "logoUrl": "teams/18/ods/0.gif"
         },
         "away": {
-          "name": "Justin Boulais",
-          "logoUrl": "teams/18/ods/0.gif"
+          "name": "Laslo Djere",
+          "logoUrl": "teams/18/ods/9131.gif"
         }
       },
       "score": "1:1",
       "liveStatus": "live",
-      "startsAt": "2026-11-04T19:39:00.000Z"
+      "startsAt": "2026-11-17T11:32:00.000Z"
     },
     {
       "id": 5,
-      "matchId": "a9b2a88661c1",
-      "title": "Jakupovic (W) / Radisic (W) – Escorihuela (W) / Riera (W)",
-      "dateLabel": "4 November",
-      "timeLabel": "22:30",
-      "leagueLabel": "WTA. Cali. Doubles",
-      "isLive": true,
+      "matchId": "8361fa578aff",
+      "title": "Jurij Rodionov – Sumit Nagal",
+      "dateLabel": "17 November",
+      "timeLabel": "12:35",
+      "leagueLabel": "ATP Challenger. Helsinki",
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "Jakupovic (W) / Radisic (W)",
-          "logoUrl": "teams/18/ods/.gif"
+          "name": "Jurij Rodionov",
+          "logoUrl": "teams/18/ods/8353.gif"
         },
         "away": {
-          "name": "Escorihuela (W) / Riera (W)",
-          "logoUrl": "teams/18/ods/.gif"
+          "name": "Sumit Nagal",
+          "logoUrl": "teams/18/ods/7686.gif"
         }
       },
-      "score": "1:0",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T21:30:00.000Z"
+      "score": "2:0",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-17T11:35:00.000Z"
     },
     {
       "id": 6,
-      "matchId": "341517644e8b",
-      "title": "Jerome Kym – Luka Pavlovic",
-      "dateLabel": "4 November",
-      "timeLabel": "20:05",
-      "leagueLabel": "ATP Challenger. Bratislava 2",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Jerome Kym",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Luka Pavlovic",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T19:05:00.000Z"
-    },
-    {
-      "id": 7,
-      "matchId": "74bcda85b54a",
-      "title": "Nishesh Basavareddy – Mika Brunold",
-      "dateLabel": "4 November",
-      "timeLabel": "20:10",
-      "leagueLabel": "ATP Challenger. Bratislava 2",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Nishesh Basavareddy",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Mika Brunold",
-          "logoUrl": "teams/18/ods/25881.gif"
-        }
-      },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T19:10:00.000Z"
-    },
-    {
-      "id": 8,
-      "matchId": "19a6c40fea80",
-      "title": "Andrade / Kiger – Galarneau / Verdugo",
-      "dateLabel": "4 November",
-      "timeLabel": "21:10",
-      "leagueLabel": "ATP Challenger. Charlottesville. Doubles",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Andrade / Kiger",
-          "logoUrl": "teams/18/ods/.gif"
-        },
-        "away": {
-          "name": "Galarneau / Verdugo",
-          "logoUrl": "teams/18/ods/.gif"
-        }
-      },
-      "score": "0:2",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T20:10:00.000Z"
-    },
-    {
-      "id": 9,
-      "matchId": "43bcf39f5da3",
-      "title": "Oriol Roca Batalla – Ryo Tabata",
-      "dateLabel": "4 November",
-      "timeLabel": "20:00",
-      "leagueLabel": "ATP Challenger. Villa Maria",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Oriol Roca Batalla",
-          "logoUrl": "teams/18/ods/20636.gif"
-        },
-        "away": {
-          "name": "Ryo Tabata",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T19:00:00.000Z"
-    },
-    {
-      "id": 10,
-      "matchId": "198d911dfc3f",
-      "title": "Federico Juan Aguilar – Nicolas Kicker",
-      "dateLabel": "4 November",
-      "timeLabel": "20:05",
-      "leagueLabel": "ATP Challenger. Villa Maria",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Federico Juan Aguilar",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Nicolas Kicker",
-          "logoUrl": "teams/18/ods/17168.gif"
-        }
-      },
-      "score": "0:2",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T19:05:00.000Z"
-    },
-    {
-      "id": 11,
-      "matchId": "b027669a7a60",
-      "title": "Lautaro Midon – Tomas Barrios",
-      "dateLabel": "4 November",
-      "timeLabel": "21:15",
-      "leagueLabel": "ATP Challenger. Costa do Sauípe",
+      "matchId": "1c60029a51cd",
+      "title": "Dalibor Svrcina – Leo Borg",
+      "dateLabel": "17 November",
+      "timeLabel": "13:57",
+      "leagueLabel": "ATP Challenger. Helsinki",
       "isLive": true,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "Lautaro Midon",
-          "logoUrl": "teams/18/ods/22778.gif"
+          "name": "Dalibor Svrcina",
+          "logoUrl": "teams/18/ods/20682.gif"
         },
         "away": {
-          "name": "Tomas Barrios",
-          "logoUrl": "teams/18/ods/14895.gif"
-        }
-      },
-      "score": "1:1",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T20:15:00.000Z"
-    },
-    {
-      "id": 12,
-      "matchId": "2c9ee4808dbf",
-      "title": "Igor Marcondes – Camilo Ugo Carabelli",
-      "dateLabel": "4 November",
-      "timeLabel": "22:31",
-      "leagueLabel": "ATP Challenger. Costa do Sauípe",
-      "isLive": true,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Igor Marcondes",
-          "logoUrl": "teams/18/ods/9977.gif"
-        },
-        "away": {
-          "name": "Camilo Ugo Carabelli",
-          "logoUrl": "teams/18/ods/9969.gif"
-        }
-      },
-      "score": "0:0",
-      "liveStatus": "live",
-      "startsAt": "2026-11-04T21:31:00.000Z"
-    },
-    {
-      "id": 13,
-      "matchId": "dd9e8fcda1fa",
-      "title": "Hidalgo / Molteni – Carou / Arias",
-      "dateLabel": "4 November",
-      "timeLabel": "20:40",
-      "leagueLabel": "ATP Challenger. Costa do Sauípe. Doubles",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Hidalgo / Molteni",
-          "logoUrl": "teams/18/ods/.gif"
-        },
-        "away": {
-          "name": "Carou / Arias",
-          "logoUrl": "teams/18/ods/.gif"
-        }
-      },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-04T19:40:00.000Z"
-    },
-    {
-      "id": 14,
-      "matchId": "67a4971bf802",
-      "title": "Kolar / Rodriguez Taverna – Kestelboim / Barrientos",
-      "dateLabel": "4 November",
-      "timeLabel": "22:00",
-      "leagueLabel": "ATP Challenger. Costa do Sauípe. Doubles",
-      "isLive": true,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Kolar / Rodriguez Taverna",
-          "logoUrl": "teams/18/ods/.gif"
-        },
-        "away": {
-          "name": "Kestelboim / Barrientos",
-          "logoUrl": "teams/18/ods/.gif"
+          "name": "Leo Borg",
+          "logoUrl": "teams/18/ods/14515.gif"
         }
       },
       "score": "1:0",
       "liveStatus": "live",
-      "startsAt": "2026-11-04T21:00:00.000Z"
+      "startsAt": "2026-11-17T12:57:00.000Z"
+    },
+    {
+      "id": 7,
+      "matchId": "b6847c639892",
+      "title": "Stefano Travaglia – Luka Mikrut",
+      "dateLabel": "17 November",
+      "timeLabel": "14:09",
+      "leagueLabel": "ATP Challenger. Helsinki",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Stefano Travaglia",
+          "logoUrl": "teams/18/ods/8357.gif"
+        },
+        "away": {
+          "name": "Luka Mikrut",
+          "logoUrl": "teams/18/ods/0.gif"
+        }
+      },
+      "score": "0:1",
+      "liveStatus": "live",
+      "startsAt": "2026-11-17T13:09:00.000Z"
     }
   ]
 }
