@@ -1,7 +1,7 @@
 {
   "section": "Volleyball",
-  "scrapedAt": "2026-11-17T14:04:24.383Z",
-  "count": 33,
+  "scrapedAt": "2026-11-17T14:58:33.167Z",
+  "count": 37,
   "matches": [
     {
       "id": 1,
@@ -23,12 +23,36 @@
           "logoUrl": "teams/18/ods/35968.gif"
         }
       },
-      "score": "0:1",
+      "score": "0:2",
       "liveStatus": "live",
       "startsAt": "2026-11-17T13:25:00.000Z"
     },
     {
       "id": 2,
+      "matchId": "d36b608eba69",
+      "title": "Istanbul Genclik – Maccabi Tel Aviv",
+      "dateLabel": "17 November",
+      "timeLabel": "15:55",
+      "leagueLabel": "Challenge Cup. Qualification",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Istanbul Genclik",
+          "logoUrl": "teams/18/ods/32682.gif"
+        },
+        "away": {
+          "name": "Maccabi Tel Aviv",
+          "logoUrl": "teams/18/ods/17545.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-17T14:55:00.000Z"
+    },
+    {
+      "id": 3,
       "matchId": "7785a1d9eaa0",
       "title": "Tibor Kolenic – Mihail Trinta",
       "dateLabel": "17 November",
@@ -52,7 +76,7 @@
       "startsAt": "2026-11-17T12:00:00.000Z"
     },
     {
-      "id": 3,
+      "id": 4,
       "matchId": "49f34ce4af73",
       "title": "Milan Vrabec – Ludek Madle",
       "dateLabel": "17 November",
@@ -76,7 +100,7 @@
       "startsAt": "2026-11-17T12:00:00.000Z"
     },
     {
-      "id": 4,
+      "id": 5,
       "matchId": "ff6044822133",
       "title": "Tomas Nohejl – Frantisek Briza",
       "dateLabel": "17 November",
@@ -100,7 +124,7 @@
       "startsAt": "2026-11-17T12:30:00.000Z"
     },
     {
-      "id": 5,
+      "id": 6,
       "matchId": "ebb495b381f4",
       "title": "Jiri Hyrsl – Leos Havrda",
       "dateLabel": "17 November",
@@ -124,7 +148,7 @@
       "startsAt": "2026-11-17T12:30:00.000Z"
     },
     {
-      "id": 6,
+      "id": 7,
       "matchId": "1aa5f5c4fe6e",
       "title": "Frantisek Briza – Mihail Trinta",
       "dateLabel": "17 November",
@@ -148,7 +172,7 @@
       "startsAt": "2026-11-17T13:00:00.000Z"
     },
     {
-      "id": 7,
+      "id": 8,
       "matchId": "c6698d5e50f8",
       "title": "Leos Havrda – Ludek Madle",
       "dateLabel": "17 November",
@@ -172,7 +196,7 @@
       "startsAt": "2026-11-17T13:00:00.000Z"
     },
     {
-      "id": 8,
+      "id": 9,
       "matchId": "c433093cb2d7",
       "title": "Tibor Kolenic – Tomas Nohejl",
       "dateLabel": "17 November",
@@ -196,55 +220,7 @@
       "startsAt": "2026-11-17T13:30:00.000Z"
     },
     {
-      "id": 9,
-      "matchId": "be9c1f804718",
-      "title": "Alexander Korotkov – Denis Komarov",
-      "dateLabel": "17 November",
-      "timeLabel": "12:15",
-      "leagueLabel": "Russia. League Pro",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Alexander Korotkov",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Denis Komarov",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "0:3",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-17T11:15:00.000Z"
-    },
-    {
       "id": 10,
-      "matchId": "ec2f20f2e958",
-      "title": "Igor Petrushin – Alexander Korotkov",
-      "dateLabel": "17 November",
-      "timeLabel": "12:45",
-      "leagueLabel": "Russia. League Pro",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Igor Petrushin",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Alexander Korotkov",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "3:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-17T11:45:00.000Z"
-    },
-    {
-      "id": 11,
       "matchId": "4c291e26b723",
       "title": "Alexander Klavdenkov – Evgeniy Glazun",
       "dateLabel": "17 November",
@@ -268,55 +244,55 @@
       "startsAt": "2026-11-17T12:45:00.000Z"
     },
     {
-      "id": 12,
-      "matchId": "88b1a55e77fa",
-      "title": "Oleksandr Ziakun – Maxim Gubenko",
+      "id": 11,
+      "matchId": "46315fbc2624",
+      "title": "Alexander Alekseev – Vasiliy Rudenko",
       "dateLabel": "17 November",
-      "timeLabel": "12:30",
-      "leagueLabel": "Setka Cup",
+      "timeLabel": "15:15",
+      "leagueLabel": "Russia. League Pro",
       "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "Oleksandr Ziakun",
+          "name": "Alexander Alekseev",
           "logoUrl": "teams/18/ods/0.gif"
         },
         "away": {
-          "name": "Maxim Gubenko",
+          "name": "Vasiliy Rudenko",
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "1:3",
+      "score": "0:3",
       "liveStatus": "finished",
-      "startsAt": "2026-11-17T11:30:00.000Z"
+      "startsAt": "2026-11-17T14:15:00.000Z"
+    },
+    {
+      "id": 12,
+      "matchId": "95686ad43edc",
+      "title": "Danila Andreyev – Alexander Klavdenkov",
+      "dateLabel": "17 November",
+      "timeLabel": "15:15",
+      "leagueLabel": "Russia. League Pro",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Danila Andreyev",
+          "logoUrl": "teams/18/ods/0.gif"
+        },
+        "away": {
+          "name": "Alexander Klavdenkov",
+          "logoUrl": "teams/18/ods/0.gif"
+        }
+      },
+      "score": "3:2",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-17T14:15:00.000Z"
     },
     {
       "id": 13,
-      "matchId": "e58d004a5981",
-      "title": "Andrii Derevianko – Evhenii Hrytsenko",
-      "dateLabel": "17 November",
-      "timeLabel": "12:50",
-      "leagueLabel": "Setka Cup",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Andrii Derevianko",
-          "logoUrl": "teams/18/ods/0.gif"
-        },
-        "away": {
-          "name": "Evhenii Hrytsenko",
-          "logoUrl": "teams/18/ods/0.gif"
-        }
-      },
-      "score": "3:1",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-17T11:50:00.000Z"
-    },
-    {
-      "id": 14,
       "matchId": "2d99e603e979",
       "title": "Oleg Kurylenko – Oleksandr Lyman",
       "dateLabel": "17 November",
@@ -340,7 +316,7 @@
       "startsAt": "2026-11-17T12:00:00.000Z"
     },
     {
-      "id": 15,
+      "id": 14,
       "matchId": "2d71eb779a75",
       "title": "Vladislav Stukalov – Oleg Ponomarenko",
       "dateLabel": "17 November",
@@ -364,7 +340,7 @@
       "startsAt": "2026-11-17T12:00:00.000Z"
     },
     {
-      "id": 16,
+      "id": 15,
       "matchId": "dd4038c04cbb",
       "title": "Alexander Zhirnov – Aleksandr Strutinskiy",
       "dateLabel": "17 November",
@@ -388,7 +364,7 @@
       "startsAt": "2026-11-17T12:20:00.000Z"
     },
     {
-      "id": 17,
+      "id": 16,
       "matchId": "2ecbb7f58d5f",
       "title": "Aleksandr Syksa – Serhii Maliuk",
       "dateLabel": "17 November",
@@ -412,7 +388,7 @@
       "startsAt": "2026-11-17T12:30:00.000Z"
     },
     {
-      "id": 18,
+      "id": 17,
       "matchId": "336505461669",
       "title": "Serhii Hovorunets – Stefan Yakimenko",
       "dateLabel": "17 November",
@@ -436,7 +412,7 @@
       "startsAt": "2026-11-17T12:40:00.000Z"
     },
     {
-      "id": 19,
+      "id": 18,
       "matchId": "7ba8a46f22f0",
       "title": "Maxim Mrykh – Andrii Derevianko",
       "dateLabel": "17 November",
@@ -460,7 +436,7 @@
       "startsAt": "2026-11-17T12:50:00.000Z"
     },
     {
-      "id": 20,
+      "id": 19,
       "matchId": "173fd4eb6480",
       "title": "Valery Vlasenko – Dmytro Neborak",
       "dateLabel": "17 November",
@@ -484,7 +460,7 @@
       "startsAt": "2026-11-17T12:55:00.000Z"
     },
     {
-      "id": 21,
+      "id": 20,
       "matchId": "6dd4c9e614eb",
       "title": "Bogdan Kogut – Nazar Danilyuk",
       "dateLabel": "17 November",
@@ -508,7 +484,7 @@
       "startsAt": "2026-11-17T13:05:00.000Z"
     },
     {
-      "id": 22,
+      "id": 21,
       "matchId": "a2e348e2bf01",
       "title": "Vadim Komar – Myhailo Levytskii",
       "dateLabel": "17 November",
@@ -532,7 +508,7 @@
       "startsAt": "2026-11-17T13:30:00.000Z"
     },
     {
-      "id": 23,
+      "id": 22,
       "matchId": "f8aed9cfca8a",
       "title": "Andrii Lushchyk – Ivan Fedorishin",
       "dateLabel": "17 November",
@@ -556,7 +532,7 @@
       "startsAt": "2026-11-17T13:30:00.000Z"
     },
     {
-      "id": 24,
+      "id": 23,
       "matchId": "ea183ebe4dbd",
       "title": "Aleksandr Selyuchenko – Artyom Yurkov",
       "dateLabel": "17 November",
@@ -580,13 +556,13 @@
       "startsAt": "2026-11-17T13:30:00.000Z"
     },
     {
-      "id": 25,
+      "id": 24,
       "matchId": "c048850e2327",
       "title": "Vasiliy Verbyanyy – Anton Molochko",
       "dateLabel": "17 November",
       "timeLabel": "14:35",
       "leagueLabel": "Setka Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -599,18 +575,18 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "2:2",
-      "liveStatus": "live",
+      "score": "3:2",
+      "liveStatus": "finished",
       "startsAt": "2026-11-17T13:35:00.000Z"
     },
     {
-      "id": 26,
+      "id": 25,
       "matchId": "07d85563313b",
       "title": "Stefan Yakimenko – Sergey Shabitsky",
       "dateLabel": "17 November",
       "timeLabel": "14:40",
       "leagueLabel": "Setka Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -623,18 +599,18 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "1:1",
-      "liveStatus": "live",
+      "score": "1:3",
+      "liveStatus": "finished",
       "startsAt": "2026-11-17T13:40:00.000Z"
     },
     {
-      "id": 27,
+      "id": 26,
       "matchId": "a587f7bb5a8e",
       "title": "Evhenii Hrytsenko – Alexander Zhirnov",
       "dateLabel": "17 November",
       "timeLabel": "14:50",
       "leagueLabel": "Setka Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -647,18 +623,18 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "1:0",
-      "liveStatus": "live",
+      "score": "3:2",
+      "liveStatus": "finished",
       "startsAt": "2026-11-17T13:50:00.000Z"
     },
     {
-      "id": 28,
+      "id": 27,
       "matchId": "5717e6f7ebc7",
       "title": "Oleh Napirko – Dmytro Neborak",
       "dateLabel": "17 November",
       "timeLabel": "14:55",
       "leagueLabel": "Setka Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -671,18 +647,18 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:1",
-      "liveStatus": "live",
+      "score": "0:3",
+      "liveStatus": "finished",
       "startsAt": "2026-11-17T13:55:00.000Z"
     },
     {
-      "id": 29,
+      "id": 28,
       "matchId": "ea86be7ee2d9",
       "title": "Dmitriy Krishtal – Roman Horokh",
       "dateLabel": "17 November",
       "timeLabel": "15:00",
       "leagueLabel": "Setka Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -695,18 +671,18 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:0",
-      "liveStatus": "live",
+      "score": "0:3",
+      "liveStatus": "finished",
       "startsAt": "2026-11-17T14:00:00.000Z"
     },
     {
-      "id": 30,
+      "id": 29,
       "matchId": "ac45214339bb",
       "title": "Vitaliy Maruschak – Anatoly Levshin",
       "dateLabel": "17 November",
       "timeLabel": "15:00",
       "leagueLabel": "Setka Cup",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -719,12 +695,108 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:0",
-      "liveStatus": "live",
+      "score": "3:2",
+      "liveStatus": "finished",
       "startsAt": "2026-11-17T14:00:00.000Z"
     },
     {
+      "id": 30,
+      "matchId": "4c3fda781290",
+      "title": "Valery Vlasenko – Orest Hura",
+      "dateLabel": "17 November",
+      "timeLabel": "15:25",
+      "leagueLabel": "Setka Cup",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Valery Vlasenko",
+          "logoUrl": "teams/18/ods/0.gif"
+        },
+        "away": {
+          "name": "Orest Hura",
+          "logoUrl": "teams/18/ods/0.gif"
+        }
+      },
+      "score": "2:3",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-17T14:25:00.000Z"
+    },
+    {
       "id": 31,
+      "matchId": "acba0b6d875e",
+      "title": "Serhii Chuhai – Andrii Lushchyk",
+      "dateLabel": "17 November",
+      "timeLabel": "15:30",
+      "leagueLabel": "Setka Cup",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Serhii Chuhai",
+          "logoUrl": "teams/18/ods/0.gif"
+        },
+        "away": {
+          "name": "Andrii Lushchyk",
+          "logoUrl": "teams/18/ods/0.gif"
+        }
+      },
+      "score": "2:2",
+      "liveStatus": "live",
+      "startsAt": "2026-11-17T14:30:00.000Z"
+    },
+    {
+      "id": 32,
+      "matchId": "4f2cf49c78eb",
+      "title": "Vadim Reva – Valery Lukyanievich",
+      "dateLabel": "17 November",
+      "timeLabel": "15:35",
+      "leagueLabel": "Setka Cup",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Vadim Reva",
+          "logoUrl": "teams/18/ods/0.gif"
+        },
+        "away": {
+          "name": "Valery Lukyanievich",
+          "logoUrl": "teams/18/ods/0.gif"
+        }
+      },
+      "score": "3:1",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-17T14:35:00.000Z"
+    },
+    {
+      "id": 33,
+      "matchId": "cf475d9638f1",
+      "title": "Bogdan Kogut – Vasiliy Verbyanyy",
+      "dateLabel": "17 November",
+      "timeLabel": "15:35",
+      "leagueLabel": "Setka Cup",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Bogdan Kogut",
+          "logoUrl": "teams/18/ods/0.gif"
+        },
+        "away": {
+          "name": "Vasiliy Verbyanyy",
+          "logoUrl": "teams/18/ods/0.gif"
+        }
+      },
+      "score": "2:1",
+      "liveStatus": "live",
+      "startsAt": "2026-11-17T14:35:00.000Z"
+    },
+    {
+      "id": 34,
       "matchId": "9a2bef035b21",
       "title": "Martin Sulc – Adam Kosacky",
       "dateLabel": "17 November",
@@ -748,13 +820,37 @@
       "startsAt": "2026-11-17T12:20:00.000Z"
     },
     {
-      "id": 32,
+      "id": 35,
+      "matchId": "71dfeaea4b22",
+      "title": "Martin Filipek – Frantisek Balcar",
+      "dateLabel": "17 November",
+      "timeLabel": "15:25",
+      "leagueLabel": "TT Cup",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Martin Filipek",
+          "logoUrl": "teams/18/ods/0.gif"
+        },
+        "away": {
+          "name": "Frantisek Balcar",
+          "logoUrl": "teams/18/ods/0.gif"
+        }
+      },
+      "score": "1:3",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-17T14:25:00.000Z"
+    },
+    {
+      "id": 36,
       "matchId": "29450c20e2a6",
       "title": "Fnatic – 100 Thieves",
       "dateLabel": "17 November",
       "timeLabel": "13:00",
       "leagueLabel": "",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -767,12 +863,12 @@
           "logoUrl": "teams/18/ods/3834.gif"
         }
       },
-      "score": "1:1",
-      "liveStatus": "live",
+      "score": "1:2",
+      "liveStatus": "finished",
       "startsAt": "2026-11-17T12:00:00.000Z"
     },
     {
-      "id": 33,
+      "id": 37,
       "matchId": "7cb1666e83e0",
       "title": "Magic – Heroic",
       "dateLabel": "17 November",
