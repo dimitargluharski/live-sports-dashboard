@@ -27,7 +27,7 @@ export const ChampionsLeagueCarousel: React.FC<ChampionsLeagueCarouselProps> = (
         loop={games.length > 1}
         slidesPerView={1}
         spaceBetween={12}
-        pagination={{ clickable: true }}
+        pagination={games.length <= 10 ? { clickable: true } : false}
         keyboard={{ enabled: true }}
         grabCursor
         watchOverflow
@@ -35,7 +35,7 @@ export const ChampionsLeagueCarousel: React.FC<ChampionsLeagueCarouselProps> = (
         aria-label="Featured matches"
       >
         {sortedGames.map((game, index) => (
-          <SwiperSlide key={game.id} className="!h-auto pb-8 pt-1">
+          <SwiperSlide key={game.id} className={`!h-auto pt-1 ${games.length <= 10 ? 'pb-8' : ''}`}>
             <GameCard key={game.id} isDarkTheme={isDarkTheme} isChampionsLeague isCarouselActive={index === activeSlide} {...game} />
           </SwiperSlide>
         ))}

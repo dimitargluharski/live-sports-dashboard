@@ -136,7 +136,7 @@ export function GameDateGroup({
         const isExpanded =
           isSearchActive
           || !isQualification
-          || Boolean(expandedCompetitions[competitionKey]);
+          || (expandedCompetitions[competitionKey] ?? true);
 
         return (
           <CompetitionGroup
