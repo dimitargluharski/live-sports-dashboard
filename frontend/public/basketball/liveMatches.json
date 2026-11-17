@@ -1,16 +1,64 @@
 {
   "section": "Basketball",
-  "scrapedAt": "2026-11-17T14:04:24.383Z",
+  "scrapedAt": "2026-11-17T14:58:33.167Z",
   "count": 3,
   "matches": [
     {
       "id": 1,
+      "matchId": "67580c1aec96",
+      "title": "Ukraine (W) – France (W)",
+      "dateLabel": "17 November",
+      "timeLabel": "14:00",
+      "leagueLabel": "Women. European Championship. Qualification",
+      "isLive": false,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Ukraine (W)",
+          "logoUrl": "teams/18/ods/flag203.gif"
+        },
+        "away": {
+          "name": "France (W)",
+          "logoUrl": "teams/18/ods/flag66.gif"
+        }
+      },
+      "score": "60:108",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-17T13:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "matchId": "4d2470df7e32",
+      "title": "Jindrichuv Hradec – Lynx Liberec",
+      "dateLabel": "17 November",
+      "timeLabel": "15:30",
+      "leagueLabel": "Czech Republic. 1 Liga",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Jindrichuv Hradec",
+          "logoUrl": "teams/18/ods/16975.gif"
+        },
+        "away": {
+          "name": "Lynx Liberec",
+          "logoUrl": "teams/18/ods/25426.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-17T14:30:00.000Z"
+    },
+    {
+      "id": 3,
       "matchId": "c1bdc0d1229d",
       "title": "Minsk 2 – Tsmoki Minsk",
       "dateLabel": "17 November",
       "timeLabel": "15:00",
       "leagueLabel": "Belarus. Premier League",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -24,56 +72,8 @@
         }
       },
       "score": "0:0",
-      "liveStatus": "live",
+      "liveStatus": "finished",
       "startsAt": "2026-11-17T14:00:00.000Z"
-    },
-    {
-      "id": 2,
-      "matchId": "298da873b179",
-      "title": "Shanghai Swordfish (W) – HeNan (W)",
-      "dateLabel": "17 November",
-      "timeLabel": "12:30",
-      "leagueLabel": "China. Women. WCBA",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Shanghai Swordfish (W)",
-          "logoUrl": "teams/18/ods/19365.gif"
-        },
-        "away": {
-          "name": "HeNan (W)",
-          "logoUrl": "teams/18/ods/25603.gif"
-        }
-      },
-      "score": "67:88",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-17T11:30:00.000Z"
-    },
-    {
-      "id": 3,
-      "matchId": "3703533b5039",
-      "title": "Wuhan Shengfan (W) – Liaoning (W)",
-      "dateLabel": "17 November",
-      "timeLabel": "12:30",
-      "leagueLabel": "China. Women. WCBA",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Wuhan Shengfan (W)",
-          "logoUrl": "teams/18/ods/36537.gif"
-        },
-        "away": {
-          "name": "Liaoning (W)",
-          "logoUrl": "teams/18/ods/24578.gif"
-        }
-      },
-      "score": "67:73",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-17T11:30:00.000Z"
     }
   ]
 }

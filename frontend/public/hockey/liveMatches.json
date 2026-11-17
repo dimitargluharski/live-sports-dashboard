@@ -1,6 +1,6 @@
 {
   "section": "Ice Hockey",
-  "scrapedAt": "2026-11-17T14:04:24.383Z",
+  "scrapedAt": "2026-11-17T14:58:33.167Z",
   "count": 13,
   "matches": [
     {
@@ -10,7 +10,7 @@
       "dateLabel": "17 November",
       "timeLabel": "13:30",
       "leagueLabel": "KHL",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -23,8 +23,8 @@
           "logoUrl": "teams/18/ods/31393.gif"
         }
       },
-      "score": "2:1",
-      "liveStatus": "live",
+      "score": "4:1",
+      "liveStatus": "finished",
       "startsAt": "2026-11-17T12:30:00.000Z"
     },
     {
@@ -47,7 +47,7 @@
           "logoUrl": "teams/18/ods/2.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-17T14:00:00.000Z"
     },
@@ -119,7 +119,7 @@
           "logoUrl": "teams/18/ods/13657.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:0",
       "liveStatus": "live",
       "startsAt": "2026-11-17T13:30:00.000Z"
     },
@@ -143,7 +143,7 @@
           "logoUrl": "teams/18/ods/31435.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:1",
       "liveStatus": "live",
       "startsAt": "2026-11-17T14:00:00.000Z"
     },
@@ -167,7 +167,7 @@
           "logoUrl": "teams/18/ods/28.gif"
         }
       },
-      "score": "1:0",
+      "score": "1:3",
       "liveStatus": "live",
       "startsAt": "2026-11-17T14:00:00.000Z"
     },
@@ -191,7 +191,7 @@
           "logoUrl": "teams/18/ods/35569.gif"
         }
       },
-      "score": "2:0",
+      "score": "3:0",
       "liveStatus": "live",
       "startsAt": "2026-11-17T13:30:00.000Z"
     },
@@ -215,7 +215,7 @@
           "logoUrl": "teams/18/ods/35572.gif"
         }
       },
-      "score": "0:0",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-17T14:00:00.000Z"
     },
@@ -239,36 +239,12 @@
           "logoUrl": "teams/18/ods/35570.gif"
         }
       },
-      "score": "1:0",
+      "score": "2:1",
       "liveStatus": "live",
       "startsAt": "2026-11-17T14:00:00.000Z"
     },
     {
       "id": 11,
-      "matchId": "0ca1276e59dc",
-      "title": "Dukla Jihlava U-20 – Ceske Budejovice U-20",
-      "dateLabel": "17 November",
-      "timeLabel": "12:30",
-      "leagueLabel": "Czech Republic. Extraliga U20",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Dukla Jihlava U-20",
-          "logoUrl": "teams/18/ods/28600.gif"
-        },
-        "away": {
-          "name": "Ceske Budejovice U-20",
-          "logoUrl": "teams/18/ods/28582.gif"
-        }
-      },
-      "score": "3:5",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-17T11:30:00.000Z"
-    },
-    {
-      "id": 12,
       "matchId": "c1892ec5c16c",
       "title": "Plzen U-20 – Slavia Prague U-20",
       "dateLabel": "17 November",
@@ -287,9 +263,33 @@
           "logoUrl": "teams/18/ods/31226.gif"
         }
       },
-      "score": "1:0",
+      "score": "2:1",
       "liveStatus": "live",
       "startsAt": "2026-11-17T13:45:00.000Z"
+    },
+    {
+      "id": 12,
+      "matchId": "c6f645f6d408",
+      "title": "Progress – Rostov",
+      "dateLabel": "17 November",
+      "timeLabel": "15:30",
+      "leagueLabel": "Russia. NMHL",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Progress",
+          "logoUrl": "teams/18/ods/10857.gif"
+        },
+        "away": {
+          "name": "Rostov",
+          "logoUrl": "teams/18/ods/6447.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-17T14:30:00.000Z"
     },
     {
       "id": 13,
@@ -311,7 +311,7 @@
           "logoUrl": "teams/18/ods/35712.gif"
         }
       },
-      "score": "0:0",
+      "score": "0:2",
       "liveStatus": "live",
       "startsAt": "2026-11-17T14:00:00.000Z"
     }

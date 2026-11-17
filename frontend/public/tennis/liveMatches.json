@@ -1,7 +1,7 @@
 {
   "section": "Tennis",
-  "scrapedAt": "2026-11-17T14:04:24.383Z",
-  "count": 7,
+  "scrapedAt": "2026-11-17T14:58:33.167Z",
+  "count": 9,
   "matches": [
     {
       "id": 1,
@@ -23,36 +23,12 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:1",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-17T13:10:00.000Z"
     },
     {
       "id": 2,
-      "matchId": "700df0ac0dce",
-      "title": "Calvin Hemery – Francesco Passaro",
-      "dateLabel": "17 November",
-      "timeLabel": "12:37",
-      "leagueLabel": "",
-      "isLive": false,
-      "streams": [],
-      "streamCount": 0,
-      "teams": {
-        "home": {
-          "name": "Calvin Hemery",
-          "logoUrl": "teams/18/ods/25875.gif"
-        },
-        "away": {
-          "name": "Francesco Passaro",
-          "logoUrl": "teams/18/ods/15628.gif"
-        }
-      },
-      "score": "1:2",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-17T11:37:00.000Z"
-    },
-    {
-      "id": 3,
       "matchId": "401b32084d2d",
       "title": "Hugo Grenier – Harold Mayot",
       "dateLabel": "17 November",
@@ -76,55 +52,55 @@
       "startsAt": "2026-11-17T12:10:00.000Z"
     },
     {
-      "id": 4,
-      "matchId": "c038ed32cd7f",
-      "title": "Cezar Cretu – Laslo Djere",
+      "id": 3,
+      "matchId": "ad486a62fa53",
+      "title": "Maxim Mrva – Kyrian Jacquet",
       "dateLabel": "17 November",
-      "timeLabel": "12:32",
-      "leagueLabel": "ATP Challenger. Helsinki",
+      "timeLabel": "15:10",
+      "leagueLabel": "",
       "isLive": true,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "Cezar Cretu",
+          "name": "Maxim Mrva",
           "logoUrl": "teams/18/ods/0.gif"
         },
         "away": {
-          "name": "Laslo Djere",
-          "logoUrl": "teams/18/ods/9131.gif"
+          "name": "Kyrian Jacquet",
+          "logoUrl": "teams/18/ods/14944.gif"
         }
       },
-      "score": "1:1",
+      "score": "0:1",
       "liveStatus": "live",
-      "startsAt": "2026-11-17T11:32:00.000Z"
+      "startsAt": "2026-11-17T14:10:00.000Z"
     },
     {
-      "id": 5,
-      "matchId": "8361fa578aff",
-      "title": "Jurij Rodionov – Sumit Nagal",
+      "id": 4,
+      "matchId": "2b9da35de4ab",
+      "title": "Antoine Ghibaudo – Filippo Moroni",
       "dateLabel": "17 November",
-      "timeLabel": "12:35",
-      "leagueLabel": "ATP Challenger. Helsinki",
-      "isLive": false,
+      "timeLabel": "15:10",
+      "leagueLabel": "",
+      "isLive": true,
       "streams": [],
       "streamCount": 0,
       "teams": {
         "home": {
-          "name": "Jurij Rodionov",
-          "logoUrl": "teams/18/ods/8353.gif"
+          "name": "Antoine Ghibaudo",
+          "logoUrl": "teams/18/ods/25876.gif"
         },
         "away": {
-          "name": "Sumit Nagal",
-          "logoUrl": "teams/18/ods/7686.gif"
+          "name": "Filippo Moroni",
+          "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "2:0",
-      "liveStatus": "finished",
-      "startsAt": "2026-11-17T11:35:00.000Z"
+      "score": "0:1",
+      "liveStatus": "live",
+      "startsAt": "2026-11-17T14:10:00.000Z"
     },
     {
-      "id": 6,
+      "id": 5,
       "matchId": "1c60029a51cd",
       "title": "Dalibor Svrcina – Leo Borg",
       "dateLabel": "17 November",
@@ -143,18 +119,18 @@
           "logoUrl": "teams/18/ods/14515.gif"
         }
       },
-      "score": "1:0",
+      "score": "1:1",
       "liveStatus": "live",
       "startsAt": "2026-11-17T12:57:00.000Z"
     },
     {
-      "id": 7,
-      "matchId": "b6847c639892",
+      "id": 6,
+      "matchId": "1397a63e1d4a",
       "title": "Stefano Travaglia – Luka Mikrut",
       "dateLabel": "17 November",
-      "timeLabel": "14:09",
+      "timeLabel": "14:15",
       "leagueLabel": "ATP Challenger. Helsinki",
-      "isLive": true,
+      "isLive": false,
       "streams": [],
       "streamCount": 0,
       "teams": {
@@ -167,9 +143,81 @@
           "logoUrl": "teams/18/ods/0.gif"
         }
       },
-      "score": "0:1",
+      "score": "2:1",
+      "liveStatus": "finished",
+      "startsAt": "2026-11-17T13:15:00.000Z"
+    },
+    {
+      "id": 7,
+      "matchId": "0aaba6fde353",
+      "title": "Lukas Neumayer – Alexander Ritschard",
+      "dateLabel": "17 November",
+      "timeLabel": "15:25",
+      "leagueLabel": "ATP Challenger. Helsinki",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Lukas Neumayer",
+          "logoUrl": "teams/18/ods/0.gif"
+        },
+        "away": {
+          "name": "Alexander Ritschard",
+          "logoUrl": "teams/18/ods/9864.gif"
+        }
+      },
+      "score": "0:0",
       "liveStatus": "live",
-      "startsAt": "2026-11-17T13:09:00.000Z"
+      "startsAt": "2026-11-17T14:25:00.000Z"
+    },
+    {
+      "id": 8,
+      "matchId": "4d7c4c198f16",
+      "title": "Nadia Podoroska (W) – Varvara Lepchenko (W)",
+      "dateLabel": "17 November",
+      "timeLabel": "15:05",
+      "leagueLabel": "WTA. Colina",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Nadia Podoroska (W)",
+          "logoUrl": "teams/18/ods/11945.gif"
+        },
+        "away": {
+          "name": "Varvara Lepchenko (W)",
+          "logoUrl": "teams/18/ods/15111.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-17T14:05:00.000Z"
+    },
+    {
+      "id": 9,
+      "matchId": "40bab420c28c",
+      "title": "Irene-Burillo Escorihuela (W) – Darja Semenistaja (W)",
+      "dateLabel": "17 November",
+      "timeLabel": "15:05",
+      "leagueLabel": "WTA. Colina",
+      "isLive": true,
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Irene-Burillo Escorihuela (W)",
+          "logoUrl": "teams/18/ods/17185.gif"
+        },
+        "away": {
+          "name": "Darja Semenistaja (W)",
+          "logoUrl": "teams/18/ods/15615.gif"
+        }
+      },
+      "score": "0:0",
+      "liveStatus": "live",
+      "startsAt": "2026-11-17T14:05:00.000Z"
     }
   ]
 }

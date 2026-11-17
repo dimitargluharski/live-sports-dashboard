@@ -1,7 +1,7 @@
 {
   "section": "Day Matches",
-  "scrapedAt": "2026-11-17T14:04:22.734Z",
-  "count": 125,
+  "scrapedAt": "2026-11-17T14:58:31.396Z",
+  "count": 126,
   "matches": [
     {
       "id": 1,
@@ -23,7 +23,7 @@
           "language": null,
           "bitrate": "HD",
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-17T14:04:23.476Z",
+          "healthCheckedAt": "2026-11-17T14:58:32.173Z",
           "healthHttpStatus": 200
         },
         {
@@ -33,7 +33,7 @@
           "language": null,
           "bitrate": null,
           "healthStatus": "healthy",
-          "healthCheckedAt": "2026-11-17T14:04:23.486Z",
+          "healthCheckedAt": "2026-11-17T14:58:32.182Z",
           "healthHttpStatus": 200
         }
       ],
@@ -67,8 +67,19 @@
       "sectionLabel": "17 November",
       "isTopMatch": false,
       "rawDescription": "17 November at 16:30\n(Women. European Championship. Pre-Qualification)",
-      "streams": [],
-      "streamCount": 0,
+      "streams": [
+        {
+          "id": 1,
+          "label": "Stream 2",
+          "url": "https://www.youtube.com/embed/vtSsECbToTs?autoplay=1",
+          "language": null,
+          "bitrate": null,
+          "healthStatus": "healthy",
+          "healthCheckedAt": "2026-11-17T14:58:32.183Z",
+          "healthHttpStatus": 200
+        }
+      ],
+      "streamCount": 1,
       "teams": {
         "home": {
           "name": "Estonia (W)",
@@ -10660,6 +10671,151 @@
     },
     {
       "id": 99,
+      "title": "Borac – Sencur",
+      "dateLabel": "18 November",
+      "timeLabel": "18:00",
+      "isLive": false,
+      "leagueLabel": "Adriatic League. Division 2",
+      "iconUrl": "https://cdn.livetv916.me/img/icons/nlb.gif",
+      "iconAlt": "Adriatic League. Division 2",
+      "sectionLabel": "18 November",
+      "isTopMatch": false,
+      "rawDescription": "18 November at 18:00\n(Adriatic League. Division 2)",
+      "streams": [],
+      "streamCount": 0,
+      "teams": {
+        "home": {
+          "name": "Borac",
+          "logoUrl": "https://cdn.livetv916.me/img/teams/fullsize/ods/13309.gif",
+          "startingLineup": [],
+          "substitutes": []
+        },
+        "away": {
+          "name": "Sencur",
+          "logoUrl": "https://cdn.livetv916.me/img/teams/fullsize/ods/12567.gif",
+          "startingLineup": [],
+          "substitutes": []
+        }
+      },
+      "headToHead": {
+        "compareUrl": "https://livetv.sx/enx/h2h/700030877/700014619/3_7b80d/",
+        "matches": [
+          {
+            "date": "15/11",
+            "competition": "Adriatic League. Division 2",
+            "homeTeam": "Borac",
+            "awayTeam": "Sencur",
+            "score": "65:56",
+            "result": "W",
+            "winner": "home"
+          },
+          {
+            "date": "10/03",
+            "competition": "Adriatic League",
+            "homeTeam": "Borac",
+            "awayTeam": "Sencur",
+            "score": "68:61",
+            "result": "W",
+            "winner": "home"
+          }
+        ],
+        "homeTeam": "Borac",
+        "awayTeam": "Sencur",
+        "form": {
+          "home": {
+            "matches": [
+              {
+                "date": "02/11",
+                "competition": "Premier League",
+                "opponent": "Orlovik",
+                "score": "95:72",
+                "result": "W"
+              },
+              {
+                "date": "29/10",
+                "competition": "Division 2",
+                "opponent": "Vojvodina",
+                "score": "62:76",
+                "result": "L"
+              },
+              {
+                "date": "25/10",
+                "competition": "Premier League",
+                "opponent": "Leotar Trebinje",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "21/10",
+                "competition": "Division 2",
+                "opponent": "Mornar",
+                "score": "73:77",
+                "result": "L"
+              },
+              {
+                "date": "17/10",
+                "competition": "Premier League",
+                "opponent": "Promo",
+                "score": "69:72",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          },
+          "away": {
+            "matches": [
+              {
+                "date": "02/11",
+                "competition": "Premier League",
+                "opponent": "Borac",
+                "score": "72:95",
+                "result": "L"
+              },
+              {
+                "date": "29/10",
+                "competition": "Division 2",
+                "opponent": "Vojvodina",
+                "score": "62:76",
+                "result": "L"
+              },
+              {
+                "date": "25/10",
+                "competition": "Premier League",
+                "opponent": "Leotar Trebinje",
+                "score": "0:0",
+                "result": "D"
+              },
+              {
+                "date": "21/10",
+                "competition": "Division 2",
+                "opponent": "Borac",
+                "score": "77:73",
+                "result": "W"
+              },
+              {
+                "date": "17/10",
+                "competition": "Premier League",
+                "opponent": "Promo",
+                "score": "69:72",
+                "result": "L"
+              }
+            ],
+            "summary": {
+              "W": 1,
+              "D": 1,
+              "L": 3
+            }
+          }
+        }
+      },
+      "startsAt": "2026-11-18T17:00:00.000Z"
+    },
+    {
+      "id": 100,
       "title": "USK Praha – Decin",
       "dateLabel": "18 November",
       "timeLabel": "18:00",
@@ -10813,7 +10969,7 @@
       "startsAt": "2026-11-18T17:00:00.000Z"
     },
     {
-      "id": 100,
+      "id": 101,
       "title": "AS Monaco – Lietkabelis",
       "dateLabel": "18 November",
       "timeLabel": "18:30",
@@ -10949,7 +11105,7 @@
       "startsAt": "2026-11-18T17:30:00.000Z"
     },
     {
-      "id": 101,
+      "id": 102,
       "title": "Cedevita Olimpija – SP Burgos",
       "dateLabel": "18 November",
       "timeLabel": "18:30",
@@ -11085,7 +11241,7 @@
       "startsAt": "2026-11-18T17:30:00.000Z"
     },
     {
-      "id": 102,
+      "id": 103,
       "title": "Trepca Mitrovica – Split",
       "dateLabel": "18 November",
       "timeLabel": "18:30",
@@ -11221,7 +11377,7 @@
       "startsAt": "2026-11-18T17:30:00.000Z"
     },
     {
-      "id": 103,
+      "id": 104,
       "title": "Bakken Bears – Lions de Geneve",
       "dateLabel": "18 November",
       "timeLabel": "18:30",
@@ -11357,7 +11513,7 @@
       "startsAt": "2026-11-18T17:30:00.000Z"
     },
     {
-      "id": 104,
+      "id": 105,
       "title": "Chemnitz – Tofas",
       "dateLabel": "18 November",
       "timeLabel": "19:00",
@@ -11502,7 +11658,7 @@
       "startsAt": "2026-11-18T18:00:00.000Z"
     },
     {
-      "id": 105,
+      "id": 106,
       "title": "Buducnost – Slask Wroclaw",
       "dateLabel": "18 November",
       "timeLabel": "19:00",
@@ -11656,7 +11812,7 @@
       "startsAt": "2026-11-18T18:00:00.000Z"
     },
     {
-      "id": 106,
+      "id": 107,
       "title": "Aris – Le Mans",
       "dateLabel": "18 November",
       "timeLabel": "19:00",
@@ -11792,7 +11948,7 @@
       "startsAt": "2026-11-18T18:00:00.000Z"
     },
     {
-      "id": 107,
+      "id": 108,
       "title": "Siroki Brijeg – Sloboda Tuzla",
       "dateLabel": "18 November",
       "timeLabel": "19:00",
@@ -11823,7 +11979,7 @@
       "startsAt": "2026-11-18T18:00:00.000Z"
     },
     {
-      "id": 108,
+      "id": 109,
       "title": "Mitteldeutscher – Liepaja",
       "dateLabel": "18 November",
       "timeLabel": "19:00",
@@ -11854,7 +12010,7 @@
       "startsAt": "2026-11-18T18:00:00.000Z"
     },
     {
-      "id": 109,
+      "id": 110,
       "title": "Kapfenberg Bulls – CIU Kavkasia",
       "dateLabel": "18 November",
       "timeLabel": "19:00",
@@ -11885,7 +12041,7 @@
       "startsAt": "2026-11-18T18:00:00.000Z"
     },
     {
-      "id": 110,
+      "id": 111,
       "title": "Bashkimi – Manchester",
       "dateLabel": "18 November",
       "timeLabel": "19:00",
@@ -12021,7 +12177,7 @@
       "startsAt": "2026-11-18T18:00:00.000Z"
     },
     {
-      "id": 111,
+      "id": 112,
       "title": "Wilki Morskie – Vienna",
       "dateLabel": "18 November",
       "timeLabel": "19:00",
@@ -12157,7 +12313,7 @@
       "startsAt": "2026-11-18T18:00:00.000Z"
     },
     {
-      "id": 112,
+      "id": 113,
       "title": "GAPA Hradec Kralove – Sokol Pisek",
       "dateLabel": "18 November",
       "timeLabel": "19:00",
@@ -12311,7 +12467,7 @@
       "startsAt": "2026-11-18T18:00:00.000Z"
     },
     {
-      "id": 113,
+      "id": 114,
       "title": "Skyliners – Venezia",
       "dateLabel": "18 November",
       "timeLabel": "19:30",
@@ -12447,7 +12603,7 @@
       "startsAt": "2026-11-18T18:30:00.000Z"
     },
     {
-      "id": 114,
+      "id": 115,
       "title": "JL Bourg – Napoli",
       "dateLabel": "18 November",
       "timeLabel": "19:30",
@@ -12583,7 +12739,7 @@
       "startsAt": "2026-11-18T18:30:00.000Z"
     },
     {
-      "id": 115,
+      "id": 116,
       "title": "Bosna Royal – Lietkabelis",
       "dateLabel": "18 November",
       "timeLabel": "19:30",
@@ -12614,7 +12770,7 @@
       "startsAt": "2026-11-18T18:30:00.000Z"
     },
     {
-      "id": 116,
+      "id": 117,
       "title": "Trier Gladiators – Promitheas",
       "dateLabel": "18 November",
       "timeLabel": "20:00",
@@ -12750,7 +12906,7 @@
       "startsAt": "2026-11-18T19:00:00.000Z"
     },
     {
-      "id": 117,
+      "id": 118,
       "title": "Cibona – Strasbourg",
       "dateLabel": "18 November",
       "timeLabel": "20:00",
@@ -12886,7 +13042,7 @@
       "startsAt": "2026-11-18T19:00:00.000Z"
     },
     {
-      "id": 118,
+      "id": 119,
       "title": "Bernex – Goldcoast Wallabies",
       "dateLabel": "18 November",
       "timeLabel": "20:00",
@@ -13040,7 +13196,7 @@
       "startsAt": "2026-11-18T19:00:00.000Z"
     },
     {
-      "id": 119,
+      "id": 120,
       "title": "Trento – Neptunas",
       "dateLabel": "18 November",
       "timeLabel": "20:00",
@@ -13176,7 +13332,7 @@
       "startsAt": "2026-11-18T19:00:00.000Z"
     },
     {
-      "id": 120,
+      "id": 121,
       "title": "Branik Maribor – Hopsi Polzela",
       "dateLabel": "18 November",
       "timeLabel": "20:00",
@@ -13207,7 +13363,7 @@
       "startsAt": "2026-11-18T19:00:00.000Z"
     },
     {
-      "id": 121,
+      "id": 122,
       "title": "Manresa – PAOK",
       "dateLabel": "18 November",
       "timeLabel": "20:30",
@@ -13343,7 +13499,7 @@
       "startsAt": "2026-11-18T19:30:00.000Z"
     },
     {
-      "id": 122,
+      "id": 123,
       "title": "Sporting – Craiova",
       "dateLabel": "18 November",
       "timeLabel": "20:30",
@@ -13479,7 +13635,7 @@
       "startsAt": "2026-11-18T19:30:00.000Z"
     },
     {
-      "id": 123,
+      "id": 124,
       "title": "Malaga – Pardubice",
       "dateLabel": "18 November",
       "timeLabel": "20:30",
@@ -13615,7 +13771,7 @@
       "startsAt": "2026-11-18T19:30:00.000Z"
     },
     {
-      "id": 124,
+      "id": 125,
       "title": "Siroki – Sloboda Tuzla",
       "dateLabel": "18 November",
       "timeLabel": "22:00",
@@ -13769,7 +13925,7 @@
       "startsAt": "2026-11-18T21:00:00.000Z"
     },
     {
-      "id": 125,
+      "id": 126,
       "title": "Franca – Caxias do Sul",
       "dateLabel": "18 November",
       "timeLabel": "23:30",
@@ -13923,5 +14079,5 @@
       "startsAt": "2026-11-18T22:30:00.000Z"
     }
   ],
-  "enrichedAt": "2026-11-17T14:04:22.735Z"
+  "enrichedAt": "2026-11-17T14:58:31.396Z"
 }

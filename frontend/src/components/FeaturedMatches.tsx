@@ -33,9 +33,8 @@ export function FeaturedMatches({ games, isDarkTheme }: FeaturedMatchesProps) {
     <div className={`champions-section mb-5 overflow-hidden rounded-lg border pb-0 ${isDarkTheme ? 'border-white/10 bg-white/[0.02]' : 'border-black/10 bg-black/[0.02]'}`}>
       <div className={`flex w-full items-center gap-3 px-3 py-2 ${isDarkTheme ? 'bg-white/[0.03]' : 'bg-black/[0.03]'}`}>
         <h3 className={`truncate text-base font-black tracking-tight ${isDarkTheme ? 'text-white' : 'text-slate-950'}`}>Featured matches</h3>
-        <span className={`text-[11px] font-bold ${isDarkTheme ? 'text-neutral-300' : 'text-neutral-600'}`}>{featured.length} matches</span>
         {liveCount > 0 && (
-          <span className={`ml-auto inline-flex shrink-0 items-center gap-1 rounded-full border px-2 py-1 text-[11px] font-black uppercase tracking-[0.08em] tabular-nums ${isDarkTheme ? 'border-rose-300/25 bg-rose-500/10 text-rose-200' : 'border-rose-500/25 bg-rose-50 text-rose-700'}`}>
+          <span className={`inline-flex shrink-0 items-center gap-1 rounded-full border px-2 py-1 text-[11px] font-black uppercase tracking-[0.08em] tabular-nums ${isDarkTheme ? 'border-rose-300/25 bg-rose-500/10 text-rose-200' : 'border-rose-500/25 bg-rose-50 text-rose-700'}`}>
             <span className="h-1.5 w-1.5 rounded-full bg-current" aria-hidden="true" />{liveCount} live
           </span>
         )}
